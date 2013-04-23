@@ -1,0 +1,109 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  world = "Cocolint",
+  tileset = "cave",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = 45,
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = 46,
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = 45,
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 0,
+  width = 160,
+  height = 24,
+  pattern = 49,
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 24,
+  height = 96,
+  pattern = 51,
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = 47,
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = 48,
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 48,
+  height = 24,
+  pattern = 52,
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 40,
+  height = 240,
+  pattern = 170,
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 0,
+  width = 40,
+  height = 240,
+  pattern = 170,
+}
+
+tile{
+  layer = 2,
+  x = 40,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = 170,
+}
+

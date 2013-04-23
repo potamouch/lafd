@@ -1,0 +1,5 @@
+quest{
+  write_dir = "lafd",
+  title_bar = "Link's Awakening:: Forever in a dream",
+}
+

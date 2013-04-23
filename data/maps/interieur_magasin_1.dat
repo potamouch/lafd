@@ -1,0 +1,271 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  world = "Cocolint",
+  tileset = "house",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 80,
+  width = 176,
+  height = 128,
+  pattern = 2,
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = 46,
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 0,
+  width = 192,
+  height = 24,
+  pattern = 49,
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = 45,
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = 51,
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = 47,
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 216,
+  width = 192,
+  height = 24,
+  pattern = 52,
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = 48,
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = 50,
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = 14,
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = 15,
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = 16,
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = 17,
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 24,
+  width = 176,
+  height = 8,
+  pattern = 18,
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 208,
+  width = 176,
+  height = 8,
+  pattern = 21,
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = 20,
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = 19,
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = 75,
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = 74,
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = 77,
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 80,
+  width = 176,
+  height = 8,
+  pattern = 70,
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = 38,
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = 38,
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 40,
+  height = 240,
+  pattern = 170,
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 0,
+  width = 40,
+  height = 240,
+  pattern = 170,
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 232,
+  width = 32,
+  height = 8,
+  pattern = 153,
+}
+
+tile{
+  layer = 2,
+  x = 72,
+  y = 32,
+  width = 176,
+  height = 48,
+  pattern = 170,
+}
+
