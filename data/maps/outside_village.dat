@@ -11825,6 +11825,33 @@ destructible{
   subtype = "bush",
 }
 
+enemy{
+  layer = 0,
+  x = 692,
+  y = 333,
+  name = "Breed",
+  direction = 3,
+  breed = "chicken",
+}
+
+enemy{
+  layer = 0,
+  x = 724,
+  y = 237,
+  name = "Breed_2",
+  direction = 3,
+  breed = "chicken",
+}
+
+chest{
+  layer = 0,
+  x = 568,
+  y = 237,
+  treasure_name = "sword",
+  treasure_variant = 1,
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 2,
   x = 144,
