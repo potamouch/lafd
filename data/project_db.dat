@@ -24,8 +24,7 @@
 2	links_awake	5-Links awake
 2	sword_search	7-Sword search
 3	npc/witch	Sorcière
-3	npc/agahnim	Agahnim
-3	npc/billy	Billy
+3	npc/marine	Marine
 3	npc/black_knight_soldier	Black Knight Soldier
 3	entities/block	Block
 3	entities/gray_block	Block (gray)

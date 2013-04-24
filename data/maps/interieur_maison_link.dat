@@ -573,35 +573,12 @@ sensor{
 
 npc{
   layer = 1,
-  x = 200,
-  y = 85,
-  direction = 3,
-  subtype = "0",
-  sprite = "npc/witch",
-}
-
-enemy{
-  layer = 1,
-  x = 156,
-  y = 149,
-  direction = 3,
-  breed = "bowwow",
-}
-
-enemy{
-  layer = 1,
-  x = 188,
-  y = 141,
-  direction = 3,
-  breed = "small_bowwow",
-}
-
-enemy{
-  layer = 1,
-  x = 228,
-  y = 125,
-  direction = 3,
-  breed = "chicken",
+  x = 176,
+  y = 93,
+  name = "marine",
+  direction = 2,
+  subtype = "1",
+  sprite = "npc/marine",
 }
 
 tile{
