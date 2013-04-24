@@ -571,6 +571,39 @@ sensor{
   name = "maison_link_exit_sensor",
 }
 
+npc{
+  layer = 1,
+  x = 200,
+  y = 85,
+  direction = 3,
+  subtype = "0",
+  sprite = "npc/witch",
+}
+
+enemy{
+  layer = 1,
+  x = 156,
+  y = 149,
+  direction = 3,
+  breed = "bowwow",
+}
+
+enemy{
+  layer = 1,
+  x = 188,
+  y = 141,
+  direction = 3,
+  breed = "small_bowwow",
+}
+
+enemy{
+  layer = 1,
+  x = 228,
+  y = 125,
+  direction = 3,
+  breed = "chicken",
+}
+
 tile{
   layer = 2,
   x = 144,

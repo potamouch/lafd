@@ -7819,3 +7819,83 @@ tile_pattern{
   height = 24,
 }
 
+tile_pattern{
+  id = 1280,
+  ground = "wall",
+  default_layer = 0,
+  x = 448,
+  y = 288,
+  width = 64,
+  height = 48,
+}
+
+tile_pattern{
+  id = 1281,
+  ground = "wall",
+  default_layer = 0,
+  x = 448,
+  y = 336,
+  width = 64,
+  height = 32,
+}
+
+tile_pattern{
+  id = 1283,
+  ground = "wall",
+  default_layer = 0,
+  x = 384,
+  y = 264,
+  width = 16,
+  height = 24,
+}
+
+tile_pattern{
+  id = 1284,
+  ground = "wall",
+  default_layer = 0,
+  x = 304,
+  y = 264,
+  width = 16,
+  height = 24,
+}
+
+tile_pattern{
+  id = 1285,
+  ground = "wall",
+  default_layer = 0,
+  x = 320,
+  y = 264,
+  width = 8,
+  height = 24,
+}
+
+tile_pattern{
+  id = 1286,
+  ground = "wall",
+  default_layer = 0,
+  x = 320,
+  y = 256,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = 1287,
+  ground = "wall",
+  default_layer = 0,
+  x = 376,
+  y = 256,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = 1288,
+  ground = "wall",
+  default_layer = 0,
+  x = 368,
+  y = 256,
+  width = 8,
+  height = 8,
+}
+
