@@ -1064,15 +1064,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 72,
-  y = 168,
-  width = 224,
-  height = 8,
-  pattern = 18,
-}
-
-tile{
-  layer = 1,
   x = 288,
   y = 168,
   width = 8,
@@ -1152,6 +1143,78 @@ tile{
   pattern = 14,
 }
 
+tile{
+  layer = 1,
+  x = 64,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 168,
+  width = 40,
+  height = 8,
+  pattern = 70,
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 168,
+  width = 144,
+  height = 8,
+  pattern = 70,
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 8,
+  height = 136,
+  pattern = 71,
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = 69,
+}
+
 destination{
   layer = 1,
   x = 232,
@@ -1169,7 +1232,7 @@ teletransporter{
   name = "maison_quadruples_2_B",
   transition = 1,
   destination_map = "outside_village",
-  destination = "magasin_quadruples_2_A",
+  destination = "maison_quadruples_2_A",
 }
 
 destination{
@@ -1189,45 +1252,16 @@ teletransporter{
   name = "maison_quadruples_2_D",
   transition = 1,
   destination_map = "outside_village",
-  destination = "magasin_quadruples_2_C",
-}
-
-jumper{
-  layer = 1,
-  x = 64,
-  y = 160,
-  width = 48,
-  height = 8,
-  direction = 2,
-  jump_length = 40,
-}
-
-jumper{
-  layer = 1,
-  x = 144,
-  y = 160,
-  width = 120,
-  height = 8,
-  direction = 2,
-  jump_length = 40,
-}
-
-jumper{
-  layer = 1,
-  x = 280,
-  y = 48,
-  width = 8,
-  height = 96,
-  direction = 4,
-  jump_length = 40,
+  destination = "maison_quadruples_2_C",
 }
 
 wall{
   layer = 1,
-  x = 144,
+  x = 136,
   y = 136,
   width = 8,
   height = 32,
+  name = "mur_1",
   stops_hero = false,
   stops_enemies = false,
   stops_npcs = false,
@@ -1236,10 +1270,11 @@ wall{
 
 wall{
   layer = 1,
-  x = 104,
+  x = 112,
   y = 136,
   width = 8,
   height = 32,
+  name = "mur_2",
   stops_hero = false,
   stops_enemies = false,
   stops_npcs = false,

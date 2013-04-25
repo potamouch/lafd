@@ -5,7 +5,6 @@ properties{
   height = 240,
   world = "Monde intérieur",
   tileset = "house",
-  music = "links_awake",
 }
 
 tile{
@@ -51,15 +50,6 @@ tile{
   width = 24,
   height = 24,
   pattern = 47,
-}
-
-tile{
-  layer = 1,
-  x = 64,
-  y = 200,
-  width = 80,
-  height = 24,
-  pattern = 52,
 }
 
 tile{
@@ -164,9 +154,9 @@ tile{
 tile{
   layer = 1,
   x = 248,
-  y = 32,
+  y = 48,
   width = 8,
-  height = 160,
+  height = 144,
   pattern = 19,
 }
 
@@ -460,7 +450,16 @@ tile{
 
 tile{
   layer = 1,
-  x = 176,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 32,
+  pattern = 2,
+}
+
+tile{
+  layer = 1,
+  x = 64,
   y = 200,
   width = 80,
   height = 24,
@@ -469,11 +468,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
-  y = 216,
-  width = 16,
-  height = 32,
-  pattern = 2,
+  x = 176,
+  y = 200,
+  width = 80,
+  height = 24,
+  pattern = 52,
 }
 
 destination{

@@ -5,7 +5,6 @@ properties{
   height = 768,
   world = "Cocolint",
   tileset = "light_world",
-  music = "sword_search",
 }
 
 tile{
@@ -2598,15 +2597,6 @@ tile{
   width = 32,
   height = 8,
   pattern = 685,
-}
-
-tile{
-  layer = 0,
-  x = 312,
-  y = 456,
-  width = 16,
-  height = 16,
-  pattern = 915,
 }
 
 tile{
@@ -11818,8 +11808,8 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 436,
-  y = 717,
+  x = 468,
+  y = 693,
   name = "Breed_4",
   direction = 3,
   breed = "chicken",
@@ -11930,7 +11920,7 @@ destination{
   layer = 0,
   x = 656,
   y = 101,
-  name = "magasin_quadruples_2_C",
+  name = "maison_quadruples_2_C",
   direction = 3,
 }
 
@@ -11940,7 +11930,7 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  name = "magasin_quadruples_1_C",
+  name = "maison_quadruples_1_C",
   transition = 1,
   destination_map = "interieur_maison_quadruples",
   destination = "maison_quadruples_1_D",
@@ -11950,7 +11940,7 @@ destination{
   layer = 0,
   x = 600,
   y = 101,
-  name = "magasin_quadruples_2_A",
+  name = "maison_quadruples_2_A",
   direction = 3,
 }
 
@@ -11960,10 +11950,121 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  name = "magasin_quadruples_1_A",
+  name = "maison_quadruples_1_A",
   transition = 1,
   destination_map = "interieur_maison_quadruples",
   destination = "maison_quadruples_1_B",
+}
+
+destination{
+  layer = 0,
+  x = 776,
+  y = 85,
+  name = "maison_ocarina_2_A",
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 768,
+  y = 56,
+  width = 16,
+  height = 16,
+  name = "maison_ocarina_1_A",
+  transition = 1,
+  destination_map = "interieur_maison_ocarina",
+  destination = "maison_ocarina_1_B",
+}
+
+destination{
+  layer = 0,
+  x = 320,
+  y = 485,
+  name = "maison_miaou_miaou_2_A",
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 312,
+  y = 456,
+  width = 16,
+  height = 16,
+  name = "maison_miaou_miaou_1_A",
+  transition = 1,
+  destination_map = "interieur_maison_miaou_miaou",
+  destination = "maison_miaou_miaou_1_B",
+}
+
+destination{
+  layer = 0,
+  x = 384,
+  y = 485,
+  name = "maison_miaou_miaou_2_C",
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 376,
+  y = 456,
+  width = 16,
+  height = 16,
+  name = "maison_miaou_miaou_1_C",
+  transition = 1,
+  destination_map = "interieur_maison_miaou_miaou",
+  destination = "maison_miaou_miaou_1_D",
+}
+
+npc{
+  layer = 0,
+  x = 832,
+  y = 69,
+  name = "kid_1",
+  direction = 3,
+  subtype = "1",
+  sprite = "npc/kid_1",
+}
+
+npc{
+  layer = 0,
+  x = 760,
+  y = 701,
+  name = "kid_2",
+  direction = 3,
+  subtype = "1",
+  sprite = "npc/kid_2",
+}
+
+npc{
+  layer = 0,
+  x = 448,
+  y = 717,
+  name = "grand_ma",
+  direction = 3,
+  subtype = "1",
+  sprite = "npc/grand_ma",
+}
+
+sensor{
+  layer = 0,
+  x = 616,
+  y = 525,
+  width = 16,
+  height = 16,
+  name = "village_des_mouettes_link_search_sword_sensor",
+}
+
+teletransporter{
+  layer = 0,
+  x = 960,
+  y = -32,
+  width = 16,
+  height = 816,
+  name = "to_d1_2",
+  transition = 2,
+  destination_map = "outside_prairie",
+  destination = "_side",
 }
 
 tile{

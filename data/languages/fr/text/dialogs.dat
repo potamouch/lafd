@@ -2518,7 +2518,7 @@ cette torche...
 }
 -----------------------
 dialog{
-  id = "link_house.awake",
+  id = "maison_link.awake",
   text = [[
 Ah! Enfin...    
 J'ai cru que tu 
@@ -2536,7 +2536,7 @@ Cocolint!
 }
 -----------------------
 dialog{
-  id = "link_house.tarkin_1",
+  id = "maison_link.tarkin_1",
   skip = "all",
   text = [[
 Salut $v !    
@@ -2554,7 +2554,7 @@ J'te l'donne!
 }
 -----------------------
 dialog{
-  id = "link_house.tarkin_2",
+  id = "maison_link.tarkin_2",
   skip = "all",
   text = [[
 Salut $v !    
@@ -2573,7 +2573,7 @@ y'en a partout!
 }
 -----------------------
 dialog{
-  id = "link_house.tarkin_3",
+  id = "maison_link.tarkin_3",
   skip = "all",
   text = [[
 Hé mon gars,    
@@ -2583,7 +2583,93 @@ chose à te dire!
 ]]
 }
 -----------------------
-
+dialog{
+  id = "maison_link.marine_1",
+  skip = "all",
+  text = [[
+Suis la route   
+du Sud, vers    
+la plage là où  
+je t'ai trouvé. 
+Depuis que tu   
+as échoué ici,  
+des monstres    
+terribles rôdent
+dans le coin.   
+Sois prudent...
+]]
+}
+-----------------------
+dialog{
+  id = "village_des_mouettes.grand_ma_1",
+  skip = "all",
+  text = [[
+YOUPI! J'ai la  
+pêche! Et toi? 
+]]
+}
+-----------------------
+dialog{
+  id = "village_des_mouettes.kids_1",
+  skip = "all",
+  text = [[
+Ben... Après une
+sauvegarde,     
+vous pouvez     
+redémarrer à la 
+dernière porte  
+par laquelle    
+vous êtes passé!
+Pourquoi? Je    
+n'en sais rien, 
+je suis un môme!
+]]
+}
+-----------------------
+dialog{
+  id = "village_des_mouettes.kids_2",
+  skip = "all",
+  text = [[
+Consultez la    
+carte de l'île  
+en appuyant     
+sur SELECT.     
+Après, je ne    
+sais pas trop   
+car je ne suis  
+qu'un gosse! 
+]]
+}
+-----------------------
+dialog{
+  id = "village_des_mouettes.kids_3",
+  skip = "all",
+  text = [[
+M'sieu! Pour    
+sauvegarder,    
+appuyez sur tous
+les boutons     
+à la fois! Heu, 
+je n'en sais pas
+plus, je ne suis
+qu'un gosse!
+]]
+}
+-----------------------
+dialog{
+  id = "village_des_mouettes.kids_4",
+  skip = "all",
+  text = [[
+Si vos Coeurs   
+diminuent trop, 
+entrez dans     
+une maison      
+ou une grotte.  
+Pourquoi? Je ne 
+sais pas, je    
+suis trop petit!
+]]
+}
 -----------------------
 dialog{
   id = "village_des_mouettes.sign_1",
