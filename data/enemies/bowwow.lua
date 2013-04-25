@@ -11,6 +11,7 @@ local sprite = enemy:create_sprite("enemies/bowwow")
 function enemy:on_restarted()
 
   self:go_random()
+
 end
 
 function enemy:on_movement_finished(movement)
@@ -24,18 +25,6 @@ function enemy:on_obstacle_reached(movement)
 end
 
 function enemy:go_random()
-
-  -- Random diagonal direction.
-  local rand4 = math.random(4)
-  local direction8 = rand4 * 2 - 1
-  local angle = direction8 * math.pi / 4
-  local m = sol.movement.create("straight")
-  m:set_speed(48)
-  m:set_angle(angle)
-  m:set_max_distance(24 + math.random(96))
-  m:start(self)
-
-  sprite:set_direction(rand4 - 1)
 
   sol.timer.stop_all(self)
   sol.timer.start(self, 300 + math.random(1500), function()

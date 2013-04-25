@@ -38,7 +38,6 @@ end
 
 function map:on_started(destination)
 
-tarkin:get_sprite():set_animation("walking")
 marine:get_sprite():set_animation("walking")
   if destination:get_name() == "start_position"  then
     -- the intro scene is playing

@@ -565,7 +565,7 @@ npc{
 sensor{
   layer = 1,
   x = 160,
-  y = 213,
+  y = 205,
   width = 16,
   height = 16,
   name = "maison_link_exit_sensor",
@@ -574,7 +574,7 @@ sensor{
 npc{
   layer = 1,
   x = 176,
-  y = 93,
+  y = 85,
   name = "marine",
   direction = 2,
   subtype = "1",
