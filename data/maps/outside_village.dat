@@ -11892,7 +11892,7 @@ teletransporter{
   height = 16,
   name = "to_d1",
   transition = 2,
-  destination_map = "outside_forest",
+  destination_map = "outside_south_village",
   destination = "_side",
 }
 

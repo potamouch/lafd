@@ -8,3 +8,357 @@ properties{
   music = "same",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 576,
+  width = 240,
+  height = 192,
+  pattern = 311,
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 8,
+  width = 768,
+  height = 16,
+  pattern = 505,
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 576,
+  width = 240,
+  height = 192,
+  pattern = 311,
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 384,
+  width = 240,
+  height = 192,
+  pattern = 311,
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 384,
+  width = 240,
+  height = 192,
+  pattern = 311,
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 192,
+  width = 240,
+  height = 192,
+  pattern = 311,
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 192,
+  width = 240,
+  height = 192,
+  pattern = 311,
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 16,
+  height = 592,
+  pattern = 27,
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 8,
+  height = 624,
+  pattern = 130,
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 48,
+  height = 16,
+  pattern = 505,
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = 523,
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = 503,
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = 504,
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = -32,
+  width = 48,
+  height = 40,
+  pattern = 502,
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = -32,
+  width = 768,
+  height = 40,
+  pattern = 502,
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 704,
+  width = 240,
+  height = 64,
+  pattern = 275,
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 592,
+  width = 32,
+  height = 112,
+  pattern = 49,
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 960,
+  height = 16,
+  name = "to_d1_3",
+  transition = 2,
+  destination_map = "outside_village",
+  destination = "_side",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = -32,
+  width = 768,
+  height = 40,
+  pattern = 511,
+}
+
+tile{
+  layer = 2,
+  x = 48,
+  y = -32,
+  width = 48,
+  height = 40,
+  pattern = 511,
+}
+
+tile{
+  layer = 2,
+  x = 136,
+  y = -40,
+  width = 8,
+  height = 40,
+  pattern = 513,
+}
+
+tile{
+  layer = 2,
+  x = 96,
+  y = -40,
+  width = 8,
+  height = 40,
+  pattern = 514,
+}
+
+tile{
+  layer = 2,
+  x = 40,
+  y = -40,
+  width = 8,
+  height = 40,
+  pattern = 513,
+}
+
