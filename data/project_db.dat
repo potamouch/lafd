@@ -1,21 +1,21 @@
-0	outside_village	Village des mouettes
-0	donjon_1_cave_flagello_1	Donjon 1 - Cave Flagello
-0	interieur_maison_pepe_ramollo	Maison de Pépé le Ramollo
-0	interieur_maison_link	Maison de Link
-0	interieur_cabine_telephonique_1	Cabine téléphonique 1
-0	interieur_maison_bibliotheque	Bibliothèque
-0	interieur_maison_ocarina	Maison de l'ocarina
-0	interieur_magasin_1	Magasin 1
-0	interieur_magasin_2	Magasin 2
-0	interieur_grotte_girouette	Grotte de la girouette
-0	interieur_maison_quadruples	Maison des quadruplés
-0	outside_south_village	Sud du village
-0	outside_forest	Forêt enchantée
-0	outside_prairie	Prairie
-0	interieur_grotte_village_mouettes	Grotte du village des mouettes
-0	interieur_maison_miaou_miaou	Maison de mme Miaou miaou
+0	outside_mabe_village	Mabe village
+0	dungeon_1_tail_cave	Dungeon 1 - Tail cave
+0	inside_old_man_house	Inside - Old man's house
+0	inside_marine_house	Inside Marine's house
+0	inside_telephone_booth_1	Inside - Téléphone booth 1
+0	inside_library	Inside - Library
+0	inside_ocarina_house	Inside - Ocarina's house
+0	inside_shop_1	Inside - Shop 1
+0	inside_shop_2	Inside - Shop 2
+0	inside_weathercock	Inside- Weathercock
+0	inside_quadruplets_house	Inside - Quadruplets' house
+0	outside_south_village	Outside - South village
+0	outside_forest	Outside - Forest
+0	outside_prairie	Outside - Prairie
+0	inside_village_cave	Inside - Cave of Mabe village
+0	inside_meow_meow_house	Inside - Meow meow's house
 1	house	House
-1	light_world	LigthWorld
+1	light_world	LightWorld
 1	pink_dungeon	New tileset
 1	pink_dungeon_lw	Pink Dungeon
 1	cave	Cave
