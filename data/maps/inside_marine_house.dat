@@ -5,6 +5,7 @@ properties{
   height = 240,
   world = "Monde intérieur",
   tileset = "house",
+  music = "same",
 }
 
 tile{
@@ -479,7 +480,7 @@ destination{
   layer = 1,
   x = 160,
   y = 213,
-  name = "maison_link_1_B",
+  name = "marine_house_1_B",
   direction = 1,
 }
 
@@ -489,10 +490,10 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "maison_link_2_B",
+  name = "marine_house_2_B",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "maison_link_2_A",
+  destination_map = "outside_mabe_village",
+  destination = "marine_house_2_A",
 }
 
 destination{

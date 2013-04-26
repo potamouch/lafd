@@ -1219,7 +1219,7 @@ destination{
   layer = 1,
   x = 232,
   y = 213,
-  name = "maison_quadruples_1_B",
+  name = "quadruplets_house_1_B",
   direction = 1,
 }
 
@@ -1229,17 +1229,17 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "maison_quadruples_2_B",
+  name = "quadruplets_house_2_B",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "maison_quadruples_2_A",
+  destination_map = "outside_mabe_village",
+  destination = "quadruplets_house_2_A",
 }
 
 destination{
   layer = 1,
   x = 440,
   y = 213,
-  name = "maison_quadruples_1_D",
+  name = "quadruplets_house_1_D",
   direction = 1,
 }
 
@@ -1249,10 +1249,10 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "maison_quadruples_2_D",
+  name = "quadruplets_house_2_D",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "maison_quadruples_2_C",
+  destination_map = "outside_mabe_village",
+  destination = "quadruplets_house_2_C",
 }
 
 wall{
@@ -1261,7 +1261,7 @@ wall{
   y = 136,
   width = 8,
   height = 32,
-  name = "mur_1",
+  name = "wall_1",
   stops_hero = false,
   stops_enemies = false,
   stops_npcs = false,
@@ -1274,7 +1274,7 @@ wall{
   y = 136,
   width = 8,
   height = 32,
-  name = "mur_2",
+  name = "wall_2",
   stops_hero = false,
   stops_enemies = false,
   stops_npcs = false,

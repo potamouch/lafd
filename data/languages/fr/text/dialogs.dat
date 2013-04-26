@@ -2518,7 +2518,7 @@ cette torche...
 }
 -----------------------
 dialog{
-  id = "maison_link.awake",
+  id = "marine_house.awake",
   text = [[
 Ah! Enfin...    
 J'ai cru que tu 
@@ -2536,7 +2536,7 @@ Cocolint!
 }
 -----------------------
 dialog{
-  id = "maison_link.tarkin_1",
+  id = "marine_house.tarkin_1",
   skip = "all",
   text = [[
 Salut $v !    
@@ -2554,7 +2554,7 @@ J'te l'donne!
 }
 -----------------------
 dialog{
-  id = "maison_link.tarkin_2",
+  id = "marine_house.tarkin_2",
   skip = "all",
   text = [[
 Salut $v !    
@@ -2573,7 +2573,7 @@ y'en a partout!
 }
 -----------------------
 dialog{
-  id = "maison_link.tarkin_3",
+  id = "marine_house.tarkin_3",
   skip = "all",
   text = [[
 Hé mon gars,    
@@ -2584,7 +2584,7 @@ chose à te dire!
 }
 -----------------------
 dialog{
-  id = "maison_link.marine_1",
+  id = "marine_house.marine_1",
   skip = "all",
   text = [[
 Suis la route   
@@ -2601,7 +2601,7 @@ Sois prudent...
 }
 -----------------------
 dialog{
-  id = "village_des_mouettes.grand_ma_1",
+  id = "mabe_village.grand_ma_1",
   skip = "all",
   text = [[
 YOUPI! J'ai la  
@@ -2610,7 +2610,7 @@ pêche! Et toi?
 }
 -----------------------
 dialog{
-  id = "village_des_mouettes.kids_1",
+  id = "mabe_village.kids_1",
   skip = "all",
   text = [[
 Ben... Après une
@@ -2627,7 +2627,7 @@ je suis un môme!
 }
 -----------------------
 dialog{
-  id = "village_des_mouettes.kids_2",
+  id = "mabe_village.kids_2",
   skip = "all",
   text = [[
 Consultez la    
@@ -2642,7 +2642,7 @@ qu'un gosse!
 }
 -----------------------
 dialog{
-  id = "village_des_mouettes.kids_3",
+  id = "mabe_village.kids_3",
   skip = "all",
   text = [[
 M'sieu! Pour    
@@ -2657,7 +2657,7 @@ qu'un gosse!
 }
 -----------------------
 dialog{
-  id = "village_des_mouettes.kids_4",
+  id = "mabe_village.kids_4",
   skip = "all",
   text = [[
 Si vos Coeurs   
@@ -2672,7 +2672,7 @@ suis trop petit!
 }
 -----------------------
 dialog{
-  id = "village_des_mouettes.sign_1",
+  id = "mabe_village.sign_1",
   skip = "all",
   text = [[
 Forêt Enchantée 

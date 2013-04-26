@@ -723,7 +723,7 @@ destination{
   layer = 1,
   x = 144,
   y = 205,
-  name = "maison_miaou_miaou_1_B",
+  name = "meow_meow_house_1_B",
   direction = 1,
 }
 
@@ -733,10 +733,10 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "maison_miaou_miaou_2_B",
+  name = "meow_meow_house_2_B",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "maison_miaou_miaou_2_A",
+  destination_map = "outside_mabe_village",
+  destination = "meow_meow_house_2_A",
 }
 
 enemy{
@@ -879,17 +879,17 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "maison_miaou_miaou_2_D",
+  name = "meow_meow_house_2_D",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "maison_miaou_miaou_2_C",
+  destination_map = "outside_mabe_village",
+  destination = "meow_meow_house_2_C",
 }
 
 destination{
   layer = 1,
   x = 368,
   y = 213,
-  name = "maison_miaou_miaou_1_D",
+  name = "meow_meow_house_1_D",
   direction = 1,
 }
 

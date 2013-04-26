@@ -273,7 +273,7 @@ destination{
   layer = 1,
   x = 160,
   y = 213,
-  name = "magasin_1_1_B",
+  name = "shop_1_1_B",
   direction = 1,
 }
 
@@ -283,10 +283,10 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "magasin_1_2_B",
+  name = "shop_1_2_B",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "magasin_1_2_A",
+  destination_map = "outside_mabe_village",
+  destination = "shop_2_2_A",
 }
 
 tile{

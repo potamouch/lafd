@@ -1,4 +1,4 @@
-0	outside_mabe_village	Mabe village
+0	outside_mabe_village	Inside - Mabe village
 0	dungeon_1_tail_cave	Dungeon 1 - Tail cave
 0	inside_old_man_house	Inside - Old man's house
 0	inside_marine_house	Inside Marine's house
@@ -24,11 +24,11 @@
 2	player_select	Player select
 2	links_awake	Links awake
 2	sword_search	Sword search
-3	npc/witch	Sorcière
+3	npc/witch	Witch
 3	npc/marine	Marine
-3	npc/kid_1	Enfant 1
-3	npc/kid_2	Enfant 2
-3	npc/grand_ma	Grand-mère
+3	npc/kid_1	Kid 1
+3	npc/kid_2	Kid 2
+3	npc/grand_ma	Grand-mother
 3	npc/black_knight_soldier	Black Knight Soldier
 3	entities/block	Block
 3	entities/gray_block	Block (gray)

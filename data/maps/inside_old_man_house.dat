@@ -633,7 +633,7 @@ destination{
   layer = 1,
   x = 160,
   y = 213,
-  name = "maison_pepe_ramollo_1_B",
+  name = "old_man_house_1_B",
   direction = 1,
 }
 
@@ -643,10 +643,10 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "maison_pepe_ramollo_2_B",
+  name = "old_man_house_2_B",
   transition = 1,
-  destination_map = "outside_village",
-  destination = "maison_pepe_ramollo_1_2_A",
+  destination_map = "outside_mabe_village",
+  destination = "old_man_house_1_2_A",
 }
 
 tile{

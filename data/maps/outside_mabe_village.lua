@@ -1,17 +1,15 @@
 local map = ...
--- Village des mouettes
+-- Mabe village
 
-local function  talk_to_grand_ma() 
+local function  talk_to_grand_ma()
 
-      map:start_dialog("village_des_mouettes.grand_ma_1")
-
+  map:start_dialog("mabe_village.grand_ma_1")
 end
-
 
 local function  talk_to_kids() 
 
-      local rand = math.random(4)
-      map:start_dialog("village_des_mouettes.kids_" .. rand)
+  local rand = math.random(4)
+  map:start_dialog("mabe_village.kids_" .. rand)
 
 end
 
@@ -28,19 +26,19 @@ end
 
 function grand_ma:on_interaction()
 
-      talk_to_grand_ma()
+  talk_to_grand_ma()
 
 end
 
 function kid_1:on_interaction()
 
-      talk_to_kids()
+  talk_to_kids()
 
 end
 
 function kid_2:on_interaction()
 
-      talk_to_kids()
+  talk_to_kids()
 
 end
 
