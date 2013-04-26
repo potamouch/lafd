@@ -1,0 +1,10 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  world = "Monde intérieur",
+  tileset = "cave",
+  music = "same",
+}
+
