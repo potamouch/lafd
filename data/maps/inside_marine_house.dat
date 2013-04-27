@@ -565,7 +565,7 @@ npc{
 sensor{
   layer = 1,
   x = 160,
-  y = 205,
+  y = 229,
   width = 16,
   height = 16,
   name = "maison_link_exit_sensor",

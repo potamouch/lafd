@@ -1,5 +1,5 @@
 local map = ...
--- Village des mouettes
+-- Forest
 
 function map:on_started(destination)
 

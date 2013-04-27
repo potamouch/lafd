@@ -860,14 +860,9 @@ destination{
 
 pickable{
   layer = 1,
-  x = 120,
-  y = 101,
-}
-
-pickable{
-  layer = 1,
-  x = 88,
-  y = 149,
+  x = 160,
+  y = 133,
+  treasure_name = "piece_of_heart",
 }
 
 tile{

@@ -1,5 +1,16 @@
 local map = ...
+local   game = map:get_game()
 -- Maison de Link
+
+local function set_music()
+
+  if map:get_game():get_value("link_search_sword") == true then
+    sol.audio.play_music("sword_search")
+  else
+    sol.audio.play_music("links_awake")
+  end
+
+end
 
 local function repeat_marine_direction_check()
   local angle_to_hero = marine:get_angle(hero) 
@@ -14,11 +25,14 @@ local function repeat_marine_direction_check()
 end
 
 local function jump_from_bed()
+
   hero:set_visible(true)
   hero:start_jumping(7, 24, true)
   map:set_pause_enabled(true)
   bed:get_sprite():set_animation("empty_open")
   sol.audio.play_sound("hero_lands")
+  game:set_starting_location("inside_marine_house", "marine_house_1_B")
+
 end
 
 local function wake_up()
@@ -60,13 +74,8 @@ function angle_to_direction4(angle)
 end
 
 function map:on_started(destination)
-  -- musique
-  sol.audio.stop_music()
-  if map:get_game():get_value("link_search_sword") == true then
-    sol.audio.play_music("sword_search")
-  else
-    sol.audio.play_music("links_awake")
-  end
+
+  set_music()
   marine:get_sprite():set_animation("walking")
   repeat_marine_direction_check()
   if destination:get_name() == "start_position"  then
@@ -91,7 +100,7 @@ function maison_link_exit_sensor:on_activated()
   if map:get_game():has_item("shield") == false then
     map:start_dialog("marine_house.tarkin_3", function()
      hero:set_direction(2)
-     hero:walk(2)
+     hero:walk("2222")
    end)
   end
 
