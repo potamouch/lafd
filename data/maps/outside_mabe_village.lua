@@ -4,6 +4,7 @@ local map = ...
 local function  talk_to_grand_ma()
 
   map:start_dialog("mabe_village.grand_ma_1")
+
 end
 
 local function  talk_to_kids() 
@@ -42,7 +43,19 @@ function kid_2:on_interaction()
 
 end
 
-function village_des_mouettes_link_search_sword_sensor:on_activated()
+function kid_3:on_interaction()
+
+  talk_to_kids()
+
+end
+
+function kid_4:on_interaction()
+
+  talk_to_kids()
+
+end
+
+function link_search_sword_sensor:on_activated()
 
   if map:get_game():has_item("shield") == true and map:get_game():get_value("link_search_sword" ) == false then
     map:get_game():set_value("link_search_sword", true)

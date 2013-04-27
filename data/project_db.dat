@@ -1,4 +1,3 @@
-0	outside_mabe_village	Inside - Mabe village
 0	dungeon_1_tail_cave	Dungeon 1 - Tail cave
 0	inside_old_man_house	Inside - Old man's house
 0	inside_marine_house	Inside Marine's house
@@ -12,6 +11,7 @@
 0	outside_south_village	Outside - South village
 0	outside_forest	Outside - Forest
 0	outside_prairie	Outside - Prairie
+0	outside_mabe_village	Outside - Mabe village
 0	inside_village_cave	Inside - Cave of Mabe village
 0	inside_meow_meow_house	Inside - Meow meow's house
 1	house	House
@@ -69,18 +69,20 @@
 3	entities/torch	Torch
 3	entities/vine	Vine
 3	npc/tarkin	Tarkin
+3	npc/owl	Owl
 5	boomerang	Boomerang
-5	bow	Arc
-5	feather	Plume
-5	flippers	Palmes
+5	bow	Bow
+5	feather	Feather
+5	flippers	Flippers
 5	heart	Coeur
-5	heart_container	Récéptacle de coeur
-5	piece_of_heart	Quart de coeur
-5	rupee_bag	Bourse
-5	shield	Bouclier
-5	sword	Epée
-5	tunic	Tunique (vert/bleu/rouge)
-5	world_map	Carte du monde
-6	chicken	Poule
+5	heart_container	Heart container
+5	piece_of_heart	Piece of heart
+5	rupee_bag	Ruppe bag
+5	shield	Shield
+5	sword	Sword
+5	tunic	Tunic (green/blue/red)
+5	world_map	World map
+6	chicken	Chicken
 6	bowwow	Bow wow
-6	small_bowwow	Petit Bow wow
+6	small_bowwow	SMall Bow wow
+6	sea_urchin	Sea urchin
