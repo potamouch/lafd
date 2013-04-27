@@ -1,6 +1,6 @@
 properties{
-  x = 0,
-  y = 0,
+  x = 960,
+  y = 1536,
   width = 960,
   height = 768,
   world = "Cocolint",
@@ -2509,6 +2509,18 @@ destructible{
   x = 352,
   y = 85,
   subtype = "white_stone",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = -32,
+  width = 16,
+  height = 800,
+  name = "to_d1_3",
+  transition = 2,
+  destination_map = "outside_mabe_village",
+  destination = "_side",
 }
 
 tile{
