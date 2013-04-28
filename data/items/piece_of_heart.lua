@@ -1,3 +1,4 @@
+-- Piece of heart
 local item = ...
 
 local message_id = {
@@ -12,13 +13,13 @@ function item:on_obtained(variant)
   local game = self:get_game()
   local nb_pieces_of_heart = game:get_value("i1030") or 0
   self:get_map():start_dialog(message_id[nb_pieces_of_heart + 1], function()
-
     game:set_value("i1030", (nb_pieces_of_heart + 1) % 4)
     if nb_pieces_of_heart == 3 then
       game:add_max_life(4)
     end
     game:add_life(game:get_max_life())
   end)
+
 end
 
 -- This function is not used in releases :)
@@ -68,6 +69,7 @@ function item:print_pieces_of_heart()
     end
   end
   print("Total pieces of heart found: " .. nb_found .. "/" .. #pieces)
+
 end
 
 -- If you want to know your missing pieces of heart, uncomment the line below

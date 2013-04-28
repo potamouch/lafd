@@ -1,5 +1,5 @@
-local map = ...
 -- Mabe village
+local map = ...
 
 local function set_music()
 

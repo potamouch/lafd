@@ -1,5 +1,5 @@
-local map = ...
 -- Shop 2
+local map = ...
 
 local function set_music()
 

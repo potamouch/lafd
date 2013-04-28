@@ -1,5 +1,5 @@
-local map = ...
 -- Telephone booth 1
+local map = ...
 
 local function set_music()
 

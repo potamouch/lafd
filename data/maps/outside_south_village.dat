@@ -7567,11 +7567,30 @@ enemy{
 
 sensor{
   layer = 0,
-  x = 600,
-  y = 717,
-  width = 48,
-  height = 16,
+  x = 592,
+  y = 701,
+  width = 64,
+  height = 32,
   name = "owl_1_sensor",
+}
+
+npc{
+  layer = 0,
+  x = 696,
+  y = 517,
+  name = "owl",
+  direction = 3,
+  subtype = "0",
+  sprite = "npc/owl",
+}
+
+sensor{
+  layer = 0,
+  x = 696,
+  y = 509,
+  width = 16,
+  height = 16,
+  name = "owl_position_1",
 }
 
 tile{

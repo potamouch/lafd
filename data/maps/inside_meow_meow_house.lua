@@ -1,6 +1,5 @@
-local map = ...
-local   game = map:get_game()
 -- Meow meow's House
+local map = ...
 
 local function set_music()
 

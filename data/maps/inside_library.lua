@@ -1,5 +1,5 @@
-local map = ...
 -- Library
+local map = ...
 
 local function set_music()
 

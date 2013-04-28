@@ -1,5 +1,5 @@
-local map = ...
 -- Marine's House
+local map = ...
 
 local function set_music()
 

@@ -1,5 +1,5 @@
-local map = ...
 -- Old man's house
+local map = ...
 
 local function set_music()
 
