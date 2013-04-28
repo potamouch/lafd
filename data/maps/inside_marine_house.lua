@@ -1,10 +1,9 @@
 local map = ...
-local   game = map:get_game()
--- Maison de Link
+-- Marine's House
 
 local function set_music()
 
-  if map:get_game():get_value("link_search_sword") == true then
+  if map:get_game():get_value("step_1_link_search_sword") == true then
     sol.audio.play_music("sword_search")
   else
     sol.audio.play_music("links_awake")
@@ -31,7 +30,7 @@ local function jump_from_bed()
   map:set_pause_enabled(true)
   bed:get_sprite():set_animation("empty_open")
   sol.audio.play_sound("hero_lands")
-  game:set_starting_location("inside_marine_house", "marine_house_1_B")
+  map:get_game():set_starting_location("inside_marine_house", "marine_house_1_B")
 
 end
 

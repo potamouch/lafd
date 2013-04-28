@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 960,
   height = 768,
-  world = "Cocolint",
+  world = "outside_world",
   tileset = "light_world",
   music = "same",
 }
@@ -7253,6 +7253,7 @@ npc{
   direction = 3,
   subtype = "0",
   sprite = "entities/sign",
+  behavior = "dialog#south_village.sign_2",
 }
 
 destructible{
@@ -7493,6 +7494,7 @@ npc{
   direction = 3,
   subtype = "0",
   sprite = "entities/sign",
+  behavior = "dialog#south_village.sign_1",
 }
 
 destructible{
@@ -7563,13 +7565,13 @@ enemy{
   breed = "sea_urchin",
 }
 
-npc{
+sensor{
   layer = 0,
-  x = 616,
-  y = 701,
-  direction = 3,
-  subtype = "0",
-  sprite = "npc/owl",
+  x = 600,
+  y = 717,
+  width = 48,
+  height = 16,
+  name = "owl_1_sensor",
 }
 
 tile{

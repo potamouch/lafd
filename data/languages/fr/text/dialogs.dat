@@ -2670,6 +2670,35 @@ sais pas, je
 suis trop petit!
 ]]
 }
+dialog{
+  id = "owl_1",
+  skip = "all",
+  text = [[
+Hou hou!        
+Cette épée      
+est donc à toi! 
+... Je comprends
+pourquoi        
+les monstres    
+s'agitent tant :
+celui qui doit  
+réveiller le    
+Poisson-Rêve    
+est arrivé!     
+On dit que pour 
+quitter l'île,  
+cette personne  
+doit d'abord    
+le réveiller... 
+Viens me voir   
+dans la Forêt   
+Enchantée, au   
+Nord du village.
+Je t'y attends. 
+Hou hou!
+]]
+}
+-----------------------
 -----------------------
 dialog{
   id = "mabe_village.sign_1",
@@ -2678,6 +2707,26 @@ dialog{
 Forêt Enchantée 
 (Un peu         
 énigmatique)
+]]
+}
+-----------------------
+dialog{
+  id = "south_village.sign_1",
+  skip = "all",
+  text = [[
+> Cave Flagello 
+v Plage Coco
+]]
+}
+-----------------------
+dialog{
+  id = "south_village.sign_2",
+  skip = "all",
+  text = [[
+Attention       
+aux oursins!    
+Se protéger avec
+un bouclier!
 ]]
 }
 -----------------------

@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 5000,
   height = 5000,
-  world = "Cocolint",
+  world = "dungeon_1",
   floor = 0,
   tileset = "pink_dungeon_lw",
   music = "same",

@@ -3,7 +3,7 @@ properties{
   y = 1536,
   width = 960,
   height = 768,
-  world = "Cocolint",
+  world = "outside_world",
   tileset = "light_world",
   music = "same",
 }
@@ -1261,15 +1261,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
-  y = 624,
-  width = 16,
-  height = 16,
-  pattern = 698,
-}
-
-tile{
-  layer = 0,
   x = -64,
   y = 520,
   width = 8,
@@ -1641,16 +1632,7 @@ tile{
   layer = 0,
   x = 112,
   y = 560,
-  width = 16,
-  height = 16,
-  pattern = 44,
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 560,
-  width = 16,
+  width = 48,
   height = 16,
   pattern = 44,
 }
@@ -2706,24 +2688,6 @@ tile{
   width = 16,
   height = 32,
   pattern = 524,
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 624,
-  width = 16,
-  height = 16,
-  pattern = 698,
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 568,
-  width = 16,
-  height = 8,
-  pattern = 55,
 }
 
 tile{
@@ -4456,15 +4420,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 592,
-  y = 496,
-  width = 16,
-  height = 16,
-  pattern = 698,
-}
-
-tile{
-  layer = 0,
   x = 640,
   y = 496,
   width = 8,
@@ -4479,15 +4434,6 @@ tile{
   width = 16,
   height = 16,
   pattern = 699,
-}
-
-tile{
-  layer = 0,
-  x = 624,
-  y = 496,
-  width = 16,
-  height = 16,
-  pattern = 698,
 }
 
 tile{
@@ -9280,87 +9226,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
-  y = 616,
-  width = 8,
-  height = 8,
-  pattern = 677,
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 616,
-  width = 8,
-  height = 8,
-  pattern = 674,
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 592,
-  width = 8,
-  height = 8,
-  pattern = 670,
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 592,
-  width = 8,
-  height = 8,
-  pattern = 672,
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 592,
-  width = 48,
-  height = 8,
-  pattern = 671,
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 600,
-  width = 8,
-  height = 16,
-  pattern = 678,
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 600,
-  width = 8,
-  height = 16,
-  pattern = 673,
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 600,
-  width = 48,
-  height = 16,
-  pattern = 676,
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 616,
-  width = 48,
-  height = 8,
-  pattern = 675,
-}
-
-tile{
-  layer = 0,
   x = 176,
   y = 544,
   width = 432,
@@ -9631,87 +9496,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 584,
-  y = 488,
-  width = 8,
-  height = 8,
-  pattern = 677,
-}
-
-tile{
-  layer = 0,
-  x = 640,
-  y = 488,
-  width = 8,
-  height = 8,
-  pattern = 674,
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 464,
-  width = 8,
-  height = 8,
-  pattern = 670,
-}
-
-tile{
-  layer = 0,
-  x = 640,
-  y = 464,
-  width = 8,
-  height = 8,
-  pattern = 672,
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 464,
-  width = 48,
-  height = 8,
-  pattern = 671,
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 472,
-  width = 8,
-  height = 16,
-  pattern = 678,
-}
-
-tile{
-  layer = 0,
-  x = 640,
-  y = 472,
-  width = 8,
-  height = 16,
-  pattern = 673,
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 472,
-  width = 48,
-  height = 16,
-  pattern = 676,
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 488,
-  width = 48,
-  height = 8,
-  pattern = 675,
-}
-
-tile{
-  layer = 0,
   x = 520,
   y = 432,
   width = 32,
@@ -9933,6 +9717,150 @@ tile{
   width = 8,
   height = 16,
   pattern = 44,
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 600,
+  width = 16,
+  height = 24,
+  pattern = 1309,
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 600,
+  width = 16,
+  height = 24,
+  pattern = 1311,
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 600,
+  width = 32,
+  height = 24,
+  pattern = 1310,
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 592,
+  width = 16,
+  height = 8,
+  pattern = 1316,
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 592,
+  width = 16,
+  height = 8,
+  pattern = 1314,
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 592,
+  width = 32,
+  height = 8,
+  pattern = 1315,
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = 1317,
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = 1317,
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 472,
+  width = 16,
+  height = 24,
+  pattern = 1322,
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 472,
+  width = 16,
+  height = 24,
+  pattern = 1324,
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 472,
+  width = 32,
+  height = 24,
+  pattern = 1323,
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = 1318,
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 464,
+  width = 32,
+  height = 8,
+  pattern = 1321,
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = 1320,
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 496,
+  width = 16,
+  height = 16,
+  pattern = 1317,
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 496,
+  width = 16,
+  height = 16,
+  pattern = 1317,
 }
 
 destructible{
@@ -11799,15 +11727,6 @@ enemy{
   breed = "chicken",
 }
 
-chest{
-  layer = 0,
-  x = 568,
-  y = 237,
-  treasure_name = "sword",
-  treasure_variant = 1,
-  sprite = "entities/chest",
-}
-
 enemy{
   layer = 0,
   x = 804,
@@ -12146,6 +12065,46 @@ destructible{
   x = 424,
   y = 453,
   subtype = "grass",
+}
+
+destination{
+  layer = 0,
+  x = 136,
+  y = 589,
+  name = "village_cave_2_A",
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 128,
+  y = 544,
+  width = 16,
+  height = 16,
+  name = "village_cave_1_A",
+  transition = 1,
+  destination_map = "inside_village_cave",
+  destination = "village_cave_1_B",
+}
+
+destination{
+  layer = 0,
+  x = 80,
+  y = 653,
+  name = "library_2_A",
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = 624,
+  width = 16,
+  height = 16,
+  name = "library_1_A",
+  transition = 1,
+  destination_map = "inside_library",
+  destination = "library_1_B",
 }
 
 tile{

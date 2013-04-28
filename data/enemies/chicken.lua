@@ -1,8 +1,9 @@
 local enemy = ...
 
--- Snap Dragon.
-enemy:set_life(100000)
-enemy:set_damage(0)
+-- Chicken
+enemy:set_life(10000000000000000)
+enemy:set_can_attack(false)
+enemy:set_damage(1)
 enemy:set_hurt_style("normal")
 enemy:set_size(16, 16)
 enemy:set_origin(8, 13)
@@ -11,16 +12,19 @@ local sprite = enemy:create_sprite("enemies/chicken")
 function enemy:on_restarted()
 
   self:go_random()
+
 end
 
 function enemy:on_movement_finished(movement)
 
   self:go_random()
+
 end
 
 function enemy:on_obstacle_reached(movement)
 
   self:go_random()
+
 end
 
 function enemy:go_random()
@@ -48,4 +52,5 @@ function sprite:on_animation_finished(animation)
   if animation == "bite" then
     self:set_animation("walking")
   end
+
 end

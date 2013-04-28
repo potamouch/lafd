@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 480,
   height = 240,
-  world = "Monde intérieur",
+  world = "inside_world",
   tileset = "house",
   music = "same",
 }
@@ -743,6 +743,7 @@ enemy{
   layer = 1,
   x = 396,
   y = 157,
+  name = "small_bow_bow",
   direction = 3,
   breed = "small_bowwow",
 }

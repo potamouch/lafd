@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 640,
   height = 240,
-  world = "Cocolint",
+  world = "inside_world",
   tileset = "house",
   music = "same",
 }
@@ -1262,10 +1262,10 @@ wall{
   width = 8,
   height = 32,
   name = "wall_1",
-  stops_hero = false,
-  stops_enemies = false,
-  stops_npcs = false,
-  stops_blocks = false,
+  stops_hero = true,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = true,
 }
 
 wall{
@@ -1275,10 +1275,10 @@ wall{
   width = 8,
   height = 32,
   name = "wall_2",
-  stops_hero = false,
-  stops_enemies = false,
-  stops_npcs = false,
-  stops_blocks = false,
+  stops_hero = true,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = true,
 }
 
 tile{

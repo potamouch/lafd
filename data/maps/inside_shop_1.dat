@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 320,
   height = 240,
-  world = "Cocolint",
+  world = "inside_world",
   tileset = "house",
   music = "same",
 }
