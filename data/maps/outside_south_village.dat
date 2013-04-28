@@ -7574,25 +7574,6 @@ sensor{
   name = "owl_1_sensor",
 }
 
-npc{
-  layer = 0,
-  x = 696,
-  y = 517,
-  name = "owl",
-  direction = 3,
-  subtype = "0",
-  sprite = "npc/owl",
-}
-
-sensor{
-  layer = 0,
-  x = 696,
-  y = 509,
-  width = 16,
-  height = 16,
-  name = "owl_position_1",
-}
-
 tile{
   layer = 2,
   x = 144,
@@ -8554,5 +8535,24 @@ tile{
   width = 16,
   height = 32,
   pattern = 1308,
+}
+
+sensor{
+  layer = 2,
+  x = 696,
+  y = 509,
+  width = 16,
+  height = 16,
+  name = "owl_position_1",
+}
+
+npc{
+  layer = 2,
+  x = 696,
+  y = 517,
+  name = "owl",
+  direction = 3,
+  subtype = "0",
+  sprite = "npc/owl",
 }
 
