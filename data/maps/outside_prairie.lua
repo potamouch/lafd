@@ -1,4 +1,4 @@
--- Prairie
+-- Outside - Prairie
 local map = ...
 
 local function set_music()

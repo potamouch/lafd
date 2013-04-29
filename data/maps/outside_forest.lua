@@ -1,4 +1,4 @@
--- Forest
+-- Outside - Forest
 local map = ...
 
 function map:on_started(destination)

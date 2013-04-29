@@ -1,4 +1,4 @@
--- Marine's House
+-- Inside - Marine's House
 local map = ...
 
 local function set_music()

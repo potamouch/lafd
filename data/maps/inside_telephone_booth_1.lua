@@ -1,4 +1,4 @@
--- Telephone booth 1
+--Inside - Telephone booth 1
 local map = ...
 
 local function set_music()

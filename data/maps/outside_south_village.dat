@@ -7248,7 +7248,7 @@ destructible{
 
 npc{
   layer = 0,
-  x = 296,
+  x = 288,
   y = 429,
   direction = 3,
   subtype = "0",
@@ -7489,8 +7489,8 @@ jumper{
 
 npc{
   layer = 0,
-  x = 104,
-  y = 53,
+  x = 112,
+  y = 45,
   direction = 3,
   subtype = "0",
   sprite = "entities/sign",
@@ -7504,17 +7504,10 @@ destructible{
   subtype = "bush",
 }
 
-pickable{
-  layer = 0,
-  x = 616,
-  y = 733,
-  treasure_name = "sword",
-}
-
 enemy{
   layer = 0,
   x = 372,
-  y = 501,
+  y = 485,
   name = "sea_urchin_1",
   direction = 3,
   breed = "sea_urchin",
@@ -7523,7 +7516,7 @@ enemy{
 enemy{
   layer = 0,
   x = 324,
-  y = 461,
+  y = 445,
   name = "sea_urchin_3",
   direction = 3,
   breed = "sea_urchin",
@@ -7532,7 +7525,7 @@ enemy{
 enemy{
   layer = 0,
   x = 396,
-  y = 501,
+  y = 485,
   name = "sea_urchin_2",
   direction = 3,
   breed = "sea_urchin",
@@ -7558,8 +7551,8 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 516,
-  y = 701,
+  x = 524,
+  y = 693,
   name = "sea_urchin_6",
   direction = 3,
   breed = "sea_urchin",
@@ -7567,11 +7560,19 @@ enemy{
 
 sensor{
   layer = 0,
-  x = 592,
+  x = 584,
   y = 701,
   width = 64,
   height = 32,
   name = "owl_1_sensor",
+}
+
+npc{
+  layer = 0,
+  x = 608,
+  y = 733,
+  direction = 3,
+  subtype = "0",
 }
 
 tile{

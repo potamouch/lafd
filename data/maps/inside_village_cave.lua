@@ -1,4 +1,4 @@
--- Cave of mabe village
+-- Inside - Cave of mabe village
 local map = ...
 
 local function set_music()

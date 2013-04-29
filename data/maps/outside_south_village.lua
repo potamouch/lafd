@@ -1,4 +1,4 @@
--- South village
+-- Outside - South village
 local map = ...
 
 local function set_music()

@@ -1,4 +1,4 @@
--- Quadruplet's house
+-- Inside - Quadruplet's house
 local map = ...
 
 local function set_music()

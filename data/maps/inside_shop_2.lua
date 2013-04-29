@@ -1,4 +1,4 @@
--- Shop 2
+-- Inside - Shop 2
 local map = ...
 
 local function set_music()

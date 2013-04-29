@@ -1,4 +1,4 @@
--- Old man's house
+-- Inside - Old man's house
 local map = ...
 
 local function set_music()

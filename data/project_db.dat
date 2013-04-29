@@ -1,4 +1,4 @@
-0	dungeon_1_tail_cave	Dungeon 1 - Tail cave
+0	dungeon_1_tail_cave_b1	Dungeon 1 - Tail cave - B1
 0	inside_old_man_house	Inside - Old man's house
 0	inside_marine_house	Inside Marine's house
 0	inside_telephone_booth_1	Telephone booth 1
@@ -14,7 +14,7 @@
 0	outside_mabe_village	Outside - Mabe village
 0	inside_village_cave	Inside - Cave of Mabe village
 0	inside_meow_meow_house	Inside - Meow meow's house
-0	dungeon_2_bottle_grotto	Dungeon 2 - Bottle grotto
+0	dungeon_2_bottle_grotto_b1	Dungeon 2 - Bottle grotto - B1
 1	house	House
 1	light_world	LightWorld
 1	pink_dungeon_lw	Pink Dungeon
@@ -23,7 +23,12 @@
 2	title_screen	Title screen
 2	player_select	Player select
 2	links_awake	Links awake
-2	sword_search	Sword search
+2	the_wise_owl	The wise owl
+2	your_sword	Yout sword
+2	let_the_journey_begin	Let the journey begin
+2	overworld	Overworld
+2	mabe_village	Mabe village
+
 3	npc/witch	Witch
 3	npc/marine	Marine
 3	npc/kid_1	Kid 1
@@ -35,7 +40,6 @@
 3	entities/bone_key_door	Bone key door
 3	entities/cannon	Cannon
 3	entities/slot_machine	Casino slot machine
-3	npc/castle_guard	Castle guard
 3	entities/castle_lock	Castle prison lock
 3	entities/chest	Chest (normal)
 3	entities/big_chest	Chest (big)
@@ -49,23 +53,15 @@
 3	entities/door_very_weak_wall	Door (very weak wall)
 3	entities/door_weak_block	Door (weak block)
 3	entities/frozen_door	Frozen door
-3	npc/ganon	Ganon
-3	npc/great_fairy	Great Fairy
 3	entities/bed	Hero's bed
 3	entities/hint_stone	Hint stone
-3	npc/inferno	Inferno
 3	entities/fresco	Intro fresco
-3	npc/monkey	Monkey
 3	entities/outside_door	Outside closed door
-3	npc/sahasrahla	Sahasrahla
 3	entities/sign	Sign
 3	entities/snores	Snoring (zzz)
 3	entities/somaria_block	Somaria block
 3	entities/statue	Statue
-3	entities/teletransporter	Teletransporter (yellow)
 3	entities/the_end	The end
-3	npc/thief	Thief
-3	npc/tom	Tom
 3	entities/torch	Torch
 3	entities/vine	Vine
 3	npc/tarkin	Tarkin

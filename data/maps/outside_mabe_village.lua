@@ -1,4 +1,4 @@
--- Mabe village
+-- Outside - Mabe village
 local map = ...
 
 local function set_music()

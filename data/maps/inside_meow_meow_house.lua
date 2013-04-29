@@ -1,4 +1,4 @@
--- Meow meow's House
+-- Inside - Meow meow's House
 local map = ...
 
 local function set_music()
