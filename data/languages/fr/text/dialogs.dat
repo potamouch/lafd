@@ -2672,7 +2672,6 @@ suis trop petit!
 }
 dialog{
   id = "owl_1",
-  skip = "all",
   text = [[
 Hou hou!        
 Cette épée      

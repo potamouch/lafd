@@ -4,12 +4,12 @@ local sprite = enemy:create_sprite("enemies/small_bowwow")
 
 function enemy:on_created()
 
-  enemy:set_invincible(true)
-  enemy:set_can_attack(false)
-  enemy:set_damage(0)
-  enemy:set_hurt_style("normal")
-  enemy:set_size(16, 16)
-  enemy:set_origin(8, 13)
+  self:set_invincible(true)
+  self:set_can_attack(false)
+  self:set_damage(0)
+  self:set_hurt_style("normal")
+  self:set_size(16, 16)
+  self:set_origin(8, 13)
 
 end
 

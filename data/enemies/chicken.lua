@@ -4,12 +4,12 @@ local sprite = enemy:create_sprite("enemies/chicken")
 
 function enemy:on_created()
 
-  enemy:set_life(10000000000000000)
-  enemy:set_can_attack(false)
-  enemy:set_damage(0)
-  enemy:set_hurt_style("normal")
-  enemy:set_size(16, 16)
-  enemy:set_origin(8, 13)
+  self:set_life(10000000000000000)
+  self:set_can_attack(false)
+  self:set_damage(0)
+  self:set_hurt_style("normal")
+  self:set_size(16, 16)
+  self:set_origin(8, 13)
 
 end
 

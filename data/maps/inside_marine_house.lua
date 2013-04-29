@@ -1,7 +1,7 @@
 -- Inside - Marine's House
 local map = ...
 
-local function set_music()
+function map:set_music()
 
   if map:get_game():get_value("step_1_link_search_sword") == true then
     sol.audio.play_music("sword_search")

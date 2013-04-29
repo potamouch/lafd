@@ -7199,6 +7199,60 @@ tile{
   pattern = 1317,
 }
 
+tile{
+  layer = 0,
+  x = 160,
+  y = 696,
+  width = 16,
+  height = 16,
+  pattern = 1327,
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 680,
+  width = 16,
+  height = 16,
+  pattern = 1326,
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 696,
+  width = 16,
+  height = 16,
+  pattern = 1325,
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 632,
+  width = 16,
+  height = 16,
+  pattern = 1326,
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 696,
+  width = 16,
+  height = 16,
+  pattern = 1327,
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 696,
+  width = 16,
+  height = 16,
+  pattern = 1326,
+}
+
 teletransporter{
   layer = 0,
   x = 0,
@@ -8544,7 +8598,7 @@ sensor{
   y = 509,
   width = 16,
   height = 16,
-  name = "owl_position_1",
+  name = "owl_1_position",
 }
 
 npc{
