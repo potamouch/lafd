@@ -1,6 +1,5 @@
 -- Owl
 local game = sol.main.game
-local map = game:get_map()
 local hero = game:get_map():get_entity("hero")
 local owl = game:get_map():get_entity("owl")
 
