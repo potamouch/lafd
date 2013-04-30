@@ -3,7 +3,7 @@ local map = ...
 -- Includes scripts
 sol.main.load_file("npc/owl")(game)
 
-local function set_music()
+function map:set_music()
 
   if map:get_game():get_value("step_1_link_search_sword") == true then
     sol.audio.play_music("sword_search")
@@ -21,7 +21,7 @@ end
 
 function map:on_started(destination)
 
-  set_music()
+  map:set_music()
   set_owl_disabled()
 
 end
@@ -29,7 +29,7 @@ end
 function owl_1_sensor:on_activated()
 
   if map:get_game():get_value("owl_1") == true then
-    set_music()
+    map:set_music()
   else
     owl_appear(1)
   end

@@ -74,7 +74,7 @@ end
 
 function map:on_started(destination)
 
-  set_music()
+  map:set_music()
   marine:get_sprite():set_animation("walking")
   repeat_marine_direction_check()
   if destination:get_name() == "start_position"  then
