@@ -1000,6 +1000,10 @@ end
 
 function savegame_menu:start_game(game)
 
+  -- Stop the savegame menu.
+  sol.main:start_menu(nil)
+
+  -- Start the game.
   local play_game = sol.main.load_file("play_game")
   play_game(game)
 end
