@@ -11976,15 +11976,6 @@ npc{
   sprite = "npc/grand_ma",
 }
 
-sensor{
-  layer = 0,
-  x = 616,
-  y = 525,
-  width = 16,
-  height = 16,
-  name = "link_search_sword_sensor",
-}
-
 teletransporter{
   layer = 0,
   x = 960,

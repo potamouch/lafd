@@ -28,7 +28,9 @@
 2	let_the_journey_begin	Let the journey begin
 2	overworld	Overworld
 2	mabe_village	Mabe village
-
+2	shop	Shop
+2	trendy_game	Trendy game
+2	inside_the_houses	Inside the houses
 3	npc/witch	Witch
 3	npc/marine	Marine
 3	npc/kid_1	Kid 1
@@ -82,3 +84,4 @@
 6	bowwow	Bow wow
 6	small_bowwow	Small Bow wow
 6	sea_urchin	Sea urchin
+7	fr	Français

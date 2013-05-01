@@ -7621,12 +7621,13 @@ sensor{
   name = "owl_1_sensor",
 }
 
-npc{
+pickable{
   layer = 0,
   x = 608,
   y = 733,
-  direction = 3,
-  subtype = "0",
+  name = "sword",
+  treasure_name = "sword",
+  treasure_savegame_variable = "step_2_link_found_sword",
 }
 
 tile{
