@@ -629,6 +629,15 @@ tile{
   pattern = 71,
 }
 
+tile{
+  layer = 1,
+  x = 88,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = 307,
+}
+
 destination{
   layer = 1,
   x = 160,
@@ -647,6 +656,34 @@ teletransporter{
   transition = 1,
   destination_map = "outside_mabe_village",
   destination = "old_man_house_1_2_A",
+}
+
+destructible{
+  layer = 1,
+  x = 248,
+  y = 197,
+  subtype = "pot",
+}
+
+destructible{
+  layer = 1,
+  x = 248,
+  y = 181,
+  subtype = "pot",
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 181,
+  subtype = "pot",
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 197,
+  subtype = "pot",
 }
 
 tile{

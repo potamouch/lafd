@@ -8,6 +8,51 @@ properties{
   music = "same",
 }
 
+sensor{
+  layer = 0,
+  x = 624,
+  y = 533,
+  width = 16,
+  height = 16,
+  name = "link_search_sword_sensor_2",
+}
+
+sensor{
+  layer = 0,
+  x = 632,
+  y = 541,
+  width = 16,
+  height = 16,
+  name = "link_search_sword_sensor_3",
+}
+
+sensor{
+  layer = 0,
+  x = 624,
+  y = 533,
+  width = 16,
+  height = 16,
+  name = "link_search_sword_sensor_4",
+}
+
+sensor{
+  layer = 0,
+  x = 632,
+  y = 541,
+  width = 16,
+  height = 16,
+  name = "link_search_sword_sensor_5",
+}
+
+sensor{
+  layer = 0,
+  x = 640,
+  y = 549,
+  width = 16,
+  height = 16,
+  name = "link_search_sword_sensor_6",
+}
+
 tile{
   layer = 1,
   x = 72,
@@ -565,7 +610,7 @@ npc{
 sensor{
   layer = 1,
   x = 160,
-  y = 229,
+  y = 221,
   width = 16,
   height = 16,
   name = "maison_link_exit_sensor",
@@ -579,6 +624,13 @@ npc{
   direction = 2,
   subtype = "1",
   sprite = "npc/marine",
+}
+
+chest{
+  layer = 1,
+  x = 208,
+  y = 85,
+  sprite = "entities/chest",
 }
 
 tile{

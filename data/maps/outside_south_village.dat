@@ -20,7 +20,7 @@ tile{
 tile{
   layer = 0,
   x = 808,
-  y = 448,
+  y = 440,
   width = 16,
   height = 16,
   pattern = 699,
@@ -6769,24 +6769,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 824,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = 1305,
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = 1305,
-}
-
-tile{
-  layer = 0,
   x = 840,
   y = 192,
   width = 8,
@@ -7102,17 +7084,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 856,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = 1307,
-}
-
-tile{
-  layer = 0,
   x = 784,
-  y = 448,
+  y = 440,
   width = 8,
   height = 16,
   pattern = 697,
@@ -7121,7 +7094,7 @@ tile{
 tile{
   layer = 0,
   x = 840,
-  y = 448,
+  y = 440,
   width = 8,
   height = 16,
   pattern = 700,
@@ -7129,62 +7102,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 784,
-  y = 424,
-  width = 16,
-  height = 24,
-  pattern = 1309,
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 416,
-  width = 16,
-  height = 8,
-  pattern = 1316,
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 416,
-  width = 32,
-  height = 8,
-  pattern = 1315,
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 424,
-  width = 32,
-  height = 24,
-  pattern = 1310,
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 424,
-  width = 16,
-  height = 24,
-  pattern = 1311,
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 416,
-  width = 16,
-  height = 8,
-  pattern = 1314,
-}
-
-tile{
-  layer = 0,
   x = 792,
-  y = 448,
+  y = 440,
   width = 16,
   height = 16,
   pattern = 1317,
@@ -7193,7 +7112,7 @@ tile{
 tile{
   layer = 0,
   x = 824,
-  y = 448,
+  y = 440,
   width = 16,
   height = 16,
   pattern = 1317,
@@ -7251,6 +7170,60 @@ tile{
   width = 16,
   height = 16,
   pattern = 1326,
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = 1331,
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = 1331,
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = 1330,
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 408,
+  width = 8,
+  height = 32,
+  pattern = 1384,
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 408,
+  width = 48,
+  height = 32,
+  pattern = 1385,
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 408,
+  width = 8,
+  height = 32,
+  pattern = 1386,
 }
 
 teletransporter{
@@ -7621,12 +7594,13 @@ sensor{
   name = "owl_1_sensor",
 }
 
-npc{
+pickable{
   layer = 0,
   x = 608,
   y = 733,
-  direction = 3,
-  subtype = "0",
+  name = "sword",
+  treasure_name = "sword",
+  treasure_savegame_variable = "step_2_link_found_sword",
 }
 
 tile{
@@ -8571,7 +8545,7 @@ tile{
   y = 256,
   width = 16,
   height = 32,
-  pattern = 1308,
+  pattern = 1329,
 }
 
 tile{
@@ -8580,7 +8554,7 @@ tile{
   y = 256,
   width = 16,
   height = 32,
-  pattern = 1308,
+  pattern = 1329,
 }
 
 tile{
@@ -8589,7 +8563,7 @@ tile{
   y = 288,
   width = 16,
   height = 32,
-  pattern = 1308,
+  pattern = 1329,
 }
 
 sensor{

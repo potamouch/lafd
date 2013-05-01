@@ -3,10 +3,12 @@ local map = ...
 
 function map:set_music()
 
-  if map:get_game():get_value("step_1_link_search_sword") == true then
+  if map:get_game():get_value("step_1_link_search_sword") == nil  then
+    sol.audio.play_music("links_awake")
+  elseif map:get_game():get_value("step_1_link_search_sword") == true and map:get_game():get_value("step_2_link_found_sword") == nil then
     sol.audio.play_music("sword_search")
   else
-    sol.audio.play_music("links_awake")
+    sol.audio.play_music("inside_the_houses")
   end
 
 end
@@ -29,8 +31,8 @@ local function jump_from_bed()
   hero:start_jumping(7, 24, true)
   map:set_pause_enabled(true)
   bed:get_sprite():set_animation("empty_open")
-  sol.audio.play_sound("hero_lands")
   map:get_game():set_starting_location("inside_marine_house", "marine_house_1_B")
+  sol.audio.play_sound("hero_lands")
 
 end
 
@@ -117,4 +119,11 @@ function marine:on_interaction()
 
 end
 
+function map:on_finished()
+
+  if map:get_game():has_item("shield") == true and map:get_game():get_value("link_search_sword" ) == false then
+    map:get_game():set_value("step_1_link_search_sword", true)
+  end
+
+end
 
