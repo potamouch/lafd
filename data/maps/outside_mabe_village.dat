@@ -9721,60 +9721,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
-  y = 600,
-  width = 16,
-  height = 24,
-  pattern = 1309,
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 600,
-  width = 16,
-  height = 24,
-  pattern = 1311,
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 600,
-  width = 32,
-  height = 24,
-  pattern = 1310,
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 592,
-  width = 16,
-  height = 8,
-  pattern = 1316,
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 592,
-  width = 16,
-  height = 8,
-  pattern = 1314,
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 592,
-  width = 32,
-  height = 8,
-  pattern = 1315,
-}
-
-tile{
-  layer = 0,
   x = 56,
   y = 624,
   width = 16,
@@ -9793,60 +9739,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 584,
-  y = 472,
-  width = 16,
-  height = 24,
-  pattern = 1322,
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 472,
-  width = 16,
-  height = 24,
-  pattern = 1324,
-}
-
-tile{
-  layer = 0,
-  x = 600,
-  y = 472,
-  width = 32,
-  height = 24,
-  pattern = 1323,
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 464,
-  width = 16,
-  height = 8,
-  pattern = 1318,
-}
-
-tile{
-  layer = 0,
-  x = 600,
-  y = 464,
-  width = 32,
-  height = 8,
-  pattern = 1321,
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 464,
-  width = 16,
-  height = 8,
-  pattern = 1320,
-}
-
-tile{
-  layer = 0,
   x = 592,
   y = 496,
   width = 16,
@@ -9861,6 +9753,60 @@ tile{
   width = 16,
   height = 16,
   pattern = 1317,
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 592,
+  width = 48,
+  height = 32,
+  pattern = 1385,
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 592,
+  width = 8,
+  height = 32,
+  pattern = 1386,
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 592,
+  width = 8,
+  height = 32,
+  pattern = 1384,
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = 1389,
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 464,
+  width = 48,
+  height = 32,
+  pattern = 1388,
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = 1387,
 }
 
 destructible{
