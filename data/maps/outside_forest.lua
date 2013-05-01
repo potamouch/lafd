@@ -1,15 +1,43 @@
 -- Outside - Forest
 local map = ...
 
-function map:on_started(destination)
+function map:set_music()
 
-  night_overlay = sol.surface.create(320, 240)  -- Créer une surface vide de 320x240 pixels appelée night_overlay.
-  night_overlay:set_opacity(192)  -- La rendre partiellement transparente.
-  night_overlay:fill_color({0, 0, 64})  -- La remplir en bleu foncé pour un effet de nuit.
+    sol.audio.play_music("mysterious_forest")
 
 end
 
+function map:on_started(destination)
 
-  function map:on_draw(destination_surface)
-    night_overlay:draw(destination_surface)
-  end
+  map:set_music()
+  map:set_overlay()
+
+end
+
+function map:on_draw(destination_surface)
+
+    overlay:draw(destination_surface, -200, 0)
+
+end
+
+function map:set_overlay()
+
+  overlay = sol.surface.create("entities/overlay_forest.png")
+  overlay:set_opacity(150)
+  overlay_m = sol.movement.create("straight") 
+  overlay_m:set_speed(16) 
+  overlay_m:set_angle(math.pi / 4)
+  overlay_m:set_max_distance(100)
+  map:overlay_movement_start()
+
+end
+
+function map:overlay_movement_start()
+
+  overlay_m:start(overlay, function()
+    overlay_m:set_speed(16)
+    overlay_m:set_angle(2 * math.pi - overlay_m:get_angle()) 
+    map:overlay_movement_start()
+  end)
+
+end

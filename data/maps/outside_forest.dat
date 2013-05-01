@@ -1,10 +1,28 @@
 properties{
   x = 0,
-  y = 0,
+  y = 768,
   width = 960,
   height = 768,
   world = "outside_world",
   tileset = "light_world",
   music = "same",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 544,
+  width = 160,
+  height = 128,
+  pattern = 526,
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 584,
+  width = 96,
+  height = 128,
+  pattern = 527,
 }
 
