@@ -1,5 +1,7 @@
 -- Outside - Forest
 local map = ...
+map.overlay_angles = {3*math.pi / 4, 5*math.pi / 4, math.pi / 4, 7*math.pi / 4}
+map.overlay_step = 1
 
 function map:set_music()
 
@@ -16,62 +18,30 @@ end
 
 function map:on_draw(destination_surface)
 
-    overlay:draw(destination_surface, -200, 0)
+    map.overlay:draw(destination_surface, 0, 0)
 
 end
 
 function map:set_overlay()
 
-  overlay = sol.surface.create("entities/overlay_forest.png")
-  overlay:set_opacity(150)
-  map:overlay_movement_1()
+  map.overlay = sol.surface.create("entities/overlay_forest.png")
+  map.overlay:set_opacity(150)
+  map.restart_overlay_movement()
 
 end
 
-function map:overlay_movement_1()
+function map:restart_overlay_movement()
 
-  overlay_m = sol.movement.create("straight") 
-  overlay_m:set_speed(16) 
-  overlay_m:set_angle(math.pi/4) 
-  overlay_m:set_max_distance(100)
-  overlay_m:start(overlay, function()
-    map:overlay_movement_2()
-  end)
-
-end
-
-function map:overlay_movement_2()
-
-  overlay_m = sol.movement.create("straight") 
-  overlay_m:set_speed(16) 
-  overlay_m:set_angle(2 * math.pi/3) 
-  overlay_m:set_max_distance(100)
-  overlay_m:start(overlay, function()
-    map:overlay_movement_3()
-  end)
-
-end
-
-function map:overlay_movement_3()
-
-  overlay_m = sol.movement.create("straight") 
-  overlay_m:set_speed(16) 
-  overlay_m:set_angle(- 2*math.pi/3) 
-  overlay_m:set_max_distance(100)
-  overlay_m:start(overlay, function()
-    map:overlay_movement_4()
-  end)
-
-end
-
-function map:overlay_movement_4()
-
-  overlay_m = sol.movement.create("straight") 
-  overlay_m:set_speed(16) 
-  overlay_m:set_angle(-math.pi/4) 
-  overlay_m:set_max_distance(100)
-  overlay_m:start(overlay, function()
-    map:overlay_movement_1()
+  map.overlay_m = sol.movement.create("straight") 
+  map.overlay_m:set_speed(16) 
+  map.overlay_m:set_max_distance(100)
+  map.overlay_m:set_angle(map.overlay_angles[map.overlay_step])
+  map.overlay_step = map.overlay_step + 1
+  if map.overlay_step > #map.overlay_angles then
+    map.overlay_step = 1
+  end
+  map.overlay_m:start(map.overlay, function()
+    map:restart_overlay_movement()
   end)
 
 end
