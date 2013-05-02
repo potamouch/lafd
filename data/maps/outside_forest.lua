@@ -37,7 +37,7 @@ function map:overlay_movement_start()
   overlay_m:start(overlay, function()
     overlay_m:set_speed(16)
     overlay_m:set_angle(2 * math.pi - overlay_m:get_angle()) 
-    map:overlay_movement_start()
+    map:set_overlay()
   end)
 
 end
