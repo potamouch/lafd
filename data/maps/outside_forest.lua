@@ -24,20 +24,54 @@ function map:set_overlay()
 
   overlay = sol.surface.create("entities/overlay_forest.png")
   overlay:set_opacity(150)
-  overlay_m = sol.movement.create("straight") 
-  overlay_m:set_speed(16) 
-  overlay_m:set_angle(math.pi / 4)
-  overlay_m:set_max_distance(100)
-  map:overlay_movement_start()
+  map:overlay_movement_1()
 
 end
 
-function map:overlay_movement_start()
+function map:overlay_movement_1()
 
+  overlay_m = sol.movement.create("straight") 
+  overlay_m:set_speed(16) 
+  overlay_m:set_angle(math.pi/4) 
+  overlay_m:set_max_distance(100)
   overlay_m:start(overlay, function()
-    overlay_m:set_speed(16)
-    overlay_m:set_angle(2 * math.pi - overlay_m:get_angle()) 
-    map:set_overlay()
+    map:overlay_movement_2()
+  end)
+
+end
+
+function map:overlay_movement_2()
+
+  overlay_m = sol.movement.create("straight") 
+  overlay_m:set_speed(16) 
+  overlay_m:set_angle(2 * math.pi/3) 
+  overlay_m:set_max_distance(100)
+  overlay_m:start(overlay, function()
+    map:overlay_movement_3()
+  end)
+
+end
+
+function map:overlay_movement_3()
+
+  overlay_m = sol.movement.create("straight") 
+  overlay_m:set_speed(16) 
+  overlay_m:set_angle(- 2*math.pi/3) 
+  overlay_m:set_max_distance(100)
+  overlay_m:start(overlay, function()
+    map:overlay_movement_4()
+  end)
+
+end
+
+function map:overlay_movement_4()
+
+  overlay_m = sol.movement.create("straight") 
+  overlay_m:set_speed(16) 
+  overlay_m:set_angle(-math.pi/4) 
+  overlay_m:set_max_distance(100)
+  overlay_m:start(overlay, function()
+    map:overlay_movement_1()
   end)
 
 end
