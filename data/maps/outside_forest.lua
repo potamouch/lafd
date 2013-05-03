@@ -1,4 +1,8 @@
 -- Outside - Forest
+
+-- Includes scripts
+sol.main.load_file("npc/owl")(game)
+-- Variables
 local map = ...
 map.overlay_angles = {
   3 * math.pi / 4,
@@ -8,6 +12,7 @@ map.overlay_angles = {
 }
 map.overlay_step = 1
 
+-- Functions
 function map:set_music()
 
   sol.audio.play_music("mysterious_forest")
@@ -18,6 +23,7 @@ function map:on_started(destination)
 
   map:set_music()
   map:set_overlay()
+  set_owl_disabled()
 
 end
 
@@ -72,4 +78,21 @@ function map:restart_overlay_movement()
   end)
 
 end
+
+function owl_1_sensor:on_activated()
+
+  if map:get_game():get_value("owl_2") == true then
+    map:set_music()
+  else
+    owl_appear(2)
+  end
+
+end
+
+local function set_owl_disabled()
+
+  owl:set_visible(false)
+
+end
+
 
