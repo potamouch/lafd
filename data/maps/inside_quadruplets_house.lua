@@ -1,5 +1,9 @@
 -- Inside - Quadruplet's house
+
+-- Variables
 local map = ...
+
+-- Functions
 
 function map:set_music()
 

@@ -2539,6 +2539,7 @@ sais pas, je
 suis trop petit!
 ]]
 }
+-----------------------
 dialog{
   id = "owl_1",
   text = [[
@@ -2567,6 +2568,37 @@ Hou hou!
 ]]
 }
 -----------------------
+dialog{
+  id = "owl_2",
+  text = [[
+Hou! Bienvenue  
+à la Forêt      
+Enchantée, mon  
+brave garçon!   
+L'île Cocolint  
+abonde en       
+mystères et     
+n'existe sur    
+aucune carte.   
+Son règlement   
+est unique!     
+Tu ne pourras   
+pas la quitter  
+tant que le     
+Poisson-Rêve    
+dormira.        
+A propos,       
+as-tu visité la 
+Cave Flagello,  
+située au Sud   
+du village?     
+Vas-y avec la   
+Clé cachée      
+dans la Forêt.  
+Le Poisson-Rêve 
+te regarde.Hou!
+]]
+}
 -----------------------
 dialog{
   id = "mabe_village.sign_1",

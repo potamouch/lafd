@@ -1,7 +1,12 @@
 -- Outside - South village
-local map = ...
+
 -- Includes scripts
 sol.main.load_file("npc/owl")(game)
+
+-- Variables
+local map = ...
+
+-- Functions
 
 function map:set_music()
 
@@ -13,16 +18,18 @@ function map:set_music()
 
 end
 
-local function set_owl_disabled()
-
-  owl:set_visible(false)
-
-end
-
 function map:on_started(destination)
 
   map:set_music()
   set_owl_disabled()
+
+end
+
+function map:on_obtained_treasure(item, variant, savegame_variable)
+
+  if( item:get_name() == "sword" ) then
+    map:set_music()
+  end
 
 end
 
@@ -36,11 +43,9 @@ function owl_1_sensor:on_activated()
 
 end
 
-function map:on_obtained_treasure(item, variant, savegame_variable)
+local function set_owl_disabled()
 
-  if( item:get_name() == "sword" ) then
-    map:set_music()
-  end
+  owl:set_visible(false)
 
 end
 

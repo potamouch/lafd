@@ -965,6 +965,15 @@ teletransporter{
   destination = "_side",
 }
 
+sensor{
+  layer = 0,
+  x = 144,
+  y = 709,
+  width = 96,
+  height = 48,
+  name = "owl_1_sensor",
+}
+
 tile{
   layer = 1,
   x = 176,
@@ -1179,5 +1188,43 @@ tile{
   width = 32,
   height = 32,
   pattern = 1336,
+}
+
+sensor{
+  layer = 2,
+  x = 704,
+  y = 517,
+  width = 16,
+  height = 16,
+  name = "owl_1_position_2",
+}
+
+npc{
+  layer = 2,
+  x = 720,
+  y = 525,
+  name = "owl_2",
+  direction = 3,
+  subtype = "0",
+  sprite = "npc/owl",
+}
+
+sensor{
+  layer = 2,
+  x = 240,
+  y = 477,
+  width = 16,
+  height = 16,
+  name = "owl_2_position",
+}
+
+npc{
+  layer = 2,
+  x = 240,
+  y = 477,
+  name = "owl",
+  direction = 3,
+  subtype = "0",
+  sprite = "npc/owl",
 }
 
