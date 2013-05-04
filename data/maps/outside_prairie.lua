@@ -1,5 +1,10 @@
 -- Outside - Prairie
+
+-- Variables
+
 local map = ...
+
+-- Methods - Functions
 
 function map:set_music()
 
@@ -11,6 +16,7 @@ function map:set_music()
 
 end
 
+-- Events
 
 function map:on_started(destination)
 

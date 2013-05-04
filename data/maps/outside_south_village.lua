@@ -1,6 +1,7 @@
 -- Outside - South village
 
 -- Includes scripts
+
 sol.main.load_file("npc/owl")(game)
 
 -- Variables
@@ -47,7 +48,7 @@ function owl_1_sensor:on_activated()
   if map:get_game():get_value("owl_1") == true then
     map:set_music()
   else
-    owl_appear(1)
+    map:owl_appear(1)
   end
 
 end

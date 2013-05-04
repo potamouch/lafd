@@ -1,5 +1,9 @@
 -- Outside - Mabe village
+
+-- Variables
 local map = ...
+
+-- Methods - Functions
 
 function map:set_music()
 
@@ -11,13 +15,13 @@ function map:set_music()
 
 end
 
-local function  talk_to_grand_ma()
+function  map:talk_to_grand_ma()
 
   map:start_dialog("mabe_village.grand_ma_1")
 
 end
 
-local function  talk_to_kids() 
+function  map:talk_to_kids() 
 
   local rand = math.random(4)
   map:start_dialog("mabe_village.kids_" .. rand)
@@ -31,20 +35,22 @@ function map:on_started(destination)
 
 end
 
+-- Events
+
 function grand_ma:on_interaction()
 
-  talk_to_grand_ma()
+  map:talk_to_grand_ma()
 
 end
 
 function kid_1:on_interaction()
 
-  talk_to_kids()
+  map:talk_to_kids()
 
 end
 
 function kid_2:on_interaction()
 
-  talk_to_kids()
+  map:talk_to_kids()
 
 end

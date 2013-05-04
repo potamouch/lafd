@@ -1,9 +1,10 @@
 -- Owl
 local game = sol.main.game
+local map = game:get_map()
 local hero = game:get_map():get_entity("hero")
 local owl = game:get_map():get_entity("owl")
 
-function owl_appear(step)
+function map:owl_appear(step)
   
   game:get_map():set_pause_enabled(false)
   owl:set_visible(true)
