@@ -36,16 +36,6 @@ quest_status.caption.quiver_2		Grand Carquois
 quest_status.caption.quiver_3		Carquois Géant
 quest_status.caption.world_map		Carte du Monde
 quest_status.caption.pieces_of_heart	Fragments de Coeur
-quest_status.caption.tunic_1		Cotte de Mailles$verte
-quest_status.caption.tunic_2		Cotte de Mailles$bleue
-quest_status.caption.tunic_3		Cotte de Mailles$rouge
-quest_status.caption.sword_1		Epée du Courage
-quest_status.caption.sword_2		Glaive Hylien
-quest_status.caption.sword_3		Sabre du Héros
-quest_status.caption.sword_4		Lame Purificatrice
-quest_status.caption.shield_1		Bouclier
-quest_status.caption.shield_2		Bouclier de Feu
-quest_status.caption.shield_3		Bouclier Miroir
 
 # Inventory submenu
 inventory.caption.item.feather.1			Plume
@@ -61,6 +51,15 @@ inventory.caption.item.lamp.1				Lanterne
 inventory.caption.item.hookshot.1			Grappin
 inventory.caption.item.pegasus_shoes.1			Bottes de Pégase
 inventory.caption.item.flippers.1			Palmes
+inventory.caption.item.tunic.1		Cotte de Mailles$verte
+inventory.caption.item.tunic.2		Cotte de Mailles$bleue
+inventory.caption.item.tunic.3		Cotte de Mailles$rouge
+inventory.caption.item.sword.1		Epée
+inventory.caption.item.sword.2		Glaive Hylien
+inventory.caption.item.shield.1		Bouclier
+inventory.caption.item.shield.2		Bouclier reflet
+inventory.caption.item.magic_powder.1		Champignon magique
+inventory.caption.item.magic_powder.2		Poudre magique
 # Options submenu
 options.caption.press_action_change_mode	Appuyez sur Action$pour changer de mode
 options.caption.press_action_customize_key	Appuyez sur Action pour$configurer cette touche

@@ -1,7 +1,7 @@
 local submenu = require("menus/pause_submenu")
 local inventory_submenu = submenu:new()
 
-local item_names = {
+local item_names_assignable = {
   "shield",
   "magic_powder",
   "feather",
@@ -13,6 +13,12 @@ local item_names = {
   "ocarina",
   "boomerang"
 }
+local item_names_static = {
+  "tunic",
+  "sword",
+  "flippers",
+  "magnifying_lens"
+}
 
 function inventory_submenu:on_started()
 
@@ -23,11 +29,11 @@ function inventory_submenu:on_started()
   self.captions = {}
 
   -- Load Items
-  for k = 1, #item_names do
-    local item = self.game:get_item(item_names[k])
+  for k = 1, #item_names_assignable do
+    local item = self.game:get_item(item_names_assignable[k])
     local variant = item:get_variant()
     self.sprites[k] = sol.sprite.create("entities/items")
-    self.sprites[k]:set_animation(item_names[k])
+    self.sprites[k]:set_animation(item_names_assignable[k])
 
   end
 
@@ -62,13 +68,12 @@ function inventory_submenu:set_cursor_position(row, column)
 
   self.cursor_row = row
   self.cursor_column = column
+    local index = row * 3 + column
 
-  local index = row * 3 + column
-print(index)
   self.game:set_value("pause_inventory_last_item_index", index)
 
   -- Update the caption text and the action icon.
-  local item_name = item_names[index + 1]
+  local item_name = item_names_assignable[index + 1]
   local item = self.game:get_item(item_name)
   local variant = item:get_variant()
   local item_icon_opacity = 128
@@ -89,7 +94,7 @@ end
 
 function inventory_submenu:is_item_selected()
 
-  local item_name = item_names[self:get_selected_index() + 1]
+  local item_name = item_names_assignable[self:get_selected_index() + 1]
 
   return self.game:get_item(item_name):get_variant() > 0
 
@@ -97,7 +102,7 @@ end
 
 function inventory_submenu:get_selected_index()
 
-  return self.cursor_row * 7 + self.cursor_column
+  return self.cursor_row * 3 + self.cursor_column
 
 end
 
@@ -108,7 +113,7 @@ end
 function inventory_submenu:assign_item(slot)
 
   local index = self:get_selected_index() + 1
-  local item_name = item_names[index]
+  local item_name = item_names_assignable[index]
   local item = self.game:get_item(item_name)
 
   -- If this item is not assignable, do nothing.
@@ -172,7 +177,7 @@ end
 -- The player is supposed to have this item.
 function inventory_submenu:show_info_message()
 
-  local item_name = item_names[self:get_selected_index() + 1]
+  local item_name = item_names_assignable[self:get_selected_index() + 1]
   local variant = self.game:get_item(item_name):get_variant()
   local map = self.game:get_map()
 
@@ -255,7 +260,7 @@ function inventory_submenu:on_draw(dst_surface)
   self:draw_background(dst_surface)
   self:draw_caption(dst_surface)
 
-  -- Draw each inventory item.
+  -- Draw each inventory assignable item.
   local y = 82
   local k = 0
 
@@ -264,8 +269,8 @@ function inventory_submenu:on_draw(dst_surface)
 
     for j = 0, 2 do
       k = k + 1
-      if item_names[k] ~= nil then
-        local item = self.game:get_item(item_names[k])
+      if item_names_assignable[k] ~= nil then
+        local item = self.game:get_item(item_names_assignable[k])
         if item:get_variant() > 0 then
           -- The player has this item: draw it.
           self.sprites[k]:draw(dst_surface, x, y)

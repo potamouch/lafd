@@ -88,6 +88,21 @@ magic_cape entities/items.png 1 0 -1
 magic_rod entities/items.png 1 0 -1
 304	16	16	16	8	13	1	1
 
+tail_key entities/items.png 1 0 -1
+320	0	16	24	8	13	1	1
+
+slim_key entities/items.png 1 0 -1
+368	0	16	24	8	13	1	1
+
+angler_key entities/items.png 1 0 -1
+336	0	16	24	8	13	1	1
+
+face_key entities/items.png 1 0 -1
+384	0	16	24	8	13	1	1
+
+bird_key entities/items.png 1 0 -1
+352	0	16	24	8	13	1	1
+
 shovel entities/items.png 1 0 -1
 304	32	16	16	8	13	1	1
 
@@ -230,4 +245,7 @@ blue_potion entities/items.png 1 0 -1
 144	80	16	16	8	13	1	1
 
 magic_powder entities/items.png 1 0 -1
+112	0	16	16	8	13	1	1
+
+magnifying_lens entities/items.png 1 0 -1
 112	0	16	16	8	13	1	1

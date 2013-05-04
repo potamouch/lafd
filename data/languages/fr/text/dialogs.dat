@@ -517,10 +517,98 @@ dialog{
   next = "_treasure.sword.2.1",
   text = [[
 Tu as une       
-nouvelle Epée! $0 
+nouvelle Epée!$0 
 N'oublie pas de 
 graver ton nom  
 dessus!
+]]
+}
+--------------------
+-- Champignon magique
+dialog{
+  id = "_treasure.magic_powder.1",
+  icon = 67,
+  text = [[
+Tu as trouvé    
+le Champignon!$0
+Un arôme subtil 
+exalte ton sens 
+de l'odorat.
+]]
+}
+--------------------
+
+-- Poudre magique
+dialog{
+  id = "_treasure.magic_powder.2",
+  icon = 67,
+  text = [[
+Tu as gagné la  
+Poudre Magique! $0
+Tu peux la      
+saupoudrer sur  
+plein de trucs
+]]
+}
+--------------------
+
+-- Clé Flagello
+dialog{
+  id = "_treasure.tail_key.1",
+  icon = 67,
+  text = [[
+Tu as la        
+Clé Flagello!   
+Tu peux ouvrir  
+la porte de la  
+Cave Flagello!
+]]
+}
+--------------------
+
+-- Clé Cyclope
+dialog{
+  id = "_treasure.slim_key.1",
+  icon = 67,
+  text = [[
+Tu as la        
+Clé Cyclope!    
+Vite! Va vers   
+l'entrée de     
+La Prairie!
+]]
+}
+--------------------
+
+-- Clé Vautour
+dialog{
+  id = "_treasure.bird_key.1",
+  icon = 67,
+  text = [[
+Tu as la        
+Clé Vautour!
+]]
+}
+--------------------
+
+-- Clé poisson
+dialog{
+  id = "_treasure.angler_key.1",
+  icon = 67,
+  text = [[
+Tu as la        
+Clé Poisson!
+]]
+}
+--------------------
+
+-- Clé Masque
+dialog{
+  id = "_treasure.face_key.1",
+  icon = 67,
+  text = [[
+Tu as la        
+Clé Masque!
 ]]
 }
 --------------------

@@ -1,7 +1,6 @@
 local game = ...
 
 local inventory_builder = require("menus/pause_inventory")
-local map_builder = require("menus/pause_map")
 local quest_status_builder = require("menus/pause_quest_status")
 local options_builder = require("menus/pause_options")
 
@@ -9,7 +8,6 @@ function game:start_pause_menu()
 
   self.pause_submenus = {
     inventory_builder:new(self),
-    map_builder:new(self),
     quest_status_builder:new(self),
     options_builder:new(self),
   }
