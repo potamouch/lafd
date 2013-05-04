@@ -8839,15 +8839,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 616,
-  y = 256,
-  width = 32,
-  height = 24,
-  pattern = 1237,
-}
-
-tile{
-  layer = 0,
   x = 816,
   y = 656,
   width = 32,
@@ -12044,6 +12035,16 @@ teletransporter{
   destination = "library_1_B",
 }
 
+npc{
+  layer = 0,
+  x = 632,
+  y = 309,
+  name = "weathercock",
+  direction = 3,
+  subtype = "0",
+  behavior = "dialog#mabe_village.weathercock",
+}
+
 tile{
   layer = 2,
   x = 144,
@@ -13527,5 +13528,14 @@ tile{
   width = 48,
   height = 16,
   pattern = 512,
+}
+
+tile{
+  layer = 2,
+  x = 616,
+  y = 256,
+  width = 32,
+  height = 24,
+  pattern = 1237,
 }
 

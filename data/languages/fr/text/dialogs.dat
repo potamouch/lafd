@@ -2479,6 +2479,15 @@ pêche! Et toi?
 }
 -----------------------
 dialog{
+  id = "mabe_village.weathercock",
+  skip = "all",
+  text = [[
+Ci-gît          
+le Coq Volant.
+]]
+}
+-----------------------
+dialog{
   id = "mabe_village.kids_1",
   skip = "all",
   text = [[
