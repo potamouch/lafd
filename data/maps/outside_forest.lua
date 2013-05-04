@@ -101,4 +101,16 @@ function owl_1_sensor:on_activated()
 
 end
 
+--[[
+function lost_sensor:on_activated()
+
+  local x, y = hero:get_position()
+  local sensor_x, sensor_y = self:get_position()
+  local marker_x, marker_y = lost_destination:get_position()
+  hero:set_position(x + marker_x - sensor_x, y + marker_y - sensor_y)
+  -- TODO update the bushes and the grass.
+  -- - update the overlay
+  -- - make sure no enemies or pickables can be in the area
+end
+--]
 
