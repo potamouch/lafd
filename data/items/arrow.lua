@@ -13,6 +13,7 @@ function item:on_started()
   -- We cannot do this from on_created() because we don't know if the bow
   -- is already created there.
   self:set_obtainable(self:get_game():has_item("bow"))
+
 end
 
 function item:on_obtaining(variant, savegame_variable)
@@ -24,5 +25,6 @@ function item:on_obtaining(variant, savegame_variable)
     error("Invalid variant '" .. variant .. "' for item 'arrow'")
   end
   self:get_game():get_item("bow"):add_amount(amount)
+
 end
 

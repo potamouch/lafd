@@ -628,8 +628,74 @@ npc{
 
 chest{
   layer = 1,
-  x = 208,
-  y = 85,
+  x = 112,
+  y = 141,
+  treasure_name = "boomerang",
+  treasure_savegame_variable = "test_1",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 128,
+  y = 141,
+  treasure_name = "bow",
+  treasure_variant = 2,
+  treasure_savegame_variable = "test_2",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 144,
+  y = 141,
+  treasure_name = "feather",
+  treasure_savegame_variable = "test_3",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 160,
+  y = 141,
+  treasure_name = "bomb_bag",
+  treasure_savegame_variable = "test_4",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 176,
+  y = 141,
+  treasure_name = "shovel",
+  treasure_savegame_variable = "test_5",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 192,
+  y = 141,
+  treasure_name = "magic_rod",
+  treasure_savegame_variable = "test_6",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 96,
+  y = 141,
+  treasure_name = "ocarina",
+  treasure_savegame_variable = "test_7",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 80,
+  y = 141,
+  treasure_name = "arrow",
+  treasure_savegame_variable = "test_7",
   sprite = "entities/chest",
 }
 

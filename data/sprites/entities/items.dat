@@ -79,8 +79,17 @@ level_4_way entities/items.png 4 0 -1
 flippers entities/items.png 1 0 -1
 288	0	16	16	8	13	1	1
 
+ocarina entities/items.png 1 0 -1
+288	16	16	16	8	13	1	1
+
 magic_cape entities/items.png 1 0 -1
 304	0	16	16	8	13	1	1
+
+magic_rod entities/items.png 1 0 -1
+304	16	16	16	8	13	1	1
+
+shovel entities/items.png 1 0 -1
+304	32	16	16	8	13	1	1
 
 bottle_3 entities/items.png 6 0 -1
 96	0	16	16	8	13	1	1
@@ -219,3 +228,6 @@ green_potion entities/items.png 1 0 -1
 
 blue_potion entities/items.png 1 0 -1
 144	80	16	16	8	13	1	1
+
+magic_powder entities/items.png 1 0 -1
+112	0	16	16	8	13	1	1

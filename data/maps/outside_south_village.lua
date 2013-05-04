@@ -29,6 +29,21 @@ function map:on_started(destination)
 
 end
 
+
+function map:on_obtaining_treasure(item, variant, savegame_variable)
+
+  item:set_sound_when_brandished(')
+
+end
+
+function map:on_obtained_treasure(item, variant, savegame_variable)
+
+  if( item:get_name() == "sword" ) then
+    map:set_music()
+  end
+
+end
+
 function map:on_obtained_treasure(item, variant, savegame_variable)
 
   if( item:get_name() == "sword" ) then

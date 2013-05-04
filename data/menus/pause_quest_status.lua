@@ -17,40 +17,6 @@ function quest_status_submenu:on_started()
   self.quest_items_surface:set_transparency_color{0, 0, 0}
   self.quest_items_surface:fill_color{0, 0, 0}
 
-  -- Tunic.
-  local tunic = self.game:get_item("tunic"):get_variant()
-  item_sprite:set_animation("tunic")
-  item_sprite:set_direction(tunic - 1)
-  item_sprite:draw(self.quest_items_surface, 185, 177)
-  self.caption_text_keys[5] = "quest_status.caption.tunic_" .. tunic
-
-  -- Sword.
-  local sword = self.game:get_item("sword"):get_variant()
-  if sword > 0 then
-    item_sprite:set_animation("sword")
-    item_sprite:set_direction(sword - 1)
-    item_sprite:draw(self.quest_items_surface, 219, 177)
-    self.caption_text_keys[6] = "quest_status.caption.sword_" .. sword
-  end
-
-  -- Shield.
-  local shield = self.game:get_item("shield"):get_variant()
-  if shield > 0 then
-    item_sprite:set_animation("shield")
-    item_sprite:set_direction(shield - 1)
-    item_sprite:draw(self.quest_items_surface, 253, 177)
-    self.caption_text_keys[7] = "quest_status.caption.shield_" .. shield
-  end
-
-  -- Wallet.
-  local rupee_bag = self.game:get_item("rupee_bag"):get_variant()
-  if rupee_bag > 0 then
-    item_sprite:set_animation("rupee_bag")
-    item_sprite:set_direction(rupee_bag - 1)
-    item_sprite:draw(self.quest_items_surface, 68, 84)
-    self.caption_text_keys[0] = "quest_status.caption.rupee_bag_" .. rupee_bag
-  end
-
   -- Pieces of heart.
   local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
   local x = 51 * (self.game:get_value("i1030") or 0)
