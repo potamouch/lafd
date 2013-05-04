@@ -32,15 +32,29 @@ function title_screen:phase_logo_presents()
 
   -- Actual presentation screen
   self.phase = "zs_presents"
-
-  local logo_presents_img =
-      sol.surface.create("title_presentation.png", true)
-
+  local logo_presents_img = sol.surface.create("title_presentation.png", true)
   local width, height = logo_presents_img:get_size()
   local x, y = 160 - width / 2, 120 - height / 2
   logo_presents_img:draw(self.surface, x, y)
   sol.audio.play_sound("intro")
   -- "Zelda Solarus presents" displayed for two seconds
+  self.timer = sol.timer.start(self, 2000, function()
+    self:phase_logo_solarus()
+  end)
+
+end
+
+function title_screen:phase_logo_solarus()
+
+  self.phase = "solarus_logo"
+  local background_color = sol.surface.create(320, 240)  
+  background_color:fill_color({255, 255, 255})
+  local background_img = sol.surface.create("menus/solarus_logo.png")
+  local width, height = background_img:get_size()
+  local x, y = 160 - width / 2, 120 - height / 2
+  background_color:draw(self.surface, 0, 0)
+  background_img:draw(self.surface, x, y)
+  -- "Solarus presents" displayed for two seconds
   self.timer = sol.timer.start(self, 2000, function()
     self:phase_intro()
   end)
@@ -74,13 +88,9 @@ end
 
 function title_screen:on_draw(dst_surface)
 
-  if self.phase == "zs_presents" then
-	--self.logo_presents_img:draw(self.surface)
-  end
-
-  -- final blit (dst_surface may be larger)
   local width, height = dst_surface:get_size()
   self.surface:draw(dst_surface, width / 2 - 160, height / 2 - 120)
+
 end
 
 function title_screen:on_key_pressed(key)

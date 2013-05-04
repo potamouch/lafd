@@ -19,6 +19,32 @@ function map:set_music()
 
 end
 
+function map:set_overlay()
+
+  map.overlay = sol.surface.create("entities/overlay_forest.png")
+  map.overlay:set_opacity(96)
+  map.overlay_m = sol.movement.create("straight")
+  map.restart_overlay_movement()
+
+end
+
+function map:restart_overlay_movement()
+
+  map.overlay_m:set_speed(16) 
+  map.overlay_m:set_max_distance(100)
+  map.overlay_m:set_angle(map.overlay_angles[map.overlay_step])
+  map.overlay_step = map.overlay_step + 1
+  if map.overlay_step > #map.overlay_angles then
+    map.overlay_step = 1
+  end
+  map.overlay_m:start(map.overlay, function()
+    map:restart_overlay_movement()
+  end)
+
+end
+
+-- Events
+
 function map:on_started(destination)
 
   map:set_music()
@@ -55,27 +81,9 @@ function map:on_draw(destination_surface)
 
 end
 
-function map:set_overlay()
+function map:set_owl_disabled()
 
-  map.overlay = sol.surface.create("entities/overlay_forest.png")
-  map.overlay:set_opacity(96)
-  map.overlay_m = sol.movement.create("straight")
-  map.restart_overlay_movement()
-
-end
-
-function map:restart_overlay_movement()
-
-  map.overlay_m:set_speed(16) 
-  map.overlay_m:set_max_distance(100)
-  map.overlay_m:set_angle(map.overlay_angles[map.overlay_step])
-  map.overlay_step = map.overlay_step + 1
-  if map.overlay_step > #map.overlay_angles then
-    map.overlay_step = 1
-  end
-  map.overlay_m:start(map.overlay, function()
-    map:restart_overlay_movement()
-  end)
+  owl:set_visible(false)
 
 end
 
@@ -86,12 +94,6 @@ function owl_1_sensor:on_activated()
   else
     owl_appear(2)
   end
-
-end
-
-local function set_owl_disabled()
-
-  owl:set_visible(false)
 
 end
 

@@ -4,6 +4,7 @@
 sol.main.load_file("npc/owl")(game)
 
 -- Variables
+
 local map = ...
 
 -- Functions
@@ -18,10 +19,12 @@ function map:set_music()
 
 end
 
+-- Events
+
 function map:on_started(destination)
 
   map:set_music()
-  set_owl_disabled()
+  map:set_owl_disabled()
 
 end
 
@@ -30,6 +33,12 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
   if( item:get_name() == "sword" ) then
     map:set_music()
   end
+
+end
+
+function map:set_owl_disabled()
+
+  owl:set_visible(false)
 
 end
 
@@ -42,11 +51,3 @@ function owl_1_sensor:on_activated()
   end
 
 end
-
-local function set_owl_disabled()
-
-  owl:set_visible(false)
-
-end
-
-
