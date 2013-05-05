@@ -13716,6 +13716,7 @@ npc{
   direction = 3,
   subtype = "0",
   sprite = "entities/sign",
+  behavior = "dialog#prairie.sign_1",
 }
 
 destructible{
@@ -13794,7 +13795,7 @@ teletransporter{
   y = 0,
   width = 16,
   height = 768,
-  name = "to_d1_3",
+  name = "to_c1",
   transition = 2,
   destination_map = "outside_mabe_village",
   destination = "_side",
@@ -16265,6 +16266,18 @@ destructible{
   x = 136,
   y = 85,
   subtype = "bush",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 960,
+  height = 16,
+  name = "to_b2",
+  transition = 2,
+  destination_map = "outside_cimetary",
+  destination = "_side",
 }
 
 tile{

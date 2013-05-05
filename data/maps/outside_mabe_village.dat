@@ -11919,7 +11919,7 @@ teletransporter{
   y = -32,
   width = 16,
   height = 816,
-  name = "to_d1_2",
+  name = "to_c2",
   transition = 2,
   destination_map = "outside_prairie",
   destination = "_side",

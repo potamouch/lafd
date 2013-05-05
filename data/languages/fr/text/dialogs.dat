@@ -1598,6 +1598,18 @@ un bouclier!
 }
 -----------------------
 
+-----------------------
+dialog{
+  id = "prairie.sign_1",
+  skip = "all",
+  text = [[
+Est > Prairie   
+Plus à l'Est    
+Village des Animaux
+]]
+}
+-----------------------
+
 dialog{
   id = "item.mushroom",
   skip = "all",

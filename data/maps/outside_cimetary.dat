@@ -1,0 +1,106 @@
+properties{
+  x = 960,
+  y = 768,
+  width = 960,
+  height = 768,
+  world = "outside_world",
+  tileset = "light_world",
+  music = "same",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 192,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 0,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 192,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 384,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 384,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 576,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 576,
+  width = 240,
+  height = 192,
+  pattern = 722,
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 768,
+  width = 960,
+  height = 16,
+  name = "to_c2",
+  transition = 2,
+  destination_map = "outside_prairie",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 784,
+  name = "to_b1",
+  transition = 2,
+  destination_map = "outside_prairie",
+  destination = "_side",
+}
+

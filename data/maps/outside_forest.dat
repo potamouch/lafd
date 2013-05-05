@@ -8933,7 +8933,7 @@ teletransporter{
   y = 768,
   width = 960,
   height = 16,
-  name = "to_b1_2",
+  name = "to_c1",
   transition = 2,
   destination_map = "outside_mabe_village",
   destination = "_side",
@@ -8941,10 +8941,10 @@ teletransporter{
 
 sensor{
   layer = 0,
-  x = 64,
-  y = 797,
+  x = 120,
+  y = 733,
   width = 96,
-  height = 48,
+  height = 16,
   name = "owl_1_sensor",
 }
 
@@ -10322,6 +10322,28 @@ pickable{
   x = 32,
   y = 229,
   treasure_name = "magic_powder",
+}
+
+npc{
+  layer = 0,
+  x = 432,
+  y = 277,
+  name = "tarkin",
+  direction = 3,
+  subtype = "0",
+  sprite = "npc/tarkin",
+}
+
+teletransporter{
+  layer = 0,
+  x = 960,
+  y = -32,
+  width = 16,
+  height = 816,
+  name = "to_b2",
+  transition = 2,
+  destination_map = "outside_cimetary",
+  destination = "_side",
 }
 
 tile{
@@ -12072,27 +12094,8 @@ tile{
 
 sensor{
   layer = 2,
-  x = -40,
-  y = 525,
-  width = 16,
-  height = 16,
-  name = "owl_1_position_2",
-}
-
-npc{
-  layer = 2,
-  x = -24,
+  x = 256,
   y = 533,
-  name = "owl_2",
-  direction = 3,
-  subtype = "0",
-  sprite = "npc/owl",
-}
-
-sensor{
-  layer = 2,
-  x = -32,
-  y = 445,
   width = 16,
   height = 16,
   name = "owl_2_position",
@@ -12100,8 +12103,8 @@ sensor{
 
 npc{
   layer = 2,
-  x = -32,
-  y = 445,
+  x = 256,
+  y = 541,
   name = "owl",
   direction = 3,
   subtype = "0",

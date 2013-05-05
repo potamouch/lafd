@@ -1,17 +1,23 @@
-stopped npc/npc_1.png 4 0 -1
+stopped npc/tarkin.png 4 0 -1
 0	32	24	32	12	29	1	1
 0	0	24	32	12	29	1	1
 0	96	24	32	12	29	1	1
 0	64	24	32	12	29	1	1
 
-waiting npc/npc_1.png 4 1000 0
+waiting npc/tarkin.png 4 400 0
 0	32	24	32	12	29	2	2
 0	0	24	32	12	29	2	2
 0	96	24	32	12	29	2	2
 0	64	24	32	12	29	2	2
 
-walking npc/npc_1.png 4 300 0
+walking npc/tarkin.png 4 300 0
 0	32	24	32	12	29	2	2
 0	0	24	32	12	29	2	2
 0	96	24	32	12	29	2	2
 0	64	24	32	12	29	2	2
+
+waiting_raccoon npc/tarkin.png 4 300 0
+96	0	24	32	12	29	2	2
+96	0	24	32	12	29	2	2
+96	0	24	32	12	29	2	2
+96	0	24	32	12	29	2	2

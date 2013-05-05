@@ -23,6 +23,22 @@ function map:set_music()
 
 end
 
+function map:init_tarkin()
+ 
+  if map:get_game():get_value("step_2_link_found_sword") == false  then
+    tarkin:set_visible(false)
+  else
+    tarkin:get_sprite():set_animation("waiting_raccoon")
+  end
+
+end
+
+function  map:talk_to_tarkin() 
+
+      map:start_dialog("forest_.tarkin_1")
+
+end
+
 function map:set_overlay()
 
   map.overlay = sol.surface.create("entities/overlay_forest.png")
@@ -49,11 +65,18 @@ end
 
 -- Events
 
+function tarkin:on_interaction()
+
+      map:talk_to_tarkin()
+
+end
+
 function map:on_started(destination)
 
   map:set_music()
   map:set_overlay()
-  map:set_owl_disabled()
+  map:init_tarkin()
+  owl:set_visible(false)
 
 end
 
@@ -85,12 +108,6 @@ function map:on_draw(destination_surface)
 
 end
 
-function map:set_owl_disabled()
-
-  owl:set_visible(false)
-
-end
-
 function owl_1_sensor:on_activated()
 
   if map:get_game():get_value("owl_2") == true then
@@ -100,8 +117,8 @@ function owl_1_sensor:on_activated()
   end
 
 end
-
 --[[
+
 function lost_sensor:on_activated()
 
   local x, y = hero:get_position()
@@ -111,6 +128,6 @@ function lost_sensor:on_activated()
   -- TODO update the bushes and the grass.
   -- - update the overlay
   -- - make sure no enemies or pickables can be in the area
-end
---]
 
+end
+--]]
