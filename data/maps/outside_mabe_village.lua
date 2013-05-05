@@ -15,6 +15,23 @@ function map:set_music()
 
 end
 
+function map:init_marine()
+ 
+  if map:get_game():get_value("step_2_link_found_sword") == false  then
+    marine:set_visible(false)
+  else
+    marine:get_sprite():set_animation("waiting")
+  end
+
+end
+
+
+function map:talk_to_marine() 
+
+      map:start_dialog("mabe_village.marine_1")
+
+end
+
 function  map:talk_to_grand_ma()
 
   map:start_dialog("mabe_village.grand_ma_1")
@@ -31,6 +48,7 @@ end
 function map:on_started(destination)
 
   map:set_music()
+  map:init_marine()
   grand_ma:get_sprite():set_animation("walking")
 
 end
@@ -52,5 +70,11 @@ end
 function kid_2:on_interaction()
 
   map:talk_to_kids()
+
+end
+
+function marine:on_interaction()
+
+      map:talk_to_marine()
 
 end

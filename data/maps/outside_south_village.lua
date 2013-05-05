@@ -25,14 +25,14 @@ end
 function map:on_started(destination)
 
   map:set_music()
-  map:set_owl_disabled()
+  owl:set_visible(false)
 
 end
 
 
 function map:on_obtaining_treasure(item, variant, savegame_variable)
 
-  item:set_sound_when_brandished(')
+  item:set_sound_when_brandished('hero_get_sword')
 
 end
 
@@ -49,12 +49,6 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
   if( item:get_name() == "sword" ) then
     map:set_music()
   end
-
-end
-
-function map:set_owl_disabled()
-
-  owl:set_visible(false)
 
 end
 

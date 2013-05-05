@@ -43,6 +43,7 @@ function map:jump_from_bed()
 end
 
 function map:wake_up()
+
   snores:remove()
   bed:get_sprite():set_animation("hero_waking")
   sol.timer.start(1000, function() 
@@ -52,6 +53,17 @@ function map:wake_up()
       end)
     end)
   end)
+
+end
+
+function map:init_tarkin()
+ 
+  if map:get_game():get_value("step_2_link_found_sword") == true  then
+    tarkin:set_visible(false)
+  else
+    tarkin:get_sprite():set_animation("waiting")
+  end
+
 end
 
 function  map:talk_to_tarkin() 
@@ -67,6 +79,18 @@ function  map:talk_to_tarkin()
   end
 
 end
+
+function map:init_marine()
+ 
+  if map:get_game():get_value("step_2_link_found_sword") == true  then
+    marine:set_visible(false)
+  else
+    marine:get_sprite():set_animation("waiting")
+    map:repeat_marine_direction_check()
+  end
+
+end
+
 
 function map:talk_to_marine() 
 
@@ -85,8 +109,8 @@ end
 function map:on_started(destination)
 
   map:set_music()
-  marine:get_sprite():set_animation("walking")
-  map:repeat_marine_direction_check()
+  map:init_marine()
+  map:init_tarkin()
   if destination:get_name() == "start_position"  then
     -- the intro scene is playing
     map:get_game():set_value("link_search_sword", false)

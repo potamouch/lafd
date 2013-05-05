@@ -6400,7 +6400,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 24,
+  x = 40,
   y = 200,
   width = 16,
   height = 32,
@@ -9806,14 +9806,14 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 32,
+  x = 48,
   y = 213,
   subtype = "bush",
 }
 
 destructible{
   layer = 0,
-  x = 32,
+  x = 48,
   y = 229,
   subtype = "bush",
 }
@@ -10284,6 +10284,8 @@ chest{
   layer = 0,
   x = 352,
   y = 77,
+  treasure_name = "tail_key",
+  treasure_savegame_variable = "outside_forest_chest_1",
   sprite = "entities/chest",
 }
 
@@ -10313,6 +10315,13 @@ destructible{
   x = 656,
   y = 245,
   subtype = "white_stone",
+}
+
+pickable{
+  layer = 0,
+  x = 32,
+  y = 229,
+  treasure_name = "magic_powder",
 }
 
 tile{

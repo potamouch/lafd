@@ -12045,6 +12045,16 @@ npc{
   behavior = "dialog#mabe_village.weathercock",
 }
 
+npc{
+  layer = 0,
+  x = 560,
+  y = 301,
+  name = "marine",
+  direction = 3,
+  subtype = "1",
+  sprite = "npc/marine",
+}
+
 tile{
   layer = 2,
   x = 144,

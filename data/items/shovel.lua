@@ -8,7 +8,11 @@ function item:on_created()
 
 end
 
+
 function item:on_using()
 
+  self:set_finished()
+
 end
+
 

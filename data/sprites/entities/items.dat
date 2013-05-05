@@ -32,6 +32,10 @@ bottle_1 entities/items.png 6 0 -1
 pegasus_shoes entities/items.png 1 0 -1
 112	0	16	16	8	13	1	1
 
+magic_powder entities/items.png 2 0 -1
+112	16	16	16	8	13	1	1
+112	0	32	16	8	13	1	1
+
 mystic_mirror entities/items.png 1 0 -1
 128	0	16	16	8	13	1	1
 
@@ -243,9 +247,6 @@ green_potion entities/items.png 1 0 -1
 
 blue_potion entities/items.png 1 0 -1
 144	80	16	16	8	13	1	1
-
-magic_powder entities/items.png 1 0 -1
-112	0	16	16	8	13	1	1
 
 magnifying_lens entities/items.png 1 0 -1
 112	0	16	16	8	13	1	1

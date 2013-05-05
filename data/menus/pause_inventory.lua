@@ -5,6 +5,7 @@ local item_names_assignable = {
   "shield",
   "magic_powder",
   "feather",
+  "bombs_counter",
   "pegasus_shoes",
   "bow",
   "hookshot",

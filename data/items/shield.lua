@@ -15,3 +15,10 @@ function item:on_variant_changed(variant)
 
 end
 
+function item:on_using()
+
+  self:set_finished()
+
+end
+
+
