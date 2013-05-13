@@ -1,6 +1,6 @@
 properties{
   x = 0,
-  y = 0,
+  y = 2304,
   width = 960,
   height = 768,
   world = "outside_world",
