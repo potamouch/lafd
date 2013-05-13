@@ -23,7 +23,7 @@ function title_screen:on_started()
     self:phase_logo_presents()
   end)
 
- -- Preload sounds
+  -- Preload sounds
   sol.audio.preload_sounds()
 
 end
@@ -107,7 +107,7 @@ function title_screen:on_key_pressed(key)
     	self:phase_title()
     elseif self.phase == "title" then
      self.timer:stop()
-     handled = self:try_finish_title()
+     handled = self:finish_title()
     end
 
 --  Debug.
@@ -122,16 +122,15 @@ end
 
 function title_screen:on_joypad_button_pressed(button)
 
-  return self:try_finish_title()
+  return self:finish_title()
 
 end
 
-function title_screen:try_finish_title()
+function title_screen:finish_title()
 
   local savegame_menu = require("menus/savegames")
   sol.audio.stop_music()
   sol.main:start_menu(savegame_menu:new())
-
 end
 
 return title_screen
