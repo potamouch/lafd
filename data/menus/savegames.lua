@@ -366,7 +366,7 @@ function savegame_menu:key_pressed_phase_select_file(key)
         -- The file exists: run it after a fade-out effect.
         self.finished = true
         self.surface:fade_out(function()
-	  sol.main.start_savegame(slot.savegame)
+	  sol.main:start_savegame(slot.savegame)
         end)
       else
         -- It's a new savegame: choose the player's name.
