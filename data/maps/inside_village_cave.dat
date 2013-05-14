@@ -10,20 +10,20 @@ properties{
 
 tile{
   layer = 0,
-  x = 48,
-  y = 48,
-  width = 224,
-  height = 144,
-  pattern = 2,
-}
-
-tile{
-  layer = 0,
   x = 32,
   y = 200,
   width = 24,
   height = 24,
   pattern = 47,
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = 2,
 }
 
 tile{
@@ -145,15 +145,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 264,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = 46,
-}
-
-tile{
-  layer = 0,
   x = 256,
   y = 40,
   width = 8,
@@ -195,24 +186,6 @@ tile{
   width = 8,
   height = 8,
   pattern = 15,
-}
-
-tile{
-  layer = 0,
-  x = 264,
-  y = 32,
-  width = 24,
-  height = 24,
-  pattern = 55,
-}
-
-tile{
-  layer = 0,
-  x = 280,
-  y = 32,
-  width = 24,
-  height = 24,
-  pattern = 46,
 }
 
 tile{
@@ -460,29 +433,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
-  y = 48,
-  width = 8,
-  height = 16,
-  pattern = 182,
-}
-
-tile{
-  layer = 0,
   x = 272,
   y = 56,
   width = 8,
   height = 8,
   pattern = 15,
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 56,
-  width = 16,
-  height = 8,
-  pattern = 179,
 }
 
 tile{
@@ -755,6 +710,15 @@ tile{
   pattern = 53,
 }
 
+tile{
+  layer = 0,
+  x = 264,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = 55,
+}
+
 teletransporter{
   layer = 0,
   x = 200,
@@ -801,6 +765,24 @@ pickable{
   y = 133,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "piece_of_heart_1",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = 46,
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = 46,
 }
 
 tile{
