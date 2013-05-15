@@ -11723,7 +11723,7 @@ sensor{
 enemy{
   layer = 0,
   x = 388,
-  y = 533,
+  y = 525,
   direction = 3,
   breed = "bowwow",
 }
