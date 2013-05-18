@@ -337,7 +337,7 @@ tile{
   x = 664,
   y = 512,
   width = 304,
-  height = 112,
+  height = 96,
   pattern = 49,
 }
 
@@ -750,7 +750,7 @@ tile{
   layer = 0,
   x = 144,
   y = -32,
-  width = 816,
+  width = 768,
   height = 40,
   pattern = 502,
 }
@@ -4350,7 +4350,7 @@ tile{
   layer = 0,
   x = 856,
   y = 416,
-  width = 96,
+  width = 144,
   height = 40,
   pattern = 502,
 }
@@ -4368,7 +4368,7 @@ tile{
   layer = 0,
   x = 856,
   y = 456,
-  width = 96,
+  width = 144,
   height = 16,
   pattern = 1289,
 }
@@ -4393,18 +4393,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 952,
-  y = 448,
-  width = 8,
-  height = 16,
-  pattern = 1302,
-}
-
-tile{
-  layer = 0,
   x = 856,
   y = 544,
-  width = 96,
+  width = 144,
   height = 40,
   pattern = 502,
 }
@@ -4422,7 +4413,7 @@ tile{
   layer = 0,
   x = 856,
   y = 584,
-  width = 96,
+  width = 144,
   height = 16,
   pattern = 1289,
 }
@@ -4443,15 +4434,6 @@ tile{
   width = 8,
   height = 16,
   pattern = 1301,
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 576,
-  width = 8,
-  height = 16,
-  pattern = 1302,
 }
 
 tile{
@@ -7244,6 +7226,33 @@ tile{
   pattern = 1290,
 }
 
+tile{
+  layer = 0,
+  x = 928,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = 270,
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = -8,
+  width = 16,
+  height = 16,
+  pattern = 270,
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = 83,
+}
+
 teletransporter{
   layer = 0,
   x = 0,
@@ -7625,7 +7634,7 @@ tile{
   layer = 2,
   x = 144,
   y = -32,
-  width = 816,
+  width = 768,
   height = 40,
   pattern = 511,
 }
@@ -8291,7 +8300,7 @@ tile{
   layer = 2,
   x = 856,
   y = 416,
-  width = 96,
+  width = 144,
   height = 40,
   pattern = 1298,
 }
@@ -8300,7 +8309,7 @@ tile{
   layer = 2,
   x = 856,
   y = 400,
-  width = 96,
+  width = 144,
   height = 16,
   pattern = 1297,
 }
@@ -8316,18 +8325,9 @@ tile{
 
 tile{
   layer = 2,
-  x = 952,
-  y = 408,
-  width = 8,
-  height = 40,
-  pattern = 1300,
-}
-
-tile{
-  layer = 2,
   x = 856,
   y = 544,
-  width = 96,
+  width = 144,
   height = 40,
   pattern = 1298,
 }
@@ -8336,7 +8336,7 @@ tile{
   layer = 2,
   x = 856,
   y = 528,
-  width = 96,
+  width = 144,
   height = 16,
   pattern = 1297,
 }
@@ -8348,15 +8348,6 @@ tile{
   width = 8,
   height = 40,
   pattern = 1299,
-}
-
-tile{
-  layer = 2,
-  x = 952,
-  y = 536,
-  width = 8,
-  height = 40,
-  pattern = 1300,
 }
 
 tile{
