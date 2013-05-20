@@ -5,7 +5,6 @@ function item:on_created()
 
   self:set_savegame_variable("item_sword")
   self:set_sound_when_picked(nil)
-  self:set_sound_when_brandished(nil)
 
 end
 
