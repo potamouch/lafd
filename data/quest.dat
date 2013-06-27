@@ -1,6 +1,6 @@
 quest{
   write_dir = "lafd",
   title_bar = "Link's Awakening:: Forever in a dream",
-  solarus_version = "1.0"
+  solarus_version = "1.1"
 }
 
