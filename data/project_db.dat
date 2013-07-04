@@ -1,115 +1,126 @@
-0	dungeon_1_tail_cave_f1	Dungeon 1 - Tail cave - F1
-0	inside_old_man_house	Inside - Old man's house
-0	inside_marine_house	Inside Marine's house
-0	inside_telephone_booth_1	Telephone booth 1
-0	inside_library	Inside - Library
-0	inside_ocarina_house	Inside - Ocarina's house
-0	inside_shop_1	Inside - Shop 1
-0	inside_shop_2	Inside - Shop 2
-0	inside_weathercock	Inside- Weathercock
-0	inside_quadruplets_house	Inside - Quadruplets' house
-0	outside_south_village	Outside - South village
-0	outside_forest	Outside - Forest
-0	outside_prairie	Outside - Prairie
-0	outside_mabe_village	Outside - Mabe village
-0	inside_village_cave	Inside - Cave of Mabe village
-0	inside_meow_meow_house	Inside - Meow meow's house
-0	dungeon_2_bottle_grotto_f1	Dungeon 2 - Bottle grotto - F1
-0	outside_cemetary	Outside - Cemetary
-0	outside_south_prairie	Outside - South prairie
-1	house	House
-1	light_world	Light World
-1	pink_dungeon_lw	Pink Dungeon
-1	cave	Cave
-1	blue_dungeon_lw	Blue Dungeon
-2	the_storm	The storm
-2	title_screen	Title screen
-2	player_select	Player select
-2	links_awake	Links awake
-2	the_wise_owl	The wise owl
-2	your_sword	Your sword
-2	let_the_journey_begin	Let the journey begin
-2	overworld	Overworld
-2	mabe_village	Mabe village
-2	shop	Shop
-2	trendy_game	Trendy game
-2	inside_the_houses	Inside the houses
-2	cave	Cave
-2	telephone_booth	Telephone booth
-2	mysterious_forest	Forêt mysterieuse
-3	npc/witch	Witch
-3	npc/marine	Marine
-3	npc/kid_1	Kid 1
-3	npc/kid_2	Kid 2
-3	npc/grand_ma	Grand-mother
-3	npc/black_knight_soldier	Black Knight Soldier
-3	entities/block	Block
-3	entities/gray_block	Block (gray)
-3	entities/bone_key_door	Bone key door
-3	entities/cannon	Cannon
-3	entities/slot_machine	Casino slot machine
-3	entities/castle_lock	Castle prison lock
-3	entities/chest	Chest (normal)
-3	entities/big_chest	Chest (big)
-3	entities/destination	Destination of teletransporter
-3	entities/door_normal	Door (normal)
-3	entities/door_small_key	Door (small key)
-3	entities/door_small_key_block	Door (small key block)
-3	entities/door_big_key	Door (big key)
-3	entities/door_boss_key	Door (boss key)
-3	entities/door_weak_wall	Door (weak wall)
-3	entities/door_very_weak_wall	Door (very weak wall)
-3	entities/door_weak_block	Door (weak block)
-3	entities/frozen_door	Frozen door
-3	entities/bed	Hero's bed
-3	entities/hint_stone	Hint stone
-3	entities/fresco	Intro fresco
-3	entities/outside_door	Outside closed door
-3	entities/sign	Sign
-3	entities/snores	Snoring (zzz)
-3	entities/somaria_block	Somaria block
-3	entities/statue	Statue
-3	entities/the_end	The end
-3	entities/torch	Torch
-3	entities/vine	Vine
-3	npc/tarkin	Tarkin
-3	npc/owl	Owl
-4	hero_get_sword	Hero get sword
-5	boomerang	Boomerang
-5	bow	Bow
-5	feather	Feather
-5	flippers	Flippers
-5	heart	Heart
-5	heart_container	Heart container
-5	piece_of_heart	Piece of heart
-5	rupee_bag	Ruppe bag
-5	shield	Shield
-5	sword	Sword
-5	tunic	Tunic (green/blue/red)
-5	world_map	World map
-5	magic_powder	Magic Powder
-5	bomb	Bomb
-5	bomb_bag	Bomb bag
-5	bombs_counter	Bombs counter
-5	pegasus_shoes	Pegasus shoes
-5	hookshot	Hookshot
-5	magic_rod	Magic rod
-5	shovel	Shovel
-5	ocarina	Ocarina
-5	quiver	Quiver
-5	arrow	Arrow
-5	tail_key	Tail key
-5	slim_key	Slim key
-5	angler_key	Angler key
-5	face_key	Face key
-5	bird_key	Bird key
-5	magnifying_lens	Magnifying lens
-5	power_bracelet	Power bracelet
-6	chicken	Chicken
-6	bowwow	Bow wow
-6	small_bowwow	Small Bow wow
-6	sea_urchin	Sea urchin
-6	pike_auto	Pike auto
-6	pike_detect	Pike detect
-6	pike_fixed	Pike fixed
-7	fr	Français
+-- This is a resource list file for Solarus 1.1.
+-- This file was converted from Solarus 1.0 using the script
+-- tools/data_files_conversion/1.0_to_1.1/quest_db_converter.lua.
+map{ id = "dungeon_1_tail_cave_f1", description = "Dungeon 1 - Tail cave - F1" }
+map{ id = "inside_old_man_house", description = "Inside - Old man's house" }
+map{ id = "inside_marine_house", description = "Inside Marine's house" }
+map{ id = "inside_telephone_booth_1", description = "Telephone booth 1" }
+map{ id = "inside_library", description = "Inside - Library" }
+map{ id = "inside_ocarina_house", description = "Inside - Ocarina's house" }
+map{ id = "inside_shop_1", description = "Inside - Shop 1" }
+map{ id = "inside_shop_2", description = "Inside - Shop 2" }
+map{ id = "inside_weathercock", description = "Inside- Weathercock" }
+map{ id = "inside_quadruplets_house", description = "Inside - Quadruplets' house" }
+map{ id = "outside_south_village", description = "Outside - South village" }
+map{ id = "outside_forest", description = "Outside - Forest" }
+map{ id = "outside_prairie", description = "Outside - Prairie" }
+map{ id = "outside_mabe_village", description = "Outside - Mabe village" }
+map{ id = "inside_village_cave", description = "Inside - Cave of Mabe village" }
+map{ id = "inside_meow_meow_house", description = "Inside - Meow meow's house" }
+map{ id = "dungeon_2_bottle_grotto_f1", description = "Dungeon 2 - Bottle grotto - F1" }
+map{ id = "outside_cemetary", description = "Outside - Cemetary" }
+map{ id = "outside_south_prairie", description = "Outside - South prairie" }
+
+tileset{ id = "house", description = "House" }
+tileset{ id = "light_world", description = "Light World" }
+tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
+tileset{ id = "cave", description = "Cave" }
+tileset{ id = "blue_dungeon_lw", description = "Blue Dungeon" }
+
+music{ id = "the_storm", description = "The storm" }
+music{ id = "title_screen", description = "Title screen" }
+music{ id = "player_select", description = "Player select" }
+music{ id = "links_awake", description = "Links awake" }
+music{ id = "the_wise_owl", description = "The wise owl" }
+music{ id = "your_sword", description = "Your sword" }
+music{ id = "let_the_journey_begin", description = "Let the journey begin" }
+music{ id = "overworld", description = "Overworld" }
+music{ id = "mabe_village", description = "Mabe village" }
+music{ id = "shop", description = "Shop" }
+music{ id = "trendy_game", description = "Trendy game" }
+music{ id = "inside_the_houses", description = "Inside the houses" }
+music{ id = "cave", description = "Cave" }
+music{ id = "telephone_booth", description = "Telephone booth" }
+music{ id = "mysterious_forest", description = "Forêt mysterieuse" }
+
+sprite{ id = "npc/witch", description = "Witch" }
+sprite{ id = "npc/marine", description = "Marine" }
+sprite{ id = "npc/kid_1", description = "Kid 1" }
+sprite{ id = "npc/kid_2", description = "Kid 2" }
+sprite{ id = "npc/grand_ma", description = "Grand-mother" }
+sprite{ id = "npc/black_knight_soldier", description = "Black Knight Soldier" }
+sprite{ id = "entities/block", description = "Block" }
+sprite{ id = "entities/gray_block", description = "Block (gray)" }
+sprite{ id = "entities/bone_key_door", description = "Bone key door" }
+sprite{ id = "entities/cannon", description = "Cannon" }
+sprite{ id = "entities/slot_machine", description = "Casino slot machine" }
+sprite{ id = "entities/castle_lock", description = "Castle prison lock" }
+sprite{ id = "entities/chest", description = "Chest (normal)" }
+sprite{ id = "entities/big_chest", description = "Chest (big)" }
+sprite{ id = "entities/destination", description = "Destination of teletransporter" }
+sprite{ id = "entities/door_normal", description = "Door (normal)" }
+sprite{ id = "entities/door_small_key", description = "Door (small key)" }
+sprite{ id = "entities/door_small_key_block", description = "Door (small key block)" }
+sprite{ id = "entities/door_big_key", description = "Door (big key)" }
+sprite{ id = "entities/door_boss_key", description = "Door (boss key)" }
+sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
+sprite{ id = "entities/door_very_weak_wall", description = "Door (very weak wall)" }
+sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
+sprite{ id = "entities/frozen_door", description = "Frozen door" }
+sprite{ id = "entities/bed", description = "Hero's bed" }
+sprite{ id = "entities/hint_stone", description = "Hint stone" }
+sprite{ id = "entities/fresco", description = "Intro fresco" }
+sprite{ id = "entities/outside_door", description = "Outside closed door" }
+sprite{ id = "entities/sign", description = "Sign" }
+sprite{ id = "entities/snores", description = "Snoring (zzz)" }
+sprite{ id = "entities/somaria_block", description = "Somaria block" }
+sprite{ id = "entities/statue", description = "Statue" }
+sprite{ id = "entities/the_end", description = "The end" }
+sprite{ id = "entities/torch", description = "Torch" }
+sprite{ id = "entities/vine", description = "Vine" }
+sprite{ id = "npc/tarkin", description = "Tarkin" }
+sprite{ id = "npc/owl", description = "Owl" }
+
+sound{ id = "hero_get_sword", description = "Hero get sword" }
+
+item{ id = "boomerang", description = "Boomerang" }
+item{ id = "bow", description = "Bow" }
+item{ id = "feather", description = "Feather" }
+item{ id = "flippers", description = "Flippers" }
+item{ id = "heart", description = "Heart" }
+item{ id = "heart_container", description = "Heart container" }
+item{ id = "piece_of_heart", description = "Piece of heart" }
+item{ id = "rupee_bag", description = "Ruppe bag" }
+item{ id = "shield", description = "Shield" }
+item{ id = "sword", description = "Sword" }
+item{ id = "tunic", description = "Tunic (green/blue/red)" }
+item{ id = "world_map", description = "World map" }
+item{ id = "magic_powder", description = "Magic Powder" }
+item{ id = "bomb", description = "Bomb" }
+item{ id = "bomb_bag", description = "Bomb bag" }
+item{ id = "bombs_counter", description = "Bombs counter" }
+item{ id = "pegasus_shoes", description = "Pegasus shoes" }
+item{ id = "hookshot", description = "Hookshot" }
+item{ id = "magic_rod", description = "Magic rod" }
+item{ id = "shovel", description = "Shovel" }
+item{ id = "ocarina", description = "Ocarina" }
+item{ id = "quiver", description = "Quiver" }
+item{ id = "arrow", description = "Arrow" }
+item{ id = "tail_key", description = "Tail key" }
+item{ id = "slim_key", description = "Slim key" }
+item{ id = "angler_key", description = "Angler key" }
+item{ id = "face_key", description = "Face key" }
+item{ id = "bird_key", description = "Bird key" }
+item{ id = "magnifying_lens", description = "Magnifying lens" }
+item{ id = "power_bracelet", description = "Power bracelet" }
+
+enemy{ id = "chicken", description = "Chicken" }
+enemy{ id = "bowwow", description = "Bow wow" }
+enemy{ id = "small_bowwow", description = "Small Bow wow" }
+enemy{ id = "sea_urchin", description = "Sea urchin" }
+enemy{ id = "pike_auto", description = "Pike auto" }
+enemy{ id = "pike_detect", description = "Pike detect" }
+enemy{ id = "pike_fixed", description = "Pike fixed" }
+
+language{ id = "fr", description = "Français" }
+
