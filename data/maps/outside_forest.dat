@@ -10355,6 +10355,14 @@ teletransporter{
   destination = "_side",
 }
 
+destination{
+  layer = 0,
+  x = 184,
+  y = 461,
+  name = "tmp",
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 536,
@@ -12118,5 +12126,14 @@ npc{
   direction = 3,
   subtype = "0",
   sprite = "npc/owl",
+}
+
+camera_stopper{
+  layer = 2,
+  x = 472,
+  y = 0,
+  width = 16,
+  height = 768,
+  name = "camera_stopper",
 }
 
