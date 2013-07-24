@@ -2,6 +2,7 @@
 
 -- Variables
 local map = ...
+local game = map:get_game()
 
 -- Methods - Functions
 
@@ -28,20 +29,20 @@ end
 
 function map:talk_to_marine() 
 
-      map:start_dialog("mabe_village.marine_1")
+  game:start_dialog("mabe_village.marine_1")
 
 end
 
 function  map:talk_to_grand_ma()
 
-  map:start_dialog("mabe_village.grand_ma_1")
+  game:start_dialog("mabe_village.grand_ma_1")
 
 end
 
 function  map:talk_to_kids() 
 
   local rand = math.random(4)
-  map:start_dialog("mabe_village.kids_" .. rand)
+  game:start_dialog("mabe_village.kids_" .. rand)
 
 end
 

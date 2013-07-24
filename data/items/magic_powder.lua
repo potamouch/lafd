@@ -13,7 +13,7 @@ function item:on_using()
   local variant = item:get_variant()
   if variant == 1 then
     -- Magic mushroom
-    self:get_map():start_dialog("item.mushroom")
+    self:get_game():start_dialog("item.mushroom")
   else
     -- Magic powder
   end

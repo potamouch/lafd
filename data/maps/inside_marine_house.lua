@@ -48,7 +48,7 @@ function map:wake_up()
   snores:remove()
   bed:get_sprite():set_animation("hero_waking")
   sol.timer.start(1000, function() 
-    map:start_dialog("marine_house.awake", function()
+    game:start_dialog("marine_house.awake", function()
       sol.timer.start(500, function()
         map:jump_from_bed()
       end)
@@ -70,13 +70,11 @@ end
 function  map:talk_to_tarkin() 
 
   if game:has_item("shield") == false then
-    map:set_dialog_variable("marine_house.tarkin_1", game:get_player_name())
-    map:start_dialog("marine_house.tarkin_1", function()
+    game:start_dialog("marine_house.tarkin_1", game:get_player_name(), function()
       hero:start_treasure("shield", 1, "b32")
     end)
   else
-      map:set_dialog_variable("marine_house.tarkin_2", game:get_player_name())
-      map:start_dialog("marine_house.tarkin_2")
+      game:start_dialog("marine_house.tarkin_2", game:get_player_name())
   end
 
 end
@@ -95,7 +93,7 @@ end
 
 function map:talk_to_marine() 
 
-      map:start_dialog("marine_house.marine_1")
+  game:start_dialog("marine_house.marine_1")
 
 end
 
@@ -117,7 +115,6 @@ function map:on_started(destination)
     game:set_value("link_search_sword", false)
     game:set_hud_enabled(true)
     game:set_pause_allowed(false)
-    map:set_dialog_style(0)
     snores:get_sprite():set_ignore_suspend(true)
     bed:get_sprite():set_animation("hero_sleeping")
     hero:freeze()
@@ -142,7 +139,7 @@ end
 function maison_link_exit_sensor:on_activated()
 
   if game:has_item("shield") == false then
-    map:start_dialog("marine_house.tarkin_3", function()
+    game:start_dialog("marine_house.tarkin_3", function()
      hero:set_direction(2)
      hero:walk("2222")
    end)

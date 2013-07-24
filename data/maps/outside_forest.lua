@@ -1,12 +1,13 @@
+local map = ...
+local game = map:get_game()
 -- Outside - Forest
 
 -- Includes scripts
 
-sol.main.load_file("npc/owl")(game)
+sol.main.load_file("npc/owl")(map)
 
 -- Variables
 
-local map = ...
 map.overlay_angles = {
   3 * math.pi / 4,
   5 * math.pi / 4,
@@ -25,7 +26,7 @@ end
 
 function map:init_tarkin()
  
-  if map:get_game():get_value("step_2_link_found_sword") == false  then
+  if game:get_value("step_2_link_found_sword") == false  then
     tarkin:set_visible(false)
   else
     tarkin:get_sprite():set_animation("waiting_raccoon")
@@ -35,7 +36,7 @@ end
 
 function  map:talk_to_tarkin() 
 
-      map:start_dialog("forest_.tarkin_1")
+  game:start_dialog("forest_.tarkin_1")
 
 end
 

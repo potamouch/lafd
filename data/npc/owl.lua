@@ -1,6 +1,6 @@
 -- Owl
-local game = ...
-local map = game:get_map()
+local map = ...
+local game = map:get_game()
 local hero = map:get_entity("hero")
 local owl = map:get_entity("owl")
 
@@ -21,7 +21,7 @@ function map:owl_appear(step)
   hero:set_direction(1)
   hero:freeze()
   function m:on_finished() 
-    map:start_dialog("owl_"..step, function()
+    game:start_dialog("owl_"..step, function()
       local m2 = sol.movement.create("target")
       local position = map:get_entity("owl_"..step.."_position")
       m2:set_target(position)
