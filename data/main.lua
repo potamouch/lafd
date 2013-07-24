@@ -7,9 +7,8 @@ function sol.main:on_started()
 
   -- Load built-in settings (audio volume, video mode, etc.).
   sol.main.load_settings()
-  -- Just need this here, no need to require globally.
-  local title_screen = require("menus/title")
   -- Show the title menu initially.
+  local title_screen = require("menus/title")
   sol.main:start_menu(title_screen:new())
 
 end
@@ -99,6 +98,10 @@ function sol.main:debug_on_key_pressed(key, modifiers)
       local x, y, layer = hero:get_position()
       if layer ~= 2 then
 	hero:set_position(x, y, layer + 1)
+      end
+    elseif key == "left shift" or key == "right shift" then
+      if game:is_dialog_enabled() then
+        game.dialog_box:show_all_now()
       end
     else
       -- Not a known in-game debug key.
