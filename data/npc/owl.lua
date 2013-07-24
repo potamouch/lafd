@@ -1,12 +1,12 @@
 -- Owl
-local game = sol.main.game
+local game = ...
 local map = game:get_map()
-local hero = game:get_map():get_entity("hero")
-local owl = game:get_map():get_entity("owl")
+local hero = map:get_entity("hero")
+local owl = map:get_entity("owl")
 
 function map:owl_appear(step)
   
-  game:get_map():set_pause_enabled(false)
+  game:set_pause_allowed(false)
   owl:set_visible(true)
   owl:get_sprite():set_animation("walking")
   local m = sol.movement.create("target")
@@ -21,17 +21,17 @@ function map:owl_appear(step)
   hero:set_direction(1)
   hero:freeze()
   function m:on_finished() 
-    game:get_map():start_dialog("owl_"..step, function()
+    map:start_dialog("owl_"..step, function()
       local m2 = sol.movement.create("target")
-      local position = game:get_map():get_entity("owl_"..step.."_position")
+      local position = map:get_entity("owl_"..step.."_position")
       m2:set_target(position)
       m2:set_speed(100)
       m2:set_ignore_obstacles(true)
       m2:start(owl, function()
   	owl:set_visible(false)
         hero:unfreeze()
-        game:get_map():set_pause_enabled(true)
-	game:get_map():set_music()
+        game:set_pause_allowed(true)
+	map:set_music()
       end)
     end)      
   end
