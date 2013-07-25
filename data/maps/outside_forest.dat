@@ -12128,12 +12128,12 @@ npc{
   sprite = "npc/owl",
 }
 
-camera_stopper{
+separator{
   layer = 2,
   x = 472,
   y = 0,
   width = 16,
   height = 768,
-  name = "camera_stopper",
+  name = "separator",
 }
 
