@@ -13558,27 +13558,3 @@ tile{
   pattern = 1237,
 }
 
-separator{
-  layer = 2,
-  x = 0,
-  y = 376,
-  width = 608,
-  height = 16,
-}
-
-separator{
-  layer = 2,
-  x = 472,
-  y = 0,
-  width = 16,
-  height = 800,
-}
-
-separator{
-  layer = 2,
-  x = 232,
-  y = 8,
-  width = 16,
-  height = 736,
-}
-
