@@ -68,7 +68,7 @@ end
 
 function tarkin:on_interaction()
 
-      map:talk_to_tarkin()
+  map:talk_to_tarkin()
 
 end
 
@@ -118,7 +118,6 @@ function owl_1_sensor:on_activated()
   end
 
 end
---[[
 
 function lost_sensor:on_activated()
 
@@ -131,4 +130,4 @@ function lost_sensor:on_activated()
   -- - make sure no enemies or pickables can be in the area
 
 end
---]]
+
