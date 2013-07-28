@@ -10354,7 +10354,7 @@ pickable{
 npc{
   layer = 0,
   x = 432,
-  y = 277,
+  y = 341,
   name = "tarkin",
   direction = 3,
   subtype = "0",
@@ -10384,7 +10384,7 @@ destination{
 npc{
   layer = 0,
   x = 912,
-  y = 469,
+  y = 533,
   name = "tarkin_2",
   direction = 3,
   subtype = "0",
