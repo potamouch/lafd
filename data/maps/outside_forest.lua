@@ -44,6 +44,8 @@ function map:set_overlay()
 
   map.overlay = sol.surface.create("entities/overlay_forest.png")
   map.overlay:set_opacity(96)
+  map.overlay_offset_x = 0  -- Used to keep continuity when getting lost.
+  map.overlay_offset_y = 0
   map.overlay_m = sol.movement.create("straight")
   map.restart_overlay_movement()
 
@@ -88,7 +90,8 @@ function map:on_draw(destination_surface)
   local camera_x, camera_y = self:get_camera_position()
   local overlay_width, overlay_height = map.overlay:get_size()
   local screen_width, screen_height = destination_surface:get_size()
-  local x, y = -math.floor(camera_x * 1.5), -math.floor(camera_y * 1.5)
+  local x, y = camera_x + map.overlay_offset_x, camera_y + map.overlay_offset_y
+  x, y = -math.floor(x * 1.5), -math.floor(y * 1.5)
 
   -- The overlay's image may be shorter than the screen, so we repeat its
   -- pattern. Furthermore, it also has a movement so let's make sure it
@@ -124,9 +127,11 @@ function lost_sensor:on_activated()
   local x, y = hero:get_position()
   local sensor_x, sensor_y = self:get_position()
   local marker_x, marker_y = lost_destination:get_position()
-  hero:set_position(x + marker_x - sensor_x, y + marker_y - sensor_y)
+  local diff_x, diff_y = marker_x - sensor_x, marker_y - sensor_y
+  hero:set_position(x + diff_x, y + diff_y)
+  map.overlay_offset_x = map.overlay_offset_x - diff_x  -- Keep continuity of the overlay effect.
+  map.overlay_offset_y = map.overlay_offset_y - diff_y
   -- TODO update the bushes and the grass.
-  -- - update the overlay
   -- - make sure no enemies or pickables can be in the area
 
 end
