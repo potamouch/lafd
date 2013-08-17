@@ -19,11 +19,8 @@ function map:set_music()
 end
 
 function map:repeat_marine_direction_check()
-  local angle_to_hero = marine:get_angle(hero) 
-  local direction4 = map:angle_to_direction4(angle_to_hero)
-  if( direction4 < 0 ) then
-    direction4 = 0
-  end
+
+  local direction4 = marine:get_direction4_to(hero)
   marine:get_sprite():set_direction(direction4)
 
   -- Rappeler cette fonction dans 0.1 seconde.
@@ -94,12 +91,6 @@ end
 function map:talk_to_marine() 
 
   game:start_dialog("marine_house.marine_1")
-
-end
-
-function map:angle_to_direction4(angle)
-
-  return math.floor((angle + math.pi / 4) / (math.pi / 2))
 
 end
 
