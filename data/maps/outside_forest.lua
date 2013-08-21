@@ -122,6 +122,7 @@ function owl_1_sensor:on_activated()
 
 end
 
+local num_destructibles_created = 0
 function lost_sensor:on_activated()
 
   local x, y = hero:get_position()
@@ -131,8 +132,49 @@ function lost_sensor:on_activated()
   hero:set_position(x + diff_x, y + diff_y)
   map.overlay_offset_x = map.overlay_offset_x - diff_x  -- Keep continuity of the overlay effect.
   map.overlay_offset_y = map.overlay_offset_y - diff_y
-  -- TODO update the bushes and the grass.
-  -- - make sure no enemies or pickables can be in the area
 
+  -- Keep the exact same destructible entities so that the player cannot see a difference.
+
+  for destructible in map:get_entities("destructible_") do
+
+    -- Destroy all bushes and grass entities in the east screen.
+    local x, y = destructible:get_position()
+    if destructible:get_position() > 480 then
+      destructible:remove()
+    else
+      -- Move to the east the ones from the west.
+      -- Some of them might be currently playing an animation, that's why
+      -- we move them.
+      destructible:set_position(x + diff_x, y + diff_y)
+
+      -- And re-create the west ones.
+      local subtype
+      if x > 408 or y > 344 then
+        -- TODO destructible:get_subtype() instead.
+        subtype = "grass"
+      else
+        subtype = "bush"
+      end
+
+      num_destructibles_created = num_destructibles_created + 1
+      map:create_destructible{
+        layer = 0,
+        x = x,
+        y = y,
+        name = "destructible_bis_" .. num_destructibles_created,
+        subtype = subtype,
+      }
+    end
+  end
+
+  -- Put Tarkin above the grass.
+  -- TODO entity:bring_to_front() instead of this workaround
+  local x, y, layer = tarkin:get_position()
+  tarkin:set_position(x, y, layer + 1)
+  tarkin:set_position(x, y, layer)
+  x, y, layer = tarkin_2:get_position()
+  tarkin_2:set_position(x, y, layer + 1)
+  tarkin_2:set_position(x, y, layer)
 end
+
 

@@ -8939,14 +8939,8 @@ tile{
 destructible{
   layer = 0,
   x = 912,
-  y = 517,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 912,
-  y = 501,
+  y = 533,
+  name = "destructible_60",
   subtype = "grass",
 }
 
@@ -8963,6 +8957,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 309,
+  name = "destructible_21",
   subtype = "grass",
 }
 
@@ -8970,6 +8965,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 325,
+  name = "destructible_22",
   subtype = "grass",
 }
 
@@ -9026,106 +9022,9 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 784,
-  y = 461,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 784,
-  y = 477,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 784,
-  y = 493,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 880,
-  y = 461,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 880,
-  y = 477,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 880,
-  y = 493,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 864,
-  y = 509,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 848,
-  y = 525,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 832,
-  y = 525,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 816,
-  y = 525,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 800,
-  y = 509,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 816,
-  y = 429,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 832,
-  y = 429,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 848,
-  y = 429,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
   x = 336,
   y = 237,
+  name = "destructible_1",
   subtype = "bush",
 }
 
@@ -9133,6 +9032,7 @@ destructible{
   layer = 0,
   x = 352,
   y = 237,
+  name = "destructible_2",
   subtype = "bush",
 }
 
@@ -9140,6 +9040,15 @@ destructible{
   layer = 0,
   x = 368,
   y = 237,
+  name = "destructible_3",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 384,
+  y = 253,
+  name = "destructible_4",
   subtype = "bush",
 }
 
@@ -9147,6 +9056,7 @@ destructible{
   layer = 0,
   x = 400,
   y = 269,
+  name = "destructible_5",
   subtype = "bush",
 }
 
@@ -9154,6 +9064,7 @@ destructible{
   layer = 0,
   x = 400,
   y = 285,
+  name = "destructible_6",
   subtype = "bush",
 }
 
@@ -9161,6 +9072,7 @@ destructible{
   layer = 0,
   x = 400,
   y = 301,
+  name = "destructible_7",
   subtype = "bush",
 }
 
@@ -9168,6 +9080,7 @@ destructible{
   layer = 0,
   x = 384,
   y = 317,
+  name = "destructible_8",
   subtype = "bush",
 }
 
@@ -9175,6 +9088,7 @@ destructible{
   layer = 0,
   x = 368,
   y = 333,
+  name = "destructible_9",
   subtype = "bush",
 }
 
@@ -9182,6 +9096,7 @@ destructible{
   layer = 0,
   x = 352,
   y = 333,
+  name = "destructible_10",
   subtype = "bush",
 }
 
@@ -9189,6 +9104,7 @@ destructible{
   layer = 0,
   x = 336,
   y = 333,
+  name = "destructible_11",
   subtype = "bush",
 }
 
@@ -9196,6 +9112,7 @@ destructible{
   layer = 0,
   x = 320,
   y = 317,
+  name = "destructible_12",
   subtype = "bush",
 }
 
@@ -9203,6 +9120,7 @@ destructible{
   layer = 0,
   x = 304,
   y = 301,
+  name = "destructible_13",
   subtype = "bush",
 }
 
@@ -9210,133 +9128,8 @@ destructible{
   layer = 0,
   x = 304,
   y = 285,
+  name = "destructible_14",
   subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 304,
-  y = 269,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 405,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 421,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 912,
-  y = 469,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 912,
-  y = 485,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 912,
-  y = 533,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 912,
-  y = 549,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 549,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 565,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 581,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 880,
-  y = 581,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 880,
-  y = 597,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 880,
-  y = 613,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 597,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 613,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 629,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 645,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 896,
-  y = 661,
-  subtype = "grass",
 }
 
 destructible{
@@ -9355,22 +9148,9 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 912,
-  y = 661,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 912,
-  y = 677,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
   x = 416,
   y = 357,
+  name = "destructible_25",
   subtype = "grass",
 }
 
@@ -9378,6 +9158,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 373,
+  name = "destructible_26",
   subtype = "grass",
 }
 
@@ -9385,6 +9166,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 389,
+  name = "destructible_28",
   subtype = "grass",
 }
 
@@ -9392,6 +9174,7 @@ destructible{
   layer = 0,
   x = 400,
   y = 389,
+  name = "destructible_27",
   subtype = "grass",
 }
 
@@ -9399,6 +9182,7 @@ destructible{
   layer = 0,
   x = 400,
   y = 405,
+  name = "destructible_29",
   subtype = "grass",
 }
 
@@ -9406,6 +9190,7 @@ destructible{
   layer = 0,
   x = 400,
   y = 421,
+  name = "destructible_31",
   subtype = "grass",
 }
 
@@ -9413,6 +9198,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 405,
+  name = "destructible_30",
   subtype = "grass",
 }
 
@@ -9420,6 +9206,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 421,
+  name = "destructible_32",
   subtype = "grass",
 }
 
@@ -9427,6 +9214,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 437,
+  name = "destructible_33",
   subtype = "grass",
 }
 
@@ -9434,6 +9222,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 453,
+  name = "destructible_34",
   subtype = "grass",
 }
 
@@ -9441,6 +9230,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 469,
+  name = "destructible_35",
   subtype = "grass",
 }
 
@@ -9448,6 +9238,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 469,
+  name = "destructible_36",
   subtype = "grass",
 }
 
@@ -9455,6 +9246,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 485,
+  name = "destructible_37",
   subtype = "grass",
 }
 
@@ -9462,6 +9254,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 213,
+  name = "destructible_17",
   subtype = "grass",
 }
 
@@ -9469,6 +9262,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 229,
+  name = "destructible_18",
   subtype = "grass",
 }
 
@@ -9476,6 +9270,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 277,
+  name = "destructible_19",
   subtype = "grass",
 }
 
@@ -9483,6 +9278,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 293,
+  name = "destructible_20",
   subtype = "grass",
 }
 
@@ -9490,6 +9286,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 341,
+  name = "destructible_23",
   subtype = "grass",
 }
 
@@ -9497,6 +9294,7 @@ destructible{
   layer = 0,
   x = 432,
   y = 357,
+  name = "destructible_24",
   subtype = "grass",
 }
 
@@ -9931,29 +9729,17 @@ destructible{
 
 destructible{
   layer = 0,
+  x = 304,
+  y = 269,
+  name = "destructible_15",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
   x = 320,
   y = 253,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 384,
-  y = 253,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 800,
-  y = 445,
-  subtype = "bush",
-}
-
-destructible{
-  layer = 0,
-  x = 864,
-  y = 445,
+  name = "destructible_16",
   subtype = "bush",
 }
 
@@ -10379,6 +10165,294 @@ destination{
   y = 357,
   name = "tmp",
   direction = 3,
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 501,
+  name = "destructible_58",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 517,
+  name = "destructible_59",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 816,
+  y = 429,
+  name = "destructible_38",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 832,
+  y = 429,
+  name = "destructible_39",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 848,
+  y = 429,
+  name = "destructible_40",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 864,
+  y = 445,
+  name = "destructible_41",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 461,
+  name = "destructible_42",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 477,
+  name = "destructible_43",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 493,
+  name = "destructible_44",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 864,
+  y = 509,
+  name = "destructible_45",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 848,
+  y = 525,
+  name = "destructible_46",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 832,
+  y = 525,
+  name = "destructible_47",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 816,
+  y = 525,
+  name = "destructible_48",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 800,
+  y = 509,
+  name = "destructible_49",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 784,
+  y = 493,
+  name = "destructible_50",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 784,
+  y = 477,
+  name = "destructible_51",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 549,
+  name = "destructible_61",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 565,
+  name = "destructible_62",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 581,
+  name = "destructible_64",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 581,
+  name = "destructible_63",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 597,
+  name = "destructible_65",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 613,
+  name = "destructible_67",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 597,
+  name = "destructible_66",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 613,
+  name = "destructible_68",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 629,
+  name = "destructible_69",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 645,
+  name = "destructible_70",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 661,
+  name = "destructible_71",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 661,
+  name = "destructible_72",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 677,
+  name = "destructible_73",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 405,
+  name = "destructible_54",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 421,
+  name = "destructible_55",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 469,
+  name = "destructible_56",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 485,
+  name = "destructible_57",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 549,
+  name = "destructible_74",
+  subtype = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 784,
+  y = 461,
+  name = "destructible_52",
+  subtype = "bush",
+}
+
+destructible{
+  layer = 0,
+  x = 800,
+  y = 445,
+  name = "destructible_53",
+  subtype = "bush",
 }
 
 npc{
