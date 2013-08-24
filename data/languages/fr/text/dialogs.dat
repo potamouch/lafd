@@ -271,7 +271,7 @@ l'ancien !
 dialog{
   id = "_treasure.lamp.1",
   icon = 5,
-  next = "_warning_magic",
+  next = "warning_magic",
   text = [[
 Tu as trouvé la
 Lanterne !$0 Elle
@@ -984,16 +984,11 @@ vie et ta magie !
 }
 --------------------
 
--- ---------------
--- Autres messages
--- ---------------
--- 
--- Autres messages divers affichés par le moteur de jeu
 -- Affiché à la fin des dialogues expliquant
 -- que le joueur a obtenu un objet qui consomme
 -- de l'énergie magique (même message que dans ALTTP)
 dialog{
-  id = "_warning_magic",
+  id = "warning_magic",
   text = [[
 Mais surveille ton
 compteur magique !
@@ -1001,20 +996,10 @@ compteur magique !
 }
 --------------------
 
--- Lorsqu'on ouvre un coffre vide
-dialog{
-  id = "_empty_chest",
-  text = [[
-Ce coffre est vide !
-Tant pis pour toi !
-]]
-}
------------------------
-
 -- Lorsqu'on regarde une porte verrouillé ou un bloc verrouillé
 -- et qu'on ne possède pas de Petite Clé
 dialog{
-  id = "_small_key_required",
+  id = "small_key_required",
   icon = 72,
   skip = "all",
   text = [[
@@ -1026,7 +1011,7 @@ C'est fermé à clé !
 -- Lorsqu'on regarde le grand coffre ou une porte verrouillée nécessitant la Grande Clé
 -- et qu'on ne possède pas celle-ci
 dialog{
-  id = "_big_key_required",
+  id = "big_key_required",
   icon = 73,
   skip = "all",
   text = [[
@@ -1039,7 +1024,7 @@ cette serrure !
 
 -- Lorsqu'on regarde la porte du boss sans avoir la Clé du Maître
 dialog{
-  id = "_boss_key_required",
+  id = "boss_key_required",
   icon = 74,
   skip = "all",
   text = [[
