@@ -12,11 +12,12 @@ function item:on_using()
 
   local variant = item:get_variant()
   if variant == 1 then
-    -- Magic mushroom
+    -- Magic mushroom.
     self:get_game():start_dialog("item.mushroom")
   else
-    -- Magic powder
+    -- Magic powder.
   end
   self:set_finished()
 
 end
+

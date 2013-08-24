@@ -8938,26 +8938,17 @@ tile{
 
 destructible{
   layer = 0,
-  x = 912,
-  y = 533,
-  name = "destructible_60",
+  x = 432,
+  y = 309,
+  name = "destructible_21",
   subtype = "grass",
-}
-
-sensor{
-  layer = 0,
-  x = 768,
-  y = 493,
-  width = 160,
-  height = 16,
-  name = "lost_destination",
 }
 
 destructible{
   layer = 0,
   x = 432,
-  y = 309,
-  name = "destructible_21",
+  y = 293,
+  name = "destructible_20",
   subtype = "grass",
 }
 
@@ -8976,6 +8967,32 @@ sensor{
   width = 160,
   height = 16,
   name = "lost_sensor",
+}
+
+sensor{
+  layer = 0,
+  x = 288,
+  y = 325,
+  width = 160,
+  height = 16,
+  name = "raccoon_lost_warning_sensor",
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 533,
+  name = "destructible_60",
+  subtype = "grass",
+}
+
+sensor{
+  layer = 0,
+  x = 768,
+  y = 493,
+  width = 160,
+  height = 16,
+  name = "lost_destination",
 }
 
 teletransporter{
@@ -9271,14 +9288,6 @@ destructible{
   x = 432,
   y = 277,
   name = "destructible_19",
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 432,
-  y = 293,
-  name = "destructible_20",
   subtype = "grass",
 }
 
@@ -10141,9 +10150,9 @@ npc{
   layer = 0,
   x = 432,
   y = 341,
-  name = "tarkin",
+  name = "tarin",
   direction = 3,
-  subtype = "0",
+  subtype = "1",
   sprite = "npc/tarkin",
 }
 
@@ -10459,7 +10468,7 @@ npc{
   layer = 0,
   x = 912,
   y = 533,
-  name = "tarkin_2",
+  name = "tarin_2",
   direction = 3,
   subtype = "0",
   sprite = "npc/tarkin",

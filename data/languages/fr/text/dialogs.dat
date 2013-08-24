@@ -1595,6 +1595,7 @@ Village des Animaux
 }
 -----------------------
 
+-- TODO what is this dialog?
 dialog{
   id = "item.mushroom",
   skip = "all",
@@ -1608,6 +1609,55 @@ de votre tête
 et un arôme subtil 
 exalte ton sens 
 de l'odorat..
+]]
+}
+-----------------------
+
+dialog{
+  id = "forest.raccoon_lost_warning",
+  text = [[
+Hé hé ! Tu vas
+te perdre dans
+la Forêt. Hi hi !
+Bien fait !!
+]]
+}
+-----------------------
+
+dialog{
+  id = "forest.raccoon",
+  text = [[
+J'suis un raton-
+laveur espiègle.
+Et j'aime pas
+du tout c'qu'est
+poudreux...
+]]
+}
+-----------------------
+
+dialog{
+  id = "forest.raccoon_to_tarin",
+  text = [[
+J'ai croqué dans
+un champignon.
+Et j'suis devenu
+un raton-laveur !
+Après, j'sais
+plus trop,
+mais c'était
+trop rigolo !!
+]]
+}
+-----------------------
+
+dialog{
+  id = "forest.tarin",
+  text = [[
+Oh là là !! J'me
+sens tout drôle !
+Faut m'reposer
+avant d'rentrer.
 ]]
 }
 -----------------------
