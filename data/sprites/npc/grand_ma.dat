@@ -1,24 +1,11 @@
-animation{
-  name = "stopped",
-  src_image = "npc/grand_ma.png",
-  directions = {
-    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-  },
-}
+stopped npc/grand_ma.png 4 0 -1
+0	32	24	32	12	29	1	1
+0	0	24	32	12	29	1	1
+0	96	24	32	12	29	1	1
+0	64	24	32	12	29	1	1
 
-animation{
-  name = "walking",
-  src_image = "npc/grand_ma.png",
-  frame_delay = 800,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
-    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
-    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
-  },
-}
-
+walking npc/grand_ma.png 4 800 0
+0	32	24	32	12	29	2	2
+0	0	24	32	12	29	2	2
+0	96	24	32	12	29	2	2
+0	64	24	32	12	29	2	2
