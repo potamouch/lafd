@@ -1,18 +1,6 @@
--- This screen is displayed when the program starts, after the language
--- selection screen (if any).
-
--- This menu is scripted in an object-oriented style:
--- we create a class title_screen and return it.
--- All data are stored in the self instance.
+-- Title screen with an animation before the logo appears.
 
 local title_screen = {}
-
-function title_screen:new()
-  local object = {}
-  setmetatable(object, self)
-  self.__index = self
-  return object
-end
 
 function title_screen:on_started()
 
@@ -90,30 +78,26 @@ function title_screen:on_key_pressed(key)
     	self:phase_title()
     elseif self.phase == "title" then
      self.timer:stop()
-     handled = self:finish_title()
+     handled = true
+     sol.menu.stop(self)
     end
 
 --  Debug.
   elseif key == "left shift" or key == "right shift" then
-    self:finish_title()
+    sol.menu.stop(self)
 
   else
     handled = false
 
   end
+
+  return handled
 end
 
 function title_screen:on_joypad_button_pressed(button)
 
-  return self:finish_title()
+  return title_screen:on_key_pressed("space")
 
-end
-
-function title_screen:finish_title()
-
-  local savegame_menu = require("menus/savegames")
-  sol.audio.stop_music()
-  sol.main:start_menu(savegame_menu:new())
 end
 
 return title_screen
