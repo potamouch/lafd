@@ -115,8 +115,10 @@ sprite{ id = "enemies/bowwow", description = "Enemy: Bowwow" }
 sprite{ id = "enemies/chicken", description = "Enemy: Chicken" }
 sprite{ id = "enemies/sea_urchin", description = "Enemy: Sea urchin" }
 sprite{ id = "enemies/small_bowwow", description = "Enemy: Small Bowwow" }
+sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 
 sound{ id = "hero_get_sword", description = "Hero get sword" }
+sound{ id = "solarus_logo", description = "Solarus logo" }
 
 item{ id = "boomerang", description = "Boomerang" }
 item{ id = "bow", description = "Bow" }
