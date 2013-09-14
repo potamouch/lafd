@@ -12,6 +12,7 @@ local item_names_assignable = {
   "shovel",
   "magic_rod",
   "ocarina",
+  "boomerang",
   "boomerang"
 }
 local item_names_static = {
@@ -21,22 +22,50 @@ local item_names_static = {
   "magnifying_lens"
 }
 
+local item_names_key = {
+  "tail_key",
+  "slim_key",
+  "angler_key",
+  "face_key",
+  "bird_key",
+  "slim_key"
+}
+
 function inventory_submenu:on_started()
 
   submenu.on_started(self)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
-  self.sprites = {}
+  self.quest_items_surface = sol.surface.create(320, 240)
+  self.sprites_assignables = {}
+  self.sprites_static = {}
+  self.sprites_key = {}
   self.counters = {}
   self.captions = {}
 
   -- Load Items
-  for k = 1, #item_names_assignable do
-    local item = self.game:get_item(item_names_assignable[k])
+  for i,item_name in ipairs(item_names_assignable) do
+    local item = self.game:get_item(item_name)
     local variant = item:get_variant()
-    self.sprites[k] = sol.sprite.create("entities/items")
-    self.sprites[k]:set_animation(item_names_assignable[k])
-
+    self.sprites_assignables[i] = sol.sprite.create("entities/items")
+    self.sprites_assignables[i]:set_animation(item_name)
   end
+  for i,item_name in ipairs(item_names_static) do
+    local item = self.game:get_item(item_name)
+    local variant = item:get_variant()
+    self.sprites_static[i] = sol.sprite.create("entities/items")
+    self.sprites_static[i]:set_animation(item_name)
+  end
+  for i,item_name in ipairs(item_names_key) do
+    local item = self.game:get_item(item_name)
+    local variant = item:get_variant()
+    self.sprites_key[i] = sol.sprite.create("entities/items")
+    self.sprites_key[i]:set_animation(item_name)
+  end
+
+  -- Pieces of heart.
+  local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
+  local x = 51 * (self.game:get_value("i1030") or 0)
+  pieces_of_heart_img:draw_region(x, 0, 51, 50, self.quest_items_surface, 101, 81)
 
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
@@ -69,12 +98,22 @@ function inventory_submenu:set_cursor_position(row, column)
 
   self.cursor_row = row
   self.cursor_column = column
-    local index = row * 3 + column
-
+  local index
+  local item_name
   self.game:set_value("pause_inventory_last_item_index", index)
 
   -- Update the caption text and the action icon.
-  local item_name = item_names_assignable[index + 1]
+    if column < 3 then
+     index = row * 3 + column
+     item_name = item_names_assignable[index + 1]
+    elseif row == 0 then
+      index = column-3
+      item_name = item_names_static[index + 1]
+    elseif column > 4 then
+      index = row * 2 + column - 6
+      print(index)
+      item_name = item_names_key[index]
+    end
   local item = item_name and self.game:get_item(item_name) or nil
   local variant = item and item:get_variant()
   local item_icon_opacity = 128
@@ -270,18 +309,48 @@ function inventory_submenu:on_draw(dst_surface)
 
   for i = 0, 3 do
     local x = 64
-
     for j = 0, 2 do
       k = k + 1
       if item_names_assignable[k] ~= nil then
         local item = self.game:get_item(item_names_assignable[k])
         if item:get_variant() > 0 then
           -- The player has this item: draw it.
-          self.sprites[k]:draw(dst_surface, x, y)
+          self.sprites_assignables[k]:draw(dst_surface, x, y)
           if self.counters[k] ~= nil then
             self.counters[k]:draw(dst_surface, x + 8, y)
           end
         end
+      end
+      x = x + 32
+    end
+    y = y + 32
+  end
+
+  -- Draw each inventory static item.
+  local y = 82
+  local k = 0
+  local x = 160
+  for j = 0, 2 do
+    k = k + 1
+    local item = self.game:get_item(item_names_static[k])
+    if item:get_variant() > 0 then
+      -- The player has this item: draw it.
+      self.sprites_static[k]:draw(dst_surface, x, y)
+    end
+    x = x + 32
+  end
+
+  -- Draw each inventory key item.
+  local y = 114
+  local k = 0
+  for i = 0, 2 do
+    local x = 224
+    for j = 0, 1 do
+      k = k + 1
+      local item = self.game:get_item(item_names_key[k])
+      if item:get_variant() > 0 then
+        -- The player has this item: draw it.
+        self.sprites_key[k]:draw(dst_surface, x, y)
       end
       x = x + 32
     end

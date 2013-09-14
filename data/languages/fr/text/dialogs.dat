@@ -15,7 +15,6 @@ chir des obstacles.
 }
 --------------------
 
-
 -- Magic powder 1
 dialog{
   id = "_item_description.magic_powder.1",
@@ -150,6 +149,22 @@ dans l'eau profonde.
 -- Les messages ci-dessous sont affichés lorsque le joueur obtient
 -- un trésor, généralement en ouvrant un coffre ou en l'achetant
 -- dans un magasin.
+
+-- Power bracelet 1
+dialog{
+  id = "_treasure.power_bracelet.1",
+  icon = 16,
+  skip = "all",
+  text = [[
+Tu as trouvé    
+le Bracelet!    
+Génial! Tu peux 
+soulever des    
+jarres et des   
+pierres!
+]]
+}
+--------------------
 -- Plume
 dialog{
   id = "_treasure.feather.1",

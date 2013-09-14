@@ -626,6 +626,46 @@ npc{
   sprite = "npc/marine",
 }
 
+chest{
+  layer = 1,
+  x = 208,
+  y = 85,
+  treasure_name = "tail_key",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 224,
+  y = 85,
+  treasure_name = "slim_key",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 184,
+  y = 117,
+  treasure_name = "angler_key",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 200,
+  y = 117,
+  treasure_name = "face_key",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 160,
+  y = 149,
+  treasure_name = "bird_key",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 2,
   x = 144,
