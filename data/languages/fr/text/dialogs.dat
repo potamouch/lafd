@@ -12,6 +12,66 @@ vos ennemis.
 ]]
 }
 --------------------
+-- Tail key
+dialog{
+  id = "_item_description.tail_key.1",
+  icon = 40,
+  skip = "all",
+  text = [[
+Permet d'ouvrir
+la porte de
+la cave Flagello
+]]
+}
+--------------------
+-- Slim key
+dialog{
+  id = "_item_description.slim_key.1",
+  icon = 43,
+  skip = "all",
+  text = [[
+Permet d'ouvrir
+la porte de
+la cave aux clefs
+]]
+}
+--------------------
+-- Angler key
+dialog{
+  id = "_item_description.angler_key.1",
+  icon = 41,
+  skip = "all",
+  text = [[
+Permet d'ouvrir
+la porte de
+l'abîme du poisson.
+]]
+}
+--------------------
+-- Bird key
+dialog{
+  id = "_item_description.bird_key.1",
+  icon = 42,
+  skip = "all",
+  text = [[
+Permet d'ouvrir
+la porte de la
+la tour du vautour.
+]]
+}
+--------------------
+-- Face key
+dialog{
+  id = "_item_description.face_key.1",
+  icon = 44,
+  skip = "all",
+  text = [[
+Permet d'ouvrir
+la porte du
+temple du masque.
+]]
+}
+--------------------
 
 -- Feather
 dialog{
@@ -36,6 +96,53 @@ Si tu brandis
 le Champignon,  
 un arôme subtil 
 se répandra!
+]]
+}
+--------------------
+-- Sword
+dialog{
+  id = "_item_description.sword.1",
+  icon = 66,
+  skip = "all",
+  text = [[
+Une belle épée avec
+ton nom écrit dessus.
+]]
+}
+--------------------
+-- Tunic
+dialog{
+  id = "_item_description.tunic.1",
+  icon = 60,
+  skip = "all",
+  text = [[
+Une tunique verte 
+pour le plus beau
+des héros !
+]]
+}
+--------------------
+-- Tunic 2
+dialog{
+  id = "_item_description.tunic.2",
+  icon = 61,
+  skip = "all",
+  text = [[
+Une tunique bleue 
+pour le plus beau
+des héros !
+]]
+}
+--------------------
+-- Tunic 3
+dialog{
+  id = "_item_description.tunic.3",
+  icon = 62,
+  skip = "all",
+  text = [[
+Une tunique rouge 
+pour le plus beau
+des héros !
 ]]
 }
 --------------------

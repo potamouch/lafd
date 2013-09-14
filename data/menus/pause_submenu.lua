@@ -109,7 +109,10 @@ function submenu:previous_submenu()
   sol.menu.stop(self)
   local submenus = self.game.pause_submenus
   local submenu_index = self.game:get_value("pause_last_submenu")
-  submenu_index = (submenu_index + 2) % #submenus + 1
+  submenu_index = submenu_index - 1
+  if submenu_index == 0 then
+    submenu_index = 3
+  end
   self.game:set_value("pause_last_submenu", submenu_index)
   sol.menu.start(self.game, submenus[submenu_index], false)
 end

@@ -35,12 +35,14 @@ function inventory_submenu:on_started()
 
   submenu.on_started(self)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
-  self.quest_items_surface = sol.surface.create(320, 240)
+  self.hearts_surface = sol.surface.create(320, 240)
   self.sprites_assignables = {}
   self.sprites_static = {}
   self.sprites_key = {}
   self.counters = {}
   self.captions = {}
+  self.hearts_surface:set_transparency_color{0, 0, 0}
+  self.hearts_surface:fill_color{0, 0, 0}
 
   -- Load Items
   for i,item_name in ipairs(item_names_assignable) do
@@ -65,7 +67,7 @@ function inventory_submenu:on_started()
   -- Pieces of heart.
   local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
   local x = 51 * (self.game:get_value("i1030") or 0)
-  pieces_of_heart_img:draw_region(x, 0, 51, 50, self.quest_items_surface, 101, 81)
+  pieces_of_heart_img:draw_region(x, 0, 51, 50, self.hearts_surface, 150, 100)
 
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
@@ -103,20 +105,7 @@ function inventory_submenu:set_cursor_position(row, column)
   self.game:set_value("pause_inventory_last_item_index", index)
 
   -- Update the caption text and the action icon.
-    if column < 3 then
-     index = row * 3 + column
-     item_name = item_names_assignable[index + 1]
-    elseif row == 0 then
-      index = column-3
-      item_name = item_names_static[index + 1]
-    elseif column < 5 and row < 3 then
-      item_name = 'sword'
-    elseif column < 5 and row == 3 then
-	item_name = 'flippers'
-    else
-      index = row * 2 + column - 6
-      item_name = item_names_key[index]
-    end
+  local item_name = self:get_item_name(row, column)
   local item = item_name and self.game:get_item(item_name) or nil
   local variant = item and item:get_variant()
   local item_icon_opacity = 128
@@ -137,7 +126,7 @@ end
 
 function inventory_submenu:is_item_selected()
 
-  local item_name = item_names_assignable[self:get_selected_index() + 1]
+  local item_name = self:get_item_name(self.cursor_row, self.cursor_column)
 
   return self.game:get_item(item_name):get_variant() > 0
 
@@ -149,14 +138,34 @@ function inventory_submenu:get_selected_index()
 
 end
 
+function inventory_submenu:get_item_name(row, column)
+
+    if column < 3 then
+     index = row * 3 + column
+     item_name = item_names_assignable[index + 1]
+    elseif row == 0 then
+      index = column - 3
+      item_name = item_names_static[index + 1]
+    elseif column < 5 and row < 3 then
+      item_name = 'sword'
+    elseif column < 5 and row == 3 then
+	item_name = 'flippers'
+    else
+      index = row * 2 + column - 6
+      item_name = item_names_key[index]
+    end
+
+    return item_name
+
+end
+
 -- Assigns the selected item to a slot (1 or 2).
 -- The operation does not take effect immediately: the item picture is thrown to
 -- its destination icon, then the assignment is done.
 -- Nothing is done if the item is not assignable.
 function inventory_submenu:assign_item(slot)
 
-  local index = self:get_selected_index() + 1
-  local item_name = item_names_assignable[index]
+  local item_name = self:get_item_name(self.cursor_row, self.cursor_column)
   local item = self.game:get_item(item_name)
 
   -- If this item is not assignable, do nothing.
@@ -220,21 +229,7 @@ end
 -- The player is supposed to have this item.
 function inventory_submenu:show_info_message()
 
-  local item_name
-    if self.cursor_column < 3 then
-     index = self.cursor_row * 3 + self.cursor_column
-     item_name = item_names_assignable[index + 1]
-    elseif self.cursor_row == 0 then
-      index = self.cursor_column-3
-      item_name = item_names_static[index + 1]
-    elseif self.cursor_column < 5 and self.cursor_row < 3 then
-      item_name = 'sword'
-    elseif self.cursor_column < 5 and self.cursor_row == 3 then
-	item_name = 'flippers'
-    else
-      index = self.cursor_row * 2 + self.cursor_column - 6
-      item_name = item_names_key[index]
-    end
+  local item_name = self:get_item_name(self.cursor_row, self.cursor_column)
   local variant = self.game:get_item(item_name):get_variant()
   local game = self.game
   local map = game:get_map()
@@ -319,7 +314,7 @@ function inventory_submenu:on_draw(dst_surface)
 
   self:draw_background(dst_surface)
   self:draw_caption(dst_surface)
-
+  self.hearts_surface:draw(dst_surface, x, y)
   -- Draw each inventory assignable item.
   local y = 82
   local k = 0
