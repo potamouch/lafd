@@ -37,14 +37,6 @@ local timer = nil
 
 -------------------------------------------------------------------------------
 
--- Exits this menu and starts the next one (the title screen).
-local function start_next_menu()
-  if sol.main.menu == solarus_logo_menu then
-    local title_screen = require("menus/title")
-    sol.main:start_menu(title_screen:new())
-  end
-end
-
 -- Rebuilds the whole surface of the menu.
 local function rebuild_surface ()
 
@@ -115,7 +107,9 @@ function solarus_logo_menu:step2()
   -- Start the final timer.
   sol.timer.start(self, 500, function()
     surface:fade_out()
-    sol.timer.start(self, 700, start_next_menu)
+    sol.timer.start(self, 700, function()
+      sol.menu.stop(self)
+    end)
   end)
 end
 
