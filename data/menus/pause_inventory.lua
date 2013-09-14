@@ -109,9 +109,12 @@ function inventory_submenu:set_cursor_position(row, column)
     elseif row == 0 then
       index = column-3
       item_name = item_names_static[index + 1]
-    elseif column > 4 then
+    elseif column < 5 and row < 3 then
+      item_name = 'sword'
+    elseif column < 5 and row == 3 then
+	item_name = 'flippers'
+    else
       index = row * 2 + column - 6
-      print(index)
       item_name = item_names_key[index]
     end
   local item = item_name and self.game:get_item(item_name) or nil
@@ -217,7 +220,21 @@ end
 -- The player is supposed to have this item.
 function inventory_submenu:show_info_message()
 
-  local item_name = item_names_assignable[self:get_selected_index() + 1]
+  local item_name
+    if self.cursor_column < 3 then
+     index = self.cursor_row * 3 + self.cursor_column
+     item_name = item_names_assignable[index + 1]
+    elseif self.cursor_row == 0 then
+      index = self.cursor_column-3
+      item_name = item_names_static[index + 1]
+    elseif self.cursor_column < 5 and self.cursor_row < 3 then
+      item_name = 'sword'
+    elseif self.cursor_column < 5 and self.cursor_row == 3 then
+	item_name = 'flippers'
+    else
+      index = self.cursor_row * 2 + self.cursor_column - 6
+      item_name = item_names_key[index]
+    end
   local variant = self.game:get_item(item_name):get_variant()
   local game = self.game
   local map = game:get_map()

@@ -1,6 +1,17 @@
 -- This is a Lua dialog file for solarus 0.9.1 or greater.
 -- This dialog file was converted from the 0.9.0 ini syntax using the script
 -- tools/data_files_conversion/0.9.0_to_0.9.1/convert_dialogs.lua.
+-- Shield
+dialog{
+  id = "_item_description.shield.1",
+  icon = 63,
+  skip = "all",
+  text = [[
+Permet de repousser
+vos ennemis.
+]]
+}
+--------------------
 
 -- Feather
 dialog{
@@ -18,13 +29,25 @@ chir des obstacles.
 -- Magic powder 1
 dialog{
   id = "_item_description.magic_powder.1",
-  icon = 16,
+  icon = 36,
   skip = "all",
   text = [[
 Si tu brandis   
 le Champignon,  
 un arôme subtil 
 se répandra!
+]]
+}
+--------------------
+-- Magic powder 2
+dialog{
+  id = "_item_description.magic_powder.2",
+  icon = 37,
+  skip = "all",
+  text = [[
+Essaie de la    
+saupoudrer sur  
+plein de choses!
 ]]
 }
 --------------------
