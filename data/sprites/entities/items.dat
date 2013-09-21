@@ -82,7 +82,7 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 112, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 112, y = 0, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 128, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 
@@ -231,14 +231,6 @@ animation{
 }
 
 animation{
-  name = "slim_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 368, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
-  },
-}
-
-animation{
   name = "angler_key",
   src_image = "entities/items.png",
   directions = {
@@ -247,18 +239,26 @@ animation{
 }
 
 animation{
-  name = "face_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 384, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
-  },
-}
-
-animation{
   name = "bird_key",
   src_image = "entities/items.png",
   directions = {
     { x = 352, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+  },
+}
+
+animation{
+  name = "slim_key",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 368, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+  },
+}
+
+animation{
+  name = "face_key",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 384, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
   },
 }
 

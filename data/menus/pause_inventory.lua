@@ -327,6 +327,7 @@ function inventory_submenu:on_draw(dst_surface)
         local item = self.game:get_item(item_names_assignable[k])
         if item:get_variant() > 0 then
           -- The player has this item: draw it.
+          self.sprites_assignables[k]:set_direction(item:get_variant() - 1)
           self.sprites_assignables[k]:draw(dst_surface, x, y)
           if self.counters[k] ~= nil then
             self.counters[k]:draw(dst_surface, x + 8, y)

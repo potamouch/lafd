@@ -9809,6 +9809,15 @@ tile{
   pattern = 1389,
 }
 
+tile{
+  layer = 0,
+  x = 352,
+  y = 48,
+  width = 64,
+  height = 16,
+  pattern = 910,
+}
+
 destructible{
   layer = 0,
   x = 600,
@@ -11592,13 +11601,6 @@ destructible{
   layer = 0,
   x = 408,
   y = 61,
-  subtype = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 360,
-  y = 405,
   subtype = "grass",
 }
 

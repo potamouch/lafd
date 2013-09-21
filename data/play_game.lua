@@ -67,4 +67,5 @@ end
 -- Run the game.
 sol.main.game = game
 game:start()
+sol.main.load_file("map")(game)
 

@@ -687,7 +687,7 @@ dessus!
 -- Champignon magique
 dialog{
   id = "_treasure.magic_powder.1",
-  icon = 67,
+  icon = 36,
   text = [[
 Tu as trouvé    
 le Champignon!$0
@@ -701,7 +701,7 @@ de l'odorat.
 -- Poudre magique
 dialog{
   id = "_treasure.magic_powder.2",
-  icon = 67,
+  icon = 37,
   text = [[
 Tu as gagné la  
 Poudre Magique! $0
@@ -715,7 +715,7 @@ plein de trucs
 -- Clé Flagello
 dialog{
   id = "_treasure.tail_key.1",
-  icon = 67,
+  icon = 40,
   text = [[
 Tu as la        
 Clé Flagello!   
@@ -729,7 +729,7 @@ Cave Flagello!
 -- Clé Cyclope
 dialog{
   id = "_treasure.slim_key.1",
-  icon = 67,
+  icon = 43,
   text = [[
 Tu as la        
 Clé Cyclope!    
@@ -743,7 +743,7 @@ La Prairie!
 -- Clé Vautour
 dialog{
   id = "_treasure.bird_key.1",
-  icon = 67,
+  icon = 42,
   text = [[
 Tu as la        
 Clé Vautour!
@@ -754,7 +754,7 @@ Clé Vautour!
 -- Clé poisson
 dialog{
   id = "_treasure.angler_key.1",
-  icon = 67,
+  icon = 41,
   text = [[
 Tu as la        
 Clé Poisson!
@@ -765,7 +765,7 @@ Clé Poisson!
 -- Clé Masque
 dialog{
   id = "_treasure.face_key.1",
-  icon = 67,
+  icon = 44,
   text = [[
 Tu as la        
 Clé Masque!

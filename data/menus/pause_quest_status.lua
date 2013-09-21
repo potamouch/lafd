@@ -5,24 +5,54 @@ function quest_status_submenu:on_started()
 
   submenu.on_started(self)
   self.quest_items_surface = sol.surface.create(320, 240)
+  self.quest_map_surface = sol.surface.create(320, 240)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
   self.cursor_sprite_x = 0
   self.cursor_sprite_y = 0
   self.cursor_position = nil
+  self.cursor_map_position = nil
   self.caption_text_keys = {}
+  self.map_open = false
 
   local item_sprite = sol.sprite.create("entities/items")
 
   -- Draw the items on a surface.
   self.quest_items_surface:set_transparency_color{0, 0, 0}
   self.quest_items_surface:fill_color{0, 0, 0}
+  self.quest_map_surface:set_transparency_color{0, 0, 0}
+  self.quest_map_surface:fill_color{0, 0, 0}
 
-  -- Pieces of heart.
-  local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
-  local x = 51 * (self.game:get_value("i1030") or 0)
-  pieces_of_heart_img:draw_region(x, 0, 51, 50, self.quest_items_surface, 101, 81)
-  self.caption_text_keys[4] = "quest_status.caption.pieces_of_heart"
-
+  -- World map
+  local map_img = sol.surface.create("menus/outside_world_map.png")
+  map_img:draw_region(0, 0, 116, 116, self.quest_items_surface, 56, 65)
+  -- Big world map
+  local map_img_background = sol.surface.create("menus/outside_world_map_background.png")
+  map_img_background:draw_region(0, 0, 225, 133, self.quest_map_surface, 48, 59)
+  local map_img_big = sol.surface.create("menus/outside_world_map_big.png")
+  map_img_big:draw_region(0, 0, 163, 131, self.quest_map_surface, 79, 60)
+  local map_img_big_square = sol.surface.create("menus/outside_world_map_big_square.png")
+  local pos_x = 0
+  local pos_y = 0
+  local border_x = 0
+  local border_y = 0
+  for i = 1, 16 do
+    border_y = 0
+    if i == 5 or i == 9 or i == 13 then
+     border_x = border_x+1
+    end
+    pos_x = 69+i*10+border_x;
+    for j = 1, 16 do
+      if j == 5 or j == 9 or j == 13 then
+       border_y = border_y+1
+      end
+      pos_y = 52+j*8+border_y;
+      local save_map_discovering = self.game:get_value('map_discovering_'..(i-1)..'_'..(j-1))
+      if save_map_discovering == nil then
+        map_img_big_square:draw_region(0, 0, 10, 8, self.quest_map_surface, pos_x, pos_y)
+      end
+    end
+  end
+  
   -- Dungeons finished
   local dungeons_img = sol.surface.create("menus/quest_status_dungeons.png")
   local dst_positions = {
@@ -50,29 +80,112 @@ function quest_status_submenu:set_cursor_position(position)
 
   if position ~= self.cursor_position then
     self.cursor_position = position
-    if position <= 3 then
-      self.cursor_sprite_x = 68
-    elseif position == 4 then
-      self.cursor_sprite_x = 126
-      self.cursor_sprite_y = 107
-    else
-      self.cursor_sprite_x = 15 + 34 * position
-    end
-
+    self.cursor_map_position = position
     if position == 0 then
-      self.cursor_sprite_y = 79
+      self.cursor_sprite_x = 65
+      self.cursor_sprite_y = 72
+      self.cursor_map_position = 0
     elseif position == 1 then
-      self.cursor_sprite_y = 108
+      self.cursor_sprite_x = 86
+      self.cursor_sprite_y = 72
     elseif position == 2 then
-      self.cursor_sprite_y = 138
+      self.cursor_sprite_x = 107
+      self.cursor_sprite_y = 72
+    elseif position == 3 then
+      self.cursor_sprite_x = 128
+      self.cursor_sprite_y = 72
     elseif position == 4 then
-      self.cursor_sprite_y = 107
+      self.cursor_sprite_x = 173
+      self.cursor_sprite_y = 76
+      self.cursor_map_position = nil
+    elseif position == 5 then
+      self.cursor_sprite_x = 213
+      self.cursor_sprite_y = 76
+      self.cursor_map_position = nil
+    elseif position == 6 then
+      self.cursor_sprite_x = 253
+      self.cursor_sprite_y = 76
+      self.cursor_map_position = nil
+    elseif position == 7 then
+      self.cursor_sprite_x = 65
+      self.cursor_sprite_y = 89
+    elseif position == 8 then
+      self.cursor_sprite_x = 86
+      self.cursor_sprite_y = 89
+    elseif position == 9 then
+      self.cursor_sprite_x = 107
+      self.cursor_sprite_y = 89
+    elseif position == 10 then
+      self.cursor_sprite_x = 128
+      self.cursor_sprite_y = 89
+    elseif position == 11 then
+      self.cursor_sprite_x = 173
+      self.cursor_sprite_y = 116
+      self.cursor_map_position = nil
+    elseif position == 12 then
+      self.cursor_sprite_x = 213
+      self.cursor_sprite_y = 116
+      self.cursor_map_position = nil
+    elseif position == 13 then
+      self.cursor_sprite_x = 253
+      self.cursor_sprite_y = 116
+      self.cursor_map_position = nil
+    elseif position == 14 then
+      self.cursor_sprite_x = 65
+      self.cursor_sprite_y = 106
+    elseif position == 15 then
+      self.cursor_sprite_x = 86
+      self.cursor_sprite_y = 106
+    elseif position == 16 then
+      self.cursor_sprite_x = 107
+      self.cursor_sprite_y = 106
+    elseif position == 17 then
+      self.cursor_sprite_x = 128
+      self.cursor_sprite_y = 106
+    elseif position == 18 then
+      self.cursor_sprite_x = 173
+      self.cursor_sprite_y = 156
+      self.cursor_map_position = nil
+    elseif position == 19 then
+      self.cursor_sprite_x = 213
+      self.cursor_sprite_y = 156
+      self.cursor_map_position = nil
+    elseif position == 20 then
+      self.cursor_sprite_x = 253
+      self.cursor_sprite_y = 156
+      self.cursor_map_position = nil
+    elseif position == 21 then
+      self.cursor_sprite_x = 65
+      self.cursor_sprite_y = 123
+    elseif position == 22 then
+      self.cursor_sprite_x = 86
+      self.cursor_sprite_y = 123
+    elseif position == 23 then
+      self.cursor_sprite_x = 107
+      self.cursor_sprite_y = 123
+    elseif position == 24 then
+      self.cursor_sprite_x = 128
+      self.cursor_sprite_y = 123
+    end
+    if self.cursor_map_position ~= nil then
+      self.game:set_custom_command_effect("action", "look")
+      self:set_caption("inventory.caption.carte")
+    else 
+      self:set_caption(nil)
+      self.game:set_custom_command_effect("action", nil)
+    end
+  end
+end
+
+function quest_status_submenu:set_map_open(status)
+
+    self.map_open = status
+    if status == true then
+      self.game:set_custom_command_effect("action", "return")
     else
-      self.cursor_sprite_y = 172
+      self.game:set_custom_command_effect("action", "look")
     end
 
-    self:set_caption(self.caption_text_keys[position])
-  end
 end
 
 function quest_status_submenu:on_command_pressed(command)
@@ -81,45 +194,67 @@ function quest_status_submenu:on_command_pressed(command)
 
   if not handled then
 
-    if command == "left" then
-      if self.cursor_position <= 3 then
-        self:previous_submenu()
-      else
-        sol.audio.play_sound("cursor")
-        if self.cursor_position == 4 then
-          self:set_cursor_position(0)
-        elseif self.cursor_position == 5 then
-          self:set_cursor_position(3)
+    if self.map_open == true then
+      if command == 'action' then
+        self:set_map_open(false)
+      end
+    else
+     if command == "left" then
+       if self.cursor_position == 0 or self.cursor_position == 7 or self.cursor_position == 14 or self.cursor_position == 21 then
+          self:previous_submenu()
+        elseif self.cursor_position == 18 then
+           self:set_cursor_position(24)
+        elseif self.cursor_position == 13 then
+           self:set_cursor_position(11)
+        elseif self.cursor_position == 11 then
+           self:set_cursor_position(17)
         else
+          sol.audio.play_sound("cursor")
           self:set_cursor_position(self.cursor_position - 1)
         end
-      end
-      handled = true
-
-    elseif command == "right" then
-      if self.cursor_position == 4 or self.cursor_position == 7 then
-        self:next_submenu()
-      else
-        sol.audio.play_sound("cursor")
-        if self.cursor_position <= 2 then
+        handled = true
+      elseif command == "right" then
+        if self.cursor_position == 6 or self.cursor_position == 13 or self.cursor_position == 20  then
+          self:next_submenu()
+        elseif self.cursor_position == 10 then
           self:set_cursor_position(4)
-        elseif self.cursor_position == 3 then
-          self:set_cursor_position(5)
+        elseif self.cursor_position == 17 then
+          self:set_cursor_position(11)
+        elseif self.cursor_position == 24 then
+          self:set_cursor_position(11)
+        elseif self.cursor_position == 10 then
+          self:set_cursor_position(4)	
+        elseif self.cursor_position == 11 then
+           self:set_cursor_position(13)
         else
+          sol.audio.play_sound("cursor")
           self:set_cursor_position(self.cursor_position + 1)
         end
+        handled = true
+
+      elseif command == "down" then
+        sol.audio.play_sound("cursor")
+        if self.cursor_position == 5 then
+           self:set_cursor_position(19)
+        elseif self.cursor_position + 7 < 25 then
+          self:set_cursor_position(self.cursor_position + 7 )
+        end
+        handled = true
+
+      elseif command == "up" then
+        sol.audio.play_sound("cursor")
+        if self.cursor_position == 19 then
+           self:set_cursor_position(5)
+        elseif self.cursor_position - 7 > -1  then
+         self:set_cursor_position(self.cursor_position - 7)
+        end
+        handled = true
+
+      elseif command == 'action' then
+       if self.cursor_map_position ~= nil then
+         self:set_map_open(true)
+       end
       end
-      handled = true
-
-    elseif command == "down" then
-      sol.audio.play_sound("cursor")
-      self:set_cursor_position((self.cursor_position + 1) % 8)
-      handled = true
-
-    elseif command == "up" then
-      sol.audio.play_sound("cursor")
-      self:set_cursor_position((self.cursor_position + 7) % 8)
-      handled = true
     end
 
   end
@@ -137,6 +272,9 @@ function quest_status_submenu:on_draw(dst_surface)
   self.quest_items_surface:draw(dst_surface, x, y)
   self.cursor_sprite:draw(dst_surface, x + self.cursor_sprite_x, y + self.cursor_sprite_y)
   self:draw_save_dialog_if_any(dst_surface)
+  if  self.map_open == true then
+    self.quest_map_surface:draw(dst_surface, x, y)
+  end
 end
 
 return quest_status_submenu

@@ -65,6 +65,7 @@ inventory.caption.item.slim_key.1		Clé cyclope
 inventory.caption.item.angler_key.1		Clé poisson
 inventory.caption.item.bird_key.1		Clé vautour
 inventory.caption.item.face_key.1		Clé du masque
+inventory.caption.carte		Carte de Cocolint
 # Options submenu
 options.caption.press_action_change_mode	Appuyez sur Action$pour changer de mode
 options.caption.press_action_customize_key	Appuyez sur Action pour$configurer cette touche

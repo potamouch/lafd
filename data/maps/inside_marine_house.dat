@@ -662,7 +662,16 @@ chest{
   layer = 1,
   x = 160,
   y = 149,
-  treasure_name = "bird_key",
+  treasure_name = "magic_powder",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 128,
+  y = 149,
+  treasure_name = "magic_powder",
   sprite = "entities/chest",
 }
 
