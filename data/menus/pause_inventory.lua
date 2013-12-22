@@ -41,8 +41,7 @@ function inventory_submenu:on_started()
   self.sprites_key = {}
   self.counters = {}
   self.captions = {}
-  self.hearts_surface:set_transparency_color{0, 0, 0}
-  self.hearts_surface:fill_color{0, 0, 0}
+  self.hearts_surface:clear()
 
   -- Load Items
   for i,item_name in ipairs(item_names_assignable) do

@@ -17,10 +17,8 @@ function quest_status_submenu:on_started()
   local item_sprite = sol.sprite.create("entities/items")
 
   -- Draw the items on a surface.
-  self.quest_items_surface:set_transparency_color{0, 0, 0}
-  self.quest_items_surface:fill_color{0, 0, 0}
-  self.quest_map_surface:set_transparency_color{0, 0, 0}
-  self.quest_map_surface:fill_color{0, 0, 0}
+  self.quest_items_surface:clear()
+  self.quest_map_surface:clear()
 
   -- World map
   local map_img = sol.surface.create("menus/outside_world_map.png")

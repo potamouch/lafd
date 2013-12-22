@@ -37,7 +37,7 @@ function title_screen:phase_intro()
   -- actual intro screen
   self.phase = "intro"
   self.surface:fade_in(30)
-  self.surface:fill_color({0,0,0})
+  self.surface:clear()
   -- start music
   sol.audio.play_music("the_storm")
 
