@@ -31,7 +31,6 @@ function hero:on_position_changed(x, y, layer)
     end
     square_total_x = (4*square_x)+square_min_x
     square_total_y = (4*square_y)+square_min_y
-    print(square_x..':'..square_y)
     game:set_value('map_discovering_'..square_total_x..'_'..square_total_y, true)
     
   end
