@@ -7260,7 +7260,7 @@ teletransporter{
   width = 960,
   height = 16,
   name = "to_d1_3",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "outside_mabe_village",
   destination = "_side",
 }

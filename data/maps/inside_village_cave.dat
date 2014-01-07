@@ -726,7 +726,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "village_cave_2_B",
-  transition = 1,
+  transition = "fade",
   destination_map = "outside_mabe_village",
   destination = "village_cave_2_A",
 }

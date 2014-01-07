@@ -9045,7 +9045,7 @@ teletransporter{
   width = 960,
   height = 16,
   name = "to_c1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "outside_mabe_village",
   destination = "_side",
 }
@@ -10770,7 +10770,7 @@ teletransporter{
   width = 16,
   height = 816,
   name = "to_b2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "outside_cimetary",
   destination = "_side",
 }

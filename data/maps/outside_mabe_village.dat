@@ -10610,7 +10610,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "marine_house_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_marine_house",
   destination = "marine_house_1_B",
 }
@@ -12521,7 +12521,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "telephone_booth_1_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_telephone_booth_1",
   destination = "telephone_booth_1_1_B",
 }
@@ -12609,7 +12609,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "shop_2_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_shop_2",
   destination = "shop_1_1_B",
 }
@@ -12646,7 +12646,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "shop_1_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_shop_1",
   destination = "shop_1_1_B",
 }
@@ -12658,7 +12658,7 @@ teletransporter{
   width = 960,
   height = 16,
   name = "to_b1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "outside_forest",
   destination = "_side",
 }
@@ -12670,7 +12670,7 @@ teletransporter{
   width = 960,
   height = 16,
   name = "to_d1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "outside_south_village",
   destination = "_side",
 }
@@ -12690,7 +12690,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "old_man_house_1_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_old_man_house",
   destination = "old_man_house_1_B",
 }
@@ -12710,7 +12710,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "quadruplets_house_1_C",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_quadruplets_house",
   destination = "quadruplets_house_1_D",
 }
@@ -12730,7 +12730,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "quadruplets_house_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_quadruplets_house",
   destination = "quadruplets_house_1_B",
 }
@@ -12750,7 +12750,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "ocarina_house_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_ocarina_house",
   destination = "ocarina_house_1_B",
 }
@@ -12770,7 +12770,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "meow_meow_house_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_meow_meow_house",
   destination = "meow_meow_house_1_B",
 }
@@ -12790,7 +12790,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "meow_meow_house_1_C",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_meow_meow_house",
   destination = "meow_meow_house_1_D",
 }
@@ -12832,7 +12832,7 @@ teletransporter{
   width = 16,
   height = 816,
   name = "to_c2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "outside_prairie",
   destination = "_side",
 }
@@ -12957,7 +12957,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "village_cave_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_village_cave",
   destination = "village_cave_1_B",
 }
@@ -12977,7 +12977,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "library_1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "inside_library",
   destination = "library_1_B",
 }

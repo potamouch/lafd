@@ -284,7 +284,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "shop_1_2_B",
-  transition = 1,
+  transition = "fade",
   destination_map = "outside_mabe_village",
   destination = "shop_2_2_A",
 }
