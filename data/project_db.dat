@@ -174,3 +174,4 @@ enemy{ id = "pike_fixed", description = "Pike fixed" }
 
 language{ id = "fr", description = "Français" }
 
+sound{ id = "running_obstacle", description = "running_obstacle" }
