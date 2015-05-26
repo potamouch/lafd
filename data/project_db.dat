@@ -175,3 +175,12 @@ enemy{ id = "pike_fixed", description = "Pike fixed" }
 language{ id = "fr", description = "Français" }
 
 sound{ id = "running_obstacle", description = "running_obstacle" }
+sprite{ id = "entities/solid_switch", description = "Solid switch" }
+sound{ id = "switch", description = "switch" }
+sprite{ id = "entities/crystal_block", description = "Crystal block" }
+font{ id = "green_digits", description = "green_digits" }
+font{ id = "la", description = "la" }
+font{ id = "minecraftia", description = "minecraftia" }
+font{ id = "small_green_digits", description = "small_green_digits" }
+font{ id = "small_white_digits", description = "small_white_digits" }
+font{ id = "white_digits", description = "white_digits" }
