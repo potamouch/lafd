@@ -4,6 +4,8 @@ properties{
   width = 1920,
   height = 1792,
   world = "dungeon_2",
+  min_layer = 0,
+  max_layer = 2,
   tileset = "blue_dungeon_lw",
   music = "same",
 }
