@@ -6,6 +6,7 @@ map{ id = "inside_meow_meow_house", description = "Inside - Meow meow's house" }
 map{ id = "inside_ocarina_house", description = "Inside - Ocarina's house" }
 map{ id = "inside_old_man_house", description = "Inside - Old man's house" }
 map{ id = "inside_quadruplets_house", description = "Inside - Quadruplets' house" }
+map{ id = "inside_richard_house", description = "Richard's house" }
 map{ id = "inside_shop_1", description = "Inside - Shop 1" }
 map{ id = "inside_shop_2", description = "Inside - Shop 2" }
 map{ id = "inside_telephone_booth_1", description = "Telephone booth 1" }
