@@ -14285,7 +14285,7 @@ teletransporter{
   height = 16,
   name = "to_c2",
   transition = "scrolling",
-  destination_map = "outside_prairie",
+  destination_map = "out/prairie",
   destination = "_side",
 }
 
@@ -14297,7 +14297,7 @@ teletransporter{
   height = 784,
   name = "to_b1",
   transition = "scrolling",
-  destination_map = "outside_prairie",
+  destination_map = "out/prairie",
   destination = "_side",
 }
 

@@ -656,7 +656,7 @@ teletransporter{
   height = 16,
   name = "old_man_house_2_B",
   transition = "fade",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "old_man_house_1_2_A",
 }
 

@@ -737,7 +737,7 @@ teletransporter{
   height = 16,
   name = "meow_meow_house_2_B",
   transition = "fade",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "meow_meow_house_2_A",
 }
 
@@ -920,7 +920,7 @@ teletransporter{
   height = 16,
   name = "meow_meow_house_2_D",
   transition = "fade",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "meow_meow_house_2_C",
 }
 

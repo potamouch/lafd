@@ -12181,7 +12181,7 @@ teletransporter{
   height = 16,
   name = "old_man_house_1_1_A_2",
   transition = "fade",
-  destination_map = "inside_old_man_house",
+  destination_map = "mabe_village/old_man_house",
   destination = "old_man_house_1_B",
 }
 
@@ -13594,7 +13594,7 @@ teletransporter{
   height = 16,
   name = "old_man_house_1_1_A_3",
   transition = "fade",
-  destination_map = "inside_old_man_house",
+  destination_map = "mabe_village/old_man_house",
   destination = "old_man_house_1_B",
 }
 

@@ -7263,7 +7263,7 @@ teletransporter{
   height = 16,
   name = "to_d1_3",
   transition = "scrolling",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "_side",
 }
 

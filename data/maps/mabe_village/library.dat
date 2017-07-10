@@ -917,7 +917,7 @@ teletransporter{
   height = 16,
   name = "library_2_B",
   transition = "fade",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "library_2_A",
 }
 

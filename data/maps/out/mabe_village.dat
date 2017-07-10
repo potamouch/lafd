@@ -10613,7 +10613,7 @@ teletransporter{
   height = 16,
   name = "marine_house_1_A",
   transition = "fade",
-  destination_map = "inside_marine_house",
+  destination_map = "mabe_village/marine_house",
   destination = "marine_house_1_B",
 }
 
@@ -12524,7 +12524,7 @@ teletransporter{
   height = 16,
   name = "telephone_booth_1_1_A",
   transition = "fade",
-  destination_map = "inside_telephone_booth_1",
+  destination_map = "mabe_village/telephone_booth_1",
   destination = "telephone_booth_1_1_B",
 }
 
@@ -12612,7 +12612,7 @@ teletransporter{
   height = 16,
   name = "shop_2_1_A",
   transition = "fade",
-  destination_map = "inside_shop_2",
+  destination_map = "mabe_village/shop_2",
   destination = "shop_1_1_B",
 }
 
@@ -12649,7 +12649,7 @@ teletransporter{
   height = 16,
   name = "shop_1_1_A",
   transition = "fade",
-  destination_map = "inside_shop_1",
+  destination_map = "mabe_village/shop_1",
   destination = "shop_1_1_B",
 }
 
@@ -12661,7 +12661,7 @@ teletransporter{
   height = 16,
   name = "to_b1",
   transition = "scrolling",
-  destination_map = "outside_forest",
+  destination_map = "out/forest",
   destination = "_side",
 }
 
@@ -12673,7 +12673,7 @@ teletransporter{
   height = 16,
   name = "to_d1",
   transition = "scrolling",
-  destination_map = "outside_south_village",
+  destination_map = "out/south_village",
   destination = "_side",
 }
 
@@ -12693,7 +12693,7 @@ teletransporter{
   height = 16,
   name = "old_man_house_1_1_A",
   transition = "fade",
-  destination_map = "inside_old_man_house",
+  destination_map = "mabe_village/old_man_house",
   destination = "old_man_house_1_B",
 }
 
@@ -12713,7 +12713,7 @@ teletransporter{
   height = 16,
   name = "quadruplets_house_1_C",
   transition = "fade",
-  destination_map = "inside_quadruplets_house",
+  destination_map = "mabe_village/quadruplets_house",
   destination = "quadruplets_house_1_D",
 }
 
@@ -12733,7 +12733,7 @@ teletransporter{
   height = 16,
   name = "quadruplets_house_1_A",
   transition = "fade",
-  destination_map = "inside_quadruplets_house",
+  destination_map = "mabe_village/quadruplets_house",
   destination = "quadruplets_house_1_B",
 }
 
@@ -12753,7 +12753,7 @@ teletransporter{
   height = 16,
   name = "ocarina_house_1_A",
   transition = "fade",
-  destination_map = "inside_ocarina_house",
+  destination_map = "mabe_village/ocarina_house",
   destination = "ocarina_house_1_B",
 }
 
@@ -12773,7 +12773,7 @@ teletransporter{
   height = 16,
   name = "meow_meow_house_1_A",
   transition = "fade",
-  destination_map = "inside_meow_meow_house",
+  destination_map = "mabe_village/meow_meow_house",
   destination = "meow_meow_house_1_B",
 }
 
@@ -12793,7 +12793,7 @@ teletransporter{
   height = 16,
   name = "meow_meow_house_1_C",
   transition = "fade",
-  destination_map = "inside_meow_meow_house",
+  destination_map = "mabe_village/meow_meow_house",
   destination = "meow_meow_house_1_D",
 }
 
@@ -12835,7 +12835,7 @@ teletransporter{
   height = 816,
   name = "to_c2",
   transition = "scrolling",
-  destination_map = "outside_prairie",
+  destination_map = "out/prairie",
   destination = "_side",
 }
 
@@ -12960,7 +12960,7 @@ teletransporter{
   height = 16,
   name = "village_cave_1_A",
   transition = "fade",
-  destination_map = "inside_village_cave",
+  destination_map = "mabe_village/village_cave",
   destination = "village_cave_1_B",
 }
 
@@ -12980,7 +12980,7 @@ teletransporter{
   height = 16,
   name = "library_1_A",
   transition = "fade",
-  destination_map = "inside_library",
+  destination_map = "mabe_village/library",
   destination = "library_1_B",
 }
 

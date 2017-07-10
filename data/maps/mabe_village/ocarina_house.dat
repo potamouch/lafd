@@ -503,7 +503,7 @@ teletransporter{
   height = 16,
   name = "ocarina_house_2_B",
   transition = "fade",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "ocarina_house_2_A",
 }
 

@@ -1,23 +1,23 @@
-map{ id = "dungeon_1_tail_cave_f1", description = "Dungeon 1 - Tail cave - F1" }
-map{ id = "dungeon_2_bottle_grotto_f1", description = "Dungeon 2 - Bottle grotto - F1" }
-map{ id = "inside_library", description = "Inside - Library" }
-map{ id = "inside_marine_house", description = "Inside Marine's house" }
-map{ id = "inside_meow_meow_house", description = "Inside - Meow meow's house" }
-map{ id = "inside_ocarina_house", description = "Inside - Ocarina's house" }
-map{ id = "inside_old_man_house", description = "Inside - Old man's house" }
-map{ id = "inside_quadruplets_house", description = "Inside - Quadruplets' house" }
-map{ id = "inside_richard_house", description = "Richard's house" }
-map{ id = "inside_shop_1", description = "Inside - Shop 1" }
-map{ id = "inside_shop_2", description = "Inside - Shop 2" }
-map{ id = "inside_telephone_booth_1", description = "Telephone booth 1" }
-map{ id = "inside_village_cave", description = "Inside - Cave of Mabe village" }
-map{ id = "inside_weathercock", description = "Inside- Weathercock" }
-map{ id = "outside_cemetary", description = "Outside - Cemetary" }
-map{ id = "outside_forest", description = "Outside - Forest" }
-map{ id = "outside_mabe_village", description = "Outside - Mabe village" }
-map{ id = "outside_prairie", description = "Outside - Prairie" }
-map{ id = "outside_south_prairie", description = "Outside - South prairie" }
-map{ id = "outside_south_village", description = "Outside - South village" }
+map{ id = "caves/weathercock", description = "Weathercock" }
+map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
+map{ id = "dungeons/2/1f", description = "Dungeon 2 2F" }
+map{ id = "houses/richard_house", description = "Richard house" }
+map{ id = "mabe_village/library", description = "Library" }
+map{ id = "mabe_village/marine_house", description = "Marine house" }
+map{ id = "mabe_village/meow_meow_house", description = "Meow meow house" }
+map{ id = "mabe_village/ocarina_house", description = "Ocarina house" }
+map{ id = "mabe_village/old_man_house", description = "Old man house" }
+map{ id = "mabe_village/quadruplets_house", description = "Quadruplets house" }
+map{ id = "mabe_village/shop_1", description = "Shop 1" }
+map{ id = "mabe_village/shop_2", description = "Shop 2" }
+map{ id = "mabe_village/telephone_booth_1", description = "Telephone booth 1" }
+map{ id = "mabe_village/village_cave", description = "Cave of Mabe village" }
+map{ id = "out/cemetary", description = "Cemetary" }
+map{ id = "out/forest", description = "Forest" }
+map{ id = "out/mabe_village", description = "Mabe village" }
+map{ id = "out/prairie", description = "Prairie" }
+map{ id = "out/south_prairie", description = "South prairie" }
+map{ id = "out/south_village", description = "South village" }
 
 tileset{ id = "blue_dungeon_lw", description = "Blue Dungeon" }
 tileset{ id = "cave", description = "Cave" }

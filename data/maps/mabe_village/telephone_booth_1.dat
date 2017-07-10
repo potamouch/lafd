@@ -341,7 +341,7 @@ teletransporter{
   height = 16,
   name = "telephone_booth_1_2_B",
   transition = "fade",
-  destination_map = "outside_mabe_village",
+  destination_map = "out/mabe_village",
   destination = "telephone_booth_1_2_A",
 }
 
