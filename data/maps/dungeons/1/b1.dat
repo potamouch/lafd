@@ -1,0 +1,19 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 2464,
+  height = 1728,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 2464,
+  height = 1728,
+  pattern = "hole",
+}
+

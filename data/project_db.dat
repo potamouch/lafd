@@ -1,5 +1,6 @@
 map{ id = "caves/weathercock", description = "Weathercock" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
+map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 2F" }
 map{ id = "houses/richard_house", description = "Richard house" }
 map{ id = "mabe_village/library", description = "Library" }
@@ -21,6 +22,25 @@ map{ id = "out/south_village", description = "South village" }
 
 tileset{ id = "blue_dungeon_lw", description = "Blue Dungeon" }
 tileset{ id = "cave", description = "Cave" }
+tileset{ id = "dungeon/blue", description = "dungeon/blue" }
+tileset{ id = "dungeon/brown", description = "dungeon/brown" }
+tileset{ id = "dungeon/dark_brown", description = "dungeon/dark_brown" }
+tileset{ id = "dungeon/dark_turquoise", description = "dungeon/dark_turquoise" }
+tileset{ id = "dungeon/dark_yellow", description = "dungeon/dark_yellow" }
+tileset{ id = "dungeon/gray", description = "dungeon/gray" }
+tileset{ id = "dungeon/gray_blue", description = "dungeon/gray_blue" }
+tileset{ id = "dungeon/gray_brown", description = "dungeon/gray_brown" }
+tileset{ id = "dungeon/gray_pink", description = "dungeon/gray_pink" }
+tileset{ id = "dungeon/gray_yellow", description = "dungeon/gray_yellow" }
+tileset{ id = "dungeon/green", description = "dungeon/green" }
+tileset{ id = "dungeon/light_blue", description = "dungeon/light_blue" }
+tileset{ id = "dungeon/light_brown", description = "dungeon/light_brown" }
+tileset{ id = "dungeon/light_green", description = "dungeon/light_green" }
+tileset{ id = "dungeon/light_yellow_dungeon", description = "dungeon/light_yellow_dungeon" }
+tileset{ id = "dungeon/pink", description = "dungeon/pink" }
+tileset{ id = "dungeon/purple", description = "dungeon/purple" }
+tileset{ id = "dungeon/purple_blue", description = "dungeon/purple_blue" }
+tileset{ id = "dungeon/yellow", description = "dungeon/yellow" }
 tileset{ id = "house", description = "House" }
 tileset{ id = "light_world", description = "Light World" }
 tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
