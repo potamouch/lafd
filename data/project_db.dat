@@ -166,6 +166,7 @@ item{ id = "bomb", description = "Bomb" }
 item{ id = "bomb_bag", description = "Bomb bag" }
 item{ id = "bombs_counter", description = "Bombs counter" }
 item{ id = "boomerang", description = "Boomerang" }
+item{ id = "boss_key", description = "Boss key" }
 item{ id = "bow", description = "Bow" }
 item{ id = "face_key", description = "Face key" }
 item{ id = "feather", description = "Feather" }
@@ -185,6 +186,7 @@ item{ id = "rupee_bag", description = "Ruppe bag" }
 item{ id = "shield", description = "Shield" }
 item{ id = "shovel", description = "Shovel" }
 item{ id = "slim_key", description = "Slim key" }
+item{ id = "small_key", description = "Small key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tail_key", description = "Tail key" }
 item{ id = "tunic", description = "Tunic (green/blue/red)" }
