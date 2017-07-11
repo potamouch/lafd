@@ -2,7 +2,7 @@ local item = ...
 
 function item:on_created()
 
-  self:set_savegame_variable("-- Boomerang_pegasus_shoes")
+  self:set_savegame_variable("possession_pegasus_shoes")
   self:set_assignable(true)
 end
 
