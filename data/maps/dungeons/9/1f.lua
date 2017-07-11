@@ -1,4 +1,4 @@
--- Lua script of map dungeons/1/1f.
+-- Lua script of map dungeons/9/1f.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
