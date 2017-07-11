@@ -147,10 +147,11 @@ music{ id = "inside_the_houses", description = "Inside the houses" }
 music{ id = "let_the_journey_begin", description = "Let the journey begin" }
 music{ id = "links_awake", description = "Links awake" }
 music{ id = "mabe_village", description = "Mabe village" }
-music{ id = "mysterious_forest", description = "Forêt mysterieuse" }
+music{ id = "mysterious_forest", description = "Mysterious Forest" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "player_select", description = "Player select" }
 music{ id = "shop", description = "Shop" }
+music{ id = "sword_search", description = "Sword search" }
 music{ id = "telephone_booth", description = "Telephone booth" }
 music{ id = "the_storm", description = "The storm" }
 music{ id = "the_wise_owl", description = "The wise owl" }
