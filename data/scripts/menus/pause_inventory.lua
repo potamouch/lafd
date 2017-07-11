@@ -65,7 +65,8 @@ function inventory_submenu:on_started()
 
   -- Pieces of heart.
   local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
-  local x = 51 * (self.game:get_value("i1030") or 0)
+  local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
+  local x = 51 * num_pieces_of_heart
   pieces_of_heart_img:draw_region(x, 0, 51, 50, self.hearts_surface, 150, 100)
 
   -- Initialize the cursor
