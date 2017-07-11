@@ -192,6 +192,7 @@ sound{ id = "piece_of_heart", description = "piece_of_heart" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "solarus_logo", description = "Solarus logo" }
+sound{ id = "splash", description = "splash" }
 sound{ id = "stone", description = "stone" }
 sound{ id = "switch", description = "switch" }
 sound{ id = "sword1", description = "sword1" }
