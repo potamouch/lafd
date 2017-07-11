@@ -80,7 +80,7 @@ function map:on_draw(destination_surface)
 
   -- Make the overlay scroll with the camera, but slightly faster to make
   -- a depth effect.
-  local camera_x, camera_y = self:get_camera_position()
+  local camera_x, camera_y = self:get_camera():get_position()
   local overlay_width, overlay_height = map.overlay:get_size()
   local screen_width, screen_height = destination_surface:get_size()
   local x, y = camera_x + map.overlay_offset_x, camera_y + map.overlay_offset_y
@@ -144,13 +144,12 @@ function lost_sensor:on_activated()
       destructible:set_position(x + diff_x, y + diff_y)
 
       -- And re-create the west ones.
-      local subtype
-      if x > 408 or y > 344 then
-        -- TODO destructible:get_subtype() instead.
-        subtype = "grass"
-      else
-        subtype = "bush"
-      end
+      local sprite = destructible:get_sprite():get_animation_set()
+      local destruction_sound = destructible:get_destruction_sound()
+      local weight = destructible:get_weight()
+      local can_be_cut = destructible:get_can_be_cut()
+      local damage_on_enemies = destructible:get_damage_on_enemies()
+      local modified_ground = destructible:get_modified_ground()
 
       map.num_destructibles_created = map.num_destructibles_created + 1
       map:create_destructible{
@@ -158,7 +157,12 @@ function lost_sensor:on_activated()
         x = x,
         y = y,
         name = "destructible_bis_" .. map.num_destructibles_created,
-        subtype = subtype,
+        sprite = sprite,
+        destruction_sound = destruction_sound,
+        weight = weight,
+        can_be_cut = can_be_cut,
+        damage_on_enemies = damage_on_enemies,
+        modified_ground = modified_ground,
       }
       tarin_2:set_visible(true)
       tarin_2:get_sprite():fade_out()
@@ -166,13 +170,8 @@ function lost_sensor:on_activated()
   end
 
   -- Put Tarkin above the grass.
-  -- TODO entity:bring_to_front() instead of this workaround
-  local x, y, layer = tarin:get_position()
-  tarin:set_position(x, y, layer + 1)
-  tarin:set_position(x, y, layer)
-  x, y, layer = tarin_2:get_position()
-  tarin_2:set_position(x, y, layer + 1)
-  tarin_2:set_position(x, y, layer)
+  tarin:bring_to_front()
+  tarin_2:bring_to_front()
 end
 
 function raccoon_lost_warning_sensor:on_activated()
