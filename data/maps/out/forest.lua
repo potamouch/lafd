@@ -4,7 +4,7 @@ local game = map:get_game()
 
 -- Includes scripts
 
-sol.main.load_file("npc/owl")(map)
+sol.main.load_file("scripts/npc/owl")(map)  -- TODO use require
 
 -- Variables
 

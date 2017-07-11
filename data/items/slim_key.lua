@@ -2,7 +2,7 @@ local item = ...
 
 function item:on_created()
 
-  self:set_savegame_variable("item_slim_key")
+  self:set_savegame_variable("possession_slim_key")
 
 end
 

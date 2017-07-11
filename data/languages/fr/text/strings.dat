@@ -51,16 +51,11 @@ text{ key = "inventory.caption.carte", value = "Carte de Cocolint" }
 text{ key = "options.caption.press_action_change_mode", value = "Appuyez sur Action$pour changer de mode" }
 text{ key = "options.caption.press_action_customize_key", value = "Appuyez sur Action pour$configurer cette touche" }
 text{ key = "options.caption.press_key", value = "Appuyez sur une touche$du clavier ou du joypad" }
-text{ key = "options.video_mode.windowed_stretched", value = "Fenêtre 640x480" }
-text{ key = "options.video_mode.windowed_scale2x", value = "Fenêtre 640x480 lisse" }
-text{ key = "options.video_mode.windowed_normal", value = "Fenêtre 320x240" }
-text{ key = "options.video_mode.fullscreen_normal", value = "Plein écran étiré" }
-text{ key = "options.video_mode.fullscreen_wide", value = "Plein écran étiré (large)" }
-text{ key = "options.video_mode.fullscreen_scale2x", value = "Plein écran lisse" }
-text{ key = "options.video_mode.fullscreen_scale2x_wide", value = "Plein écran lisse (large)" }
 text{ key = "options.commands_column", value = "Commandes" }
 text{ key = "options.keyboard_column", value = "Clavier" }
 text{ key = "options.joypad_column", value = "Joypad" }
+text{ key = "options.video.fullscreen", value = "Plein écran" }
+text{ key = "options.video.windowed", value = "Fenêtré" }
 text{ key = "options.command.action", value = "Action" }
 text{ key = "options.command.attack", value = "Epée" }
 text{ key = "options.command.item_1", value = "Obj gauche" }
@@ -91,9 +86,9 @@ text{ key = "selection_menu.empty", value = "Vide" }
 text{ key = "selection_menu.options", value = "Options" }
 text{ key = "selection_menu.back", value = "Retour" }
 text{ key = "selection_menu.options.language", value = "Langue" }
-text{ key = "selection_menu.options.video_mode", value = "Mode" }
+text{ key = "selection_menu.options.video_mode", value = "Mode vidéo" }
 text{ key = "selection_menu.options.music_volume", value = "Volume de la musique" }
 text{ key = "selection_menu.options.sound_volume", value = "Volume des sons" }
-text{ key = "title_screen.website", value = "www.zelda-solarus.com" }
+text{ key = "title_screen.website", value = "www.zeldaforce.net" }
 text{ key = "title_screen.press_space", value = "Appuyez sur espace" }
 

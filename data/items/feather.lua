@@ -3,7 +3,7 @@ local item = ...
 
 function item:on_created()
 
-  self:set_savegame_variable("item_feather")
+  self:set_savegame_variable("possession_feather")
   self:set_assignable(true)
 
 end

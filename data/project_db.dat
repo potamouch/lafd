@@ -47,11 +47,11 @@ tileset{ id = "house", description = "House" }
 tileset{ id = "light_world", description = "Light World" }
 tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
 
-sprite{ id = "enemies/bowwow", description = "Enemy: Bowwow" }
-sprite{ id = "enemies/chicken", description = "Enemy: Chicken" }
+sprite{ id = "enemies/bowwow", description = "Bowwow" }
+sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
-sprite{ id = "enemies/sea_urchin", description = "Enemy: Sea urchin" }
-sprite{ id = "enemies/small_bowwow", description = "Enemy: Small Bowwow" }
+sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
+sprite{ id = "enemies/small_bowwow", description = "Small Bowwow" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
 sprite{ id = "entities/big_chest", description = "Chest (big)" }
@@ -59,6 +59,8 @@ sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/bomb_flower", description = "Bomb flower" }
 sprite{ id = "entities/bone_key_door", description = "Bone key door" }
+sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
+sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
 sprite{ id = "entities/bush", description = "Bush" }
 sprite{ id = "entities/cannon", description = "Cannon" }
 sprite{ id = "entities/castle_lock", description = "Castle prison lock" }
@@ -76,14 +78,17 @@ sprite{ id = "entities/door_very_weak_wall", description = "Door (very weak wall
 sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
 sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
 sprite{ id = "entities/explosion", description = "Explosion" }
+sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/fresco", description = "Intro fresco" }
 sprite{ id = "entities/frozen_door", description = "Frozen door" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/gray_block", description = "Block (gray)" }
 sprite{ id = "entities/hint_stone", description = "Hint stone" }
+sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/pot", description = "Pot" }
+sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/slot_machine", description = "Casino slot machine" }
@@ -115,22 +120,21 @@ sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
 sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
 sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
-sprite{ id = "hud/action_icon_flip", description = "HUD: Action icon" }
+sprite{ id = "hud/action_icon_flip", description = "Action icon" }
 sprite{ id = "hud/dialog_box_message_end", description = "Dialog end" }
-sprite{ id = "hud/empty_heart", description = "HUD: Empty heart" }
-sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
-sprite{ id = "hud/magic_bar", description = "HUD: Magic bar" }
-sprite{ id = "hud/pause_icon_flip", description = "HUD: Pause icon" }
-sprite{ id = "hud/sword_icon_flip", description = "HUD: Sword icon" }
-sprite{ id = "menus/arrow", description = "Menu: Arrow" }
-sprite{ id = "menus/hero_head", description = "Menu: Hero head" }
-sprite{ id = "menus/hero_point", description = "Menu: Hero point" }
-sprite{ id = "menus/options_cursor", description = "Menu: Options cursor" }
-sprite{ id = "menus/pause_cursor", description = "Menu: Pause cursor" }
-sprite{ id = "menus/pause_save_dialog", description = "Menu: Pause save dialog" }
-sprite{ id = "menus/selection_menu_cursor", description = "Menu: Savegame cursor" }
-sprite{ id = "menus/solarus_logo", description = "Menu: Solarus logo" }
-sprite{ id = "npc/black_knight_soldier", description = "Black Knight Soldier" }
+sprite{ id = "hud/empty_heart", description = "Empty heart" }
+sprite{ id = "hud/gameover_fade", description = "Game-over fade" }
+sprite{ id = "hud/magic_bar", description = "Magic bar" }
+sprite{ id = "hud/pause_icon_flip", description = "Pause icon" }
+sprite{ id = "hud/sword_icon_flip", description = "Sword icon" }
+sprite{ id = "menus/arrow", description = "Arrow" }
+sprite{ id = "menus/hero_head", description = "Hero head" }
+sprite{ id = "menus/options_cursor", description = "Options cursor" }
+sprite{ id = "menus/pause_cursor", description = "Pause cursor" }
+sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
+sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }
+sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
+sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
 sprite{ id = "npc/grand_ma", description = "Grand-mother" }
 sprite{ id = "npc/kid_1", description = "Kid 1" }
 sprite{ id = "npc/kid_2", description = "Kid 2" }
@@ -144,10 +148,11 @@ music{ id = "inside_the_houses", description = "Inside the houses" }
 music{ id = "let_the_journey_begin", description = "Let the journey begin" }
 music{ id = "links_awake", description = "Links awake" }
 music{ id = "mabe_village", description = "Mabe village" }
-music{ id = "mysterious_forest", description = "Forêt mysterieuse" }
+music{ id = "mysterious_forest", description = "Mysterious Forest" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "player_select", description = "Player select" }
 music{ id = "shop", description = "Shop" }
+music{ id = "sword_search", description = "Sword search" }
 music{ id = "telephone_booth", description = "Telephone booth" }
 music{ id = "the_storm", description = "The storm" }
 music{ id = "the_wise_owl", description = "The wise owl" }
@@ -155,10 +160,50 @@ music{ id = "title_screen", description = "Title screen" }
 music{ id = "trendy_game", description = "Trendy game" }
 music{ id = "your_sword", description = "Your sword" }
 
+sound{ id = "arrow_hit", description = "arrow_hit" }
+sound{ id = "bomb", description = "bomb" }
+sound{ id = "boomerang", description = "boomerang" }
+sound{ id = "boss_killed", description = "boss_killed" }
+sound{ id = "bow", description = "bow" }
+sound{ id = "bush", description = "bush" }
+sound{ id = "chest_open", description = "chest_open" }
+sound{ id = "cursor", description = "cursor" }
+sound{ id = "danger", description = "danger" }
+sound{ id = "diarandor/solarus_logo", description = "Solarus logo" }
+sound{ id = "enemy_hurt", description = "enemy_hurt" }
+sound{ id = "enemy_killed", description = "enemy_killed" }
+sound{ id = "explosion", description = "explosion" }
+sound{ id = "heart", description = "heart" }
+sound{ id = "hero_falls", description = "hero_falls" }
 sound{ id = "hero_get_sword", description = "Hero get sword" }
+sound{ id = "hero_hurt", description = "hero_hurt" }
+sound{ id = "hero_lands", description = "hero_lands" }
+sound{ id = "hookshot", description = "hookshot" }
+sound{ id = "intro", description = "intro" }
+sound{ id = "jump", description = "jump" }
+sound{ id = "lift", description = "lift" }
+sound{ id = "message_end", description = "message_end" }
+sound{ id = "message_letter", description = "message_letter" }
+sound{ id = "ok", description = "ok" }
+sound{ id = "pause_closed", description = "pause_closed" }
+sound{ id = "pause_open", description = "pause_open" }
+sound{ id = "picked_item", description = "picked_item" }
+sound{ id = "piece_of_heart", description = "piece_of_heart" }
+sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "solarus_logo", description = "Solarus logo" }
+sound{ id = "stone", description = "stone" }
 sound{ id = "switch", description = "switch" }
+sound{ id = "sword1", description = "sword1" }
+sound{ id = "sword_spin_attack_load", description = "sword_spin_attack_load" }
+sound{ id = "sword_spin_attack_release", description = "sword_spin_attack_release" }
+sound{ id = "sword_tapping", description = "sword_tapping" }
+sound{ id = "throw", description = "throw" }
+sound{ id = "treasure", description = "treasure" }
+sound{ id = "walk_on_grass", description = "walk_on_grass" }
+sound{ id = "walk_on_water", description = "walk_on_water" }
+sound{ id = "wrong", description = "wrong" }
+sound{ id = "zonzifleur/solarus_team_logo", description = "Solarus Team logo" }
 
 item{ id = "angler_key", description = "Angler key" }
 item{ id = "arrow", description = "Arrow" }
@@ -167,6 +212,7 @@ item{ id = "bomb", description = "Bomb" }
 item{ id = "bomb_bag", description = "Bomb bag" }
 item{ id = "bombs_counter", description = "Bombs counter" }
 item{ id = "boomerang", description = "Boomerang" }
+item{ id = "boss_key", description = "Boss key" }
 item{ id = "bow", description = "Bow" }
 item{ id = "face_key", description = "Face key" }
 item{ id = "feather", description = "Feather" }
@@ -186,6 +232,7 @@ item{ id = "rupee_bag", description = "Ruppe bag" }
 item{ id = "shield", description = "Shield" }
 item{ id = "shovel", description = "Shovel" }
 item{ id = "slim_key", description = "Slim key" }
+item{ id = "small_key", description = "Small key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tail_key", description = "Tail key" }
 item{ id = "tunic", description = "Tunic (green/blue/red)" }
@@ -202,10 +249,11 @@ enemy{ id = "small_bowwow", description = "Small Bow wow" }
 
 language{ id = "fr", description = "Français" }
 
-font{ id = "green_digits", description = "green_digits" }
-font{ id = "la", description = "la" }
-font{ id = "minecraftia", description = "minecraftia" }
-font{ id = "small_green_digits", description = "small_green_digits" }
-font{ id = "small_white_digits", description = "small_white_digits" }
-font{ id = "white_digits", description = "white_digits" }
+font{ id = "green_digits", description = "Green digits" }
+font{ id = "la", description = "Link s Awakening" }
+font{ id = "minecraftia", description = "Minecraftia" }
+font{ id = "minecraftia_mono", description = "Minecraftia Mono" }
+font{ id = "small_green_digits", description = "Small green digits" }
+font{ id = "small_white_digits", description = "Small white digits" }
+font{ id = "white_digits", description = "White digits" }
 
