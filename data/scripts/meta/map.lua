@@ -21,7 +21,7 @@ function map_meta:owl_appear(step)
   game:set_value("owl_"..step, true)
   hero:set_direction(1)
   hero:freeze()
-  function m:on_finished() 
+  m:start(owl, function() 
     game:start_dialog("owl_"..step, function()
       local m2 = sol.movement.create("target")
       local position = self:get_entity("owl_"..step.."_position")
@@ -35,6 +35,6 @@ function map_meta:owl_appear(step)
         self:set_music()
       end)
     end)      
-  end
+  end)
 
 end

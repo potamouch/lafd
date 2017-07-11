@@ -121,7 +121,7 @@ end
 
 function map:on_finished()
 
-  if game:has_item("shield") == true and game:get_value("link_search_sword" ) == false then
+  if game:has_item("shield") == true and game:get_value("link_search_sword" ) == nil then
     game:set_value("step_1_link_search_sword", true)
   end
 

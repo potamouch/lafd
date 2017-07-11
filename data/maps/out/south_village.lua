@@ -2,10 +2,6 @@ local map = ...
 local game = map:get_game()
 -- Outside - South village
 
--- Includes scripts
-
-sol.main.load_file("npc/owl")(map)
-
 -- Functions
 
 function map:set_music()
@@ -31,14 +27,6 @@ end
 function map:on_obtaining_treasure(item, variant, savegame_variable)
 
   item:set_sound_when_brandished('hero_get_sword')
-
-end
-
-function map:on_obtained_treasure(item, variant, savegame_variable)
-
-  if item:get_name() == "sword" then
-    map:set_music()
-  end
 
 end
 

@@ -4,8 +4,8 @@ local quest_status_submenu = submenu:new()
 function quest_status_submenu:on_started()
 
   submenu.on_started(self)
-  self.quest_items_surface = sol.surface.create(320, 240)
-  self.quest_map_surface = sol.surface.create(320, 240)
+  self.quest_items_surface = sol.surface.create(320, 256)
+  self.quest_map_surface = sol.surface.create(320, 256)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
   self.cursor_sprite_x = 0
   self.cursor_sprite_y = 0

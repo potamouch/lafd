@@ -35,7 +35,7 @@ function inventory_submenu:on_started()
 
   submenu.on_started(self)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
-  self.hearts_surface = sol.surface.create(320, 240)
+  self.hearts_surface = sol.surface.create(320, 256)
   self.sprites_assignables = {}
   self.sprites_static = {}
   self.sprites_key = {}

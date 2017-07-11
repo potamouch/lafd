@@ -5,30 +5,14 @@ local title_screen = {}
 function title_screen:on_started()
 
   self.phase = "black"
-  self.surface = sol.surface.create(320, 240)
+  self.surface = sol.surface.create(320, 256)
   -- Black screen during 0.3 seconds
   self.timer = sol.timer.start(self, 300, function()
-    self:phase_logo_presents()
+    self:phase_intro()
   end)
 
   -- Preload sounds
   sol.audio.preload_sounds()
-
-end
-
-function title_screen:phase_logo_presents()
-
-  -- Actual presentation screen
-  self.phase = "zs_presents"
-  local logo_presents_img = sol.surface.create("title_presentation.png", true)
-  local width, height = logo_presents_img:get_size()
-  local x, y = 160 - width / 2, 120 - height / 2
-  logo_presents_img:draw(self.surface, x, y)
-  sol.audio.play_sound("intro")
-  -- "Zelda Solarus presents" displayed for two seconds
-  self.timer = sol.timer.start(self, 2000, function()
-    self:phase_intro()
-  end)
 
 end
 
