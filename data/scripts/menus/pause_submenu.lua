@@ -2,6 +2,8 @@
 
 local submenu = {}
 
+local language_manager = require("scripts/language_manager")
+
 function submenu:new(game)
   local o = { game = game }
   setmetatable(o, self)
@@ -16,39 +18,53 @@ function submenu:on_started()
   self.save_dialog_sprite = sol.sprite.create("menus/pause_save_dialog")
   self.save_dialog_state = 0
 
+  local menu_font, menu_font_size = language_manager:get_menu_font()
+
   self.question_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.question_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.answer_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
     text_key = "save_dialog.yes",
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.answer_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
     text_key = "save_dialog.no",
+    font = menu_font,
+    font_size = menu_font_size,
   }
 
   self.caption_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     font = "fixed",
+    font = menu_font,
+    font_size = menu_font_size,
   }
 
   self.caption_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     font = "fixed",
+    font = menu_font,
+    font_size = menu_font_size,
   }
 
   self.game:set_custom_command_effect("action", nil)
@@ -111,7 +127,7 @@ function submenu:previous_submenu()
   local submenu_index = self.game:get_value("pause_last_submenu")
   submenu_index = submenu_index - 1
   if submenu_index == 0 then
-    submenu_index = 3
+    submenu_index = #submenus
   end
   self.game:set_value("pause_last_submenu", submenu_index)
   sol.menu.start(self.game, submenus[submenu_index], false)

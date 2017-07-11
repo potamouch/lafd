@@ -118,8 +118,8 @@ function inventory_submenu:set_cursor_position(row, column)
     self:set_caption(nil)
     self.game:set_custom_command_effect("action", nil)
   end
-  self.game.hud.item_icon_1.surface:set_opacity(item_icon_opacity)
-  self.game.hud.item_icon_2.surface:set_opacity(item_icon_opacity)
+  self.game:get_hud():set_item_icon_opacity(1, item_icon_opacity)
+  self.game:get_hud():set_item_icon_opacity(2, item_icon_opacity)
 
 end
 

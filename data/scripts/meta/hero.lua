@@ -4,7 +4,7 @@ local hero_meta = sol.main.get_metatable("hero")
 
 function hero_meta:on_position_changed(x, y, layer)
 
-  local game = hero:get_game()
+  local game = self:get_game()
   local map = game:get_map()
   local world = map:get_world()
   local square_x = 0

@@ -248,10 +248,11 @@ enemy{ id = "small_bowwow", description = "Small Bow wow" }
 
 language{ id = "fr", description = "Français" }
 
-font{ id = "green_digits", description = "green_digits" }
-font{ id = "la", description = "la" }
-font{ id = "minecraftia", description = "minecraftia" }
-font{ id = "small_green_digits", description = "small_green_digits" }
-font{ id = "small_white_digits", description = "small_white_digits" }
-font{ id = "white_digits", description = "white_digits" }
+font{ id = "green_digits", description = "Green digits" }
+font{ id = "la", description = "Link s Awakening" }
+font{ id = "minecraftia", description = "Minecraftia" }
+font{ id = "minecraftia_mono", description = "Minecraftia Mono" }
+font{ id = "small_green_digits", description = "Small green digits" }
+font{ id = "small_white_digits", description = "Small white digits" }
+font{ id = "white_digits", description = "White digits" }
 
