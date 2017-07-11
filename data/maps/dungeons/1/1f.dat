@@ -10835,6 +10835,15 @@ tile{
   pattern = "wall_border.corner.3-2",
 }
 
+tile{
+  layer = 0,
+  x = 2064,
+  y = 376,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-1",
+}
+
 enemy{
   layer = 0,
   x = 1976,

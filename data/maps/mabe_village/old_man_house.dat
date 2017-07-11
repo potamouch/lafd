@@ -661,28 +661,11 @@ teletransporter{
 
 destructible{
   layer = 1,
-  x = 248,
-  y = 197,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 248,
-  y = 181,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
   x = 232,
   y = 181,
   sprite = "entities/pot",
-  destruction_sound = "stone",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -691,7 +674,28 @@ destructible{
   x = 232,
   y = 197,
   sprite = "entities/pot",
-  destruction_sound = "stone",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 248,
+  y = 197,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 248,
+  y = 181,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
   damage_on_enemies = 2,
 }
 

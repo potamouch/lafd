@@ -199,78 +199,6 @@ tile{
   pattern = "1",
 }
 
-destructible{
-  layer = 0,
-  x = 96,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 112,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 128,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 144,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 160,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 176,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 192,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 208,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
 stairs{
   layer = 0,
   x = 120,
@@ -1295,6 +1223,86 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+destructible{
+  layer = 1,
+  x = 96,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 112,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 128,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 144,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 160,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 176,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 192,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 208,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{
