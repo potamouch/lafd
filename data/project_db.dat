@@ -203,6 +203,7 @@ sound{ id = "get_heart_container", description = "get_heart_container" }
 sound{ id = "get_treasure", description = "get_treasure" }
 sound{ id = "get_treasure_2", description = "get_treasure_2" }
 sound{ id = "heart", description = "heart" }
+sound{ id = "hero_dying", description = "hero_dying" }
 sound{ id = "hero_falls", description = "hero_falls" }
 sound{ id = "hero_get_sword", description = "Hero get sword" }
 sound{ id = "hero_hurt", description = "hero_hurt" }
@@ -264,6 +265,7 @@ item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "power_bracelet", description = "Power bracelet" }
 item{ id = "quiver", description = "Quiver" }
+item{ id = "rupee", description = "rupee" }
 item{ id = "rupee_bag", description = "Ruppe bag" }
 item{ id = "seashell", description = "Seashell" }
 item{ id = "shield", description = "Shield" }
@@ -288,7 +290,7 @@ enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
 enemy{ id = "small_bowwow", description = "Small Bow wow" }
-enemy{ id = "zol_green", description = "zol_green" }
+enemy{ id = "zol_green", description = "Zol green" }
 
 
 language{ id = "fr", description = "Français" }

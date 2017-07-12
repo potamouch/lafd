@@ -884,7 +884,7 @@ dialog{
   text = [[
 Tu as trouvé un
 Rubis rouge !
-Il vaut 20 Rubis !
+Il vaut 10 Rubis !
 ]]
 }
 
@@ -892,7 +892,7 @@ dialog{
   id = "_treasure.rupee.4",
   icon = "90",
   text = [[
-Tu as trouvé 50
+Tu as trouvé 20
 Rubis !
 Merveilleux !
 ]]

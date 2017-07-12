@@ -982,3 +982,22 @@ tile{
   pattern = "floor.1-Alpha",
 }
 
+teletransporter{
+  name = "dungeon_1_stairs_2_A",
+  layer = 0,
+  x = 576,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "dungeon_1_stairs_1_B",
+}
+
+destination{
+  name = "dungeon_1_stairs_2_B",
+  layer = 1,
+  x = 584,
+  y = 29,
+  direction = 1,
+}
+

@@ -47,12 +47,31 @@ end
 -- Group 6
 local function dungeon_1_enemy_group_6_dead(enemy)
       if not map:has_entities("dungeon_1_enemy_group_6") then
-           map:set_doors_open("dungeon_1_door_group_1", true)
+          map:set_doors_open("dungeon_1_door_group_1", true)
           sol.audio.play_sound("door_open")
       end
 end
 for enemy in map:get_entities("dungeon_1_enemy_group_6") do
   enemy.on_dead = dungeon_1_enemy_group_6_dead
+end
+
+-- Group 12
+local function dungeon_1_enemy_group_12_dead(enemy)
+      if not map:has_entities("dungeon_1_enemy_group_12") and not map:get_game():get_value("dungeon_1_small_key_1") then
+          sol.audio.play_sound("secret_1")
+          map:create_chest{
+                sprite = "entities/chest",
+                treasure_name = "rupee",
+                treasure_variant = 3,
+                treasure_savegame_variable = "dungeon_1_chest_rupee_1",
+                x = 904,
+                y = 856,
+                layer = 0
+              }
+      end
+end
+for enemy in map:get_entities("dungeon_1_enemy_group_12") do
+  enemy.on_dead = dungeon_1_enemy_group_12_dead
 end
 
 
@@ -70,6 +89,15 @@ function dungeon_1_switch_1:on_activated()
       y = 1112,
       layer = 0
     }
+end
+
+-- Blocks
+
+function dungeon_1_block_1:on_moved()
+
+          map:set_doors_open("dungeon_1_door_group_2", true)
+          sol.audio.play_sound("door_open")
+
 end
 
 -- Sensors
@@ -93,3 +121,4 @@ function dungeon_1_sensor_2:on_activated()
 end
 
 map:set_doors_open("dungeon_1_door_group_1", true)
+map:set_doors_open("dungeon_1_door_group_2", false)

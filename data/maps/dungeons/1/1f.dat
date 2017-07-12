@@ -11432,6 +11432,51 @@ tile{
   pattern = "torch_big.bottom",
 }
 
+tile{
+  layer = 0,
+  x = 888,
+  y = 720,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 840,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1024,
+  y = 720,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1024,
+  y = 840,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 840,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
 block{
   layer = 0,
   x = 1176,
@@ -11743,7 +11788,7 @@ door{
   savegame_variable = "dungeon_1_door_small_key_1",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
-  cannot_open_dialog = "Oups",
+  cannot_open_dialog = "small_key_required",
 }
 
 chest{
@@ -11760,16 +11805,16 @@ enemy{
   name = "enemy_group_3_1",
   layer = 0,
   x = 400,
-  y = 1421,
+  y = 1413,
   direction = 0,
-  breed = "sea_urchin",
+  breed = "zol_green",
 }
 
 enemy{
   name = "dungeon_1_enemy_group_1_2",
   layer = 0,
   x = 840,
-  y = 1381,
+  y = 1373,
   direction = 3,
   breed = "hardhat_beetle_blue",
 }
@@ -11777,8 +11822,8 @@ enemy{
 enemy{
   name = "dungeon_1_enemy_group_1_1",
   layer = 0,
-  x = 768,
-  y = 1381,
+  x = 840,
+  y = 1453,
   direction = 3,
   breed = "hardhat_beetle_blue",
 }
@@ -11787,27 +11832,27 @@ enemy{
   name = "enemy_group_3_2",
   layer = 0,
   x = 448,
-  y = 1421,
+  y = 1413,
   direction = 0,
-  breed = "sea_urchin",
+  breed = "zol_green",
 }
 
 enemy{
   name = "enemy_group_3_4",
   layer = 0,
   x = 448,
-  y = 1373,
+  y = 1365,
   direction = 0,
-  breed = "sea_urchin",
+  breed = "zol_green",
 }
 
 enemy{
   name = "enemy_group_3_3",
   layer = 0,
   x = 400,
-  y = 1373,
+  y = 1365,
   direction = 0,
-  breed = "sea_urchin",
+  breed = "zol_green",
 }
 
 pickable{
@@ -12017,7 +12062,7 @@ door{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
-  cannot_open_dialog = "Oups",
+  cannot_open_dialog = "small_key_required",
 }
 
 teletransporter{
@@ -12048,13 +12093,14 @@ stairs{
 }
 
 teletransporter{
-  name = "dungeon_1_stairs_1",
+  name = "dungeon_1_stairs_1_A",
   layer = 0,
   x = 576,
   y = 304,
   width = 16,
   height = 16,
   destination_map = "dungeons/1/b1",
+  destination = "dungeon_1_stairs_2_B",
 }
 
 chest{
@@ -12201,7 +12247,6 @@ door{
   y = 1048,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_door_small_key_2",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "Oups",
@@ -12214,7 +12259,6 @@ door{
   y = 1144,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_door_small_key_2",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "Oups",
@@ -12245,7 +12289,6 @@ door{
   y = 1144,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_door_small_key_2",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "Oups",
@@ -12258,20 +12301,9 @@ door{
   y = 984,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_door_small_key_2",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "Oups",
-}
-
-chest{
-  name = "dungeon_1_chest_rupee_1",
-  layer = 0,
-  x = 904,
-  y = 853,
-  treasure_variant = 2,
-  treasure_savegame_variable = "dungeon_1_chest_rupee_1",
-  sprite = "entities/chest",
 }
 
 door{
@@ -12281,7 +12313,6 @@ door{
   y = 336,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_door_small_key_2",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "Oups",
@@ -12294,10 +12325,100 @@ door{
   y = 336,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_door_small_key_2",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "Oups",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_9_2",
+  layer = 0,
+  x = 1544,
+  y = 877,
+  direction = 0,
+  breed = "keese",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_9_1",
+  layer = 0,
+  x = 1488,
+  y = 973,
+  direction = 0,
+  breed = "keese",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_9_3",
+  layer = 0,
+  x = 1464,
+  y = 925,
+  direction = 0,
+  breed = "sea_urchin",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_10_1",
+  layer = 0,
+  x = 1664,
+  y = 909,
+  direction = 0,
+  breed = "sea_urchin",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_11_1",
+  layer = 0,
+  x = 1976,
+  y = 717,
+  direction = 0,
+  breed = "pike_detect",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_11_2",
+  layer = 0,
+  x = 2184,
+  y = 717,
+  direction = 0,
+  breed = "pike_detect",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_11_3",
+  layer = 0,
+  x = 1976,
+  y = 573,
+  direction = 0,
+  breed = "pike_detect",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_11_4",
+  layer = 0,
+  x = 2184,
+  y = 573,
+  direction = 0,
+  breed = "pike_detect",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_12_1",
+  layer = 0,
+  x = 800,
+  y = 901,
+  direction = 0,
+  breed = "zol_green",
+}
+
+chest{
+  name = "dungeon_1_seashell",
+  layer = 0,
+  x = 440,
+  y = 893,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "dungeon_1_seashell",
+  sprite = "entities/chest",
 }
 
 tile{
@@ -13261,6 +13382,14 @@ chest{
   treasure_name = "boss_key",
   treasure_savegame_variable = "dungeon_1_chest_boss_key",
   sprite = "entities/chest",
+}
+
+destination{
+  name = "dungeon_1_stairs_1_B",
+  layer = 1,
+  x = 584,
+  y = 333,
+  direction = 3,
 }
 
 tile{
