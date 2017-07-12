@@ -1,45 +1,48 @@
--- This is a Lua dialog file for solarus 0.9.1 or greater.
--- This dialog file was converted from the 0.9.0 ini syntax using the script
--- tools/data_files_conversion/0.9.0_to_0.9.1/convert_dialogs.lua.
--- Shield
 dialog{
-  id = "_item_description.shield.1",
-  icon = 63,
+  id = "_cannot_lift_should_cut",
   skip = "all",
   text = [[
-Permet de repousser
-vos ennemis.
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
 ]]
 }
---------------------
--- Tail key
+
 dialog{
-  id = "_item_description.tail_key.1",
-  icon = 40,
+  id = "_cannot_lift_still_too_heavy",
   skip = "all",
   text = [[
-Permet d'ouvrir
-la porte de
-la cave Flagello
+C'est beaucoup trop
+lourd pour toi !
 ]]
 }
---------------------
--- Slim key
+
 dialog{
-  id = "_item_description.slim_key.1",
-  icon = 43,
+  id = "_cannot_lift_too_heavy",
   skip = "all",
   text = [[
-Permet d'ouvrir
-la porte de
-la cave aux clefs
+Oh là là, c'est
+bien trop lourd !
+
+Tu n'y arriveras jamais
+rien que par la force
+de tes bras !
 ]]
 }
---------------------
--- Angler key
+
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+C'est un interrupteur
+de cristal. Frappe-le
+avec quelque chose...
+]]
+}
+
 dialog{
   id = "_item_description.angler_key.1",
-  icon = 41,
+  icon = "41",
   skip = "all",
   text = [[
 Permet d'ouvrir
@@ -47,11 +50,10 @@ la porte de
 l'abîme du poisson.
 ]]
 }
---------------------
--- Bird key
+
 dialog{
   id = "_item_description.bird_key.1",
-  icon = 42,
+  icon = "42",
   skip = "all",
   text = [[
 Permet d'ouvrir
@@ -59,110 +61,10 @@ la porte de la
 la tour du vautour.
 ]]
 }
---------------------
--- Face key
-dialog{
-  id = "_item_description.face_key.1",
-  icon = 44,
-  skip = "all",
-  text = [[
-Permet d'ouvrir
-la porte du
-temple du masque.
-]]
-}
---------------------
 
--- Feather
-dialog{
-  id = "_item_description.feather.1",
-  icon = 0,
-  skip = "all",
-  text = [[
-Utilise la Plume
-pour sauter et fran-
-chir des obstacles.
-]]
-}
---------------------
-
--- Magic powder 1
-dialog{
-  id = "_item_description.magic_powder.1",
-  icon = 36,
-  skip = "all",
-  text = [[
-Si tu brandis   
-le Champignon,  
-un arôme subtil 
-se répandra!
-]]
-}
---------------------
--- Sword
-dialog{
-  id = "_item_description.sword.1",
-  icon = 66,
-  skip = "all",
-  text = [[
-Une belle épée avec
-ton nom écrit dessus.
-]]
-}
---------------------
--- Tunic
-dialog{
-  id = "_item_description.tunic.1",
-  icon = 60,
-  skip = "all",
-  text = [[
-Une tunique verte 
-pour le plus beau
-des héros !
-]]
-}
---------------------
--- Tunic 2
-dialog{
-  id = "_item_description.tunic.2",
-  icon = 61,
-  skip = "all",
-  text = [[
-Une tunique bleue 
-pour le plus beau
-des héros !
-]]
-}
---------------------
--- Tunic 3
-dialog{
-  id = "_item_description.tunic.3",
-  icon = 62,
-  skip = "all",
-  text = [[
-Une tunique rouge 
-pour le plus beau
-des héros !
-]]
-}
---------------------
--- Magic powder 2
-dialog{
-  id = "_item_description.magic_powder.2",
-  icon = 37,
-  skip = "all",
-  text = [[
-Essaie de la    
-saupoudrer sur  
-plein de choses!
-]]
-}
---------------------
-
--- Bombes / Bombs
 dialog{
   id = "_item_description.bombs_counter.1",
-  icon = 1,
+  icon = "1",
   skip = "all",
   text = [[
 Utilise les Bombes
@@ -172,37 +74,10 @@ exploser des
 obstacles.
 ]]
 }
---------------------
 
--- Arc / Bow
-dialog{
-  id = "_item_description.bow.1",
-  icon = 2,
-  skip = "all",
-  text = [[
-Tu n'as plus de
-Flèches !
-]]
-}
---------------------
-
--- Arc & Flèches / Bow & Arrows
-dialog{
-  id = "_item_description.bow.2",
-  icon = 3,
-  skip = "all",
-  text = [[
-Tire des Flèches
-pour vaincre des
-ennemis coriaces.
-]]
-}
---------------------
-
--- Boomerang
 dialog{
   id = "_item_description.boomerang.1",
-  icon = 4,
+  icon = "4",
   skip = "all",
   text = [[
 Utilise le Boomerang
@@ -212,12 +87,10 @@ des objets à
 distance.
 ]]
 }
---------------------
 
--- Super Boomerang
 dialog{
   id = "_item_description.boomerang.2",
-  icon = 35,
+  icon = "35",
   skip = "all",
   text = [[
 Utilise le Super
@@ -228,12 +101,64 @@ des objets à
 distance.
 ]]
 }
---------------------
 
--- Grappin / Hook Shot
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+Tu n'as plus de
+Flèches !
+]]
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+Tire des Flèches
+pour vaincre des
+ennemis coriaces.
+]]
+}
+
+dialog{
+  id = "_item_description.face_key.1",
+  icon = "44",
+  skip = "all",
+  text = [[
+Permet d'ouvrir
+la porte du
+temple du masque.
+]]
+}
+
+dialog{
+  id = "_item_description.feather.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+Utilise la Plume
+pour sauter et fran-
+chir des obstacles.
+]]
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Les Palmes te
+permettent de nager
+dans l'eau profonde.
+]]
+}
+
 dialog{
   id = "_item_description.hookshot.1",
-  icon = 6,
+  icon = "6",
   skip = "all",
   text = [[
 Hisse-toi à des
@@ -242,12 +167,33 @@ inaccessibles grâce
 au Grappin.
 ]]
 }
---------------------
 
--- Bottes de Pégase / Pegasus Shoes
+dialog{
+  id = "_item_description.magic_powder.1",
+  icon = "36",
+  skip = "all",
+  text = [[
+Si tu brandis   
+le Champignon,  
+un arôme subtil 
+se répandra!
+]]
+}
+
+dialog{
+  id = "_item_description.magic_powder.2",
+  icon = "37",
+  skip = "all",
+  text = [[
+Essaie de la    
+saupoudrer sur  
+plein de choses!
+]]
+}
+
 dialog{
   id = "_item_description.pegasus_shoes.1",
-  icon = 13,
+  icon = "13",
   skip = "all",
   text = [[
 Fonce à toute allure
@@ -257,131 +203,278 @@ Appuie sur la touche
 Action pour courir.
 ]]
 }
---------------------
 
--- Palmes / Flippers
 dialog{
-  id = "_item_description.flippers.1",
-  icon = 26,
+  id = "_item_description.shield.1",
+  icon = "63",
   skip = "all",
   text = [[
-Les Palmes te
-permettent de nager
-dans l'eau profonde.
+Permet de repousser
+vos ennemis.
 ]]
 }
---------------------
 
--- ---------------------
--- Obtention d'un trésor
--- ---------------------
--- 
--- Les messages ci-dessous sont affichés lorsque le joueur obtient
--- un trésor, généralement en ouvrant un coffre ou en l'achetant
--- dans un magasin.
-
--- Power bracelet 1
 dialog{
-  id = "_treasure.power_bracelet.1",
-  icon = 16,
+  id = "_item_description.slim_key.1",
+  icon = "43",
   skip = "all",
   text = [[
-Tu as trouvé    
-le Bracelet!    
-Génial! Tu peux 
-soulever des    
-jarres et des   
-pierres!
+Permet d'ouvrir
+la porte de
+la cave aux clefs
 ]]
 }
---------------------
--- Plume
+
 dialog{
-  id = "_treasure.feather.1",
-  icon = 0,
+  id = "_item_description.sword.1",
+  icon = "66",
   skip = "all",
   text = [[
-Tu as la Plume!$0
-Soudain, tu es  
-plus léger      
-que l'air!
+Une belle épée avec
+ton nom écrit dessus.
 ]]
 }
---------------------
 
 dialog{
-  id = "_treasure.shovel.1",
-  icon = 0,
+  id = "_item_description.tail_key.1",
+  icon = "40",
   skip = "all",
   text = [[
-Tu as la Pelle!$0 
-Maintenant,     
-tu peux creuser 
-où tu veux!
+Permet d'ouvrir
+la porte de
+la cave Flagello
 ]]
 }
---------------------
 
 dialog{
-  id = "_treasure.magic_rod.1",
-  icon = 0,
+  id = "_item_description.tunic.1",
+  icon = "60",
   skip = "all",
   text = [[
-Tu as le Bâton  
-de Feu! $0         
-Brûle! Brûle!   
-Brûle tout      
-ce que tu veux!
+Une tunique verte 
+pour le plus beau
+des héros !
 ]]
 }
---------------------
-
 
 dialog{
-  id = "_treasure.ocarina.1",
-  icon = 0,
+  id = "_item_description.tunic.2",
+  icon = "61",
   skip = "all",
   text = [[
-Tu as l'Ocarina! $0
-J'espère que    
-tu pourras jouer
-plusieurs airs!
+Une tunique bleue 
+pour le plus beau
+des héros !
 ]]
 }
---------------------
 
--- Arc seul
 dialog{
-  id = "_treasure.bow.1",
-  icon = 2,
+  id = "_item_description.tunic.3",
+  icon = "62",
+  skip = "all",
   text = [[
-Tu as trouvé l'Arc !$0
-Trouve des Flèches
-et tu pourras
-vaincre à distance
-les ennemis
-coriaces !
+Une tunique rouge 
+pour le plus beau
+des héros !
 ]]
 }
---------------------
 
--- Arc & Flèches
 dialog{
-  id = "_treasure.bow.2",
-  icon = 3,
+  id = "_shop.amount_full",
   text = [[
-Tu as trouvé l'Arc !$0
-Tu peux vaincre les
-ennemis coriaces
-à distance !
+Tu es déjà au maximum !
 ]]
 }
---------------------
 
--- Boomerang
+dialog{
+  id = "_shop.not_enough_money",
+  skip = "all",
+  text = [[
+Désolé, mais tu n'as
+pas assez d'argent !
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Prix : $v rubis.
+Acheter
+Ne pas acheter
+]]
+}
+
+dialog{
+  id = "_treasure.angler_key.1",
+  icon = "41",
+  text = [[
+Tu as la        
+Clé Poisson!
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé une
+Flèche !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+Flèches pour vaincre
+des ennemis à
+distance.
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé 5
+Flèches !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé 10
+Flèches !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  text = [[
+Tu as trouvé la
+Grande Clé ! Tu peux
+désormais ouvrir les
+portes spéciales et
+découvrir de
+nouveaux trésors !
+]]
+}
+
+dialog{
+  id = "_treasure.bird_key.1",
+  icon = "42",
+  text = [[
+Tu as la        
+Clé Vautour!
+]]
+}
+
+dialog{
+  id = "_treasure.blue_potion.1",
+  icon = "98",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé une
+Bombe !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+pour faire exploser
+un ennemi ou un
+obstacle.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé 3
+Bombes !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé 8
+Bombes !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  text = [[
+Tu as trouvé le Sac
+de Bombes !$0 Il
+contient 10 Bombes.
+Assigne-les à une
+touche et fais tout
+sauter !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  text = [[
+Tu as trouvé le
+Grand Sac de
+Bombes !$0
+Il peut contenir
+jusqu'à 30 Bombes
+au lieu de 10 !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  text = [[
+Tu as trouvé le Sac
+de Bombes Géant !$0
+
+Il peut contenir
+jusqu'à 99 Bombes
+au lieu de 30 !
+]]
+}
+
 dialog{
   id = "_treasure.boomerang.1",
-  icon = 4,
+  icon = "4",
   text = [[
 Tu as trouvé le
 Boomerang !$0 Tu peux
@@ -395,12 +488,10 @@ manipuler, à toi
 de les découvrir !
 ]]
 }
---------------------
 
--- Super Boomerang
 dialog{
   id = "_treasure.boomerang.2",
-  icon = 35,
+  icon = "35",
   text = [[
 Tu as trouvé le
 Super Boomerang !$0
@@ -410,42 +501,23 @@ et plus puissant que
 l'ancien !
 ]]
 }
---------------------
 
--- Lanterne
 dialog{
-  id = "_treasure.lamp.1",
-  icon = 5,
-  next = "warning_magic",
+  id = "_treasure.boss_key.1",
+  icon = "74",
   text = [[
 Tu as trouvé la
-Lanterne !$0 Elle
-t'éclaire dans le
-noir et te permet
-d'allumer des
-braseros.
+Clé du Maître ! Tu
+peux maintenant
+entrer dans le
+repaire du maître
+des lieux !
 ]]
 }
---------------------
 
--- Grappin
-dialog{
-  id = "_treasure.hookshot.1",
-  icon = 6,
-  text = [[
-Tu as le        
-Grappin!  $0      
-Tu vas voir     
-comment la      
-chaîne s'étire!
-]]
-}
---------------------
-
--- Potion rouge
 dialog{
   id = "_treasure.bottle_1.3",
-  icon = 9,
+  icon = "9",
   text = [[
 Tu as trouvé de la
 Potion Rouge !$0
@@ -455,12 +527,10 @@ retrouver toute ton
 énergie vitale.
 ]]
 }
---------------------
 
--- Potion verte
 dialog{
   id = "_treasure.bottle_1.4",
-  icon = 10,
+  icon = "10",
   text = [[
 Tu as trouvé de la
 Potion Verte !$0
@@ -470,12 +540,10 @@ retrouver toute ton
 énergie magique.
 ]]
 }
---------------------
 
--- Potion bleue
 dialog{
   id = "_treasure.bottle_1.5",
-  icon = 11,
+  icon = "11",
   text = [[
 Tu as trouvé de la
 Potion Bleue !$0
@@ -485,311 +553,34 @@ retrouver toute ta
 vie et ta magie !
 ]]
 }
---------------------
 
--- Bottes de Pégase
 dialog{
-  id = "_treasure.pegasus_shoes.1",
-  icon = 13,
+  id = "_treasure.bow.1",
+  icon = "2",
   text = [[
-Tu as les Bottes
-de Pégase! $0     
-Garde le bouton 
-enfoncé et      
-tu fileras      
-comme le vent!
+Tu as trouvé l'Arc !$0
+Trouve des Flèches
+et tu pourras
+vaincre à distance
+les ennemis
+coriaces !
 ]]
 }
---------------------
 
--- Palmes
 dialog{
-  id = "_treasure.flippers.1",
-  icon = 26,
+  id = "_treasure.bow.2",
+  icon = "3",
   text = [[
-Tu as           
-les Palmes!$0     
-Appuie sur B    
-quand tu nages: 
-tu pourras alors
-plonger!
+Tu as trouvé l'Arc !$0
+Tu peux vaincre les
+ennemis coriaces
+à distance !
 ]]
 }
---------------------
 
--- Cape Magique
-dialog{
-  id = "_treasure.magic_cape.1",
-  icon = 27,
-  text = [[
-Tu as trouvé la Cape
-Magique !$0
-
-Elle t'avertira si
-tu t'approches d'un
-mur fragile.
-]]
-}
---------------------
-
--- Petit sac de bombes
-dialog{
-  id = "_treasure.bomb_bag.1",
-  icon = 54,
-  text = [[
-Tu as trouvé le Sac
-de Bombes !$0 Il
-contient 10 Bombes.
-Assigne-les à une
-touche et fais tout
-sauter !
-]]
-}
---------------------
-
--- Grand sac de bombes
-dialog{
-  id = "_treasure.bomb_bag.2",
-  icon = 55,
-  text = [[
-Tu as trouvé le
-Grand Sac de
-Bombes !$0
-Il peut contenir
-jusqu'à 30 Bombes
-au lieu de 10 !
-]]
-}
---------------------
-
--- Sac de bombes géant
-dialog{
-  id = "_treasure.bomb_bag.3",
-  icon = 56,
-  text = [[
-Tu as trouvé le Sac
-de Bombes Géant !$0
-
-Il peut contenir
-jusqu'à 99 Bombes
-au lieu de 30 !
-]]
-}
---------------------
-
--- Grand carquois 
-dialog{
-  id = "_treasure.quiver.2",
-  icon = 58,
-  text = [[
-Tu as trouvé le
-Grand Carquois !$0
-
-Il peut contenir
-jusqu'à 30 Flèches
-au lieu de 10 !
-]]
-}
---------------------
-
--- Carquois géant
-dialog{
-  id = "_treasure.quiver.3",
-  icon = 59,
-  text = [[
-Tu as trouvé le
-Carquois Géant !$0
-
-Il peut contenir
-jusqu'à 99 Flèches
-au lieu de 30 !
-]]
-}
---------------------
-
--- Cotte de mailles bleue
-dialog{
-  id = "_treasure.tunic.2",
-  icon = 61,
-  text = [[
-Tu as trouvé la
-Cotte de Mailles
-bleue !$0
-Elle te protège
-mieux contre les
-ennemis et te permet
-de résister aux
-températures les
-plus glaciales...
-]]
-}
---------------------
-
--- Cotte de mailles rouge
-dialog{
-  id = "_treasure.tunic.3",
-  icon = 62,
-  text = [[
-Tu as trouvé la
-Cotte de Mailles
-rouge !$0 Elle te
-protège de manière
-plus efficace contre
-les ennemis !
-]]
-}
---------------------
-
--- Bouclier
-dialog{
-  id = "_treasure.shield.1",
-  icon = 63,
-  text = [[
-Vous récupérez  
-votre bouclier! $0
-
-Utilisez-le pour
-repousser vos   
-ennemis!
-]]
-}
---------------------
-
--- Epée 1 (Epée du courage)
-dialog{
-  id = "_treasure.sword.1",
-  icon = 66,
-  text = [[
-Tu as retrouvé  
-ton Epée!  $0
-
-C'est la tienne 
-car il y a ton  
-nom dessus!
-]]
-}
---------------------
-
--- Epée 2 (Glaive Hylien)
-dialog{
-  id = "_treasure.sword.2",
-  icon = 67,
-  next = "_treasure.sword.2.1",
-  text = [[
-Tu as une       
-nouvelle Epée!$0 
-N'oublie pas de 
-graver ton nom  
-dessus!
-]]
-}
---------------------
--- Champignon magique
-dialog{
-  id = "_treasure.magic_powder.1",
-  icon = 36,
-  text = [[
-Tu as trouvé    
-le Champignon!$0
-Un arôme subtil 
-exalte ton sens 
-de l'odorat.
-]]
-}
---------------------
-
--- Poudre magique
-dialog{
-  id = "_treasure.magic_powder.2",
-  icon = 37,
-  text = [[
-Tu as gagné la  
-Poudre Magique! $0
-Tu peux la      
-saupoudrer sur  
-plein de trucs
-]]
-}
---------------------
-
--- Clé Flagello
-dialog{
-  id = "_treasure.tail_key.1",
-  icon = 40,
-  text = [[
-Tu as la        
-Clé Flagello!   
-Tu peux ouvrir  
-la porte de la  
-Cave Flagello!
-]]
-}
---------------------
-
--- Clé Cyclope
-dialog{
-  id = "_treasure.slim_key.1",
-  icon = 43,
-  text = [[
-Tu as la        
-Clé Cyclope!    
-Vite! Va vers   
-l'entrée de     
-La Prairie!
-]]
-}
---------------------
-
--- Clé Vautour
-dialog{
-  id = "_treasure.bird_key.1",
-  icon = 42,
-  text = [[
-Tu as la        
-Clé Vautour!
-]]
-}
---------------------
-
--- Clé poisson
-dialog{
-  id = "_treasure.angler_key.1",
-  icon = 41,
-  text = [[
-Tu as la        
-Clé Poisson!
-]]
-}
---------------------
-
--- Clé Masque
-dialog{
-  id = "_treasure.face_key.1",
-  icon = 44,
-  text = [[
-Tu as la        
-Clé Masque!
-]]
-}
---------------------
-
--- Carte
-dialog{
-  id = "_treasure.map.1",
-  icon = 70,
-  text = [[
-Tu as une Carte!
-Appuie sur      
-START pour      
-la consulter!
-]]
-}
---------------------
-
--- Boussole
 dialog{
   id = "_treasure.compass.1",
-  icon = 71,
+  icon = "71",
   text = [[
 Tu as la        
 Boussole!       
@@ -805,304 +596,44 @@ C'est ça
 le progrès...
 ]]
 }
---------------------
-
--- Petite clé
-dialog{
-  id = "_treasure.small_key.1",
-  icon = 72,
-  text = [[
-Tu as trouvé une
-Petite Clé !
-
-Tu peux ouvrir une
-porte verrouillée
-dans les environs.
-]]
-}
---------------------
-
--- Grande Clé
-dialog{
-  id = "_treasure.big_key.1",
-  icon = 73,
-  text = [[
-Tu as trouvé la
-Grande Clé ! Tu peux
-désormais ouvrir les
-portes spéciales et
-découvrir de
-nouveaux trésors !
-]]
-}
---------------------
-
--- Clé du Maître
-dialog{
-  id = "_treasure.boss_key.1",
-  icon = 74,
-  text = [[
-Tu as trouvé la
-Clé du Maître ! Tu
-peux maintenant
-entrer dans le
-repaire du maître
-des lieux !
-]]
-}
---------------------
-
--- Fragment de Coeur
-dialog{
-  id = "_treasure.piece_of_heart.1",
-  icon = 79,
-  text = [[
-Tu as trouvé un
-Fragment de Coeur !
-]]
-}
---------------------
-
--- Réceptacle de Coeur
-dialog{
-  id = "_treasure.heart_container.1",
-  icon = 80,
-  text = [[
-Tu as trouvé un
-Réceptacle de Coeur.
-
-Tu obtiens un Coeur
-supplémentaire !
-]]
-}
---------------------
-
--- 1 Bombe
-dialog{
-  id = "_treasure.bomb.1",
-  icon = 82,
-  next = "_treasure.bomb.1.1",
-  text = [[
-Tu as trouvé une
-Bombe !$0
-Utilise une Bombe
-]]
-}
---------------------
 
 dialog{
-  id = "_treasure.bomb.1.1",
+  id = "_treasure.face_key.1",
+  icon = "44",
   text = [[
-pour faire exploser
-un ennemi ou un
-obstacle.
+Tu as la        
+Clé Masque!
 ]]
 }
---------------------
-
--- 3 Bombes
-dialog{
-  id = "_treasure.bomb.2",
-  icon = 82,
-  next = "_treasure.bomb.1.1",
-  text = [[
-Tu as trouvé 3
-Bombes !$0
-Utilise une Bombe
-]]
-}
---------------------
-
--- 8 Bombes
-dialog{
-  id = "_treasure.bomb.3",
-  icon = 82,
-  next = "_treasure.bomb.1.1",
-  text = [[
-Tu as trouvé 8
-Bombes !$0
-Utilise une Bombe
-]]
-}
---------------------
-
--- 1 Flèche
-dialog{
-  id = "_treasure.arrow.1",
-  icon = 83,
-  next = "_treasure.arrow.1.1",
-  text = [[
-Tu as trouvé une
-Flèche !$0
-Utilise l'Arc et les
-]]
-}
---------------------
 
 dialog{
-  id = "_treasure.arrow.1.1",
+  id = "_treasure.feather.1",
+  icon = "0",
+  skip = "all",
   text = [[
-Flèches pour vaincre
-des ennemis à
-distance.
+Tu as la Plume!$0
+Soudain, tu es  
+plus léger      
+que l'air!
 ]]
 }
---------------------
 
--- 5 Flèches
 dialog{
-  id = "_treasure.arrow.2",
-  icon = 83,
-  next = "_treasure.arrow.1.1",
+  id = "_treasure.flippers.1",
+  icon = "26",
   text = [[
-Tu as trouvé 5
-Flèches !$0
-Utilise l'Arc et les
+Tu as           
+les Palmes!$0     
+Appuie sur B    
+quand tu nages: 
+tu pourras alors
+plonger!
 ]]
 }
---------------------
 
--- 10 Flèches
-dialog{
-  id = "_treasure.arrow.3",
-  icon = 83,
-  next = "_treasure.arrow.1.1",
-  text = [[
-Tu as trouvé 10
-Flèches !$0
-Utilise l'Arc et les
-]]
-}
---------------------
-
--- 1 Coeur
-dialog{
-  id = "_treasure.heart.1",
-  icon = 84,
-  text = [[
-Tu as trouvé un
-Coeur !
-]]
-}
---------------------
-
--- Petite bouteille de magie
-dialog{
-  id = "_treasure.magic_flask.1",
-  icon = 85,
-  text = [[
-Tu as trouvé une
-petite bouteille
-d'énergie magique !
-]]
-}
---------------------
-
--- Grande bouteille de magie
-dialog{
-  id = "_treasure.magic_flask.2",
-  icon = 86,
-  text = [[
-Tu as trouvé une
-grande bouteille
-d'énergie magique !
-]]
-}
---------------------
-
--- 1 rubis vert
-dialog{
-  id = "_treasure.rupee.1",
-  icon = 90,
-  text = [[
-Tu as trouvé un
-Rubis !
-]]
-}
---------------------
-
--- 1 rubis bleu
-dialog{
-  id = "_treasure.rupee.2",
-  icon = 91,
-  text = [[
-Tu as trouvé un
-Rubis bleu.
-Il vaut 5 Rubis !
-]]
-}
---------------------
-
--- 1 rubis rouge
-dialog{
-  id = "_treasure.rupee.3",
-  icon = 92,
-  text = [[
-Tu as trouvé un
-Rubis rouge !
-Il vaut 20 Rubis !
-]]
-}
---------------------
-
--- 50 rubis
--- Remarque : clin d'oeil à Link's Awakening
-dialog{
-  id = "_treasure.rupee.4",
-  icon = 90,
-  text = [[
-Tu as trouvé 50
-Rubis !
-Merveilleux !
-]]
-}
---------------------
-
--- 100 rubis
--- Remarque : clin d'oeil à Link's Awakening
-dialog{
-  id = "_treasure.rupee.5",
-  icon = 90,
-  text = [[
-Tu as trouvé 100
-Rubis !
-Fantastique !
-]]
-}
---------------------
-
--- 300 rubis
--- Remarque : clin d'oeil à Link's Awakening
-dialog{
-  id = "_treasure.rupee.6",
-  icon = 90,
-  text = [[
-Tu as trouvé 300
-Rubis !
-C'est l'extase !
-]]
-}
---------------------
-
--- Potion rouge
-dialog{
-  id = "_treasure.red_potion.1",
-  icon = 96,
-  text = [[
-Tu as trouvé de la
-Potion Rouge !$0
-
-Bois-la pour
-retrouver toute ton
-énergie vitale.
-]]
-}
---------------------
-
--- Potion verte
 dialog{
   id = "_treasure.green_potion.1",
-  icon = 97,
+  icon = "97",
   text = [[
 Tu as trouvé de la
 Potion Verte !$0
@@ -1112,52 +643,401 @@ retrouver toute ton
 énergie magique.
 ]]
 }
---------------------
 
--- Potion bleue
 dialog{
-  id = "_treasure.blue_potion.1",
-  icon = 98,
+  id = "_treasure.heart.1",
+  icon = "84",
   text = [[
-Tu as trouvé de la
-Potion Bleue !$0
-
-Bois-la pour
-retrouver toute ta
-vie et ta magie !
+Tu as trouvé un
+Coeur !
 ]]
 }
---------------------
 
--- Affiché à la fin des dialogues expliquant
--- que le joueur a obtenu un objet qui consomme
--- de l'énergie magique (même message que dans ALTTP)
 dialog{
-  id = "warning_magic",
+  id = "_treasure.heart_container.1",
+  icon = "80",
   text = [[
-Mais surveille ton
-compteur magique !
+Tu as trouvé un
+Réceptacle de Coeur.
+
+Tu obtiens un Coeur
+supplémentaire !
 ]]
 }
---------------------
 
--- Lorsqu'on regarde une porte verrouillé ou un bloc verrouillé
--- et qu'on ne possède pas de Petite Clé
 dialog{
-  id = "small_key_required",
-  icon = 72,
+  id = "_treasure.hookshot.1",
+  icon = "6",
+  text = [[
+Tu as le        
+Grappin!  $0      
+Tu vas voir     
+comment la      
+chaîne s'étire!
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  next = "warning_magic",
+  text = [[
+Tu as trouvé la
+Lanterne !$0 Elle
+t'éclaire dans le
+noir et te permet
+d'allumer des
+braseros.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_cape.1",
+  icon = "27",
+  text = [[
+Tu as trouvé la Cape
+Magique !$0
+
+Elle t'avertira si
+tu t'approches d'un
+mur fragile.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = "85",
+  text = [[
+Tu as trouvé une
+petite bouteille
+d'énergie magique !
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = "86",
+  text = [[
+Tu as trouvé une
+grande bouteille
+d'énergie magique !
+]]
+}
+
+dialog{
+  id = "_treasure.magic_powder.1",
+  icon = "36",
+  text = [[
+Tu as trouvé    
+le Champignon!$0
+Un arôme subtil 
+exalte ton sens 
+de l'odorat.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_powder.2",
+  icon = "37",
+  text = [[
+Tu as gagné la  
+Poudre Magique! $0
+Tu peux la      
+saupoudrer sur  
+plein de trucs
+]]
+}
+
+dialog{
+  id = "_treasure.magic_rod.1",
+  icon = "0",
   skip = "all",
   text = [[
-C'est fermé à clé !
+Tu as le Bâton  
+de Feu! $0         
+Brûle! Brûle!   
+Brûle tout      
+ce que tu veux!
 ]]
 }
---------------------
 
--- Lorsqu'on regarde le grand coffre ou une porte verrouillée nécessitant la Grande Clé
--- et qu'on ne possède pas celle-ci
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  text = [[
+Tu as une Carte!
+Appuie sur      
+START pour      
+la consulter!
+]]
+}
+
+dialog{
+  id = "_treasure.ocarina.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+Tu as l'Ocarina! $0
+J'espère que    
+tu pourras jouer
+plusieurs airs!
+]]
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = "13",
+  text = [[
+Tu as les Bottes
+de Pégase! $0     
+Garde le bouton 
+enfoncé et      
+tu fileras      
+comme le vent!
+]]
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = "79",
+  text = [[
+Tu as trouvé un
+Fragment de Coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.power_bracelet.1",
+  icon = "16",
+  skip = "all",
+  text = [[
+Tu as trouvé    
+le Bracelet!    
+Génial! Tu peux 
+soulever des    
+jarres et des   
+pierres!
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  text = [[
+Tu as trouvé le
+Grand Carquois !$0
+
+Il peut contenir
+jusqu'à 30 Flèches
+au lieu de 10 !
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  text = [[
+Tu as trouvé le
+Carquois Géant !$0
+
+Il peut contenir
+jusqu'à 99 Flèches
+au lieu de 30 !
+]]
+}
+
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = "96",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  text = [[
+Tu as trouvé un
+Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  text = [[
+Tu as trouvé un
+Rubis bleu.
+Il vaut 5 Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  text = [[
+Tu as trouvé un
+Rubis rouge !
+Il vaut 20 Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "90",
+  text = [[
+Tu as trouvé 50
+Rubis !
+Merveilleux !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "90",
+  text = [[
+Tu as trouvé 100
+Rubis !
+Fantastique !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "90",
+  text = [[
+Tu as trouvé 300
+Rubis !
+C'est l'extase !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  text = [[
+Vous récupérez  
+votre bouclier! $0
+
+Utilisez-le pour
+repousser vos   
+ennemis!
+]]
+}
+
+dialog{
+  id = "_treasure.shovel.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+Tu as la Pelle!$0 
+Maintenant,     
+tu peux creuser 
+où tu veux!
+]]
+}
+
+dialog{
+  id = "_treasure.slim_key.1",
+  icon = "43",
+  text = [[
+Tu as la        
+Clé Cyclope!    
+Vite! Va vers   
+l'entrée de     
+La Prairie!
+]]
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  text = [[
+Tu as trouvé une
+Petite Clé !
+
+Tu peux ouvrir une
+porte verrouillée
+dans les environs.
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  text = [[
+Tu as retrouvé  
+ton Epée!  $0
+
+C'est la tienne 
+car il y a ton  
+nom dessus!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  next = "_treasure.sword.2.1",
+  text = [[
+Tu as une       
+nouvelle Epée!$0 
+N'oublie pas de 
+graver ton nom  
+dessus!
+]]
+}
+
+dialog{
+  id = "_treasure.tail_key.1",
+  icon = "40",
+  text = [[
+Tu as la        
+Clé Flagello!   
+Tu peux ouvrir  
+la porte de la  
+Cave Flagello!
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  text = [[
+Tu as trouvé la
+Cotte de Mailles
+bleue !$0
+Elle te protège
+mieux contre les
+ennemis et te permet
+de résister aux
+températures les
+plus glaciales...
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.3",
+  icon = "62",
+  text = [[
+Tu as trouvé la
+Cotte de Mailles
+rouge !$0 Elle te
+protège de manière
+plus efficace contre
+les ennemis !
+]]
+}
+
 dialog{
   id = "big_key_required",
-  icon = 73,
+  icon = "73",
   skip = "all",
   text = [[
 Il te faut la Grande
@@ -1165,12 +1045,10 @@ Clé pour ouvrir
 cette serrure !
 ]]
 }
---------------------
 
--- Lorsqu'on regarde la porte du boss sans avoir la Clé du Maître
 dialog{
   id = "boss_key_required",
-  icon = 74,
+  icon = "74",
   skip = "all",
   text = [[
 C'est la porte du
@@ -1181,110 +1059,16 @@ Clé du Maître
 pour l'ouvrir.
 ]]
 }
---------------------
 
--- Lorsqu'on tente de soulever un buisson
--- au lieu de le couper avec l'épée
-dialog{
-  id = "_cannot_lift_should_cut",
-  skip = "all",
-  text = [[
-Il te faudrait quelque
-chose de tranchant pour
-couper ces buissons...
-]]
-}
------------------------
-
--- Lorsqu'on tente de soulever une pierre
--- sans avoir de bracelet de force
--- (Clin d'oeil à Link's Awakening)
-dialog{
-  id = "_cannot_lift_too_heavy",
-  skip = "all",
-  text = [[
-Oh là là, c'est
-bien trop lourd !
-
-Tu n'y arriveras jamais
-rien que par la force
-de tes bras !
-]]
-}
------------------------
-
--- Lorsqu'on tente de soulever une pierre vraiment lourde
--- en ayant seulement la poigne de fer
-dialog{
-  id = "_cannot_lift_still_too_heavy",
-  skip = "all",
-  text = [[
-C'est beaucoup trop
-lourd pour toi !
-]]
-}
------------------------
-
--- Lorsqu'on regarde un objet vendu dans un magasin
--- (message affiché après avoir lu la description de l'objet)
-dialog{
-  id = "_shop.question",
-  question = true,
-  text = [[
-Prix : $v rubis.
-Acheter
-Ne pas acheter
-]]
-}
------------------------
-
--- Lorsqu'on veut acheter un objet dans un magasin
--- mais qu'on n'a pas assez de Rubis
-dialog{
-  id = "_shop.not_enough_money",
-  skip = "all",
-  text = [[
-Désolé, mais tu n'as
-pas assez d'argent !
-]]
-}
------------------------
-
--- Lorsqu'on veut acheter un objet dans un magasin
--- mais qu'on a déjà le maximum de la quantité possible
--- (pour des Bombes, des Flèches, etc.)
-dialog{
-  id = "_shop.amount_full",
-  text = [[
-Tu es déjà au maximum !
-]]
-}
------------------------
-
--- Lorsqu'on regarde un interrupteur de cristal
-dialog{
-  id = "_crystal",
-  skip = "all",
-  text = [[
-C'est un interrupteur
-de cristal. Frappe-le
-avec quelque chose...
-]]
-}
------------------------
-
--- Lorsqu'on pénètre dans le donjon 1
 dialog{
   id = "dungeon_1",
   skip = "current",
   text = [[
         Niveau 1       
-   Donjon de la Forêt  
+   Cave Flagello
 ]]
 }
------------------------
 
--- Lorsqu'on pénètre dans le donjon 2
 dialog{
   id = "dungeon_2",
   skip = "current",
@@ -1293,9 +1077,7 @@ dialog{
      Caverne de Roc    
 ]]
 }
------------------------
 
--- Lorsqu'on pénètre dans le donjon 3
 dialog{
   id = "dungeon_3",
   skip = "current",
@@ -1304,82 +1086,75 @@ dialog{
  Antre de Maître Arbror
 ]]
 }
------------------------
 
 dialog{
-  id = "found_piece_of_heart.first",
-  icon = 75,
+  id = "forest.raccoon",
   text = [[
-Collecte-en quatre
-pour former un
-nouveau Coeur.
+J'suis un raton-
+laveur espiègle.
+Et j'aime pas
+du tout c'qu'est
+poudreux...
 ]]
 }
---------------------
 
 dialog{
-  id = "found_piece_of_heart.second",
-  icon = 76,
+  id = "forest.raccoon_lost_warning",
   text = [[
-Encore deux et
-tu obtiendras
-un nouveau Coeur.
+Hé hé ! Tu vas
+te perdre dans
+la Forêt. Hi hi !
+Bien fait !!
 ]]
 }
---------------------
 
 dialog{
-  id = "found_piece_of_heart.third",
-  icon = 77,
+  id = "forest.raccoon_to_tarin",
   text = [[
-Plus qu'un à trouver
-pour former un
-nouveau Coeur !
+J'ai croqué dans
+un champignon.
+Et j'suis devenu
+un raton-laveur !
+Après, j'sais
+plus trop,
+mais c'était
+trop rigolo !!
 ]]
 }
---------------------
 
 dialog{
-  id = "found_piece_of_heart.fourth",
-  icon = 78,
+  id = "forest.tarin",
   text = [[
-Tu as trouvé quatre
-Fragments de Coeur.
-
-Tu obtiens un Coeur
-supplémentaire !
+Oh là là !! J'me
+sens tout drôle !
+Faut m'reposer
+avant d'rentrer.
 ]]
 }
---------------------
 
--- Lorsqu'on trouve une Fée en ayant au moins un Flacon (même dialogue que dans ALTTP)
 dialog{
   id = "found_fairy",
-  icon = 81,
-  skip = "current",
+  icon = "81",
   next = "found_fairy.1",
+  skip = "current",
   text = [[
 Tu as trouvé une
 Fée, elle est
 merveilleuse !
 ]]
 }
---------------------
 
--- |--------------------___|
 dialog{
   id = "found_fairy.1",
-  icon = -1,
-  question = true,
+  icon = "-1",
+  question = "1",
   text = [[
 Que vas-tu en faire ?
 Récupérer des Coeurs
 La conserver
 ]]
 }
---------------------
 
--- Lorsqu'on veut conserver une Fée mais qu'on n'a pas de Flacon vide
 dialog{
   id = "found_fairy.no_empty_bottle",
   skip = "current",
@@ -1388,13 +1163,53 @@ Tu n'as pas de Flacon
 vide !
 ]]
 }
------------------------
 
--- Lorsqu'on trouve de l'eau et qu'on a un Flacon vide
+dialog{
+  id = "found_piece_of_heart.first",
+  icon = "75",
+  text = [[
+Collecte-en quatre
+pour former un
+nouveau Coeur.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = "78",
+  text = [[
+Tu as trouvé quatre
+Fragments de Coeur.
+
+Tu obtiens un Coeur
+supplémentaire !
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = "76",
+  text = [[
+Encore deux et
+tu obtiendras
+un nouveau Coeur.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = "77",
+  text = [[
+Plus qu'un à trouver
+pour former un
+nouveau Coeur !
+]]
+}
+
 dialog{
   id = "found_water",
-  icon = 8,
-  question = true,
+  icon = "8",
+  question = "1",
   text = [[
 Veux-tu mettre de
 l'eau dans ton
@@ -1404,9 +1219,7 @@ Oui
 Non
 ]]
 }
---------------------
 
--- Lorsqu'on trouve de l'eau mais qu'on n'a aucun Flacon
 dialog{
   id = "found_water.no_bottle",
   skip = "all",
@@ -1417,12 +1230,10 @@ de récipient
 pour la stocker...
 ]]
 }
------------------------
 
--- Lorsqu'on trouve de l'eau et qu'on a au moins un Flacon, mais pas de Flacon vide
 dialog{
   id = "found_water.no_empty_bottle",
-  icon = 8,
+  icon = "8",
   skip = "all",
   text = [[
 Il y a de l'eau ici,
@@ -1431,33 +1242,130 @@ un Flacon vide
 pour la stocker...
 ]]
 }
---------------------
-
--- Utiliser un Flacon contenant de l'eau
-dialog{
-  id = "use_bottle_with_water",
-  icon = 8,
-  question = true,
-  text = [[
-Ton Flacon Magique
-contient de l'eau.
-
-Que veux-tu faire ?
-Vider l'eau
-La conserver
-]]
-}
 
 dialog{
-  id = "torch.need_lamp",
+  id = "item.mushroom",
   skip = "all",
   text = [[
-Il y a sûrement un
-moyen d'allumer
-cette torche...
+C'est le champignon que 
+vous avez trouvé
+dans les bois.
+Quel est-il?$0
+Vous le placez au-dessus
+de votre tête 
+et un arôme subtil 
+exalte ton sens 
+de l'odorat..
 ]]
 }
------------------------
+
+dialog{
+  id = "mabe_village.grand_ma_1",
+  skip = "all",
+  text = [[
+YOUPI! J'ai la  
+pêche! Et toi? 
+]]
+}
+
+dialog{
+  id = "mabe_village.kids_1",
+  skip = "all",
+  text = [[
+Ben... Après une
+sauvegarde,     
+vous pouvez     
+redémarrer à la 
+dernière porte  
+par laquelle    
+vous êtes passé!
+Pourquoi? Je    
+n'en sais rien, 
+je suis un môme!
+]]
+}
+
+dialog{
+  id = "mabe_village.kids_2",
+  skip = "all",
+  text = [[
+Consultez la    
+carte de l'île  
+en appuyant     
+sur SELECT.     
+Après, je ne    
+sais pas trop   
+car je ne suis  
+qu'un gosse! 
+]]
+}
+
+dialog{
+  id = "mabe_village.kids_3",
+  skip = "all",
+  text = [[
+M'sieu! Pour    
+sauvegarder,    
+appuyez sur tous
+les boutons     
+à la fois! Heu, 
+je n'en sais pas
+plus, je ne suis
+qu'un gosse!
+]]
+}
+
+dialog{
+  id = "mabe_village.kids_4",
+  skip = "all",
+  text = [[
+Si vos Coeurs   
+diminuent trop, 
+entrez dans     
+une maison      
+ou une grotte.  
+Pourquoi? Je ne 
+sais pas, je    
+suis trop petit!
+]]
+}
+
+dialog{
+  id = "mabe_village.marine_1",
+  skip = "all",
+  text = [[
+Bonjour Link !  
+Tarkin est parti
+dans la forêt   
+chercher des    
+champignons.    
+Moi,je préfère  
+chanter.        
+Ecoute ceci:    
+c'est la Ballade
+du Poisson-Rêve.
+]]
+}
+
+dialog{
+  id = "mabe_village.sign_1",
+  skip = "all",
+  text = [[
+Forêt Enchantée 
+(Un peu         
+énigmatique)
+]]
+}
+
+dialog{
+  id = "mabe_village.weathercock",
+  skip = "all",
+  text = [[
+Ci-gît          
+le Coq Volant.
+]]
+}
+
 dialog{
   id = "marine_house.awake",
   text = [[
@@ -1475,7 +1383,24 @@ Tu es sur l'île
 Cocolint!
 ]]
 }
------------------------
+
+dialog{
+  id = "marine_house.marine_1",
+  skip = "all",
+  text = [[
+Suis la route   
+du Sud, vers    
+la plage là où  
+je t'ai trouvé. 
+Depuis que tu   
+as échoué ici,  
+des monstres    
+terribles rôdent
+dans le coin.   
+Sois prudent...
+]]
+}
+
 dialog{
   id = "marine_house.tarkin_1",
   text = [[
@@ -1492,7 +1417,7 @@ il est à toi!
 J'te l'donne!
 ]]
 }
------------------------
+
 dialog{
   id = "marine_house.tarkin_2",
   skip = "all",
@@ -1511,7 +1436,7 @@ des monstres,
 y'en a partout!
 ]]
 }
------------------------
+
 dialog{
   id = "marine_house.tarkin_3",
   skip = "all",
@@ -1522,121 +1447,7 @@ J'ai quêqu'
 chose à te dire!
 ]]
 }
------------------------
-dialog{
-  id = "marine_house.marine_1",
-  skip = "all",
-  text = [[
-Suis la route   
-du Sud, vers    
-la plage là où  
-je t'ai trouvé. 
-Depuis que tu   
-as échoué ici,  
-des monstres    
-terribles rôdent
-dans le coin.   
-Sois prudent...
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.grand_ma_1",
-  skip = "all",
-  text = [[
-YOUPI! J'ai la  
-pêche! Et toi? 
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.marine_1",
-  skip = "all",
-  text = [[
-Bonjour Link !  
-Tarkin est parti
-dans la forêt   
-chercher des    
-champignons.    
-Moi,je préfère  
-chanter.        
-Ecoute ceci:    
-c'est la Ballade
-du Poisson-Rêve.
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.weathercock",
-  skip = "all",
-  text = [[
-Ci-gît          
-le Coq Volant.
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.kids_1",
-  skip = "all",
-  text = [[
-Ben... Après une
-sauvegarde,     
-vous pouvez     
-redémarrer à la 
-dernière porte  
-par laquelle    
-vous êtes passé!
-Pourquoi? Je    
-n'en sais rien, 
-je suis un môme!
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.kids_2",
-  skip = "all",
-  text = [[
-Consultez la    
-carte de l'île  
-en appuyant     
-sur SELECT.     
-Après, je ne    
-sais pas trop   
-car je ne suis  
-qu'un gosse! 
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.kids_3",
-  skip = "all",
-  text = [[
-M'sieu! Pour    
-sauvegarder,    
-appuyez sur tous
-les boutons     
-à la fois! Heu, 
-je n'en sais pas
-plus, je ne suis
-qu'un gosse!
-]]
-}
------------------------
-dialog{
-  id = "mabe_village.kids_4",
-  skip = "all",
-  text = [[
-Si vos Coeurs   
-diminuent trop, 
-entrez dans     
-une maison      
-ou une grotte.  
-Pourquoi? Je ne 
-sais pas, je    
-suis trop petit!
-]]
-}
------------------------
+
 dialog{
   id = "owl_1",
   text = [[
@@ -1664,7 +1475,7 @@ Je t'y attends.
 Hou hou!
 ]]
 }
------------------------
+
 dialog{
   id = "owl_2",
   text = [[
@@ -1696,17 +1507,26 @@ Le Poisson-Rêve
 te regarde.Hou!
 ]]
 }
------------------------
+
 dialog{
-  id = "mabe_village.sign_1",
+  id = "prairie.sign_1",
   skip = "all",
   text = [[
-Forêt Enchantée 
-(Un peu         
-énigmatique)
+Est > Prairie   
+Plus à l'Est    
+Village des Animaux
 ]]
 }
------------------------
+
+dialog{
+  id = "small_key_required",
+  icon = "72",
+  skip = "all",
+  text = [[
+C'est fermé à clé !
+]]
+}
+
 dialog{
   id = "south_village.sign_1",
   skip = "all",
@@ -1715,7 +1535,7 @@ dialog{
 v Plage Coco
 ]]
 }
------------------------
+
 dialog{
   id = "south_village.sign_2",
   skip = "all",
@@ -1726,84 +1546,36 @@ Se protéger avec
 un bouclier!
 ]]
 }
------------------------
 
------------------------
 dialog{
-  id = "prairie.sign_1",
+  id = "torch.need_lamp",
   skip = "all",
   text = [[
-Est > Prairie   
-Plus à l'Est    
-Village des Animaux
+Il y a sûrement un
+moyen d'allumer
+cette torche...
 ]]
 }
------------------------
-
--- TODO what is this dialog?
-dialog{
-  id = "item.mushroom",
-  skip = "all",
-  text = [[
-C'est le champignon que 
-vous avez trouvé
-dans les bois.
-Quel est-il?$0
-Vous le placez au-dessus
-de votre tête 
-et un arôme subtil 
-exalte ton sens 
-de l'odorat..
-]]
-}
------------------------
 
 dialog{
-  id = "forest.raccoon_lost_warning",
+  id = "use_bottle_with_water",
+  icon = "8",
+  question = "1",
   text = [[
-Hé hé ! Tu vas
-te perdre dans
-la Forêt. Hi hi !
-Bien fait !!
+Ton Flacon Magique
+contient de l'eau.
+
+Que veux-tu faire ?
+Vider l'eau
+La conserver
 ]]
 }
------------------------
 
 dialog{
-  id = "forest.raccoon",
+  id = "warning_magic",
   text = [[
-J'suis un raton-
-laveur espiègle.
-Et j'aime pas
-du tout c'qu'est
-poudreux...
+Mais surveille ton
+compteur magique !
 ]]
 }
------------------------
-
-dialog{
-  id = "forest.raccoon_to_tarin",
-  text = [[
-J'ai croqué dans
-un champignon.
-Et j'suis devenu
-un raton-laveur !
-Après, j'sais
-plus trop,
-mais c'était
-trop rigolo !!
-]]
-}
------------------------
-
-dialog{
-  id = "forest.tarin",
-  text = [[
-Oh là là !! J'me
-sens tout drôle !
-Faut m'reposer
-avant d'rentrer.
-]]
-}
------------------------
 

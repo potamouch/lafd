@@ -48,8 +48,11 @@ tileset{ id = "light_world", description = "Light World" }
 tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
 
 sprite{ id = "enemies/bowwow", description = "Bowwow" }
+sprite{ id = "enemies/bubble", description = "enemies/bubble" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
+sprite{ id = "enemies/hardhat_beetle_blue", description = "enemies/hardhat_beetle_blue" }
+sprite{ id = "enemies/hardhat_beetle_red", description = "enemies/hardhat_beetle_red" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
 sprite{ id = "enemies/small_bowwow", description = "Small Bowwow" }
 sprite{ id = "entities/arrow", description = "Arrow" }
@@ -77,6 +80,12 @@ sprite{ id = "entities/door_small_key_block", description = "Door (small key blo
 sprite{ id = "entities/door_very_weak_wall", description = "Door (very weak wall)" }
 sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
 sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
+sprite{ id = "entities/doors/door_d1_big_key", description = "entities/doors/door_d1_big_key" }
+sprite{ id = "entities/doors/door_d1_boss_key", description = "entities/doors/door_d1_boss_key" }
+sprite{ id = "entities/doors/door_d1_normal", description = "entities/doors/door_d1_normal" }
+sprite{ id = "entities/doors/door_d1_small_key", description = "entities/doors/door_d1_small_key" }
+sprite{ id = "entities/doors/door_d1_very_weak_wall", description = "entities/doors/door_d1_very_weak_wall" }
+sprite{ id = "entities/doors/door_d1_weak_wall", description = "entities/doors/door_d1_weak_wall" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/fresco", description = "Intro fresco" }
@@ -144,6 +153,15 @@ sprite{ id = "npc/tarkin", description = "Tarkin" }
 sprite{ id = "npc/witch", description = "Witch" }
 
 music{ id = "cave", description = "Cave" }
+music{ id = "dungeon_1", description = "Dungeon 1" }
+music{ id = "dungeon_2", description = "Dungeon 2" }
+music{ id = "dungeon_3", description = "Dungeon 3" }
+music{ id = "dungeon_4", description = "Dungeon 4" }
+music{ id = "dungeon_5", description = "Dungeon 5" }
+music{ id = "dungeon_6", description = "Dungeon 6" }
+music{ id = "dungeon_7", description = "Dungeon 7" }
+music{ id = "dungeon_8", description = "Dungeon 8" }
+music{ id = "dungeon_9", description = "Dungeon 9" }
 music{ id = "inside_the_houses", description = "Inside the houses" }
 music{ id = "let_the_journey_begin", description = "Let the journey begin" }
 music{ id = "links_awake", description = "Links awake" }
@@ -170,9 +188,15 @@ sound{ id = "chest_open", description = "chest_open" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
 sound{ id = "diarandor/solarus_logo", description = "Solarus logo" }
+sound{ id = "door_closed", description = "door_closed" }
+sound{ id = "door_open", description = "door_open" }
+sound{ id = "door_unlocked", description = "door_unlocked" }
 sound{ id = "enemy_hurt", description = "enemy_hurt" }
 sound{ id = "enemy_killed", description = "enemy_killed" }
 sound{ id = "explosion", description = "explosion" }
+sound{ id = "get_heart_container", description = "get_heart_container" }
+sound{ id = "get_treasure", description = "get_treasure" }
+sound{ id = "get_treasure_2", description = "get_treasure_2" }
 sound{ id = "heart", description = "heart" }
 sound{ id = "hero_falls", description = "hero_falls" }
 sound{ id = "hero_get_sword", description = "Hero get sword" }
@@ -188,9 +212,11 @@ sound{ id = "ok", description = "ok" }
 sound{ id = "pause_closed", description = "pause_closed" }
 sound{ id = "pause_open", description = "pause_open" }
 sound{ id = "picked_item", description = "picked_item" }
-sound{ id = "piece_of_heart", description = "piece_of_heart" }
+sound{ id = "picked_small_key", description = "picked_small_key" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
+sound{ id = "secret_1", description = "secret_1" }
+sound{ id = "secret_2", description = "secret_2" }
 sound{ id = "solarus_logo", description = "Solarus logo" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stone", description = "stone" }
@@ -240,7 +266,12 @@ item{ id = "tunic", description = "Tunic (green/blue/red)" }
 item{ id = "world_map", description = "World map" }
 
 enemy{ id = "bowwow", description = "Bow wow" }
+enemy{ id = "bubble", description = "bubble" }
 enemy{ id = "chicken", description = "Chicken" }
+enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
+enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }
+enemy{ id = "hardhat_beetle_blue", description = "hardhat_beetle_blue" }
+enemy{ id = "hardhat_beetle_red", description = "hardhat_beetle_red" }
 enemy{ id = "pike_auto", description = "Pike auto" }
 enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }

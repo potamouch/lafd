@@ -30,7 +30,7 @@ end
 function item:on_created()
 
   self:set_sound_when_picked(nil)
-  self:set_sound_when_brandished("piece_of_heart")
+  self:set_sound_when_brandished("get_heart_container")
 end
 
 function item:on_obtained(variant)

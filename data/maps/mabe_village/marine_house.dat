@@ -639,6 +639,17 @@ destructible{
   damage_on_enemies = 2,
 }
 
+teletransporter{
+  name = "marine_house_2_B_2",
+  layer = 1,
+  x = 152,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "dungeon_1_1_B",
+}
+
 tile{
   layer = 2,
   x = 144,
