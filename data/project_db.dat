@@ -53,8 +53,13 @@ sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "enemies/hardhat_beetle_blue" }
 sprite{ id = "enemies/hardhat_beetle_red", description = "enemies/hardhat_beetle_red" }
+sprite{ id = "enemies/keese", description = "enemies/keese" }
+sprite{ id = "enemies/pike_auto", description = "enemies/pike_auto" }
+sprite{ id = "enemies/pike_detect", description = "enemies/pike_detect" }
+sprite{ id = "enemies/pike_fixed", description = "enemies/pike_fixed" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
 sprite{ id = "enemies/small_bowwow", description = "Small Bowwow" }
+sprite{ id = "enemies/zol_green", description = "enemies/zol_green" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
 sprite{ id = "entities/big_chest", description = "Chest (big)" }
@@ -202,12 +207,14 @@ sound{ id = "hero_falls", description = "hero_falls" }
 sound{ id = "hero_get_sword", description = "Hero get sword" }
 sound{ id = "hero_hurt", description = "hero_hurt" }
 sound{ id = "hero_lands", description = "hero_lands" }
+sound{ id = "hero_pushes", description = "hero_pushes" }
 sound{ id = "hookshot", description = "hookshot" }
 sound{ id = "intro", description = "intro" }
 sound{ id = "jump", description = "jump" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
+sound{ id = "monster_hurt", description = "monster_hurt" }
 sound{ id = "ok", description = "ok" }
 sound{ id = "pause_closed", description = "pause_closed" }
 sound{ id = "pause_open", description = "pause_open" }
@@ -241,6 +248,7 @@ item{ id = "bombs_counter", description = "Bombs counter" }
 item{ id = "boomerang", description = "Boomerang" }
 item{ id = "boss_key", description = "Boss key" }
 item{ id = "bow", description = "Bow" }
+item{ id = "compass", description = "compass" }
 item{ id = "face_key", description = "Face key" }
 item{ id = "feather", description = "Feather" }
 item{ id = "flippers", description = "Flippers" }
@@ -250,12 +258,14 @@ item{ id = "hookshot", description = "Hookshot" }
 item{ id = "magic_powder", description = "Magic Powder" }
 item{ id = "magic_rod", description = "Magic rod" }
 item{ id = "magnifying_lens", description = "Magnifying lens" }
+item{ id = "map", description = "Dungeon map" }
 item{ id = "ocarina", description = "Ocarina" }
 item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "power_bracelet", description = "Power bracelet" }
 item{ id = "quiver", description = "Quiver" }
 item{ id = "rupee_bag", description = "Ruppe bag" }
+item{ id = "seashell", description = "Seashell" }
 item{ id = "shield", description = "Shield" }
 item{ id = "shovel", description = "Shovel" }
 item{ id = "slim_key", description = "Slim key" }
@@ -272,11 +282,13 @@ enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
 enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }
 enemy{ id = "hardhat_beetle_blue", description = "hardhat_beetle_blue" }
 enemy{ id = "hardhat_beetle_red", description = "hardhat_beetle_red" }
+enemy{ id = "keese", description = "Keese" }
 enemy{ id = "pike_auto", description = "Pike auto" }
 enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
 enemy{ id = "small_bowwow", description = "Small Bow wow" }
+enemy{ id = "zol_green", description = "zol_green" }
 
 
 language{ id = "fr", description = "Français" }

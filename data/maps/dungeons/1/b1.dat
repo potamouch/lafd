@@ -5,6 +5,8 @@ properties{
   height = 562,
   min_layer = 0,
   max_layer = 2,
+  world = "dungeon_1",
+  floor = -1,
   tileset = "dungeon/blue",
 }
 
