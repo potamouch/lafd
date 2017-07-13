@@ -4296,7 +4296,7 @@ tile{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 0,
   y = 1528,
   width = 1920,
@@ -4304,7 +4304,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 0,
   y = 1272,
   width = 1920,
@@ -4312,7 +4312,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 0,
   y = 1016,
   width = 1920,
@@ -4320,7 +4320,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 0,
   y = 760,
   width = 1920,
@@ -4328,7 +4328,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 0,
   y = 504,
   width = 1920,
@@ -4336,7 +4336,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 312,
   y = 0,
   width = 16,
@@ -4344,7 +4344,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 632,
   y = 0,
   width = 16,
@@ -4352,7 +4352,15 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
+  x = 0,
+  y = 248,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
   x = 952,
   y = 0,
   width = 16,
@@ -4360,7 +4368,7 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 1272,
   y = 0,
   width = 16,
@@ -4368,18 +4376,10 @@ separator{
 }
 
 separator{
-  layer = 0,
+  layer = 2,
   x = 1592,
   y = 0,
   width = 16,
   height = 1792,
-}
-
-separator{
-  layer = 0,
-  x = 0,
-  y = 248,
-  width = 1920,
-  height = 16,
 }
 
