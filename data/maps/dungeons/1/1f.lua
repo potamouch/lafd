@@ -20,7 +20,15 @@ end
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished(destination)
-    game:start_dialog("dungeon_1")
+    if destination == dungeon_1_1_B then
+      map:set_doors_open("dungeon_1_door_group_1", true)
+      map:set_doors_open("dungeon_1_door_group_2", false)
+      game:start_dialog("dungeon_1")
+    end
+    if destination == dungeon_1_stairs_1_B then
+      map:set_doors_open("dungeon_1_door_group_1", true)
+      map:set_doors_open("dungeon_1_door_group_2", true)
+    end
 end
 
 
@@ -138,6 +146,3 @@ function dungeon_1_sensor_2:on_activated()
   end
 
 end
-
-map:set_doors_open("dungeon_1_door_group_1", true)
-map:set_doors_open("dungeon_1_door_group_2", false)
