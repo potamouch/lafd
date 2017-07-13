@@ -8,6 +8,7 @@ properties{
   world = "dungeon_1",
   floor = -1,
   tileset = "dungeon/blue",
+  music = "dungeon_1",
 }
 
 tile{
@@ -1115,10 +1116,10 @@ dynamic_tile{
   name = "invisible_tile_2",
   layer = 0,
   x = 368,
-  y = 136,
+  y = 128,
   pattern = "1572",
   width = 16,
-  height = 112,
+  height = 120,
   enabled_at_start = true,
 }
 
@@ -1126,10 +1127,10 @@ dynamic_tile{
   name = "invisible_tile_3",
   layer = 0,
   x = 288,
-  y = 136,
+  y = 128,
   pattern = "1572",
   width = 16,
-  height = 112,
+  height = 120,
   enabled_at_start = true,
 }
 
@@ -1156,7 +1157,7 @@ destination{
   name = "dungeon_1_stairs_4_B",
   layer = 1,
   x = 56,
-  y = 13,
+  y = 45,
   direction = 1,
 }
 
