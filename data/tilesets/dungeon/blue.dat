@@ -26717,7 +26717,7 @@ tile_pattern{
 
 tile_pattern{
   id = "877",
-  ground = "traversable",
+  ground = "ice",
   default_layer = 0,
   x = 104,
   y = 936,

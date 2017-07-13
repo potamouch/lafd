@@ -74,6 +74,25 @@ for enemy in map:get_entities("dungeon_1_enemy_group_12") do
   enemy.on_dead = dungeon_1_enemy_group_12_dead
 end
 
+-- Group 13
+local function dungeon_1_enemy_group_13_dead(enemy)
+      if not map:has_entities("dungeon_1_enemy_group_13") and not map:get_game():get_value("dungeon_1_chest_beak_of_stone") then
+          sol.audio.play_sound("secret_1")
+          map:create_chest{
+                sprite = "entities/chest",
+                treasure_name = "beak_of_stone",
+                treasure_variant = 1,
+                treasure_savegame_variable = "dungeon_1_chest_beak_of_stone",
+                x = 1864,
+                y = 608,
+                layer = 0
+              }
+      end
+end
+for enemy in map:get_entities("dungeon_1_enemy_group_13") do
+  enemy.on_dead = dungeon_1_enemy_group_13_dead
+end
+
 
 -- Switchs
 

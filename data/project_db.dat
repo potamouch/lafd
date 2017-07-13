@@ -49,6 +49,7 @@ tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
 
 sprite{ id = "enemies/bowwow", description = "Bowwow" }
 sprite{ id = "enemies/bubble", description = "enemies/bubble" }
+sprite{ id = "enemies/card", description = "Card" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "enemies/hardhat_beetle_blue" }
@@ -242,6 +243,7 @@ sound{ id = "zonzifleur/solarus_team_logo", description = "Solarus Team logo" }
 
 item{ id = "angler_key", description = "Angler key" }
 item{ id = "arrow", description = "Arrow" }
+item{ id = "beak_of_stone", description = "Beak of stone" }
 item{ id = "bird_key", description = "Bird key" }
 item{ id = "bomb", description = "Bomb" }
 item{ id = "bomb_bag", description = "Bomb bag" }
@@ -279,6 +281,7 @@ item{ id = "world_map", description = "World map" }
 
 enemy{ id = "bowwow", description = "Bow wow" }
 enemy{ id = "bubble", description = "bubble" }
+enemy{ id = "card", description = "Card" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
 enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }

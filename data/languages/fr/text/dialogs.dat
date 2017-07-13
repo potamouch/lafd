@@ -1065,7 +1065,7 @@ dialog{
   skip = "current",
   text = [[
         Niveau 1       
-   Cave Flagello
+Cave Flagello
 ]]
 }
 
@@ -1074,7 +1074,7 @@ dialog{
   skip = "current",
   text = [[
         Niveau 2       
-     Caverne de Roc    
+Grotte du génie    
 ]]
 }
 
@@ -1083,7 +1083,55 @@ dialog{
   skip = "current",
   text = [[
         Niveau 3       
- Antre de Maître Arbror
+Cave aux clés
+]]
+}
+
+dialog{
+  id = "dungeon_4",
+  text = [[
+        Niveau 4       
+Abîme du poisson
+]]
+}
+
+dialog{
+  id = "dungeon_5",
+  text = [[
+        Niveau 5       
+Poisson-chat
+]]
+}
+
+dialog{
+  id = "dungeon_6",
+  text = [[
+        Niveau 6       
+Temple du masque
+]]
+}
+
+dialog{
+  id = "dungeon_7",
+  text = [[
+        Niveau 7       
+Tour du vautour
+]]
+}
+
+dialog{
+  id = "dungeon_8",
+  text = [[
+        Niveau 8      
+Roc de la tortue
+]]
+}
+
+dialog{
+  id = "dungeon_9",
+  text = [[
+        Niveau secret       
+Temple des couleurs
 ]]
 }
 
