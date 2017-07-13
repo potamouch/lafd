@@ -12236,17 +12236,6 @@ stairs{
   subtype = 3,
 }
 
-teletransporter{
-  name = "dungeon_1_stairs_10_A",
-  layer = 0,
-  x = 1112,
-  y = 1368,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/b1",
-  destination = "dungeon_1_stairs_2_B",
-}
-
 chest{
   name = "dungeon_1_small_key_3",
   layer = 0,
@@ -12341,8 +12330,8 @@ enemy{
 chest{
   name = "dungeon_1_chest_feather",
   layer = 0,
-  x = 1096,
-  y = 1421,
+  x = 160,
+  y = 589,
   treasure_name = "feather",
   treasure_savegame_variable = "dungeon_1_chest_feather",
   sprite = "entities/chest",
@@ -12570,8 +12559,8 @@ enemy{
   layer = 0,
   x = 1720,
   y = 685,
-  direction = 0,
-  breed = "card",
+  direction = 3,
+  breed = "vegas",
 }
 
 enemy{
@@ -12579,8 +12568,8 @@ enemy{
   layer = 0,
   x = 1800,
   y = 685,
-  direction = 0,
-  breed = "card",
+  direction = 3,
+  breed = "vegas",
 }
 
 enemy{
@@ -12588,8 +12577,8 @@ enemy{
   layer = 0,
   x = 1760,
   y = 597,
-  direction = 0,
-  breed = "card",
+  direction = 3,
+  breed = "vegas",
 }
 
 teletransporter{

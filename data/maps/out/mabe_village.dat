@@ -10612,7 +10612,7 @@ teletransporter{
   y = 496,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/marine_house",
+  destination_map = "houses/mabe_village/marine_house",
   destination = "marine_house_1_B",
 }
 
@@ -12522,7 +12522,7 @@ teletransporter{
   y = 664,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/telephone_booth_1",
+  destination_map = "houses/mabe_village/telephone_booth_1",
   destination = "telephone_booth_1_1_B",
 }
 
@@ -12609,7 +12609,7 @@ teletransporter{
   y = 328,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/shop_2",
+  destination_map = "houses/mabe_village/shop_2",
   destination = "shop_1_1_B",
 }
 
@@ -12645,7 +12645,7 @@ teletransporter{
   y = 672,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/shop_1",
+  destination_map = "houses/mabe_village/shop_1",
   destination = "shop_1_1_B",
 }
 
@@ -12688,7 +12688,7 @@ teletransporter{
   y = 680,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/old_man_house",
+  destination_map = "houses/mabe_village/old_man_house",
   destination = "old_man_house_1_B",
 }
 
@@ -12707,7 +12707,7 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/quadruplets_house",
+  destination_map = "houses/mabe_village/quadruplets_house",
   destination = "quadruplets_house_1_D",
 }
 
@@ -12726,7 +12726,7 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/quadruplets_house",
+  destination_map = "houses/mabe_village/quadruplets_house",
   destination = "quadruplets_house_1_B",
 }
 
@@ -12745,7 +12745,7 @@ teletransporter{
   y = 56,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/ocarina_house",
+  destination_map = "houses/mabe_village/ocarina_house",
   destination = "ocarina_house_1_B",
 }
 
@@ -12764,7 +12764,7 @@ teletransporter{
   y = 456,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/meow_meow_house",
+  destination_map = "houses/mabe_village/meow_meow_house",
   destination = "meow_meow_house_1_B",
 }
 
@@ -12783,7 +12783,7 @@ teletransporter{
   y = 456,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/meow_meow_house",
+  destination_map = "houses/mabe_village/meow_meow_house",
   destination = "meow_meow_house_1_D",
 }
 
@@ -12949,7 +12949,7 @@ teletransporter{
   y = 544,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/village_cave",
+  destination_map = "houses/mabe_village/village_cave",
   destination = "village_cave_1_B",
 }
 
@@ -12968,7 +12968,7 @@ teletransporter{
   y = 624,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/library",
+  destination_map = "houses/mabe_village/library",
   destination = "library_1_B",
 }
 

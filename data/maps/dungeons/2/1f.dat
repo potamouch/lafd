@@ -6,8 +6,9 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_2",
+  floor = 1,
   tileset = "blue_dungeon_lw",
-  music = "same",
+  music = "dungeon_2",
 }
 
 tile{
@@ -5167,7 +5168,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 984,
+  x = 976,
   y = 1576,
   width = 24,
   height = 24,
@@ -5176,7 +5177,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 984,
+  x = 976,
   y = 1600,
   width = 24,
   height = 128,
@@ -5203,16 +5204,16 @@ tile{
 
 tile{
   layer = 1,
-  x = 1008,
+  x = 1000,
   y = 1600,
-  width = 8,
+  width = 16,
   height = 8,
   pattern = "14",
 }
 
 tile{
   layer = 1,
-  x = 1008,
+  x = 1000,
   y = 1608,
   width = 8,
   height = 112,
@@ -9361,7 +9362,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 984,
+  x = 976,
   y = 1720,
   width = 24,
   height = 24,
@@ -10108,9 +10109,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 1016,
+  x = 1000,
   y = 1712,
-  width = 16,
+  width = 32,
   height = 8,
   pattern = "236",
 }
@@ -10135,7 +10136,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1008,
+  x = 1000,
   y = 1712,
   width = 8,
   height = 8,
@@ -15110,330 +15111,6 @@ tile{
   pattern = "15",
 }
 
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1672,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1688,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1704,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1720,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1720,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1704,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1688,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1672,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 93,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 109,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 125,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 141,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 157,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 173,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1720,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1704,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1688,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1672,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1672,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1688,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1704,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1720,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 61,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 77,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 189,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 205,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
 chest{
   layer = 1,
   x = 264,
@@ -15866,60 +15543,6 @@ block{
   maximum_moves = 1,
 }
 
-destructible{
-  layer = 1,
-  x = 1400,
-  y = 317,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1384,
-  y = 317,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1368,
-  y = 317,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1368,
-  y = 333,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1384,
-  y = 333,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1368,
-  y = 349,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
 chest{
   layer = 1,
   x = 1544,
@@ -16081,312 +15704,6 @@ block{
   maximum_moves = 1,
 }
 
-destructible{
-  layer = 1,
-  x = 1704,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1720,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1784,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1800,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1816,
-  y = 1085,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1784,
-  y = 1101,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 1101,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 1101,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 1101,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 1117,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 1117,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1864,
-  y = 1133,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1864,
-  y = 1149,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1864,
-  y = 1165,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1816,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1800,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1784,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1720,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1704,
-  y = 1229,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1736,
-  y = 1213,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 1213,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 1213,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1784,
-  y = 1213,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1768,
-  y = 1197,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1752,
-  y = 1197,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 1133,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 1149,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1656,
-  y = 1165,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
 block{
   layer = 1,
   x = 1392,
@@ -16527,60 +15844,6 @@ block{
   maximum_moves = 0,
 }
 
-destructible{
-  layer = 1,
-  x = 1424,
-  y = 1341,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1408,
-  y = 1341,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1408,
-  y = 1357,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1544,
-  y = 1469,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1544,
-  y = 1485,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 1528,
-  y = 1485,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
 crystal_block{
   layer = 1,
   x = 1088,
@@ -16670,244 +15933,11 @@ chest{
 
 destructible{
   layer = 1,
-  x = 376,
-  y = 1597,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 376,
-  y = 1613,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 1597,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 1613,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 1629,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 1645,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 376,
-  y = 1645,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 376,
-  y = 1661,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 376,
-  y = 1677,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 376,
-  y = 1693,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
   x = 392,
   y = 1693,
   sprite = "entities/pot",
   destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 1677,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 1661,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1597,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1597,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1613,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1613,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1629,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1629,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1645,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1645,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1661,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1661,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1677,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1677,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 568,
-  y = 1693,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 584,
-  y = 1693,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17050,96 +16080,6 @@ block{
   maximum_moves = 1,
 }
 
-destructible{
-  layer = 1,
-  x = 440,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 456,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 472,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 488,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 520,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 504,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 621,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 637,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 653,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 392,
-  y = 669,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
 block{
   layer = 1,
   x = 536,
@@ -17148,24 +16088,6 @@ block{
   pushable = true,
   pullable = false,
   maximum_moves = 1,
-}
-
-destructible{
-  layer = 1,
-  x = 536,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 424,
-  y = 589,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
 }
 
 block{
@@ -17187,55 +16109,261 @@ chest{
 
 destructible{
   layer = 1,
-  x = 1336,
-  y = 1597,
+  x = 376,
+  y = 1693,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 1352,
-  y = 1597,
+  x = 376,
+  y = 1677,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 1352,
+  x = 392,
+  y = 1677,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 1661,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 376,
+  y = 1661,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
   y = 1613,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 1336,
+  x = 376,
   y = 1613,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 1336,
-  y = 1629,
+  x = 376,
+  y = 1597,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 1352,
+  x = 392,
+  y = 1597,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1613,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
+  y = 1613,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
+  y = 1597,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1597,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1645,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
+  y = 1645,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
   y = 1629,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1629,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1677,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
+  y = 1677,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
+  y = 1661,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1661,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 1645,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 376,
+  y = 1645,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 584,
+  y = 1693,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 568,
+  y = 1693,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 1629,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17245,6 +16373,7 @@ destructible{
   y = 1709,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17254,6 +16383,7 @@ destructible{
   y = 1709,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17263,6 +16393,7 @@ destructible{
   y = 1709,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17272,6 +16403,7 @@ destructible{
   y = 1709,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17281,6 +16413,7 @@ destructible{
   y = 1709,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -17290,6 +16423,1007 @@ destructible{
   y = 1709,
   sprite = "entities/pot",
   destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1336,
+  y = 1597,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1336,
+  y = 1613,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1336,
+  y = 1629,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1352,
+  y = 1629,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1352,
+  y = 1613,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1352,
+  y = 1597,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1528,
+  y = 1485,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1544,
+  y = 1485,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1544,
+  y = 1469,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1408,
+  y = 1357,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1408,
+  y = 1341,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1424,
+  y = 1341,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1704,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1720,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 1213,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 1213,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 1197,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 1197,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 1213,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1784,
+  y = 1213,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1784,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1800,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1816,
+  y = 1229,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1704,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1720,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1784,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1800,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1816,
+  y = 1085,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 1101,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 1101,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 1101,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1784,
+  y = 1101,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 1117,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 1117,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 1165,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 1149,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1864,
+  y = 1165,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1864,
+  y = 1149,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1864,
+  y = 1133,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 1133,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 424,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 440,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 456,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 472,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 488,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 504,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 520,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 536,
+  y = 589,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 621,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 637,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 653,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 392,
+  y = 669,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1400,
+  y = 317,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1384,
+  y = 317,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1368,
+  y = 317,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1368,
+  y = 333,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1384,
+  y = 333,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1368,
+  y = 349,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1672,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1672,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1688,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1704,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1688,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1704,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1720,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1720,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1672,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1656,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1672,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1688,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1704,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1688,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1704,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1720,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1720,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1736,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 205,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 173,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 189,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 141,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 157,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 109,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 125,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1768,
+  y = 93,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 61,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 1752,
+  y = 77,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -18456,9 +18590,9 @@ tile{
 
 tile{
   layer = 2,
-  x = 984,
+  x = 976,
   y = 1744,
-  width = 24,
+  width = 32,
   height = 32,
   pattern = "170",
 }
@@ -18467,7 +18601,7 @@ tile{
   layer = 2,
   x = 920,
   y = 1728,
-  width = 64,
+  width = 56,
   height = 48,
   pattern = "170",
 }
@@ -18475,17 +18609,17 @@ tile{
 tile{
   layer = 2,
   x = 944,
-  y = 1552,
-  width = 40,
-  height = 176,
+  y = 1544,
+  width = 32,
+  height = 184,
   pattern = "170",
 }
 
 tile{
   layer = 2,
-  x = 984,
+  x = 976,
   y = 1552,
-  width = 24,
+  width = 32,
   height = 24,
   pattern = "170",
 }
@@ -18578,5 +18712,93 @@ tile{
   width = 8,
   height = 32,
   pattern = "291",
+}
+
+separator{
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 1792,
+}
+
+separator{
+  layer = 2,
+  x = 632,
+  y = 0,
+  width = 16,
+  height = 1792,
+}
+
+separator{
+  layer = 2,
+  x = 952,
+  y = 0,
+  width = 16,
+  height = 1792,
+}
+
+separator{
+  layer = 2,
+  x = 1592,
+  y = 0,
+  width = 16,
+  height = 1792,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 248,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 504,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 760,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 1016,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 1272,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 1528,
+  width = 1920,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 1264,
+  y = 0,
+  width = 16,
+  height = 1792,
 }
 

@@ -19,7 +19,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_ability("tunic", 1)
   game:get_item("rupee_bag"):set_variant(1)
 
-  game:set_starting_location("mabe_village/marine_house")  -- TODO intro
+  game:set_starting_location("houses/mabe_village/marine_house")  -- TODO intro
   --game:set_starting_location("dungeons/1/1f")  -- TODO intro
 end
 

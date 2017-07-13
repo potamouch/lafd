@@ -12180,7 +12180,7 @@ teletransporter{
   y = 288,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/old_man_house",
+  destination_map = "houses/mabe_village/old_man_house",
   destination = "old_man_house_1_B",
 }
 
@@ -13592,7 +13592,7 @@ teletransporter{
   y = 704,
   width = 16,
   height = 16,
-  destination_map = "mabe_village/old_man_house",
+  destination_map = "houses/mabe_village/old_man_house",
   destination = "old_man_house_1_B",
 }
 

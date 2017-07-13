@@ -1,20 +1,23 @@
-map{ id = "caves/weathercock", description = "Weathercock" }
+map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 2F" }
 map{ id = "dungeons/3/1f", description = "Dungeon 3 1F" }
+map{ id = "dungeons/4/1f", description = "Dungeon 4 1F" }
+map{ id = "dungeons/5/1f", description = "Dungeon 5 1F" }
+map{ id = "dungeons/6/1f", description = "Dungeon 6 1F" }
 map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
+map{ id = "houses/mabe_village/library", description = "Library" }
+map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
+map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
+map{ id = "houses/mabe_village/ocarina_house", description = "Ocarina house" }
+map{ id = "houses/mabe_village/old_man_house", description = "Old man house" }
+map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets house" }
+map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
+map{ id = "houses/mabe_village/shop_2", description = "Shop 2" }
+map{ id = "houses/mabe_village/telephone_booth_1", description = "Telephone booth 1" }
+map{ id = "houses/mabe_village/village_cave", description = "Cave of Mabe village" }
 map{ id = "houses/richard_house", description = "Richard house" }
-map{ id = "mabe_village/library", description = "Library" }
-map{ id = "mabe_village/marine_house", description = "Marine house" }
-map{ id = "mabe_village/meow_meow_house", description = "Meow meow house" }
-map{ id = "mabe_village/ocarina_house", description = "Ocarina house" }
-map{ id = "mabe_village/old_man_house", description = "Old man house" }
-map{ id = "mabe_village/quadruplets_house", description = "Quadruplets house" }
-map{ id = "mabe_village/shop_1", description = "Shop 1" }
-map{ id = "mabe_village/shop_2", description = "Shop 2" }
-map{ id = "mabe_village/telephone_booth_1", description = "Telephone booth 1" }
-map{ id = "mabe_village/village_cave", description = "Cave of Mabe village" }
 map{ id = "out/cemetary", description = "Cemetary" }
 map{ id = "out/forest", description = "Forest" }
 map{ id = "out/mabe_village", description = "Mabe village" }
@@ -49,7 +52,6 @@ tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
 
 sprite{ id = "enemies/bowwow", description = "Bowwow" }
 sprite{ id = "enemies/bubble", description = "enemies/bubble" }
-sprite{ id = "enemies/card", description = "Card" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "enemies/hardhat_beetle_blue" }
@@ -60,6 +62,7 @@ sprite{ id = "enemies/pike_detect", description = "enemies/pike_detect" }
 sprite{ id = "enemies/pike_fixed", description = "enemies/pike_fixed" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
 sprite{ id = "enemies/small_bowwow", description = "Small Bowwow" }
+sprite{ id = "enemies/vegas", description = "Vegas" }
 sprite{ id = "enemies/zol_green", description = "enemies/zol_green" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
@@ -293,6 +296,7 @@ enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
 enemy{ id = "small_bowwow", description = "Small Bow wow" }
+enemy{ id = "vegas", description = "Vegas" }
 enemy{ id = "zol_green", description = "Zol green" }
 
 
