@@ -13,6 +13,96 @@ properties{
 
 tile{
   layer = 0,
+  x = 680,
+  y = 40,
+  width = 240,
+  height = 176,
+  pattern = "floor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 64,
+  width = 160,
+  height = 72,
+  pattern = "alter_floor",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 72,
+  width = 8,
+  height = 64,
+  pattern = "alter_floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 72,
+  width = 8,
+  height = 64,
+  pattern = "alter_floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 128,
+  width = 144,
+  height = 8,
+  pattern = "alter_floor.2",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 64,
+  width = 144,
+  height = 8,
+  pattern = "alter_floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.2",
+}
+
+tile{
+  layer = 0,
   x = 1376,
   y = 728,
   width = 32,
@@ -3276,15 +3366,6 @@ tile{
   width = 240,
   height = 24,
   pattern = "wall.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 40,
-  width = 240,
-  height = 176,
-  pattern = "floor.3-1",
 }
 
 tile{
@@ -7880,15 +7961,6 @@ tile{
 tile{
   layer = 0,
   x = 768,
-  y = 168,
-  width = 64,
-  height = 48,
-  pattern = "floor_low.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 768,
   y = 16,
   width = 64,
   height = 24,
@@ -7974,15 +8046,6 @@ tile{
   width = 16,
   height = 72,
   pattern = "alter_wall.3",
-}
-
-tile{
-  layer = 0,
-  x = 720,
-  y = 64,
-  width = 160,
-  height = 72,
-  pattern = "alter_floor",
 }
 
 tile{
@@ -11396,6 +11459,42 @@ tile{
   pattern = "wall.corner_reverse.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 688,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
 block{
   layer = 0,
   x = 1864,
@@ -14399,6 +14498,42 @@ tile{
   layer = 1,
   x = 256,
   y = 640,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 48,
   width = 16,
   height = 16,
   pattern = "torch_big.top",

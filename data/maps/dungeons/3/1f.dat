@@ -94,15 +94,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
-  y = 1368,
-  width = 112,
-  height = 80,
-  pattern = "floor.7-1",
-}
-
-tile{
-  layer = 0,
   x = 448,
   y = 1824,
   width = 64,
@@ -2749,132 +2740,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 752,
-  y = 1344,
-  width = 128,
-  height = 24,
-  pattern = "wall.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 1448,
-  width = 128,
-  height = 24,
-  pattern = "wall.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 1360,
-  width = 24,
-  height = 96,
-  pattern = "wall.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 1360,
-  width = 24,
-  height = 96,
-  pattern = "wall.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 1448,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 1448,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 1344,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 1344,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 824,
-  y = 1448,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 1448,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 1448,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 1440,
-  width = 16,
-  height = 8,
-  pattern = "stairs_inner_up.1.top-1",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 1440,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 824,
-  y = 1440,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.2-1",
-}
-
-tile{
-  layer = 0,
   x = 600,
   y = 1392,
   width = 16,
@@ -4514,15 +4379,6 @@ tile{
 tile{
   layer = 0,
   x = 736,
-  y = 920,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
   y = 848,
   width = 24,
   height = 24,
@@ -5357,9 +5213,243 @@ tile{
   pattern = "stairs_inner_up.1.border.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 736,
+  y = 1344,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1344,
+  width = 128,
+  height = 16,
+  pattern = "alter_wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 1344,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 1360,
+  width = 16,
+  height = 80,
+  pattern = "alter_wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 1440,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 1440,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 1360,
+  width = 16,
+  height = 80,
+  pattern = "alter_wall.3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1360,
+  width = 128,
+  height = 80,
+  pattern = "alter_floor",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 1440,
+  width = 32,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 1440,
+  width = 64,
+  height = 32,
+  pattern = "alter_stairs",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 1464,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 1448,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 1456,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 1464,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1440,
+  width = 32,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 1456,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 1448,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 1432,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 1432,
+  width = 112,
+  height = 8,
+  pattern = "alter_floor.2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1432,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1360,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 1360,
+  width = 112,
+  height = 8,
+  pattern = "alter_floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 1360,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 1368,
+  width = 8,
+  height = 64,
+  pattern = "alter_floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1368,
+  width = 8,
+  height = 64,
+  pattern = "alter_floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 920,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
 block{
   layer = 0,
-  x = 728,
+  x = 744,
   y = 1485,
   sprite = "entities/block",
   pushable = false,
@@ -5485,14 +5575,6 @@ stairs{
   layer = 0,
   x = 816,
   y = 848,
-  direction = 1,
-  subtype = 4,
-}
-
-stairs{
-  layer = 0,
-  x = 808,
-  y = 1448,
   direction = 1,
   subtype = 4,
 }
