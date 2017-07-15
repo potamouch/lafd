@@ -13,4 +13,3 @@ function item:on_obtained(variant, savegame_variable)
   self:get_game():set_ability("tunic", variant)
 
 end
-

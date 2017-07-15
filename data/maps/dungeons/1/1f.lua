@@ -8,7 +8,12 @@
 -- http://www.solarus-games.org/doc/latest
 
 local map = ...
+local separator = ...
 local game = map:get_game()
+
+local door_manager = require("scripts/maps/door_manager")
+local treasure_manager = require("scripts/maps/treasure_manager")
+local enemy_manager = require("scripts/maps/enemy_manager")
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -23,126 +28,88 @@ function map:on_opening_transition_finished(destination)
     if destination == dungeon_1_1_B then
       map:set_doors_open("dungeon_1_door_group_1", true)
       map:set_doors_open("dungeon_1_door_group_2", false)
+      map:set_doors_open("dungeon_1_door_group_3", true)
+      map:set_doors_open("dungeon_1_door_group_5", true)
       game:start_dialog("dungeon_1")
     end
     if destination == dungeon_1_stairs_1_B then
-      map:set_doors_open("dungeon_1_door_group_1", true)
-      map:set_doors_open("dungeon_1_door_group_2", true)
+      door_manager:open(map, "dungeon_1_door_group_1", false)
+      door_manager:open(map, "dungeon_1_door_group_2", false)
+      door_manager:open(map, "dungeon_1_door_group_3", false)
     end
-end
-
-
--- Deaths
-
--- Group 1
-local function dungeon_1_enemy_group_1_dead(enemy)
-      if not map:has_entities("dungeon_1_enemy_group_1") and not map:get_game():get_value("dungeon_1_small_key_1") then
-           sol.audio.play_sound("secret_1")
-           map:create_pickable{
-                treasure_name = "small_key",
-                treasure_variant = 1,
-                treasure_savegame_variable = "dungeon_1_small_key_1",
-                x = 744,
-                y = 1384,
-                layer = 0
-              }
-      end
-end
-for enemy in map:get_entities("dungeon_1_enemy_group_1") do
-  enemy.on_dead = dungeon_1_enemy_group_1_dead
-end
-
--- Group 6
-local function dungeon_1_enemy_group_6_dead(enemy)
-      if not map:has_entities("dungeon_1_enemy_group_6") then
-          map:set_doors_open("dungeon_1_door_group_1", true)
-          sol.audio.play_sound("door_open")
-      end
-end
-for enemy in map:get_entities("dungeon_1_enemy_group_6") do
-  enemy.on_dead = dungeon_1_enemy_group_6_dead
-end
-
--- Group 12
-local function dungeon_1_enemy_group_12_dead(enemy)
-      if not map:has_entities("dungeon_1_enemy_group_12") and not map:get_game():get_value("dungeon_1_small_key_1") then
-          sol.audio.play_sound("secret_1")
-          map:create_chest{
-                sprite = "entities/chest",
-                treasure_name = "rupee",
-                treasure_variant = 3,
-                treasure_savegame_variable = "dungeon_1_chest_rupee_1",
-                x = 904,
-                y = 856,
-                layer = 0
-              }
-      end
-end
-for enemy in map:get_entities("dungeon_1_enemy_group_12") do
-  enemy.on_dead = dungeon_1_enemy_group_12_dead
-end
-
--- Group 13
-local function dungeon_1_enemy_group_13_dead(enemy)
-      if not map:has_entities("dungeon_1_enemy_group_13") and not map:get_game():get_value("dungeon_1_chest_beak_of_stone") then
-          sol.audio.play_sound("secret_1")
-          map:create_chest{
-                sprite = "entities/chest",
-                treasure_name = "beak_of_stone",
-                treasure_variant = 1,
-                treasure_savegame_variable = "dungeon_1_chest_beak_of_stone",
-                x = 1864,
-                y = 608,
-                layer = 0
-              }
-      end
-end
-for enemy in map:get_entities("dungeon_1_enemy_group_13") do
-  enemy.on_dead = dungeon_1_enemy_group_13_dead
-end
-
-
--- Switchs
-
-function dungeon_1_switch_1:on_activated()
-
-    sol.audio.play_sound("secret_1")
-    map:create_chest{
-      sprite = "entities/chest",
-      treasure_name = "small_key",
-      treasure_variant = 1,
-      treasure_savegame_variable = "dungeon_1_small_key_2",
-      x = 1224,
-      y = 1112,
-      layer = 0
-    }
-end
-
--- Blocks
-
-function dungeon_1_block_1:on_moved()
-
-          map:set_doors_open("dungeon_1_door_group_2", true)
-          sol.audio.play_sound("door_open")
 
 end
 
--- Sensors
+-- Enemies
+  enemy_manager:execute_when_vegas_dead(map, "dungeon_1_enemy_group_13")
+
+-- Treasures
+
+treasure_manager:appear_when_enemies_dead(map, "dungeon_1_enemy_group_7", "pickable", "small_key", 1, 744, 1384, 0, "dungeon_1_small_key_1")
+treasure_manager:appear_when_enemies_dead(map, "dungeon_1_enemy_group_12", "chest", "rupee", 3, 904, 856, 0, "dungeon_1_chest_rupee_1")
+treasure_manager:appear_when_enemies_dead(map, "dungeon_1_enemy_group_13", "chest", "beak_of_stone", 1, 1864, 608, 0, "dungeon_1_chest_beak_of_stone")
+
+-- Doors
+
+door_manager:open_when_enemies_dead(map,  "dungeon_1_enemy_group_6",  "dungeon_1_door_group_1")
+door_manager:open_when_enemies_dead(map,  "dungeon_1_enemy_group_3",  "dungeon_1_door_group_5")
+
+-- Sensors events
 
 function dungeon_1_sensor_1:on_activated()
 
-  if map:has_entities("dungeon_1_enemy_group_6") then
-    map:set_doors_open("dungeon_1_door_group_1", false)
-    sol.audio.play_sound("door_closed")
-  end
+  door_manager:close_if_enemies_not_dead(map, "dungeon_1_enemy_group_6", "dungeon_1_door_group_1")
 
 end
 
 function dungeon_1_sensor_2:on_activated()
 
-  if map:has_entities("dungeon_1_enemy_group_6") then
-    map:set_doors_open("dungeon_1_door_group_1", false)
-    sol.audio.play_sound("door_closed")
-  end
+  door_manager:close_if_enemies_not_dead(map, "dungeon_1_enemy_group_6", "dungeon_1_door_group_1")
 
 end
+
+function dungeon_1_sensor_3:on_activated()
+
+  enemy_manager:launch_small_boss_if_not_dead(map, "dungeon_1_small_boss", "dungeon_1_door_group_3")
+
+end
+
+function dungeon_1_sensor_4:on_activated()
+
+  enemy_manager:launch_boss_if_not_dead(map, "dungeon_1_boss", "dungeon_1_door_group_4")
+
+end
+
+function dungeon_1_sensor_5:on_activated()
+
+
+  door_manager:close_if_enemies_not_dead(map, "dungeon_1_enemy_group_3", "dungeon_1_door_group_5")
+
+end
+
+-- Switchs events
+
+function dungeon_1_switch_1:on_activated()
+
+  treasure_manager:appear(map, "chest", "small_key", 1, 1224, 1112, 0, "dungeon_1_small_key_2")
+
+end
+
+-- Blocks events
+
+function dungeon_1_block_1:on_moved()
+
+  map:open_doors("dungeon_1_door_group_2")
+
+end
+
+-- Treasures events
+
+function map:on_obtaining_treasure(item, variant, savegame_variable)
+
+    if savegame_variable == "dungeon_1_instrument" then
+      treasure_manager:get_instrument(map, 1)
+    end
+
+end
+

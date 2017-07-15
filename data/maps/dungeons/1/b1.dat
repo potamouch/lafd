@@ -13,8 +13,8 @@ properties{
 
 tile{
   layer = 0,
-  x = -16,
-  y = -8,
+  x = -8,
+  y = 0,
   width = 672,
   height = 520,
   pattern = "1076",
@@ -1057,6 +1057,42 @@ separator{
   y = 240,
   width = 672,
   height = 16,
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_1_2",
+  layer = 0,
+  x = 448,
+  y = 221,
+  direction = 0,
+  breed = "goomba",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_1_1",
+  layer = 0,
+  x = 536,
+  y = 221,
+  direction = 0,
+  breed = "goomba",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_2_1",
+  layer = 0,
+  x = 168,
+  y = 221,
+  direction = 0,
+  breed = "goomba",
+}
+
+enemy{
+  name = "dungeon_1_enemy_group_3_1",
+  layer = 0,
+  x = 208,
+  y = 485,
+  direction = 0,
+  breed = "goomba",
 }
 
 destination{

@@ -357,6 +357,17 @@ Utilise l'Arc et les
 }
 
 dialog{
+  id = "_treasure.beak_of_stone.1",
+  text = [[
+Vous trouvez un 
+bec de pierre !
+Allez compléter
+une statue de
+chouette.
+]]
+}
+
+dialog{
   id = "_treasure.big_key.1",
   icon = "73",
   text = [[
@@ -628,6 +639,14 @@ Appuie sur B
 quand tu nages: 
 tu pourras alors
 plonger!
+]]
+}
+
+dialog{
+  id = "_treasure.full_moon_cello.1",
+  text = [[
+Tu as le violon
+des vagues !
 ]]
 }
 
@@ -915,6 +934,14 @@ dialog{
 Tu as trouvé 300
 Rubis !
 C'est l'extase !
+]]
+}
+
+dialog{
+  id = "_treasure.seashell.1",
+  text = [[
+Tu as trouvé un
+coquillage !
 ]]
 }
 

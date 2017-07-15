@@ -13,7 +13,7 @@ local item_names_assignable = {
   "magic_rod",
   "ocarina",
   "boomerang",
-  "boomerang"
+  "power_bracelet"
 }
 local item_names_static = {
   "tunic",
@@ -67,7 +67,7 @@ function inventory_submenu:on_started()
   local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
   local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
   local x = 51 * num_pieces_of_heart
-  pieces_of_heart_img:draw_region(x, 0, 51, 50, self.hearts_surface, 150, 100)
+  pieces_of_heart_img:draw_region(x, 0, 51, 50, self.hearts_surface, 150, 108)
 
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
@@ -149,7 +149,7 @@ function inventory_submenu:get_item_name(row, column)
     elseif column < 5 and row < 3 then
       item_name = 'sword'
     elseif column < 5 and row == 3 then
-	item_name = 'flippers'
+	   item_name = 'flippers'
     else
       index = row * 2 + column - 6
       item_name = item_names_key[index]
@@ -188,7 +188,7 @@ function inventory_submenu:assign_item(slot)
   sol.audio.play_sound("throw")
 
   -- Compute the movement.
-  local x1 = 60 + 32 * self.cursor_column
+  local x1 = 360 + 32 * self.cursor_column
   local y1 = 75 + 32 * self.cursor_row
   local x2 = (slot == 1) and 20 or 72
   local y2 = 46
@@ -316,7 +316,7 @@ function inventory_submenu:on_draw(dst_surface)
   self:draw_caption(dst_surface)
   self.hearts_surface:draw(dst_surface, x, y)
   -- Draw each inventory assignable item.
-  local y = 82
+  local y = 88
   local k = 0
 
   for i = 0, 3 do
@@ -340,7 +340,7 @@ function inventory_submenu:on_draw(dst_surface)
   end
 
   -- Draw each inventory static item.
-  local y = 82
+  local y = 88
   local k = 0
   local x = 160
   for j = 0, 2 do
@@ -354,7 +354,7 @@ function inventory_submenu:on_draw(dst_surface)
   end
 
   -- Draw each inventory key item.
-  local y = 114
+  local y = 120
   local k = 0
   for i = 0, 2 do
     local x = 224
@@ -371,7 +371,7 @@ function inventory_submenu:on_draw(dst_surface)
   end
 
   -- Draw the cursor.
-  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 77 + 32 * self.cursor_row)
+  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 83 + 32 * self.cursor_row)
 
   -- Draw the item being assigned if any.
   if self:is_assigning_item() then

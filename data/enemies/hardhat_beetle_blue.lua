@@ -9,10 +9,10 @@ local properties = {
 function enemy:on_created()
 
   self:create_sprite("enemies/" .. enemy:get_breed())
-  self:set_life(4)
+  self:set_life(1)
   self:set_damage(1)
-  self:set_invincible()
-  self:set_attack_consequence("sword", "custom")
+  --self:set_invincible()
+  --self:set_attack_consequence("sword", "custom")
   local movement = sol.movement.create("random")
   movement:set_speed(32)
   movement:start(enemy)
@@ -21,12 +21,13 @@ end
 
 function enemy:on_custom_attack_received(attack)
 
-  sol.timer.stop_all(enemy) 
+
+ sol.timer.stop_all(enemy) 
   sol.audio.play_sound("enemy_hurt")
   local hero = enemy:get_map():get_hero()
   local angle = hero:get_angle(enemy)
   local movement = sol.movement.create("path")
-  movement:set_ignore_obstacles(properties.ignore_obstacles)
+  --movement:set_ignore_obstacles(properties.ignore_obstacles)
   local direction = 0
   if hero:get_direction() == 1 then
     direction = 2

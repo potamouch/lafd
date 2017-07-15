@@ -51,7 +51,7 @@ end
 function enemy:on_hurt()
 
   enemy:set_symbol_fixed(true)
-  enemy:set_life(1000)
+  enemy:set_life(1)
   if enemy.on_symbol_fixed ~= nil then
     enemy:on_symbol_fixed()
   end
