@@ -44,6 +44,8 @@ function map_submenu:on_draw(dst_surface)
   map_grid_img:draw_region(0, 0, 128, 128, self.quest_map_surface, 96, 68) 
   self.quest_map_surface:draw(dst_surface, 0, 0)
 
+  self:draw_save_dialog_if_any(dst_surface)
+
 
 end
 

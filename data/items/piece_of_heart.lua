@@ -2,13 +2,6 @@
 local item = ...
 local game = item:get_game()
 
-local message_id = {
-  "found_piece_of_heart.first",
-  "found_piece_of_heart.second",
-  "found_piece_of_heart.third",
-  "found_piece_of_heart.fourth"
-}
-
 -- Returns the current number of pieces of heart between 0 and 3.
 function item:get_num_pieces_of_heart()
 
@@ -30,20 +23,23 @@ end
 function item:on_created()
 
   self:set_sound_when_picked(nil)
-  self:set_sound_when_brandished("get_heart_container")
+  self:set_sound_when_brandished("piece_of_heart")
 end
 
 function item:on_obtained(variant)
 
   local num_pieces_of_heart = item:get_num_pieces_of_heart()
 
-  game:start_dialog(message_id[nb_pieces_of_heart + 1], function()
+  --game:start_dialog(message_id[num_pieces_of_heart + 1], function()
+  
     game:set_value("num_pieces_of_heart", (num_pieces_of_heart + 1) % 4)
     game:set_value("total_pieces_of_heart", item:get_total_pieces_of_heart() + 1)
     if num_pieces_of_heart == 3 then
-      game:add_max_life(4)
+      game:start_dialog("_treasure.piece_of_heart.2", function()
+        game:add_max_life(4)
+      end)
     end
     game:add_life(game:get_max_life())
-  end)
+ -- end)
 
 end

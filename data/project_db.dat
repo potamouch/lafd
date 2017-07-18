@@ -297,6 +297,8 @@ item{ id = "feather", description = "Feather" }
 item{ id = "fire_rod", description = "Fire rod" }
 item{ id = "flippers", description = "Flippers" }
 item{ id = "full_moon_cello", description = "Full Moon Cello" }
+item{ id = "golden_leaf", description = "Golden leaf" }
+item{ id = "golden_leafs_counter", description = "Golden leafs counter" }
 item{ id = "heart", description = "Heart" }
 item{ id = "heart_container", description = "Heart container" }
 item{ id = "hookshot", description = "Hookshot" }
@@ -313,6 +315,7 @@ item{ id = "rupee", description = "rupee" }
 item{ id = "rupee_bag", description = "Ruppe bag" }
 item{ id = "sea_lilys_bell", description = "Sea lily's bell" }
 item{ id = "seashell", description = "Seashell" }
+item{ id = "seashells_counter", description = "Seashells counter" }
 item{ id = "shield", description = "Shield" }
 item{ id = "shovel", description = "Shovel" }
 item{ id = "slim_key", description = "Slim key" }

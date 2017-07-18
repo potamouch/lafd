@@ -41,6 +41,18 @@ function inventory_submenu:on_started()
     local variant = item:get_variant()
     self.sprites_assignables[i] = sol.sprite.create("entities/items")
     self.sprites_assignables[i]:set_animation(item_name)
+    if item:has_amount() then
+      -- Show a counter in this case.
+      local amount = item:get_amount()
+      local maximum = item:get_max_amount()
+      self.counters[i] = sol.text_surface.create{
+        horizontal_alignment = "center",
+        vertical_alignment = "top",
+        text = item:get_amount(),
+        font = (amount == maximum) and "green_digits" or "white_digits",
+      }
+    end
+
   end
   for i,item_name in ipairs(item_names_static) do
     local item = self.game:get_item(item_name)
@@ -186,19 +198,12 @@ function inventory_submenu:show_info_message()
   local game = self.game
   local map = game:get_map()
 
-  -- Position of the dialog (top or bottom).
- -- if self.cursor_row >= 2 then
---    game:set_dialog_position("top")  -- Top of the screen.
---  else
- --   game:set_dialog_position("bottom")  -- Bottom of the screen.
- -- end
 
   self.game:set_custom_command_effect("action", nil)
   self.game:set_custom_command_effect("attack", nil)
   game:start_dialog("scripts.menus.pause_inventory." .. item_name .. "." .. variant, function()
     self.game:set_custom_command_effect("action", "info")
     self.game:set_custom_command_effect("attack", "save")
-    game:set_dialog_position("auto")  -- Back to automatic position.
   end)
 
 end
@@ -282,15 +287,16 @@ function inventory_submenu:assign_item(slot)
   sol.audio.play_sound("throw")
 
   -- Compute the movement.
-  local x1 = 64 + 32 * self.cursor_column
+  local x1 = 63 + 32 * self.cursor_column
   local y1 = 90 + 32 * self.cursor_row
+
   local x2 = (slot == 1) and 20 or 72
   local y2 = 46
 
   self.item_assigned_sprite:set_xy(x1, y1)
   local movement = sol.movement.create("target")
   movement:set_target(x2, y2)
-  movement:set_speed(5000)
+  movement:set_speed(150)
   movement:start(self.item_assigned_sprite, function()
     self:finish_assigning_item()
   end)

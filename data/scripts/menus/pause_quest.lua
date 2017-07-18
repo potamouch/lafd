@@ -19,14 +19,23 @@ local item_names_static_right = {
   "bird_key"
 }
 
+local item_names_static_bottom = {
+  "seashells_counter",
+  "seashells_counter",
+  "seashells_counter",
+}
+
 
 
 function quest_submenu:on_started()
 
   submenu.on_started(self)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
+  self.hearts = sol.surface.create("menus/pieces_of_heart.png")
+  self.counters = {}
   self.sprites_static_left = {}
   self.sprites_static_right = {}
+  self.sprites_static_bottom = {}
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
   local row = math.floor(index / 7)
@@ -45,8 +54,23 @@ function quest_submenu:on_started()
     self.sprites_static_right[i] = sol.sprite.create("entities/items")
     self.sprites_static_right[i]:set_animation(item_name)
   end
-
-
+  for i,item_name in ipairs(item_names_static_bottom) do
+    local item = self.game:get_item(item_name)
+    local variant = item:get_variant()
+    self.sprites_static_bottom[i] = sol.sprite.create("entities/items")
+    self.sprites_static_bottom[i]:set_animation(item_name)
+    if item:has_amount() then
+        -- Show a counter in this case.
+        local amount = item:get_amount()
+        local maximum = item:get_max_amount()
+        self.counters[i] = sol.text_surface.create{
+          horizontal_alignment = "center",
+          vertical_alignment = "top",
+          text = item:get_amount(),
+          font = (amount == maximum) and "green_digits" or "white_digits",
+        }
+      end
+    end
 end
 
 function quest_submenu:on_finished()
@@ -59,7 +83,7 @@ function quest_submenu:on_draw(dst_surface)
   self:draw_caption(dst_surface)
   -- Draw each inventory static item left.
  local y = 90
-  local k = 0
+ local k = 0
   for i = 0, 2 do
     local x = 64
     for j = 0, 2 do
@@ -106,9 +130,36 @@ function quest_submenu:on_draw(dst_surface)
           self.sprites_static_right[i]:draw(dst_surface, x, y)
         end
   end
+ -- Draw each inventory static item bottom.
+ local y = 187
+ local x = 64
+ local k = 0
+  for i = 0, 2 do
+    k = k + 1
+    if item_names_static_bottom[k] ~= nil then
+      local item = self.game:get_item(item_names_static_bottom[k])
+        --if item:get_variant() > 0 then
+          -- The player has this item: draw it.
+          self.sprites_static_bottom[k]:set_direction(item:get_variant() )
+          self.sprites_static_bottom[k]:draw(dst_surface, x, y)
+          if self.counters[k] ~= nil then
+            self.counters[k]:draw(dst_surface, x + 8, y)
+          end
+        --end
+      end
+      x = x + 32
+  end
 
+-- Pieces of heart.
+  local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
+
+
+  local x = 16 * num_pieces_of_heart
+  self.hearts:draw_region(x, 0, 16, 16, dst_surface, 152, 174)
   -- Draw cursor
   self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
+
+  self:draw_save_dialog_if_any(dst_surface)
 end
 
 
@@ -122,18 +173,6 @@ function quest_submenu:on_command_pressed(command)
     if command == "action" then
       if self.game:get_command_effect("action") == nil and self.game:get_custom_command_effect("action") == "info" then
         self:show_info_message()
-        handled = true
-      end
-
-    elseif command == "item_1" then
-      if self:is_item_selected() then
-        self:assign_item(1)
-        handled = true
-      end
-
-    elseif command == "item_2" then
-      if self:is_item_selected() then
-        self:assign_item(2)
         handled = true
       end
 
@@ -211,13 +250,6 @@ function quest_submenu:show_info_message()
   local game = self.game
   local map = game:get_map()
 
-  -- Position of the dialog (top or bottom).
- -- if self.cursor_row >= 2 then
---    game:set_dialog_position("top")  -- Top of the screen.
---  else
- --   game:set_dialog_position("bottom")  -- Bottom of the screen.
- -- end
-
   self.game:set_custom_command_effect("action", nil)
   self.game:set_custom_command_effect("attack", nil)
   game:start_dialog("scripts.menus.pause_inventory." .. item_name .. "." .. variant, function()
@@ -238,28 +270,36 @@ function quest_submenu:set_cursor_position(row, column)
 
   -- Update the caption text and the action icon.
   local item_name = self:get_item_name(row, column)
-  local item = item_name and self.game:get_item(item_name) or nil
-  local variant = item and item:get_variant()
-  local item_icon_opacity = 128
-  if variant > 0 then
-    self:set_caption("inventory.caption.item." .. item_name .. "." .. variant)
-    self.game:set_custom_command_effect("action", "info")
-    if item:is_assignable() then
-      item_icon_opacity = 255
-    end
+  if item_name =="piece_of_heart" then
+      local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
+      self:set_caption("inventory.caption.item.piece_of_heart."..num_pieces_of_heart)
+      self.game:set_custom_command_effect("action", "info")
+  elseif item_name =="seashells_counter" then
+      self:set_caption("inventory.caption.item.seashells_counter.1")
   else
-    self:set_caption(nil)
-    self.game:set_custom_command_effect("action", nil)
+    local item = item_name and self.game:get_item(item_name) or nil
+    local variant = item and item:get_variant()
+    local item_icon_opacity = 128
+    if variant > 0 then
+      self:set_caption("inventory.caption.item." .. item_name .. "." .. variant)
+      self.game:set_custom_command_effect("action", "info")
+      if item:is_assignable() then
+        item_icon_opacity = 255
+      end
+    else
+      self:set_caption(nil)
+      self.game:set_custom_command_effect("action", nil)
+    end
+    self.game:get_hud():set_item_icon_opacity(1, item_icon_opacity)
+    self.game:get_hud():set_item_icon_opacity(2, item_icon_opacity)
   end
-  self.game:get_hud():set_item_icon_opacity(1, item_icon_opacity)
-  self.game:get_hud():set_item_icon_opacity(2, item_icon_opacity)
+
 
 end
 
 function quest_submenu:get_item_name(row, column)
 
-    iitem_name = nil
-    if column < 3 and row < 4 then
+    if column < 3 and row < 3 then
       index = row * 3 + column
       item_name = item_names_static_left[index + 1]
     elseif column == 5 and row == 0 then
@@ -272,6 +312,11 @@ function quest_submenu:get_item_name(row, column)
       item_name = "angler_key"
     elseif column == 5 and row == 2 then
       item_name = "face_key"
+    elseif column == 3 and row == 3 then
+      item_name = "piece_of_heart"
+    else 
+      index = column
+      item_name = item_names_static_bottom[index + 1]
     end
 
   return item_name

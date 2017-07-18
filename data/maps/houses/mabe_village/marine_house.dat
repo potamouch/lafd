@@ -635,6 +635,22 @@ destructible{
   damage_on_enemies = 2,
 }
 
+chest{
+  layer = 1,
+  x = 168,
+  y = 173,
+  treasure_name = "bow",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 136,
+  y = 173,
+  treasure_name = "arrow",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 2,
   x = 144,

@@ -599,6 +599,17 @@ Fragment de Coeur !
 }
 
 dialog{
+  id = "_treasure.piece_of_heart.2",
+  text = [[
+Tu as collecté  
+4 Fragments     
+de Coeur. Tu as 
+maintenant un   
+Coeur complet!
+]]
+}
+
+dialog{
   id = "_treasure.power_bracelet.1",
   icon = "16",
   skip = "all",

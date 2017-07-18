@@ -20,8 +20,13 @@ text{ key = "inventory.caption.item.magnifying_lens.1", value = "Yoshi" }
 text{ key = "inventory.caption.item.ocarina.1", value = "Ocarina" }
 text{ key = "inventory.caption.item.organ_of_evening_calm.1", value = "Orgue de l'embellie" }
 text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
+text{ key = "inventory.caption.item.piece_of_heart.0", value = "0 fragment de coeur" }
+text{ key = "inventory.caption.item.piece_of_heart.1", value = "1 fragment de coeur" }
+text{ key = "inventory.caption.item.piece_of_heart.2", value = "2 fragments de coeur" }
+text{ key = "inventory.caption.item.piece_of_heart.3", value = "3 fragments de coeur" }
 text{ key = "inventory.caption.item.power_bracelet.1", value = "Bracelets de force" }
 text{ key = "inventory.caption.item.sea_lilys_bell.1", value = "Cloche des algues" }
+text{ key = "inventory.caption.item.seashells_counter.1", value = "Coquillages" }
 text{ key = "inventory.caption.item.shield.1", value = "Bouclier" }
 text{ key = "inventory.caption.item.shield.2", value = "Bouclier reflet" }
 text{ key = "inventory.caption.item.shovel.1", value = "Pelle" }

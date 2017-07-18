@@ -463,6 +463,11 @@ local function initialize_dialog_box_features(game)
     end
   end
 
+  function dialog_box:set_dialog_position(vertical_position)
+    dialog_box.vertical_position = vertical_position
+   end
+
+
   function dialog_box:on_command_pressed(command)
 
     if command == "action" then
