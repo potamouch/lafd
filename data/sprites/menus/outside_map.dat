@@ -1,0 +1,7 @@
+animation{
+  name = "normal",
+  src_image = "menus/outside_map.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 64 },
+  },
+}

@@ -7,7 +7,8 @@ properties{
   max_layer = 2,
   world = "dungeon_7",
   floor = 4,
-  tileset = "dungeon/gray_blue",
+  tileset = "dungeons/gray_blue",
+  music = "maps/dungeons/7/dungeon",
 }
 
 tile{

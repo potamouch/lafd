@@ -14,7 +14,6 @@ end
 function submenu:on_started()
 
   self.background_surfaces = sol.surface.create("pause_submenus.png", true)
-  self.background_surfaces:set_opacity(216)
   self.save_dialog_sprite = sol.sprite.create("menus/pause_save_dialog")
   self.save_dialog_state = 0
 
@@ -23,21 +22,21 @@ function submenu:on_started()
   self.question_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
+    color = {255, 255, 255},
     font = menu_font,
     font_size = menu_font_size,
   }
   self.question_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
+    color = {255, 255, 255},
     font = menu_font,
     font_size = menu_font_size,
   }
   self.answer_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
+    color = {255, 255, 255},
     text_key = "save_dialog.yes",
     font = menu_font,
     font_size = menu_font_size,
@@ -45,7 +44,7 @@ function submenu:on_started()
   self.answer_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
+    color = {255, 255, 255},
     text_key = "save_dialog.no",
     font = menu_font,
     font_size = menu_font_size,
@@ -177,7 +176,7 @@ function submenu:on_command_pressed(command)
         self.save_dialog_state = 2
         if self.save_dialog_choice == 0 then
           self.game:save()
-          sol.audio.play_sound("piece_of_heart")
+          sol.audio.play_sound("ok")
         else
           sol.audio.play_sound("danger")
         end
@@ -187,7 +186,7 @@ function submenu:on_command_pressed(command)
         self.save_dialog_sprite:set_animation("left")
       else
         -- After "Do you want to continue?".
-        sol.audio.play_sound("danger")
+        sol.audio.play_sound("ok")
         self.save_dialog_state = 0
         self.game:set_custom_command_effect("action", self.action_command_effect_saved)
         self.game:set_custom_command_effect("attack", self.attack_command_effect_saved)
@@ -217,13 +216,12 @@ function submenu:draw_save_dialog_if_any(dst_surface)
     local x = width / 2
     local y = height / 2
     self.save_dialog_sprite:draw(dst_surface, x - 110, y - 33)
-    self.question_text_1:draw(dst_surface, x, y - 8)
-    self.question_text_2:draw(dst_surface, x, y + 8)
-    self.answer_text_1:draw(dst_surface, x - 60, y + 28)
-    self.answer_text_2:draw(dst_surface, x + 59, y + 28)
+    self.question_text_1:draw(dst_surface, x, y - 15)
+    self.question_text_2:draw(dst_surface, x, y + 1)
+    self.answer_text_1:draw(dst_surface, x - 60, y + 24)
+    self.answer_text_2:draw(dst_surface, x + 59, y + 24)
   end
 end
 
 
 return submenu
-

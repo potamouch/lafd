@@ -1,5 +1,42 @@
-text{ key = "map.caption.world_map", value = "Carte du Monde" }
+text{ key = "inventory.caption.carte", value = "Carte de Cocolint" }
+text{ key = "inventory.caption.item.angler_key.1", value = "Clé poisson" }
+text{ key = "inventory.caption.item.bird_key.1", value = "Clé vautour" }
+text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
+text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }
+text{ key = "inventory.caption.item.bow.1", value = "Arc" }
+text{ key = "inventory.caption.item.bow.2", value = "Arc & Flèches" }
+text{ key = "inventory.caption.item.conch_horn.1", value = "Conque de l'écume" }
+text{ key = "inventory.caption.item.coral_triangle.1", value = "Triangle du corail" }
+text{ key = "inventory.caption.item.face_key.1", value = "Clé du masque" }
+text{ key = "inventory.caption.item.feather.1", value = "Plume" }
+text{ key = "inventory.caption.item.fire_rod.1", value = "Bâton de feu" }
+text{ key = "inventory.caption.item.flippers.1", value = "Palmes" }
+text{ key = "inventory.caption.item.full_moon_cello.1", value = "Violon des vagues" }
+text{ key = "inventory.caption.item.hookshot.1", value = "Grappin" }
+text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
+text{ key = "inventory.caption.item.magic_powder.1", value = "Champignon magique" }
+text{ key = "inventory.caption.item.magic_powder.2", value = "Poudre magique" }
+text{ key = "inventory.caption.item.magnifying_lens.1", value = "Yoshi" }
+text{ key = "inventory.caption.item.ocarina.1", value = "Ocarina" }
+text{ key = "inventory.caption.item.organ_of_evening_calm.1", value = "Orgue de l'embellie" }
+text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
+text{ key = "inventory.caption.item.power_bracelet.1", value = "Bracelets de force" }
+text{ key = "inventory.caption.item.sea_lilys_bell.1", value = "Cloche des algues" }
+text{ key = "inventory.caption.item.shield.1", value = "Bouclier" }
+text{ key = "inventory.caption.item.shield.2", value = "Bouclier reflet" }
+text{ key = "inventory.caption.item.shovel.1", value = "Pelle" }
+text{ key = "inventory.caption.item.slim_key.1", value = "Clé cyclope" }
+text{ key = "inventory.caption.item.surf_harp.1", value = "Harpe du reflux" }
+text{ key = "inventory.caption.item.sword.1", value = "Epée" }
+text{ key = "inventory.caption.item.sword.2", value = "Glaive Hylien" }
+text{ key = "inventory.caption.item.tail_key.1", value = "Clé flagello" }
+text{ key = "inventory.caption.item.thunder_drum.1", value = "Tambour des marées" }
+text{ key = "inventory.caption.item.tunic.1", value = "Cotte de Mailles$verte" }
+text{ key = "inventory.caption.item.tunic.2", value = "Cotte de Mailles$bleue" }
+text{ key = "inventory.caption.item.tunic.3", value = "Cotte de Mailles$rouge" }
+text{ key = "inventory.caption.item.wind_marimba.1", value = "Xylophone marin" }
 text{ key = "map.caption.dungeon_name_1", value = "Cave Flagello" }
+text{ key = "map.caption.dungeon_name_10", value = "Précipice aquatique" }
 text{ key = "map.caption.dungeon_name_2", value = "Grotte du génie" }
 text{ key = "map.caption.dungeon_name_3", value = "Cave aux clés" }
 text{ key = "map.caption.dungeon_name_4", value = "Abîme du poisson" }
@@ -8,87 +45,48 @@ text{ key = "map.caption.dungeon_name_6", value = "Temple du masque" }
 text{ key = "map.caption.dungeon_name_7", value = "Tour du vautour" }
 text{ key = "map.caption.dungeon_name_8", value = "Roc de la tortue" }
 text{ key = "map.caption.dungeon_name_9", value = "Donjon des couleurs" }
-text{ key = "map.caption.dungeon_name_10", value = "Précipice aquatique" }
-text{ key = "quest_status.caption.rupee_bag_1", value = "Sac de Rubis" }
-text{ key = "quest_status.caption.rupee_bag_2", value = "Grand$Sac de Rubis" }
-text{ key = "quest_status.caption.rupee_bag_3", value = "Sac de Rubis$Géant" }
-text{ key = "quest_status.caption.bomb_bag_1", value = "Sac de Bombes" }
-text{ key = "quest_status.caption.bomb_bag_2", value = "Grand$Sac de Bombes" }
-text{ key = "quest_status.caption.bomb_bag_3", value = "Sac de Bombes$Géant" }
-text{ key = "quest_status.caption.quiver_1", value = "Carquois" }
-text{ key = "quest_status.caption.quiver_2", value = "Grand Carquois" }
-text{ key = "quest_status.caption.quiver_3", value = "Carquois Géant" }
-text{ key = "quest_status.caption.world_map", value = "Carte du Monde" }
-text{ key = "quest_status.caption.pieces_of_heart", value = "Fragments de Coeur" }
-text{ key = "inventory.caption.item.feather.1", value = "Plume" }
-text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
-text{ key = "inventory.caption.item.shield.1", value = "Bouclier" }
-text{ key = "inventory.caption.item.shovel.1", value = "Pelle" }
-text{ key = "inventory.caption.item.magic_rod.1", value = "Bâton de feu" }
-text{ key = "inventory.caption.item.ocarina.1", value = "Ocarina" }
-text{ key = "inventory.caption.item.bow.1", value = "Arc" }
-text{ key = "inventory.caption.item.bow.2", value = "Arc & Flèches" }
-text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }
-text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
-text{ key = "inventory.caption.item.hookshot.1", value = "Grappin" }
-text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
-text{ key = "inventory.caption.item.flippers.1", value = "Palmes" }
-text{ key = "inventory.caption.item.tunic.1", value = "Cotte de Mailles$verte" }
-text{ key = "inventory.caption.item.tunic.2", value = "Cotte de Mailles$bleue" }
-text{ key = "inventory.caption.item.tunic.3", value = "Cotte de Mailles$rouge" }
-text{ key = "inventory.caption.item.sword.1", value = "Epée" }
-text{ key = "inventory.caption.item.sword.2", value = "Glaive Hylien" }
-text{ key = "inventory.caption.item.shield.1", value = "Bouclier" }
-text{ key = "inventory.caption.item.shield.2", value = "Bouclier reflet" }
-text{ key = "inventory.caption.item.magic_powder.1", value = "Champignon magique" }
-text{ key = "inventory.caption.item.magic_powder.2", value = "Poudre magique" }
-text{ key = "inventory.caption.item.tail_key.1", value = "Clé flagello" }
-text{ key = "inventory.caption.item.slim_key.1", value = "Clé cyclope" }
-text{ key = "inventory.caption.item.angler_key.1", value = "Clé poisson" }
-text{ key = "inventory.caption.item.bird_key.1", value = "Clé vautour" }
-text{ key = "inventory.caption.item.face_key.1", value = "Clé du masque" }
-text{ key = "inventory.caption.carte", value = "Carte de Cocolint" }
+text{ key = "map.caption.world_map", value = "Carte de Cocolint" }
 text{ key = "options.caption.press_action_change_mode", value = "Appuyez sur Action$pour changer de mode" }
 text{ key = "options.caption.press_action_customize_key", value = "Appuyez sur Action pour$configurer cette touche" }
 text{ key = "options.caption.press_key", value = "Appuyez sur une touche$du clavier ou du joypad" }
-text{ key = "options.commands_column", value = "Commandes" }
-text{ key = "options.keyboard_column", value = "Clavier" }
-text{ key = "options.joypad_column", value = "Joypad" }
-text{ key = "options.video.fullscreen", value = "Plein écran" }
-text{ key = "options.video.windowed", value = "Fenêtré" }
 text{ key = "options.command.action", value = "Action" }
 text{ key = "options.command.attack", value = "Epée" }
+text{ key = "options.command.down", value = "Bas" }
 text{ key = "options.command.item_1", value = "Obj gauche" }
 text{ key = "options.command.item_2", value = "Obj droit" }
+text{ key = "options.command.left", value = "Gauche" }
 text{ key = "options.command.pause", value = "Pause" }
 text{ key = "options.command.right", value = "Droite" }
 text{ key = "options.command.up", value = "Haut" }
-text{ key = "options.command.left", value = "Gauche" }
-text{ key = "options.command.down", value = "Bas" }
-text{ key = "save_dialog.yes", value = "Oui" }
+text{ key = "options.commands_column", value = "Commandes" }
+text{ key = "options.joypad_column", value = "Joypad" }
+text{ key = "options.keyboard_column", value = "Clavier" }
+text{ key = "options.video.fullscreen", value = "Plein écran" }
+text{ key = "options.video.windowed", value = "Fenêtré" }
+text{ key = "quest_status.caption.pieces_of_heart", value = "Fragments de Coeur" }
+text{ key = "save_dialog.continue_question_0", value = "Voulez-vous continuer" }
+text{ key = "save_dialog.continue_question_1", value = "la partie ?" }
 text{ key = "save_dialog.no", value = "Non" }
 text{ key = "save_dialog.save_question_0", value = "Voulez-vous sauvegarder" }
 text{ key = "save_dialog.save_question_1", value = "votre progression ?" }
-text{ key = "save_dialog.continue_question_0", value = "Voulez-vous continuer" }
-text{ key = "save_dialog.continue_question_1", value = "la partie ?" }
-text{ key = "selection_menu.phase.select_file", value = "Veuillez choisir un fichier" }
+text{ key = "save_dialog.yes", value = "Oui" }
+text{ key = "selection_menu.back", value = "Retour" }
+text{ key = "selection_menu.big_no", value = "NON" }
+text{ key = "selection_menu.big_yes", value = "OUI" }
+text{ key = "selection_menu.cancel", value = "Annuler" }
+text{ key = "selection_menu.empty", value = "Vide" }
+text{ key = "selection_menu.erase", value = "Effacer" }
+text{ key = "selection_menu.options", value = "Options" }
+text{ key = "selection_menu.options.language", value = "Langue" }
+text{ key = "selection_menu.options.music_volume", value = "Volume de la musique" }
+text{ key = "selection_menu.options.sound_volume", value = "Volume des sons" }
+text{ key = "selection_menu.options.video_mode", value = "Mode vidéo" }
 text{ key = "selection_menu.phase.choose_mode", value = "Choisissez un mode de jeu" }
 text{ key = "selection_menu.phase.choose_name", value = "Quel est votre nom ?" }
 text{ key = "selection_menu.phase.confirm_erase", value = "Etes-vous sûr ?" }
 text{ key = "selection_menu.phase.erase_file", value = "Quel fichier voulez-vous effacer ?" }
 text{ key = "selection_menu.phase.options", value = "Appuyez sur Espace pour modifier" }
 text{ key = "selection_menu.phase.options.changing", value = "<  > : choisir, Espace : valider" }
-text{ key = "selection_menu.erase", value = "Effacer" }
-text{ key = "selection_menu.cancel", value = "Annuler" }
-text{ key = "selection_menu.big_yes", value = "OUI" }
-text{ key = "selection_menu.big_no", value = "NON" }
-text{ key = "selection_menu.empty", value = "Vide" }
-text{ key = "selection_menu.options", value = "Options" }
-text{ key = "selection_menu.back", value = "Retour" }
-text{ key = "selection_menu.options.language", value = "Langue" }
-text{ key = "selection_menu.options.video_mode", value = "Mode vidéo" }
-text{ key = "selection_menu.options.music_volume", value = "Volume de la musique" }
-text{ key = "selection_menu.options.sound_volume", value = "Volume des sons" }
-text{ key = "title_screen.website", value = "www.zeldaforce.net" }
+text{ key = "selection_menu.phase.select_file", value = "Veuillez choisir un fichier" }
 text{ key = "title_screen.press_space", value = "Appuyez sur espace" }
-
+text{ key = "title_screen.website", value = "www.zeldaforce.net" }

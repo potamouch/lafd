@@ -9,11 +9,11 @@ local game = map:get_game()
 function map:set_music()
 
   if game:get_value("step_1_link_search_sword") == nil  then
-    sol.audio.play_music("links_awake")
+    sol.audio.play_music("maps/houses/links_awake")
   elseif game:get_value("step_1_link_search_sword") == true and game:get_value("step_2_link_found_sword") == nil then
-    sol.audio.play_music("sword_search")
+    sol.audio.play_music("maps/out/sword_search")
   else
-    sol.audio.play_music("inside_the_houses")
+    sol.audio.play_music("maps/houses/inside")
   end
 
 end
@@ -35,7 +35,7 @@ function map:jump_from_bed()
   hero:start_jumping(7, 24, true)
   game:set_pause_allowed(true)
   bed:get_sprite():set_animation("empty_open")
-  game:set_starting_location("inside_marine_house", "marine_house_1_B")
+  game:set_starting_location("houses/mabe_village/marine_house", "marine_house_1_B")
   sol.audio.play_sound("hero_lands")
 
 end
@@ -45,7 +45,7 @@ function map:wake_up()
   snores:remove()
   bed:get_sprite():set_animation("hero_waking")
   sol.timer.start(1000, function() 
-    game:start_dialog("marine_house.awake", function()
+    game:start_dialog("maps.houses.mabe_village.marine_house.marine_2", function()
       sol.timer.start(500, function()
         map:jump_from_bed()
       end)
@@ -54,24 +54,24 @@ function map:wake_up()
 
 end
 
-function map:init_tarkin()
+function map:init_tarin()
  
   if game:get_value("step_2_link_found_sword") == true  then
-    tarkin:set_visible(false)
+    tarin:set_visible(false)
   else
-    tarkin:get_sprite():set_animation("waiting")
+    tarin:get_sprite():set_animation("waiting")
   end
 
 end
 
-function  map:talk_to_tarkin() 
+function  map:talk_to_tarin() 
 
   if game:has_item("shield") == false then
-    game:start_dialog("marine_house.tarkin_1", game:get_player_name(), function()
-      hero:start_treasure("shield", 1, "b32")
+    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_1", game:get_player_name(), function()
+      hero:start_treasure("shield", 1, "schield")
     end)
   else
-      game:start_dialog("marine_house.tarkin_2", game:get_player_name())
+      game:start_dialog("maps.houses.mabe_village.marine_house.tarin_2", game:get_player_name())
   end
 
 end
@@ -90,7 +90,7 @@ end
 
 function map:talk_to_marine() 
 
-  game:start_dialog("marine_house.marine_1")
+  game:start_dialog("maps.houses.mabe_village.marine_house.marine_1")
 
 end
 
@@ -100,7 +100,7 @@ function map:on_started(destination)
 
   map:set_music()
   map:init_marine()
-  map:init_tarkin()
+  map:init_tarin()
   if destination:get_name() == "start_position"  then
     -- the intro scene is playing
     game:set_value("link_search_sword", false)
@@ -121,7 +121,7 @@ end
 
 function map:on_finished()
 
-  if game:has_item("shield") == true and game:get_value("link_search_sword" ) == nil then
+  if game:has_item("shield") == true and game:get_value("link_search_sword" ) == false then
     game:set_value("step_1_link_search_sword", true)
   end
 
@@ -130,7 +130,7 @@ end
 function maison_link_exit_sensor:on_activated()
 
   if game:has_item("shield") == false then
-    game:start_dialog("marine_house.tarkin_3", function()
+    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_3", function()
      hero:set_direction(2)
      hero:walk("2222")
    end)
@@ -139,9 +139,9 @@ function maison_link_exit_sensor:on_activated()
 end
 
 
-function tarkin:on_interaction()
+function tarin:on_interaction()
 
-      map:talk_to_tarkin()
+      map:talk_to_tarin()
 
 end
 

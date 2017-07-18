@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "house",
+  tileset = "houses/house",
   music = "same",
 }
 
@@ -1176,7 +1176,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/mabe_village",
+  destination_map = "out/a3_mabe_village",
   destination = "quadruplets_house_2_A",
 }
 
@@ -1195,7 +1195,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/mabe_village",
+  destination_map = "out/a3_mabe_village",
   destination = "quadruplets_house_2_C",
 }
 
@@ -1230,7 +1230,6 @@ destructible{
   x = 96,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1240,7 +1239,6 @@ destructible{
   x = 112,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1250,7 +1248,6 @@ destructible{
   x = 128,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1260,7 +1257,6 @@ destructible{
   x = 144,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1270,7 +1266,6 @@ destructible{
   x = 160,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1280,7 +1275,6 @@ destructible{
   x = 176,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1290,7 +1284,6 @@ destructible{
   x = 192,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -1300,7 +1293,6 @@ destructible{
   x = 208,
   y = 61,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }

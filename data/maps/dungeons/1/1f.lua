@@ -30,7 +30,7 @@ function map:on_opening_transition_finished(destination)
       map:set_doors_open("dungeon_1_door_group_2", false)
       map:set_doors_open("dungeon_1_door_group_3", true)
       map:set_doors_open("dungeon_1_door_group_5", true)
-      game:start_dialog("dungeon_1")
+      game:start_dialog("maps.dungeons.1.welcome")
     end
     if destination == dungeon_1_stairs_1_B then
       door_manager:open(map, "dungeon_1_door_group_1", false)

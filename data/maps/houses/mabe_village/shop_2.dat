@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "house",
+  tileset = "houses/house",
   music = "same",
 }
 
@@ -286,7 +286,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/mabe_village",
+  destination_map = "out/a3_mabe_village",
   destination = "shop_2_2_A",
 }
 

@@ -5,7 +5,8 @@ properties{
   height = 1536,
   min_layer = 0,
   max_layer = 2,
-  tileset = "dungeon/green",
+  tileset = "dungeons/green",
+  music = "maps/dungeons/9/dungeon",
 }
 
 tile{

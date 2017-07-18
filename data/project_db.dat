@@ -2,7 +2,7 @@ map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
-map{ id = "dungeons/2/1f_old", description = "Dungeon 2 2F" }
+map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
 map{ id = "dungeons/3/1f", description = "Dungeon 3 1F" }
 map{ id = "dungeons/3/b1", description = "Dungeon 3 B1" }
 map{ id = "dungeons/4/1f", description = "Dungeon 4 1F" }
@@ -14,6 +14,7 @@ map{ id = "dungeons/7/3f", description = "Dungeon 7 3F" }
 map{ id = "dungeons/7/4f", description = "Dungeon 7 4F" }
 map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
 map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
+map{ id = "houses/cimetary/witch_house", description = "Witch house" }
 map{ id = "houses/mabe_village/library", description = "Library" }
 map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
@@ -24,38 +25,48 @@ map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
 map{ id = "houses/mabe_village/shop_2", description = "Shop 2" }
 map{ id = "houses/mabe_village/telephone_booth_1", description = "Telephone booth 1" }
 map{ id = "houses/mabe_village/village_cave", description = "Cave of Mabe village" }
-map{ id = "houses/richard_house", description = "Richard house" }
-map{ id = "out/cemetary", description = "Cemetary" }
-map{ id = "out/forest", description = "Forest" }
-map{ id = "out/mabe_village", description = "Mabe village" }
-map{ id = "out/prairie", description = "Prairie" }
-map{ id = "out/south_prairie", description = "South prairie" }
-map{ id = "out/south_village", description = "South village" }
+map{ id = "houses/prairie/richard_house", description = "Richard house" }
+map{ id = "movies/introduction", description = "Introduction" }
+map{ id = "out/a1_west_mt_tamaranch", description = "A1 - West Mt Tamaranch" }
+map{ id = "out/a2_forest", description = "A2 - Forest" }
+map{ id = "out/a3_mabe_village", description = "A3 - Mabe village" }
+map{ id = "out/a4_south_village", description = "A4 - South village" }
+map{ id = "out/b1_egg_of_the_dream_fish", description = "B1 - Egg of the dream fish" }
+map{ id = "out/b2_cemetary", description = "B2 - Cemetary" }
+map{ id = "out/b3_prairie", description = "B3 - Prairie" }
+map{ id = "out/b4_south_prairie", description = "B4 - South prairie" }
+map{ id = "out/c2_kanalet_castle", description = "C2 - Kanalet castle" }
+map{ id = "out/c3_east_prairie", description = "C3 - East prairie" }
+map{ id = "out/c4_martha_bay", description = "C4 - Baie de Martha" }
+map{ id = "out/d1_east_mt_tamaranch", description = "D1 - East Mt Tamaranch" }
+map{ id = "out/d2_rafting", description = "D2 - Rafting" }
+map{ id = "out/d3_mask_shrine", description = "D3 - Mask shrine" }
+map{ id = "out/d4_yarna_desert", description = "D4 - Yarna desert" }
 
-tileset{ id = "blue_dungeon_lw", description = "Blue Dungeon" }
-tileset{ id = "cave", description = "Cave" }
-tileset{ id = "dungeon/blue", description = "dungeon/blue" }
-tileset{ id = "dungeon/brown", description = "dungeon/brown" }
-tileset{ id = "dungeon/dark_brown", description = "dungeon/dark_brown" }
-tileset{ id = "dungeon/dark_turquoise", description = "dungeon/dark_turquoise" }
-tileset{ id = "dungeon/dark_yellow", description = "dungeon/dark_yellow" }
-tileset{ id = "dungeon/gray", description = "dungeon/gray" }
-tileset{ id = "dungeon/gray_blue", description = "dungeon/gray_blue" }
-tileset{ id = "dungeon/gray_brown", description = "dungeon/gray_brown" }
-tileset{ id = "dungeon/gray_pink", description = "dungeon/gray_pink" }
-tileset{ id = "dungeon/gray_yellow", description = "dungeon/gray_yellow" }
-tileset{ id = "dungeon/green", description = "dungeon/green" }
-tileset{ id = "dungeon/light_blue", description = "dungeon/light_blue" }
-tileset{ id = "dungeon/light_brown", description = "dungeon/light_brown" }
-tileset{ id = "dungeon/light_green", description = "dungeon/light_green" }
-tileset{ id = "dungeon/light_yellow_dungeon", description = "dungeon/light_yellow_dungeon" }
-tileset{ id = "dungeon/pink", description = "dungeon/pink" }
-tileset{ id = "dungeon/purple", description = "dungeon/purple" }
-tileset{ id = "dungeon/purple_blue", description = "dungeon/purple_blue" }
-tileset{ id = "dungeon/yellow", description = "dungeon/yellow" }
-tileset{ id = "house", description = "House" }
-tileset{ id = "light_world", description = "Light World" }
-tileset{ id = "pink_dungeon_lw", description = "Pink Dungeon" }
+tileset{ id = "caves/cave", description = "Cave" }
+tileset{ id = "dungeons/blue", description = "dungeon/blue" }
+tileset{ id = "dungeons/brown", description = "dungeon/brown" }
+tileset{ id = "dungeons/dark_brown", description = "dungeon/dark_brown" }
+tileset{ id = "dungeons/dark_turquoise", description = "dungeon/dark_turquoise" }
+tileset{ id = "dungeons/dark_yellow", description = "dungeon/dark_yellow" }
+tileset{ id = "dungeons/gray", description = "dungeon/gray" }
+tileset{ id = "dungeons/gray_blue", description = "dungeon/gray_blue" }
+tileset{ id = "dungeons/gray_brown", description = "dungeon/gray_brown" }
+tileset{ id = "dungeons/gray_pink", description = "dungeon/gray_pink" }
+tileset{ id = "dungeons/gray_yellow", description = "dungeon/gray_yellow" }
+tileset{ id = "dungeons/green", description = "dungeon/green" }
+tileset{ id = "dungeons/light_blue", description = "dungeon/light_blue" }
+tileset{ id = "dungeons/light_brown", description = "dungeon/light_brown" }
+tileset{ id = "dungeons/light_green", description = "dungeon/light_green" }
+tileset{ id = "dungeons/light_yellow_dungeon", description = "dungeon/light_yellow_dungeon" }
+tileset{ id = "dungeons/pink", description = "dungeon/pink" }
+tileset{ id = "dungeons/purple", description = "dungeon/purple" }
+tileset{ id = "dungeons/purple_blue", description = "dungeon/purple_blue" }
+tileset{ id = "dungeons/yellow", description = "dungeon/yellow" }
+tileset{ id = "houses/house", description = "House" }
+tileset{ id = "movies/beach", description = "Beach" }
+tileset{ id = "out/light_world", description = "Light World" }
+tileset{ id = "out/outside", description = "Outside" }
 
 sprite{ id = "enemies/blob_green", description = "Blob green" }
 sprite{ id = "enemies/blob_red", description = "Blob red" }
@@ -112,6 +123,9 @@ sprite{ id = "entities/gray_block", description = "Block (gray)" }
 sprite{ id = "entities/hint_stone", description = "Hint stone" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/la_beach/la_background", description = "entities/la_beach/la_background" }
+sprite{ id = "entities/la_beach/la_swell", description = "entities/la_beach/la_swell" }
+sprite{ id = "entities/la_beach/la_wreck", description = "entities/la_beach/la_wreck" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/pot", description = "Pot" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
@@ -155,7 +169,10 @@ sprite{ id = "hud/pause_icon_flip", description = "Pause icon" }
 sprite{ id = "hud/sword_icon_flip", description = "Sword icon" }
 sprite{ id = "menus/arrow", description = "Arrow" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
+sprite{ id = "menus/map_zone", description = "Map zone" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }
+sprite{ id = "menus/outside_map", description = "Outside map" }
+sprite{ id = "menus/outside_map_grid", description = "Outside map grid" }
 sprite{ id = "menus/pause_cursor", description = "Pause cursor" }
 sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
 sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }
@@ -166,39 +183,40 @@ sprite{ id = "npc/kid_1", description = "Kid 1" }
 sprite{ id = "npc/kid_2", description = "Kid 2" }
 sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/owl", description = "Owl" }
+sprite{ id = "npc/seagull", description = "npc/seagull" }
 sprite{ id = "npc/tarkin", description = "Tarkin" }
 sprite{ id = "npc/witch", description = "Witch" }
 
-music{ id = "boss", description = "boss" }
-music{ id = "boss_defeated", description = "boss_defeated" }
-music{ id = "boss_small", description = "boss_small" }
-music{ id = "cave", description = "Cave" }
-music{ id = "dungeon_1", description = "Dungeon 1" }
-music{ id = "dungeon_1_instrument", description = "dungeon_1_instrument" }
-music{ id = "dungeon_2", description = "Dungeon 2" }
-music{ id = "dungeon_3", description = "Dungeon 3" }
-music{ id = "dungeon_4", description = "Dungeon 4" }
-music{ id = "dungeon_5", description = "Dungeon 5" }
-music{ id = "dungeon_6", description = "Dungeon 6" }
-music{ id = "dungeon_7", description = "Dungeon 7" }
-music{ id = "dungeon_8", description = "Dungeon 8" }
-music{ id = "dungeon_9", description = "Dungeon 9" }
-music{ id = "dungeons_instrument", description = "dungeons_instrument" }
-music{ id = "inside_the_houses", description = "Inside the houses" }
-music{ id = "let_the_journey_begin", description = "Let the journey begin" }
-music{ id = "links_awake", description = "Links awake" }
-music{ id = "mabe_village", description = "Mabe village" }
-music{ id = "mysterious_forest", description = "Mysterious Forest" }
-music{ id = "overworld", description = "Overworld" }
-music{ id = "player_select", description = "Player select" }
-music{ id = "shop", description = "Shop" }
-music{ id = "sword_search", description = "Sword search" }
-music{ id = "telephone_booth", description = "Telephone booth" }
-music{ id = "the_storm", description = "The storm" }
-music{ id = "the_wise_owl", description = "The wise owl" }
-music{ id = "title_screen", description = "Title screen" }
-music{ id = "trendy_game", description = "Trendy game" }
-music{ id = "your_sword", description = "Your sword" }
+music{ id = "maps/caves/cave", description = "Cave" }
+music{ id = "maps/dungeons/1/dungeon", description = "Dungeon 1" }
+music{ id = "maps/dungeons/1/instrument", description = "Instrument 1" }
+music{ id = "maps/dungeons/2/dungeon", description = "Dungeon 2" }
+music{ id = "maps/dungeons/3/dungeon", description = "Dungeon 3" }
+music{ id = "maps/dungeons/4/dungeon", description = "Dungeon 4" }
+music{ id = "maps/dungeons/5/dungeon", description = "Dungeon 5" }
+music{ id = "maps/dungeons/6/dungeon", description = "Dungeon 6" }
+music{ id = "maps/dungeons/7/dungeon", description = "Dungeon 7" }
+music{ id = "maps/dungeons/8/dungeon", description = "Dungeon 8" }
+music{ id = "maps/dungeons/9/dungeon", description = "Dungeon 9" }
+music{ id = "maps/dungeons/boss", description = "Boss" }
+music{ id = "maps/dungeons/boss_defeated", description = "Boss defeated" }
+music{ id = "maps/dungeons/boss_small", description = "Small boss" }
+music{ id = "maps/dungeons/instrument", description = "Introduction instrument" }
+music{ id = "maps/houses/inside", description = "Inside" }
+music{ id = "maps/houses/links_awake", description = "maps/houses/links_awake" }
+music{ id = "maps/houses/shop", description = "Shop" }
+music{ id = "maps/houses/telephone_booth", description = "Telephone booth" }
+music{ id = "maps/houses/trendy_game", description = "Trendy game" }
+music{ id = "maps/out/let_the_journey_begin", description = "Let the journey begin" }
+music{ id = "maps/out/mabe_village", description = "Mabe village" }
+music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
+music{ id = "maps/out/overworld", description = "Overworld" }
+music{ id = "maps/out/sword_search", description = "Sword search" }
+music{ id = "maps/out/your_sword", description = "Your sword" }
+music{ id = "scripts/menus/player_select", description = "Player select" }
+music{ id = "scripts/menus/the_storm", description = "The storm" }
+music{ id = "scripts/menus/title_screen", description = "Title screen" }
+music{ id = "scripts/meta/map/the_wise_owl", description = "The wise owl" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bomb", description = "bomb" }
@@ -214,10 +232,11 @@ sound{ id = "diarandor/solarus_logo", description = "Solarus logo" }
 sound{ id = "door_closed", description = "door_closed" }
 sound{ id = "door_open", description = "door_open" }
 sound{ id = "door_unlocked", description = "door_unlocked" }
+sound{ id = "enemies/sea_urchin_1", description = "enemies/sea_urchin_1" }
+sound{ id = "enemies/sea_urchin_2", description = "enemies/sea_urchin_2" }
 sound{ id = "enemy_hurt", description = "enemy_hurt" }
 sound{ id = "enemy_killed", description = "enemy_killed" }
 sound{ id = "explosion", description = "explosion" }
-sound{ id = "get_heart_container", description = "get_heart_container" }
 sound{ id = "heart", description = "heart" }
 sound{ id = "hero_dying", description = "hero_dying" }
 sound{ id = "hero_falls", description = "hero_falls" }
@@ -237,6 +256,7 @@ sound{ id = "pause_closed", description = "pause_closed" }
 sound{ id = "pause_open", description = "pause_open" }
 sound{ id = "picked_item", description = "picked_item" }
 sound{ id = "picked_small_key", description = "picked_small_key" }
+sound{ id = "piece_of_heart", description = "get_heart_container" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "rupee_counter", description = "rupee_counter" }
@@ -274,13 +294,13 @@ item{ id = "conch_horn", description = "Conch horn" }
 item{ id = "coral_triangle", description = "Coral triangle" }
 item{ id = "face_key", description = "Face key" }
 item{ id = "feather", description = "Feather" }
+item{ id = "fire_rod", description = "Fire rod" }
 item{ id = "flippers", description = "Flippers" }
 item{ id = "full_moon_cello", description = "Full Moon Cello" }
 item{ id = "heart", description = "Heart" }
 item{ id = "heart_container", description = "Heart container" }
 item{ id = "hookshot", description = "Hookshot" }
 item{ id = "magic_powder", description = "Magic Powder" }
-item{ id = "magic_rod", description = "Magic rod" }
 item{ id = "magnifying_lens", description = "Magnifying lens" }
 item{ id = "map", description = "Dungeon map" }
 item{ id = "ocarina", description = "Ocarina" }

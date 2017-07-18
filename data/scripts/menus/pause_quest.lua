@@ -1,0 +1,282 @@
+local submenu = require("scripts/menus/pause_submenu")
+local quest_submenu = submenu:new()
+local item_names_static_left = {
+  "full_moon_cello",
+  "conch_horn",
+  "sea_lilys_bell",
+  "surf_harp",
+  "magnifying_lens",
+  "wind_marimba",
+  "coral_triangle",
+  "organ_of_evening_calm",
+  "thunder_drum"
+}
+local item_names_static_right = {
+  "tail_key",
+  "slim_key",
+  "angler_key",
+  "face_key",
+  "bird_key"
+}
+
+
+
+function quest_submenu:on_started()
+
+  submenu.on_started(self)
+  self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
+  self.sprites_static_left = {}
+  self.sprites_static_right = {}
+  -- Initialize the cursor
+  local index = self.game:get_value("pause_inventory_last_item_index") or 0
+  local row = math.floor(index / 7)
+  local column = index % 7
+  self:set_cursor_position(row, column)
+  -- Load Items
+  for i,item_name in ipairs(item_names_static_left) do
+    local item = self.game:get_item(item_name)
+    local variant = item:get_variant()
+    self.sprites_static_left[i] = sol.sprite.create("entities/items")
+    self.sprites_static_left[i]:set_animation(item_name)
+  end
+  for i,item_name in ipairs(item_names_static_right) do
+    local item = self.game:get_item(item_name)
+    local variant = item:get_variant()
+    self.sprites_static_right[i] = sol.sprite.create("entities/items")
+    self.sprites_static_right[i]:set_animation(item_name)
+  end
+
+
+end
+
+function quest_submenu:on_finished()
+
+end
+
+function quest_submenu:on_draw(dst_surface)
+
+  self:draw_background(dst_surface)
+  self:draw_caption(dst_surface)
+  -- Draw each inventory static item left.
+ local y = 90
+  local k = 0
+  for i = 0, 2 do
+    local x = 64
+    for j = 0, 2 do
+      if x == 1 and x == 1 then
+        x=x+1
+      end
+      k = k + 1
+      if item_names_static_left[k] ~= nil then
+        local item = self.game:get_item(item_names_static_left[k])
+        if item:get_variant() > 0 then
+          -- The player has this item: draw it.
+          self.sprites_static_left[k]:set_direction(item:get_variant() - 1)
+          self.sprites_static_left[k]:draw(dst_surface, x, y)
+        end
+      end
+      x = x + 32
+    end
+    y = y + 32
+  end
+ -- Draw each inventory static item right.
+  for i,item_name in ipairs(item_names_static_right) do
+        local item = self.game:get_item(item_name)
+        local x = 0
+        local y = 0
+        if item:get_variant() > 0 then
+          -- The player has this item: draw it.
+          if i == 1 then
+            x = 192
+            y = 122
+          elseif i == 2 then
+            x = 224
+            y = 90
+          elseif i == 3 then
+            x = 256
+            y = 122
+          elseif i == 4 then
+            x = 224
+            y = 154
+          elseif i == 5 then
+            x = 224
+            y = 122
+          end
+          self.sprites_static_right[i]:set_direction(item:get_variant() - 1)
+          self.sprites_static_right[i]:draw(dst_surface, x, y)
+        end
+  end
+
+  -- Draw cursor
+  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
+end
+
+
+
+function quest_submenu:on_command_pressed(command)
+  
+  local handled = submenu.on_command_pressed(self, command)
+
+  if not handled then
+
+    if command == "action" then
+      if self.game:get_command_effect("action") == nil and self.game:get_custom_command_effect("action") == "info" then
+        self:show_info_message()
+        handled = true
+      end
+
+    elseif command == "item_1" then
+      if self:is_item_selected() then
+        self:assign_item(1)
+        handled = true
+      end
+
+    elseif command == "item_2" then
+      if self:is_item_selected() then
+        self:assign_item(2)
+        handled = true
+      end
+
+    elseif command == "left" then
+      if self.cursor_column == 0 then
+        self:previous_submenu()
+      else
+        sol.audio.play_sound("cursor")
+        if self.cursor_column == 5 and  self.cursor_row == 0 then
+          self:set_cursor_position(self.cursor_row, self.cursor_column - 3)
+        elseif self.cursor_column == 4 and  self.cursor_row == 1 then
+          self:set_cursor_position(self.cursor_row, self.cursor_column - 2)
+        elseif self.cursor_column == 5 and  self.cursor_row == 2 then
+          self:set_cursor_position(self.cursor_row, self.cursor_column - 3)
+        else
+          self:set_cursor_position(self.cursor_row, self.cursor_column - 1)
+        end
+      end
+      handled = true
+
+    elseif command == "right" then
+      if self.cursor_column == 6
+          or self.cursor_column == 5 and  self.cursor_row == 0
+          or self.cursor_column == 5 and  self.cursor_row == 2 
+          or self.cursor_column == 3 and  self.cursor_row == 3  then
+        self:next_submenu()
+      else
+        sol.audio.play_sound("cursor")
+        if self.cursor_column == 2 and  self.cursor_row == 0 then
+          self:set_cursor_position(self.cursor_row, self.cursor_column + 3)
+        elseif self.cursor_column == 2 and  self.cursor_row == 1 then
+          self:set_cursor_position(self.cursor_row, self.cursor_column + 2)
+        elseif self.cursor_column == 2 and  self.cursor_row == 2 then
+          self:set_cursor_position(self.cursor_row, self.cursor_column + 3)
+        else
+          self:set_cursor_position(self.cursor_row, self.cursor_column + 1)
+        end
+      end
+      handled = true
+
+    elseif command == "up" then
+      if self.cursor_column ~= 3 and self.cursor_column ~= 4 and self.cursor_column ~= 6 then
+        sol.audio.play_sound("cursor")
+        if self.cursor_column == 5 and  self.cursor_row == 0 then
+          self:set_cursor_position((self.cursor_row + 2) % 4, self.cursor_column)
+        else
+          self:set_cursor_position((self.cursor_row + 3) % 4, self.cursor_column)
+        end
+      end
+      handled = true
+
+    elseif command == "down" then
+      if self.cursor_column ~= 3 and self.cursor_column ~= 4 and self.cursor_column ~= 6 then
+        sol.audio.play_sound("cursor")
+        if self.cursor_column == 5 and  self.cursor_row == 2 then
+          self:set_cursor_position((self.cursor_row - 2) % 4, self.cursor_column)
+        else
+          self:set_cursor_position((self.cursor_row + 1) % 4, self.cursor_column)
+        end
+      end
+      handled = true
+    end
+  end
+
+  return handled
+
+end
+
+-- Shows a message describing the item currently selected.
+-- The player is supposed to have this item.
+function quest_submenu:show_info_message()
+
+  local item_name = self:get_item_name(self.cursor_row, self.cursor_column)
+  local variant = self.game:get_item(item_name):get_variant()
+  local game = self.game
+  local map = game:get_map()
+
+  -- Position of the dialog (top or bottom).
+ -- if self.cursor_row >= 2 then
+--    game:set_dialog_position("top")  -- Top of the screen.
+--  else
+ --   game:set_dialog_position("bottom")  -- Bottom of the screen.
+ -- end
+
+  self.game:set_custom_command_effect("action", nil)
+  self.game:set_custom_command_effect("attack", nil)
+  game:start_dialog("scripts.menus.pause_inventory." .. item_name .. "." .. variant, function()
+    self.game:set_custom_command_effect("action", "info")
+    self.game:set_custom_command_effect("attack", "save")
+    game:set_dialog_position("auto")  -- Back to automatic position.
+  end)
+
+end
+
+function quest_submenu:set_cursor_position(row, column)
+
+  self.cursor_row = row
+  self.cursor_column = column
+  local index
+  local item_name
+  self.game:set_value("pause_inventory_last_item_index", index)
+
+  -- Update the caption text and the action icon.
+  local item_name = self:get_item_name(row, column)
+  local item = item_name and self.game:get_item(item_name) or nil
+  local variant = item and item:get_variant()
+  local item_icon_opacity = 128
+  if variant > 0 then
+    self:set_caption("inventory.caption.item." .. item_name .. "." .. variant)
+    self.game:set_custom_command_effect("action", "info")
+    if item:is_assignable() then
+      item_icon_opacity = 255
+    end
+  else
+    self:set_caption(nil)
+    self.game:set_custom_command_effect("action", nil)
+  end
+  self.game:get_hud():set_item_icon_opacity(1, item_icon_opacity)
+  self.game:get_hud():set_item_icon_opacity(2, item_icon_opacity)
+
+end
+
+function quest_submenu:get_item_name(row, column)
+
+    iitem_name = nil
+    if column < 3 and row < 4 then
+      index = row * 3 + column
+      item_name = item_names_static_left[index + 1]
+    elseif column == 5 and row == 0 then
+      item_name = "slim_key"
+    elseif column == 4 and row == 1 then
+      item_name = "tail_key"
+    elseif column == 5 and row == 1 then
+      item_name = "bird_key"
+    elseif column == 6 and row == 1 then
+      item_name = "angler_key"
+    elseif column == 5 and row == 2 then
+      item_name = "face_key"
+    end
+
+  return item_name
+
+end
+
+
+return quest_submenu

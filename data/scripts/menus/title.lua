@@ -23,7 +23,7 @@ function title_screen:phase_intro()
   self.surface:fade_in(30)
   self.surface:clear()
   -- start music
-  sol.audio.play_music("the_storm")
+  sol.audio.play_music("scripts/menus/the_storm")
 
 end
 
@@ -33,7 +33,7 @@ function title_screen:phase_title()
   self.phase = "title"
   self.surface:fade_in(30)
   -- start music
-  sol.audio.play_music("title_screen")
+  sol.audio.play_music("scripts/menus/title_screen")
   local background_img = sol.surface.create("menus/title.png")
   local width, height = background_img:get_size()
   local x, y = 160 - width / 2, 120 - height / 2

@@ -6,9 +6,9 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_1",
-  floor = 2,
-  tileset = "dungeon/pink",
-  music = "dungeon_1",
+  floor = 1,
+  tileset = "dungeons/pink",
+  music = "maps/dungeons/1/dungeon",
 }
 
 tile{
@@ -12259,7 +12259,7 @@ teletransporter{
   y = 1520,
   width = 16,
   height = 16,
-  destination_map = "out/south_village",
+  destination_map = "out/a4_south_village",
   destination = "dungeon_1_2_A",
 }
 
@@ -12717,16 +12717,6 @@ sensor{
   y = 901,
   width = 16,
   height = 16,
-}
-
-wall{
-  layer = 0,
-  x = 1768,
-  y = 1152,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 door{

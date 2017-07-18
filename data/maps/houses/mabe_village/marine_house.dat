@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "house",
+  tileset = "houses/house",
   music = "same",
 }
 
@@ -538,7 +538,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/mabe_village",
+  destination_map = "out/a3_mabe_village",
   destination = "marine_house_2_A",
 }
 
@@ -575,13 +575,12 @@ destructible{
   x = 80,
   y = 189,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
 
 npc{
-  name = "tarkin",
+  name = "tarin",
   layer = 1,
   x = 232,
   y = 157,
@@ -614,7 +613,6 @@ destructible{
   x = 80,
   y = 173,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -624,7 +622,6 @@ destructible{
   x = 96,
   y = 173,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -634,19 +631,8 @@ destructible{
   x = 96,
   y = 189,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
-}
-
-teletransporter{
-  layer = 1,
-  x = 152,
-  y = 176,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "dungeon_1_1_B",
 }
 
 tile{

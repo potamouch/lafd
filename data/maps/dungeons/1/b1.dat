@@ -7,14 +7,14 @@ properties{
   max_layer = 1,
   world = "dungeon_1",
   floor = -1,
-  tileset = "dungeon/blue",
-  music = "dungeon_1",
+  tileset = "dungeons/blue",
+  music = "dungeons/1/dungeon",
 }
 
 tile{
   layer = 0,
-  x = -8,
-  y = 0,
+  x = -16,
+  y = -24,
   width = 672,
   height = 520,
   pattern = "1076",

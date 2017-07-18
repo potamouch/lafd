@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "house",
+  tileset = "houses/house",
   music = "same",
 }
 
@@ -736,7 +736,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/mabe_village",
+  destination_map = "out/a3_mabe_village",
   destination = "meow_meow_house_2_A",
 }
 
@@ -749,16 +749,6 @@ enemy{
   breed = "small_bowwow",
 }
 
-destructible{
-  layer = 1,
-  x = 216,
-  y = 53,
-  sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
 teletransporter{
   name = "meow_meow_house_2_D",
   layer = 1,
@@ -766,7 +756,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/mabe_village",
+  destination_map = "out/a3_mabe_village",
   destination = "meow_meow_house_2_C",
 }
 
@@ -780,20 +770,9 @@ destination{
 
 destructible{
   layer = 1,
-  x = 232,
+  x = 216,
   y = 53,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 232,
-  y = 69,
-  sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -803,7 +782,6 @@ destructible{
   x = 216,
   y = 69,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -813,17 +791,6 @@ destructible{
   x = 216,
   y = 85,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 232,
-  y = 85,
-  sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -833,27 +800,6 @@ destructible{
   x = 216,
   y = 101,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 232,
-  y = 101,
-  sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 232,
-  y = 117,
-  sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -863,7 +809,6 @@ destructible{
   x = 216,
   y = 117,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -873,17 +818,15 @@ destructible{
   x = 216,
   y = 133,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 232,
-  y = 133,
+  x = 216,
+  y = 149,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -893,7 +836,6 @@ destructible{
   x = 232,
   y = 149,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -903,7 +845,6 @@ destructible{
   x = 232,
   y = 165,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -913,7 +854,6 @@ destructible{
   x = 232,
   y = 181,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -923,17 +863,60 @@ destructible{
   x = 232,
   y = 197,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
   weight = 1,
   damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
-  x = 216,
-  y = 149,
+  x = 232,
+  y = 133,
   sprite = "entities/pot",
-  destruction_sound = "hero_get_sword",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 117,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 101,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 85,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 69,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 232,
+  y = 53,
+  sprite = "entities/pot",
   weight = 1,
   damage_on_enemies = 2,
 }

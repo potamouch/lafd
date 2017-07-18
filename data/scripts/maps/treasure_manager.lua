@@ -42,6 +42,7 @@ end
 
 function treasure_manager:get_instrument(map, dungeon)
 
+print("ok")
     --TODO
   sol.audio.play_music("dungeons_instrument")
      --sol.audio.play_music("dungeon_"..dungeon.."instrument")

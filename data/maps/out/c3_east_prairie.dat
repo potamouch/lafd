@@ -1,0 +1,11 @@
+properties{
+  x = 1920,
+  y = 1536,
+  width = 960,
+  height = 768,
+  min_layer = 0,
+  max_layer = 2,
+  world = "outside_world",
+  tileset = "out/light_world",
+}
+
