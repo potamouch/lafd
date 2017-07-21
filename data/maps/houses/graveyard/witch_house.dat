@@ -432,6 +432,230 @@ destination{
   direction = 1,
 }
 
+destructible{
+  layer = 0,
+  x = 80,
+  y = 189,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 173,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 157,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 141,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 125,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 109,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 93,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 77,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 93,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 93,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 93,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 93,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 77,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 176,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 192,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 77,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 93,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 109,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 109,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 125,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 141,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 157,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 173,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 189,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
 tile{
   layer = 1,
   x = 144,

@@ -540,6 +540,54 @@ tile{
   pattern = "floor_pot",
 }
 
+destructible{
+  layer = 0,
+  x = 56,
+  y = 173,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 189,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 205,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 205,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 189,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 173,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
 tile{
   layer = 1,
   x = 144,

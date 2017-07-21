@@ -9759,6 +9759,15 @@ tile{
 
 tile{
   layer = 0,
+  x = 352,
+  y = 48,
+  width = 64,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
   x = 584,
   y = 464,
   width = 8,
@@ -9782,15 +9791,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "1389",
-}
-
-tile{
-  layer = 0,
-  x = 352,
-  y = 48,
-  width = 64,
-  height = 16,
-  pattern = "910",
 }
 
 destructible{
@@ -12923,7 +12923,7 @@ teletransporter{
   y = 544,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/village_cave",
+  destination_map = "caves/mabe_village/cave_1",
   destination = "village_cave_1_B",
 }
 

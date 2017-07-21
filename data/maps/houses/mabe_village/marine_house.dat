@@ -542,39 +542,6 @@ destructible{
   weight = 1,
 }
 
-chest{
-  layer = 0,
-  x = 120,
-  y = 149,
-  treasure_name = "bird_key",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 136,
-  y = 149,
-  treasure_name = "magnifying_lens",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 152,
-  y = 149,
-  treasure_name = "magnifying_lens",
-  treasure_variant = 3,
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 168,
-  y = 149,
-  treasure_name = "seashell",
-  sprite = "entities/chest",
-}
-
 tile{
   layer = 1,
   x = 144,

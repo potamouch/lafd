@@ -95,7 +95,7 @@ function map:move_camera_down_to_the_beach()
    local x, y = movement:get_xy()
    if y == 96 then
      sol.timer.start(map, 1000, function()
-       sol.audio.play_sound("la_seagull")
+       sol.audio.play_sound("seagull")
      end)
      map:make_seagull_move(seagull_2, 40)
    elseif y == 162 then
@@ -209,7 +209,7 @@ function map:make_marine_go_to_wreck()
      seagull_movement:set_target(0, 0)
      seagull_movement:start(seagull_3)
      sol.timer.start(map, 500, function()
-       sol.audio.play_sound("la_seagull")
+       sol.audio.play_sound("lseagull")
      end)
    end
   end

@@ -546,6 +546,30 @@ teletransporter{
   destination = "sales_house_o_bananas_2_A",
 }
 
+destructible{
+  layer = 0,
+  x = 224,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 77,
+  sprite = "entities/pot",
+  weight = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
