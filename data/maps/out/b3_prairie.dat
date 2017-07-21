@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "out/light_world",
-  music = "same",
+  music = "maps/out/overworld",
 }
 
 tile{
@@ -13723,7 +13723,7 @@ destructible{
 }
 
 teletransporter{
-  name = "to_c1",
+  name = "to_a3",
   layer = 0,
   x = -16,
   y = 0,
@@ -17584,8 +17584,34 @@ teletransporter{
   width = 960,
   height = 16,
   transition = "scrolling",
-  destination_map = "outside_cimetary",
-  destination = "_side",
+  destination_map = "",
+}
+
+destination{
+  name = "fairys_fountain_2_A",
+  layer = 0,
+  x = 264,
+  y = 165,
+  direction = 3,
+}
+
+teletransporter{
+  name = "fairys_fountain_1_A",
+  layer = 0,
+  x = 256,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "caves/prairie/fairys_fountain",
+  destination = "fairys_fountain_1_B",
+}
+
+destination{
+  name = "tmp",
+  layer = 0,
+  x = 224,
+  y = 197,
+  direction = 1,
 }
 
 tile{
@@ -19170,13 +19196,5 @@ tile{
   width = 48,
   height = 16,
   pattern = "512",
-}
-
-npc{
-  layer = 2,
-  x = 824,
-  y = 93,
-  direction = 3,
-  subtype = 0,
 }
 

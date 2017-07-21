@@ -740,15 +740,6 @@ teletransporter{
   destination = "meow_meow_house_2_A",
 }
 
-enemy{
-  name = "small_bow_bow",
-  layer = 1,
-  x = 396,
-  y = 157,
-  direction = 3,
-  breed = "small_bowwow",
-}
-
 teletransporter{
   name = "meow_meow_house_2_D",
   layer = 1,
@@ -919,6 +910,15 @@ destructible{
   sprite = "entities/pot",
   weight = 1,
   damage_on_enemies = 2,
+}
+
+enemy{
+  name = "small_bow_bow",
+  layer = 1,
+  x = 368,
+  y = 157,
+  direction = 3,
+  breed = "small_bowwow",
 }
 
 tile{

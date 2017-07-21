@@ -9032,7 +9032,7 @@ sensor{
 }
 
 teletransporter{
-  name = "to_c1",
+  name = "to_a3",
   layer = 0,
   x = 0,
   y = 768,
@@ -10764,16 +10764,8 @@ teletransporter{
   width = 16,
   height = 816,
   transition = "scrolling",
-  destination_map = "out/b2_cemetary",
+  destination_map = "out/b2_graveyard",
   destination = "_side",
-}
-
-destination{
-  name = "tmp",
-  layer = 0,
-  x = 312,
-  y = 357,
-  direction = 3,
 }
 
 destructible{
@@ -11200,6 +11192,25 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "npc/tarkin",
+}
+
+npc{
+  name = "fairy",
+  layer = 0,
+  x = 856,
+  y = 221,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/fairy",
+}
+
+sensor{
+  name = "fairy_fountain",
+  layer = 0,
+  x = 840,
+  y = 309,
+  width = 48,
+  height = 16,
 }
 
 tile{

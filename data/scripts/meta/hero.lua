@@ -33,6 +33,8 @@ function hero_meta:on_position_changed(x, y, layer)
     square_total_x = (4*square_x)+square_min_x
     square_total_y = (4*square_y)+square_min_y
     game:set_value("map_discovering_" .. square_total_x .. "_" .. square_total_y, true)
+    game:set_value("map_hero_position_x", square_total_x)
+    game:set_value("map_hero_position_y", square_total_y)
   end
 end
 

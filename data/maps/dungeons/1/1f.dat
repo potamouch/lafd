@@ -12259,7 +12259,7 @@ teletransporter{
   y = 1520,
   width = 16,
   height = 16,
-  destination_map = "out/a4_south_village",
+  destination_map = "out/a4_south_mabe_village",
   destination = "dungeon_1_2_A",
 }
 

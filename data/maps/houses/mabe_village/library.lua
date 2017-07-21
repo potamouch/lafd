@@ -1,24 +1,24 @@
--- Library
+-- Lua script of map houses/mabe_village/library.
+-- This script is executed every time the hero enters this map.
 
--- Variables
+-- Feel free to modify the code below.
+-- You can add more events and remove the ones you don't need.
+
+-- See the Solarus Lua API documentation:
+-- http://www.solarus-games.org/doc/latest
+
 local map = ...
+local game = map:get_game()
 
--- Methods - Functions
+-- Event called at initialization time, as soon as this map becomes is loaded.
+function map:on_started()
 
-function map:set_music()
-
-  if map:get_game():get_value("step_1_link_search_sword") == true and map:get_game():get_value("step_2_link_found_sword") == nil then
-    sol.audio.play_music("maps/out/sword_search")
-  else
-    sol.audio.play_music("maps/houses/inside")
-  end
-
+  -- You can initialize the movement and sprites of various
+  -- map entities here.
 end
 
--- Events
-
-function map:on_started(destination)
-
-  map:set_music()
+-- Event called after the opening transition effect of the map,
+-- that is, when the player takes control of the hero.
+function map:on_opening_transition_finished()
 
 end

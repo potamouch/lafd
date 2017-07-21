@@ -109,6 +109,7 @@ Utilise l'Arc et les
 
 dialog{
   id = "_treasure.beak_of_stone.1",
+  icon = "39",
   text = [[
 Vous trouvez un 
 bec de pierre !
@@ -376,6 +377,18 @@ de corail !
 }
 
 dialog{
+  id = "_treasure.drug.1",
+  icon = "49",
+  text = [[
+Vous trouvez le 
+médicament      
+secret! A quoi  
+cela peut-il    
+servir?
+]]
+}
+
+dialog{
   id = "_treasure.face_key.1",
   icon = "44",
   text = [[
@@ -387,7 +400,6 @@ Clé Masque!
 dialog{
   id = "_treasure.feather.1",
   icon = "0",
-  skip = "all",
   text = [[
 Tu as la Plume!$0
 Soudain, tu es  
@@ -398,6 +410,7 @@ que l'air!
 
 dialog{
   id = "_treasure.fire_rod.1",
+  icon = "118",
   text = [[
 Tu as le Bâton  
 de Feu! $0         
@@ -429,6 +442,71 @@ des vagues !
 }
 
 dialog{
+  id = "_treasure.golden_leaf.1",
+  icon = "115",
+  text = [[
+Une Feuille     
+d'Or !           
+Appuyez sur     
+START pour voir 
+combien vous en 
+avez !
+]]
+}
+
+dialog{
+  id = "_treasure.golden_leaf.2",
+  icon = "115",
+  text = [[
+Une Feuille     
+d'Or !           
+Appuyez sur     
+START pour voir 
+combien vous en 
+avez !
+]]
+}
+
+dialog{
+  id = "_treasure.golden_leaf.3",
+  icon = "115",
+  text = [[
+Une Feuille     
+d'Or !           
+Appuyez sur     
+START pour voir 
+combien vous en 
+avez !
+]]
+}
+
+dialog{
+  id = "_treasure.golden_leaf.4",
+  icon = "115",
+  text = [[
+Une Feuille     
+d'Or !           
+Appuyez sur     
+START pour voir 
+combien vous en 
+avez !
+]]
+}
+
+dialog{
+  id = "_treasure.golden_leaf.5",
+  icon = "115",
+  text = [[
+Tu as trouvé    
+la dernière     
+Feuille d'Or !   
+Amène-les chez  
+Richard. Parle- 
+lui de la Clé...
+]]
+}
+
+dialog{
   id = "_treasure.green_potion.1",
   icon = "97",
   text = [[
@@ -438,6 +516,15 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.hammer.1",
+  icon = "114",
+  text = [[
+Tu as trouvé le 
+marteau !
 ]]
 }
 
@@ -546,6 +633,170 @@ plein de trucs
 }
 
 dialog{
+  id = "_treasure.magnifying_lens.1",
+  icon = "100",
+  text = [[
+Tu as gagné     
+un Yoshi !       
+On le voit      
+dans tous les   
+jeux, celui-là !
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.10",
+  icon = "109",
+  text = [[
+Mr Wright t'a   
+offert un è.    
+Mais...         
+cette photo...  
+ce n'est pas...
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.11",
+  icon = "110",
+  text = [[
+Tu as échangé   
+le è contre     
+le é !           
+Que feras-tu    
+de celui-ci ?
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.12",
+  icon = "111",
+  text = [[
+é  devient un   
+collier ê !      
+Génial !
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.13",
+  icon = "112",
+  text = [[
+Vous échangez le
+collier contre  
+une écaille...  
+A quoi sert-    
+elle ?
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.14",
+  icon = "113",
+  text = [[
+Tu as la Loupe! 
+Elle te montrera
+ce que tu ne    
+pouvais pas voir
+auparavant !
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.2",
+  icon = "101",
+  text = [[
+Tu échanges ton 
+à contre ce     
+Ruban á .       
+Peut-être le    
+troqueras-tu    
+par la suite...
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.3",
+  icon = "102",
+  text = [[
+Tu as échangé   
+le á contre     
+la pâtée â!
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.4",
+  icon = "103",
+  text = [[
+MIAM MIAM!      
+... ... ... ... 
+Quel délice !    
+En récompense,  
+je t'offre des  
+Bananes. Hmm !   
+Quel régal !
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.5",
+  icon = "104",
+  text = [[
+Tu prends       
+le bâton        
+que le singe    
+a laissé.
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.6",
+  icon = "105",
+  text = [[
+Tu as échangé   
+le ä contre     
+le Miel å .     
+Pour quoi faire,
+tu verras bien !
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.7",
+  icon = "106",
+  text = [[
+Tu as échangé   
+le å contre     
+l'Ananas æ .    
+Il est juteux !
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.8",
+  icon = "107",
+  text = [[
+Au fait!! Voici 
+un petit cadeau.
+Je te donne     
+cet ç ... C'est 
+un Hibiscus.
+]]
+}
+
+dialog{
+  id = "_treasure.magnifying_lens.9",
+  icon = "108",
+  text = [[
+Tu as échangé   
+l' ç contre une 
+lettre de chèvre
+í ... Super ! 
+]]
+}
+
+dialog{
   id = "_treasure.map.1",
   icon = "70",
   text = [[
@@ -557,14 +808,52 @@ la consulter!
 }
 
 dialog{
-  id = "_treasure.ocarina.1",
-  icon = "0",
-  skip = "all",
+  id = "_treasure.melody_1.1",
+  icon = "45",
   text = [[
-Tu as l'Ocarina! $0
+Tu as appris    
+la Ballade      
+du Poisson-Rêve.
+La jolie chanson
+de Marine est   
+gravée en toi.
+]]
+}
+
+dialog{
+  id = "_treasure.melody_2.1",
+  icon = "46",
+  text = [[
+Tu as appris le 
+Mambo de Manbo ! 
+Quand tu        
+sors de l'eau,  
+joue cet air !
+]]
+}
+
+dialog{
+  id = "_treasure.melody_3.1",
+  icon = "47",
+  text = [[
+Tu as appris    
+la chanson des  
+Grenouilles.    
+C'est cool non ? 
+Tu peux donc    
+insuffler la vie
+dans les objets.
+]]
+}
+
+dialog{
+  id = "_treasure.ocarina.1",
+  icon = "117",
+  text = [[
+Tu as l'Ocarina ! $0
 J'espère que    
 tu pourras jouer
-plusieurs airs!
+plusieurs airs !
 ]]
 }
 
@@ -590,6 +879,15 @@ comme le vent!
 }
 
 dialog{
+  id = "_treasure.photo.1",
+  icon = "116",
+  text = [[
+Tu as récupéré 
+une photo !
+]]
+}
+
+dialog{
   id = "_treasure.piece_of_heart.1",
   icon = "79",
   text = [[
@@ -600,6 +898,7 @@ Fragment de Coeur !
 
 dialog{
   id = "_treasure.piece_of_heart.2",
+  icon = "78",
   text = [[
 Tu as collecté  
 4 Fragments     
@@ -611,15 +910,26 @@ Coeur complet!
 
 dialog{
   id = "_treasure.power_bracelet.1",
-  icon = "16",
-  skip = "all",
+  icon = "33",
   text = [[
 Tu as trouvé    
-le Bracelet!    
-Génial! Tu peux 
+le Bracelet !    
+Génial ! Tu peux 
 soulever des    
 jarres et des   
-pierres!
+pierres !
+]]
+}
+
+dialog{
+  id = "_treasure.power_bracelet.2",
+  icon = "32",
+  text = [[
+Tu as trouvé le 
+Super Bracelet ! 
+Tu pourrais même
+soulever...     
+un éléphant !
 ]]
 }
 
@@ -731,6 +1041,7 @@ des algues !
 
 dialog{
   id = "_treasure.seashell.1",
+  icon = "38",
   text = [[
 Tu as trouvé un
 coquillage !
@@ -752,8 +1063,7 @@ ennemis!
 
 dialog{
   id = "_treasure.shovel.1",
-  icon = "0",
-  skip = "all",
+  icon = "48",
   text = [[
 Tu as la Pelle!$0 
 Maintenant,     
@@ -970,7 +1280,7 @@ Temple des couleurs
 }
 
 dialog{
-  id = "maps.houses.cimetary.witch_house.witch_1",
+  id = "maps.houses.graveyard.witch_house.witch_1",
   text = [[
 C'est une parte de temps !
 ]]
@@ -1221,7 +1531,7 @@ Village des Animaux
 }
 
 dialog{
-  id = "maps.out.south_village.sign_1",
+  id = "maps.out.south_mabe_village.sign_1",
   skip = "all",
   text = [[
 > Cave Flagello 
@@ -1230,7 +1540,7 @@ v Plage Coco
 }
 
 dialog{
-  id = "maps.out.south_village.sign_2",
+  id = "maps.out.south_mabe_village.sign_2",
   skip = "all",
   text = [[
 Attention       
@@ -1368,6 +1678,37 @@ ennemis coriaces.
 }
 
 dialog{
+  id = "scripts.menus.pause_inventory.conch_horn.1",
+  skip = "all",
+  text = [[
+C'est le second 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.coral_triangle.1",
+  skip = "all",
+  text = [[
+C'est le sixième 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.drug.1",
+  icon = "49",
+  skip = "all",
+  text = [[
+Un peu d'énergie
+pour croquer la vie
+à pleines dents !
+]]
+}
+
+dialog{
   id = "scripts.menus.pause_inventory.face_key.1",
   icon = "44",
   skip = "all",
@@ -1391,7 +1732,7 @@ chir des obstacles.
 
 dialog{
   id = "scripts.menus.pause_inventory.fire_rod.1",
-  icon = "36",
+  icon = "118",
   skip = "all",
   text = [[
 Brûle tout !
@@ -1406,6 +1747,38 @@ dialog{
 Les Palmes te
 permettent de nager
 dans l'eau profonde.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.full_moon_cello.1",
+  skip = "all",
+  text = [[
+C'est le premier 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.golden_leaves_counter.1",
+  icon = "115",
+  skip = "all",
+  text = [[
+Retrouvez toutes les
+feuilles d'or et
+apportez-les
+à Richard.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.hammer.1",
+  icon = "114",
+  skip = "all",
+  text = [[
+Retournez et écrasez
+vos ennemis !
 ]]
 }
 
@@ -1445,6 +1818,209 @@ plein de choses!
 }
 
 dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.1",
+  icon = "100",
+  skip = "all",
+  text = [[
+Une magnifique
+peluche en forme
+de Yoshi !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.10",
+  icon = "109",
+  skip = "all",
+  text = [[
+Un balai
+pour faire le
+ménage...
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.11",
+  icon = "110",
+  skip = "all",
+  text = [[
+Un hameçon...
+Mais que faire avec ?
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.12",
+  icon = "111",
+  skip = "all",
+  text = [[
+Un jolie collier...
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.13",
+  icon = "112",
+  skip = "all",
+  text = [[
+Une écaille de sirène.
+Quelle chance !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.14",
+  icon = "113",
+  skip = "all",
+  text = [[
+Une magnifique loupe
+pour te montrer
+ce que tu ne    
+pouvais pas voir
+auparavant !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.2",
+  icon = "101",
+  skip = "all",
+  text = [[
+Un beau beau ruban
+rose...
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.3",
+  icon = "102",
+  skip = "all",
+  text = [[
+De la patée pour
+chien...
+Mais qu'est-ce donc
+que ceci ?
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.4",
+  icon = "103",
+  skip = "all",
+  text = [[
+Un petit lot
+de bananes...
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.5",
+  icon = "104",
+  skip = "all",
+  text = [[
+Un bâton
+donné par un
+singe...
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.6",
+  icon = "105",
+  skip = "all",
+  text = [[
+Hmm le bon
+miel !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.7",
+  icon = "106",
+  skip = "all",
+  text = [[
+Un ananas
+donné par
+un ours !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.8",
+  icon = "107",
+  skip = "all",
+  text = [[
+Mais que faire
+avec cet hibiscus ?
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.magnifying_lens.9",
+  icon = "108",
+  skip = "all",
+  text = [[
+Une petite lettre
+à donner à quelqu'un.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.melody_1.1",
+  icon = "45",
+  skip = "all",
+  text = [[
+Une jolie mélodie
+que Marine vous
+a apprise !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.melody_2.1",
+  icon = "46",
+  skip = "all",
+  text = [[
+Une jolie mélodie
+que Mambo vous
+a apprise !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.melody_3.1",
+  icon = "47",
+  skip = "all",
+  text = [[
+Une jolie mélodie
+que Wart vous
+a apprise !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.ocarina.1",
+  icon = "117",
+  skip = "all",
+  text = [[
+Jouez de la musique 
+et mettez de
+l'ambiance dans 
+votre vie !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.organ_of_evening_calm.1",
+  skip = "all",
+  text = [[
+C'est le septième 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
   id = "scripts.menus.pause_inventory.pegasus_shoes.1",
   icon = "13",
   skip = "all",
@@ -1454,6 +2030,48 @@ grâce aux Bottes de
 Pégase.
 Appuie sur la touche
 Action pour courir.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.photos_counter.1",
+  icon = "116",
+  skip = "all",
+  text = [[
+Collectionnes-les
+en souvenir de
+votre aventure !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.piece_of_heart.1",
+  skip = "all",
+  text = [[
+Collectionnes en 4
+pour récupérer un
+coeur supplémentaire !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.sea_lilys_bell.1",
+  skip = "all",
+  text = [[
+C'est le troisième 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.seashells_counter.1",
+  icon = "38",
+  skip = "all",
+  text = [[
+Collectes-en    
+beaucoup pour   
+faire du troc !
 ]]
 }
 
@@ -1479,6 +2097,16 @@ la cave aux clefs
 }
 
 dialog{
+  id = "scripts.menus.pause_inventory.surf_harp.1",
+  skip = "all",
+  text = [[
+C'est le quatrième 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
   id = "scripts.menus.pause_inventory.sword.1",
   icon = "66",
   skip = "all",
@@ -1496,6 +2124,16 @@ dialog{
 Permet d'ouvrir
 la porte de
 la cave Flagello
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.thunder_drum.1",
+  skip = "all",
+  text = [[
+C'est le huitième 
+instrument des 
+sirènes.
 ]]
 }
 
@@ -1533,9 +2171,29 @@ des héros !
 }
 
 dialog{
+  id = "scripts.menus.pause_inventory.wind_marimba.1",
+  skip = "all",
+  text = [[
+C'est le cinquième 
+instrument des 
+sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.fairy",
+  text = [[
+Voici un        
+petit bonus.    
+Je restaure tous
+tes Coeurs !
+]]
+}
+
+dialog{
   id = "scripts.meta.map.owl_1",
   text = [[
-Hou hou!        
+Hou hou !        
 Cette épée      
 est donc à toi! 
 ... Je comprends
@@ -1545,7 +2203,7 @@ s'agitent tant :
 celui qui doit  
 réveiller le    
 Poisson-Rêve    
-est arrivé!     
+est arrivé !     
 On dit que pour 
 quitter l'île,  
 cette personne  
@@ -1556,6 +2214,129 @@ dans la Forêt
 Enchantée, au   
 Nord du village.
 Je t'y attends. 
+Hou hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_10",
+  text = [[
+Hou ! Je vois que
+tu as lu ce     
+Marbre ancien.  
+Il dit que l'île
+est issue       
+des songes      
+du Poisson-Rêve,
+mais personne   
+n'en est sûr... 
+Qui peut savoir 
+ce que contient 
+un coffre tant  
+qu'il n'a pas   
+été ouvert ?     
+Qui peut deviner
+s'il rêve tant  
+qu'il ne s'est  
+pas réveillé ?   
+Le Poisson-Rêve 
+est le seul qui 
+sait... Suis ton
+instinct. Ainsi,
+tu sauras...    
+Hou hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_11",
+  text = [[
+Hou ! Les        
+monstres de     
+cette île ont   
+peur que le     
+Poisson-Rêve    
+ne s'éveille.   
+Leur pouvoir    
+est bien réel !  
+Ils pourraient  
+conquérir l'île 
+et anéantir     
+leurs ennemis.  
+Va à la tour    
+de la montagne  
+en volant comme 
+un oiseau! Hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_12",
+  text = [[
+Hou hou !        
+Ton périple est 
+ardu mais tu y  
+es presque...   
+Va vers l'Est.  
+Le Poisson du   
+Vent a besoin de
+sommeil. 
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_13",
+  text = [[
+Hou ! Cela       
+fait longtemps  
+qu'on ne s'est  
+rencontrés !     
+Plonge dans la  
+Baie de Martha  
+et entre        
+dans la gueule  
+du Poisson-Chat.
+Plus tu es près 
+du Poisson-Rêve,
+plus son sommeil
+est agité...    
+Tu es dans la   
+bonne voie. Hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_14",
+  text = [[
+Hou ! Cette fille
+a chanté en face
+de l'Oeuf sa    
+"Ballade du     
+Poisson-Rêve".  
+Mais c'est la   
+Chanson d'Eveil !
+Désirait-elle   
+vraiment        
+le réveiller?   
+Le prochain     
+Instrument est  
+dans le Roc     
+de la Tortue.   
+Anime ces rocs. 
+Sois brave !     
+Le Poisson-Rêve 
+attend...       
+Hou hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_15",
+  text = [[
+Hou hou !        
+Le Poisson-Rêve 
+t'attend. Entre 
+dans l'Oeuf...  
 Hou hou!
 ]]
 }
@@ -1589,6 +2370,139 @@ Clé cachée
 dans la Forêt.  
 Le Poisson-Rêve 
 te regarde.Hou!
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_3",
+  text = [[
+Hou !            
+Avec cette clé, 
+va à la Cave    
+Flagello.       
+Prends          
+l'Instrument qui
+y est dissimulé.
+Dépêche-toi !    
+Le Poisson-Rêve 
+attend! Hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_4",
+  text = [[
+Hou ! C'est un   
+des Instruments 
+des Sirènes !    
+Tu es brave et  
+je t'avais      
+sous-estimé...  
+Cet Instrument  
+- utilisé avec  
+les 7 autres -  
+a le pouvoir    
+de réveiller    
+le Poisson-Rêve.
+Collecte ces    
+8 Instruments !  
+Je suis ici pour
+t'indiquer le   
+chemin...       
+Maintenant,     
+va au Marais    
+des Anémones,   
+situé au Nord !  
+Hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_5",
+  text = [[
+Hou ! Ton        
+compagnon       
+a l'air féroce ! 
+N'oublie pas,le 
+2ème Instrument 
+se trouve dans  
+le Marais !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_6",
+  text = [[
+Hou !            
+Le Poisson-Rêve 
+sommeille dans  
+l'Oeuf, là haut.
+Il rêve, rêve !  
+Il se réveillera
+si tu te tiens  
+face à I'Oeuf et
+que tu joues des
+8 Instruments.  
+Ainsi seulement,
+pourras-tu      
+quitter l'île...
+Hou! !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_7",
+  text = [[
+Hou! Combien    
+d'Instruments   
+as-tu collectés ?
+Quand tu joueras
+des Instruments 
+face à l'Oeuf,  
+le Poisson-Rêve 
+se réveillera   
+et tu pourras   
+quitter l'île.  
+Va vite vers les
+Dunes de Yarna ! 
+L'horrible      
+monstre noir    
+des sables      
+t'indiquera     
+le chemin !      
+Hou hou !
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_8",
+  text = [[
+Hou ! Cette clé  
+évoque          
+un poisson      
+remontant       
+une cascade. Va 
+à cette cascade,
+fais disparaître
+l'eau et        
+saute du sommet.
+]]
+}
+
+dialog{
+  id = "scripts.meta.map.owl_9",
+  text = [[
+Hou ! Au Sud     
+et au Nord,     
+se trouvent     
+deux temples.   
+Va d'abord au   
+Sud, là où des  
+Ruines antiques 
+parlent         
+du Poisson-Rêve.
+Tu en sauras    
+sûrement plus...
 ]]
 }
 

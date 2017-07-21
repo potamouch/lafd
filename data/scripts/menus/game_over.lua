@@ -83,8 +83,8 @@ local function initialize_game_over_features(game)
             fade_sprite:set_animation("open")
           end)
         elseif state == "opening_menu" then
-          local bottle_with_fairy = game:get_first_bottle_with(6)
-          if bottle_with_fairy ~= nil then
+          --local bottle_with_fairy = game:get_first_bottle_with(6)
+          if false then
             -- Has a fairy.
             state = "saved_by_fairy"
 
@@ -108,7 +108,7 @@ local function initialize_game_over_features(game)
           else
             -- No fairy: game over.
             state = "menu"
-            sol.audio.play_music("alttp/game_over")
+            sol.audio.play_music("scripts/menus/game_over")
             fairy_sprite:set_xy(76, 112)  -- Cursor.
             cursor_position = 0
             local death_count = game:get_value("death_count") or 0

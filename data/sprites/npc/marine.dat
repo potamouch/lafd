@@ -8,7 +8,6 @@ animation{
     { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }
-
 animation{
   name = "waiting",
   src_image = "npc/marine.png",
@@ -21,7 +20,6 @@ animation{
     { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
   },
 }
-
 animation{
   name = "walking",
   src_image = "npc/marine.png",
@@ -34,4 +32,3 @@ animation{
     { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
   },
 }
-

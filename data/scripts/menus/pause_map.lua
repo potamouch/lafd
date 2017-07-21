@@ -7,6 +7,7 @@ function map_submenu:on_started()
   submenu.on_started(self)
   self.cursor_sprite = sol.sprite.create("menus/pause_cursor")
   self.map_zone_sprite = sol.sprite.create("menus/map_zone")
+  self.map_zone_position_sprite = sol.sprite.create("menus/map_zone_position")
   self.sprites_assignables = {}
   self.sprites_static = {}
   -- Draw the items on a surface.
@@ -42,6 +43,13 @@ function map_submenu:on_draw(dst_surface)
   end
   local map_grid_img = sol.surface.create("menus/outside_map_grid.png")
   map_grid_img:draw_region(0, 0, 128, 128, self.quest_map_surface, 96, 68) 
+  local map_hero_position_x = self.game:get_value("map_hero_position_x")
+  local map_hero_position_y = self.game:get_value("map_hero_position_y")
+  if (map_hero_position_x ~= nil and map_hero_position_y ~= nil) then
+    local x = 104 + map_hero_position_x * 8
+    local y = 75 + map_hero_position_y * 8
+    self.map_zone_position_sprite:draw(self.quest_map_surface, x, y)
+  end
   self.quest_map_surface:draw(dst_surface, 0, 0)
 
   self:draw_save_dialog_if_any(dst_surface)
@@ -56,29 +64,14 @@ function map_submenu:on_command_pressed(command)
   local handled = submenu.on_command_pressed(self, command)
 
   if not handled then
-
     if command == "action" then
       if self.game:get_command_effect("action") == nil and self.game:get_custom_command_effect("action") == "info" then
         self:show_info_message()
         handled = true
       end
-
-    elseif command == "item_1" then
-      if self:is_item_selected() then
-        self:assign_item(1)
-        handled = true
-      end
-
-    elseif command == "item_2" then
-      if self:is_item_selected() then
-        self:assign_item(2)
-        handled = true
-      end
-
     elseif command == "left" then
         self:previous_submenu()
         handled = true
-
     elseif command == "right" then
         self:next_submenu()
         handled = true

@@ -3,6 +3,7 @@ local game = map:get_game()
 -- Outside - Forest
 
 -- Includes scripts
+local fairy_manager = require("scripts/maps/fairy_manager")
 
 -- Variables
 
@@ -16,12 +17,13 @@ map.overlay_step = 1
 
 map.num_destructibles_created = 0
 map.raccoon_warning_done = false
+fairy_manager:init_fairy(map, "fairy")
 
 -- Functions
 
 function map:set_music()
 
-  sol.audio.play_music("mysterious_forest")
+  sol.audio.play_music("maps/out/mysterious_forest")
 
 end
 
@@ -228,5 +230,12 @@ function tarin:on_interaction_item(item)
       end)
     end)
   end
+end
+
+
+function fairy_fountain:on_activated()
+
+  fairy_manager:launch_fairy_if_hero_not_max_life(map, "fairy")
+
 end
 

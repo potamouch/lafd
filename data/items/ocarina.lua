@@ -10,6 +10,7 @@ end
 
 function item:on_using()
 
+  sol.audio.play_sound("items/ocarina")
   self:set_finished()
 
 end

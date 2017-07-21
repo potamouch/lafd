@@ -3,22 +3,22 @@ local inventory_submenu = submenu:new()
 local item_names_assignable = {
   "shield",
   "magic_powder",
+  "ocarina",
   "feather",
-  "bombs_counter",
   "pegasus_shoes",
+  "bombs_counter",
+  "power_bracelet",
+  "shovel",
   "bow",
   "hookshot",
-  "shovel",
+  "hammer",
   "fire_rod",
-  "ocarina",
-  "boomerang",
-  "power_bracelet"
 }
 local item_names_static = {
   "tunic",
   "sword",
   "flippers",
-  "magnifying_lens"
+  "drug"
 }
 
 
@@ -30,6 +30,7 @@ function inventory_submenu:on_started()
   self.sprites_static = {}
   self.captions = {}
   self.counters = {}
+  self.menu_ocarina = false
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
   local row = math.floor(index / 7)
@@ -75,7 +76,7 @@ function inventory_submenu:on_draw(dst_surface)
   local y = 90
   local k = 0
   local x = 64
-  for j = 0, 2 do
+  for j = 0, 3 do
     k = k + 1
     local item = self.game:get_item(item_names_static[k])
     if item:get_variant() > 0 then
@@ -107,6 +108,27 @@ function inventory_submenu:on_draw(dst_surface)
     end
     y = y + 32
   end
+  -- Draw menu ocarina
+  if self.menu_ocarina == true  then
+    local menu_ocarina_img = sol.surface.create("menus/pause_menu_ocarina.png")
+    menu_ocarina_img:draw_region(0, 0, 98, 34, dst_surface, 174, 69) 
+    local melody = self.game:get_item("melody_1")
+    if melody:get_variant() > 0 then
+      local menu_ocarina_img_1 = sol.surface.create("menus/pause_menu_ocarina_1.png")
+      menu_ocarina_img_1:draw_region(0, 0, 98, 34, dst_surface, 184, 78) 
+    end
+    local melody = self.game:get_item("melody_2")
+    if melody:get_variant() > 0 then
+      local menu_ocarina_img_2 = sol.surface.create("menus/pause_menu_ocarina_2.png")
+      menu_ocarina_img_2:draw_region(0, 0, 98, 34, dst_surface, 216, 78)
+    end
+    local melody = self.game:get_item("melody_2")
+    if melody:get_variant() > 0 then
+      local menu_ocarina_img_3 = sol.surface.create("menus/pause_menu_ocarina_3.png")
+      menu_ocarina_img_3:draw_region(0, 0, 98, 34, dst_surface, 248, 78) 
+  end
+  end
+
   -- Draw cursor
   self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
   -- Draw the item being assigned if any.
@@ -124,39 +146,37 @@ function inventory_submenu:on_command_pressed(command)
 
   if not handled then
 
-    if command == "action" then
+    if command == "action"  then
       if self.game:get_command_effect("action") == nil and self.game:get_custom_command_effect("action") == "info" then
         self:show_info_message()
         handled = true
       end
 
     elseif command == "item_1" then
-      if self:is_item_selected() then
+      if self:is_item_selected() or (self.cursor_row == 0 and self.cursor_column > 3)  then
         self:assign_item(1)
         handled = true
       end
-
     elseif command == "item_2" then
-      if self:is_item_selected() then
+      if self:is_item_selected()  or (self.cursor_row == 0 and self.cursor_column > 3) then
         self:assign_item(2)
         handled = true
       end
-
-    elseif command == "left" then
+    elseif command == "left"  then
       if self.cursor_column == 0 then
         self:previous_submenu()
       else
-       if self.cursor_row == 3 and self.cursor_column == 1 then
-          self:previous_submenu()
-       else
         sol.audio.play_sound("cursor")
         self:set_cursor_position(self.cursor_row, self.cursor_column - 1)
-       end
       end
       handled = true
 
-    elseif command == "right" then
-      if self.cursor_column == 3 then
+    elseif command == "right"  then
+      local limit = 3
+      if self.menu_ocarina == true and self.cursor_row == 0 then
+        limit = 6
+      end
+      if self.cursor_column == limit then
         self:next_submenu()
       else
         sol.audio.play_sound("cursor")
@@ -164,22 +184,14 @@ function inventory_submenu:on_command_pressed(command)
       end
       handled = true
 
-    elseif command == "up" then
+    elseif command == "up" and self.cursor_column < 4 then
       sol.audio.play_sound("cursor")
-     if self.cursor_row == 0 and self.cursor_column == 0 then
-        self:set_cursor_position((self.cursor_row + 2) % 4, self.cursor_column)
-     else
       self:set_cursor_position((self.cursor_row + 3) % 4, self.cursor_column)
-     end
       handled = true
 
-    elseif command == "down" then
+    elseif command == "down" and self.cursor_column < 4 then
       sol.audio.play_sound("cursor")
-     if self.cursor_row == 2 and self.cursor_column == 0 then
-        self:set_cursor_position((self.cursor_row + 2) % 4, self.cursor_column)
-     else
-        self:set_cursor_position((self.cursor_row + 1) % 4, self.cursor_column)
-     end
+      self:set_cursor_position((self.cursor_row + 1) % 4, self.cursor_column)
       handled = true
 
     end
@@ -238,9 +250,15 @@ end
 
 function inventory_submenu:get_item_name(row, column)
 
-    if column > 0 then
+    if column > 0 and column < 4 then
       index = row * 3 + column - 1
       item_name = item_names_assignable[index + 1]
+   elseif column == 4 then
+      item_name = "melody_1"
+   elseif column == 5 then
+      item_name = "melody_2"
+   elseif column == 6 then
+      item_name = "melody_3"
    else
       index = row 
       item_name = item_names_static[index + 1]
@@ -266,6 +284,7 @@ function inventory_submenu:assign_item(slot)
 
   local item_name = self:get_item_name(self.cursor_row, self.cursor_column)
   local item = self.game:get_item(item_name)
+  local assignable = false
 
   -- If this item is not assignable, do nothing.
   if not item:is_assignable() then
@@ -275,31 +294,47 @@ function inventory_submenu:assign_item(slot)
   if self:is_assigning_item() then
     self:finish_assigning_item()
   end
+  if item_name == "ocarina" or (self.cursor_row == 0 and self.cursor_column > 3) then
+     if self.menu_ocarina == true then
+        if self.cursor_row == 0 and self.cursor_column > 3 then
+              assignable = true
+        else
+          self.cursor_column = 3
+          self.menu_ocarina = false
+        end
+      else
+        self.menu_ocarina = true
+      end
+  else
+    assignable = true
+  end
 
-  -- Memorize this item.
-  self.item_assigned = item
-  self.item_assigned_sprite = sol.sprite.create("entities/items")
-  self.item_assigned_sprite:set_animation(item_name)
-  self.item_assigned_sprite:set_direction(item:get_variant() - 1)
-  self.item_assigned_destination = slot
+  if assignable then
+    -- Memorize this item.
+      self.item_assigned = item
+      self.item_assigned_sprite = sol.sprite.create("entities/items")
+      self.item_assigned_sprite:set_animation(item_name)
+      self.item_assigned_sprite:set_direction(item:get_variant() - 1)
+      self.item_assigned_destination = slot
 
-  -- Play the sound.
-  sol.audio.play_sound("throw")
+      -- Play the sound.
+      sol.audio.play_sound("throw")
 
-  -- Compute the movement.
-  local x1 = 63 + 32 * self.cursor_column
-  local y1 = 90 + 32 * self.cursor_row
+      -- Compute the movement.
+      local x1 = 63 + 32 * self.cursor_column
+      local y1 = 90 + 32 * self.cursor_row
 
-  local x2 = (slot == 1) and 20 or 72
-  local y2 = 46
+      local x2 = (slot == 1) and 20 or 72
+      local y2 = 46
 
-  self.item_assigned_sprite:set_xy(x1, y1)
-  local movement = sol.movement.create("target")
-  movement:set_target(x2, y2)
-  movement:set_speed(150)
-  movement:start(self.item_assigned_sprite, function()
-    self:finish_assigning_item()
-  end)
+      self.item_assigned_sprite:set_xy(x1, y1)
+      local movement = sol.movement.create("target")
+      movement:set_target(x2, y2)
+      movement:set_speed(300)
+      movement:start(self.item_assigned_sprite, function()
+        self:finish_assigning_item()
+      end)
+  end
 
 end
 

@@ -21,8 +21,8 @@ local item_names_static_right = {
 
 local item_names_static_bottom = {
   "seashells_counter",
-  "seashells_counter",
-  "seashells_counter",
+  "photos_counter",
+  "golden_leaves_counter",
 }
 
 
@@ -95,7 +95,11 @@ function quest_submenu:on_draw(dst_surface)
         local item = self.game:get_item(item_names_static_left[k])
         if item:get_variant() > 0 then
           -- The player has this item: draw it.
-          self.sprites_static_left[k]:set_direction(item:get_variant() - 1)
+          if item_names_static_left[k] == "magnifying_lens" then
+            self.sprites_static_left[k]:set_direction(item:get_variant() - 1)
+          else
+            self.sprites_static_left[k]:set_direction(item:get_variant())
+          end
           self.sprites_static_left[k]:draw(dst_surface, x, y)
         end
       end
@@ -140,13 +144,18 @@ function quest_submenu:on_draw(dst_surface)
       local item = self.game:get_item(item_names_static_bottom[k])
         --if item:get_variant() > 0 then
           -- The player has this item: draw it.
-          self.sprites_static_bottom[k]:set_direction(item:get_variant() )
-          self.sprites_static_bottom[k]:draw(dst_surface, x, y)
           if self.counters[k] ~= nil then
-            self.counters[k]:draw(dst_surface, x + 8, y)
+            if item:get_amount() > 0 then
+              self.sprites_static_bottom[k]:set_direction(item:get_variant() )
+              self.sprites_static_bottom[k]:draw(dst_surface, x, y)
+              self.counters[k]:draw(dst_surface, x + 8, y)
+            end
+          else
+            self.sprites_static_bottom[k]:set_direction(item:get_variant() )
+            self.sprites_static_bottom[k]:draw(dst_surface, x, y)
           end
-        --end
-      end
+        end
+      --end
       x = x + 32
   end
 
@@ -246,17 +255,39 @@ end
 function quest_submenu:show_info_message()
 
   local item_name = self:get_item_name(self.cursor_row, self.cursor_column)
-  local variant = self.game:get_item(item_name):get_variant()
   local game = self.game
   local map = game:get_map()
-
+  local dialog_id = false
   self.game:set_custom_command_effect("action", nil)
   self.game:set_custom_command_effect("attack", nil)
-  game:start_dialog("scripts.menus.pause_inventory." .. item_name .. "." .. variant, function()
-    self.game:set_custom_command_effect("action", "info")
-    self.game:set_custom_command_effect("attack", "save")
-    game:set_dialog_position("auto")  -- Back to automatic position.
-  end)
+  if item_name == "piece_of_heart" then
+    dialog_id =  "scripts.menus.pause_inventory.piece_of_heart.1" 
+  elseif item_name == "seashells_counter" then
+    local item = item_name and self.game:get_item(item_name) or nil
+    if item:get_amount() > 0 then
+      dialog_id =  "scripts.menus.pause_inventory.seashells_counter.1" 
+    end
+  elseif item_name == "photos_counter" then
+    local item = item_name and self.game:get_item(item_name) or nil
+    if item:get_amount() > 0 then
+      dialog_id =  "scripts.menus.pause_inventory.photos_counter.1" 
+    end
+  elseif item_name == "golden_leaves_counter" then
+    local item = item_name and self.game:get_item(item_name) or nil
+    if item:get_amount() > 0 then
+      dialog_id =  "scripts.menus.pause_inventory.golden_leaves_counter.1" 
+    end
+  else
+    local variant = self.game:get_item(item_name):get_variant()
+    dialog_id = "scripts.menus.pause_inventory." .. item_name .. "." .. variant
+  end
+  if dialog_id then
+    game:start_dialog(dialog_id, function()
+      self.game:set_custom_command_effect("action", "info")
+      self.game:set_custom_command_effect("attack", "save")
+     -- game:set_dialog_position("auto")  -- Back to automatic position.
+    end)
+  end
 
 end
 
@@ -275,7 +306,23 @@ function quest_submenu:set_cursor_position(row, column)
       self:set_caption("inventory.caption.item.piece_of_heart."..num_pieces_of_heart)
       self.game:set_custom_command_effect("action", "info")
   elseif item_name =="seashells_counter" then
+    local item = item_name and self.game:get_item(item_name) or nil
+    if item:get_amount() > 0 then
       self:set_caption("inventory.caption.item.seashells_counter.1")
+      self.game:set_custom_command_effect("action", "info")
+    end
+  elseif item_name =="photos_counter" then
+    local item = item_name and self.game:get_item(item_name) or nil
+    if item:get_amount() > 0 then
+      self:set_caption("inventory.caption.item.photos_counter.1")
+      self.game:set_custom_command_effect("action", "info")
+    end
+  elseif item_name =="golden_leaves_counter" then
+    local item = item_name and self.game:get_item(item_name) or nil
+    if item:get_amount() > 0 then
+      self:set_caption("inventory.caption.item.golden_leaves_counter.1")
+      self.game:set_custom_command_effect("action", "info")
+   end
   else
     local item = item_name and self.game:get_item(item_name) or nil
     local variant = item and item:get_variant()

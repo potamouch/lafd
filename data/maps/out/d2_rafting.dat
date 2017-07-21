@@ -5,6 +5,6 @@ properties{
   height = 768,
   min_layer = 0,
   max_layer = 2,
-  tileset = "out/light_world",
+  tileset = "out/outside",
 }
 
