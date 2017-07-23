@@ -1,4 +1,4 @@
--- Lua script of map caves/mabe_village/cave_1_new.
+-- Lua script of map houses/kanalet_castle/kanalet_castle_b1.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

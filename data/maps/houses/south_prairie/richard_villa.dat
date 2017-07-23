@@ -769,7 +769,7 @@ tile{
 }
 
 destination{
-  name = "richard_house_1_B",
+  name = "richard_villa_1_B",
   layer = 1,
   x = 160,
   y = 229,
@@ -777,7 +777,7 @@ destination{
 }
 
 teletransporter{
-  name = "richard_house_2_B",
+  name = "richard_villa_2_B",
   layer = 1,
   x = 152,
   y = 240,

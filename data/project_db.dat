@@ -1,7 +1,7 @@
 map{ id = "caves/forest/cave_1", description = "Cave 1" }
-map{ id = "caves/mabe_village/cave_1", description = "Cave of Mabe village" }
+map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
-map{ id = "caves/prairie/fairys_fountain", description = "Fairy's fountain" }
+map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
@@ -19,6 +19,8 @@ map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
 map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
 map{ id = "houses/graveyard/drugstore", description = "Drugstore" }
 map{ id = "houses/graveyard/witch_house", description = "Witch house" }
+map{ id = "houses/kanalet_castle/kanalet_castle_1f", description = "Kanalet castle 1F" }
+map{ id = "houses/kanalet_castle/kanalet_castle_2f", description = "Kanalet castle 2F" }
 map{ id = "houses/mabe_village/library", description = "Library" }
 map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
@@ -29,8 +31,8 @@ map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
 map{ id = "houses/mabe_village/shop_2", description = "Shop 2" }
 map{ id = "houses/mabe_village/telephone_booth", description = "Telephone booth 1" }
 map{ id = "houses/south_mabe_village/sales_house_o_bananas", description = "Sale's House O' Bananas" }
-map{ id = "houses/south_prairie/ghosts_house", description = "Ghost's house" }
-map{ id = "houses/south_prairie/richard_house", description = "South prairie" }
+map{ id = "houses/south_prairie/ghost_house", description = "Ghost house" }
+map{ id = "houses/south_prairie/richard_villa", description = "Richard villa" }
 map{ id = "houses/west_mt_tamaranch/mr_write_house", description = "Mr. Write house" }
 map{ id = "houses/yarna_desert/bears_house", description = "Bear's house" }
 map{ id = "movies/introduction", description = "Introduction" }
@@ -50,7 +52,6 @@ map{ id = "out/d2_rafting", description = "D2 - Rafting" }
 map{ id = "out/d3_mask_shrine", description = "D3 - Mask shrine" }
 map{ id = "out/d4_yarna_desert", description = "D4 - Yarna desert" }
 
-tileset{ id = "caves/cave", description = "Cave" }
 tileset{ id = "dungeons/blue", description = "dungeon/blue" }
 tileset{ id = "dungeons/brown", description = "dungeon/brown" }
 tileset{ id = "dungeons/dark_brown", description = "dungeon/dark_brown" }
@@ -219,14 +220,19 @@ music{ id = "maps/dungeons/boss_defeated", description = "Boss defeated" }
 music{ id = "maps/dungeons/boss_small", description = "Small boss" }
 music{ id = "maps/dungeons/instrument", description = "Introduction instrument" }
 music{ id = "maps/houses/inside", description = "Inside" }
+music{ id = "maps/houses/kanalet_castle", description = "Kanalet castle" }
 music{ id = "maps/houses/links_awake", description = "Link wakes up" }
+music{ id = "maps/houses/richards_villa", description = "Richard villa" }
 music{ id = "maps/houses/shop", description = "Shop" }
-music{ id = "maps/houses/shop_high", description = "maps/houses/shop_high" }
+music{ id = "maps/houses/shop_high", description = "Shop high" }
 music{ id = "maps/houses/telephone_booth", description = "Telephone booth" }
 music{ id = "maps/houses/trendy_game", description = "Trendy game" }
 music{ id = "maps/others/fairy_fountain", description = "Fairy fountain" }
+music{ id = "maps/others/tarin_and_bees", description = "maps/others/tarin_and_bees" }
+music{ id = "maps/out/animal_village", description = "Animal village" }
 music{ id = "maps/out/let_the_journey_begin", description = "Let the journey begin" }
 music{ id = "maps/out/mabe_village", description = "Mabe village" }
+music{ id = "maps/out/moblins_and_bow_wow", description = "Moblins and bow wow" }
 music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
 music{ id = "maps/out/sword_search", description = "Sword search" }

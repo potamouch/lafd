@@ -17602,16 +17602,8 @@ teletransporter{
   y = 136,
   width = 16,
   height = 16,
-  destination_map = "caves/prairie/fairys_fountain",
+  destination_map = "caves/prairie/fairy_fountain",
   destination = "fairys_fountain_1_B",
-}
-
-destination{
-  name = "tmp",
-  layer = 0,
-  x = 224,
-  y = 197,
-  direction = 1,
 }
 
 tile{

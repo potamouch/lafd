@@ -12166,7 +12166,7 @@ npc{
 }
 
 destination{
-  name = "old_man_house_1_2_A_2",
+  name = "rrichard_villa_1_2_A",
   layer = 0,
   x = 600,
   y = 317,
@@ -12174,14 +12174,14 @@ destination{
 }
 
 teletransporter{
-  name = "old_man_house_1_1_A_2",
+  name = "richard_villa_1_1_A",
   layer = 0,
   x = 592,
   y = 288,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/old_man_house",
-  destination = "old_man_house_1_B",
+  destination_map = "houses/south_prairie/richard_villa",
+  destination = "richard_villa_1_B",
 }
 
 destructible{
@@ -13986,6 +13986,25 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/a4_south_mabe_village",
   destination = "_side",
+}
+
+destination{
+  name = "old_man_house_1_2_A_2",
+  layer = 0,
+  x = 624,
+  y = 733,
+  direction = 3,
+}
+
+teletransporter{
+  name = "ghost_house_1_1_A",
+  layer = 0,
+  x = 616,
+  y = 704,
+  width = 16,
+  height = 16,
+  destination_map = "houses/south_prairie/richard_villa",
+  destination = "richard_villa_1_B",
 }
 
 tile{
