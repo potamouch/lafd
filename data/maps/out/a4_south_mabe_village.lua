@@ -6,7 +6,7 @@ local game = map:get_game()
 
 function map:set_music()
 
-  if game:get_value("step_1_link_search_sword") == true and game:get_value("step_2_link_found_sword") == nil then
+  if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
     sol.audio.play_music("maps/out/overworld")
@@ -26,7 +26,9 @@ end
 function map:on_obtained_treasure(item, variant, savegame_variable)
 
   if item:get_name() == "sword" then
-    sol.audio.play_music("maps/out/let_the_journey_begin")
+    game:set_value("main_quest_step", 4)
+    --sol.audio.play_music("maps/out/let_the_journey_begin")
+    map:set_music()
   end
 
 end
@@ -38,5 +40,17 @@ function owl_1_sensor:on_activated()
   else
     map:owl_appear(1)
   end
+
+end
+
+
+function dungeon_1_lock:on_interaction()
+
+      if game:get_value("main_quest_step") < 6 then
+          game:start_dialog("maps.out.south_mabe_village.dungeon_1_lock")
+      elseif game:get_value("main_quest_step") == 6 then
+        game:set_value("main_quest_step", 7)
+        print("ok")
+      end
 
 end

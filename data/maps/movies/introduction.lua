@@ -18,6 +18,8 @@ local opacity_time = 0
 -- Event called at initialization time,
 -- as soon as this map becomes is loaded.
 function map:on_started()
+
+  game:set_value("main_quest_step", 0)
   -- Fade-in from white to simulate a cloudy mountain top
   map:start_fadein_from_white(6000)
 
@@ -209,7 +211,7 @@ function map:make_marine_go_to_wreck()
      seagull_movement:set_target(0, 0)
      seagull_movement:start(seagull_3)
      sol.timer.start(map, 500, function()
-       sol.audio.play_sound("lseagull")
+       sol.audio.play_sound("seagull")
      end)
    end
   end

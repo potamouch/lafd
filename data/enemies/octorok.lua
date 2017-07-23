@@ -18,7 +18,7 @@ local function go_hero()
 
   local sprite = enemy:get_sprite()
   sprite:set_animation("walking")
-  local movement = sol.movement.create("target")
+  local movement = sol.movement.create("random")
   movement:set_speed(64)
   movement:start(enemy)
 end

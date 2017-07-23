@@ -588,6 +588,42 @@ destructible{
   weight = 1,
 }
 
+custom_entity{
+  name = "Frog_2",
+  layer = 0,
+  x = 120,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/frog",
+  model = "frog",
+}
+
+custom_entity{
+  name = "Frog_3",
+  layer = 0,
+  x = 200,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/frog",
+  model = "frog",
+}
+
+custom_entity{
+  name = "Frog_4",
+  layer = 0,
+  x = 208,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/frog",
+  model = "frog",
+}
+
 tile{
   layer = 1,
   x = 144,

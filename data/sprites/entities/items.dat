@@ -351,7 +351,13 @@ animation{
   name = "magic_powder",
   src_image = "entities/items.png",
   directions = {
-    { x = 112, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 128, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "magic_powders_counter",
+  src_image = "entities/items.png",
+  directions = {
     { x = 128, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
@@ -401,6 +407,13 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 256, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "mushroom",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 112, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

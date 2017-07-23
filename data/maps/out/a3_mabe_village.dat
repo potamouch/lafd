@@ -12496,7 +12496,7 @@ teletransporter{
   y = 664,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/telephone_booth_1",
+  destination_map = "houses/mabe_village/telephone_booth",
   destination = "telephone_booth_1_1_B",
 }
 
@@ -12584,7 +12584,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "houses/mabe_village/shop_2",
-  destination = "shop_1_1_B",
+  destination = "shop_2_1_B",
 }
 
 sensor{
@@ -12963,6 +12963,26 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/marine",
+}
+
+npc{
+  name = "kid_3",
+  layer = 0,
+  x = 96,
+  y = 709,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/kid_2",
+}
+
+npc{
+  name = "kid_4",
+  layer = 0,
+  x = 136,
+  y = 709,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/kid_1",
 }
 
 tile{

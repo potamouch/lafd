@@ -2,7 +2,7 @@ local submenu = require("scripts/menus/pause_submenu")
 local inventory_submenu = submenu:new()
 local item_names_assignable = {
   "shield",
-  "magic_powder",
+  "mushroom",
   "ocarina",
   "feather",
   "pegasus_shoes",
@@ -31,6 +31,12 @@ function inventory_submenu:on_started()
   self.captions = {}
   self.counters = {}
   self.menu_ocarina = false
+  if self.game:has_item("magic_powders_counter") then
+    item_names_assignable[2] = "magic_powders_counter"
+  else
+    item_names_assignable[2] = "mushroom"
+  end
+
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
   local row = math.floor(index / 7)
@@ -42,7 +48,8 @@ function inventory_submenu:on_started()
     local variant = item:get_variant()
     self.sprites_assignables[i] = sol.sprite.create("entities/items")
     self.sprites_assignables[i]:set_animation(item_name)
-    if item:has_amount() then
+    if 
+ item:has_amount() then
       -- Show a counter in this case.
       local amount = item:get_amount()
       local maximum = item:get_max_amount()

@@ -333,6 +333,177 @@ destination{
   direction = 1,
 }
 
+npc{
+  name = "book_1_interaction",
+  layer = 0,
+  x = 96,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_2_interaction",
+  layer = 0,
+  x = 136,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_3_interaction",
+  layer = 0,
+  x = 184,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_4_interaction",
+  layer = 0,
+  x = 224,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_8_interaction",
+  layer = 0,
+  x = 224,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_7_interaction",
+  layer = 0,
+  x = 184,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_6_interaction",
+  layer = 0,
+  x = 136,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "book_5_interaction",
+  layer = 0,
+  x = 96,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+}
+
+custom_entity{
+  name = "book_1",
+  layer = 0,
+  x = 96,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_green",
+}
+
+custom_entity{
+  name = "book_2",
+  layer = 0,
+  x = 136,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_orange",
+}
+
+custom_entity{
+  name = "book_3",
+  layer = 0,
+  x = 184,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_blue",
+}
+
+custom_entity{
+  name = "book_4",
+  layer = 0,
+  x = 224,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_red",
+}
+
+custom_entity{
+  name = "book_8",
+  layer = 0,
+  x = 224,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_orange",
+}
+
+custom_entity{
+  name = "book_9",
+  layer = 0,
+  x = 184,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_green",
+}
+
+custom_entity{
+  name = "book_6",
+  layer = 0,
+  x = 136,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_blue",
+}
+
+custom_entity{
+  name = "book_5",
+  layer = 0,
+  x = 96,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_red",
+}
+
+custom_entity{
+  name = "book_7",
+  layer = 0,
+  x = 160,
+  y = 29,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/book_red",
+}
+
 tile{
   layer = 1,
   x = 144,

@@ -609,26 +609,14 @@ d'énergie magique !
 }
 
 dialog{
-  id = "_treasure.magic_powder.1",
-  icon = "36",
-  text = [[
-Tu as trouvé    
-le Champignon!$0
-Un arôme subtil 
-exalte ton sens 
-de l'odorat.
-]]
-}
-
-dialog{
-  id = "_treasure.magic_powder.2",
+  id = "_treasure.magic_powders_counter.1",
   icon = "37",
   text = [[
 Tu as gagné la  
 Poudre Magique! $0
 Tu peux la      
 saupoudrer sur  
-plein de trucs
+plein de trucs.
 ]]
 }
 
@@ -843,6 +831,18 @@ C'est cool non ?
 Tu peux donc    
 insuffler la vie
 dans les objets.
+]]
+}
+
+dialog{
+  id = "_treasure.mushroom.1",
+  icon = "36",
+  text = [[
+Tu as trouvé    
+le Champignon!$0
+Un arôme subtil 
+exalte ton sens 
+de l'odorat.
 ]]
 }
 
@@ -1189,7 +1189,7 @@ marin !
 }
 
 dialog{
-  id = "items.magic_powder.1",
+  id = "items.mushroom.1",
   skip = "all",
   text = [[
 C'est le champignon que 
@@ -1282,7 +1282,280 @@ Temple des couleurs
 dialog{
   id = "maps.houses.graveyard.witch_house.witch_1",
   text = [[
-C'est une parte de temps !
+C'est une perte 
+de temps !       
+Pour ma poudre, 
+il me faut      
+le Champignon   
+de la forêt.
+]]
+}
+
+dialog{
+  id = "maps.houses.graveyard.witch_house.witch_2",
+  text = [[
+Tu m'apportes   
+le Champignon   
+qui endort. Bon !
+Dare dare !      
+Je te concocte  
+une mixture !!
+]]
+}
+
+dialog{
+  id = "maps.houses.graveyard.witch_house.witch_3",
+  text = [[
+Ça y est!       
+Tout est prêt!  
+Attention,      
+il y en a peu!  
+Veux-tu la      
+tester ici?
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_1.content",
+  text = [[
+Choisis l'objet 
+désiré dans     
+le Sous-Ecran   
+en appuyant     
+sur A ou B.     
+Certains objets 
+remplacent      
+une épée lors   
+d'un combat.    
+Essaie-les tous 
+pour avoir le   
+plus adéquat !
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_1.question",
+  question = "1",
+  text = [[
+CHOISIR     
+LE BON OBJET  
+
+Tu veux le lire ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_2.content",
+  text = [[
+Appuie sur      
+SELECT          
+pour afficher la
+carte de l'île. 
+Les parties     
+sombres sont    
+les endroits    
+que tu n'as pas 
+encore visités. 
+Bouge le curseur
+et appuie sur A 
+pour obtenir le 
+nom du lieu et  
+le message      
+du hibou. Ainsi,
+tu n'auras pas  
+à tout noter !
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_2.question",
+  question = "1",
+  text = [[
+CONSEILS    
+ET CARTE  
+
+Tu veux le lire ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_3.content",
+  text = [[
+Cette technique 
+spéciale        
+se transmet     
+de génération   
+en génération.  
+Maintiens       
+enfoncé         
+le bouton       
+correspondant   
+à l'épée        
+pour augmenter  
+ta force. Quand 
+c'est suffisant,
+relâche-le.     
+Crois-tu que tu 
+peux le faire ?
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_3.question",
+  question = "1",
+  text = [[
+TOUT SUR L'EPEE 
+TOURNOYANTE! 
+
+Tu veux le lire ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_4.content",
+  text = [[
+En maintenant   
+A ou B enfoncé, 
+tu peux parer   
+les attaques    
+et repousser    
+les ennemis.    
+En plus du      
+bouclier        
+standard,       
+il y en a un    
+qui te protège  
+des lasers !
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_4.question",
+  question = "1",
+  text = [[
+DE LA BONNE   
+UTILISATION 
+D'UN BOUCLIER  
+Tu veux le lire ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_5.content",
+  text = [[
+Pour reprendre  
+une bombe       
+au sol, appuie  
+tout de suite   
+sur le bouton   
+la contrôlant.  
+Puis jette-la   
+en appuyant     
+encore sur      
+le même bouton. 
+Connaissais-tu  
+cette astuce ?
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_5.question",
+  question = "1",
+  text = [[
+LES BOMBES
+
+
+Tu veux le lire ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_6.content",
+  text = [[
+Sur Cocolint,   
+il y a des      
+trous Warp.     
+Téléporte-toi   
+en sautant      
+dedans.         
+Replonge dans   
+le trou d'où    
+tu sors pour    
+être téléporté  
+en succession.  
+Tu ne peux pas  
+te téléporter   
+vers un trou    
+qui n'est pas   
+encore apparu   
+à l'écran !
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_6.question",
+  question = "1",
+  text = [[
+TELEPORTATION
+
+
+Tu veux le lire ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_7.question",
+  question = "1",
+  text = [[
+ATLAS DE    
+COCOLINT 
+Choisis un lieu 
+grâce au curseur
+et appuie sur A 
+pour afficher   
+son nom.
+
+
+Tu veux le consulter ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_8.content",
+  text = [[
+Impossible !     
+Il te faut      
+la Loupe        
+pour lire       
+les petits      
+caractères...
+]]
+}
+
+dialog{
+  id = "maps.houses.library.book_8.question",
+  question = "1",
+  text = [[
+MYSTERES    
+ET SECRETS   
+DE COCOLINT 
+Tu veux le lire ?
+Oui
+Non
 ]]
 }
 
@@ -1527,6 +1800,15 @@ dialog{
 Est > Prairie   
 Plus à l'Est    
 Village des Animaux
+]]
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.dungeon_1_lock",
+  text = [[
+Une serrure ici?
+Hum, voyons :   
+Serrure Flagello
 ]]
 }
 
@@ -1795,25 +2077,13 @@ au Grappin.
 }
 
 dialog{
-  id = "scripts.menus.pause_inventory.magic_powder.1",
-  icon = "36",
-  skip = "all",
-  text = [[
-Si tu brandis   
-le Champignon,  
-un arôme subtil 
-se répandra!
-]]
-}
-
-dialog{
-  id = "scripts.menus.pause_inventory.magic_powder.2",
+  id = "scripts.menus.pause_inventory.magic_powders_counter.1",
   icon = "37",
   skip = "all",
   text = [[
 Essaie de la    
 saupoudrer sur  
-plein de choses!
+plein de choses !
 ]]
 }
 
@@ -1995,6 +2265,18 @@ dialog{
 Une jolie mélodie
 que Wart vous
 a apprise !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.mushroom.1",
+  icon = "36",
+  skip = "all",
+  text = [[
+Si tu brandis   
+le Champignon,  
+un arôme subtil 
+se répandra !
 ]]
 }
 

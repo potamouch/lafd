@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeons/light_brown",
+  music = "maps/houses/shop",
 }
 
 tile{
@@ -285,15 +286,6 @@ tile{
   width = 16,
   height = 80,
   pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
 }
 
 tile{
@@ -656,6 +648,42 @@ destructible{
   weight = 1,
 }
 
+npc{
+  name = "witch",
+  layer = 0,
+  x = 160,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/witch",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 173,
+  treasure_name = "mushroom",
+}
+
+pickable{
+  layer = 0,
+  x = 184,
+  y = 173,
+  treasure_name = "magic_powders_counter",
+}
+
+custom_entity{
+  name = "timed_torch_16",
+  layer = 0,
+  x = 200,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -663,16 +691,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-npc{
-  name = "witch",
-  layer = 1,
-  x = 160,
-  y = 141,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/witch",
 }
 
 tile{

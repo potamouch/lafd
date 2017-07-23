@@ -29,7 +29,7 @@ end
 
 function map:init_tarin()
  
-  if game:get_value("forest_raccoon_solved") then
+  if game:get_value("main_quest_step") > 4 then
     tarin:remove()
     tarin_2:remove()
   else
@@ -119,7 +119,7 @@ end
 
 function lost_sensor:on_activated()
 
-  if game:get_value("forest_raccoon_solved") then
+  if game:get_value("main_quest_step") > 4 then
     return
   end
 
@@ -178,7 +178,7 @@ end
 
 function raccoon_lost_warning_sensor:on_activated()
 
-  if not game:get_value("forest_raccoon_solved")
+  if game:get_value("main_quest_step") < 5
       and not map.raccoon_warning_done then
     map.raccoon_warning_done = true
     game:start_dialog("maps.out.forest.raccoon_lost_warning")
@@ -196,7 +196,7 @@ end
 
 function tarin:on_interaction()
 
-  if not game:get_value("forest_raccoon_solved") then
+  if game:get_value("main_quest_step") < 5 then
     game:start_dialog("maps.out.forest.raccoon")
   else
     game:start_dialog("maps.out.forest.tarin")
@@ -206,11 +206,11 @@ end
 
 function tarin:on_interaction_item(item)
 
-  if game:get_value("forest_raccoon_solved") then
+  if game:get_value("main_quest_step") > 4 then
     return
   end
 
-  if item:get_name() == "magic_powder" and item:get_variant() == 2 then
+  if item:get_name() == "magic_powders_counter"  then
     hero:freeze()
     local x, y, layer = tarin:get_position()
     sol.audio.play_sound("explosion")
@@ -222,11 +222,11 @@ function tarin:on_interaction_item(item)
     -- TODO make a movement instead.
     tarin:get_sprite():set_animation("stopped")
     sol.timer.start(map, 1000, function()
-      game:set_value("forest_raccoon_solved", true)
+      game:set_value("main_quest_step", 5)
       hero:unfreeze()
       tarin_2:remove()
       game:start_dialog("maps.out.forest.raccoon_to_tarin", function()
-        sol.audio.play_sound("secret")
+        sol.audio.play_sound("secret_1")
       end)
     end)
   end

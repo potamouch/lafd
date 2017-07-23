@@ -5,6 +5,7 @@ function item:on_created()
 
   self:set_savegame_variable("possession_feather")
   self:set_assignable(true)
+  self:set_sound_when_brandished("treasure_2")
 
 end
 

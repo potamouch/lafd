@@ -253,6 +253,25 @@ tile{
   pattern = "desk.1",
 }
 
+destination{
+  name = "shop_2_1_B",
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 1,
+}
+
+teletransporter{
+  name = "shop_2_2_B",
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "out/a3_mabe_village",
+  destination = "shop_2_2_A",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -260,25 +279,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-destination{
-  name = "library_1_B",
-  layer = 1,
-  x = 160,
-  y = 213,
-  direction = 1,
-}
-
-teletransporter{
-  name = "library_2_B",
-  layer = 1,
-  x = 152,
-  y = 224,
-  width = 16,
-  height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "library_2_A",
 }
 
 tile{

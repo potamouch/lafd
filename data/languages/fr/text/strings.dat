@@ -17,8 +17,7 @@ text{ key = "inventory.caption.item.golden_leaves_counter.1", value = "Feuilles 
 text{ key = "inventory.caption.item.hammer.1", value = "Marteau" }
 text{ key = "inventory.caption.item.hookshot.1", value = "Grappin" }
 text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
-text{ key = "inventory.caption.item.magic_powder.1", value = "Champignon magique" }
-text{ key = "inventory.caption.item.magic_powder.2", value = "Poudre magique" }
+text{ key = "inventory.caption.item.magic_powders_counter.1", value = "Poudre magique" }
 text{ key = "inventory.caption.item.magnifying_lens.1", value = "Yoshi" }
 text{ key = "inventory.caption.item.magnifying_lens.10", value = "Balai" }
 text{ key = "inventory.caption.item.magnifying_lens.11", value = "Hameçon" }
@@ -36,6 +35,7 @@ text{ key = "inventory.caption.item.magnifying_lens.9", value = "Lettre" }
 text{ key = "inventory.caption.item.melody_1.1", value = "Ballade du poisson-rêve" }
 text{ key = "inventory.caption.item.melody_2.1", value = "Mambo de Mambo" }
 text{ key = "inventory.caption.item.melody_3.1", value = "Chanson des grenouilles" }
+text{ key = "inventory.caption.item.mushroom.1", value = "Champignon" }
 text{ key = "inventory.caption.item.ocarina.1", value = "Ocarina" }
 text{ key = "inventory.caption.item.organ_of_evening_calm.1", value = "Orgue de l'embellie" }
 text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }

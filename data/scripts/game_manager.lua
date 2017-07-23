@@ -67,8 +67,7 @@ end
 
     -- Here, self is the destructible object.
     local game = self:get_game()
-    local sprite = self:get_sprite() 
-    if sprite:get_name() ~= "bush" then
+    if self:get_can_be_cut() == false then
       if not game:has_ability("lift") then
         game:start_dialog("_cannot_lift_too_heavy");
       else

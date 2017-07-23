@@ -7740,8 +7740,8 @@ enemy{
 enemy{
   name = "sea_urchin_6",
   layer = 0,
-  x = 540,
-  y = 661,
+  x = 532,
+  y = 669,
   direction = 3,
   breed = "sea_urchin",
 }
@@ -7812,6 +7812,135 @@ destination{
   x = 816,
   y = 469,
   direction = 3,
+}
+
+enemy{
+  layer = 0,
+  x = 328,
+  y = 117,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 344,
+  y = 181,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 176,
+  y = 221,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 320,
+  y = 309,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 432,
+  y = 253,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 144,
+  y = 437,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 485,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 568,
+  y = 45,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 632,
+  y = 141,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 600,
+  y = 61,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 832,
+  y = 69,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 880,
+  y = 101,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 792,
+  y = 141,
+  direction = 0,
+  breed = "octorok",
+}
+
+npc{
+  name = "dungeon_1_lock",
+  layer = 0,
+  x = 864,
+  y = 333,
+  direction = 3,
+  subtype = 0,
+}
+
+enemy{
+  layer = 0,
+  x = 640,
+  y = 469,
+  direction = 0,
+  breed = "octorok",
+}
+
+enemy{
+  layer = 0,
+  x = 600,
+  y = 573,
+  direction = 0,
+  breed = "octorok",
 }
 
 tile{

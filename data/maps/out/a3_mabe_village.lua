@@ -8,7 +8,7 @@ local game = map:get_game()
 
 function map:set_music()
   
-  if map:get_game():get_value("step_1_link_search_sword") == true and map:get_game():get_value("step_2_link_found_sword") == nil then
+  if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
     sol.audio.play_music("maps/out/mabe_village")
@@ -18,7 +18,7 @@ end
 
 function map:init_marine()
  
-  if map:get_game():get_value("step_2_link_found_sword") == false  then
+  if game:get_value("main_quest_step") < 4  then
     marine:set_visible(false)
   else
     marine:get_sprite():set_animation("waiting")
@@ -48,9 +48,13 @@ end
 
 function map:on_started(destination)
 
+  if   game:get_value("main_quest_step") == 2 then
+    game:set_value("main_quest_step", 3)
+  end
   map:set_music()
   map:init_marine()
   grand_ma:get_sprite():set_animation("walking")
+
 
 end
 

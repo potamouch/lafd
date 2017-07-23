@@ -8,9 +8,9 @@ local game = map:get_game()
 
 function map:set_music()
 
-  if game:get_value("step_1_link_search_sword") == nil  then
+  if game:get_value("main_quest_step") == 0  then
     sol.audio.play_music("maps/houses/links_awake")
-  elseif game:get_value("step_1_link_search_sword") == true and game:get_value("step_2_link_found_sword") == nil then
+  elseif game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
     sol.audio.play_music("maps/houses/inside")
@@ -37,6 +37,7 @@ function map:jump_from_bed()
   bed:get_sprite():set_animation("empty_open")
   game:set_starting_location("houses/mabe_village/marine_house", "marine_house_1_B")
   sol.audio.play_sound("hero_lands")
+  game:set_value("main_quest_step", 1)
 
 end
 
@@ -56,7 +57,7 @@ end
 
 function map:init_tarin()
  
-  if game:get_value("step_2_link_found_sword") == true  then
+  if game:get_value("main_quest_step") > 3  then
     tarin:set_visible(false)
   else
     tarin:get_sprite():set_animation("waiting")
@@ -69,6 +70,7 @@ function  map:talk_to_tarin()
   if game:has_item("shield") == false then
     game:start_dialog("maps.houses.mabe_village.marine_house.tarin_1", game:get_player_name(), function()
       hero:start_treasure("shield", 1, "schield")
+      game:set_value("main_quest_step", 2)
     end)
   else
       game:start_dialog("maps.houses.mabe_village.marine_house.tarin_2", game:get_player_name())
@@ -78,7 +80,7 @@ end
 
 function map:init_marine()
  
-  if game:get_value("step_2_link_found_sword") == true  then
+  if game:get_value("main_quest_step") > 3  then
     marine:set_visible(false)
   else
     marine:get_sprite():set_animation("waiting")
@@ -103,7 +105,6 @@ function map:on_started(destination)
   map:init_tarin()
   if destination:get_name() == "start_position"  then
     -- the intro scene is playing
-    game:set_value("link_search_sword", false)
     game:set_hud_enabled(true)
     game:set_pause_allowed(false)
     snores:get_sprite():set_ignore_suspend(true)
