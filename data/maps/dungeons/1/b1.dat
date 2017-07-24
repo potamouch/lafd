@@ -974,39 +974,6 @@ tile{
   pattern = "floor.1-Alpha",
 }
 
-teletransporter{
-  name = "dungeon_1_stairs_2_A",
-  layer = 0,
-  x = 576,
-  y = 0,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "dungeon_1_stairs_1_B",
-}
-
-teletransporter{
-  name = "dungeon_1_stairs_4_A",
-  layer = 0,
-  x = 32,
-  y = 0,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "dungeon_1_stairs_3_B",
-}
-
-teletransporter{
-  name = "dungeon_1_stairs_6_A",
-  layer = 0,
-  x = 576,
-  y = 256,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "dungeon_1_stairs_5_B",
-}
-
 dynamic_tile{
   name = "invisible_tile_1",
   layer = 0,
@@ -1016,6 +983,50 @@ dynamic_tile{
   width = 16,
   height = 232,
   enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_4",
+  layer = 0,
+  x = 32,
+  y = -8,
+  pattern = "1572",
+  width = 16,
+  height = 232,
+  enabled_at_start = true,
+}
+
+teletransporter{
+  name = "stairs_2_A",
+  layer = 0,
+  x = 576,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "stairs_1_B",
+}
+
+teletransporter{
+  name = "stairs_4_A",
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "stairs_3_B",
+}
+
+teletransporter{
+  name = "stairs_6_A",
+  layer = 0,
+  x = 576,
+  y = 256,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "stairs_5_B",
 }
 
 dynamic_tile{
@@ -1037,17 +1048,6 @@ dynamic_tile{
   pattern = "1572",
   width = 16,
   height = 120,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "invisible_tile_4",
-  layer = 0,
-  x = 32,
-  y = -8,
-  pattern = "1572",
-  width = 16,
-  height = 232,
   enabled_at_start = true,
 }
 
@@ -1096,7 +1096,7 @@ enemy{
 }
 
 destination{
-  name = "dungeon_1_stairs_2_B",
+  name = "stairs_2_B",
   layer = 1,
   x = 584,
   y = 29,
@@ -1104,7 +1104,7 @@ destination{
 }
 
 destination{
-  name = "dungeon_1_stairs_4_B",
+  name = "stairs_4_B",
   layer = 1,
   x = 40,
   y = 29,
@@ -1112,7 +1112,7 @@ destination{
 }
 
 destination{
-  name = "dungeon_1_stairs_6_B",
+  name = "stairs_6_B",
   layer = 1,
   x = 584,
   y = 285,
