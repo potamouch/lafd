@@ -95,7 +95,6 @@ sprite{ id = "enemies/pike_detect", description = "Pike detect" }
 sprite{ id = "enemies/pike_fixed", description = "Pike fixed" }
 sprite{ id = "enemies/rolling_spike_trap", description = "Rolling spike" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
-sprite{ id = "enemies/small_bowwow", description = "Small Bowwow" }
 sprite{ id = "enemies/stalfos_blue", description = "Stalfos blue" }
 sprite{ id = "enemies/stalfos_grey", description = "Stalfos grey" }
 sprite{ id = "enemies/stalfos_red", description = "Stalfos red" }
@@ -190,15 +189,19 @@ sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
 sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
+sprite{ id = "npc/bowwow", description = "Bowwow" }
 sprite{ id = "npc/fairy", description = "Fairy" }
 sprite{ id = "npc/frog", description = "Frog" }
 sprite{ id = "npc/grand_ma", description = "Grand-mother" }
 sprite{ id = "npc/kid_1", description = "Kid 1" }
 sprite{ id = "npc/kid_2", description = "Kid 2" }
+sprite{ id = "npc/kid_3", description = "Kid 3" }
+sprite{ id = "npc/kid_4", description = "Kid 4" }
 sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/monkey", description = "Monkey" }
 sprite{ id = "npc/owl", description = "Owl" }
 sprite{ id = "npc/seagull", description = "Seagull" }
+sprite{ id = "npc/small_bowwow", description = "Small bowwow" }
 sprite{ id = "npc/tarkin", description = "Tarkin" }
 sprite{ id = "npc/wart", description = "Wart" }
 sprite{ id = "npc/warts_brother", description = "Wart's brother" }
@@ -262,6 +265,8 @@ sound{ id = "enemies/sea_urchin_2", description = "enemies/sea_urchin_2" }
 sound{ id = "enemy_hurt", description = "Enemy hurt" }
 sound{ id = "enemy_killed", description = "Enemy killed" }
 sound{ id = "explosion", description = "Explosion" }
+sound{ id = "fairy_heal", description = "fairy_heal" }
+sound{ id = "fairy_vanish", description = "fairy_vanish" }
 sound{ id = "flame", description = "flame" }
 sound{ id = "hammer", description = "Hammer" }
 sound{ id = "heart", description = "Heart" }
@@ -375,7 +380,6 @@ item{ id = "wind_marimba", description = "Wind marimba" }
 enemy{ id = "blob_green", description = "Blob green" }
 enemy{ id = "blob_red", description = "Blob red" }
 enemy{ id = "boss_small_1", description = "Small boss 1" }
-enemy{ id = "bowwow", description = "Bow wow" }
 enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
@@ -392,13 +396,13 @@ enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }
 enemy{ id = "rolling_spike_trap", description = "Rolling spike trap" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
-enemy{ id = "small_bowwow", description = "Small Bow wow" }
 enemy{ id = "stalfos_blue", description = "Stalfos blue" }
 enemy{ id = "stalfos_grey", description = "Stalfos grey" }
 enemy{ id = "stalfos_red", description = "Stalfos red" }
 enemy{ id = "vegas", description = "Vegas" }
 enemy{ id = "zol_green", description = "Zol green" }
 
+entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "torch", description = "Torch" }

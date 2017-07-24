@@ -658,20 +658,6 @@ npc{
   sprite = "npc/witch",
 }
 
-pickable{
-  layer = 0,
-  x = 136,
-  y = 173,
-  treasure_name = "mushroom",
-}
-
-pickable{
-  layer = 0,
-  x = 184,
-  y = 173,
-  treasure_name = "magic_powders_counter",
-}
-
 custom_entity{
   name = "timed_torch_16",
   layer = 0,

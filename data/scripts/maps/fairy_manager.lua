@@ -1,8 +1,7 @@
 local fairy_manager = {}
-local music_name = sol.audio.get_music()
 
 -- Launch fairy if hero is injured
-function fairy_manager:launch_fairy_if_hero_not_max_life(map, fairy_name)
+function fairy_manager:launch_fairy_if_hero_not_max_life(map, fairy_name, music_name)
 
     local game = map:get_game()
     local max_life = game:get_max_life()
@@ -17,7 +16,7 @@ function fairy_manager:launch_fairy_if_hero_not_max_life(map, fairy_name)
       fairy:get_sprite():fade_in(100, function()
         game:start_dialog("scripts.meta.map.fairy", function()
           local hearts = {}
-          fairy_manager:create_hearts(map, 0, fairy_name, hearts)
+          fairy_manager:create_hearts(map, 0, fairy_name, hearts, music_name)
         end)
       end)
   end
@@ -25,7 +24,7 @@ function fairy_manager:launch_fairy_if_hero_not_max_life(map, fairy_name)
 end
 
 -- Creates hearts around the hero and launch animation
-function fairy_manager:create_hearts(map, index, fairy_name, hearts)
+function fairy_manager:create_hearts(map, index, fairy_name, hearts, music_name)
 
         local hero = map:get_hero()
         local x, y, layer = hero:get_position()
@@ -72,17 +71,17 @@ function fairy_manager:create_hearts(map, index, fairy_name, hearts)
                 direction = 0
               })
               index = index + 1
-              sol.audio.play_sound("picked_item")
-              fairy_manager:create_hearts(map, index, fairy_name, hearts)
+              sol.audio.play_sound("fairy_heal")
+              fairy_manager:create_hearts(map, index, fairy_name, hearts, music_name)
             else
-              fairy_manager:animate_hearts(map, fairy_name, hearts)
+              fairy_manager:animate_hearts(map, fairy_name, hearts, music_name)
             end
         end)
 end
 
 
 -- Animate Hearts and finished the care
-function fairy_manager:animate_hearts(map, fairy_name, hearts)
+function fairy_manager:animate_hearts(map, fairy_name, hearts, music_name)
 
   local radius = 40
   local hero = map:get_hero()
@@ -123,7 +122,7 @@ function fairy_manager:animate_hearts(map, fairy_name, hearts)
     m:set_ignore_obstacles(true)
     if index == 7 then
       m:start(heart, function() 
-              fairy_manager:get_life_and_disappear(map, fairy_name, hearts)
+              fairy_manager:get_life_and_disappear(map, fairy_name, hearts, music_name)
       end)
     else
       m:start(heart)
@@ -131,7 +130,7 @@ function fairy_manager:animate_hearts(map, fairy_name, hearts)
   end
 end
 
-function fairy_manager:get_life_and_disappear(map, fairy_name, hearts)
+function fairy_manager:get_life_and_disappear(map, fairy_name, hearts, music_name)
 
   local game = map:get_game()
   local max_life = game:get_max_life()
@@ -141,7 +140,8 @@ function fairy_manager:get_life_and_disappear(map, fairy_name, hearts)
     local heart  = hearts[index]
     heart:remove()
   end
-  game:add_life(max_life) 
+  game:add_life(max_life)
+  sol.audio.play_sound("fairy_vanish")
   fairy:get_sprite():fade_out(100, function()
     hero:unfreeze()
     sol.audio.play_music(music_name)

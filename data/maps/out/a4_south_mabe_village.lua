@@ -19,7 +19,8 @@ end
 function map:on_started(destination)
 
   map:set_music()
-  owl:set_visible(false)
+  owl_1:set_visible(false)
+  owl_4:set_visible(false)
 
 end
 
@@ -43,6 +44,14 @@ function owl_1_sensor:on_activated()
 
 end
 
+function owl_4_sensor:on_activated()
+
+  if game:get_value("main_quest_step") == 8  and game:get_value("owl_4") ~= true then
+    map:owl_appear(4)
+  end
+
+end
+
 
 function dungeon_1_lock:on_interaction()
 
@@ -50,7 +59,6 @@ function dungeon_1_lock:on_interaction()
           game:start_dialog("maps.out.south_mabe_village.dungeon_1_lock")
       elseif game:get_value("main_quest_step") == 6 then
         game:set_value("main_quest_step", 7)
-        print("ok")
       end
 
 end

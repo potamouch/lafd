@@ -12596,14 +12596,6 @@ sensor{
   height = 16,
 }
 
-enemy{
-  layer = 0,
-  x = 388,
-  y = 525,
-  direction = 3,
-  breed = "bowwow",
-}
-
 destination{
   name = "shop_1_2_A",
   layer = 0,
@@ -12970,9 +12962,9 @@ npc{
   layer = 0,
   x = 96,
   y = 709,
-  direction = 1,
+  direction = 0,
   subtype = 1,
-  sprite = "npc/kid_2",
+  sprite = "npc/kid_3",
 }
 
 npc{
@@ -12980,9 +12972,57 @@ npc{
   layer = 0,
   x = 136,
   y = 709,
-  direction = 1,
+  direction = 2,
   subtype = 1,
-  sprite = "npc/kid_1",
+  sprite = "npc/kid_4",
+}
+
+sensor{
+  name = "moblins_start_1_sensor",
+  layer = 0,
+  x = 112,
+  y = 757,
+  width = 32,
+  height = 16,
+}
+
+sensor{
+  name = "moblins_stop_1_sensor",
+  layer = 0,
+  x = 56,
+  y = 653,
+  width = 144,
+  height = 16,
+}
+
+sensor{
+  name = "moblins_start_2_sensor",
+  layer = 0,
+  x = 56,
+  y = 669,
+  width = 144,
+  height = 16,
+}
+
+sensor{
+  name = "moblins_stop_2_sensor",
+  layer = 0,
+  x = 112,
+  y = 773,
+  width = 32,
+  height = 16,
+}
+
+custom_entity{
+  name = "bowwow",
+  layer = 0,
+  x = 392,
+  y = 517,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/bowwow",
+  model = "bowwow",
 }
 
 tile{

@@ -912,13 +912,34 @@ destructible{
   damage_on_enemies = 2,
 }
 
-enemy{
-  name = "small_bow_bow",
+npc{
+  name = "meow_meow",
   layer = 1,
-  x = 368,
+  x = 104,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/grand_ma",
+}
+
+npc{
+  name = "small_bowwow_1",
+  layer = 1,
+  x = 96,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/small_bowwow",
+}
+
+npc{
+  name = "small_bowwow_2",
+  layer = 1,
+  x = 344,
   y = 157,
   direction = 3,
-  breed = "small_bowwow",
+  subtype = 1,
+  sprite = "npc/small_bowwow",
 }
 
 tile{

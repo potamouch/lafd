@@ -15,6 +15,21 @@ function enemy:on_restarted()
   m:start(self)
   local direction4 = math.random(4) - 1
   self:go(direction4)
+
+end
+
+function enemy:on_movement_finished(movement)
+
+  local direction4 = math.random(4) - 1
+  self:go(direction4)
+
+end
+
+function enemy:on_obstacle_reached(movement)
+
+  local direction4 = math.random(4) - 1
+  self:go(direction4)
+
 end
 
 -- Makes the enemy walk towards a direction.

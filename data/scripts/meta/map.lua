@@ -5,7 +5,7 @@ function map_meta:owl_appear(step)
 
   local game = self:get_game()
   local hero = self:get_entity("hero")
-  local owl = self:get_entity("owl")
+  local owl = self:get_entity("owl_"..step)
   
   game:set_pause_allowed(false)
   owl:set_visible(true)

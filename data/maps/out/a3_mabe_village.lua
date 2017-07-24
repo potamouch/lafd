@@ -35,14 +35,32 @@ end
 
 function  map:talk_to_grand_ma()
 
-  game:start_dialog("maps.out.mabe_village.grand_ma_1")
+    if map:get_game():get_value("main_quest_step") < 8 then
+      game:start_dialog("maps.out.mabe_village.grand_ma_1")
+    else
+      game:start_dialog("maps.out.mabe_village.grand_ma_2")
+    end
+
+
 
 end
 
 function  map:talk_to_kids() 
 
-  local rand = math.random(4)
+  local rand = math.random(11)
   game:start_dialog("maps.out.mabe_village.kids_" .. rand)
+
+end
+
+function map:get_alert_molblins()
+
+  local hero = map:get_hero()
+  hero:freeze()
+  sol.audio.play_music("maps/out/moblins_and_bow_wow")
+  game:start_dialog("maps.out.mabe_village.kids_alert_moblins", function()
+      self:get_game():set_value("main_quest_step", 9)
+      hero:unfreeze()
+  end)
 
 end
 
@@ -78,8 +96,63 @@ function kid_2:on_interaction()
 
 end
 
+function kid_3:on_interaction()
+
+    if map:get_game():get_value("main_quest_step") == 9 then
+      game:start_dialog("maps.out.mabe_village.kids_alert_moblins")
+    else
+      map:talk_to_kids()
+    end
+
+end
+
+function kid_4:on_interaction()
+
+    if map:get_game():get_value("main_quest_step") == 9 then
+      game:start_dialog("maps.out.mabe_village.kids_alert_moblins")
+    else
+      map:talk_to_kids()
+    end
+
+end
+
 function marine:on_interaction()
 
       map:talk_to_marine()
+
+end
+
+function moblins_start_1_sensor:on_activated()
+
+  if map:get_game():get_value("main_quest_step") == 8 then
+    map:get_alert_molblins()
+  end
+
+end
+
+function moblins_start_2_sensor:on_activated()
+
+  if map:get_game():get_value("main_quest_step") == 8 then
+    map:get_alert_molblins()
+  end
+
+end
+
+
+function moblins_stop_1_sensor:on_activated()
+
+  if map:get_game():get_value("main_quest_step") == 9 then
+    self:get_game():set_value("main_quest_step", 8)
+    map:set_music()
+  end
+
+end
+
+function moblins_stop_2_sensor:on_activated()
+
+  if map:get_game():get_value("main_quest_step") == 9 then
+    self:get_game():set_value("main_quest_step", 8)
+    map:set_music()
+  end
 
 end

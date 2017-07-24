@@ -13,10 +13,4 @@ function enemy:on_created()
 
 end
 
---enemy:set_random_treasures(
---  { "heart", 1 },
- -- { "rupee", 1 },
---  { "rupee", 2 }
---)
-
 enemy:set_layer_independent_collisions(true)
