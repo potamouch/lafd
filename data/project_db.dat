@@ -17,6 +17,11 @@ map{ id = "dungeons/7/3f", description = "Dungeon 7 3F" }
 map{ id = "dungeons/7/4f", description = "Dungeon 7 4F" }
 map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
 map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
+map{ id = "examples/beach_store", description = "Beach Store" }
+map{ id = "examples/cave_store", description = "Cave Store" }
+map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle outside" }
+map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
+map{ id = "examples/outside_store", description = "Outside Store" }
 map{ id = "houses/graveyard/drugstore", description = "Drugstore" }
 map{ id = "houses/graveyard/witch_house", description = "Witch house" }
 map{ id = "houses/kanalet_castle/kanalet_castle_1f", description = "Kanalet castle 1F" }
@@ -206,6 +211,7 @@ sprite{ id = "npc/tarkin", description = "Tarkin" }
 sprite{ id = "npc/wart", description = "Wart" }
 sprite{ id = "npc/warts_brother", description = "Wart's brother" }
 sprite{ id = "npc/witch", description = "Witch" }
+sprite{ id = "work/960x768", description = "960x768" }
 
 music{ id = "maps/caves/cave", description = "Cave" }
 music{ id = "maps/dungeons/1/dungeon", description = "Dungeon 1" }
