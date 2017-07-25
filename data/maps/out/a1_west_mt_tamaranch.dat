@@ -6094,6 +6094,24 @@ tile{
   pattern = "910",
 }
 
+tile{
+  layer = 0,
+  x = 48,
+  y = 608,
+  width = 8,
+  height = 8,
+  pattern = "53",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "53",
+}
+
 destructible{
   layer = 0,
   x = 392,
