@@ -236,6 +236,7 @@ music{ id = "maps/out/animal_village", description = "Animal village" }
 music{ id = "maps/out/let_the_journey_begin", description = "Let the journey begin" }
 music{ id = "maps/out/mabe_village", description = "Mabe village" }
 music{ id = "maps/out/moblins_and_bow_wow", description = "Moblins and bow wow" }
+music{ id = "maps/out/mt_tamaranch", description = "Mt Tamaranch" }
 music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
 music{ id = "maps/out/sword_search", description = "Sword search" }
