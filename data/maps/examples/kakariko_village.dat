@@ -14978,7 +14978,7 @@ destructible{
 destructible{
   layer = 0,
   x = 232,
-  y = 877,
+  y = 901,
   sprite = "entities/bush01",
   can_be_cut = true,
   can_regenerate = true,
@@ -16980,8 +16980,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 232,
-  y = 304,
+  x = 216,
+  y = 288,
   width = 24,
   height = 8,
   pattern = "5979",

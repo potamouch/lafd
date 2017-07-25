@@ -15529,7 +15529,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 120,
+  x = 88,
   y = 301,
   sprite = "entities/grass01",
   can_be_cut = true,
