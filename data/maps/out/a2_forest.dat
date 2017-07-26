@@ -11411,13 +11411,6 @@ teletransporter{
   destination = "_side",
 }
 
-pickable{
-  layer = 0,
-  x = 560,
-  y = 509,
-  treasure_name = "feather",
-}
-
 tile{
   layer = 1,
   x = 536,

@@ -16348,6 +16348,36 @@ destination{
   direction = 1,
 }
 
+teletransporter{
+  name = "to_b1",
+  layer = 0,
+  x = -16,
+  y = -16,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/b1_egg_of_the_dream_fish",
+  destination = "_side",
+}
+
+tile{
+  layer = 2,
+  x = -8,
+  y = -32,
+  width = 96,
+  height = 40,
+  pattern = "522",
+}
+
+tile{
+  layer = 2,
+  x = -8,
+  y = -48,
+  width = 96,
+  height = 16,
+  pattern = "521",
+}
+
 tile{
   layer = 2,
   x = 648,
@@ -16940,15 +16970,6 @@ tile{
   width = 8,
   height = 40,
   pattern = "520",
-}
-
-tile{
-  layer = 2,
-  x = -8,
-  y = -32,
-  width = 96,
-  height = 40,
-  pattern = "511",
 }
 
 tile{
