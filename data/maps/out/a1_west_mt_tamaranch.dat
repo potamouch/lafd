@@ -3045,8 +3045,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 464,
-  y = 632,
+  x = 384,
+  y = 640,
   width = 16,
   height = 16,
   pattern = "963",
@@ -8158,7 +8158,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#maps.out.mabe_village.sign_1",
+  behavior = "dialog#",
 }
 
 destructible{

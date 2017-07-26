@@ -49,6 +49,7 @@ map{ id = "out/b1_egg_of_the_dream_fish", description = "B1 - Egg of the dream f
 map{ id = "out/b2_graveyard", description = "B2 - Graveyard" }
 map{ id = "out/b3_prairie", description = "B3 - Prairie" }
 map{ id = "out/b4_south_prairie", description = "B4 - South prairie" }
+map{ id = "out/c1_mambos_cave", description = "C1 - Mambo's cave" }
 map{ id = "out/c2_kanalet_castle", description = "C2 - Kanalet castle" }
 map{ id = "out/c3_east_prairie", description = "C3 - East prairie" }
 map{ id = "out/c4_martha_bay", description = "C4 - Baie de Martha" }
