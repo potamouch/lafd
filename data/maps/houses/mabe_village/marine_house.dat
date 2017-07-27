@@ -542,6 +542,23 @@ destructible{
   weight = 1,
 }
 
+pickable{
+  layer = 0,
+  x = 152,
+  y = 173,
+  treasure_name = "sword",
+}
+
+teletransporter{
+  layer = 0,
+  x = 168,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "dungeon_1_1_B",
+}
+
 tile{
   layer = 1,
   x = 144,

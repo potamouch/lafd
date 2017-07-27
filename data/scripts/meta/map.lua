@@ -1,7 +1,7 @@
 local map_meta = sol.main.get_metatable("map")
 
 
-function map_meta:owl_appear(step)
+function map_meta:owl_appear(step, callback)
 
   local game = self:get_game()
   local hero = self:get_entity("hero")
@@ -32,9 +32,13 @@ function map_meta:owl_appear(step)
       m2:set_ignore_obstacles(true)
       m2:start(owl, function()
         owl:set_visible(false)
-        hero:unfreeze()
-        game:set_pause_allowed(true)
-        self:set_music()
+        if callback ~= nil then
+          callback()
+        else
+          hero:unfreeze()
+          --game:set_pause_allowed(true)
+          --self:set_music()
+        end
       end)
     end)      
   end)

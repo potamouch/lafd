@@ -7889,6 +7889,14 @@ sensor{
   height = 48,
 }
 
+destination{
+  name = "tmp",
+  layer = 0,
+  x = 584,
+  y = 621,
+  direction = 1,
+}
+
 tile{
   layer = 2,
   x = 144,

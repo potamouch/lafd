@@ -247,7 +247,6 @@ music{ id = "maps/out/mt_tamaranch", description = "Mt Tamaranch" }
 music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
 music{ id = "maps/out/sword_search", description = "Sword search" }
-music{ id = "maps/out/your_sword", description = "Your sword" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
 music{ id = "scripts/menus/player_select", description = "Player select" }
 music{ id = "scripts/menus/the_storm", description = "The storm" }
