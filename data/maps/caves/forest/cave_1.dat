@@ -6,89 +6,80 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "dungeons/light_brown",
+  tileset = "dungeons/dark_brown",
   music = "maps/caves/cave",
 }
 
 tile{
   layer = 0,
-  x = 160,
+  x = 144,
+  y = 208,
+  width = 128,
+  height = 32,
+  pattern = "floor.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
   y = 32,
-  width = 144,
-  height = 48,
-  pattern = "floor_low.5-2",
+  width = 192,
+  height = 176,
+  pattern = "floor.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 160,
+  height = 96,
+  pattern = "floor.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 48,
+  width = 96,
+  height = 224,
+  pattern = "floor.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 304,
+  width = 48,
+  height = 160,
+  pattern = "floor.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 272,
+  width = 48,
+  height = 192,
+  pattern = "floor.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 520,
+  y = 272,
+  width = 16,
+  height = 224,
+  pattern = "floor.5-1",
 }
 
 tile{
   layer = 0,
   x = 336,
   y = 272,
-  width = 208,
+  width = 192,
   height = 224,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 240,
-  y = 128,
-  width = 32,
-  height = 112,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 96,
-  width = 32,
-  height = 112,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 56,
-  width = 112,
-  height = 144,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 24,
-  width = 176,
-  height = 224,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 280,
-  y = 56,
-  width = 256,
-  height = 96,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 56,
-  width = 128,
-  height = 224,
-  pattern = "floor_low.5-2",
-}
-
-tile{
-  layer = 0,
-  x = 520,
-  y = 264,
-  width = 112,
-  height = 208,
-  pattern = "floor_low.5-2",
+  pattern = "floor.5-1",
 }
 
 tile{

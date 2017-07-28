@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "dungeons/light_brown",
+  tileset = "dungeons/dark_brown",
   music = "maps/caves/cave",
 }
 
@@ -16,7 +16,7 @@ tile{
   y = 0,
   width = 320,
   height = 256,
-  pattern = "floor_low.5-2",
+  pattern = "floor.5-1",
 }
 
 tile{
