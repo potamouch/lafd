@@ -4,6 +4,7 @@ local game = map:get_game()
 
 -- Includes scripts
 local fairy_manager = require("scripts/maps/fairy_manager")
+local owl_manager = require("scripts/maps/owl_manager")
 
 -- Variables
 
@@ -116,7 +117,7 @@ function owl_2_sensor:on_activated()
   if map:get_game():get_value("owl_2") == true then
     map:set_music()
   else
-    map:owl_appear(2)
+    owl_manager:appear(map, 2)
   end
 
 end
@@ -125,7 +126,7 @@ function forest_chest_1:on_opened()
 
   hero:start_treasure("tail_key", 1, "forest_chest_1", function()
     if map:get_game():get_value("owl_3") ~= true and game:get_value("main_quest_step") == 6 then
-      map:owl_appear(3)
+      owl_manager:appear(map, 3)
     end
   end)
 

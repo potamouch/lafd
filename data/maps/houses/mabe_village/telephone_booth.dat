@@ -217,6 +217,96 @@ tile{
   pattern = "wall_border.corner.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 192,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 80,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
 destination{
   name = "telephone_booth_1_1_B",
   layer = 0,
@@ -236,6 +326,15 @@ teletransporter{
   destination = "telephone_booth_1_2_A",
 }
 
+npc{
+  name = "phone_interaction",
+  layer = 0,
+  x = 184,
+  y = 181,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -243,6 +342,15 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 56,
+  width = 24,
+  height = 24,
+  pattern = "287",
 }
 
 tile{
@@ -279,5 +387,15 @@ tile{
   width = 176,
   height = 16,
   pattern = "ceiling.2",
+}
+
+npc{
+  name = "phone",
+  layer = 2,
+  x = 184,
+  y = 173,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/phone",
 }
 

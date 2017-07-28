@@ -596,6 +596,27 @@ teletransporter{
   destination = "old_man_house_1_2_A",
 }
 
+npc{
+  name = "phone",
+  layer = 0,
+  x = 88,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/phone",
+  behavior = "dialog#",
+}
+
+npc{
+  name = "phone_interaction",
+  layer = 0,
+  x = 88,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#maps.houses.phone_booth.0",
+}
+
 tile{
   layer = 1,
   x = 144,

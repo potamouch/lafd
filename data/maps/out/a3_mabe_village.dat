@@ -14519,3 +14519,12 @@ tile{
   pattern = "1237",
 }
 
+npc{
+  layer = 2,
+  x = 616,
+  y = 653,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/phone",
+}
+

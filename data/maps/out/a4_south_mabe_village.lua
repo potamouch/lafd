@@ -2,6 +2,9 @@ local map = ...
 local game = map:get_game()
 -- Outside - South village
 
+-- Includes scripts
+local owl_manager = require("scripts/maps/owl_manager")
+
 -- Functions
 
 function map:set_music()
@@ -39,7 +42,7 @@ function owl_1_sensor:on_activated()
   if game:get_value("owl_1") == true then
     map:set_music()
   else
-    map:owl_appear(1)
+    owl_manager:appear(map, 1)
   end
 
 end
@@ -47,7 +50,7 @@ end
 function owl_4_sensor:on_activated()
 
   if game:get_value("main_quest_step") == 8  and game:get_value("owl_4") ~= true then
-    map:owl_appear(4)
+    owl_manager:appear(map, 4)
   end
 
 end

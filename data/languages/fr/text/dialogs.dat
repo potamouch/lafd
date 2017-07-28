@@ -1328,6 +1328,9 @@ Tour du vautour
 dialog{
   id = "maps.dungeons.8.indication",
   text = [[
+L'heure a sonné.
+L'Oeuf Sacré    
+te réclame.
 ]]
 }
 
@@ -1755,6 +1758,20 @@ accessoires à la mode !
 }
 
 dialog{
+  id = "maps.houses.phone_booth.0",
+  text = [[
+DRING DRING !    
+DRING ! Hello !   
+Madonna         
+à l'appaouïelle.
+No darling...   
+CLIC !           
+Tu as dû faire  
+un faux numéro !
+]]
+}
+
+dialog{
   id = "maps.houses.phone_booth.1",
   text = [[
 DRING DRING !!   
@@ -1873,6 +1890,76 @@ Salut ! CLIC !
 }
 
 dialog{
+  id = "maps.houses.phone_booth.16",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil ... 
+D'après Mamie   
+Youpi, quelque  
+chose est caché 
+derrière        
+la Cascade de   
+la Cordillère.  
+Ce renseignement
+t'est utile ?    
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.17",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+De mon temps,   
+il y avait      
+une Tour dans   
+la partie est de
+la Cordillère.  
+Tu devrais aller
+y faire un tour !
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.18",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Dirige-toi vers 
+l'Oeuf Sacré,   
+niché en haut   
+du Mt Tamaranch.
+Link ,          
+sois prudent.   
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.19",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu t'es perdu   
+dans l'Oeuf ?    
+Désolé, mais    
+je ne peux pas  
+t'aider !        
+Va donc te      
+renseigner à    
+la Bibliothèque.
+Désolé hein !    
+Salut ! CLIC !
+]]
+}
+
+dialog{
   id = "maps.houses.phone_booth.2",
   text = [[
 DRING DRING !!   
@@ -1885,6 +1972,90 @@ vivent également
 dans la cave du 
 Plateau Tartare.
 Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.20",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu devrais      
+ramener Toutou à
+Mme Miaou Miaou.
+Elle sera folle 
+de joie.        
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.21",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu aimerais     
+chanter ?        
+Va voir Wart    
+la Grenouille.  
+Il habite dans  
+le Dédale       
+des Panneaux.   
+Il est bon mais 
+un peu cher...  
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.22",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu te défends   
+très bien !      
+As-tu visité    
+le Poulailler,  
+en haut de      
+la montagne ?    
+A côté, il y a  
+une cave qui    
+renferme un     
+objet important.
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.23",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Tes ennemis     
+sont coriaces ?  
+Collecte        
+donc tous       
+les Coquillages.
+Sois confiant !  
+Bonne chance !   
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.24",
+  text = [[
+DRING DRING !!   
+Oui c'est Pépé ! 
+Courage, encore 
+un effort...    
+Je suis de tout 
+coeur avec toi. 
+Vas-y mon gars !
 ]]
 }
 
