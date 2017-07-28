@@ -35,13 +35,13 @@ end
 
 function map:open_book(book)
 
-    game:start_dialog("maps.houses.library.book_"..book..".question", function(answer)
+    game:start_dialog("maps.houses.mabe_village.library.book_"..book..".question", function(answer)
         if answer == 1 then
           local entity = map:get_entity("book_"..book)
           local sprite = entity:get_sprite()
           sprite:set_animation("reading")
           if book ~= 7 then
-            game:start_dialog("maps.houses.library.book_"..book..".content", function()
+            game:start_dialog("maps.houses.mabe_village.library.book_"..book..".content", function()
               sprite:set_animation("normal")
             end)
           end

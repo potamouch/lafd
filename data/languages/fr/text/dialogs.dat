@@ -1205,11 +1205,29 @@ de l'odorat..
 }
 
 dialog{
+  id = "maps.dungeons.1.indication",
+  text = [[
+...MARAIS...    
+La route mène au
+marais fleuri.
+]]
+}
+
+dialog{
   id = "maps.dungeons.1.welcome",
   skip = "current",
   text = [[
         Niveau 1       
 Cave Flagello
+]]
+}
+
+dialog{
+  id = "maps.dungeons.2.indication",
+  text = [[
+...PRAIRIE...   
+...PRAIRIE...   
+Elle t'attend.
 ]]
 }
 
@@ -1223,11 +1241,29 @@ Grotte du génie
 }
 
 dialog{
+  id = "maps.dungeons.3.indication",
+  text = [[
+...CASCADE...   
+C'est caché     
+sous la cascade.
+]]
+}
+
+dialog{
   id = "maps.dungeons.3.welcome",
   skip = "current",
   text = [[
         Niveau 3       
 Cave aux clés
+]]
+}
+
+dialog{
+  id = "maps.dungeons.4.indication",
+  text = [[
+...BAIE...      
+Ta route passe  
+par la baie.
 ]]
 }
 
@@ -1240,10 +1276,27 @@ Abîme du poisson
 }
 
 dialog{
+  id = "maps.dungeons.5.indication",
+  text = [[
+...TEMPLE...    
+Il renferme le  
+secret de l'île.
+]]
+}
+
+dialog{
   id = "maps.dungeons.5.welcome",
   text = [[
         Niveau 5       
 Poisson-chat
+]]
+}
+
+dialog{
+  id = "maps.dungeons.6.indication",
+  text = [[
+...MONTAGNE...  
+Elle t'appelle.
 ]]
 }
 
@@ -1256,10 +1309,25 @@ Temple du masque
 }
 
 dialog{
+  id = "maps.dungeons.7.indication",
+  text = [[
+...OCARINA...   
+Sa musique      
+te guidera.
+]]
+}
+
+dialog{
   id = "maps.dungeons.7.welcome",
   text = [[
         Niveau 7       
 Tour du vautour
+]]
+}
+
+dialog{
+  id = "maps.dungeons.8.indication",
+  text = [[
 ]]
 }
 
@@ -1316,7 +1384,7 @@ tester ici?
 }
 
 dialog{
-  id = "maps.houses.library.book_1.content",
+  id = "maps.houses.mabe_village.library.book_1.content",
   text = [[
 Choisis l'objet 
 désiré dans     
@@ -1334,7 +1402,7 @@ plus adéquat !
 }
 
 dialog{
-  id = "maps.houses.library.book_1.question",
+  id = "maps.houses.mabe_village.library.book_1.question",
   question = "1",
   text = [[
 CHOISIR     
@@ -1347,7 +1415,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_2.content",
+  id = "maps.houses.mabe_village.library.book_2.content",
   text = [[
 Appuie sur      
 SELECT          
@@ -1370,7 +1438,7 @@ tu n'auras pas
 }
 
 dialog{
-  id = "maps.houses.library.book_2.question",
+  id = "maps.houses.mabe_village.library.book_2.question",
   question = "1",
   text = [[
 CONSEILS    
@@ -1383,7 +1451,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_3.content",
+  id = "maps.houses.mabe_village.library.book_3.content",
   text = [[
 Cette technique 
 spéciale        
@@ -1405,7 +1473,7 @@ peux le faire ?
 }
 
 dialog{
-  id = "maps.houses.library.book_3.question",
+  id = "maps.houses.mabe_village.library.book_3.question",
   question = "1",
   text = [[
 TOUT SUR L'EPEE 
@@ -1418,7 +1486,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_4.content",
+  id = "maps.houses.mabe_village.library.book_4.content",
   text = [[
 En maintenant   
 A ou B enfoncé, 
@@ -1436,7 +1504,7 @@ des lasers !
 }
 
 dialog{
-  id = "maps.houses.library.book_4.question",
+  id = "maps.houses.mabe_village.library.book_4.question",
   question = "1",
   text = [[
 DE LA BONNE   
@@ -1449,7 +1517,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_5.content",
+  id = "maps.houses.mabe_village.library.book_5.content",
   text = [[
 Pour reprendre  
 une bombe       
@@ -1467,7 +1535,7 @@ cette astuce ?
 }
 
 dialog{
-  id = "maps.houses.library.book_5.question",
+  id = "maps.houses.mabe_village.library.book_5.question",
   question = "1",
   text = [[
 LES BOMBES
@@ -1480,7 +1548,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_6.content",
+  id = "maps.houses.mabe_village.library.book_6.content",
   text = [[
 Sur Cocolint,   
 il y a des      
@@ -1503,7 +1571,7 @@ encore apparu
 }
 
 dialog{
-  id = "maps.houses.library.book_6.question",
+  id = "maps.houses.mabe_village.library.book_6.question",
   question = "1",
   text = [[
 TELEPORTATION
@@ -1516,7 +1584,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_7.question",
+  id = "maps.houses.mabe_village.library.book_7.question",
   question = "1",
   text = [[
 ATLAS DE    
@@ -1535,7 +1603,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.library.book_8.content",
+  id = "maps.houses.mabe_village.library.book_8.content",
   text = [[
 Impossible !     
 Il te faut      
@@ -1547,7 +1615,7 @@ caractères...
 }
 
 dialog{
-  id = "maps.houses.library.book_8.question",
+  id = "maps.houses.mabe_village.library.book_8.question",
   question = "1",
   text = [[
 MYSTERES    
@@ -1683,6 +1751,258 @@ chien très branché !
 J'aimerais 
 avoir des 
 accessoires à la mode !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.1",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Je sais tout de 
+cette île !      
+Si tu te perds, 
+passe-moi un    
+coup de fil !    
+Salut !  CLIC ! 
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.10",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Apparemment,    
+dans les        
+Dunes de Yarna, 
+au Sud-Est      
+de l'île,       
+se trouve la    
+Clé-Poisson.    
+Ecoute, je ne   
+peux pas être   
+plus explicite  
+que cela...     
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.11",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu es hanté     
+par un fantôme ? 
+Je te conseille 
+de l'amener là  
+où il veut.     
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.12",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Dans la Baie,   
+un Poisson-Chat 
+ouvre sa gueule.
+Va donc y nager.
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.13",
+  text = [[
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Es-tu allé au   
+Temple du Masque
+situé au Nord   
+du Village      
+des Animaux ?    
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.14",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Connais-tu      
+le Coq Volant   
+du Village      
+des Mouettes ?   
+Autrefois,      
+je m'agrippais  
+à ses pattes    
+et je volais !   
+Hélas...        
+Il est mort et  
+gît désormais   
+sous la         
+Girouette.      
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.15",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+La tête de la   
+tortue te gêne ? 
+Donne-lui       
+de la vie pour  
+la déplacer...  
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.2",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Habitants de la 
+Forêt Enchantée,
+les Moblins     
+vivent également
+dans la cave du 
+Plateau Tartare.
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.3",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Les fleurs du   
+Marais des      
+Anémones sont   
+les préférées de
+Toutou. C'est ce
+qu'on dit...    
+Pourquoi        
+n'y vas-tu pas? 
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.4",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+As-tu rencontré 
+tous les gens   
+de cette île ?   
+Au Sud-Est du   
+village, à côté 
+du Champ        
+aux Pièges,     
+vit un homme    
+appelé Richard. 
+Je te conseille 
+d'aller le voir.
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.5",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Si tu veux des  
+bananes, parle  
+de nouveau aux  
+gens du village.
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.6",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Il y a une      
+bibliothèque    
+dans le village.
+Peut-être       
+apportera-t'elle
+une réponse à   
+tes questions ?  
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.7",
+  text = [[
+DRRING! DRRING ! 
+C'est moi ! Pépé !
+Tu n'as pas     
+trouvé les cinq 
+feuilles d'Or ?  
+Va parler au    
+corbeau du      
+château. Il peut
+sûrement aider  
+un p'tit gars   
+comme toi !      
+CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.8",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+As-tu acheté    
+une Pelle ?      
+Creuse le sol,  
+peut-être       
+auras-tu        
+de la chance ?   
+Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.phone_booth.9",
+  text = [[
+DRING DRING !!   
+Pépé le Ramollo 
+à l'appareil... 
+Va vite à la    
+Cave aux Clés,  
+située dans     
+La Prairie.     
+Salut ! CLIC !
 ]]
 }
 
