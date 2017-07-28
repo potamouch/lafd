@@ -4,11 +4,6 @@ local enemy = ...
 
 enemy:set_life(3)
 enemy:set_damage(2)
-enemy:set_random_treasures(
-  { "rupee", 1 },
-  { "bomb", 1 },
-  { "rupee", 3 }
-)
 
 local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 

@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "outside_world",
-  tileset = "out/light_world",
+  tileset = "out/light_world_legacy",
   music = "same",
 }
 

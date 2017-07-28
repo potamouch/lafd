@@ -6,7 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   world = "outside_world",
-  tileset = "out/outside",
+  tileset = "out/light_world",
   music = "maps/out/mt_tamaranch",
 }
 
@@ -8126,6 +8126,15 @@ tile{
   width = 176,
   height = 8,
   pattern = "978",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 632,
+  width = 16,
+  height = 16,
+  pattern = "963",
 }
 
 teletransporter{

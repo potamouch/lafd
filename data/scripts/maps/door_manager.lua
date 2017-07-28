@@ -20,6 +20,85 @@ function door_manager:open_when_enemies_dead(map, enemy_prefix, door_prefix)
 
 end
 
+-- Open doors when all blocks in the room are moved
+function door_manager:open_when_blocks_moved(map, block_prefix, door_prefix)
+
+      local remaining = map:get_entities_count(block_prefix)
+      local function block_on_moved()
+        remaining = remaining - 1
+        if remaining == 0 then
+            map:open_doors(door_prefix)
+            sol.audio.play_sound("secret_1")
+       end
+      end
+      for block in map:get_entities(block_prefix) do
+        block.on_moved = block_on_moved
+      end
+
+end
+
+-- Open doors when all torches in the room are lit
+function door_manager:open_when_torches_lit(map, torch_prefix, door_prefix)
+
+  local remaining = 0
+  local function torch_on_lit()
+    local doors = map:get_entities(door_prefix)
+    local is_closed = false
+    for door in map:get_entities(door_prefix) do
+      if door:is_closed() then
+          is_closed = true
+      end
+    end
+    if is_closed then
+      remaining = remaining - 1
+      if remaining == 0 then
+        sol.audio.play_sound("secret_1")
+        map:open_doors(door_prefix)
+      end
+    end
+  end
+  local has_torches = false
+  for torch in map:get_entities(torch_prefix) do
+    if not torch:is_lit() then
+      remaining = remaining + 1
+    end
+    torch.on_lit = torch_on_lit
+    has_torches = true
+  end
+  if has_torches and remaining == 0 then
+    -- All torches of this door are already lit.
+        sol.audio.play_sound("secret_1")
+        map:open_doors(door_prefix)
+  end
+end
+
+function door_manager:close_when_torches_unlit(map, torch_prefix, door_prefix)
+
+  local remaining = 0
+  local function torch_on_unlit()
+    if door:is_closed() then
+      remaining = remaining - 1
+      if remaining == 0 then
+        sol.audio.play_sound("secret")
+        map:open_doors(door_prefix)
+      end
+    end
+  end
+
+  local has_torches = false
+  for torch in map:get_entities(torch_prefix) do
+    if torch:is_lit() then
+      remaining = remaining + 1
+    end
+    torch.on_unlit = torch_on_unlit
+    has_torches = true
+  end
+  if has_torches and remaining == 0 then
+    -- All torches of this door are already unlit.
+    map:set_doors_open(door_prefix, false)
+  end
+end
+
 
 -- Close doors if ennemis in the room are not dead
 function door_manager:close_if_enemies_not_dead(map, enemy_prefix, door_prefix)
