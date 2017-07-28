@@ -6,7 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   world = "outside_world",
-  tileset = "out/light_world",
+  tileset = "out/outside",
   music = "maps/out/mt_tamaranch",
 }
 

@@ -79,8 +79,8 @@ tileset{ id = "dungeons/purple", description = "Purple" }
 tileset{ id = "dungeons/purple_blue", description = "Purple blue" }
 tileset{ id = "dungeons/yellow", description = "Yellow" }
 tileset{ id = "movies/beach", description = "Beach" }
-tileset{ id = "out/light_world", description = "Light world" }
 tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
+tileset{ id = "out/outside", description = "Outside" }
 
 sprite{ id = "enemies/blob_green", description = "Blob green" }
 sprite{ id = "enemies/blob_red", description = "Blob red" }
