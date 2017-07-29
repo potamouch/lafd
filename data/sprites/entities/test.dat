@@ -1,0 +1,7 @@
+animation{
+  name = "test",
+  src_image = "entities/test.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 997, frame_height = 821, origin_x = 0, origin_y = 5 },
+  },
+}

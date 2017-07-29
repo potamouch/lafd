@@ -885,7 +885,7 @@ tile{
   layer = 0,
   x = 24,
   y = 544,
-  width = 32,
+  width = 48,
   height = 16,
   pattern = "12842",
 }

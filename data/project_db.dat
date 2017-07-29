@@ -21,6 +21,7 @@ map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
 map{ id = "examples/beach_store", description = "Beach Store" }
 map{ id = "examples/cave_store", description = "Cave Store" }
 map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle outside" }
+map{ id = "examples/island", description = "island" }
 map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "examples/outside_store", description = "Outside Store" }
 map{ id = "houses/graveyard/drugstore", description = "Drugstore" }
@@ -58,6 +59,7 @@ map{ id = "out/d1_east_mt_tamaranch", description = "D1 - East Mt Tamaranch" }
 map{ id = "out/d2_rafting", description = "D2 - Rafting" }
 map{ id = "out/d3_mask_shrine", description = "D3 - Mask shrine" }
 map{ id = "out/d4_yarna_desert", description = "D4 - Yarna desert" }
+map{ id = "out/tmp", description = "tmp" }
 
 tileset{ id = "dungeons/blue", description = "Blue" }
 tileset{ id = "dungeons/brown", description = "Brown" }
@@ -79,8 +81,8 @@ tileset{ id = "dungeons/purple", description = "Purple" }
 tileset{ id = "dungeons/purple_blue", description = "Purple blue" }
 tileset{ id = "dungeons/yellow", description = "Yellow" }
 tileset{ id = "movies/beach", description = "Beach" }
+tileset{ id = "out/light_world", description = "Light world" }
 tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
-tileset{ id = "out/outside", description = "Outside" }
 
 sprite{ id = "enemies/blob_green", description = "Blob green" }
 sprite{ id = "enemies/blob_red", description = "Blob red" }
@@ -155,6 +157,7 @@ sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
+sprite{ id = "entities/test", description = "test" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
