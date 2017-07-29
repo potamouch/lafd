@@ -24,7 +24,6 @@ map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle outside" 
 map{ id = "examples/island", description = "island" }
 map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "examples/outside_store", description = "Outside Store" }
-map{ id = "examples/test", description = "test" }
 map{ id = "houses/graveyard/drugstore", description = "Drugstore" }
 map{ id = "houses/graveyard/witch_house", description = "Witch house" }
 map{ id = "houses/kanalet_castle/kanalet_castle_1f", description = "Kanalet castle 1F" }
@@ -60,7 +59,6 @@ map{ id = "out/d1_east_mt_tamaranch", description = "D1 - East Mt Tamaranch" }
 map{ id = "out/d2_rafting", description = "D2 - Rafting" }
 map{ id = "out/d3_mask_shrine", description = "D3 - Mask shrine" }
 map{ id = "out/d4_yarna_desert", description = "D4 - Yarna desert" }
-map{ id = "out/tmp", description = "tmp" }
 
 tileset{ id = "dungeons/blue", description = "Blue" }
 tileset{ id = "dungeons/brown", description = "Brown" }
@@ -159,7 +157,6 @@ sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
-sprite{ id = "entities/test", description = "test" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }

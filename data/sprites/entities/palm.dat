@@ -2,9 +2,9 @@ animation{
   name = "stopped",
   src_image = "entities/palm.png",
   directions = {
-    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 75 },
-    { x = 0, y = 80, frame_width = 112, frame_height = 80, origin_x = 56, origin_y = 75 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 75 },
-    { x = 0, y = 80, frame_width = 112, frame_height = 80, origin_x = 56, origin_y = 75 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 0, origin_y = 3 },
+    { x = 0, y = 80, frame_width = 112, frame_height = 80, origin_x = 0, origin_y = 3 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 0, origin_y = 3 },
+    { x = 0, y = 80, frame_width = 112, frame_height = 80, origin_x = 0, origin_y = 3 },
   },
 }
