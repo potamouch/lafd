@@ -685,6 +685,64 @@ tile{
   pattern = "barrier.2-1",
 }
 
+npc{
+  name = "small_bowwow_2",
+  layer = 0,
+  x = 352,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/small_bowwow",
+}
+
+npc{
+  name = "small_bowwow_1",
+  layer = 0,
+  x = 104,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/small_bowwow",
+}
+
+teletransporter{
+  name = "meow_meow_house_2_B",
+  layer = 0,
+  x = 136,
+  y = 232,
+  width = 16,
+  height = 16,
+  destination_map = "out/a3_mabe_village",
+  destination = "meow_meow_house_2_A",
+}
+
+destination{
+  name = "meow_meow_house_1_B",
+  layer = 0,
+  x = 144,
+  y = 213,
+  direction = 1,
+}
+
+teletransporter{
+  name = "meow_meow_house_2_D",
+  layer = 0,
+  x = 376,
+  y = 232,
+  width = 16,
+  height = 16,
+  destination_map = "out/a3_mabe_village",
+  destination = "meow_meow_house_2_C",
+}
+
+destination{
+  name = "meow_meow_house_1_D",
+  layer = 0,
+  x = 384,
+  y = 213,
+  direction = 1,
+}
+
 tile{
   layer = 1,
   x = 128,
@@ -864,64 +922,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/grand_ma",
-}
-
-npc{
-  name = "small_bowwow_1",
-  layer = 1,
-  x = 104,
-  y = 141,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/small_bowwow",
-}
-
-npc{
-  name = "small_bowwow_2",
-  layer = 1,
-  x = 352,
-  y = 157,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/small_bowwow",
-}
-
-destination{
-  name = "meow_meow_house_1_B",
-  layer = 1,
-  x = 144,
-  y = 213,
-  direction = 1,
-}
-
-teletransporter{
-  name = "meow_meow_house_2_B",
-  layer = 1,
-  x = 136,
-  y = 232,
-  width = 16,
-  height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "meow_meow_house_2_A",
-}
-
-teletransporter{
-  name = "meow_meow_house_2_D",
-  layer = 1,
-  x = 376,
-  y = 232,
-  width = 16,
-  height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "meow_meow_house_2_C",
-}
-
-destination{
-  name = "meow_meow_house_1_D",
-  layer = 1,
-  x = 384,
-  y = 213,
-  direction = 1,
 }
 
 tile{

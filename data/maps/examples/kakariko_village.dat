@@ -9146,7 +9146,7 @@ tile{
 tile{
   layer = 0,
   x = 448,
-  y = 96,
+  y = 104,
   width = 16,
   height = 160,
   pattern = "6159",

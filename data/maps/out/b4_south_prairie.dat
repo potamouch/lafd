@@ -9417,7 +9417,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 912,
+  x = 896,
   y = 560,
   width = 16,
   height = 16,

@@ -14464,8 +14464,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 24,
+  x = 56,
+  y = 8,
   width = 96,
   height = 16,
   pattern = "919",
@@ -14473,8 +14473,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
-  y = 24,
+  x = 40,
+  y = 16,
   width = 16,
   height = 16,
   pattern = "928",
@@ -14500,7 +14500,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 32,
   y = 40,
   width = 16,
   height = 16,
