@@ -14068,6 +14068,24 @@ tile{
   pattern = "920",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 152,
+  width = 32,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "1041",
+}
+
 destructible{
   layer = 0,
   x = 392,
@@ -17162,7 +17180,7 @@ destination{
 teletransporter{
   name = "village_cave_1_A",
   layer = 0,
-  x = 128,
+  x = 80,
   y = 544,
   width = 16,
   height = 16,
@@ -17279,9 +17297,9 @@ custom_entity{
 teletransporter{
   name = "to_d1",
   layer = 0,
-  x = 0,
+  x = 48,
   y = 768,
-  width = 960,
+  width = 912,
   height = 16,
   transition = "scrolling",
   destination_map = "out/a4_south_mabe_village",

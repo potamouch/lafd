@@ -3,7 +3,7 @@ properties{
   y = 2304,
   width = 960,
   height = 768,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "outside_world",
   tileset = "out/outside",
@@ -1344,15 +1344,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "963",
-}
-
-tile{
-  layer = 0,
   x = 32,
   y = 168,
   width = 176,
@@ -1875,15 +1866,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "965",
-}
-
-tile{
-  layer = 0,
   x = 16,
   y = 288,
   width = 16,
@@ -1907,24 +1889,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "955",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 272,
-  width = 16,
-  height = 16,
-  pattern = "963",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 256,
-  width = 16,
-  height = 16,
-  pattern = "965",
 }
 
 tile{
@@ -9408,36 +9372,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 864,
+  x = 880,
   y = 424,
-  width = 48,
-  height = 48,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 912,
-  y = 424,
-  width = 48,
-  height = 48,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 552,
-  width = 48,
-  height = 48,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 552,
-  width = 48,
+  width = 88,
   height = 48,
   pattern = "12842",
 }
@@ -9494,6 +9431,105 @@ tile{
   width = 16,
   height = 16,
   pattern = "968",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "8896",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "8191",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "1002",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "1001",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "994",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "1004",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 544,
+  width = 88,
+  height = 48,
+  pattern = "12842",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "963",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "965",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "963",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "965",
 }
 
 teletransporter{
@@ -9985,7 +10021,7 @@ teletransporter{
   x = 960,
   y = -32,
   width = 16,
-  height = 816,
+  height = 800,
   transition = "scrolling",
   destination_map = "out/b4_south_prairie",
   destination = "_side",
@@ -10137,40 +10173,170 @@ sensor{
   height = 48,
 }
 
-tile{
-  layer = 1,
-  x = 904,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "1002",
+teletransporter{
+  layer = 0,
+  x = 808,
+  y = 440,
+  width = 16,
+  height = 16,
+  destination_map = "houses/south_mabe_village/sales_house_o_bananas",
+  destination = "sales_house_o_bananas_2_B",
 }
 
-tile{
-  layer = 1,
-  x = 904,
-  y = 176,
-  width = 8,
-  height = 8,
-  pattern = "1001",
+wall{
+  layer = 0,
+  x = 224,
+  y = 560,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
-tile{
-  layer = 1,
-  x = 904,
-  y = 168,
-  width = 8,
-  height = 8,
-  pattern = "994",
+wall{
+  layer = 0,
+  x = 248,
+  y = 512,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
-tile{
-  layer = 1,
-  x = 904,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "1004",
+wall{
+  layer = 0,
+  x = 672,
+  y = 464,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 672,
+  y = 592,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 440,
+  y = 464,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 504,
+  y = 464,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 736,
+  y = 464,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 872,
+  y = 464,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 936,
+  y = 464,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 888,
+  y = 584,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 952,
+  y = 584,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 736,
+  y = 592,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
@@ -11075,24 +11241,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 864,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "8896",
-}
-
-tile{
-  layer = 1,
-  x = 848,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "8191",
-}
-
-tile{
-  layer = 1,
   x = 776,
   y = 408,
   width = 80,
@@ -11122,7 +11270,7 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 856,
+  x = 864,
   y = 405,
   width = 128,
   height = 96,
@@ -11142,8 +11290,8 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 848,
-  y = 533,
+  x = 880,
+  y = 525,
   width = 128,
   height = 96,
   direction = 1,

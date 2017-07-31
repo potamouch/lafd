@@ -1,7 +1,7 @@
 animation{
   name = "normal",
-  src_image = "work/960x768_graveyard.png",
+  src_image = "work/960x768_south_prairie.png",
   directions = {
-    { x = 0, y = 0, frame_width = 960, frame_height = 768, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 960, frame_height = 768, origin_x = 0, origin_y = 0 },
   },
 }
