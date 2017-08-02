@@ -2,9 +2,9 @@ animation{
   name = "normal",
   src_image = "entities/palm.png",
   directions = {
-    { x = 56, y = 0, frame_width = 8, frame_height = 56, origin_x = 8, origin_y = 24 },
+    { x = 56, y = 0, frame_width = 8, frame_height = 64, origin_x = 8, origin_y = 24 },
     { x = 8, y = 0, frame_width = 48, frame_height = 56, origin_x = 8, origin_y = 8 },
-    { x = 0, y = 0, frame_width = 8, frame_height = 56, origin_x = 8, origin_y = 24 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 64, origin_x = 8, origin_y = 24 },
     { x = 8, y = 0, frame_width = 48, frame_height = 56, origin_x = 8, origin_y = 8 },
   },
 }
