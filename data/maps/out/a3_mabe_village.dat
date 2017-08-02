@@ -8977,7 +8977,7 @@ tile{
 tile{
   layer = 0,
   x = 160,
-  y = 56,
+  y = 48,
   width = 8,
   height = 8,
   pattern = "101",
@@ -8986,7 +8986,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 56,
+  y = 48,
   width = 8,
   height = 8,
   pattern = "100",
@@ -9031,7 +9031,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 48,
+  y = 40,
   width = 8,
   height = 8,
   pattern = "84",
