@@ -19215,9 +19215,9 @@ separator{
 separator{
   layer = 2,
   x = 632,
-  y = 0,
+  y = 1536,
   width = 16,
-  height = 1792,
+  height = 256,
 }
 
 separator{
@@ -19245,10 +19245,11 @@ separator{
 }
 
 separator{
+  name = "separator_1",
   layer = 2,
-  x = 0,
+  x = 320,
   y = 1528,
-  width = 1920,
+  width = 320,
   height = 16,
 }
 
@@ -19290,5 +19291,38 @@ separator{
   y = 248,
   width = 1920,
   height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 1528,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 640,
+  y = 1528,
+  width = 1280,
+  height = 16,
+}
+
+separator{
+  name = "separator_2",
+  layer = 2,
+  x = 632,
+  y = 1280,
+  width = 16,
+  height = 256,
+}
+
+separator{
+  layer = 2,
+  x = 632,
+  y = 0,
+  width = 16,
+  height = 1280,
 }
 

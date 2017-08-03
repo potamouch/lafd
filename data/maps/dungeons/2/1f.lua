@@ -68,3 +68,36 @@ function map:on_obtaining_treasure(item, variant, savegame_variable)
 
 end
 
+-- Separator events
+
+separator_1:register_event("on_activating", function(separator, direction4)
+
+  local x, y = hero:get_position()
+  if direction4 == 1 then
+    map:set_light(0)
+  end
+end)
+
+separator_1:register_event("on_activated", function(separator, direction4)
+
+  if direction4 ~= 1 then
+    map:set_light(1)
+  end
+end)
+
+
+separator_2:register_event("on_activating", function(separator, direction4)
+
+  local x, y = hero:get_position()
+  if direction4 == 0 then
+    map:set_light(0)
+  end
+end)
+
+separator_2:register_event("on_activated", function(separator, direction4)
+
+  if direction4 ~= 0 then
+    map:set_light(1)
+  end
+end)
+

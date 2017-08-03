@@ -542,6 +542,16 @@ destructible{
   weight = 1,
 }
 
+teletransporter{
+  layer = 0,
+  x = 144,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/1f",
+  destination = "dungeon_2_1_B",
+}
+
 tile{
   layer = 1,
   x = 144,

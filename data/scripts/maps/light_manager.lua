@@ -85,7 +85,7 @@ function map_meta:set_light(light)
     return
   end
 
-  --self:register_event("on_draw", dark_map_on_draw)
+  self:register_event("on_draw", dark_map_on_draw)
 end
 
 -- Function called by the torch script when a torch state has changed.
