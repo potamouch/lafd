@@ -37,6 +37,7 @@ map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets ho
 map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
 map{ id = "houses/mabe_village/shop_2", description = "Shop 2" }
 map{ id = "houses/mabe_village/telephone_booth", description = "Telephone booth 1" }
+map{ id = "houses/mask_shrine/south_shrine", description = "South shrine" }
 map{ id = "houses/south_mabe_village/sales_house_o_bananas", description = "Sale's House O' Bananas" }
 map{ id = "houses/south_prairie/ghost_house", description = "Ghost house" }
 map{ id = "houses/south_prairie/richard_villa", description = "Richard villa" }
@@ -239,6 +240,7 @@ music{ id = "maps/houses/links_awake", description = "Link wakes up" }
 music{ id = "maps/houses/richards_villa", description = "Richard villa" }
 music{ id = "maps/houses/shop", description = "Shop" }
 music{ id = "maps/houses/shop_high", description = "Shop high" }
+music{ id = "maps/houses/southern_shrine", description = "Southern shrine" }
 music{ id = "maps/houses/telephone_booth", description = "Telephone booth" }
 music{ id = "maps/houses/trendy_game", description = "Trendy game" }
 music{ id = "maps/others/fairy_fountain", description = "Fairy fountain" }

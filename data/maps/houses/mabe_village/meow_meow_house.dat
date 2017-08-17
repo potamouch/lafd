@@ -743,6 +743,169 @@ destination{
   direction = 1,
 }
 
+npc{
+  name = "meow_meow",
+  layer = 0,
+  x = 112,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/grand_ma",
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 53,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 69,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 85,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 101,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 117,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 133,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 149,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 149,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 165,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 181,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 197,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 133,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 117,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 101,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 85,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 69,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 53,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
 tile{
   layer = 1,
   x = 128,
@@ -759,169 +922,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 53,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 69,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 85,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 101,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 117,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 133,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 224,
-  y = 149,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 149,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 165,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 181,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 197,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 133,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 117,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 101,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 85,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 69,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 240,
-  y = 53,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-npc{
-  name = "meow_meow",
-  layer = 1,
-  x = 112,
-  y = 101,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/grand_ma",
 }
 
 tile{

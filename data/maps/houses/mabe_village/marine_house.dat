@@ -548,8 +548,7 @@ teletransporter{
   y = 160,
   width = 16,
   height = 16,
-  destination_map = "dungeons/2/1f",
-  destination = "dungeon_2_1_B",
+  destination_map = "houses/mask_shrine/south_shrine",
 }
 
 tile{

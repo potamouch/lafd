@@ -18907,13 +18907,3 @@ custom_entity{
   sprite = "entities/palm",
 }
 
-custom_entity{
-  layer = 1,
-  x = 392,
-  y = 613,
-  width = 80,
-  height = 96,
-  direction = 0,
-  sprite = "entities/palm",
-}
-
