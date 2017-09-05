@@ -39,12 +39,26 @@ PROCESSED MUSIC
 09 - Mabe Village
 10 - Mysterious Forest
 11 - Dungeon 1
+18 - BowWow’s Rescue
 19 - Peaceful villagers
 20 - Telephone booth
-22- Cave
+22 - Cave
+23 - Dungeon 2
+26 - Richard’s Villa
 27 - Wendy game
 28 - Shop
+30 - Kanalet Castle
+31 - Dungeon 3
+33 - Tarin and Bees
+34 - Animal Village
+38 - Dungeon 4
+44 - Dungeon 5
+47 - Game Over
 50 - Southern Shrine
+52 - Dungeon 6
+58 - Dungeon 7
+61 - Fairy Fountain
+63 - Dungeon 8
 
 
 

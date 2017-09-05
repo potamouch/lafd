@@ -244,7 +244,7 @@ music{ id = "maps/houses/southern_shrine", description = "Southern shrine" }
 music{ id = "maps/houses/telephone_booth", description = "Telephone booth" }
 music{ id = "maps/houses/trendy_game", description = "Trendy game" }
 music{ id = "maps/others/fairy_fountain", description = "Fairy fountain" }
-music{ id = "maps/others/tarin_and_bees", description = "maps/others/tarin_and_bees" }
+music{ id = "maps/others/tarin_and_bees", description = "Tarin And Bees" }
 music{ id = "maps/out/animal_village", description = "Animal village" }
 music{ id = "maps/out/let_the_journey_begin", description = "Let the journey begin" }
 music{ id = "maps/out/mabe_village", description = "Mabe village" }

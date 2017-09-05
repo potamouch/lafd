@@ -16841,7 +16841,7 @@ destination{
   name = "telephone_booth_1_2_A",
   layer = 0,
   x = 616,
-  y = 693,
+  y = 701,
   direction = 3,
 }
 
@@ -16849,7 +16849,7 @@ teletransporter{
   name = "telephone_booth_1_1_A",
   layer = 0,
   x = 608,
-  y = 664,
+  y = 672,
   width = 16,
   height = 16,
   destination_map = "houses/mabe_village/telephone_booth",
