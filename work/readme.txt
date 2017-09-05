@@ -45,3 +45,16 @@ PROCESSED MUSIC
 27 - Wendy game
 28 - Shop
 50 - Southern Shrine
+
+
+
+CREDITS
+
+Development : Binbin, Christopho, Neovyse, Metallizer
+Graphics : Neovyse, Newlink
+Mapping : Binbin, Mymy, Christopho, Valoo, Metallizer
+Musics : Jeremiah Sun - The Second Narrator
+Tests : -
+
+Special Thanks : Zemo, Yorick, Miniriël
+
