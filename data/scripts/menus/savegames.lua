@@ -33,7 +33,7 @@ function savegame_menu:on_started()
   self.cursor_sprite = sol.sprite.create("menus/selection_menu_cursor")
   self.allow_cursor_move = true
   self.finished = false
-  self.phase = nil
+  self.phase = 1
 
 
   -- Run the menu.

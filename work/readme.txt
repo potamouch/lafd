@@ -24,3 +24,24 @@ MAIN_QUEST_STEP
 21 - Dungeon 4 key is retrieved
 22 - Dungeon 4 is opened
 23 - Dungeon 4 is resolved
+
+
+
+
+PROCESSED MUSIC
+
+01 - The Storm
+02 - Select screen
+03 - Waking up
+05 - Sword Search
+06 - Owl
+08 - Overworld
+09 - Mabe Village
+10 - Mysterious Forest
+11 - Dungeon 1
+19 - Peaceful villagers
+20 - Telephone booth
+22- Cave
+27 - Wendy game
+28 - Shop
+50 - Southern Shrine
