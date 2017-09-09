@@ -59,12 +59,14 @@ PROCESSED MUSIC
 34 - Animal Village
 38 - Dungeon 4
 39 - Surf Harp - 4th Instrument of the Sirens
+42 - House by the_Bay - Ghost House
 44 - Dungeon 5
 46 - Wind Marimba - 5th Instrument of the Sirens
 47 - Game Over
 50 - Southern Shrine
 52 - Dungeon 6
 53 - Coral Triangle - 6th Instrument of the Sirens
+57 - Cucco House
 58 - Dungeon 7
 60 - Organ of Evening Calm - 7th Instrument of the Sirens
 61 - Fairy Fountain

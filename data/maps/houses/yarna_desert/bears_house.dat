@@ -387,6 +387,60 @@ tile{
   pattern = "seat.1",
 }
 
+tile{
+  layer = 0,
+  x = 160,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "shop_counter.1b",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 112,
+  width = 64,
+  height = 8,
+  pattern = "shop_counter.2b",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "shop_counter.3b",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "shop_counter.1b",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "shop_counter.2b",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "shop_counter.3b",
+}
+
 destination{
   name = "bears_house_1_B",
   layer = 0,
@@ -404,6 +458,33 @@ teletransporter{
   height = 16,
   destination_map = "out/a3_mabe_village",
   destination = "old_man_house_1_2_A",
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 61,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{
@@ -431,87 +512,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "287",
-}
-
-tile{
-  layer = 1,
-  x = 160,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.1b",
-}
-
-tile{
-  layer = 1,
-  x = 168,
-  y = 112,
-  width = 64,
-  height = 8,
-  pattern = "shop_counter.2b",
-}
-
-tile{
-  layer = 1,
-  x = 232,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.3b",
-}
-
-tile{
-  layer = 1,
-  x = 72,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.1b",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.2b",
-}
-
-tile{
-  layer = 1,
-  x = 96,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.3b",
-}
-
-destructible{
-  layer = 1,
-  x = 80,
-  y = 61,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 96,
-  y = 61,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 112,
-  y = 61,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
 }
 
 tile{

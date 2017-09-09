@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeons/light_brown",
+  music = "maps/houses/ghost_house",
 }
 
 tile{
@@ -367,6 +368,51 @@ teletransporter{
   height = 16,
   destination_map = "out/a3_mabe_village",
   destination = "old_man_house_1_2_A",
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 141,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 173,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 173,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 189,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 189,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{

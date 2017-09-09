@@ -216,8 +216,6 @@ sprite{ id = "npc/tarkin", description = "Tarkin" }
 sprite{ id = "npc/wart", description = "Wart" }
 sprite{ id = "npc/warts_brother", description = "Wart's brother" }
 sprite{ id = "npc/witch", description = "Witch" }
-sprite{ id = "work/960x768", description = "960x768" }
-sprite{ id = "work/960x768_prairie", description = "Prairie" }
 
 music{ id = "maps/caves/cave", description = "Cave" }
 music{ id = "maps/dungeons/1/dungeon", description = "Dungeon 1" }
@@ -241,6 +239,8 @@ music{ id = "maps/dungeons/boss_small", description = "Small boss" }
 music{ id = "maps/dungeons/dungeon_end", description = "Dungeon end" }
 music{ id = "maps/dungeons/instrument", description = "Introduction instrument" }
 music{ id = "maps/dungeons/passageways", description = "Passageways" }
+music{ id = "maps/houses/cucco_house", description = "Cucco's House" }
+music{ id = "maps/houses/ghost_house", description = "Ghost's house" }
 music{ id = "maps/houses/inside", description = "Inside" }
 music{ id = "maps/houses/kanalet_castle", description = "Kanalet castle" }
 music{ id = "maps/houses/links_awake", description = "Link wakes up" }
