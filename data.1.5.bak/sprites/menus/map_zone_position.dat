@@ -1,9 +1,0 @@
-animation{
-  name = "normal",
-  src_image = "menus/map_zone_position.png",
-  frame_delay = 200,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 8, num_frames = 2 },
-  },
-}

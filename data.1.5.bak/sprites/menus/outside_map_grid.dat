@@ -1,6 +1,0 @@
-animation{
-  name = "normal",
-  src_image = "menus/outside_map_grid.png",
-  directions = {
-  },
-}
