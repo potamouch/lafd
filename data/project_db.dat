@@ -223,17 +223,24 @@ music{ id = "maps/caves/cave", description = "Cave" }
 music{ id = "maps/dungeons/1/dungeon", description = "Dungeon 1" }
 music{ id = "maps/dungeons/1/instrument", description = "Instrument 1" }
 music{ id = "maps/dungeons/2/dungeon", description = "Dungeon 2" }
+music{ id = "maps/dungeons/2/instrument", description = "Instrument 2" }
 music{ id = "maps/dungeons/3/dungeon", description = "Dungeon 3" }
+music{ id = "maps/dungeons/3/instrument", description = "Instrument 3" }
 music{ id = "maps/dungeons/4/dungeon", description = "Dungeon 4" }
+music{ id = "maps/dungeons/4/instrument", description = "Instrument 4" }
 music{ id = "maps/dungeons/5/dungeon", description = "Dungeon 5" }
+music{ id = "maps/dungeons/5/instrument", description = "Instrument 5" }
 music{ id = "maps/dungeons/6/dungeon", description = "Dungeon 6" }
 music{ id = "maps/dungeons/7/dungeon", description = "Dungeon 7" }
+music{ id = "maps/dungeons/7/instrument", description = "Instrument 7" }
 music{ id = "maps/dungeons/8/dungeon", description = "Dungeon 8" }
+music{ id = "maps/dungeons/8/instrument", description = "Instrument" }
 music{ id = "maps/dungeons/9/dungeon", description = "Dungeon 9" }
 music{ id = "maps/dungeons/boss", description = "Boss" }
-music{ id = "maps/dungeons/boss_defeated", description = "Boss defeated" }
 music{ id = "maps/dungeons/boss_small", description = "Small boss" }
+music{ id = "maps/dungeons/dungeon_end", description = "Dungeon end" }
 music{ id = "maps/dungeons/instrument", description = "Introduction instrument" }
+music{ id = "maps/dungeons/passageways", description = "Passageways" }
 music{ id = "maps/houses/inside", description = "Inside" }
 music{ id = "maps/houses/kanalet_castle", description = "Kanalet castle" }
 music{ id = "maps/houses/links_awake", description = "Link wakes up" }
@@ -254,8 +261,8 @@ music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
 music{ id = "maps/out/sword_search", description = "Sword search" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
+music{ id = "scripts/menus/introduction", description = "Introduction" }
 music{ id = "scripts/menus/player_select", description = "Player select" }
-music{ id = "scripts/menus/the_storm", description = "The storm" }
 music{ id = "scripts/menus/title_screen", description = "Title screen" }
 music{ id = "scripts/meta/map/the_wise_owl", description = "The wise owl" }
 

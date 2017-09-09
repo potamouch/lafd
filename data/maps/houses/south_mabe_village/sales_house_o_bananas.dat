@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
+  music = "maps/houses/inside",
 }
 
 tile{

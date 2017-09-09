@@ -39,26 +39,37 @@ PROCESSED MUSIC
 09 - Mabe Village
 10 - Mysterious Forest
 11 - Dungeon 1
+13 - Dungeon Passageways
+16 - Instrument of sirens
+17 - Full Moon Cello - 1st Instrument of the Sirens
 18 - BowWow’s Rescue
 19 - Peaceful villagers
 20 - Telephone booth
 22 - Cave
 23 - Dungeon 2
+23 - Bottle Grotto 2nd dungeon
+24 - Conch Horn - 2nd Instrument of the Sirens
 26 - Richard’s Villa
 27 - Wendy game
 28 - Shop
 30 - Kanalet Castle
 31 - Dungeon 3
+32 - Sea Lily s Bell - 3rd Instrument of the Sirens
 33 - Tarin and Bees
 34 - Animal Village
 38 - Dungeon 4
+39 - Surf Harp - 4th Instrument of the Sirens
 44 - Dungeon 5
+46 - Wind Marimba - 5th Instrument of the Sirens
 47 - Game Over
 50 - Southern Shrine
 52 - Dungeon 6
+53 - Coral Triangle - 6th Instrument of the Sirens
 58 - Dungeon 7
+60 - Organ of Evening Calm - 7th Instrument of the Sirens
 61 - Fairy Fountain
 63 - Dungeon 8
+64 - Thunder Drum - 8th Instrument of the Sirens
 
 
 
