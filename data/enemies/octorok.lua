@@ -5,6 +5,8 @@ local enemy = ...
 local children = {}
 
 local can_shoot = true
+local position_x, position_y = enemy:get_position()
+local distance_max = 100
 
 function enemy:on_created()
 
@@ -93,6 +95,18 @@ function enemy:on_movement_changed(movement)
   local sprite = self:get_sprite()
   sprite:set_direction(direction4)
 end
+
+function enemy:on_position_changed(movement)
+
+  local position_current_x, position_current_y = enemy:get_position()
+  if math.abs(position_x - position_current_x) > distance_max or math.abs(position_y - position_current_y) > distance_max  then
+    local movement = sol.movement.create("target")
+    movement:set_target(position_x, position_y)
+    movement:set_speed(64)
+    movement:start(enemy)
+  end
+end
+
 
 local previous_on_removed = enemy.on_removed
 function enemy:on_removed()

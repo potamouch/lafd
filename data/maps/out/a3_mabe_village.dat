@@ -12,20 +12,29 @@ properties{
 
 tile{
   layer = 0,
-  x = 384,
-  y = 424,
-  width = 32,
-  height = 24,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
   x = 0,
   y = 0,
   width = 968,
   height = 792,
   pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 136,
+  width = 16,
+  height = 664,
+  pattern = "113",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 424,
+  width = 32,
+  height = 24,
+  pattern = "12842",
 }
 
 tile{
@@ -14149,6 +14158,15 @@ tile{
   pattern = "981",
 }
 
+tile{
+  layer = 0,
+  x = 40,
+  y = 144,
+  width = 8,
+  height = 656,
+  pattern = "1012",
+}
+
 destructible{
   layer = 0,
   x = 392,
@@ -18730,15 +18748,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
-  y = 736,
-  width = 8,
-  height = 48,
-  pattern = "1444",
-}
-
-tile{
-  layer = 1,
   x = 96,
   y = 736,
   width = 8,
@@ -19347,15 +19356,6 @@ tile{
   width = 768,
   height = 8,
   pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 144,
-  width = 8,
-  height = 656,
-  pattern = "1012",
 }
 
 tile{
@@ -20409,6 +20409,15 @@ tile{
   width = 32,
   height = 32,
   pattern = "6073",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 736,
+  width = 8,
+  height = 48,
+  pattern = "1444",
 }
 
 npc{

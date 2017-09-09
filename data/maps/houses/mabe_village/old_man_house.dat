@@ -617,6 +617,42 @@ npc{
   behavior = "dialog#maps.houses.phone_booth.0",
 }
 
+destructible{
+  layer = 0,
+  x = 232,
+  y = 181,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 181,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 197,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 197,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -624,42 +660,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-destructible{
-  layer = 1,
-  x = 232,
-  y = 181,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 248,
-  y = 181,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 248,
-  y = 197,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 232,
-  y = 197,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
 }
 
 tile{

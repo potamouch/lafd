@@ -8,22 +8,11 @@ function title_screen:on_started()
   self.surface = sol.surface.create(320, 256)
   -- Black screen during 0.3 seconds
   self.timer = sol.timer.start(self, 300, function()
-    self:phase_intro()
+    self:phase_title()
   end)
 
   -- Preload sounds
   sol.audio.preload_sounds()
-
-end
-
-function title_screen:phase_intro()
-
-  -- actual intro screen
-  self.phase = "intro"
-  self.surface:fade_in(30)
-  self.surface:clear()
-  -- start music
-  sol.audio.play_music("scripts/menus/the_storm")
 
 end
 
@@ -57,14 +46,9 @@ function title_screen:on_key_pressed(key)
     sol.main.exit()
 
   elseif key == "space" or key == "return" then
-    if self.phase == "intro" then
-	self.timer:stop()
-    	self:phase_title()
-    elseif self.phase == "title" then
      self.timer:stop()
      handled = true
      sol.menu.stop(self)
-    end
 
 --  Debug.
   elseif key == "left shift" or key == "right shift" then

@@ -542,15 +542,6 @@ destructible{
   weight = 1,
 }
 
-teletransporter{
-  layer = 0,
-  x = 144,
-  y = 160,
-  width = 16,
-  height = 16,
-  destination_map = "houses/mask_shrine/south_shrine",
-}
-
 tile{
   layer = 1,
   x = 144,

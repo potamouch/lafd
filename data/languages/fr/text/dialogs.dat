@@ -1634,15 +1634,12 @@ dialog{
   id = "maps.houses.mabe_village.marine_house.marine_1",
   skip = "all",
   text = [[
-Suis la route   
-du Sud, vers    
-la plage là où  
-je t'ai trouvé. 
-Depuis que tu   
-as échoué ici,  
-des monstres    
-terribles rôdent
-dans le coin.   
+Suis la route du Sud,
+vers la plage là où  je 
+t'ai trouvé. Depuis que
+tu as échoué ici, des
+monstres terribles
+rôdent dans le coin.
 Sois prudent...
 ]]
 }
@@ -1651,34 +1648,32 @@ dialog{
   id = "maps.houses.mabe_village.marine_house.marine_2",
   text = [[
 Ah! Enfin...    
-J'ai cru que tu 
-n'allais jamais 
-te réveiller.   
-Tu devais       
-cauchemarder.   
-Quoi? Zelda??   
-Tu dois être    
-encore patraque!
-Je suis Marine! 
-Tu es sur l'île 
-Cocolint!
+J'ai cru que tu n'allais
+jamais te réveiller.   
+Tu devais cauchemarder.   
+Quoi? Zelda ??   
+Tu dois être encore 
+patraque !
+Je suis Marine ! 
+Tu es sur l'île
+Cocolint !
 ]]
 }
 
 dialog{
   id = "maps.houses.mabe_village.marine_house.tarin_1",
   text = [[
-Salut $v !    
-T'es réveillé...
+Salut $v ! T'es 
+réveillé...
 J'suis Tarkin...
-Tu t'sens mieux?
-Quoi? Comment   
-j'sais ton nom? 
+Tu t'sens mieux ?
+Quoi? Comment j'sais
+ton nom ? 
 Ben, c'est gravé
-sur le Bouclier!
+sur le Bouclier !
 Ben, d'ailleurs 
-il est à toi!   
-J'te l'donne!
+il est à toi !
+J'te l'donne !
 ]]
 }
 
@@ -1687,17 +1682,15 @@ dialog{
   skip = "all",
   text = [[
 Salut $v !    
-Au fait! Y'a    
-un autre bidule 
-qui est resté   
+Au fait! Y'a un autre 
+bidule qui est resté
 sur la plage.   
-Si tu y vas,    
-fais attention  
-aux monstres!   
-Car, depuis que 
-t'es ici Link , 
-des monstres,   
-y'en a partout!
+Si tu y vas, fais
+attention aux 
+monstres !
+Car, depuis que t'es 
+ici $v, des monstres,   
+y'en a partout !
 ]]
 }
 
@@ -1706,9 +1699,9 @@ dialog{
   skip = "all",
   text = [[
 Hé mon gars,    
-attends un peu! 
-J'ai quêqu'     
-chose à te dire!
+attends un peu ! 
+J'ai quêqu' chose à te 
+dire !
 ]]
 }
 
@@ -1716,8 +1709,7 @@ dialog{
   id = "maps.houses.mabe_village.meow_meow_house.meow_meow_1",
   text = [[
 Hmmm...         
-Mon Toutou      
-est si fier     
+Mon Toutou est si fier     
 de son pelage !
 ]]
 }
@@ -1751,8 +1743,7 @@ dialog{
 Ouaf Ouaf ! 
 Je suis un 
 chien très branché !
-J'aimerais 
-avoir des 
+J'aimerais avoir des 
 accessoires à la mode !
 ]]
 }
@@ -2227,7 +2218,7 @@ dialog{
   skip = "all",
   text = [[
 YOUPI! J'ai la  
-pêche! Et toi? 
+pêche ! Et toi ? 
 ]]
 }
 
@@ -2239,7 +2230,7 @@ Il s'est passé
 une véritable   
 tragédie chez ma
 voisine d'en    
-face! Que faire ?
+face ! Que faire ?
 Moi, je ne sais 
 que balayer !!
 ]]
@@ -2250,14 +2241,12 @@ dialog{
   skip = "all",
   text = [[
 Ben... Après une
-sauvegarde,     
-vous pouvez     
-redémarrer à la 
-dernière porte  
-par laquelle    
-vous êtes passé !
-Pourquoi ? Je    
-n'en sais rien, 
+sauvegarde, vous
+pouvez redémarrer 
+à la dernière porte  
+par laquelle vous êtes
+passé ! Pourquoi ? 
+Je n'en sais rien, 
 je suis un môme !
 ]]
 }
@@ -2266,12 +2255,10 @@ dialog{
   id = "maps.out.mabe_village.kids_10",
   skip = "all",
   text = [[
-Où allez-vous   
-tous les deux ?  
-Mais non, je    
-n'insinue rien ! 
-Moi, je ne suis 
-qu'un gosse !
+Où allez-vous tous les
+deux ? Mais non, je    
+n'insinue rien ! Moi, je 
+ne suis qu'un gosse !
 ]]
 }
 
@@ -2280,13 +2267,11 @@ dialog{
   skip = "all",
   text = [[
 Hé M'sieu !      
-A propos du Gîte
-des Rêves...    
-A l'intérieur,  
-il y a un ...   
-Mais comme      
-je ne suis qu'un
-gosse, je n'en  
+A propos du Gîte des
+Rêves... A l'intérieur,  
+il y a un...   
+Mais comme je ne suis
+qu'un gosse, je n'en  
 dirai pas plus !
 ]]
 }
@@ -2295,14 +2280,11 @@ dialog{
   id = "maps.out.mabe_village.kids_2",
   skip = "all",
   text = [[
-Consultez la    
-carte de l'île  
-en appuyant     
-sur SELECT.     
-Après, je ne    
-sais pas trop   
-car je ne suis  
-qu'un gosse ! 
+Consultez la carte de 
+l'île en appuyant     
+sur SELECT. Après, je 
+ne sais pas trop car je
+ne suis qu'un gosse ! 
 ]]
 }
 
@@ -2310,14 +2292,13 @@ dialog{
   id = "maps.out.mabe_village.kids_3",
   skip = "all",
   text = [[
-M'sieu! Pour    
-sauvegarder,    
+M'sieu !
+Pour sauvegarder,    
 appuyez sur tous
-les boutons     
-à la fois! Heu, 
-je n'en sais pas
-plus, je ne suis
-qu'un gosse !
+les boutons à la fois !
+Heu, je n'en sais pas
+plus, je ne suis qu'un
+gosse !
 ]]
 }
 
@@ -2325,14 +2306,12 @@ dialog{
   id = "maps.out.mabe_village.kids_4",
   skip = "all",
   text = [[
-Si vos Coeurs   
-diminuent trop, 
-entrez dans     
-une maison      
-ou une grotte.  
-Pourquoi ? Je ne 
-sais pas, je    
-suis trop petit !
+Si vos coeurs 
+diminuent trop, entrez 
+dans une maison ou 
+une grotte. Pourquoi ? 
+Je ne sais pas, je suis
+trop petit !
 ]]
 }
 
@@ -2341,9 +2320,8 @@ dialog{
   skip = "all",
   text = [[
 M'sieu ! Que     
-pensez-vous de  
-Marine ? Moi ?    
-Ben ! Je ne suis 
+pensez-vous de Marine ? 
+Moi ? Ben ! Je ne suis 
 qu'un gosse !
 ]]
 }
@@ -2352,12 +2330,10 @@ dialog{
   id = "maps.out.mabe_village.kids_6",
   skip = "all",
   text = [[
-M'sieu! D'où    
-vous venez ?     
-De l'extérieur ? 
-Je ne connais   
-pas ce mot, je  
-suis trop petit !
+M'sieu! D'où vous 
+venez ? De l'extérieur ? 
+Je ne connais pas ce 
+mot, je suis trop petit !
 ]]
 }
 
@@ -2365,13 +2341,11 @@ dialog{
   id = "maps.out.mabe_village.kids_7",
   skip = "all",
   text = [[
-L'Oeuf Sacré du 
-Mt Tamaranch ?   
-Il paraît que le
-Poisson-Rêve    
-dort dedans.    
-Je ne sais pas, 
-je suis un môme !
+L'Oeuf Sacré du Mt
+Tamaranch ? Il paraît
+que le Poisson-Rêve    
+dort dedans. Je ne sais
+pas, je suis un môme !
 ]]
 }
 
@@ -2379,15 +2353,13 @@ dialog{
   id = "maps.out.mabe_village.kids_8",
   skip = "all",
   text = [[
-Depuis quand    
-nous vivons     
-sur cette île ?  
-Qu'est-ce que   
-cela signifie : 
-depuis quand ?   
-N'oubliez pas   
-que je ne suis  
-qu'un gosse !
+Depuis quand nous 
+vivons sur cette île ?  
+Qu'est-ce que cela 
+signifie : depuis 
+quand ?   
+N'oubliez pas que je 
+ne suis qu'un gosse !
 ]]
 }
 
@@ -2395,47 +2367,40 @@ dialog{
   id = "maps.out.mabe_village.kids_9",
   skip = "all",
   text = [[
-Souvent, Marine 
-va toute seule  
-regarder la mer.
-Pourquoi ? Je ne 
-sais pas moi,   
-je ne suis      
-qu'un gosse !
+Souvent, Marine va
+toute seule regarder 
+la mer. Pourquoi ? 
+Je ne sais pas moi,   
+je ne suis qu'un gosse !
 ]]
 }
 
 dialog{
   id = "maps.out.mabe_village.kids_alert_moblins",
   text = [[
-M'sieu !         
-M'sieu !         
-C'est terrible, 
-c'est horrible ! 
-c'est c'est...  
+M'sieu ! M'sieu !         
+C'est terrible, c'est 
+horrible ! 
+c'est c'est... 
 Des Gogo...     
 des Momo...     
 des Moblins     
-sont venus      
-dans le village !
-Ils étaient     
-une armée...    
+sont venus dans le
+village ! Ils étaient     
+une armée... 
 Ils...ils...    
 Ils sont sortis !
 Ils sont entrés !
-Oui, c'est ça!  
-Ils sont entrés  
-là et ils ont   
-pris le Minou,  
-non non...      
-Ils ont pris    
+Oui, c'est ça !  
+Ils sont entrés là et ils
+ont pris le Minou,  
+non non... Ils ont pris    
 Toutou !!        
 ... ... ... ... 
 ... ... ... ... 
-Il vaudrait     
-mieux que tu    
-ailles voir ce  
-qui s'est passé !
+Il vaudrait mieux que
+tu ailles voir ce qui
+s'est passé !
 ]]
 }
 
@@ -2444,15 +2409,13 @@ dialog{
   skip = "all",
   text = [[
 Bonjour Link !  
-Tarkin est parti
-dans la forêt   
-chercher des    
+Tarkin est parti dans
+la forêt chercher des    
 champignons.    
-Moi,je préfère  
-chanter.        
-Ecoute ceci:    
-c'est la Ballade
-du Poisson-Rêve.
+Moi,je préfère chanter.        
+Ecoute ceci : c'est la 
+Ballade du 
+Poisson-Rêve.
 ]]
 }
 
@@ -2461,8 +2424,7 @@ dialog{
   skip = "all",
   text = [[
 Forêt Enchantée 
-(Un peu         
-énigmatique)
+(Un peu énigmatique)
 ]]
 }
 
@@ -2470,8 +2432,7 @@ dialog{
   id = "maps.out.mabe_village.weathercock",
   skip = "all",
   text = [[
-Ci-gît          
-le Coq Volant.
+Ci-gît le Coq Volant.
 ]]
 }
 
@@ -2488,7 +2449,7 @@ Village des Animaux
 dialog{
   id = "maps.out.south_mabe_village.dungeon_1_lock",
   text = [[
-Une serrure ici?
+Une serrure ici ?
 Hum, voyons :   
 Serrure Flagello
 ]]
@@ -2508,9 +2469,9 @@ dialog{
   skip = "all",
   text = [[
 Attention       
-aux oursins!    
+aux oursins !    
 Se protéger avec
-un bouclier!
+un bouclier !
 ]]
 }
 
@@ -3157,25 +3118,20 @@ tes Coeurs !
 dialog{
   id = "scripts.meta.map.owl_1",
   text = [[
-Hou hou !        
-Cette épée      
-est donc à toi! 
+Hou hou ! Cette épée      
+est donc à toi ! 
 ... Je comprends
-pourquoi        
-les monstres    
+pourquoi les monstres    
 s'agitent tant :
-celui qui doit  
-réveiller le    
-Poisson-Rêve    
+celui qui doit réveiller
+le Poisson-Rêve    
 est arrivé !     
 On dit que pour 
-quitter l'île,  
-cette personne  
-doit d'abord    
+quitter l'île, cette 
+personne doit d'abord
 le réveiller... 
-Viens me voir   
-dans la Forêt   
-Enchantée, au   
+Viens me voir dans la
+Forêt Enchantée, au   
 Nord du village.
 Je t'y attends. 
 Hou hou !
@@ -3308,32 +3264,25 @@ Hou hou!
 dialog{
   id = "scripts.meta.map.owl_2",
   text = [[
-Hou! Bienvenue  
-à la Forêt      
-Enchantée, mon  
-brave garçon!   
-L'île Cocolint  
-abonde en       
-mystères et     
-n'existe sur    
-aucune carte.   
-Son règlement   
-est unique!     
-Tu ne pourras   
-pas la quitter  
-tant que le     
-Poisson-Rêve    
-dormira.        
-A propos,       
-as-tu visité la 
-Cave Flagello,  
+Hou ! Bienvenue  
+à la Forêt Enchantée,
+mon brave garçon !   
+L'île Cocolint abonde
+en mystères et     
+n'existe sur aucune
+carte. Son règlement   
+est unique ! Tu ne
+pourras pas la quitter  
+tant que le 
+Poisson-Rêve dormira.        
+A propos, as-tu visité
+la Cave Flagello,  
 située au Sud   
-du village?     
-Vas-y avec la   
-Clé cachée      
+du village ? Vas-y 
+avec la Clé cachée      
 dans la Forêt.  
-Le Poisson-Rêve 
-te regarde.Hou!
+Le Poisson-Rêve te
+regarde. Hou !
 ]]
 }
 
@@ -3342,11 +3291,9 @@ dialog{
   text = [[
 Hou !            
 Avec cette clé, 
-va à la Cave    
-Flagello.       
-Prends          
-l'Instrument qui
-y est dissimulé.
+va à la Cave Flagello.       
+Prends l'Instrument
+qui y est dissimulé.
 Dépêche-toi !    
 Le Poisson-Rêve 
 attend! Hou !

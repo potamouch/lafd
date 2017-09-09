@@ -8,6 +8,8 @@
 local initial_menus = {
   "scripts/menus/solarus_logo",
   "scripts/menus/language", 
+  "scripts/menus/introduction", 
+  "scripts/menus/title", 
   "scripts/menus/savegames",
 }
 

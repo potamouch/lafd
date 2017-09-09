@@ -38,7 +38,7 @@ function enemy:go_random()
   local direction8 = rand4 * 2 - 1
   local angle = direction8 * math.pi / 4
   local m = sol.movement.create("straight")
-  m:set_speed(48)
+  m:set_speed(24)
   m:set_angle(angle)
   m:set_max_distance(24 + math.random(96))
   m:start(self)
