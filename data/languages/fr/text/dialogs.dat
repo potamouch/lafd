@@ -2240,14 +2240,14 @@ dialog{
   id = "maps.out.mabe_village.kids_1",
   skip = "all",
   text = [[
-Ben... Après une
-sauvegarde, vous
-pouvez redémarrer 
-à la dernière porte  
-par laquelle vous êtes
-passé ! Pourquoi ? 
-Je n'en sais rien, 
-je suis un môme !
+M'sieu !
+Pour sauvegarder,    
+appuyez sur tous
+les boutons à la fois !
+Heu, je n'en sais pas
+plus, je ne suis qu'un
+gosse !
+
 ]]
 }
 
@@ -2280,11 +2280,14 @@ dialog{
   id = "maps.out.mabe_village.kids_2",
   skip = "all",
   text = [[
-Consultez la carte de 
-l'île en appuyant     
-sur SELECT. Après, je 
-ne sais pas trop car je
-ne suis qu'un gosse ! 
+Ben... Après une
+sauvegarde, vous
+pouvez redémarrer 
+à la dernière porte  
+par laquelle vous êtes
+passé ! Pourquoi ? 
+Je n'en sais rien, 
+je suis un môme !
 ]]
 }
 
@@ -2292,13 +2295,11 @@ dialog{
   id = "maps.out.mabe_village.kids_3",
   skip = "all",
   text = [[
-M'sieu !
-Pour sauvegarder,    
-appuyez sur tous
-les boutons à la fois !
-Heu, je n'en sais pas
-plus, je ne suis qu'un
-gosse !
+Consultez la carte de 
+l'île en appuyant     
+sur SELECT. Après, je 
+ne sais pas trop car je
+ne suis qu'un gosse !
 ]]
 }
 

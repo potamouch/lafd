@@ -10453,24 +10453,6 @@ teletransporter{
   destination = "sales_house_o_bananas_2_B",
 }
 
-wall{
-  layer = 0,
-  x = 376,
-  y = 280,
-  width = 8,
-  height = 88,
-  stops_enemies = true,
-}
-
-wall{
-  layer = 0,
-  x = 400,
-  y = 264,
-  width = 80,
-  height = 8,
-  stops_enemies = true,
-}
-
 sensor{
   name = "owl_1_sensor",
   layer = 0,

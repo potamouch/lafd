@@ -1,17 +1,17 @@
--- Outside - Prairie
+-- Outside - Mabe village
 
 -- Variables
-
 local map = ...
+local game = map:get_game()
 
 -- Methods - Functions
 
 function map:set_music()
-
-  if map:get_game():get_value("step_1_link_search_sword") == true and map:get_game():get_value("step_2_link_found_sword") == nil then
+  
+  if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
-    sol.audio.play_music("maps/out/overworld")
+    sol.audio.play_music("maps/out/mabe_village")
   end
 
 end

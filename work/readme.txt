@@ -25,7 +25,12 @@ MAIN_QUEST_STEP
 22 - Dungeon 4 is opened
 23 - Dungeon 4 is resolved
 
+EQUIPMENT
 
+Sword
+Schield
+Feather
+Bracelet of force
 
 
 PROCESSED MUSIC

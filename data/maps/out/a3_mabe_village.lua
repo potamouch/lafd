@@ -47,7 +47,7 @@ end
 
 function  map:talk_to_kids() 
 
-  local rand = math.random(11)
+  local rand = math.random(4)
   game:start_dialog("maps.out.mabe_village.kids_" .. rand)
 
 end

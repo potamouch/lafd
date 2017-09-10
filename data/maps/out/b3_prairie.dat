@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "out/outside",
-  music = "maps/out/overworld",
+  music = "same",
 }
 
 tile{
@@ -4980,7 +4980,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
+  x = 96,
   y = 64,
   width = 8,
   height = 8,
@@ -4989,7 +4989,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
+  x = 88,
   y = 64,
   width = 8,
   height = 8,
@@ -9498,7 +9498,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
+  x = 104,
   y = 64,
   width = 16,
   height = 32,
@@ -19018,6 +19018,15 @@ tile{
   pattern = "261",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 64,
+  width = 16,
+  height = 32,
+  pattern = "1111",
+}
+
 destructible{
   layer = 0,
   x = 104,
@@ -21573,7 +21582,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 120,
+  x = 112,
   y = 77,
   sprite = "entities/bush",
   destruction_sound = "bush",
@@ -21583,7 +21592,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 120,
+  x = 112,
   y = 93,
   sprite = "entities/bush",
   destruction_sound = "bush",
@@ -22829,8 +22838,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 136,
-  y = 85,
+  x = 128,
+  y = 77,
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -22878,6 +22887,16 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/b4_south_prairie",
   destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 93,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
 }
 
 tile{
