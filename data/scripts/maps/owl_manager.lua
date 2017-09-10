@@ -1,6 +1,6 @@
 local owl_manager = {}
 
-function owl_manager:appear(map, step)
+function owl_manager:appear(map, step, callback)
 
     local game = map:get_game()
     local hero = map:get_entity("hero")
@@ -8,7 +8,7 @@ function owl_manager:appear(map, step)
     local x_hero,y_hero = hero:get_position()
     local x_owl,y_owl = owl:get_position()
     game:set_pause_allowed(false)
-   --game:set_suspended(true)
+    --game:set_suspended(true)
     owl:set_visible(true)
     owl:get_sprite():set_animation("walking")
     local m = sol.movement.create("target")
@@ -43,10 +43,10 @@ function owl_manager:appear(map, step)
           owl:set_visible(false)
           if callback ~= nil then
             callback()
-          else
-            hero:unfreeze()
-            --game:set_suspended(false)
           end
+           --game:set_suspended(false)
+          hero:unfreeze()
+          game:set_pause_allowed(true)
         end)
       end)      
     end)

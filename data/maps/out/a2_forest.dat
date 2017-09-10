@@ -4307,14 +4307,14 @@ tile{
   layer = 0,
   x = 808,
   y = 136,
-  width = 128,
+  width = 112,
   height = 16,
   pattern = "1337",
 }
 
 tile{
   layer = 0,
-  x = 936,
+  x = 920,
   y = 136,
   width = 16,
   height = 16,
@@ -9043,15 +9043,6 @@ teletransporter{
   destination = "_side",
 }
 
-sensor{
-  name = "owl_2_sensor",
-  layer = 0,
-  x = 120,
-  y = 733,
-  width = 96,
-  height = 16,
-}
-
 destructible{
   layer = 0,
   x = 264,
@@ -9811,6 +9802,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#maps.out.forest.sign_1",
 }
 
 destructible{

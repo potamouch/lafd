@@ -72,7 +72,6 @@ end
 
 function map:on_started(destination)
 
-  map:set_music()
   map:set_overlay()
   map:init_tarin()
   owl_2:set_visible(false)
@@ -80,6 +79,13 @@ function map:on_started(destination)
   if game:has_item("mushroom") or game:has_item("magic_powders_counter") then 
     mushroom:set_visible(false)
   end
+  if map:get_game():get_value("owl_2") == true then
+        map:set_music()
+    else
+      owl_manager:appear(map, 2, function()
+        map:set_music()
+      end)
+    end
 
 end
 
@@ -112,21 +118,13 @@ function map:on_draw(destination_surface)
 
 end
 
-function owl_2_sensor:on_activated()
-
-  if map:get_game():get_value("owl_2") == true then
-    map:set_music()
-  else
-    owl_manager:appear(map, 2)
-  end
-
-end
-
 function forest_chest_1:on_opened()
 
   hero:start_treasure("tail_key", 1, "forest_chest_1", function()
     if map:get_game():get_value("owl_3") ~= true and game:get_value("main_quest_step") == 6 then
-      owl_manager:appear(map, 3)
+      owl_manager:appear(map, 3, function()
+      map:set_music()
+      end)
     end
   end)
 

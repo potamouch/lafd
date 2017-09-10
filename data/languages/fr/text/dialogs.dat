@@ -1353,36 +1353,30 @@ Temple des couleurs
 dialog{
   id = "maps.houses.graveyard.witch_house.witch_1",
   text = [[
-C'est une perte 
-de temps !       
-Pour ma poudre, 
-il me faut      
-le Champignon   
-de la forêt.
+C'est une perte de temps !       
+Pour ma poudre, il me
+faut le Champignon de 
+la forêt.
 ]]
 }
 
 dialog{
   id = "maps.houses.graveyard.witch_house.witch_2",
   text = [[
-Tu m'apportes   
-le Champignon   
-qui endort. Bon !
-Dare dare !      
-Je te concocte  
-une mixture !!
+Tu m'apportes le 
+Champignon qui endort.
+Bon ! Dare dare !      
+Je te concocte une 
+mixture !!
 ]]
 }
 
 dialog{
   id = "maps.houses.graveyard.witch_house.witch_3",
   text = [[
-Ça y est!       
-Tout est prêt!  
-Attention,      
-il y en a peu!  
-Veux-tu la      
-tester ici?
+Ça y est ! Tout est prêt !  
+Attention, il y en a peu !  
+Veux-tu la tester ici ?
 ]]
 }
 
@@ -2171,9 +2165,8 @@ Salut ! CLIC !
 dialog{
   id = "maps.out.forest.raccoon",
   text = [[
-J'suis un raton-
-laveur espiègle.
-Et j'aime pas
+J'suis un raton-laveur 
+espiègle. Et j'aime pas
 du tout c'qu'est
 poudreux...
 ]]
@@ -2182,9 +2175,8 @@ poudreux...
 dialog{
   id = "maps.out.forest.raccoon_lost_warning",
   text = [[
-Hé hé ! Tu vas
-te perdre dans
-la Forêt. Hi hi !
+Hé hé ! Tu vas te perdre
+dans la Forêt. Hi hi !
 Bien fait !!
 ]]
 }
@@ -2192,24 +2184,39 @@ Bien fait !!
 dialog{
   id = "maps.out.forest.raccoon_to_tarin",
   text = [[
-J'ai croqué dans
-un champignon.
-Et j'suis devenu
-un raton-laveur !
-Après, j'sais
-plus trop,
-mais c'était
-trop rigolo !!
+J'ai croqué dans un 
+champignon.
+Et j'suis devenu un 
+raton-laveur !
+Après, j'sais plus trop,
+mais c'était trop rigolo !!
+]]
+}
+
+dialog{
+  id = "maps.out.forest.sign_1",
+  text = [[
+Attention au plancher        
+fissuré.        
+Rondouillards : 
+abstenez-vous !
 ]]
 }
 
 dialog{
   id = "maps.out.forest.tarin",
   text = [[
-Oh là là !! J'me
-sens tout drôle !
-Faut m'reposer
+Oh là là !! J'me sens tout
+drôle ! Faut m'reposer
 avant d'rentrer.
+]]
+}
+
+dialog{
+  id = "maps.out.graveyard.sign_1",
+  text = [[
+> Chez Monique  
+v Mare Bobo
 ]]
 }
 
@@ -3109,10 +3116,9 @@ sirènes.
 dialog{
   id = "scripts.meta.map.fairy",
   text = [[
-Voici un        
-petit bonus.    
-Je restaure tous
-tes Coeurs !
+Voici un petit bonus.    
+Je restaure tous tes
+Coeurs !
 ]]
 }
 

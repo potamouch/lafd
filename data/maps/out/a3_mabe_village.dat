@@ -14248,6 +14248,15 @@ tile{
   pattern = "955",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = -16,
+  width = 8,
+  height = 40,
+  pattern = "2205",
+}
+
 wall{
   layer = 0,
   x = 768,

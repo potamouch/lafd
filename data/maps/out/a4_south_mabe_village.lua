@@ -32,7 +32,9 @@ function owl_1_sensor:on_activated()
   if game:get_value("owl_1") == true then
     map:set_music()
   else
-    owl_manager:appear(map, 1)
+    owl_manager:appear(map, 1, function()
+    map:set_music()
+    end)
   end
 
 end
@@ -40,7 +42,9 @@ end
 function owl_4_sensor:on_activated()
 
   if game:get_value("main_quest_step") == 8  and game:get_value("owl_4") ~= true then
-    owl_manager:appear(map, 4)
+    owl_manager:appear(map, 4, function()
+    map:set_music()
+    end)
   end
 
 end
