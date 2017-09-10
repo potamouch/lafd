@@ -27,16 +27,6 @@ function map:on_started(destination)
 
 end
 
-function map:on_obtained_treasure(item, variant, savegame_variable)
-
-  if item:get_name() == "sword" then
-    game:set_value("main_quest_step", 4)
-    --sol.audio.play_music("maps/out/let_the_journey_begin")
-    map:set_music()
-  end
-
-end
-
 function owl_1_sensor:on_activated()
 
   if game:get_value("owl_1") == true then

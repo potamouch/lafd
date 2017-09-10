@@ -334,7 +334,8 @@ sound{ id = "sword_spin_attack_release", description = "Sword spin attack releas
 sound{ id = "sword_tapping", description = "Sword tapping" }
 sound{ id = "throw", description = "Throw" }
 sound{ id = "treasure", description = "Get treasure" }
-sound{ id = "treasure_2", description = "Treasure" }
+sound{ id = "treasure_2", description = "Get treasure 2" }
+sound{ id = "treasure_sword", description = "Get treasure sword" }
 sound{ id = "walk_on_grass", description = "Walk on grass" }
 sound{ id = "walk_on_water", description = "Walk on water" }
 sound{ id = "wrong", description = "Wrong" }

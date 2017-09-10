@@ -10456,8 +10456,8 @@ teletransporter{
 sensor{
   name = "owl_1_sensor",
   layer = 0,
-  x = 584,
-  y = 725,
+  x = 720,
+  y = 685,
   width = 48,
   height = 32,
 }
