@@ -38,4 +38,24 @@ function hero_meta:on_position_changed(x, y, layer)
   end
 end
 
+-- Return true if the hero is walking.
+function hero_meta:is_walking()
+
+  local m = self:get_movement()
+  return m and m.get_speed and m:get_speed() > 0
+end
+
+-- Set fixed stopped/walking animations for the hero (or nil to disable them).
+function hero_meta:set_fixed_animations(new_stopped_animation, new_walking_animation)
+
+  fixed_stopped_animation = new_stopped_animation
+  fixed_walking_animation = new_walking_animation
+  -- Initialize fixed animations if necessary.
+  local state = self:get_state()
+  if state == "free" then
+    if self:is_walking() then self:set_animation(fixed_walking_animation or "walking")
+    else self:set_animation(fixed_stopped_animation or "stopped") end
+  end
+end
+
 return true
