@@ -1,6 +1,8 @@
+map{ id = "caves/east_mt_tamaranch/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/forest/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
+map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }

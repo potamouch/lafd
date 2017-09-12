@@ -22874,7 +22874,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "caves/prairie/fairy_fountain",
-  destination = "fairys_fountain_1_B",
+  destination = "fairy_fountain_1_B",
 }
 
 teletransporter{
