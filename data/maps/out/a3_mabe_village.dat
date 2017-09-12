@@ -17050,7 +17050,7 @@ teletransporter{
   y = 672,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/telephone_booth",
+  destination_map = "houses/mabe_village/telephone_booth_1",
   destination = "telephone_booth_1_1_B",
 }
 
@@ -17465,6 +17465,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "houses/mabe_village/library",
+  destination = "library_1_B",
 }
 
 npc{

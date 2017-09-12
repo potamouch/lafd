@@ -20074,6 +20074,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#maps.out.graveyard.sign_2",
 }
 
 destructible{
@@ -20697,9 +20698,9 @@ teletransporter{
 destination{
   name = "ocarina_2",
   layer = 0,
-  x = 384,
+  x = 392,
   y = 181,
-  direction = 1,
+  direction = 3,
 }
 
 teletransporter{

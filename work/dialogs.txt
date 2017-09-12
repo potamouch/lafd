@@ -1,0 +1,4932 @@
+                _________________
+                Zelda 4 Text Dump
+                ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                DX French Version
+
+Dumped by David Butler (davogones@hotmail.com)
+for The Legends of Zelda (http://loz.zeldalegends.net/)
+
+                Key:
+                ¯¯¯¯
+                + = Control Stick
+                > = Right Arrow
+                < = Left Arrow
+                ^ = Up Arrow
+                v = Down Arrow
+
+NOTE: To view the formatting properly, make sure you are
+using a monospaced font like Courier.
+
+________________
+??  Un dessin   
+est gravé sur   
+le mur. Mais tu 
+ne peux pas le  
+voir car c'est  
+trop sombre...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+L'ILE COCOLINT  
+N'EST QU'UNE    
+ILLUSION... MER,
+CIEL, MONSTRES, 
+HUMAINS...      
+RIEN N'EST REEL.
+L'ILE N'EXISTE  
+QUE DANS LES    
+SONGES DU       
+POISSON-REVE.   
+IL S'EVEILLERA  
+ET ELLE         
+DISPARAITRA.    
+NAUFRAGÎ, TU    
+DOIS CONNAITRE  
+LA VERITE...    
+... ... ... ... 
+Quoi? Illusion?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une Feuille     
+d'Or!           
+Appuyez sur     
+START pour voir 
+combien vous en 
+avez!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+la dernière     
+Feuille d'Or!   
+Amène-les chez  
+Richard. Parle- 
+lui de la Clé...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as le Gland! 
+Tu seras mieux  
+protégé contre  
+les ennemis!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé le 
+Bouclier-Reflet!
+Maintenant,     
+tu peux bloquer 
+le laser...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé le 
+Super Bracelet! 
+Tu pourrais même
+soulever...     
+un éléphant!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé un 
+Coquillage!     
+Collectes-en    
+beaucoup pour   
+faire du troc...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une balade      
+en radeau       
+pour 100 rubis? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il y en a un    
+à l'extérieur.  
+Amuse-toi bien!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    Cascade     
+ près du Temple 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Au Sud du Temple
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   Entrée du    
+  Village des   
+    Animaux
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Nous provenons  
+des Cauchemars. 
+Pour dominer    
+ce monde, nous  
+avons provoqué  
+un sommeil      
+sans fin chez le
+Poisson-Rêve.   
+Tant qu'il dort,
+l'île existera! 
+Nous sommes     
+les Maîtres ici 
+et toi avorton, 
+tu arrives pour 
+contrecarrer    
+nos plans?      
+Ha ha!          
+Tu ne nous      
+battras jamais! 
+Tu vas périr...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette île va    
+disparaître...  
+Notre monde va  
+disparaître...  
+Notre monde...  
+Notre...        
+monde...!!      
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Génial, Link !  
+Je peux?        
+Tu es d'accord? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Allez! Je veux  
+essayer! Ça     
+doit être fun!  
+    Oui  Oui!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu es douée!    
+Tu dois être    
+une pro, hein?  
+... ... ... ... 
+Zou du vent!    
+On ne veut pas  
+de pros ici...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Va-t'en!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Arrête!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ce n'est pas une
+commode... Quoi?
+Tu avais        
+remarqué?... OK!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link  a inspecté
+la commode.     
+                
+C'est un objet  
+d'art... ...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ça y est!       
+Tout est prêt!  
+Attention,      
+il y en a peu!  
+Veux-tu la      
+tester ici?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ho! Tu fais     
+quoi dans       
+ma commode?     
+Franch'ment,    
+ça va la tête?  
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tout ceci mérite
+une photo...    
+Tire-moi le     
+portrait, OK?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Les Dunes       
+de Yarna?       
+Leur entrée     
+est au Sud,     
+mais tu ne peux 
+pas y aller ­   
+une bestiole    
+est affalée de  
+tout son long!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une chanson de  
+Marine par un   
+si beau jour, ce
+serait le pied!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Savais-tu que   
+les Villages    
+des Animaux     
+et des Mouettes 
+étaient des     
+villes jumelées?
+Des villes,     
+c'est un bien   
+grand mot...    
+Villages jumeaux
+serait mieux!   
+D'après une     
+source sûre,    
+à l'intérieur du
+Gîte des Rêves, 
+il y a un...    
+Crois-tu que    
+c'est vrai?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je ne peux aller
+au Village. Les 
+monstres sont si
+nombreux! Marine
+est-elle en vie?
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Connais-tu le   
+Coq Volant?     
+Autrefois,      
+il aurait vécu  
+dans le Village 
+des Mouettes.   
+Je me demande   
+si c'est vrai!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vivement que    
+Marine revienne!
+Sa chanson est  
+trop géniale!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette nuit, j'ai
+rêvé que j'étais
+une carotte.    
+Drôle de rêve   
+pour un lapin...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Pourquoi les    
+animaux parlent?
+Je ne sais pas! 
+Je ne suis      
+qu'un lapin moi!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oui c'est elle! 
+C'est Marine!   
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Abandonne si tu 
+es un lâche.    
+Seul le courage 
+peut déplacer   
+les tombes.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai pas peur.  
+Je veux juste   
+rester chez moi.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est ma        
+première balade 
+avec toi, Link .
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+. . . . .
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette falaise   
+sera notre      
+jardin secret.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu ne parles pas
+?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'adore les     
+photos! Pourquoi
+ne pas prendre  
+une photo à     
+l'écart de tous?
+Appelons-la.....
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous obtenez les
+habits bleus!   
+Votre endurance 
+est doublée!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous obtenez les
+habits rouges!  
+Vous débordez   
+d'énergie!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Rouge pour      
+l'attaque et    
+bleu pour la    
+défense. Lequel 
+Désires-tu?     
+    BLEU ROUGE
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Es-tu sûr?      
+    OUI  NON
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+La fée t'attend.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+As-tu la poudre?
+Va la chercher  
+si tu ne l'as   
+pas.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Nos couleurs    
+changent! Si je 
+suis rouge, il  
+sera bleu! Et   
+inversement...  
+De quelle       
+couleur sont mes
+habits?         
+    Bleu Rouge
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+BOU! Ta lame est
+pitoyable! Tu ne
+pourras jamais  
+me battre!      
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Désolé mais ceci
+est le donjon de
+la couleur.     
+Seuls ceux au   
+pouvoir de la   
+couleur peuvent 
+entrer. Si tu   
+peux dire qui   
+porte du rouge  
+et qui porte du 
+bleu, tu pourras
+entrer.         
+Adieu.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Voici un indice:
+Rouge devient   
+Bleu.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Non! Regarde    
+bien et essaie  
+encore une fois.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+N'en parle à    
+personne.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Voulez-vous lire
+ce livre?       
+    Lire Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un monde de     
+couleur sous 5  
+pierres tombales
+                
+   3^  4>  5^   
+   2<  1v       
+Teste ton       
+courage. Ouvre  
+un nouveau      
+chemin!         
+Le valeureux    
+aura le pouvoir 
+des couleurs.   
+Quel est le mon-
+de de couleur?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Sois le bienvenu
+Link . Je te    
+félicite d'être 
+venu jusqu'ici. 
+Je vais te      
+remettre le     
+pouvoir de la   
+couleur. Choisis
+rouge pour      
+l'attaque ou    
+bleu pour la    
+défense. Quel   
+pouvoir veux-tu?
+    BLEU ROUGE
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Jeune sot! Ton  
+épée ne marche  
+pas! Essaie donc
+autre chose!    
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Fou cupide!     
+Tu veux plus de 
+puissance?! Un  
+bouffon tel que 
+toi est indigne!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ferme les yeux.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je vais te mener
+dehors.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bleu est normal 
+Jaune: attention
+et rouge: danger
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Jaune: attention
+Rouge: danger   
+Prends ton      
+temps.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bleu: commencer 
+Jaune: attention
+Rouge: danger   
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Fantastique!    
+Appelons ceci:  
+"Link  joue avec
+Toutou!"        
+Maintenant      
+approche-toi de 
+Toutou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Grrrr!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link ,          
+approche-toi!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Grrrr! Grrrr!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Plus près! OK,  
+c'est bon...    
+On sourit!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Grrrr! Grrrr!!  
+GRRRR!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Youpi! Vas-y!   
+Encore...       
+Pardon?         
+Mais non! Je    
+n'ai rien dit.  
+Je plaisantais!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Pas terrible... 
+Pardon? J'ai dit
+quelque chose?  
+Hé, ça suffit   
+la parano...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link , tu       
+fouilles souvent
+dans les tiroirs
+des gens?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vas-y!!         
+Creuse...       
+Creuse encore!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ouah, super!    
+Quelle surprise!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh désolée!     
+Rien de cassé   
+Link ?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Yo, t'es québlo!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il est 9H59,    
+ça dissuade...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Les nanas       
+de la Hotline,  
+c'est des pros!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Gros bisous     
+de Kyoto!       
+       VERO Ï
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si tu vois      
+les pointes,    
+pense à utiliser
+ton Bouclier.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+D'abord un lapin
+et en dernier,  
+un spectre...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si loin...      
+Ne crains rien. 
+Fonce et vole!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+La lueur des    
+tuiles sera     
+ton guide...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Plonge là où    
+se croisent     
+les lumières    
+des flambeaux...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Fracasse        
+le mur          
+des Yeux        
+du Masque!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Le rébus est    
+résolu si les 4 
+piliers tombent.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Comble tous     
+les trous avec  
+le roc qui roule
+et cette + est  
+la solution!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si une porte ne 
+s'ouvre pas,    
+déplace un bloc.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si les blocs se 
+ressemblent, un 
+nouveau chemin  
+s'ouvrira.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une partie du   
+sol s'élève.    
+Actionne le     
+cristal bleu.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+
+Hé mon gars,    
+attends un peu! 
+J'ai quêqu'     
+chose à te dire!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah! Enfin...    
+J'ai cru que tu 
+n'allais jamais 
+te réveiller.   
+Tu devais       
+cauchemarder.   
+Quoi? Zelda??   
+Tu dois être    
+encore patraque!
+Je suis Marine! 
+Tu es sur l'île 
+Cocolint!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Suis la route   
+du Sud, vers    
+la plage là où  
+je t'ai trouvé. 
+Depuis que tu   
+as échoué ici,  
+des monstres    
+terribles rôdent
+dans le coin.   
+Sois prudent...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bonjour Link !  
+Tarkin est parti
+dans la forêt   
+chercher des    
+champignons.    
+Moi,je préfère  
+chanter.        
+Ecoute ceci:    
+c'est la Ballade
+du Poisson-Rêve.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mais c'est un   
+Ocarina         
+que tu as là!   
+Veux-tu en      
+jouer pendant   
+que je chante?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'adore chanter!
+Et toi Link ,   
+qu'est-ce que   
+tu aimes?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link , Tarkin   
+fait la sieste  
+à la maison.    
+Je préfère      
+chanter. Oui!   
+Pourquoi pas    
+la Ballade      
+du Poisson-Rêve?
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Evidemment!     
+C'est fermé!    
+Tu dois trouver 
+la clé du Boss.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un Fragment     
+de Puissance!!! 
+Tu peux sentir  
+l'énergie       
+envahir         
+ton corps!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu m'apportes   
+le Champignon   
+qui endort. Bon!
+Dare dare!      
+Je te concocte  
+une mixture!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai croqué dans
+un champignon.  
+Et j'suis devenu
+un raton-laveur!
+Après, j'sais   
+plus trop,      
+mais c'était    
+trop rigolo!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh là là!! J'me 
+sens tout drôle!
+Faut m'reposer  
+avant d'rentrer.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est une perte 
+de temps!       
+Pour ma poudre, 
+il me faut      
+le Champignon   
+de la forêt.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'suis un raton-
+laveur espiègle.
+Et j'aime pas   
+du tout c'qu'est
+poudreux...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si tu brandis   
+le Champignon,  
+un arôme subtil 
+se répandra!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+le Champignon!  
+Un arôme subtil 
+exalte ton sens 
+de l'odorat.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ZZZ...ZZZ...    
+Quêqu' chose    
+que t'as pas    
+compris?        
+Téléphone à     
+Pépé le Ramollo.
+ZZZ...ZZZ...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis éreinté!
+J'vais faire    
+un p'tit somme. 
+ZZZ...ZZZ...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quelle surprise!
+Ecoute-moi bien,
+car je vais te  
+dire un secret: 
+avec ton épée,  
+frappe les murs 
+des labyrinthes.
+Si le son est   
+creux, détruis  
+ce mur avec     
+une Bombe!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as appris    
+la Ballade      
+du Poisson-Rêve.
+La jolie chanson
+de Marine est   
+gravée en toi.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu fredonneras  
+cette chanson   
+de temps à autre
+pour ne pas     
+l'oublier!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je t'en prie!   
+Apprends-la.    
+C'est ma chanson
+préférée!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Alors,comment   
+tu la trouves?  
+N'est-elle pas  
+émouvante?      
+Sauras-tu t'en  
+souvenir?       
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis Monique 
+la Lunatique.   
+Je vends des    
+remèdes secrets 
+qui te feront   
+péter la forme!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mon secret coûte
+28 rubis.       
+Tu es intéressé?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mon secret coûte
+42 rubis.       
+Tu es intéressé?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci bien!     
+Voilà, je viens 
+de l'appliquer  
+sur toi!        
+Ce remède agira 
+si tu perds     
+tes Coeurs!     
+Reviens quand   
+tu veux!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu plaisantes?? 
+Reviens plutôt  
+quand tu auras  
+de l'argent...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+... ... ... ... 
+Non, je ne t'en 
+vendrai pas!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Flûte, zut!!    
+Je voulais juste
+te rendre plus  
+puissant!       
+Tu n'es qu'une  
+poule mouillée!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu es un amour! 
+Pour la peine,  
+tu ne paieras   
+que 7 rubis!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Marine          
+se joint à toi! 
+C'est la chance 
+da ta vie!?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+GRRR...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé hé! Tu vas   
+te perdre dans  
+la Forêt. Hi hi!
+Bien fait!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Wouf Wouf!      
+Wouf Wouf!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ouaf Ouaf!      
+Ouaf Ouaf!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je vais panser  
+tes blessures   
+et remonter     
+ton énergie.    
+Ferme les yeux.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Sale type! Tu as
+battu mes gars! 
+Tu vas le payer!
+Je saurai te    
+retrouver!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Alors petit?    
+Tu cherches     
+la bagarre?     
+Allez les gars, 
+débarrassez-moi 
+de cet avorton!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis Papounet
+le papa des     
+quadruplés.     
+Plus tard, je me
+perdrai dans les
+montagnes.      
+Tu viendras     
+m'aider, hein?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oui, oui!!      
+Casse-les!      
+Casse tout!     
+... ... ... ... 
+Quoi? Il y a    
+un problème?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mama mia!       
+Tu n'es pas     
+encore rôdé...  
+Pourquoi acheter
+des choses      
+inutiles?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as gagné     
+un Coeur!       
+Toute ton       
+énergie         
+est restaurée!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Arc & Flèches : 
+   980 rubis!   
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   10 Flèches:  
+   10 rubis!    
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bienvenue!      
+Apporte ici     
+ce que tu       
+veux acheter.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé! Une minute! 
+Tu dois payer!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Pelle de qualité
+   200 rubis!   
+C'est pas donné!
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Trois Coeurs   
+   10 rubis!    
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bouclier        
+personnalisé.   
+    20 rubis!   
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    10 Bombes   
+    10 rubis!   
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Désolé petit!   
+Tu n'as pas     
+assez de rubis. 
+Reviens donc    
+plus tard.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci beaucoup! 
+Et au plaisir!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as pu sortir 
+sans payer?     
+Tu n'as pas     
+honte, voyou?!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je t'avais bien 
+dit de me payer.
+Tu vas le       
+regretter...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+La porte semble 
+être ouverte.   
+Tu pourras donc 
+sortir sans     
+aucun problème.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+JEU DE HASARD   
+La partie : 10r 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+A & B déplacent 
+la grue. Après, 
+tu dois calculer
+ton timing...   
+Dirige-toi vers 
+les boutons.    
+Bonne chance!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as gagné     
+le Bouclier!    
+Tu peux même y  
+graver ton nom!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un autre essai? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bonne chance!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ça suffit pour  
+aujourd'hui...  
+Tu reviendras   
+un autre jour!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as gagné la  
+Poudre Magique! 
+Tu peux la      
+saupoudrer sur  
+plein de trucs!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as gagné     
+30 rubis!       
+Tu peux jouer   
+encore 3 fois!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Atchoum...      
+Retire donc     
+cette poudre... 
+Sinon, je vais  
+te maudire...   
+Atchoum...      
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as gagné     
+un Yoshi!       
+On le voit      
+dans tous les   
+jeux, celui-là!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une partie de   
+pêche, mon gars?
+Ça ne te coûtera
+que 10 rubis... 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vis ta vie!     
+Sois un peu     
+plus motivé!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Avec < et >     
+de +, évalue    
+la distance     
+de ton lancer.  
+Dès que le      
+poisson est     
+ferré, presse   
+vite AïB pour   
+le remonter!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un autre essai? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh non! Le fil  
+s'est cassé!    
+Un autre essai? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il est énorme!  
+En récompense,  
+je t'offre      
+20 rubis.       
+Un autre essai? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il n'y a plus de
+poissons!       
+Veux-tu essayer 
+la pêche en mer?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'était pour    
+rigoler...      
+Allez, salut!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ce n'est que    
+du fretin.      
+Tu n'auras que  
+5 rubis.        
+Tu devrais      
+encore essayer! 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu n'as pas     
+assez de rubis. 
+Reviens quand   
+tu seras plus   
+fortuné,        
+petit gars!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un quart de     
+coeur!          
+Appuyez sur     
+SELECT sur le   
+sous-écran.     
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as collecté  
+4 Fragments     
+de Coeur. Tu as 
+maintenant un   
+Coeur complet!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Brrrr... Ce sont
+des blocs       
+de glace!!      
+Je suis gelé!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+NANANA!!! Tu ne 
+m'auras pas tant
+que j'aurai     
+ma jarre!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quoi? Tu as osé?
+Tu as cassé ma  
+jarre. Alors là!
+Je suis furax!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Salut Link !    
+T'es réveillé...
+J'suis Tarkin...
+Tu t'sens mieux?
+Quoi? Comment   
+j'sais ton nom? 
+Ben, c'est gravé
+sur le Bouclier!
+Ben, d'ailleurs 
+il est à toi!   
+J'te l'donne!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Au fait! Y'a    
+un autre bidule 
+qui est resté   
+sur la plage.   
+Si tu y vas,    
+fais attention  
+aux monstres!   
+Car, depuis que 
+t'es ici Link , 
+des monstres,   
+y'en a partout!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 1    
+ CAVE FLAGELLO
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 2    
+GROTTE DU GENIE
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 3    
+ CAVE AUX CLES
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 4    
+ABIME DU POISSON
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 5    
+  POISSON-CHAT
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 6    
+TEMPLE DU MASQUE
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 7    
+TOUR DU VAUTOUR
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    NIVEAU 8    
+ROC DE LA TORTUE
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   OEUF SACRÎ
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Pont suspendu
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+      Chez      
+  AlligoBanane
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Champ      
+   des Pièges
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Maison     
+   de la Baie
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Jeu de hasard
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bazar du Centre
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+  Chez Marine   
+   et Tarkin
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Hutte      
+ de la Sorcière
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Dunes de Yarna 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+  La Prairie
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Forêt Enchantée
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Mt Tamaranch
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   Cordillère   
+    Tartare
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Dédale     
+  des Panneaux
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Village    
+  des Mouettes
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Village    
+  des Animaux
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   Cimetière
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    Descente    
+  des Rapides
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Plaine Cocolint
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   Plage Coco
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Baie de Martha
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Est de la Baie
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Marais     
+  des Anémones
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Temple du Masque
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Château Canulet
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Plateau Tartare
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+  Morne Plaine
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Sud du Village
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Etang
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+      Chez      
+Mme Miaou Miaou 
+                
+ Chien méchant!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    Chez Pépé   
+   le Ramollo
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ Chez Mr Wright 
+   le Loufoque
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+
+   Pharmacie    
+   de Monique
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+      Chez      
+ les Quadruplés
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Gîte des Rêves
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Cabine     
+  téléphonique
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+     Maison     
+aux Coquillages
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Villa de Richard
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   Poulailler
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+  Bibliothèque
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    Location    
+   de radeaux
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   Trou Warp
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ce rocher est   
+très fissuré... 
+Il doit y avoir 
+un moyen        
+de le casser...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh! Quel        
+drôle d'objet!  
+Peut-être que tu
+peux le briser  
+en fonçant      
+dedans.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ce bloc a un    
+trou de serrure!
+Il te faudrait  
+une Clé!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh là... C'est  
+bien trop lourd!
+Tu n'y arriveras
+jamais rien que 
+par la force    
+de tes bras!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est un Ocarina
+mais tu ne sais 
+pas comment     
+en jouer...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+La pauvre poule!
+Arrête donc!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+le Bracelet!    
+Génial! Tu peux 
+soulever des    
+jarres et des   
+pierres!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous récupérez  
+votre bouclier! 
+Utilisez-le pour
+repousser vos   
+ennemis!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette Poudre    
+est si fraîche! 
+Pour ta peine,  
+voici un indice:
+si tu es avalé  
+par les sables  
+mouvants, place 
+une Bombe là    
+où tu tombes.   
+De l'autre côté,
+une surprise    
+t'attend. Salut!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as le        
+Grappin!        
+Tu vas voir     
+comment la      
+chaîne s'étire!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as le Bâton  
+de Feu!         
+Brûle! Brûle!   
+Brûle tout      
+ce que tu veux!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as les Bottes
+de Pégase!      
+Garde le bouton 
+enfoncé et      
+tu fileras      
+comme le vent!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as l'Ocarina!
+J'espère que    
+tu pourras jouer
+plusieurs airs!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Plume! 
+Soudain, tu es  
+plus léger      
+que l'air!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Pelle! 
+Maintenant,     
+tu peux creuser 
+où tu veux!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Poudre Magique! 
+Essaie de la    
+saupoudrer sur  
+plein de choses!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous obtenez une
+bombe! Bien     
+joué!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as retrouvé  
+ton Epée!       
+C'est la tienne 
+car il y a ton  
+nom dessus!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as           
+les Palmes!     
+Appuie sur B    
+quand tu nages: 
+tu pourras alors
+plonger!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Loupe! 
+Elle te montrera
+ce que tu ne    
+pouvais pas voir
+auparavant!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as une       
+nouvelle Epée!  
+N'oublie pas de 
+graver ton nom  
+dessus!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous trouvez le 
+médicament      
+secret! A quoi  
+cela peut-il    
+servir?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Clé Flagello!   
+Tu peux ouvrir  
+la porte de la  
+Cave Flagello!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Clé Cyclope!    
+Vite! Va vers   
+l'entrée de     
+La Prairie!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Clé Poisson!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Clé Masque!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Clé Vautour!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as une Carte!
+Appuie sur      
+START pour      
+la consulter!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la        
+Boussole!       
+Maintenant,     
+tu peux voir où 
+sont cachés     
+les Coffres et  
+le Boss! Si une 
+Clé est dans une
+salle, un son te
+préviendra!     
+C'est ça        
+le progrès...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous trouvez un 
+bec de pierre!  
+Allez compléter 
+une statue de   
+chouette.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Clé    
+du Boss.        
+Tu peux ouvrir  
+la porte de     
+son repaire!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as une Petite
+Clé. Tu peux    
+ouvrir une porte
+verrouillée!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+20 rubis.       
+} joie!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+50 rubis.       
+Merveilleux!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+100 rubis.      
+Fantastique!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+200 rubis.      
+Quelle extase!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Va-t'en!        
+Tu vois pas que 
+je pose? Le beau
+Sven doit faire 
+mon portrait!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+GRRR! GRR!      
+UN INTRRRUS!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+BONK! BONK!     
+Tu ne m'auras   
+pas! BONK!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+GLOU GLOU!      
+GLOUP! GLOUP!   
+MIAM! A MANGER! 
+GLOUP! GLOUP!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah Ah! Tu es    
+l'intrus venu   
+réveiller le    
+Poisson-Rêve... 
+Tu vas me servir
+de déjeuner!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+HI HI HI!!      
+Attends un peu, 
+que je m'occupe 
+de toi... HI HI!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+AHHH!           
+Tu ne connais   
+pas encore      
+cette île! Tu   
+es vraiment     
+naïf... AHHH!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé petit! Besoin
+d'un indice?    
+Mon point faible
+c'est la...     
+Ouh, j'ai failli
+trop en dire...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je parle trop...
+Mais si le      
+Poisson-Rêve    
+s'éveille, tout 
+ce qui se trouve
+sur cette île   
+disparaîtra!    
+Oui... TOUT!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai perdu...   
+Toi aussi, tu   
+vas perdre si   
+le Poisson-Rêve 
+s'éveille...    
+Tout comme moi, 
+tu es... dans   
+son rêve...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette fois-ci,  
+je vais t'avoir,
+c'est sûr... Je 
+vais t'écraser  
+comme une       
+vulgaire fourmi!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+SPLASHHH!       
+Tu vas mourir!  
+Jamais, je ne te
+laisserai jouer 
+des Instruments 
+des Sirènes!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+NON!!!...       
+Si tu n'étais   
+pas venu ici,   
+rien n'aurait   
+changé.         
+Tu ne peux pas  
+réveiller le    
+Poisson-Rêve!   
+N'oublie pas... 
+Nous faisons... 
+tous partie...  
+de son rêve...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Bienvenue  
+à la Forêt      
+Enchantée, mon  
+brave garçon!   
+L'île Cocolint  
+abonde en       
+mystères et     
+n'existe sur    
+aucune carte.   
+Son règlement   
+est unique!     
+Tu ne pourras   
+pas la quitter  
+tant que le     
+Poisson-Rêve    
+dormira.        
+A propos,       
+as-tu visité la 
+Cave Flagello,  
+située au Sud   
+du village?     
+Vas-y avec la   
+Clé cachée      
+dans la Forêt.  
+Le Poisson-Rêve 
+te regarde.Hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou!            
+Avec cette clé, 
+va à la Cave    
+Flagello.       
+Prends          
+l'Instrument qui
+y est dissimulé.
+Dépêche-toi!    
+Le Poisson-Rêve 
+attend! Hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! C'est un   
+des Instruments 
+des Sirènes!    
+Tu es brave et  
+je t'avais      
+sous-estimé...  
+Cet Instrument  
+- utilisé avec  
+les 7 autres -  
+a le pouvoir    
+de réveiller    
+le Poisson-Rêve.
+Collecte ces    
+8 Instruments!  
+Je suis ici pour
+t'indiquer le   
+chemin...       
+Maintenant,     
+va au Marais    
+des Anémones,   
+situé au Nord!  
+Hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Ton        
+compagnon       
+a l'air féroce! 
+N'oublie pas,le 
+2ème Instrument 
+se trouve dans  
+le Marais!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou!            
+Le Poisson-Rêve 
+sommeille dans  
+l'Oeuf, là haut.
+Il rêve, rêve!  
+Il se réveillera
+si tu te tiens  
+face à I'Oeuf et
+que tu joues des
+8 Instruments.  
+Ainsi seulement,
+pourras-tu      
+quitter l'île...
+Hou!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Combien    
+d'Instruments   
+as-tu collectés?
+Quand tu joueras
+des Instruments 
+face à l'Oeuf,  
+le Poisson-Rêve 
+se réveillera   
+et tu pourras   
+quitter l'île.  
+Va vite vers les
+Dunes de Yarna! 
+L'horrible      
+monstre noir    
+des sables      
+t'indiquera     
+le chemin!      
+Hou hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Cette clé  
+évoque          
+un poisson      
+remontant       
+une cascade. Va 
+à cette cascade,
+fais disparaître
+l'eau et        
+saute du sommet.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Au Sud     
+et au Nord,     
+se trouvent     
+deux temples.   
+Va d'abord au   
+Sud, là où des  
+Ruines antiques 
+parlent         
+du Poisson-Rêve.
+Tu en sauras    
+sûrement plus...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Je vois que
+tu as lu ce     
+Marbre ancien.  
+Il dit que l'île
+est issue       
+des songes      
+du Poisson-Rêve,
+mais personne   
+n'en est sûr... 
+Qui peut savoir 
+ce que contient 
+un coffre tant  
+qu'il n'a pas   
+été ouvert?     
+Qui peut deviner
+s'il rêve tant  
+qu'il ne s'est  
+pas réveillé?   
+Le Poisson-Rêve 
+est le seul qui 
+sait... Suis ton
+instinct. Ainsi,
+tu sauras...    
+Hou hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Les        
+monstres de     
+cette île ont   
+peur que le     
+Poisson-Rêve    
+ne s'éveille.   
+Leur pouvoir    
+est bien réel!  
+Ils pourraient  
+conquérir l'île 
+et anéantir     
+leurs ennemis.  
+Va à la tour    
+de la montagne  
+en volant comme 
+un oiseau! Hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou hou!        
+Ton périple est 
+ardu mais tu y  
+es presque...   
+Va vers l'Est.  
+Le Poisson du   
+Vent a besoin de
+sommeil.        
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Cela       
+fait longtemps  
+qu'on ne s'est  
+rencontrés!     
+Plonge dans la  
+Baie de Martha  
+et entre        
+dans la gueule  
+du Poisson-Chat.
+Plus tu es près 
+du Poisson-Rêve,
+plus son sommeil
+est agité...    
+Tu es dans la   
+bonne voie. Hou!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Cette fille
+a chanté en face
+de l'Oeuf sa    
+"Ballade du     
+Poisson-Rêve".  
+Mais c'est la   
+Chanson d'Eveil!
+Désirait-elle   
+vraiment        
+le réveiller?   
+Le prochain     
+Instrument est  
+dans le Roc     
+de la Tortue.   
+Anime ces rocs. 
+Sois brave!     
+Le Poisson-Rêve 
+attend...       
+Hou hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou hou!        
+Le Poisson-Rêve 
+t'attend. Entre 
+dans l'Oeuf...  
+Hou hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou! Petit!     
+Heu pardon!     
+Maître Link ,   
+tu as anéanti   
+les monstres!   
+Tu as fait      
+preuve de force,
+de sagesse      
+et de courage!  
+... ... ... ... 
+Etant un des    
+esprits du      
+Poisson-Rêve,   
+je protégeais   
+son monde       
+onirique...     
+Hélas, un jour  
+le Cauchemar    
+envahit son rêve
+et menaça la    
+paix de l'île.  
+Mais toi Link , 
+tu devins       
+notre espoir.   
+J'ai toujours   
+cru en toi!     
+Merci Link .    
+Ma tâche est    
+accomplie et je 
+dois réintégrer 
+le Poisson-Rêve.
+Adieu... Hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+... ... ... ... 
+... ... ... ... 
+JE SUIS LE      
+POISSON-REVE!   
+LONG FUT        
+MON SOMMEIL...  
+DANS MES SONGES,
+UN OEUF APPARUT,
+PUIS UNE ILE    
+L'ENTOURA...    
+DES GENS... DES 
+ANIMAUX... UN   
+MONDE ETAIT NE! 
+... ... ... ... 
+MAIS LE REVE    
+A TOUJOURS      
+UNE FIN, C'EST  
+LE DESTIN!      
+QUAND JE        
+M'EVEILLERAI,   
+COCOLINT        
+DISPARAITRA...  
+OR, LE SOUVENIR 
+DE CETTE ILE    
+DOIT RESTER     
+DANS NOS COEURS 
+EN TANT QUE     
+REALITE...      
+TOI AUSSI UN    
+JOUR, TU TE     
+SOUVIENDRAS.    
+CE SOUVENIR DOIT
+RESTER REEL     
+DANS UN MONDE   
+DE REVES...     
+VIENS Link ,    
+EVEILLONS-NOUS  
+ENSEMBLE!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+JOUE LA CHANSON 
+DE L'EVEIL!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+La Petite Sirène
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+... Link ,      
+tu as battu     
+Maléficio!      
+Va et monte     
+les escaliers!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Que pasa? Pero, 
+qué fais-tu avec
+la Loupe?       
+Arrrrête!       
+Pobrecito...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hou hou!        
+Cette épée      
+est donc à toi! 
+... Je comprends
+pourquoi        
+les monstres    
+s'agitent tant :
+celui qui doit  
+réveiller le    
+Poisson-Rêve    
+est arrivé!     
+On dit que pour 
+quitter l'île,  
+cette personne  
+doit d'abord    
+le réveiller... 
+Viens me voir   
+dans la Forêt   
+Enchantée, au   
+Nord du village.
+Je t'y attends. 
+Hou hou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Minable! Ne     
+vois-tu pas que 
+tu me gênes!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Croâ croâ!      
+Je suis Wart,   
+le chanteur.    
+Tu es nul       
+en musique!     
+Reviens avec    
+du matos, vieux!
+Croâ croâ!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Croâ croâ!      
+Je suis Wart,   
+le chanteur.    
+Inutile de      
+me présenter :  
+je suis le roi  
+du Rap...       
+Tu veux rester  
+et nous écouter?
+Pour 300 rubis, 
+on te chante    
+un méga morceau!
+Alors?...       
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci...        
+Je suis ému.    
+Merci... Croâ!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+De toute façon, 
+on ne fait pas  
+dans le         
+bénévolat...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as appris    
+la chanson des  
+Grenouilles.    
+C'est cool non? 
+Tu peux donc    
+insuffler la vie
+dans les objets.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si tu joues     
+cet air,        
+certains objets 
+s'animeront!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Dis donc toi!   
+Merci de m'avoir
+dérangé pendant 
+ma sieste!      
+Tiens, j'ai un  
+cadeau pour toi.
+Tu es prêt?     
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu veux plus de 
+Poudre Magique? 
+Tu es prêt?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu veux plus de 
+Bombes?         
+Tu es prêt?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu veux plus de 
+Flèches?        
+Tu es prêt?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hi hi hi!       
+C'est bien fait 
+pour toi!       
+Tu as vu tout   
+ce que tu dois  
+porter!!!       
+Allez, salut!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+1 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh non! La      
+pellicule est   
+finie! Pense à  
+regarder ton    
+album!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bonjour! Je suis
+le photographe! 
+Quel belle      
+occasion de     
+faire une photo!
+Appelons-la:    
+"Belle tête!"
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Voilà qui       
+représente ton  
+aventure à la   
+perfection!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Appelons ceci:  
+"C'était juste."
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis trop    
+près.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je dois reculer.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Aaaaaah!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je retourne à la
+boutique!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Reviens me voir 
+quand tu seras  
+seul!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Es-tu sûr?      
+    OUI  NON
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'adore les     
+photos! Hé,     
+Link ! Que fais-
+tu dans le coin?
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+
+Tu as le Violon 
+des Vagues!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Conque 
+de l'Ecume!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Cloche 
+des Algues!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as la Harpe  
+du Reflux!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as le        
+Xylophone Marin!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as le ®¯angle
+de Corail!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as l'Orgue   
+de l'Embellie!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as le Tambour
+des Marées!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Salut! C'est moi
+le photographe! 
+Tu te poses des 
+questions sur   
+Pépé le Ramollo?
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Appelons ceci   
+"Link  Découvre 
+le secret de    
+pépé!"
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link , fuis     
+avant qu'il ne  
+te trouve.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je vais la      
+développer.     
+Viens vite la   
+voir!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ADORE prendre 
+les gens en     
+photo. Puis-je  
+te tirer le     
+portrait?       
+    OUI  NON
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Va au fond de la
+salle et fais   
+face à l'écran. 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé! Je n'ai pas 
+encore pris ta  
+photo! Retourne 
+faire face à    
+l'écran!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Fais-moi ton    
+plus beau       
+sourire!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette statue    
+veut me dire    
+quelque chose   
+mais je ne      
+comprends rien! 
+Elle n'a pas de 
+bec...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai ce qu'il y 
+avait dans ce   
+coffre. Viens   
+le chercher     
+si tu oses!     
+Signé : Ü
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quoi??          
+Tu m'as trouvé? 
+Tu es pire qu'un
+pot de colle!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah! Je ne peux  
+pas te battre!  
+J'abandonne!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Encore toi?     
+Tu n'arrêteras  
+jamais? Je      
+vais te rosser! 
+D'accord...     
+Allons-y!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Wouf! Creuse!   
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu déposes      
+l'écaille qui   
+manquait sur la 
+Petite Sirène!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Fais plus       
+attention la    
+prochaine fois!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+M'sieu! Pour    
+sauvegarder,    
+appuyez sur tous
+les boutons     
+à la fois! Heu, 
+je n'en sais pas
+plus, je ne suis
+qu'un gosse!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ben... Après une
+sauvegarde,     
+vous pouvez     
+redémarrer à la 
+dernière porte  
+par laquelle    
+vous êtes passé!
+Pourquoi? Je    
+n'en sais rien, 
+je suis un môme!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Consultez la    
+carte de l'île  
+en appuyant     
+sur SELECT.     
+Après, je ne    
+sais pas trop   
+car je ne suis  
+qu'un gosse!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si vos Coeurs   
+diminuent trop, 
+entrez dans     
+une maison      
+ou une grotte.  
+Pourquoi? Je ne 
+sais pas, je    
+suis trop petit!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+M'sieu! Que     
+pensez-vous de  
+Marine? Moi?    
+Ben! Je ne suis 
+qu'un gosse!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+M'sieu! D'où    
+vous venez?     
+De l'extérieur? 
+Je ne connais   
+pas ce mot, je  
+suis trop petit!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+L'Oeuf Sacré du 
+Mt Tamaranch?   
+Il paraît que le
+Poisson-Rêve    
+dort dedans.    
+Je ne sais pas, 
+je suis un môme!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Depuis quand    
+nous vivons     
+sur cette île?  
+Qu'est-ce que   
+cela signifie : 
+depuis quand?   
+N'oubliez pas   
+que je ne suis  
+qu'un gosse!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Souvent, Marine 
+va toute seule  
+regarder la mer.
+Pourquoi? Je ne 
+sais pas moi,   
+je ne suis      
+qu'un gosse!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Où allez-vous   
+tous les deux?  
+Mais non, je    
+n'insinue rien! 
+Moi, je ne suis 
+qu'un gosse!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé M'sieu!      
+A propos du Gîte
+des Rêves...    
+A l'intérieur,  
+il y a un ...   
+Mais comme      
+je ne suis qu'un
+gosse, je n'en  
+dirai pas plus!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quoi? Marine    
+n'est plus là?  
+Que lui est-il  
+arrivé?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+WHOA! Il est    
+énorme! Hé le   
+photographe!    
+Peux-tu prendre 
+une photo?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis sûr     
+d'attraper un   
+gros poisson.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si tu sais      
+garder un secret
+écoute ceci...  
+Va sur la plage 
+Coco et utilise 
+une loupe. Tu   
+y trouveras un  
+ami.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tant pis...     
+C'est dommage!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh! Merci!      
+Tu es un        
+gentil garçon.  
+En échange, je  
+te donne ceci.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu échanges ton 
+à contre ce     
+Ruban á .       
+Peut-être le    
+troqueras-tu    
+par la suite...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai trop de    
+bébés! Ils se   
+ressemblent tous
+en plus! Au fait
+sais-tu où      
+trouver un      
+Yoshi? J'en ai  
+vu un au jeu du 
+hasard mais je  
+n'ai pas pu     
+l'avoir.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu offres       
+ce Yoshi        
+à mon bébé?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ces quatre là se
+ressemblent tant
+que moi-même,   
+je m'y perds...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hum, comment    
+te dire? Mais!  
+... Je fais une 
+allergie        
+aux poils...    
+On discutera    
+quand tu seras  
+sans ce Toutou. 
+Tchao!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Qui est ce      
+fantôme? Je suis
+sûr qu'il est   
+heureux grâce à 
+toi. Es-tu prêt 
+pour la photo?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je te suis      
+vraiment        
+reconnaissante! 
+C'est si gentil 
+d'avoir ramené  
+mon Toutou!     
+Comment         
+te prouver      
+ma gratitude??  
+BISOU BISOU...  
+Tu as eu la     
+récompense de   
+Mme Miaou Miaou.
+Petit veinard...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hmmm...         
+Mon Toutou      
+est si fier     
+de son pelage!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Au secours!     
+Quelle horreur! 
+Toutou a été    
+chien-nappé par 
+des Moblins!    
+OHH! AHH!       
+Je t'en prie,   
+va secourir     
+mon Toutou!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah! Tu m'as     
+ramené mon      
+Toutou adoré!   
+Quelle joie!    
+Et en plus,     
+tu veux aller   
+le promener?    
+Cela m'arrange! 
+Du fond de mon  
+coeur, merci!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bonjour, je suis
+Mr Wright.      
+Mon hobby,      
+c'est écrire    
+des lettres...  
+Le problème,    
+c'est que       
+quand j'écris,  
+je n'ai jamais  
+de réponse...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une lettre?     
+Pour moi?       
+Mais c'est      
+formidable...   
+Il y a même     
+une photo!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ohhh...         
+Quelle beauté!  
+J'aimerais      
+te remercier    
+mais je n'ai    
+que ce balai    
+à t'offrir...   
+En veux-tu?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mr Wright t'a   
+offert un è.    
+Mais...         
+cette photo...  
+ce n'est pas...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vraiment,       
+j'insiste...    
+Prends ce è!    
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+L'écriture,     
+c'est vraiment  
+mon hobby!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bonjour! Je     
+réponds à       
+Christine!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cela semble     
+incroyable,     
+mais avant,     
+je vivais dans  
+un château.     
+Je me suis enfui
+quand mes gardes
+ont été         
+ensorcelés...   
+Et toi, tu      
+cherches la clé 
+de La Prairie?  
+Ecoute, j'ai    
+un marché       
+à te proposer : 
+quand je me     
+suis enfui, j'ai
+oublié mes      
+Feuilles d'Or.  
+Peux-tu me      
+les ramener,    
+mon cher ami?   
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il existe en    
+tout cinq       
+feuilles d'Or.  
+Souviens-toi    
+d'acheter une   
+pelle.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Qu'ouïs-je??    
+Un refus? Je ne 
+puis supporter  
+les pleutres!   
+Hors de ma vue, 
+paysan!...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cher ami,       
+tu as retrouvé  
+mes Feuilles!   
+Fort bien donc. 
+Déplace         
+cette boîte.    
+Une surprise    
+t'attend!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Grâce à toi,j'ai
+mes Feuilles!   
+Je te suis      
+reconnaissant.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link  mon ami,  
+au nom de la    
+justice et...   
+en mon nom...   
+tu dois trouver 
+les 5 Feuilles! 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Heu... Hum...   
+Comment dire?   
+Téléphone...    
+A l'extérieur...
+Pépé le Ramollo 
+n'a pas l'air   
+d'être un grand 
+causeur...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Je sais tout de 
+cette île!      
+Si tu te perds, 
+passe-moi un    
+coup de fil!    
+Salut!  CLIC! 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Habitants de la 
+Forêt Enchantée,
+les Moblins     
+vivent également
+dans la cave du 
+Plateau Tartare.
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Les fleurs du   
+Marais des      
+Anémones sont   
+les préférées de
+Toutou. C'est ce
+qu'on dit...    
+Pourquoi        
+n'y vas-tu pas? 
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+As-tu rencontré 
+tous les gens   
+de cette île?   
+Au Sud-Est du   
+village, à côté 
+du Champ        
+aux Pièges,     
+vit un homme    
+appelé Richard. 
+Je te conseille 
+d'aller le voir.
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Si tu veux des  
+bananes, parle  
+de nouveau aux  
+gens du village.
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Il y a une      
+bibliothèque    
+dans le village.
+Peut-être       
+apportera-t'elle
+une réponse à   
+tes questions?  
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRRING! DRRING! 
+C'est moi! Pépé!
+Tu n'as pas     
+trouvé les cinq 
+feuilles d'Or?  
+Va parler au    
+corbeau du      
+château. Il peut
+sûrement aider  
+un p'tit gars   
+comme toi!      
+CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+As-tu acheté    
+une Pelle?      
+Creuse le sol,  
+peut-être       
+auras-tu        
+de la chance?   
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Va vite à la    
+Cave aux Clés,  
+située dans     
+La Prairie.     
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Apparemment,    
+dans les        
+Dunes de Yarna, 
+au Sud-Est      
+de l'île,       
+se trouve la    
+Clé-Poisson.    
+Ecoute, je ne   
+peux pas être   
+plus explicite  
+que cela...     
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu es hanté     
+par un fantôme? 
+Je te conseille 
+de l'amener là  
+où il veut.     
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Dans la Baie,   
+un Poisson-Chat 
+ouvre sa gueule.
+Va donc y nager.
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Es-tu allé au   
+Temple du Masque
+situé au Nord   
+du Village      
+des Animaux?    
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Connais-tu      
+le Coq Volant   
+du Village      
+des Mouettes?   
+Autrefois,      
+je m'agrippais  
+à ses pattes    
+et je volais!   
+Hélas...        
+Il est mort et  
+gît désormais   
+sous la         
+Girouette.      
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+La tête de la   
+tortue te gêne? 
+Donne-lui       
+de la vie pour  
+la déplacer...  
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...MARAIS...    
+La route mène au
+marais fleuri.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...PRAIRIE...   
+...PRAIRIE...   
+Elle t'attend.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...CASCADE...   
+C'est caché     
+sous la cascade.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...BAIE...      
+Ta route passe  
+par la baie.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...TEMPLE...    
+Il renferme le  
+secret de l'île.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...MONTAGNE...  
+Elle t'appelle.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+...OCARINA...   
+Sa musique      
+te guidera.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+L'heure a sonné.
+L'Oeuf Sacré    
+te réclame.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Alors, TU       
+balaieras l'île!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+YOUPI! J'ai la  
+pêche! Et toi?  
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+YOUPI! J'ai     
+trop travaillé  
+et mon balai    
+est tout usé!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+YOUPI YOUPI!!!  
+Un balai neuf!  
+Merci...        
+C'est pour moi? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+En récompense,  
+je te donne     
+un Hameçon      
+que j'ai trouvé 
+au bord de      
+la rivière.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+le è contre     
+le é!           
+Que feras-tu    
+de celui-ci?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+YOUPI!          
+Un balai neuf!  
+C'est le top...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Kiiiki! Quoi?   
+OK sale chien,  
+on va se battre!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Kkkkk!          
+Kiki le singe!  
+Kiki a faim!    
+Kkkkkk!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ã, ã! Kiki!     
+Les copains,    
+venez! On va    
+le remercier!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Le pont         
+des singes      
+est prêt!       
+Salut! Kiki!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu prends       
+le bâton        
+que le singe    
+a laissé.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ã, ã ...        
+Miam Miam!      
+Pour Kiki?      
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu ne connais   
+pas l'étiquette 
+quand tu        
+rends visite à  
+une dame??      
+Si tu m'avais   
+apporté         
+des fleurs,     
+j'aurais été    
+plus loquace.   
+Personnellement,
+j'adore les     
+hibiscus...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh, tu m'as     
+apporté un ç!   
+Comme           
+c'est gentil!   
+J'ai une faveur 
+à te demander.  
+Je peux?        
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'aimerais      
+te confier      
+une lettre      
+pour Mr Wright, 
+qui habite      
+dans la Forêt.  
+Merci d'avance! 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah bon...       
+Et dire que je  
+te prenais pour 
+un gentilhomme! 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+l' ç contre une 
+lettre de chèvre
+í ... Super! 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je ne peux pas  
+m'empêcher      
+de grignoter    
+du papier.      
+Quel délice!    
+... Même les    
+lettres de mon  
+cher Mr Wright! 
+... J'ai honte!!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as trouvé    
+Toutou! Il a    
+l'air féroce...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quelle surprise,
+tu as ressuscité
+le coq!! Il a   
+l'air content.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING! DRING!   
+C'est moi! Pépé!
+Ma femme est    
+allée au Village
+des Animaux et  
+m'a laissé tout 
+seul... Peux-tu 
+lui dire de     
+revenir à la    
+maison quand    
+elle aura fini  
+de faire le     
+ménage? CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Grand mère n'est
+pas ici. Elle   
+est au Village  
+des Animaux.    
+C'est ce que le 
+grand père a dit
+au téléphone!   
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je te l'avais   
+prédit : je me  
+suis perdu!     
+J'ai trop faim  
+pour faire un   
+pas de plus.    
+Me nourriras-tu?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est pas sympa!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cet æ a l'air   
+délicieux!      
+En remerciement,
+je mange l'æ .
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Au fait!! Voici 
+un petit cadeau.
+Je te donne     
+cet ç ... C'est 
+un Hibiscus.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+l'æ contre      
+l'ç !!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quel délice!    
+Cela me donne   
+des forces! 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci pour      
+l'autre fois! 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je te l'avais   
+prédit : je me  
+suis perdu!     
+J'ai trop faim  
+pour faire un   
+pas de plus.    
+Me nourriras-tu?
+    Non! Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il s'est passé  
+une véritable   
+tragédie chez ma
+voisine d'en    
+face! Que faire?
+Moi, je ne sais 
+que balayer!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis l'esprit
+du manoir...    
+Triomphe des    
+ténèbres, trouve
+les coquillages 
+et emprunte les 
+portes pour     
+gagner l'Epée!  
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hmmm. Pas de    
+réponse. Vous   
+n'avez pas assez
+de coquillages. 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ma mission est  
+terminée.       
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé toi! Es-tu   
+allé chez le    
+photographe du  
+Plateau Tartare?
+On dit que les  
+jeunes adorent  
+cet endroit!    
+Je ne vois pas  
+pourquoi...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Viens te faire  
+tirer le        
+portrait!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bien joué!      
+Essaie donc ceci
+sur tes ennemis 
+et... Surprise! 
+Si tu es à court
+va chercher des 
+champignons dans
+la forêt. Je te 
+préparerai une  
+nouvelle dose!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+. . . .! Je ne  
+peux pas bouger!
+Mais je vais    
+bien. Ta petite 
+épée ne pourra  
+pas briser cette
+bouteille!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Pour vaincre le 
+monstre noir à  
+la carapace,    
+fais-lui manger 
+un plat pimenté.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Frappe de ton   
+épée certains   
+murs et écoute  
+bien.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Si ton épée ne  
+peut vaincre un 
+squelette,      
+essaie une      
+bombe.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Utilise les     
+jarres pour     
+ouvrir un       
+coffre.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Chevauche les   
+cristaux pour   
+avancer.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Jeter pour      
+progresser.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Saute pour      
+accéder au      
+coffre de la    
+table.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Détruis les     
+monstres à la   
+clé par le haut.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Utilise l'arc   
+sur une statue  
+étrange.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+On prend une    
+photo?          
+    OUI  NON
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Pas de photo?!  
+Tu te fiches de 
+moi?            
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quel dommage!   
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Génial! Appelons
+cette photo     
+"Game Over."
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quel est ton nom
+jeune homme?    
+Link ? Alors... 
+Voici ton album,
+Link .          
+Regarde-le avant
+de partir!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Voyons si nous  
+pouvons remplir 
+cet album!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+11 photos à     
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+10 photos à     
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+9 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+8 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+7 photos à    	 
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+6 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+5 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+4 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+3 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+2 photos à      
+prendre! Quel   
+type de photo   
+t'intéresse?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+����������������
+�����Ouaf Ouaf! 
+     Je suis un 
+chientrès branch
+é!   J'aimerais 
+avoirdes accesso
+ires à la mode!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ouaf Ouaf!      
+Je suis un chien
+très branché!   
+Ce á ,          
+c'est d'un chic!
+Il me le faut   
+absolument...   
+Tu l'échanges   
+contre          
+ma pâtée?       
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+le á contre     
+la pâtée â!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Génial, merci!  
+En échange,     
+voici ma â ...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je n'arrive pas 
+à y croire...   
+Tu es nul!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis Manbo,  
+descendant du   
+Poisson-Lune.   
+As-tu l'Ocarina?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah bon?!        
+Glou Glou...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Alors, je vais  
+t'apprendre     
+ma chanson!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as appris le 
+Mambo de Manbo! 
+Quand tu        
+sors de l'eau,  
+joue cet air!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis Manbo,  
+descendant du   
+Poisson-Lune.   
+Joue mon        
+Mambo pour te   
+téléporter      
+à la mare Bobo. 
+Joue aussi dans 
+les donjons!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh! Tu n'as pas 
+d'Ocarina...    
+Gloup Gloup!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+De nos jours,   
+les coqs n'ont  
+plus la même    
+combativité!    
+Autrefois,      
+j'avais un coq  
+qui volait!     
+Ce n'est pas    
+une blague!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Fantastique!    
+Ce coq vole     
+vraiment!       
+Tu vois que je  
+ne mentais pas. 
+Essaie par      
+toi-même :      
+brandis-le!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un coq volant,  
+c'est bien trop 
+marrant...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ci-gît          
+le Coq Volant.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cezi est-ce la  
+fameuze écaille?
+Je dois terminer
+zette peinture. 
+Va donc voir la 
+ztatue de la    
+zirène, OK?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est qui       
+ce freluquet?   
+Les gars,       
+débarrassez-moi 
+vite de lui!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu es venu      
+chercher Toutou?
+Tu dois être    
+le mercenaire   
+envoyé par      
+Mme Miaou Miaou.
+Je vais te      
+corriger!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé Link ,       
+je viens souvent
+chanter         
+dans ce village.
+Tout le monde   
+adore ma Ballade
+du Poisson-Rêve.
+Et toi Link ,   
+qu'est-ce que   
+tu aimes?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+N'oublie jamais 
+ma Ballade!     
+... Ni moi...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci pour      
+ton aide Link . 
+Tu étais génial.
+Tout à l'heure, 
+j'ai fait part  
+d'un voeu       
+au Poisson-Rêve.
+Ce que c'était? 
+C'est un secret!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Un jour Link ,  
+tu quitteras    
+cette île.      
+C'est vrai!     
+Mon coeur ne    
+saurait mentir. 
+Ne m'oublie pas 
+car jamais      
+je ne pourrais  
+te pardonner!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+... ... ... ... 
+La chanson de   
+Marine semble   
+l'envoûter!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+On dit que      
+la Ballade      
+du Poisson-Rêve 
+est la Chanson  
+d'Eveil. Si le  
+Poisson-Rêve    
+se réveille,    
+exaucera-t'il   
+mon voeu?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quoi? Tu veux   
+entrer là?      
+Heu, je préfère 
+attendre dehors.
+Sois prudent    
+Link !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh là là!       
+Ce n'est pas    
+bien Link !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Voici un        
+petit bonus.    
+Je restaure tous
+tes Coeurs!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ya, je zuis Sven
+Donavitch!  La  
+ztatue de la    
+zirène près de  
+la baie est mon 
+chef-d'oeuvre   
+inachevé...     
+L'art... Z'est  
+dur, hein?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+LA PETITE       
+SIRENE          
+Par ALLIGODALI  
+?... Il manque  
+une écaille...?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Maison aux      
+Coquillages
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Entrée des    
+  Dunes de Yarna
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Forêt Enchantée 
+(Un peu         
+énigmatique)    
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu veux         
+descendre       
+les rapides     
+en radeau?      
+Renseigne-toi   
+à l'intérieur.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Est > Prairie   
+Plus à l'Est    
+Village         
+des Animaux
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mt Tamaranch
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Cave Flagello 
+v Plage Coco
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Mrs Anémones  
+v Forêt         
+  Enchantée
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Attention au    
+plancher        
+fissuré.        
+Rondouillards : 
+abstenez-vous !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cabine          
+téléphonique
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Accès interdit! 
+(sauf Toutou)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+v Par ici !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+^ Par ici !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Par ici !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+< Par ici !
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+RETOUR A LA     
+CASE DEPART!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+TU AS REUSSI!   
+PAR ICI >       
+SURPRISE!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+EN TOURNEE      
+Signé : WART
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Chez Monique  
+v Mare Bobo
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Village des   
+  Animaux       
+v Baie          
+  de Martha
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Enfin! Vill.  
+  des Animaux
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Cimetière     
+v La Prairie
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu es près du   
+Plateau Tartare.
+Le photographe  
+n'est pas loin.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+> Mt Tamaranch  
+< Mrs Anémones
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+VA VOIR         
+L'OEUF SACRE. IL
+REPOND AUX SONS.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+LE POISSON-REVE,
+NE L'EST-T'IL   
+QUE DE NOM?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+SOUS TES PIEDS, 
+DORT UN SECRET.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+SOUS TES PIEDS, 
+DORT UN SECRET.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+TOUT PRES D'ICI,
+DORT UN SECRET.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+LES SECRETS     
+SONT COMME L'EAU
+SOUS LE PONT.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+PRES D'ICI,     
+PAS DE SECRET.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+LE POISSON-REVE.
+S'IL NE SE      
+REVEILLE PAS,   
+TU PERIRAS...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+LORSQUE         
+TU TE REVEILLES,
+LE REVE CESSE.  
+... LES         
+MONSTRES AUSSI.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link  ! Ton     
+truc me plaît.  
+J'te donne du   
+Miel pour       
+c'Bâton. Alors? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+le ä contre     
+le Miel å .     
+Pour quoi faire,
+tu verras bien!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link , t'es     
+qu'un radin!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Attention       
+aux oursins!    
+Se protéger avec
+un bouclier!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'avais la dalle
+alors j'suis    
+allé chercher   
+des bananes     
+sur la plage!   
+MIAM MIAM !     
+Link            
+si t'en veux,   
+fais comm'moi.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bienvenue chez  
+AlligoBanane!   
+lci j'entrepose.
+Mon hobby, c'est
+collectionner   
+des boîtes      
+de conserve.    
+Mon frère cadet 
+est un artiste. 
+Moi...          
+Je suis plus    
+terre à terre.  
+J'adore manger!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mais qu'est-ce  
+que tu as là?   
+Je t'en prie,   
+donne-moi       
+cette â ...     
+Je t'en SUPPLIE!
+Alors, que      
+décides-tu?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci! Vite!    
+A table!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tant pis!       
+Mais si tu      
+changes d'avis, 
+reviens vite    
+me voir!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+MIAM MIAM!      
+... ... ... ... 
+Quel délice!    
+En récompense,  
+je t'offre des  
+Bananes. Hmm!   
+Quel régal!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu lui as donné 
+une â           
+en échange      
+de bananes ã .
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Encore merci!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+As-tu déjà      
+essayé de       
+descendre       
+des rapides?    
+A l'Est du      
+Plateau Tartare 
+tu peux...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il me manque    
+des ingrédients.
+C'est embêtant. 
+Si j'avais      
+du Miel, ce     
+serait parfait!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est du å      
+que tu as là!   
+J'en ai besoin! 
+Tu ne veux pas  
+d'Ananas        
+à la place?     
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+le å contre     
+l'Ananas æ .    
+Il est juteux!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Flûte alors!    
+Tu regretteras  
+de ne pas       
+avoir goûté     
+à ce délice!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ho oui! Je      
+connais bien les
+Dunes de Yarna. 
+Mais leur entrée
+située au       
+Sud du Village  
+est bloquée par 
+une drôle       
+de créature.    
+Et quand        
+celle-ci dort,  
+pas moyen       
+de la réveiller.
+J'ai une idée : 
+amène Marine    
+avec toi et     
+fais-la chanter 
+pour réveiller  
+cet animal!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'aimerais tant 
+ouvrir un 4 ||||
+au Village      
+des Mouettes!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Bonjour Marine! 
+Tu vas bien?    
+... ... ... ... 
+Oh excuse-moi,  
+je ne t'avais   
+pas vu...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oh Link ,       
+tu savais où    
+me trouver!     
+Veux-tu qu'on   
+parle un peu?   
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Peuh! Je        
+regarderai      
+la mer alors!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Sur la plage... 
+"Marine" Þ
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+D'où vient cette
+noix de coco?   
+Tarkin me dit   
+qu'il n'y a rien
+par-delà la mer.
+Moi, je suis    
+persuadée       
+du contraire!   
+Tu sais Link ,  
+quand je t'ai vu
+mon coeur s'est 
+mis à battre    
+la chamade...   
+Je suis sûre que
+tu es le        
+messager        
+que j'attendais!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+... ... ... ... 
+... ... ... ... 
+Si j'étais      
+une mouette,    
+je m'envolerais 
+loin, très loin!
+Je visiterais   
+des pays et     
+chanterais      
+pour tous!      
+Si j'exprime    
+un voeu au      
+Poisson-Rêve,   
+l'exaucera-t'il?
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé, tu écoutes? 
+Link , es-tu    
+sûr que tu      
+m'écoutes?      
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'aimerais      
+tant connaître  
+ton pays,Link ! 
+Un jour mmm...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Comment?        
+Le Morse?       
+D'accord,       
+je t'accompagne.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Aïe aïe ouille! 
+... ... ... ... 
+J'en ai marre de
+ces abeilles!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ho, tu descends 
+de ton nuage?   
+Tu pourrais     
+au moins        
+m'écouter!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ha! C'est tout  
+ce que tu as?!  
+Prépare-toi à...
+... ça! ...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ZZZ ZZZ ZZZ ZZZ 
+ ... Þ ... Þ ...
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est ce        
+gros lard       
+de morse!       
+On lui fait     
+peur?           
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ha ha ha !      
+Ton réveil était
+plutôt brutal   
+hein?...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tiens donc?     
+Il m'appelle?   
+Oh là là, c'est 
+toujours pareil.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as raison.   
+On va le        
+laisser dormir.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je vais au      
+Village         
+des Animaux.    
+Rejoins-moi     
+après, Link .
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Moûhhh Moûhhh!  
+Þ Þ ! Þ Þ !     
+... Ý ??
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je suis embêté  
+car un poisson  
+a emporté       
+mon hameçon.    
+Je ne pêche     
+qu'avec un fil, 
+et forcément... 
+je ne peux rien 
+attraper!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mais qu'est-ce  
+que tu as       
+dans la main?   
+N'est-ce pas    
+un Hameçon?     
+Si tu me le     
+donnes, je te   
+ferai don de ma 
+prochaine prise.
+D'accord?       
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ouvre les yeux  
+et mate le pro.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+D'accord...     
+Ce n'est pas    
+une raison pour 
+m'agresser!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+WHOAAAA!!!      
+Il est ENORME!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+é  devient un   
+collier ê!      
+Génial!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Je me demande   
+ce que je vais  
+encore attraper!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Mon mari est    
+perdu dans les  
+bois! Va le     
+sauver!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé! Tu peux me  
+voir?! T'as de  
+bons yeux, toi! 
+Je ne suis pas  
+un violent, je  
+veux juste vivre
+en paix.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'étais en train
+de nager et une 
+vague a emporté 
+mon collier!    
+Si tu le trouves
+je te donnerai  
+une écaille de  
+queue!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai déjà       
+cherché par là
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ahh!  Le voilà  
+C'est mon       
+collier!  Donne!
+Donne-le moi!   
+Je t'offrirai   
+une écaille!    
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+N'en prends qu' 
+une seule!      
+A-Ah! UNE SEULE!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Méchant!        
+Je te hais!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Vous échangez le
+collier contre  
+une écaille...  
+A quoi sert-    
+elle?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Appelons-la:    
+"J'ai eu très   
+peur." Souriez!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Après une séance
+de pose, un     
+artiste voulait 
+une écaille.    
+La légende de la
+Loupe est-elle  
+vraie...?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Salut! C'est moi
+le photographe! 
+Quoi? Zora est  
+là? Il faut que 
+je prenne une   
+photo! Je vais  
+l'appeler "J'ai 
+trouvé Zora."
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Villa de Richard
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Château Canulet 
+10 min. > ^
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Château Canulet 
+5 min. >
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Château Canulet 
+50 pas ^
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!    
+DRING! Hello!   
+Madonna         
+à l'appaouïelle.
+No darling...   
+CLIC!           
+Tu as dû faire  
+un faux numéro!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est un gros!  
+Et en plus, il a
+un Fragment     
+de Coeur!       
+Je t'offre aussi
+20 rubis.       
+Un autre essai? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+C'est un gros!  
+Et en plus, il a
+un Fragment     
+de Coeur!       
+Maintenant,     
+tu as un        
+Coeur complet.  
+Je t'offre aussi
+20 rubis.       
+Un autre essai? 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+  DE LA BONNE   
+  UTILISATION   
+ D'UN BOUCLIER  
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+En maintenant   
+A ou B enfoncé, 
+tu peux parer   
+les attaques    
+et repousser    
+les ennemis.    
+En plus du      
+bouclier        
+standard,       
+il y en a un    
+qui te protège  
+des lasers!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    CHOISIR     
+  LE BON OBJET  
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Choisis l'objet 
+désiré dans     
+le Sous-Ecran   
+en appuyant     
+sur A ou B.     
+Certains objets 
+remplacent      
+une épée lors   
+d'un combat.    
+Essaie-les tous 
+pour avoir le   
+plus adéquat!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    CONSEILS    
+    ET CARTE    
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Appuie sur      
+SELECT          
+pour afficher la
+carte de l'île. 
+Les parties     
+sombres sont    
+les endroits    
+que tu n'as pas 
+encore visités. 
+Bouge le curseur
+et appuie sur A 
+pour obtenir le 
+nom du lieu et  
+le message      
+du hibou. Ainsi,
+tu n'auras pas  
+à tout noter!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+TOUT SUR L'EPEE 
+  TOURNOYANTE!  
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cette technique 
+spéciale        
+se transmet     
+de génération   
+en génération.  
+Maintiens       
+enfoncé         
+le bouton       
+correspondant   
+à l'épée        
+pour augmenter  
+ta force. Quand 
+c'est suffisant,
+relâche-le.     
+Crois-tu que tu 
+peux le faire?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+ TELEPORTATION  
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Sur Cocolint,   
+il y a des      
+trous Warp.     
+Téléporte-toi   
+en sautant      
+dedans.         
+Replonge dans   
+le trou d'où    
+tu sors pour    
+être téléporté  
+en succession.  
+Tu ne peux pas  
+te téléporter   
+vers un trou    
+qui n'est pas   
+encore apparu   
+à l'écran!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+   LES BOMBES   
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Pour reprendre  
+une bombe       
+au sol, appuie  
+tout de suite   
+sur le bouton   
+la contrôlant.  
+Puis jette-la   
+en appuyant     
+encore sur      
+le même bouton. 
+Connaissais-tu  
+cette astuce?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    ATLAS DE    
+    COCOLINT    
+Choisis un lieu 
+grâce au curseur
+et appuie sur A 
+pour afficher   
+son nom. Veux-tu
+le consulter?   
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+    MYSTERES    
+   ET SECRETS   
+   DE COCOLINT  
+Tu veux le lire?
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Impossible!     
+Il te faut      
+la Loupe        
+pour lire       
+les petits      
+caractères...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Cimetière!      
+Amène-moi à     
+ma tombe...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Amène-moi dans  
+mon ancienne    
+maison!         
+Vers la baie...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Non!!           
+Pas là!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Oui, entre!     
+C'est bien      
+ma maison!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Que de souvenirs
+... Rien n'a    
+changé. Bouhhh!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Assez...        
+Je veux aller   
+à ma tombe!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Merci!          
+Dans ma maison, 
+regarde sous    
+les jarres.     
+Sayonara!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Dans l'Oeuf,    
+on tourne tourne
+tourne...       
+< < ^ > > ^ < ^ 
+Hum! C'est très 
+énigmatique.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Dans l'Oeuf,    
+on tourne tourne
+tourne...       
+> ^ ^ > ^ ^ > ^ 
+Hum! C'est très 
+énigmatique.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Dans l'Oeuf,    
+on tourne tourne
+tourne...       
+< ^ > ^ < ^ > ^ 
+Hum! C'est très 
+énigmatique.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Dans l'Oeuf,    
+on tourne tourne
+tourne...       
+> > > > ^ ^ ^ ^ 
+Hum! C'est très 
+énigmatique.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Il était temps! 
+Je ne pensais   
+pas te revoir!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ne crois-tu pas 
+que tu as subi  
+assez de dégâts?
+Fais un peu     
+plus attention!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Link ,          
+te voici enfin! 
+Es-tu blessé?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Abru;;!         
+Je t'avais dit  
+d'être prudent! 
+Pardon?...      
+Tu as dû mal    
+entendre...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+M'sieu!         
+M'sieu!         
+C'est terrible, 
+c'est horrible! 
+c'est c'est...  
+Des Gogo...     
+des Momo...     
+des Moblins     
+sont venus      
+dans le village!
+Ils étaient     
+une armée...    
+Ils...ils...    
+Ils sont sortis!
+Ils sont entrés!
+Oui, c'est ça!  
+Il sont entrés  
+là et ils ont   
+pris le Minou,  
+non non...      
+Ils ont pris    
+Toutou!!        
+... ... ... ... 
+... ... ... ... 
+Il vaudrait     
+mieux que tu    
+ailles voir ce  
+qui s'est passé!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Sur la plage,   
+j'ai ramassé    
+une merveille.  
+Je te l'échange 
+contre l'objet  
+qui est dans B. 
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Marché conclu!  
+Quand le        
+Boomerang       
+ne te sert plus,
+reviens ici!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Ah bon...       
+Dans ce cas...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as échangé   
+ton objet contre
+le Boomerang.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Rends-moi       
+le Boomerang    
+et je te rendrai
+ton objet!      
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu as récupéré  
+ton objet.      
+Tu as rendu     
+le Boomerang.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Non...          
+Pas cet objet!  
+Choisis-en      
+un autre.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRRING! DRRING! 
+C'est moi! Pépé!
+Tu n'as pas     
+trouvé les cinq 
+feuilles d'Or?  
+Fais attention à
+ne pas perdre   
+celles en ta    
+possession!     
+CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRRING! DRRING! 
+C'est moi! Pépé!
+Tu n'as pas     
+trouvé les cinq 
+feuilles d'Or?  
+Utilise tes     
+bombes et on    
+verra bien!     
+CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRRING! DRRING! 
+C'est moi! Pépé!
+Tu n'as pas     
+trouvé les cinq 
+feuilles d'Or?  
+Va faire peur au
+corbeau près du 
+château!        
+CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+"Les voyages de 
+Link ." Veux-tu 
+regarder ton    
+album?          
+    Oui  Non
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Quelle photo    
+veux-tu voir?   
+Utilise +       
+pour choisir et 
+appuie sur A!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Tu es proche de 
+la Tour. Prends 
+garde au rapace!
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé, Link . Mon  
+truc à moi c'est
+de prendre des  
+photos. Ce vieux
+château est     
+splendide, non?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une serrure ici?
+Hum, voyons :   
+Serrure Flagello
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une serrure ici?
+Hum, voyons :   
+Serrure Cyclope
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une serrure ici?
+Hum, voyons :   
+Serrure Poisson
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une serrure ici?
+Hum, voyons :   
+Serrure Vautour
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Une serrure ici?
+Hum, voyons :   
+Serrure Masque
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Au secours!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé Link !       
+Des monstres    
+horribles       
+m'ont posée ici!
+J'ai peur car   
+j'ai le vertige.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+J'ai eu peur... 
+Link ,          
+merci!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+... ... ... ... 
+... ... ... ... 
+Link , euh...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Euh, voyons...  
+Comment te dire 
+... tu sais...
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Holà, Tarkin... 
+... ... ... ... 
+Non non, rien!  
+Je dois partir.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+MAAAARIIIIINE!!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Rien?! J'en ai  
+plus que marre  
+d'attendre. Je  
+veux les        
+feuilles d'Or...
+MAINTENANT!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Hé! Marine et   
+Link ! Allez-   
+vous prendre des
+photos? Pourquoi
+ne pas photogra-
+phier tout le   
+monde? Moi y    
+compris?
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+Voici mon bel   
+appareil photo. 
+Tu es prêt?     
+On sourit!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+OK, j'ai fini.  
+J'me rentre.
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+D'après Mamie   
+Youpi, quelque  
+chose est caché 
+derrière        
+la Cascade de   
+la Cordillère.  
+Ce renseignement
+t'est utile?    
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+De mon temps,   
+il y avait      
+une Tour dans   
+la partie est de
+la Cordillère.  
+Tu devrais aller
+y faire un tour!
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Dirige-toi vers 
+l'Oeuf Sacré,   
+niché en haut   
+du Mt Tamaranch.
+Link ,          
+sois prudent.   
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu t'es perdu   
+dans l'Oeuf?    
+Désolé, mais    
+je ne peux pas  
+t'aider!        
+Va donc te      
+renseigner à    
+la Bibliothèque.
+Désolé hein!    
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu devrais      
+ramener Toutou à
+Mme Miaou Miaou.
+Elle sera folle 
+de joie.        
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu aimerais     
+chanter?        
+Va voir Wart    
+la Grenouille.  
+Il habite dans  
+le Dédale       
+des Panneaux.   
+Il est bon mais 
+un peu cher...  
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Tu te défends   
+très bien!      
+As-tu visité    
+le Poulailler,  
+en haut de      
+la montagne?    
+A côté, il y a  
+une cave qui    
+renferme un     
+objet important.
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Pépé le Ramollo 
+à l'appareil... 
+Tes ennemis     
+sont coriaces?  
+Collecte        
+donc tous       
+les Coquillages.
+Sois confiant!  
+Bonne chance!   
+Salut! CLIC!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________
+DRING DRING!!   
+Oui c'est Pépé! 
+Courage, encore 
+un effort...    
+Je suis de tout 
+coeur avec toi. 
+Vas-y mon gars!
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+________________

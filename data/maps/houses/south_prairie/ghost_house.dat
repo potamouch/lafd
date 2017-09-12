@@ -352,7 +352,7 @@ tile{
 }
 
 destination{
-  name = "ghosts_house_1_B",
+  name = "ghost_house_1_B",
   layer = 0,
   x = 160,
   y = 213,
@@ -360,14 +360,14 @@ destination{
 }
 
 teletransporter{
-  name = "ghosts_house_2_B",
+  name = "ghost_house_2_B",
   layer = 0,
   x = 152,
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "old_man_house_1_2_A",
+  destination_map = "out/b4_south_prairie",
+  destination = "ghost_house_2_A",
 }
 
 destructible{

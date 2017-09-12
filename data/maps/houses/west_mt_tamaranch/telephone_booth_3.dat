@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
-  music = "same",
+  music = "maps/houses/telephone_booth",
 }
 
 tile{
@@ -308,22 +308,22 @@ tile{
 }
 
 destination{
-  name = "telephone_booth_1_1_B",
+  name = "telephone_booth_3_1_B",
   layer = 0,
   x = 160,
-  y = 213,
+  y = 229,
   direction = 1,
 }
 
 teletransporter{
-  name = "telephone_booth_1_2_B",
+  name = "telephone_booth_3_2_B",
   layer = 0,
   x = 152,
-  y = 224,
+  y = 240,
   width = 16,
   height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "telephone_booth_1_2_A",
+  destination_map = "out/a1_west_mt_tamaranch",
+  destination = "telephone_booth_3_2_A",
 }
 
 npc{

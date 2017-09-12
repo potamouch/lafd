@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
+  music = "maps/houses/mr_write_and_christine",
 }
 
 tile{
@@ -474,8 +475,8 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "library_2_A",
+  destination_map = "out/a1_west_mt_tamaranch",
+  destination = "mr_write_house_2_A",
 }
 
 tile{

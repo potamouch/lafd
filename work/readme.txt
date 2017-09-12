@@ -65,6 +65,7 @@ PROCESSED MUSIC
 38 - Dungeon 4
 39 - Surf Harp - 4th Instrument of the Sirens
 42 - House by the_Bay - Ghost House
+43 - Mr. Write and Christine
 44 - Dungeon 5
 46 - Wind Marimba - 5th Instrument of the Sirens
 47 - Game Over

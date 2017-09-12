@@ -22859,7 +22859,7 @@ teletransporter{
 }
 
 destination{
-  name = "fairys_fountain_2_A",
+  name = "fairy_fountain_2_A",
   layer = 0,
   x = 264,
   y = 165,
@@ -22867,7 +22867,7 @@ destination{
 }
 
 teletransporter{
-  name = "fairys_fountain_1_A",
+  name = "fairy_fountain_1_A",
   layer = 0,
   x = 256,
   y = 136,
@@ -22897,6 +22897,25 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+destination{
+  name = "telephone_booth_4_2_A",
+  layer = 0,
+  x = 112,
+  y = 517,
+  direction = 3,
+}
+
+teletransporter{
+  name = "telephone_booth_4_1_A",
+  layer = 0,
+  x = 104,
+  y = 488,
+  width = 16,
+  height = 16,
+  destination_map = "houses/prairie/telephone_booth_4",
+  destination = "telephone_booth_4_1_B",
 }
 
 tile{
@@ -25228,5 +25247,14 @@ pickable{
   y = 109,
   treasure_name = "magnifying_lens",
   treasure_variant = 6,
+}
+
+npc{
+  layer = 2,
+  x = 112,
+  y = 469,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/phone",
 }
 

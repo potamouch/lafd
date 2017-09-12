@@ -8,7 +8,7 @@ properties{
   world = "inside_world",
   floor = 1,
   tileset = "dungeons/yellow",
-  music = "",
+  music = "maps/houses/kanalet_castle",
 }
 
 tile{

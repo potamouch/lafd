@@ -15106,6 +15106,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#maps.out.south_prairie.sign_1",
 }
 
 npc{
@@ -15115,10 +15116,11 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#maps.out.south_prairie.sign_1",
 }
 
 destination{
-  name = "rrichard_villa_1_2_A",
+  name = "richard_villa_2_A",
   layer = 0,
   x = 600,
   y = 317,
@@ -15126,7 +15128,7 @@ destination{
 }
 
 teletransporter{
-  name = "richard_villa_1_1_A",
+  name = "richard_villa_1_A",
   layer = 0,
   x = 592,
   y = 288,
@@ -16941,7 +16943,7 @@ teletransporter{
 }
 
 destination{
-  name = "old_man_house_1_2_A_2",
+  name = "ghost_house_2_A",
   layer = 0,
   x = 624,
   y = 733,
@@ -16949,14 +16951,14 @@ destination{
 }
 
 teletransporter{
-  name = "ghost_house_1_1_A",
+  name = "ghost_house_1_A",
   layer = 0,
   x = 616,
   y = 704,
   width = 16,
   height = 16,
-  destination_map = "houses/south_prairie/richard_villa",
-  destination = "richard_villa_1_B",
+  destination_map = "houses/south_prairie/ghost_house",
+  destination = "ghost_house_1_B",
 }
 
 tile{

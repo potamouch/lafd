@@ -10444,6 +10444,7 @@ sensor{
 }
 
 teletransporter{
+  name = "sales_house_o_bananas_1_A",
   layer = 0,
   x = 808,
   y = 440,

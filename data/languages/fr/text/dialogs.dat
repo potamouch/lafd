@@ -2221,6 +2221,14 @@ v Mare Bobo
 }
 
 dialog{
+  id = "maps.out.graveyard.sign_2",
+  text = [[
+> Cimetière     
+v La Prairie
+]]
+}
+
+dialog{
   id = "maps.out.mabe_village.grand_ma_1",
   skip = "all",
   text = [[
@@ -2480,6 +2488,21 @@ Attention
 aux oursins !    
 Se protéger avec
 un bouclier !
+]]
+}
+
+dialog{
+  id = "maps.out.south_prairie.sign_1",
+  text = [[
+Villa de Richard
+]]
+}
+
+dialog{
+  id = "maps.out.south_prairie.sign_2",
+  text = [[
+Château Canulet 
+10 min. > ^
 ]]
 }
 

@@ -721,7 +721,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "out/b3_prairie",
-  destination = "fairys_fountain_2_A",
+  destination = "fairy_fountain_2_A",
 }
 
 destination{

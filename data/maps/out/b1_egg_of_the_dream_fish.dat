@@ -5232,15 +5232,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 736,
-  y = 656,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-}
-
-tile{
-  layer = 0,
   x = 728,
   y = 656,
   width = 8,
@@ -10549,6 +10540,15 @@ tile{
   pattern = "999",
 }
 
+tile{
+  layer = 0,
+  x = 736,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
 teletransporter{
   name = "to_b2",
   layer = 0,
@@ -10721,6 +10721,25 @@ npc{
   subtype = 0,
   sprite = "entities/sign",
   behavior = "dialog#",
+}
+
+destination{
+  name = "photographer_house_2_A",
+  layer = 0,
+  x = 744,
+  y = 685,
+  direction = 3,
+}
+
+teletransporter{
+  name = "photographer_house_1_A",
+  layer = 0,
+  x = 736,
+  y = 656,
+  width = 16,
+  height = 16,
+  destination_map = "houses/egg_of_the_dream_fish/photographer_house",
+  destination = "photographer_house_1_B",
 }
 
 tile{

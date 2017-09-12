@@ -471,7 +471,7 @@ teletransporter{
 }
 
 destination{
-  name = "drugstore_1_",
+  name = "drugstore_1_B",
   layer = 0,
   x = 160,
   y = 213,

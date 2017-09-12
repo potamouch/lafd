@@ -911,6 +911,51 @@ tile{
 }
 
 tile{
+  layer = 0,
+  x = 152,
+  y = 744,
+  width = 16,
+  height = 32,
+  pattern = "floor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 744,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 744,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 640,
+  width = 240,
+  height = 96,
+  pattern = "floor_low.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 728,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
   layer = 1,
   x = 40,
   y = 216,
@@ -935,24 +980,6 @@ tile{
   width = 32,
   height = 96,
   pattern = "floor_low.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 640,
-  width = 240,
-  height = 96,
-  pattern = "floor_low.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 128,
-  y = 744,
-  width = 64,
-  height = 8,
-  pattern = "door_cache.2-2",
 }
 
 tile{
@@ -1034,15 +1061,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 728,
-  width = 240,
-  height = 24,
-  pattern = "wall.2-2",
 }
 
 tile{
@@ -1367,33 +1385,6 @@ tile{
   width = 8,
   height = 48,
   pattern = "floor_border.1",
-}
-
-tile{
-  layer = 1,
-  x = 152,
-  y = 744,
-  width = 16,
-  height = 32,
-  pattern = "floor.3-1",
-}
-
-tile{
-  layer = 1,
-  x = 144,
-  y = 744,
-  width = 8,
-  height = 32,
-  pattern = "barrier.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 168,
-  y = 744,
-  width = 8,
-  height = 32,
-  pattern = "barrier.2-1",
 }
 
 tile{
@@ -1947,14 +1938,6 @@ jumper{
   jump_length = 40,
 }
 
-destination{
-  name = "destination",
-  layer = 1,
-  x = 160,
-  y = 725,
-  direction = 1,
-}
-
 stairs{
   layer = 1,
   x = 152,
@@ -1989,6 +1972,25 @@ stairs{
   y = 136,
   direction = 3,
   subtype = 4,
+}
+
+teletransporter{
+  name = "south_shrine_2_B",
+  layer = 1,
+  x = 152,
+  y = 752,
+  width = 16,
+  height = 16,
+  destination_map = "out/b2_graveyard",
+  destination = "drugstore_2_A",
+}
+
+destination{
+  name = "south_shrine_1_B",
+  layer = 1,
+  x = 160,
+  y = 741,
+  direction = 1,
 }
 
 tile{
@@ -2079,6 +2081,15 @@ tile{
   width = 208,
   height = 32,
   pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 744,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-2",
 }
 
 separator{

@@ -2181,15 +2181,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-}
-
-tile{
-  layer = 0,
   x = 80,
   y = 96,
   width = 8,
@@ -2649,15 +2640,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 296,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-}
-
-tile{
-  layer = 0,
   x = 288,
   y = 96,
   width = 8,
@@ -2757,15 +2739,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 296,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-}
-
-tile{
-  layer = 0,
   x = 360,
   y = 296,
   width = 8,
@@ -2861,15 +2834,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "5975",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "6020",
 }
 
 tile{
@@ -5464,6 +5428,42 @@ tile{
   pattern = "1002",
 }
 
+tile{
+  layer = 0,
+  x = 376,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
 destructible{
   layer = 0,
   x = 48,
@@ -7392,6 +7392,101 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+destination{
+  name = "painter_house_2_A",
+  layer = 0,
+  x = 208,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  name = "painter_house_1_A",
+  layer = 0,
+  x = 200,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "houses/yarna_desert/painter_house",
+  destination = "painter_house_1_B",
+}
+
+destination{
+  name = "rabbits_house_2_A",
+  layer = 0,
+  x = 96,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  name = "rabbits_house_1_A",
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "houses/yarna_desert/rabbits_house",
+  destination = "rabbits_house_1_B",
+}
+
+destination{
+  name = "bear_house_2_A",
+  layer = 0,
+  x = 376,
+  y = 325,
+  direction = 3,
+}
+
+teletransporter{
+  name = "bear_house_1_A",
+  layer = 0,
+  x = 368,
+  y = 296,
+  width = 16,
+  height = 16,
+  destination_map = "houses/yarna_desert/bear_house",
+  destination = "bear_house_1_B",
+}
+
+destination{
+  name = "christine_house_2_A_2",
+  layer = 0,
+  x = 304,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  name = "bear_house_1_A_2",
+  layer = 0,
+  x = 296,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "houses/yarna_desert/christine_house",
+  destination = "christine_house_1_B",
+}
+
+destination{
+  name = "empty_house_2_A",
+  layer = 0,
+  x = 384,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  name = "empty_house_1_A",
+  layer = 0,
+  x = 376,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "houses/yarna_desert/empty_house",
+  destination = "empty_house_1_B",
 }
 
 tile{
