@@ -26,11 +26,13 @@ map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle outside" 
 map{ id = "examples/island", description = "island" }
 map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "examples/outside_store", description = "Outside Store" }
+map{ id = "houses/east_prairie/telephone_booth_5", description = "Telephone booth 5" }
 map{ id = "houses/egg_of_the_dream_fish/photographer_house", description = "Photographer house" }
 map{ id = "houses/graveyard/drugstore", description = "Drugstore" }
 map{ id = "houses/graveyard/witch_house", description = "Witch house" }
 map{ id = "houses/kanalet_castle/kanalet_castle_1f", description = "Kanalet castle 1F" }
 map{ id = "houses/kanalet_castle/kanalet_castle_2f", description = "Kanalet castle 2F" }
+map{ id = "houses/kanalet_castle/telephone_booth_6", description = "Telephone booth 6" }
 map{ id = "houses/mabe_village/library", description = "Library" }
 map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
@@ -41,6 +43,8 @@ map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
 map{ id = "houses/mabe_village/shop_2", description = "Shop 2" }
 map{ id = "houses/mabe_village/telephone_booth_1", description = "Telephone booth 1" }
 map{ id = "houses/mambos_cave/cuccos_house", description = "Cucco's house" }
+map{ id = "houses/martha_bay/telephone_booth_7", description = "Telephone booth 7" }
+map{ id = "houses/martha_bay/telephone_booth_8", description = "Telephone booth 8" }
 map{ id = "houses/mask_shrine/south_shrine", description = "South shrine" }
 map{ id = "houses/prairie/telephone_booth_4", description = "Telephone booth 4" }
 map{ id = "houses/south_mabe_village/sales_house_o_bananas", description = "Sale's House O' Bananas" }

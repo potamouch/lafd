@@ -11471,7 +11471,7 @@ tile{
 tile{
   layer = 0,
   x = 688,
-  y = 64,
+  y = 48,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -11489,7 +11489,7 @@ tile{
 tile{
   layer = 0,
   x = 896,
-  y = 64,
+  y = 48,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -13855,6 +13855,15 @@ block{
   maximum_moves = 0,
 }
 
+pickable{
+  name = "instrument",
+  layer = 0,
+  x = 800,
+  y = 101,
+  treasure_name = "wind_marimba",
+  treasure_savegame_variable = "dungeon_5_instrument",
+}
+
 tile{
   layer = 1,
   x = 1256,
@@ -14515,7 +14524,7 @@ tile{
 tile{
   layer = 1,
   x = 688,
-  y = 48,
+  y = 32,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
@@ -14533,7 +14542,7 @@ tile{
 tile{
   layer = 1,
   x = 896,
-  y = 48,
+  y = 32,
   width = 16,
   height = 16,
   pattern = "torch_big.top",

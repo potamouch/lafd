@@ -2903,7 +2903,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 320,
+  y = 304,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -2921,7 +2921,7 @@ tile{
 tile{
   layer = 0,
   x = 256,
-  y = 320,
+  y = 304,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -9894,6 +9894,15 @@ wall{
   stops_blocks = true,
 }
 
+pickable{
+  name = "instrument",
+  layer = 0,
+  x = 160,
+  y = 357,
+  treasure_name = "surf_harp",
+  treasure_savegame_variable = "dungeon_4_instrument",
+}
+
 tile{
   layer = 1,
   x = 1256,
@@ -10014,7 +10023,7 @@ tile{
 tile{
   layer = 1,
   x = 48,
-  y = 304,
+  y = 288,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
@@ -10032,7 +10041,7 @@ tile{
 tile{
   layer = 1,
   x = 256,
-  y = 304,
+  y = 288,
   width = 16,
   height = 16,
   pattern = "torch_big.top",

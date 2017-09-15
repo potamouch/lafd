@@ -3344,7 +3344,7 @@ tile{
 tile{
   layer = 0,
   x = 1328,
-  y = 576,
+  y = 560,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -3380,7 +3380,7 @@ tile{
 tile{
   layer = 0,
   x = 1536,
-  y = 576,
+  y = 560,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -17811,7 +17811,7 @@ tile{
 tile{
   layer = 1,
   x = 1328,
-  y = 560,
+  y = 544,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
@@ -17829,7 +17829,7 @@ tile{
 tile{
   layer = 1,
   x = 1536,
-  y = 560,
+  y = 544,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
