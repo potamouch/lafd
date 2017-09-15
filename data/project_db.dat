@@ -244,6 +244,7 @@ music{ id = "maps/dungeons/4/instrument", description = "Instrument 4" }
 music{ id = "maps/dungeons/5/dungeon", description = "Dungeon 5" }
 music{ id = "maps/dungeons/5/instrument", description = "Instrument 5" }
 music{ id = "maps/dungeons/6/dungeon", description = "Dungeon 6" }
+music{ id = "maps/dungeons/6/instrument", description = "maps/dungeons/6/instrument" }
 music{ id = "maps/dungeons/7/dungeon", description = "Dungeon 7" }
 music{ id = "maps/dungeons/7/instrument", description = "Instrument 7" }
 music{ id = "maps/dungeons/8/dungeon", description = "Dungeon 8" }
