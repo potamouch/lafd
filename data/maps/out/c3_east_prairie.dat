@@ -10392,9 +10392,33 @@ npc{
 destination{
   name = "tmp",
   layer = 0,
-  x = 776,
-  y = 485,
+  x = 24,
+  y = 237,
   direction = 1,
+}
+
+teletransporter{
+  name = "to_c2",
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c2_kanalet_castle",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_b3",
+  layer = 0,
+  x = -16,
+  y = -16,
+  width = 16,
+  height = 784,
+  transition = "scrolling",
+  destination_map = "out/b3_prairie",
+  destination = "_side",
 }
 
 tile{

@@ -22927,6 +22927,18 @@ teletransporter{
   destination = "telephone_booth_4_1_B",
 }
 
+teletransporter{
+  name = "to_c3",
+  layer = 0,
+  x = 960,
+  y = 16,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/c3_east_prairie",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 696,
