@@ -81,10 +81,6 @@ function map:on_started(destination)
   end
   if map:get_game():get_value("owl_2") == true then
         map:set_music()
-    else
-      owl_manager:appear(map, 2, function()
-        map:set_music()
-      end)
     end
 
 end
@@ -252,4 +248,17 @@ function fairy_fountain:on_activated()
   fairy_manager:launch_fairy_if_hero_not_max_life(map, "fairy", music_name)
 
 end
+
+function owl_2_sensor:on_activated()
+
+  if map:get_game():get_value("owl_2") ~= true then
+        print("go")
+      owl_manager:appear(map, 2, function()
+        map:set_music()
+      end)
+    end
+
+
+end
+
 

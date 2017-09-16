@@ -11403,6 +11403,15 @@ teletransporter{
   destination = "_side",
 }
 
+sensor{
+  name = "owl_2_sensor",
+  layer = 0,
+  x = 120,
+  y = 765,
+  width = 96,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 536,
