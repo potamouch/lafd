@@ -13,18 +13,27 @@ properties{
 
 tile{
   layer = 0,
-  x = 1000,
+  x = 1152,
   y = 1064,
+  width = 48,
+  height = 48,
+  pattern = "floor_low.13-2",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 1112,
   width = 240,
-  height = 176,
+  height = 128,
   pattern = "floor_low.13-2",
 }
 
 tile{
   layer = 0,
   x = 1008,
-  y = 1064,
-  width = 192,
+  y = 1104,
+  width = 144,
   height = 8,
   pattern = "wall_border.1-2",
 }
@@ -3425,28 +3434,10 @@ tile{
 tile{
   layer = 0,
   x = 976,
-  y = 1064,
+  y = 1096,
   width = 24,
-  height = 176,
+  height = 144,
   pattern = "wall.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 976,
-  y = 1040,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 1000,
-  y = 1040,
-  width = 208,
-  height = 24,
-  pattern = "wall.1-2",
 }
 
 tile{
@@ -3474,15 +3465,6 @@ tile{
   width = 240,
   height = 24,
   pattern = "wall.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 1000,
-  y = 1064,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-2",
 }
 
 tile{
@@ -3524,9 +3506,9 @@ tile{
 tile{
   layer = 0,
   x = 1000,
-  y = 1072,
+  y = 1104,
   width = 8,
-  height = 160,
+  height = 128,
   pattern = "wall_border.3-2",
 }
 
@@ -9117,6 +9099,105 @@ tile{
   width = 32,
   height = 8,
   pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 1080,
+  width = 144,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 1080,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 1104,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 1056,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 1040,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 1080,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 1040,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 1064,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 1064,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 1072,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 1104,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
 }
 
 pickable{
