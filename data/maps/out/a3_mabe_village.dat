@@ -17407,7 +17407,7 @@ teletransporter{
   name = "to_b3",
   layer = 0,
   x = 960,
-  y = -32,
+  y = 0,
   width = 16,
   height = 816,
   transition = "scrolling",
