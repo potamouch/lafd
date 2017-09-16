@@ -44,11 +44,6 @@ end
 
 function item:on_obtained(variant, savegame_variable)
 
-
     game:set_value("main_quest_step", 4)
-    --sol.audio.play_music("maps/out/let_the_journey_begin", function()
-     --     hero:set_animation("spin_attack")
-        --sol.audio.play_music("maps/out/overworld")
-   -- end)
 
 end
