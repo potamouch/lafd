@@ -21,11 +21,24 @@ function item:on_obtaining(variant, savegame_variable)
 
   local map = game:get_map()
   local hero = map:get_hero()
+  local x_hero,y_hero, layer_hero = hero:get_position()
   game:set_pause_allowed(false)
   game:set_suspended(true)
   hero:get_sprite():set_ignore_suspend(true)
   hero:freeze()
   hero:set_animation("brandish")
+  local sword_entity = map:create_custom_entity({
+    name = "brandish_sword",
+    sprite = "entities/items",
+    x = x_hero,
+    y = y_hero - 24,
+    width = 16,
+    height = 16,
+    layer = layer_hero,
+    direction = 0
+  })
+  sword_entity:get_sprite():set_animation("sword")
+  sword_entity:get_sprite():set_direction(0)
   sol.audio.stop_music()
   sol.audio.play_sound("treasure_sword")
   local timer = sol.timer.start(3000, function()
@@ -33,6 +46,7 @@ function item:on_obtaining(variant, savegame_variable)
       game:start_dialog("_treasure.sword.1", function()
         sol.audio.play_music("maps/out/let_the_journey_begin")
         local timerspin = sol.timer.start(5400, function() 
+          map:remove_entities("brandish")
           hero:set_animation("spin_attack", function() 
             hero:unfreeze()
               game:set_pause_allowed(true)
