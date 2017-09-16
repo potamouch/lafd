@@ -541,14 +541,6 @@ destructible{
   weight = 1,
 }
 
-chest{
-  layer = 0,
-  x = 128,
-  y = 157,
-  treasure_name = "mushroom",
-  sprite = "entities/chest",
-}
-
 tile{
   layer = 1,
   x = 144,
