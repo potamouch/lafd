@@ -2117,114 +2117,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 1472,
-  width = 224,
-  height = 16,
-  pattern = "floor_low.18-2",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 1456,
-  width = 224,
-  height = 16,
-  pattern = "floor_low.18-2",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 1360,
-  width = 32,
-  height = 32,
-  pattern = "statue_slab-2",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 1360,
-  width = 32,
-  height = 32,
-  pattern = "statue_slab-2",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 1360,
-  width = 32,
-  height = 32,
-  pattern = "statue_slab-2",
-}
-
-tile{
-  layer = 0,
-  x = 496,
-  y = 1360,
-  width = 32,
-  height = 32,
-  pattern = "statue_slab-2",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 1392,
-  width = 32,
-  height = 32,
-  pattern = "statue_slab-2",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 1392,
-  width = 32,
-  height = 32,
-  pattern = "statue_slab-2",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 1344,
-  width = 224,
-  height = 16,
-  pattern = "floor_low.18-2",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 1328,
-  width = 224,
-  height = 16,
-  pattern = "floor_low.18-2",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 1360,
-  width = 32,
-  height = 96,
-  pattern = "floor_low.18-2",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 1360,
-  width = 32,
-  height = 96,
-  pattern = "floor_low.18-2",
-}
-
-tile{
-  layer = 0,
   x = 360,
   y = 1320,
   width = 8,
@@ -2293,60 +2185,6 @@ tile{
   width = 8,
   height = 160,
   pattern = "wall_border.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 1408,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 1432,
-  width = 16,
-  height = 8,
-  pattern = "stairs_inner_up.2.top-1",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 1408,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 1408,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 1432,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.2.top.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 1432,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.2.top.border.2-1",
 }
 
 tile{
@@ -4924,6 +4762,928 @@ tile{
 }
 
 tile{
+  layer = 0,
+  x = 384,
+  y = 1328,
+  width = 192,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 1328,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 1328,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 1472,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 1472,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1472,
+  width = 192,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 1344,
+  width = 16,
+  height = 112,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 1344,
+  width = 16,
+  height = 112,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1344,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 1344,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1376,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1408,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 1344,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 1344,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 1376,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 1408,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 1440,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 1448,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 1448,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 1440,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top-1",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 1448,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 1440,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 1072,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 1072,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1088,
+  width = 192,
+  height = 16,
+  pattern = "red.switch",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 1072,
+  width = 128,
+  height = 16,
+  pattern = "red.switch",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1104,
+  width = 192,
+  height = 16,
+  pattern = "red.switch",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 1168,
+  width = 16,
+  height = 48,
+  pattern = "green.switch",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 1168,
+  width = 48,
+  height = 16,
+  pattern = "green.switch",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1184,
+  width = 48,
+  height = 48,
+  pattern = "green.switch",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 1184,
+  width = 48,
+  height = 48,
+  pattern = "green.switch",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 1168,
+  width = 32,
+  height = 16,
+  pattern = "green.switch",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 1184,
+  width = 16,
+  height = 32,
+  pattern = "green.switch",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 816,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 816,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 960,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 960,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.2",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.2",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.2",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 1120,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1120,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1168,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.1",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 1168,
+  width = 16,
+  height = 16,
+  pattern = "hammer_peg.2",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 1120,
+  width = 64,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 1136,
+  width = 16,
+  height = 32,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 1168,
+  width = 64,
+  height = 16,
+  pattern = "floor_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 1136,
+  width = 16,
+  height = 32,
+  pattern = "floor_low.2-2",
+}
+
+pickable{
+  name = "rubis_d9_1",
+  layer = 0,
+  x = 744,
+  y = 1485,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_2",
+  layer = 0,
+  x = 776,
+  y = 1485,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_3",
+  layer = 0,
+  x = 792,
+  y = 1453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_4",
+  layer = 0,
+  x = 808,
+  y = 1485,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_5",
+  layer = 0,
+  x = 824,
+  y = 1453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_6",
+  layer = 0,
+  x = 760,
+  y = 1453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_7",
+  layer = 0,
+  x = 840,
+  y = 1485,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_8",
+  layer = 0,
+  x = 856,
+  y = 1453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_9",
+  layer = 0,
+  x = 872,
+  y = 1485,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_10",
+  layer = 0,
+  x = 728,
+  y = 1453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_11",
+  layer = 0,
+  x = 744,
+  y = 1421,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_12",
+  layer = 0,
+  x = 776,
+  y = 1421,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_13",
+  layer = 0,
+  x = 792,
+  y = 1389,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_14",
+  layer = 0,
+  x = 808,
+  y = 1421,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_15",
+  layer = 0,
+  x = 824,
+  y = 1389,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_16",
+  layer = 0,
+  x = 760,
+  y = 1389,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_17",
+  layer = 0,
+  x = 840,
+  y = 1421,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_18",
+  layer = 0,
+  x = 856,
+  y = 1389,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_19",
+  layer = 0,
+  x = 872,
+  y = 1421,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_20",
+  layer = 0,
+  x = 728,
+  y = 1389,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_21",
+  layer = 0,
+  x = 712,
+  y = 1421,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_22",
+  layer = 0,
+  x = 888,
+  y = 1453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_23",
+  layer = 0,
+  x = 888,
+  y = 1389,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_24",
+  layer = 0,
+  x = 744,
+  y = 1357,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_25",
+  layer = 0,
+  x = 776,
+  y = 1357,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_26",
+  layer = 0,
+  x = 808,
+  y = 1357,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_27",
+  layer = 0,
+  x = 840,
+  y = 1357,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "rubis_d9_28",
+  layer = 0,
+  x = 872,
+  y = 1357,
+  treasure_name = "rupee",
+}
+
+destructible{
+  name = "pot_d9",
+  layer = 0,
+  x = 584,
+  y = 1229,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_2",
+  layer = 0,
+  x = 376,
+  y = 1229,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_3",
+  layer = 0,
+  x = 376,
+  y = 1085,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_4",
+  layer = 0,
+  x = 392,
+  y = 1085,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_5",
+  layer = 0,
+  x = 376,
+  y = 1101,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_6",
+  layer = 0,
+  x = 584,
+  y = 1085,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_7",
+  layer = 0,
+  x = 568,
+  y = 1085,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_8",
+  layer = 0,
+  x = 584,
+  y = 1101,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_9",
+  layer = 0,
+  x = 376,
+  y = 1117,
+  sprite = "entities/pot",
+}
+
+destructible{
+  name = "pot_d9_10",
+  layer = 0,
+  x = 584,
+  y = 1117,
+  sprite = "entities/pot",
+}
+
+npc{
+  layer = 0,
+  x = 448,
+  y = 813,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  layer = 0,
+  x = 824,
+  y = 1069,
+  direction = 3,
+  subtype = 1,
+}
+
+chest{
+  name = "coffre_d9",
+  layer = 0,
+  x = 880,
+  y = 1133,
+  sprite = "entities/chest",
+}
+
+tile{
   layer = 1,
   x = 464,
   y = 1296,
@@ -5137,6 +5897,96 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 1312,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 1312,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 1456,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 1456,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 1056,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 544,
+  y = 1056,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 944,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 944,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
 }
 
 tile{
