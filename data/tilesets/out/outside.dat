@@ -160697,3 +160697,19 @@ tile_pattern{
   repeat_mode = "none",
 }
 
+border_set{
+  id = "dirt_to_transparent",
+  pattern_0 = "121",
+  pattern_1 = "123",
+  pattern_2 = "125",
+  pattern_3 = "119",
+  pattern_4 = "117",
+  pattern_5 = "116",
+  pattern_6 = "115",
+  pattern_7 = "114",
+  pattern_8 = "122",
+  pattern_9 = "124",
+  pattern_10 = "118",
+  pattern_11 = "120",
+}
+
