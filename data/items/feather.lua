@@ -1,5 +1,8 @@
 local item = ...
 
+require("scripts/multi_events")
+require("scripts/ground_effects")
+require("scripts/meta/custom_teleporter.lua")
 local hero_meta = sol.main.get_metatable("hero")
 
 -- Initialize parameters for custom jump.
@@ -8,49 +11,71 @@ local jump_duration = 600 -- Duration of jump in milliseconds.
 local max_height = 16 -- Height of jump in pixels.
 local max_distance = 31 -- Max distance of jump in pixels.
 local jumping_speed = math.floor(1000 * max_distance / jump_duration)
+local streams -- Nearby streams that are disabled during the jump
 
 function item:on_created()
   self:set_savegame_variable("possession_feather")
   self:set_assignable(true)
-  self:set_sound_when_brandished("treasure_2")
+  --[[ Redefine event game.on_command_pressed.
+  -- Avoids restarting hero animation when feather command is pressed
+  -- in the middle of a jump, and using weapons while jumping. --]]
+  local game = self:get_game()
+  game:set_ability("jump_over_water", 0) -- Disable auto-jump on water border.
+  game:register_event("on_command_pressed", function(self, command)
+    local item = game:get_item("feather")
+    local effect = game:get_command_effect(command)
+    local slot = ((effect == "use_item_1") and 1)
+        or ((effect == "use_item_2") and 2)
+    if slot and game:get_item_assigned(slot) == item then
+      if not item:is_jumping() then
+        item:on_custom_using()
+      end
+      return true
+    end
+  end)
 end
 
-function item:on_using()
+-- The custom jump can only be used under certain conditions.
+-- We define "item.on_custom_using" instead of "item.on_using", which
+-- is directly called by the event "game.on_command_pressed".
+function item:on_custom_using()
   local hero = self:get_game():get_hero()
-  if item:get_variant() == 0 then -- Built-in jump.
-    sol.audio.play_sound("jump")
-    local direction4 = hero:get_direction()
-    hero:start_jumping(direction4 * 2, 32, false)
-    self:set_finished()
-  else -- Custom jump.
-    hero:start_custom_jump()
-  end
+  self:start_custom_jump()
 end
 
 -- Used to detect if custom jump is being used.
 -- Necessary to determine if other items can be used.
+function item:is_jumping() return is_hero_jumping end
 function hero_meta:is_jumping()
-  return is_hero_jumping
+  return self:get_game():get_item("feather"):is_jumping()
 end
 
 -- Function to determine if the hero can jump on this type of ground.
 local function is_jumpable_ground(ground_type)
-  return (
-    (ground_type == "traversable")
+  local is_good_ground = ( (ground_type == "traversable")
     or (ground_type == "wall_top_right") or (ground_type == "wall_top_left")
     or (ground_type == "wall_bottom_left") or (ground_type == "wall_bottom_right")
     or (ground_type == "shallow_water") or (ground_type == "grass")
-    or (ground_type == "ice")
-  )
+    or (ground_type == "ice") )
+  return is_good_ground
+end
+-- Returns true if there are "blocking streams" below the hero.
+local function blocking_stream_below_hero(map)
+  local hero = map:get_hero()
+  local x, y, _ = hero:get_position()
+  for e in map:get_entities_in_rectangle(x, y, 1 , 1) do
+    if e:get_type() == "stream" then
+      return (not e:get_allow_movement())
+    end
+  end
+  return false
 end
 
 -- Define custom jump on hero metatable.
-function hero_meta:start_custom_jump()
-
-  local hero = self
+function item:start_custom_jump()
   local game = self:get_game()
   local map = self:get_map()
-  local item = game:get_item("feather")
+  local hero = map:get_hero()
 
   -- Do nothing if the hero is frozen, carrying, "custom jumping",
   -- or if there is bad ground below. [Add more restrictions if necessary.]
@@ -59,20 +84,22 @@ function hero_meta:start_custom_jump()
   local is_hero_carrying = hero_state == "carrying"
   local ground_type = map:get_ground(hero:get_position())
   local is_ground_jumpable = is_jumpable_ground(ground_type)
+  local is_blocked_on_stream = blocking_stream_below_hero(map)
 
-  if is_hero_frozen or is_hero_jumping or is_hero_carrying or (not is_ground_jumpable) then
+  if is_hero_frozen or is_hero_jumping or is_hero_carrying 
+      or (not is_ground_jumpable) or is_blocked_on_stream then
     return
   end
 
   -- Prepare hero for jump.
-  hero:unfreeze()  
   is_hero_jumping = true
+  hero:unfreeze()  
   hero:save_solid_ground(hero:get_position()) -- Save solid position.
   local ws = hero:get_walking_speed() -- Default walking speed.
   hero:set_walking_speed(jumping_speed)
   hero:set_invincible(true, jump_duration)
   sol.audio.play_sound("jump")
- 
+
   -- Change and fix tunic animations to display the jump.
   local state = hero:get_state()
   if state == "free" then
@@ -102,7 +129,7 @@ function hero_meta:start_custom_jump()
 
   -- Shift all sprites during jump with parabolic trajectory.
   local instant = 0
-  sol.timer.start(self, 1, function()
+  sol.timer.start(item, 1, function()
     if not is_hero_jumping then return false end
     local tn = instant/jump_duration
     local height = math.floor(4*max_height*tn*(1-tn))
@@ -114,8 +141,12 @@ function hero_meta:start_custom_jump()
     return true
   end)
 
+  -- Disable nearby streams during the jump.
+  item:disable_nearby_streams()
+  
   -- Finish the jump.
   sol.timer.start(item, jump_duration, function()
+
     hero:set_walking_speed(ws) -- Restore initial walking speed.
     hero:set_fixed_animations(nil, nil) -- Restore tunic animations.
     tile:remove()  -- Delete shadow platform tile.
@@ -130,12 +161,15 @@ function hero_meta:start_custom_jump()
     end
     -- Reset sprite shifts.
     for _, s in hero:get_sprites() do s:set_xy(0, 0) end
-    
+
     -- Create ground effect.
-    -- item:create_ground_effect(x, y, layer)
+    map:ground_collision(hero)
+    
+    -- Enable nearby streams that were disabled during the jump.
+    item:enable_nearby_streams()
 
     -- Restore solid ground as soon as possible.
-    sol.timer.start(self, 1, function()
+    sol.timer.start(map, 1, function()
       local ground_type = map:get_ground(hero:get_position())    
       local is_good_ground = is_jumpable_ground(ground_type)
       if is_good_ground then
@@ -146,8 +180,9 @@ function hero_meta:start_custom_jump()
     end)   
 
     -- Finish jump.
-    is_hero_jumping = false
     item:set_finished()
+    sol.timer.stop_all(item)
+    is_hero_jumping = false
   end)
 end
 
@@ -166,5 +201,53 @@ function item:create_ground_effect(x, y, layer)
   else
     -- For other grounds, make landing sound.
     sol.audio.play_sound("hero_lands")      
+  end
+end
+
+-- Disable nearby streams during the jump, allowing to jump over them.
+function item:disable_nearby_streams()
+  local map = item:get_map()
+  local hero = map:get_hero()
+  local hx, hy = hero:get_position()
+  -- Get rectangle coordinates and disable streams on it.
+  local x, y = hx - max_distance, hy - max_distance
+  local w, h = 24 + 2*max_distance, 24 + 2*max_distance
+  streams = {}
+  for st in map:get_entities_in_rectangle(x, y, w, h) do
+    if st:get_type() == "stream" then
+      streams[#streams + 1] = st
+      st:set_enabled(false) -- Disable stream.
+    end
+  end
+end
+-- Enable nearby streams that were disabled during the jump.
+function item:enable_nearby_streams()
+  for _, st in pairs(streams) do
+    if st:exists() then st:set_enabled(true) end
+  end
+  streams = nil -- Clear list.
+end
+
+-- Make streams invisible and use a sprite on custom entities instead.
+local stream_meta = sol.main.get_metatable("stream")
+function stream_meta:on_created()
+  local map = self:get_map()
+  self:set_visible(false)
+  local sprite = self:get_sprite()
+  if sprite then -- Create custom entity with sprite.
+    local x_st, y_st, layer_st = self:get_position()
+    local w_st, h_st = self:get_size()
+    local id = sprite:get_animation_set()
+    local anim = sprite:get_animation()
+    local dir = sprite:get_direction()
+    local prop = {x = x_st, y = y_st, layer = layer_st,
+      direction = dir, width = w_st, height = h_st, sprite = id}
+    local sprite_entity = map:create_custom_entity(prop)
+  end
+  -- Destroy sprite entity if the stream is destroyed.
+  function self:on_removed()
+    if sprite_entity and sprite_entity:exists() then
+      sprite_entity:remove()
+    end
   end
 end
