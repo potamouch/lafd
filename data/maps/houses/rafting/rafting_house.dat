@@ -5,15 +5,13 @@ properties{
   height = 256,
   min_layer = 0,
   max_layer = 2,
-  world = "inside_world",
   tileset = "dungeons/light_brown",
-  music = "maps/houses/mr_write_and_christine",
 }
 
 tile{
   layer = 0,
   x = 72,
-  y = 48,
+  y = 40,
   width = 176,
   height = 160,
   pattern = "floor_low.1-1",
@@ -21,11 +19,29 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
+  x = 144,
   y = 48,
-  width = 48,
-  height = 64,
-  pattern = "floor.1-1",
+  width = 8,
+  height = 72,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 120,
+  width = 72,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 40,
+  width = 72,
+  height = 80,
+  pattern = "carpet.5",
 }
 
 tile{
@@ -102,6 +118,15 @@ tile{
 
 tile{
   layer = 0,
+  x = 64,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 0,
   x = 248,
   y = 40,
   width = 8,
@@ -111,9 +136,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
+  x = 72,
   y = 40,
-  width = 80,
+  width = 176,
   height = 8,
   pattern = "wall_border.1-1",
 }
@@ -121,9 +146,9 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 96,
+  y = 48,
   width = 8,
-  height = 96,
+  height = 144,
   pattern = "wall_border.3-1",
 }
 
@@ -211,15 +236,15 @@ tile{
 tile{
   layer = 0,
   x = 168,
-  y = 216,
+  y = 224,
   width = 8,
-  height = 32,
+  height = 24,
   pattern = "barrier.2-1",
 }
 
 tile{
   layer = 0,
-  x = 216,
+  x = 96,
   y = 48,
   width = 32,
   height = 40,
@@ -228,43 +253,16 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 128,
-  width = 32,
-  height = 64,
-  pattern = "floor_pot",
+  x = 152,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
 }
 
 tile{
   layer = 0,
-  x = 192,
-  y = 48,
-  width = 8,
-  height = 72,
-  pattern = "floor_border.2",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 112,
-  width = 48,
-  height = 8,
-  pattern = "floor_border.2",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 48,
-  width = 96,
-  height = 48,
-  pattern = "water_shallow",
-}
-
-tile{
-  layer = 0,
-  x = 160,
+  x = 176,
   y = 40,
   width = 8,
   height = 8,
@@ -273,17 +271,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 176,
   y = 48,
   width = 8,
-  height = 48,
+  height = 40,
   pattern = "barrier.2-1",
 }
 
 tile{
   layer = 0,
-  x = 160,
-  y = 96,
+  x = 176,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "barrier.border-1",
@@ -291,44 +289,26 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
-  y = 96,
-  width = 24,
+  x = 160,
+  y = 88,
+  width = 16,
   height = 8,
   pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
 }
 
 tile{
   layer = 0,
   x = 72,
-  y = 96,
-  width = 32,
+  y = 128,
+  width = 48,
   height = 8,
   pattern = "barrier.1-1",
 }
 
 tile{
   layer = 0,
-  x = 64,
-  y = 96,
+  x = 152,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "barrier.border-1",
@@ -336,43 +316,79 @@ tile{
 
 tile{
   layer = 0,
-  x = 248,
-  y = 152,
+  x = 120,
+  y = 128,
   width = 8,
   height = 8,
-  pattern = "table.6",
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 96,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 48,
+  width = 48,
+  height = 32,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.2",
 }
 
 tile{
   layer = 0,
   x = 224,
-  y = 144,
+  y = 168,
   width = 8,
   height = 8,
-  pattern = "table.1",
+  pattern = "table.9",
 }
 
 tile{
   layer = 0,
-  x = 224,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "table.7",
-}
-
-tile{
-  layer = 0,
-  x = 248,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
-}
-
-tile{
-  layer = 0,
-  x = 232,
+  x = 208,
   y = 144,
   width = 16,
   height = 8,
@@ -381,8 +397,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
-  y = 160,
+  x = 224,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 168,
   width = 16,
   height = 8,
   pattern = "table.8",
@@ -393,270 +418,101 @@ tile{
   x = 224,
   y = 152,
   width = 8,
-  height = 8,
-  pattern = "table.4",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 152,
-  width = 16,
-  height = 8,
-  pattern = "table.5",
-}
-
-tile{
-  layer = 0,
-  x = 248,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "table.9",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 152,
-  width = 8,
-  height = 8,
+  height = 16,
   pattern = "table.6",
 }
 
 tile{
   layer = 0,
-  x = 176,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.1",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "table.7",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 144,
-  width = 32,
-  height = 8,
-  pattern = "table.2",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 160,
-  width = 32,
-  height = 8,
-  pattern = "table.8",
-}
-
-tile{
-  layer = 0,
-  x = 176,
+  x = 208,
   y = 152,
-  width = 8,
-  height = 8,
-  pattern = "table.4",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "table.5",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "table.9",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 40,
-  width = 88,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 48,
-  width = 8,
-  height = 40,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 88,
-  width = 80,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 48,
-  width = 8,
-  height = 40,
-  pattern = "water_shallow.3",
-}
-
-destination{
-  name = "christine_house_1_B",
-  layer = 0,
-  x = 160,
-  y = 213,
-  direction = 1,
-}
-
-teletransporter{
-  name = "christine_house_2_B",
-  layer = 0,
-  x = 152,
-  y = 224,
   width = 16,
   height = 16,
-  destination_map = "out/d4_yarna_desert",
-  destination = "christine_house_2_A_2",
+  pattern = "table.5",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 152,
+  width = 8,
+  height = 16,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
 }
 
 destructible{
   layer = 0,
-  x = 80,
-  y = 157,
+  x = 240,
+  y = 61,
   sprite = "entities/pot",
   weight = 1,
-  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 0,
-  x = 96,
-  y = 157,
+  x = 224,
+  y = 61,
   sprite = "entities/pot",
   weight = 1,
-  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 0,
-  x = 80,
-  y = 173,
+  x = 208,
+  y = 61,
   sprite = "entities/pot",
   weight = 1,
-  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 0,
-  x = 96,
-  y = 173,
+  x = 208,
+  y = 77,
   sprite = "entities/pot",
   weight = 1,
-  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 0,
-  x = 96,
-  y = 189,
+  x = 224,
+  y = 77,
   sprite = "entities/pot",
   weight = 1,
-  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 0,
-  x = 80,
-  y = 189,
+  x = 240,
+  y = 77,
   sprite = "entities/pot",
   weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 141,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 141,
-  sprite = "entities/pot",
-  weight = 1,
-  damage_on_enemies = 2,
 }
 
 tile{
@@ -666,6 +522,34 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+destination{
+  name = "cuccos_house_1_B",
+  layer = 1,
+  x = 160,
+  y = 213,
+  direction = 1,
+}
+
+teletransporter{
+  name = "cuccos_house_2_B",
+  layer = 1,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "out/a1_west_mt_tamaranch",
+  destination = "mr_write_house_2_A",
 }
 
 tile{

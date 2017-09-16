@@ -50,6 +50,7 @@ map{ id = "houses/martha_bay/telephone_booth_7", description = "Telephone booth 
 map{ id = "houses/martha_bay/telephone_booth_8", description = "Telephone booth 8" }
 map{ id = "houses/mask_shrine/south_shrine", description = "South shrine" }
 map{ id = "houses/prairie/telephone_booth_4", description = "Telephone booth 4" }
+map{ id = "houses/rafting/rafting_house", description = "Rafting's house" }
 map{ id = "houses/south_mabe_village/sales_house_o_bananas", description = "Sale's House O' Bananas" }
 map{ id = "houses/south_prairie/ghost_house", description = "Ghost house" }
 map{ id = "houses/south_prairie/richard_villa", description = "Richard villa" }
