@@ -34,50 +34,61 @@ Bracelet of force
 
 
 PROCESSED MUSIC
+01 - Introduction
+02 - Title screen
+04 - Player Select
+04 - Player Select Zelda
+05 - Link's Awake
+06 - Item catch
+07 - Sword search
+08 - The wise owl
+09 - Your sword
+10 - Let the journey begin
+11 - Overworld
+12 - Mabe vilage
+13 - Inside the houses
+14 - Trendy game
+15 - Shop
+16 - Fairy Fountain
+17 - Telephone booth
+19 - Mysterious forest
+20 - Cave
+23 - Level 1- Tail Cave
+24 - Secret
+25 - Treasure Remains
+26 - Miniboss Remains
+27 - Boss battle
+29 - Instrument of the sirens
+30 - Holding the instrument
+31 - Full moon Cello
+32 - The Moblins took bowwow!
+33 - Level 2 - Bottle grotto
+34 - Richard's Villa
+36
+37
+38 - Kanalet castle
+39 - Level 3 - Key cavern
+40 - Sea Lily's Bell
+41 - Animal village
+50 - Level 4 - Anglers tunnel
+51 - Surf Harp
+53 - The ghost's house
+54 - Level 5 - Catfish's Maw
+55 - Wind Marimba
+56 - Southen Shrine
+57 - Level 6 - Face Shrine
+58 - Coral Triangle
+61 - Level7 - Eagle's Tower
+63 - Organ of evening calm
+65 - Level 8 - Turtle Rock
+66 - Thunder drum
+67 - Dungeon color
+68 - Mt. Tamaranch
+79 - Game over
+Bonus - Cucco's house
+Bonus - Mr write's house
+Bonus - Sidescrolling
 
-01 - The Storm
-02 - Select screen
-03 - Waking up
-05 - Sword Search
-06 - Owl
-08 - Overworld
-09 - Mabe Village
-10 - Mysterious Forest
-11 - Dungeon 1
-13 - Dungeon Passageways
-16 - Instrument of sirens
-17 - Full Moon Cello - 1st Instrument of the Sirens
-18 - BowWow’s Rescue
-19 - Peaceful villagers
-20 - Telephone booth
-22 - Cave
-23 - Dungeon 2
-23 - Bottle Grotto 2nd dungeon
-24 - Conch Horn - 2nd Instrument of the Sirens
-26 - Richard’s Villa
-27 - Wendy game
-28 - Shop
-30 - Kanalet Castle
-31 - Dungeon 3
-32 - Sea Lily s Bell - 3rd Instrument of the Sirens
-33 - Tarin and Bees
-34 - Animal Village
-38 - Dungeon 4
-39 - Surf Harp - 4th Instrument of the Sirens
-42 - House by the_Bay - Ghost House
-43 - Mr. Write and Christine
-44 - Dungeon 5
-46 - Wind Marimba - 5th Instrument of the Sirens
-47 - Game Over
-50 - Southern Shrine
-52 - Dungeon 6
-53 - Coral Triangle - 6th Instrument of the Sirens
-57 - Cucco House
-58 - Dungeon 7
-60 - Organ of Evening Calm - 7th Instrument of the Sirens
-61 - Fairy Fountain
-63 - Dungeon 8
-64 - Thunder Drum - 8th Instrument of the Sirens
 
 
 

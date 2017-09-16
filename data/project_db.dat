@@ -267,7 +267,6 @@ music{ id = "maps/houses/shop_high", description = "Shop high" }
 music{ id = "maps/houses/southern_shrine", description = "Southern shrine" }
 music{ id = "maps/houses/telephone_booth", description = "Telephone booth" }
 music{ id = "maps/houses/trendy_game", description = "Trendy game" }
-music{ id = "maps/others/fairy_fountain", description = "Fairy fountain" }
 music{ id = "maps/others/tarin_and_bees", description = "Tarin And Bees" }
 music{ id = "maps/out/animal_village", description = "Animal village" }
 music{ id = "maps/out/let_the_journey_begin", description = "Let the journey begin" }
@@ -280,7 +279,9 @@ music{ id = "maps/out/sword_search", description = "Sword search" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
 music{ id = "scripts/menus/introduction", description = "Introduction" }
 music{ id = "scripts/menus/player_select", description = "Player select" }
+music{ id = "scripts/menus/player_select_zelda", description = "Player select Zelda" }
 music{ id = "scripts/menus/title_screen", description = "Title screen" }
+music{ id = "scripts/meta/map/fairy_fountain", description = "Fairy fountain" }
 music{ id = "scripts/meta/map/the_wise_owl", description = "The wise owl" }
 
 sound{ id = "arrow_hit", description = "Arrow hit" }
