@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "out/outside",
+  music = "maps/out/overworld",
 }
 
 tile{
@@ -5902,6 +5903,50 @@ destructible{
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
+}
+
+teletransporter{
+  name = "to_c1",
+  layer = 0,
+  x = -16,
+  y = -24,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3_east_prairie",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_b2",
+  layer = 0,
+  x = -8,
+  y = -16,
+  width = 16,
+  height = 800,
+  transition = "scrolling",
+  destination_map = "out/c3_east_prairie",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_d2",
+  layer = 0,
+  x = 944,
+  y = -16,
+  width = 16,
+  height = 800,
+  transition = "scrolling",
+  destination_map = "out/c3_east_prairie",
+  destination = "_side",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 512,
+  y = 717,
+  direction = 1,
 }
 
 tile{
