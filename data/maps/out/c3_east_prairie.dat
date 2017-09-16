@@ -8049,9 +8049,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
-  y = 704,
-  width = 64,
+  x = 280,
+  y = 696,
+  width = 48,
   height = 24,
   pattern = "3970",
 }
@@ -8159,7 +8159,7 @@ tile{
   layer = 0,
   x = 280,
   y = 512,
-  width = 96,
+  width = 80,
   height = 24,
   pattern = "3970",
 }
@@ -8247,8 +8247,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 352,
-  y = 704,
+  x = 368,
+  y = 696,
   width = 16,
   height = 24,
   pattern = "3970",
@@ -8284,7 +8284,7 @@ tile{
 tile{
   layer = 0,
   x = 368,
-  y = 552,
+  y = 536,
   width = 16,
   height = 24,
   pattern = "3970",
