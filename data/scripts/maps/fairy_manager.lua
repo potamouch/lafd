@@ -9,6 +9,8 @@ function fairy_manager:launch_fairy_if_hero_not_max_life(map, fairy_name, music_
     if life < max_life then
       local hero = map:get_hero()
       local fairy = map:get_entity(fairy_name)
+      game:set_suspended(true)
+      fairy:get_sprite():set_ignore_suspend(true)
       hero:set_direction(1)
       hero:freeze()
       fairy:set_visible(true)
@@ -144,6 +146,7 @@ function fairy_manager:get_life_and_disappear(map, fairy_name, hearts, music_nam
   sol.audio.play_sound("fairy_vanish")
   fairy:get_sprite():fade_out(100, function()
     hero:unfreeze()
+      game:set_suspended(false)
     sol.audio.play_music(music_name)
   end)
         
