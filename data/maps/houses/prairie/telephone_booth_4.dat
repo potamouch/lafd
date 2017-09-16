@@ -307,6 +307,16 @@ tile{
   pattern = "dresser.4a",
 }
 
+npc{
+  name = "phone",
+  layer = 0,
+  x = 184,
+  y = 173,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/phone",
+}
+
 destination{
   name = "telephone_booth_4_1_B",
   layer = 0,
@@ -387,15 +397,5 @@ tile{
   width = 176,
   height = 16,
   pattern = "ceiling.2",
-}
-
-npc{
-  name = "phone",
-  layer = 2,
-  x = 184,
-  y = 173,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/phone",
 }
 

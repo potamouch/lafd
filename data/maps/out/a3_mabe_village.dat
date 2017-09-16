@@ -17670,6 +17670,15 @@ destructible{
 
 tile{
   layer = 1,
+  x = 568,
+  y = 672,
+  width = 96,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 1,
   x = -24,
   y = 8,
   width = 144,
@@ -19579,15 +19588,6 @@ tile{
 tile{
   layer = 1,
   x = 568,
-  y = 672,
-  width = 96,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 568,
   y = 624,
   width = 96,
   height = 48,
@@ -19641,15 +19641,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 608,
-  y = 664,
-  width = 16,
-  height = 8,
-  pattern = "12375",
-}
-
-tile{
-  layer = 1,
   x = 624,
   y = 664,
   width = 16,
@@ -19673,15 +19664,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "12376",
-}
-
-tile{
-  layer = 1,
-  x = 608,
-  y = 664,
-  width = 16,
-  height = 8,
-  pattern = "2227",
 }
 
 tile{
@@ -20645,6 +20627,15 @@ tile{
   width = 48,
   height = 8,
   pattern = "1544",
+}
+
+tile{
+  layer = 1,
+  x = 608,
+  y = 664,
+  width = 16,
+  height = 8,
+  pattern = "2227",
 }
 
 npc{
