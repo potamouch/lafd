@@ -549,6 +549,14 @@ chest{
   sprite = "entities/chest",
 }
 
+chest{
+  layer = 0,
+  x = 168,
+  y = 157,
+  treasure_name = "pegasus_shoes",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,
