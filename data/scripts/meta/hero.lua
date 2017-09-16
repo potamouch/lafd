@@ -38,6 +38,20 @@ function hero_meta:on_position_changed(x, y, layer)
   end
 end
 
+function hero_meta:on_state_changed(state)
+
+  local hero = self
+  local game = hero:get_game()
+
+  -- Avoid to lose any life when drowning.
+  if state == "back to solid ground" then
+    local ground = hero:get_ground_below()
+    if ground == "deep_water" then
+      game:add_life(1)
+    end
+  end
+end
+
 -- Return true if the hero is walking.
 function hero_meta:is_walking()
 
