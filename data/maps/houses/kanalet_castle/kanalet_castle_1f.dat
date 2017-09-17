@@ -1208,6 +1208,32 @@ stairs{
   subtype = 4,
 }
 
+wall{
+  layer = 0,
+  x = 376,
+  y = 96,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 400,
+  y = 96,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 tile{
   layer = 1,
   x = 32,
@@ -1482,14 +1508,23 @@ tile{
   layer = 1,
   x = 168,
   y = 88,
-  width = 200,
+  width = 208,
   height = 8,
   pattern = "barrier.1-1",
 }
 
 tile{
   layer = 1,
-  x = 368,
+  x = 376,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 400,
   y = 88,
   width = 8,
   height = 8,
@@ -1500,16 +1535,7 @@ tile{
   layer = 1,
   x = 408,
   y = 88,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 88,
-  width = 56,
+  width = 64,
   height = 8,
   pattern = "barrier.1-1",
 }
@@ -1775,12 +1801,12 @@ tile{
   pattern = "torch_big.bottom",
 }
 
-stairs{
+destination{
+  name = "stairs_1_A",
   layer = 1,
-  x = 208,
-  y = 24,
-  direction = 1,
-  subtype = 0,
+  x = 216,
+  y = 37,
+  direction = 3,
 }
 
 teletransporter{
@@ -1794,12 +1820,12 @@ teletransporter{
   destination = "stairs_2_A",
 }
 
-destination{
-  name = "stairs_1_A",
+stairs{
   layer = 1,
-  x = 216,
-  y = 37,
-  direction = 3,
+  x = 208,
+  y = 24,
+  direction = 1,
+  subtype = 0,
 }
 
 tile{
@@ -1944,6 +1970,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "torch_big.top",
+}
+
+tile{
+  layer = 2,
+  x = 208,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_down.2-2",
 }
 
 separator{
