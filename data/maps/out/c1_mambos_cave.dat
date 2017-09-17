@@ -5682,7 +5682,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 24,
+  y = 56,
   width = 40,
   height = 16,
   pattern = "3977",
@@ -5691,7 +5691,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 56,
+  y = 24,
   width = 40,
   height = 16,
   pattern = "3974",
