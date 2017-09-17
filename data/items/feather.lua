@@ -10,7 +10,7 @@ local jump_duration = 600 -- Duration of jump in milliseconds.
 local max_height = 16 -- Height of jump in pixels.
 local max_distance = 31 -- Max distance of jump in pixels.
 local jumping_speed = math.floor(1000 * max_distance / jump_duration)
-local streams -- Nearby streams that are disabled during the jump
+local disabled_entities -- Nearby streams and teletransporters that are disabled during the jump
 
 function item:on_created()
   self:set_savegame_variable("possession_feather")
@@ -164,7 +164,7 @@ function item:start_custom_jump()
     -- Create ground effect.
     map:ground_collision(hero)
     
-    -- Enable nearby streams that were disabled during the jump.
+    -- Enable nearby streams and teletransporters that were disabled during the jump.
     item:enable_nearby_entities()
 
     -- Restore solid ground as soon as possible.
@@ -234,25 +234,29 @@ function item:enable_nearby_entities()
 end
 
 -- Make streams invisible and use a sprite on custom entities instead.
-local stream_meta = sol.main.get_metatable("stream")
-function stream_meta:on_created()
-  local map = self:get_map()
-  self:set_visible(false)
-  local sprite = self:get_sprite()
+local function entity_to_hide_on_created(entity)
+  local map = entity:get_map()
+  entity:set_visible(false)
+  local sprite = entity:get_sprite()
   if sprite then -- Create custom entity with sprite.
-    local x_st, y_st, layer_st = self:get_position()
-    local w_st, h_st = self:get_size()
+    local x, y, layer = entity:get_position()
+    local w, h = entity:get_size()
     local id = sprite:get_animation_set()
     local anim = sprite:get_animation()
     local dir = sprite:get_direction()
-    local prop = {x = x_st, y = y_st, layer = layer_st,
-      direction = dir, width = w_st, height = h_st, sprite = id}
+    local prop = {x = x, y = y, layer = layer,
+      direction = dir, width = w, height = h, sprite = id}
     local sprite_entity = map:create_custom_entity(prop)
-  end
-  -- Destroy sprite entity if the stream is destroyed.
-  function self:on_removed()
-    if sprite_entity and sprite_entity:exists() then
-      sprite_entity:remove()
-    end
+    -- Destroy the sprite entity if the entity is destroyed.
+    entity:register_event("on_removed", function(entity)
+      if sprite_entity and sprite_entity:exists() then
+        sprite_entity:remove()
+      end
+    end)
   end
 end
+
+local stream_meta = sol.main.get_metatable("stream")
+stream_meta:register_event("on_created", entity_to_hide_on_created)
+local teletransporter_meta = sol.main.get_metatable("teletransporter")
+teletransporter_meta:register_event("on_created", entity_to_hide_on_created)
