@@ -457,6 +457,7 @@ enemy{ id = "zol_green", description = "Zol green" }
 entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
+entity{ id = "hookable", description = "Hookable" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }
