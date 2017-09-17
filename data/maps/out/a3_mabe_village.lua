@@ -3,6 +3,7 @@
 -- Variables
 local map = ...
 local game = map:get_game()
+local marine_song = false
 
 -- Methods - Functions
 
@@ -11,7 +12,11 @@ function map:set_music()
   if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
-    sol.audio.play_music("maps/out/mabe_village")
+    if marine_song then
+      sol.audio.play_music("maps/out/song_of_marine")
+    else
+      sol.audio.play_music("maps/out/mabe_village")
+    end
   end
 
 end
@@ -29,7 +34,10 @@ end
 
 function map:talk_to_marine() 
 
-  game:start_dialog("maps.out.mabe_village.marine_1")
+  game:start_dialog("maps.out.mabe_village.marine_1", function()
+    marine_song = true
+    map:set_music()
+  end)
 
 end
 
@@ -52,7 +60,7 @@ function  map:talk_to_kids()
 
 end
 
-function map:get_alert_molblins()
+function map:get_alert_moblins()
 
   local hero = map:get_hero()
   hero:freeze()
@@ -118,14 +126,16 @@ end
 
 function marine:on_interaction()
 
+    if marine_song == false then
       map:talk_to_marine()
+    end
 
 end
 
 function moblins_start_1_sensor:on_activated()
 
   if map:get_game():get_value("main_quest_step") == 8 then
-    map:get_alert_molblins()
+    map:get_alert_moblins()
   end
 
 end
@@ -133,7 +143,7 @@ end
 function moblins_start_2_sensor:on_activated()
 
   if map:get_game():get_value("main_quest_step") == 8 then
-    map:get_alert_molblins()
+    map:get_alert_moblins()
   end
 
 end
@@ -154,5 +164,19 @@ function moblins_stop_2_sensor:on_activated()
     self:get_game():set_value("main_quest_step", 8)
     map:set_music()
   end
+
+end
+
+function marine_sensor_1:on_activated()
+
+    marine_song = false
+    map:set_music()
+
+end
+
+function marine_sensor_2:on_activated()
+
+    marine_song = false
+    map:set_music()
 
 end
