@@ -28,6 +28,76 @@ tile{
   pattern = "12429",
 }
 
+custom_entity{
+  layer = -1,
+  x = 120,
+  y = 37,
+  width = 16,
+  height = 32,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = -1,
+  x = 168,
+  y = 37,
+  width = 72,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = -1,
+  x = 192,
+  y = 53,
+  width = 48,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = -1,
+  x = 312,
+  y = 53,
+  width = 40,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = -1,
+  x = 336,
+  y = 37,
+  width = 40,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = -1,
+  x = 192,
+  y = 69,
+  width = 32,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = -1,
+  x = 344,
+  y = 21,
+  width = 32,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
 tile{
   layer = 0,
   x = 704,
@@ -5692,15 +5762,6 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 56,
-  width = 168,
-  height = 16,
-  pattern = "3977",
-}
-
-tile{
-  layer = 0,
-  x = 0,
   y = 24,
   width = 16,
   height = 16,
@@ -5799,9 +5860,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
+  x = 216,
   y = 56,
-  width = 208,
+  width = 200,
   height = 16,
   pattern = "3977",
 }
@@ -5878,6 +5939,51 @@ tile{
   pattern = "3976",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "3976",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "3980",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 40,
+  width = 24,
+  height = 16,
+  pattern = "3976",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 184,
+  height = 16,
+  pattern = "3977",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "3980",
+}
+
 teletransporter{
   name = "to_b1",
   layer = 0,
@@ -5911,6 +6017,66 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/c2_kanalet_castle",
   destination = "_side",
+}
+
+custom_entity{
+  layer = 0,
+  x = 16,
+  y = 29,
+  width = 64,
+  height = 24,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 264,
+  y = 29,
+  width = 32,
+  height = 24,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 424,
+  y = 13,
+  width = 16,
+  height = 24,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 424,
+  y = 69,
+  width = 16,
+  height = 24,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 408,
+  y = 53,
+  width = 16,
+  height = 24,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 53,
+  width = 16,
+  height = 24,
+  direction = 0,
+  model = "hookable",
 }
 
 tile{
