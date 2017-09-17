@@ -20568,7 +20568,7 @@ destination{
 teletransporter{
   name = "to_b1",
   layer = 0,
-  x = -16,
+  x = 0,
   y = -16,
   width = 960,
   height = 16,
