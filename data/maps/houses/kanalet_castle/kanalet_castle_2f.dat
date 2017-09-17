@@ -1352,6 +1352,60 @@ tile{
   pattern = "wall.corner.2-2",
 }
 
+destination{
+  name = "kanalet_castle_5_B",
+  layer = 0,
+  x = 160,
+  y = 485,
+  direction = 1,
+}
+
+teletransporter{
+  name = "kanalet_castle_6_B",
+  layer = 0,
+  x = 152,
+  y = 496,
+  width = 16,
+  height = 16,
+  destination_map = "out/c2_kanalet_castle",
+  destination = "kanalet_castle_6_A",
+}
+
+destination{
+  name = "kanalet_castle_3_B",
+  layer = 0,
+  x = 480,
+  y = 485,
+  direction = 1,
+}
+
+teletransporter{
+  name = "kanalet_castle_4_B",
+  layer = 0,
+  x = 472,
+  y = 496,
+  width = 16,
+  height = 16,
+  destination_map = "out/c2_kanalet_castle",
+  destination = "kanalet_castle_6_A",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 336,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = 0,
+  x = 160,
+  y = 112,
+  direction = 1,
+  subtype = 4,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -1809,6 +1863,33 @@ tile{
   width = 16,
   height = 24,
   pattern = "barrier_big.border.2-1",
+}
+
+stairs{
+  layer = 1,
+  x = 200,
+  y = 24,
+  direction = 1,
+  subtype = 1,
+}
+
+teletransporter{
+  name = "stairs_2_B",
+  layer = 1,
+  x = 200,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "houses/kanalet_castle/kanalet_castle_1f",
+  destination = "stairs_1_A",
+}
+
+destination{
+  name = "stairs_2_A",
+  layer = 1,
+  x = 208,
+  y = 37,
+  direction = 3,
 }
 
 tile{

@@ -1181,6 +1181,33 @@ tile{
   pattern = "torch_big.bottom",
 }
 
+destination{
+  name = "kanalet_castle_1_B",
+  layer = 0,
+  x = 464,
+  y = 485,
+  direction = 1,
+}
+
+teletransporter{
+  name = "kanalet_castle_2_B",
+  layer = 0,
+  x = 456,
+  y = 496,
+  width = 16,
+  height = 16,
+  destination_map = "out/c2_kanalet_castle",
+  destination = "kanalet_castle_2_A",
+}
+
+stairs{
+  layer = 0,
+  x = 384,
+  y = 104,
+  direction = 1,
+  subtype = 4,
+}
+
 tile{
   layer = 1,
   x = 32,
@@ -1748,6 +1775,33 @@ tile{
   pattern = "torch_big.bottom",
 }
 
+stairs{
+  layer = 1,
+  x = 208,
+  y = 24,
+  direction = 1,
+  subtype = 0,
+}
+
+teletransporter{
+  name = "stairs_1_B",
+  layer = 1,
+  x = 208,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "houses/kanalet_castle/kanalet_castle_2f",
+  destination = "stairs_2_A",
+}
+
+destination{
+  name = "stairs_1_A",
+  layer = 1,
+  x = 216,
+  y = 37,
+  direction = 3,
+}
+
 tile{
   layer = 2,
   x = 624,
@@ -1881,6 +1935,15 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = 2,
+  x = 592,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
 }
 
 separator{

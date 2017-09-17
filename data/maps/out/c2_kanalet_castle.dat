@@ -6535,6 +6535,25 @@ teletransporter{
   destination = "_side",
 }
 
+destination{
+  name = "kanalet_castle_2_A",
+  layer = 0,
+  x = 328,
+  y = 437,
+  direction = 3,
+}
+
+teletransporter{
+  name = "kanalet_castle_1_A",
+  layer = 0,
+  x = 320,
+  y = 400,
+  width = 16,
+  height = 16,
+  destination_map = "houses/kanalet_castle/kanalet_castle_1f",
+  destination = "kanalet_castle_1_B",
+}
+
 tile{
   layer = 1,
   x = 24,
@@ -7775,6 +7794,44 @@ tile{
   width = 48,
   height = 8,
   pattern = "1451",
+}
+
+destination{
+  name = "kanalet_castle_4_A",
+  layer = 1,
+  x = 328,
+  y = 285,
+  direction = 3,
+}
+
+teletransporter{
+  name = "kanalet_castle_3_A",
+  layer = 1,
+  x = 320,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "houses/kanalet_castle/kanalet_castle_2f",
+  destination = "kanalet_castle_3_B",
+}
+
+destination{
+  name = "kanalet_castle_6_A",
+  layer = 1,
+  x = 232,
+  y = 237,
+  direction = 3,
+}
+
+teletransporter{
+  name = "kanalet_castle_5_A",
+  layer = 1,
+  x = 224,
+  y = 200,
+  width = 16,
+  height = 16,
+  destination_map = "houses/kanalet_castle/kanalet_castle_2f",
+  destination = "kanalet_castle_5_B",
 }
 
 tile{
