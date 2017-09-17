@@ -960,6 +960,12 @@ function savegame_menu:validate_player_name()
   end
 
   sol.audio.play_sound("ok")
+  if self.player_name:lower() == "zelda" or self.player_name:lower() == "binbin" or self.player_name:lower() == "chris" then
+    sol.audio.play_music("scripts/menus/player_select_zelda")
+  end
+  if self.player_name:lower() == "moyse" then
+    sol.audio.play_music("scripts/menus/player_select_moyse")
+  end
 
   local savegame = self.slots[self.cursor_position].savegame
   savegame:set_value("player_name", self.player_name)

@@ -288,6 +288,7 @@ music{ id = "maps/out/sword_search", description = "Sword search" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
 music{ id = "scripts/menus/introduction", description = "Introduction" }
 music{ id = "scripts/menus/player_select", description = "Player select" }
+music{ id = "scripts/menus/player_select_moyse", description = "Player select Moyse" }
 music{ id = "scripts/menus/player_select_zelda", description = "Player select Zelda" }
 music{ id = "scripts/menus/title_screen", description = "Title screen" }
 music{ id = "scripts/meta/map/fairy_fountain", description = "Fairy fountain" }
