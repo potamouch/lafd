@@ -411,6 +411,7 @@ item{ id = "photos_counter", description = "Photos counter" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "power_bracelet", description = "Power bracelet" }
 item{ id = "quiver", description = "Quiver" }
+item{ id = "random", description = "Random" }
 item{ id = "rupee", description = "Rupee" }
 item{ id = "rupee_bag", description = "Ruppe bag" }
 item{ id = "sea_lilys_bell", description = "Sea lily's bell" }
