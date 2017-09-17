@@ -2,7 +2,6 @@ local item = ...
 
 require("scripts/multi_events")
 require("scripts/ground_effects")
-require("scripts/meta/custom_teleporter.lua")
 local hero_meta = sol.main.get_metatable("hero")
 
 -- Initialize parameters for custom jump.
@@ -141,8 +140,8 @@ function item:start_custom_jump()
     return true
   end)
 
-  -- Disable nearby streams during the jump.
-  item:disable_nearby_streams()
+  -- Disable nearby streams and teletransporters during the jump.
+  item:disable_nearby_entities()
   
   -- Finish the jump.
   sol.timer.start(item, jump_duration, function()
@@ -166,7 +165,7 @@ function item:start_custom_jump()
     map:ground_collision(hero)
     
     -- Enable nearby streams that were disabled during the jump.
-    item:enable_nearby_streams()
+    item:enable_nearby_entities()
 
     -- Restore solid ground as soon as possible.
     sol.timer.start(map, 1, function()
@@ -204,28 +203,34 @@ function item:create_ground_effect(x, y, layer)
   end
 end
 
--- Disable nearby streams during the jump, allowing to jump over them.
-function item:disable_nearby_streams()
+-- Disable nearby streams and teletransporters during the jump, allowing to jump over them.
+function item:disable_nearby_entities()
   local map = item:get_map()
   local hero = map:get_hero()
   local hx, hy = hero:get_position()
   -- Get rectangle coordinates and disable streams on it.
   local x, y = hx - max_distance, hy - max_distance
-  local w, h = 24 + 2*max_distance, 24 + 2*max_distance
-  streams = {}
-  for st in map:get_entities_in_rectangle(x, y, w, h) do
-    if st:get_type() == "stream" then
-      streams[#streams + 1] = st
-      st:set_enabled(false) -- Disable stream.
+  local w, h = 24 + 2 * max_distance, 24 + 2 * max_distance
+  disabled_entities = {}
+  for entity in map:get_entities_in_rectangle(x, y, w, h) do
+    if entity:is_enabled() then
+      if entity:get_type() == "stream" or
+          entity:get_type() == "teletransporter" then
+        disabled_entities[#disabled_entities + 1] = entity
+        entity:set_enabled(false)
+      end
     end
   end
 end
+
 -- Enable nearby streams that were disabled during the jump.
-function item:enable_nearby_streams()
-  for _, st in pairs(streams) do
-    if st:exists() then st:set_enabled(true) end
+function item:enable_nearby_entities()
+  for _, entity in pairs(disabled_entities) do
+    if entity:exists() then
+      entity:set_enabled(true)
+    end
   end
-  streams = nil -- Clear list.
+  disabled_entities = nil -- Clear list.
 end
 
 -- Make streams invisible and use a sprite on custom entities instead.
