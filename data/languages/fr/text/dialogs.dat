@@ -2475,8 +2475,8 @@ dialog{
   id = "maps.out.south_mabe_village.sign_1",
   skip = "all",
   text = [[
-> Cave Flagello 
-v Plage Coco
+Est : Cave Flagello 
+Sud : Plage Coco
 ]]
 }
 
@@ -2502,7 +2502,7 @@ dialog{
   id = "maps.out.south_prairie.sign_2",
   text = [[
 Château Canulet 
-10 min. > ^
+10 min. Est, puis Nord
 ]]
 }
 
