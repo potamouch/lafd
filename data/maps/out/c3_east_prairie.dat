@@ -9489,15 +9489,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 944,
-  y = 752,
-  width = 16,
-  height = 16,
-  pattern = "963",
-}
-
-tile{
-  layer = 0,
   x = 576,
   y = 136,
   width = 96,
@@ -9953,6 +9944,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "728",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "964",
 }
 
 destructible{
