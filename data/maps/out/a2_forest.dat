@@ -9328,7 +9328,7 @@ destination{
 }
 
 teletransporter{
-  name = "forest_cave__1_1_A",
+  name = "forest_cave_1_1_A",
   layer = 0,
   x = 632,
   y = 464,
@@ -11484,6 +11484,41 @@ enemy{
   y = 501,
   direction = 3,
   breed = "moblin",
+}
+
+destination{
+  name = "forest_cave_2_2_A",
+  layer = 0,
+  x = 584,
+  y = 109,
+  direction = 3,
+}
+
+teletransporter{
+  name = "forest_cave_2_1_A",
+  layer = 0,
+  x = 576,
+  y = 80,
+  width = 16,
+  height = 16,
+  destination_map = "caves/forest/cave_2",
+  destination = "forest_cave_2_1_B",
+}
+
+chest{
+  layer = 0,
+  x = 560,
+  y = 165,
+  treasure_name = "power_bracelet",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 576,
+  y = 165,
+  treasure_name = "hookshot",
+  sprite = "entities/chest",
 }
 
 tile{

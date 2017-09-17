@@ -10205,14 +10205,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 344,
-  y = 181,
-  direction = 0,
-  breed = "octorok",
-}
-
-enemy{
-  layer = 0,
   x = 176,
   y = 221,
   direction = 0,
@@ -10269,24 +10261,8 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 600,
-  y = 61,
-  direction = 0,
-  breed = "octorok",
-}
-
-enemy{
-  layer = 0,
   x = 832,
   y = 69,
-  direction = 0,
-  breed = "octorok",
-}
-
-enemy{
-  layer = 0,
-  x = 880,
-  y = 101,
   direction = 0,
   breed = "octorok",
 }
@@ -10641,6 +10617,39 @@ destructible{
   layer = 0,
   x = 776,
   y = 477,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 864,
+  y = 117,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 832,
+  y = 85,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 85,
   treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
