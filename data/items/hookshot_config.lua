@@ -4,7 +4,7 @@
 local config = {
 
   -- Range of the hookshot in pixels.
-  distance = 220,
+  distance = 160,
 
   -- Speed in pixels per second.
   speed = 256,
