@@ -7940,6 +7940,30 @@ npc{
   behavior = "dialog#maps.out.mabe_village.sign_1",
 }
 
+teletransporter{
+  name = "to_d3",
+  layer = 0,
+  x = 0,
+  y = -8,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3_mask_shrine",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_c4",
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/c4_martha_bay",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 400,

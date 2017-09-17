@@ -9,3 +9,27 @@ properties{
   tileset = "out/outside",
 }
 
+teletransporter{
+  name = "to_d2",
+  layer = 0,
+  x = 0,
+  y = 768,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d2_rafting",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_c1",
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/c1_mambos_cave",
+  destination = "_side",
+}
+

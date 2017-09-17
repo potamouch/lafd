@@ -10417,6 +10417,30 @@ custom_entity{
   sprite = "entities/items",
 }
 
+teletransporter{
+  name = "to_c3",
+  layer = 0,
+  x = 0,
+  y = 768,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3_east_prairie",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_d3",
+  layer = 0,
+  x = 960,
+  y = 0,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/d3_mask_shrine",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 432,

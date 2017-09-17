@@ -1200,6 +1200,42 @@ separator{
   height = 768,
 }
 
+teletransporter{
+  name = "to_d1",
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d1_east_mt_tamaranch",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_d3",
+  layer = 0,
+  x = 0,
+  y = 768,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3_mask_shrine",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_c2",
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/c2_kanalet_castle",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 392,

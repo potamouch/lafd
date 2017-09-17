@@ -14934,28 +14934,10 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
-  y = 704,
-  width = 32,
-  height = 16,
-  pattern = "1037",
-}
-
-tile{
-  layer = 0,
   x = 392,
   y = 736,
   width = 16,
   height = 32,
-  pattern = "1037",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 688,
-  width = 32,
-  height = 16,
   pattern = "1037",
 }
 
@@ -14981,15 +14963,6 @@ tile{
   layer = 0,
   x = 376,
   y = 720,
-  width = 16,
-  height = 16,
-  pattern = "1037",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 712,
   width = 16,
   height = 16,
   pattern = "1037",
@@ -18192,51 +18165,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
-  y = 688,
-  width = 8,
-  height = 8,
-  pattern = "103",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 688,
-  width = 8,
-  height = 8,
-  pattern = "102",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 728,
-  width = 8,
-  height = 8,
-  pattern = "103",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 704,
-  width = 8,
-  height = 8,
-  pattern = "104",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 704,
-  width = 8,
-  height = 8,
-  pattern = "105",
-}
-
-tile{
-  layer = 0,
   x = 440,
   y = 696,
   width = 8,
@@ -18647,7 +18575,7 @@ teletransporter{
   layer = 0,
   x = 0,
   y = 768,
-  width = 976,
+  width = 960,
   height = 16,
   transition = "scrolling",
   destination_map = "out/b3_prairie",
@@ -20527,61 +20455,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 416,
-  y = 725,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 384,
-  y = 701,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 384,
-  y = 717,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 368,
-  y = 717,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 400,
-  y = 749,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
   x = 400,
   y = 765,
   sprite = "entities/grass",
@@ -20639,17 +20512,6 @@ destructible{
   layer = 0,
   x = 432,
   y = 709,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 400,
-  y = 701,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -20719,12 +20581,23 @@ teletransporter{
   name = "to_a2",
   layer = 0,
   x = -16,
-  y = -16,
+  y = 0,
   width = 16,
-  height = 800,
+  height = 768,
   transition = "scrolling",
   destination_map = "out/a2_forest",
   destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 400,
+  y = 749,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
 }
 
 tile{

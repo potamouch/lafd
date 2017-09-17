@@ -464,6 +464,42 @@ separator{
   height = 16,
 }
 
+teletransporter{
+  name = "to_c3",
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 960,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3_east_prairie",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_b4",
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/b4_south_prairie",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "to_d4",
+  layer = 0,
+  x = 960,
+  y = 0,
+  width = 16,
+  height = 768,
+  transition = "scrolling",
+  destination_map = "out/d4_yarna_desert",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 136,

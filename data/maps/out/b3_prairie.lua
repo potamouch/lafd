@@ -11,7 +11,7 @@ function map:set_music()
   if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
-    sol.audio.play_music("maps/out/mabe_village")
+    sol.audio.play_music("maps/out/overworld")
   end
 
 end

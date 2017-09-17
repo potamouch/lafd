@@ -30,10 +30,10 @@ tile{
 
 tile{
   layer = 0,
-  x = -8,
+  x = 8,
   y = 728,
-  width = 976,
-  height = 64,
+  width = 960,
+  height = 40,
   pattern = "111",
 }
 
@@ -10289,9 +10289,9 @@ teletransporter{
   name = "to_b4",
   layer = 0,
   x = 960,
-  y = -32,
+  y = 0,
   width = 16,
-  height = 800,
+  height = 768,
   transition = "scrolling",
   destination_map = "out/b4_south_prairie",
   destination = "_side",
