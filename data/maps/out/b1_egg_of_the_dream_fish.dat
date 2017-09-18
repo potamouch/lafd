@@ -15540,6 +15540,25 @@ jumper{
   jump_length = 56,
 }
 
+destination{
+  name = "moblin_cave_2_A",
+  layer = 0,
+  x = 432,
+  y = 645,
+  direction = 3,
+}
+
+teletransporter{
+  name = "moblin_cave_1_A",
+  layer = 0,
+  x = 424,
+  y = 616,
+  width = 16,
+  height = 16,
+  destination_map = "caves/egg_of_the_dream_fish/moblins_cave",
+  destination = "moblin_cave_1_B",
+}
+
 tile{
   layer = 1,
   x = 712,
