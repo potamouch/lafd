@@ -158,6 +158,7 @@ sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake brown" }
 sprite{ id = "entities/hammer_stake_green", description = "Hammer stake green" }
 sprite{ id = "entities/hammer_stake_yellow", description = "Hammer stake yellow" }
 sprite{ id = "entities/hint_stone", description = "Hint stone" }
+sprite{ id = "entities/hook", description = "Hook" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/la_beach/la_background", description = "entities/la_beach/la_background" }

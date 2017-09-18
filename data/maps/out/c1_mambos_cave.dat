@@ -28,76 +28,6 @@ tile{
   pattern = "12429",
 }
 
-custom_entity{
-  layer = -1,
-  x = 120,
-  y = 37,
-  width = 16,
-  height = 32,
-  direction = 0,
-  model = "hole",
-}
-
-custom_entity{
-  layer = -1,
-  x = 168,
-  y = 37,
-  width = 72,
-  height = 16,
-  direction = 0,
-  model = "hole",
-}
-
-custom_entity{
-  layer = -1,
-  x = 192,
-  y = 53,
-  width = 48,
-  height = 16,
-  direction = 0,
-  model = "hole",
-}
-
-custom_entity{
-  layer = -1,
-  x = 312,
-  y = 53,
-  width = 40,
-  height = 16,
-  direction = 0,
-  model = "hole",
-}
-
-custom_entity{
-  layer = -1,
-  x = 336,
-  y = 37,
-  width = 40,
-  height = 16,
-  direction = 0,
-  model = "hole",
-}
-
-custom_entity{
-  layer = -1,
-  x = 192,
-  y = 69,
-  width = 32,
-  height = 16,
-  direction = 0,
-  model = "hole",
-}
-
-custom_entity{
-  layer = -1,
-  x = 344,
-  y = 21,
-  width = 32,
-  height = 16,
-  direction = 0,
-  model = "hole",
-}
-
 tile{
   layer = 0,
   x = 704,
@@ -5815,24 +5745,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 0,
-  width = 16,
-  height = 24,
-  pattern = "3980",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 16,
-  width = 64,
-  height = 24,
-  pattern = "3980",
-}
-
-tile{
-  layer = 0,
   x = 96,
   y = 24,
   width = 16,
@@ -5860,38 +5772,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
-  y = 56,
-  width = 200,
-  height = 16,
-  pattern = "3977",
-}
-
-tile{
-  layer = 0,
   x = 368,
   y = 24,
   width = 48,
   height = 32,
   pattern = "3976",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 0,
-  width = 16,
-  height = 24,
-  pattern = "3980",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 56,
-  width = 16,
-  height = 24,
-  pattern = "3980",
 }
 
 tile{
@@ -5914,24 +5799,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
-  y = 16,
-  width = 16,
-  height = 24,
-  pattern = "3980",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 16,
-  width = 16,
-  height = 24,
-  pattern = "3980",
-}
-
-tile{
-  layer = 0,
   x = 304,
   y = 24,
   width = 24,
@@ -5950,20 +5817,20 @@ tile{
 
 tile{
   layer = 0,
-  x = 128,
-  y = 40,
-  width = 16,
-  height = 24,
-  pattern = "3980",
-}
-
-tile{
-  layer = 0,
   x = 160,
   y = 40,
   width = 24,
   height = 16,
   pattern = "3976",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "3980",
 }
 
 tile{
@@ -5982,6 +5849,15 @@ tile{
   width = 16,
   height = 24,
   pattern = "3980",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 56,
+  width = 200,
+  height = 16,
+  pattern = "3977",
 }
 
 teletransporter{
@@ -6021,11 +5897,104 @@ teletransporter{
 
 custom_entity{
   layer = 0,
-  x = 16,
+  x = 24,
   y = 29,
-  width = 64,
+  width = 16,
   height = 24,
   direction = 0,
+  sprite = "entities/hook",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = 13,
+  width = 16,
+  height = 24,
+  direction = 0,
+  sprite = "entities/hook",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 37,
+  width = 16,
+  height = 32,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 168,
+  y = 37,
+  width = 72,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 192,
+  y = 53,
+  width = 48,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 312,
+  y = 53,
+  width = 40,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 336,
+  y = 37,
+  width = 40,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 192,
+  y = 69,
+  width = 32,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 21,
+  width = 32,
+  height = 16,
+  direction = 0,
+  model = "hole",
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 29,
+  width = 16,
+  height = 24,
+  direction = 0,
+  sprite = "entities/hook",
   model = "hookable",
 }
 
@@ -6033,9 +6002,10 @@ custom_entity{
   layer = 0,
   x = 264,
   y = 29,
-  width = 32,
+  width = 16,
   height = 24,
   direction = 0,
+  sprite = "entities/hook",
   model = "hookable",
 }
 
@@ -6046,6 +6016,7 @@ custom_entity{
   width = 16,
   height = 24,
   direction = 0,
+  sprite = "entities/hook",
   model = "hookable",
 }
 
@@ -6056,6 +6027,7 @@ custom_entity{
   width = 16,
   height = 24,
   direction = 0,
+  sprite = "entities/hook",
   model = "hookable",
 }
 
