@@ -15422,16 +15422,6 @@ destructible{
 npc{
   layer = 0,
   x = 552,
-  y = 645,
-  direction = 3,
-  subtype = 0,
-  sprite = "entities/sign",
-  behavior = "dialog#",
-}
-
-npc{
-  layer = 0,
-  x = 552,
   y = 293,
   direction = 3,
   subtype = 0,
@@ -15557,6 +15547,27 @@ teletransporter{
   height = 16,
   destination_map = "caves/egg_of_the_dream_fish/moblins_cave",
   destination = "moblins_cave_1_B",
+}
+
+chest{
+  name = "forest_chest_2",
+  layer = 0,
+  x = 48,
+  y = 573,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "egg_of_the_dream_fish_chest_1",
+  sprite = "entities/chest",
+}
+
+npc{
+  layer = 0,
+  x = 552,
+  y = 645,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#maps.out.egg_of_the_dream_fish.sign_1",
 }
 
 tile{

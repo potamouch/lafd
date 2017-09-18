@@ -2163,6 +2163,16 @@ Salut ! CLIC !
 }
 
 dialog{
+  id = "maps.out.egg_of_the_dream_fish.sign_1",
+  text = [[
+Tu es près du Plateau 
+Tartare.
+Le photographe n'est
+pas loin.
+]]
+}
+
+dialog{
   id = "maps.out.forest.raccoon",
   text = [[
 J'suis un raton-laveur 
@@ -2503,6 +2513,22 @@ dialog{
   text = [[
 Château Canulet 
 10 min. Est, puis Nord
+]]
+}
+
+dialog{
+  id = "maps.out.west_mt_tamaranch.sign_1",
+  text = [[
+Accès interdit! 
+(sauf Toutou)
+]]
+}
+
+dialog{
+  id = "maps.out.west_mt_tamaranch.sign_2",
+  text = [[
+Est : Mrs Anémones  
+Sud : Forêt Enchantée
 ]]
 }
 
