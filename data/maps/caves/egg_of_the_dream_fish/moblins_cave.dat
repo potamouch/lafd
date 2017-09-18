@@ -2640,7 +2640,7 @@ block{
 }
 
 destination{
-  name = "moblin_cave_1_B",
+  name = "moblins_cave_1_B",
   layer = 0,
   x = 160,
   y = 485,
@@ -2648,14 +2648,14 @@ destination{
 }
 
 teletransporter{
-  name = "moblin_cave_2_B",
+  name = "moblins_cave_2_B",
   layer = 0,
   x = 152,
   y = 496,
   width = 16,
   height = 16,
   destination_map = "out/b1_egg_of_the_dream_fish",
-  destination = "moblin_cave_2_A",
+  destination = "moblins_cave_2_A",
 }
 
 tile{

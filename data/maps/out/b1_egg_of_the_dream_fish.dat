@@ -15541,7 +15541,7 @@ jumper{
 }
 
 destination{
-  name = "moblin_cave_2_A",
+  name = "moblins_cave_2_A",
   layer = 0,
   x = 432,
   y = 645,
@@ -15549,14 +15549,14 @@ destination{
 }
 
 teletransporter{
-  name = "moblin_cave_1_A",
+  name = "moblins_cave_1_A",
   layer = 0,
   x = 424,
   y = 616,
   width = 16,
   height = 16,
   destination_map = "caves/egg_of_the_dream_fish/moblins_cave",
-  destination = "moblin_cave_1_B",
+  destination = "moblins_cave_1_B",
 }
 
 tile{
