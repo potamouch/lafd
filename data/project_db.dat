@@ -42,6 +42,7 @@ map{ id = "houses/mabe_village/library", description = "Library" }
 map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
 map{ id = "houses/mabe_village/ocarina_house", description = "Ocarina house" }
+map{ id = "houses/mabe_village/ocarina_house_dream", description = "Ocarina house (dream)" }
 map{ id = "houses/mabe_village/old_man_house", description = "Old man house" }
 map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets house" }
 map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
