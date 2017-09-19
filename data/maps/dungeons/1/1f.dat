@@ -12885,6 +12885,22 @@ custom_entity{
   direction = 0,
 }
 
+destination{
+  name = "dungeon_1_1_B",
+  layer = 0,
+  x = 1120,
+  y = 1509,
+  direction = 1,
+}
+
+destination{
+  name = "stairs_3_B",
+  layer = 0,
+  x = 160,
+  y = 1133,
+  direction = 1,
+}
+
 tile{
   layer = 1,
   x = 1576,
@@ -13840,14 +13856,6 @@ tile{
 }
 
 destination{
-  name = "dungeon_1_1_B",
-  layer = 1,
-  x = 1120,
-  y = 1501,
-  direction = 1,
-}
-
-destination{
   name = "stairs_1_B",
   layer = 1,
   x = 584,
@@ -13861,14 +13869,6 @@ destination{
   x = 2112,
   y = 613,
   direction = 2,
-}
-
-destination{
-  name = "stairs_3_B",
-  layer = 1,
-  x = 160,
-  y = 1141,
-  direction = 1,
 }
 
 chest{

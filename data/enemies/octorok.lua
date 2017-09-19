@@ -10,8 +10,8 @@ local distance_max = 100
 
 function enemy:on_created()
 
-  enemy:set_life(3)
-  enemy:set_damage(2)
+  enemy:set_life(1)
+  enemy:set_damage(1)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 
 end
