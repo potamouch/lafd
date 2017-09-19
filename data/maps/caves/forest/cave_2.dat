@@ -21,11 +21,29 @@ tile{
 
 tile{
   layer = 0,
+  x = 232,
+  y = 88,
+  width = 48,
+  height = 80,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
   x = 176,
   y = 88,
   width = 56,
   height = 96,
   pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 88,
+  width = 16,
+  height = 80,
+  pattern = "wall_hole.4-1",
 }
 
 tile{
@@ -186,7 +204,7 @@ tile{
   x = 272,
   y = 40,
   width = 8,
-  height = 64,
+  height = 48,
   pattern = "wall_border.4-3",
 }
 
@@ -246,15 +264,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
-  y = 88,
-  width = 48,
-  height = 80,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
   x = 40,
   y = 200,
   width = 16,
@@ -278,15 +287,6 @@ tile{
   width = 64,
   height = 16,
   pattern = "wall_hole.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 264,
-  y = 88,
-  width = 16,
-  height = 80,
-  pattern = "wall_hole.3-1",
 }
 
 tile{

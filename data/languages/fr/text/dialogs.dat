@@ -1374,8 +1374,10 @@ mixture !!
 dialog{
   id = "maps.houses.graveyard.witch_house.witch_3",
   text = [[
-Ça y est ! Tout est prêt !  
-Attention, il y en a peu !  
+Ça y est ! 
+Tout est prêt !  
+Attention, il y en a 
+peu !  
 Veux-tu la tester ici ?
 ]]
 }
