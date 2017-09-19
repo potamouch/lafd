@@ -3649,7 +3649,7 @@ tile{
 tile{
   layer = 0,
   x = 352,
-  y = 256,
+  y = 240,
   width = 16,
   height = 16,
   pattern = "1041",
@@ -3666,8 +3666,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 568,
-  y = 248,
+  x = 304,
+  y = 240,
   width = 16,
   height = 16,
   pattern = "1041",
@@ -3675,7 +3675,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 568,
+  x = 304,
   y = 288,
   width = 16,
   height = 16,
@@ -3684,16 +3684,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 616,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "1041",
-}
-
-tile{
-  layer = 0,
-  x = 616,
+  x = 352,
   y = 288,
   width = 16,
   height = 16,
@@ -4739,15 +4730,6 @@ tile{
   layer = 0,
   x = 376,
   y = 88,
-  width = 8,
-  height = 8,
-  pattern = "84",
-}
-
-tile{
-  layer = 0,
-  x = 344,
-  y = 240,
   width = 8,
   height = 8,
   pattern = "84",
@@ -9049,7 +9031,7 @@ tile{
 tile{
   layer = 0,
   x = 544,
-  y = 264,
+  y = 272,
   width = 16,
   height = 16,
   pattern = "1111",
@@ -9058,7 +9040,7 @@ tile{
 tile{
   layer = 0,
   x = 592,
-  y = 264,
+  y = 256,
   width = 16,
   height = 16,
   pattern = "1111",
@@ -9075,8 +9057,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 632,
-  y = 264,
+  x = 624,
+  y = 256,
   width = 16,
   height = 16,
   pattern = "1111",
@@ -9102,7 +9084,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 472,
+  x = 480,
   y = 288,
   width = 16,
   height = 16,
@@ -9122,24 +9104,6 @@ tile{
   layer = 0,
   x = 312,
   y = 320,
-  width = 16,
-  height = 16,
-  pattern = "1111",
-}
-
-tile{
-  layer = 0,
-  x = 312,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "1111",
-}
-
-tile{
-  layer = 0,
-  x = 312,
-  y = 240,
   width = 16,
   height = 16,
   pattern = "1111",
@@ -10890,26 +10854,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 320,
-  y = 253,
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 320,
-  y = 293,
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
   x = 424,
   y = 301,
   sprite = "entities/bush",
@@ -10930,7 +10874,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 480,
+  x = 488,
   y = 301,
   sprite = "entities/bush",
   destruction_sound = "bush",
@@ -10941,7 +10885,7 @@ destructible{
 destructible{
   layer = 0,
   x = 600,
-  y = 277,
+  y = 269,
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -10961,7 +10905,7 @@ destructible{
 destructible{
   layer = 0,
   x = 552,
-  y = 277,
+  y = 285,
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -10970,8 +10914,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 640,
-  y = 277,
+  x = 632,
+  y = 269,
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,

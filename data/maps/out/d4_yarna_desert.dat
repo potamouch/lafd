@@ -31,7 +31,7 @@ tile{
 tile{
   layer = 0,
   x = 480,
-  y = 0,
+  y = 8,
   width = 448,
   height = 688,
   pattern = "3983",
@@ -120,7 +120,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
+  x = 400,
   y = 680,
   width = 8,
   height = 8,
@@ -300,7 +300,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 400,
   width = 8,
   height = 320,
@@ -309,7 +309,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 48,
   y = 432,
   width = 16,
   height = 288,
@@ -318,7 +318,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 384,
   width = 16,
   height = 16,
@@ -327,7 +327,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 72,
   y = 400,
   width = 8,
   height = 320,
@@ -336,7 +336,7 @@ tile{
 
 tile{
   layer = 0,
-  x = -88,
+  x = -80,
   y = 392,
   width = 144,
   height = 8,
@@ -345,7 +345,7 @@ tile{
 
 tile{
   layer = 0,
-  x = -88,
+  x = -80,
   y = 384,
   width = 144,
   height = 8,
@@ -354,7 +354,7 @@ tile{
 
 tile{
   layer = 0,
-  x = -72,
+  x = -64,
   y = 376,
   width = 128,
   height = 8,
@@ -363,7 +363,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 48,
   y = 400,
   width = 16,
   height = 32,
@@ -372,7 +372,7 @@ tile{
 
 tile{
   layer = 0,
-  x = -72,
+  x = -64,
   y = 400,
   width = 112,
   height = 16,
@@ -381,7 +381,7 @@ tile{
 
 tile{
   layer = 0,
-  x = -72,
+  x = -64,
   y = 416,
   width = 112,
   height = 16,
@@ -471,7 +471,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
+  x = 768,
   y = 656,
   width = 16,
   height = 16,
@@ -651,7 +651,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 424,
+  x = 432,
   y = 688,
   width = 336,
   height = 16,
@@ -660,7 +660,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 424,
+  x = 432,
   y = 672,
   width = 336,
   height = 16,
@@ -669,7 +669,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 424,
+  x = 432,
   y = 648,
   width = 336,
   height = 8,
@@ -678,7 +678,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 424,
+  x = 432,
   y = 656,
   width = 336,
   height = 8,
@@ -687,7 +687,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 424,
+  x = 432,
   y = 664,
   width = 336,
   height = 8,
@@ -822,7 +822,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 672,
+  x = 680,
   y = 640,
   width = 96,
   height = 8,
@@ -1326,7 +1326,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
+  x = 768,
   y = 640,
   width = 16,
   height = 16,
@@ -1335,7 +1335,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
+  x = 768,
   y = 672,
   width = 16,
   height = 16,
@@ -1344,7 +1344,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
+  x = 768,
   y = 656,
   width = 16,
   height = 16,
@@ -1353,7 +1353,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
+  x = 768,
   y = 688,
   width = 16,
   height = 16,
@@ -1362,7 +1362,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 784,
   y = 632,
   width = 8,
   height = 8,
@@ -1371,7 +1371,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 768,
+  x = 776,
   y = 632,
   width = 8,
   height = 8,
@@ -3333,7 +3333,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 80,
   y = 728,
   width = 288,
   height = 8,
@@ -3342,7 +3342,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 80,
   y = 720,
   width = 288,
   height = 8,
@@ -3351,7 +3351,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 80,
   y = 712,
   width = 288,
   height = 8,
@@ -3360,7 +3360,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 80,
   y = 736,
   width = 288,
   height = 16,
@@ -3369,7 +3369,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 80,
   y = 752,
   width = 288,
   height = 16,
@@ -3378,7 +3378,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 752,
   width = 16,
   height = 16,
@@ -3387,7 +3387,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 736,
   width = 16,
   height = 16,
@@ -3396,7 +3396,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 720,
   width = 16,
   height = 16,
@@ -3405,7 +3405,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 48,
   y = 736,
   width = 16,
   height = 16,
@@ -3414,7 +3414,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 48,
   y = 720,
   width = 16,
   height = 16,
@@ -3423,7 +3423,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
+  x = 368,
   y = 752,
   width = 16,
   height = 16,
@@ -3432,7 +3432,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
+  x = 368,
   y = 736,
   width = 16,
   height = 16,
@@ -3441,7 +3441,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
+  x = 368,
   y = 720,
   width = 16,
   height = 16,
@@ -3450,7 +3450,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
+  x = 368,
   y = 704,
   width = 16,
   height = 16,
@@ -3459,7 +3459,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
+  x = 384,
   y = 736,
   width = 16,
   height = 16,
@@ -3468,7 +3468,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
+  x = 384,
   y = 720,
   width = 16,
   height = 16,
@@ -3477,7 +3477,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
+  x = 384,
   y = 704,
   width = 16,
   height = 16,
@@ -3486,7 +3486,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
+  x = 384,
   y = 688,
   width = 16,
   height = 16,
@@ -3495,7 +3495,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
+  x = 400,
   y = 720,
   width = 16,
   height = 16,
@@ -3504,7 +3504,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
+  x = 400,
   y = 704,
   width = 16,
   height = 16,
@@ -3513,7 +3513,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
+  x = 400,
   y = 688,
   width = 16,
   height = 16,
@@ -3522,7 +3522,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
+  x = 400,
   y = 672,
   width = 16,
   height = 16,
@@ -3531,7 +3531,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 416,
   y = 704,
   width = 16,
   height = 16,
@@ -3540,7 +3540,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 416,
   y = 688,
   width = 16,
   height = 16,
@@ -3549,7 +3549,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 416,
   y = 672,
   width = 16,
   height = 16,
@@ -3558,7 +3558,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 416,
   y = 656,
   width = 16,
   height = 16,
@@ -4233,7 +4233,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 408,
   y = 624,
   width = 8,
   height = 8,
@@ -4254,15 +4254,6 @@ tile{
   x = 88,
   y = 672,
   width = 48,
-  height = 32,
-  pattern = "1111",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 688,
-  width = 16,
   height = 32,
   pattern = "1111",
 }
@@ -4863,7 +4854,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 408,
   y = 664,
   width = 8,
   height = 8,
@@ -4872,7 +4863,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 416,
+  x = 424,
   y = 648,
   width = 8,
   height = 8,
@@ -4881,7 +4872,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
+  x = 392,
   y = 680,
   width = 8,
   height = 8,
@@ -4890,7 +4881,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 376,
   y = 696,
   width = 8,
   height = 8,
@@ -4899,7 +4890,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 784,
   y = 640,
   width = 8,
   height = 8,
@@ -4908,7 +4899,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 784,
   y = 664,
   width = 8,
   height = 8,
@@ -4917,7 +4908,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 784,
   y = 648,
   width = 8,
   height = 8,
@@ -4926,7 +4917,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 784,
   y = 656,
   width = 8,
   height = 8,
@@ -4998,24 +4989,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 648,
-  width = 40,
-  height = 8,
-  pattern = "123",
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 656,
-  width = 8,
-  height = 64,
-  pattern = "125",
-}
-
-tile{
-  layer = 0,
   x = 216,
   y = 656,
   width = 104,
@@ -5037,15 +5010,6 @@ tile{
   x = 112,
   y = 704,
   width = 96,
-  height = 8,
-  pattern = "119",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 720,
-  width = 16,
   height = 8,
   pattern = "119",
 }
@@ -5106,7 +5070,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 720,
   width = 8,
   height = 8,
@@ -8355,16 +8319,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 80,
-  y = 701,
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
   x = 160,
   y = 653,
   sprite = "entities/bush",
@@ -8578,16 +8532,6 @@ destructible{
   can_be_cut = true,
 }
 
-destructible{
-  layer = 0,
-  x = 80,
-  y = 717,
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
 npc{
   layer = 0,
   x = 304,
@@ -8680,14 +8624,6 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
-}
-
-separator{
-  layer = 0,
-  x = -8,
-  y = 432,
-  width = 512,
-  height = 16,
 }
 
 separator{
