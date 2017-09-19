@@ -361,6 +361,10 @@ sound{ id = "secret_2", description = "Secret 2" }
 sound{ id = "shield_brandish", description = "Shield brandish" }
 sound{ id = "solarus_logo", description = "Solarus logo" }
 sound{ id = "splash", description = "Splash" }
+sound{ id = "stairs_down_end", description = "Stairs down end" }
+sound{ id = "stairs_down_start", description = "Stairs down end" }
+sound{ id = "stairs_up_end", description = "Stairs up end" }
+sound{ id = "stairs_up_start", description = "Stairs up start" }
 sound{ id = "stone", description = "Stone" }
 sound{ id = "switch", description = "Switch" }
 sound{ id = "sword1", description = "Sword 1" }

@@ -7,7 +7,7 @@ local item_names_assignable = {
   "feather",
   "pegasus_shoes",
   "bombs_counter",
-  "power_bracelet",
+  "drug",
   "shovel",
   "bow",
   "hookshot",
@@ -18,7 +18,7 @@ local item_names_static = {
   "tunic",
   "sword",
   "flippers",
-  "drug"
+  "power_bracelet"
 }
 
 
