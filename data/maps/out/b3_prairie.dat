@@ -3370,7 +3370,7 @@ tile{
 tile{
   layer = 0,
   x = 944,
-  y = 536,
+  y = 544,
   width = 16,
   height = 240,
   pattern = "975",
@@ -3379,7 +3379,7 @@ tile{
 tile{
   layer = 0,
   x = 944,
-  y = 520,
+  y = 528,
   width = 16,
   height = 16,
   pattern = "988",
@@ -18913,7 +18913,7 @@ tile{
 tile{
   layer = 0,
   x = 960,
-  y = 544,
+  y = 552,
   width = 8,
   height = 224,
   pattern = "1012",
