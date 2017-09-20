@@ -3369,38 +3369,20 @@ tile{
 
 tile{
   layer = 0,
-  x = 936,
-  y = 544,
+  x = 944,
+  y = 536,
   width = 16,
-  height = 224,
+  height = 240,
   pattern = "975",
 }
 
 tile{
   layer = 0,
-  x = 952,
-  y = 544,
-  width = 8,
-  height = 224,
-  pattern = "977",
-}
-
-tile{
-  layer = 0,
-  x = 936,
-  y = 528,
+  x = 944,
+  y = 520,
   width = 16,
   height = 16,
   pattern = "988",
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 528,
-  width = 16,
-  height = 16,
-  pattern = "986",
 }
 
 tile{
@@ -15353,15 +15335,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "103",
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 512,
-  width = 16,
-  height = 16,
-  pattern = "988",
 }
 
 tile{
