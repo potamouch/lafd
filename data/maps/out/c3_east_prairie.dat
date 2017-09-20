@@ -3064,9 +3064,9 @@ tile{
 tile{
   layer = 0,
   x = 672,
-  y = 728,
+  y = 736,
   width = 8,
-  height = 48,
+  height = 32,
   pattern = "977",
 }
 
