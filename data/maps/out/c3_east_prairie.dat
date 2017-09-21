@@ -8880,7 +8880,7 @@ tile{
   x = 944,
   y = 416,
   width = 16,
-  height = 336,
+  height = 352,
   pattern = "1069",
 }
 
@@ -9355,7 +9355,7 @@ tile{
 tile{
   layer = 0,
   x = 944,
-  y = 752,
+  y = 768,
   width = 16,
   height = 16,
   pattern = "964",
