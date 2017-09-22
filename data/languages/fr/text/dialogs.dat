@@ -2242,6 +2242,44 @@ v La Prairie
 }
 
 dialog{
+  id = "maps.out.mabe_village.fishman_1",
+  question = "1",
+  text = [[
+Une partie de pêche, 
+mon gars ?
+
+Ça ne te coûtera que 
+10 rubis... 
+
+
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.out.mabe_village.fishman_2",
+  skip = "all",
+  text = [[
+Avec < et > de +, évalue 
+la distance de ton
+lancer.  
+Dès que le poisson est     
+ferré, presse vite AïB
+pour le remonter !
+]]
+}
+
+dialog{
+  id = "maps.out.mabe_village.fishman_3",
+  skip = "all",
+  text = [[
+Vis ta vie !     
+Sois un peu plus motivé !
+]]
+}
+
+dialog{
   id = "maps.out.mabe_village.grand_ma_1",
   skip = "all",
   text = [[

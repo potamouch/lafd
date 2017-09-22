@@ -31,6 +31,19 @@ function map:init_marine()
 
 end
 
+function map:talk_to_fishman() 
+
+  game:start_dialog("maps.out.mabe_village.fishman_1", function(answer)
+    if answer == 1 then
+      game:start_dialog("maps.out.mabe_village.fishman_2")
+      --TODO - CODING FISHING GAME
+    else
+      game:start_dialog("maps.out.mabe_village.fishman_3")
+    end
+  end)
+
+end
+
 
 function map:talk_to_marine() 
 
@@ -129,6 +142,12 @@ function marine:on_interaction()
     if marine_song == false then
       map:talk_to_marine()
     end
+
+end
+
+function fishman:on_interaction()
+
+      map:talk_to_fishman()
 
 end
 

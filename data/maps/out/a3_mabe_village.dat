@@ -17735,6 +17735,27 @@ destructible{
   ground = "grass",
 }
 
+custom_entity{
+  layer = 0,
+  x = 504,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/marine",
+  model = "marine",
+}
+
+npc{
+  name = "fishman",
+  layer = 0,
+  x = 392,
+  y = 85,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/fishman",
+}
+
 tile{
   layer = 1,
   x = -24,

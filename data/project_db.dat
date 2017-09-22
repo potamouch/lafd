@@ -224,14 +224,6 @@ sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
 sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
-sprite{ id = "npc/bowwow", description = "Bowwow" }
-sprite{ id = "npc/fairy", description = "Fairy" }
-sprite{ id = "npc/frog", description = "Frog" }
-sprite{ id = "npc/grand_ma", description = "Grand-mother" }
-sprite{ id = "npc/kid_1", description = "Kid 1" }
-sprite{ id = "npc/kid_2", description = "Kid 2" }
-sprite{ id = "npc/kid_3", description = "Kid 3" }
-sprite{ id = "npc/kid_4", description = "Kid 4" }
 sprite{ id = "npc/alttp/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/alttp/average_middle_aged_man", description = "Average middle-aged man" }
 sprite{ id = "npc/alttp/bird_green", description = "Green bird" }
@@ -282,6 +274,15 @@ sprite{ id = "npc/alttp/woman_green", description = "Green woman" }
 sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
+sprite{ id = "npc/bowwow", description = "Bowwow" }
+sprite{ id = "npc/fairy", description = "Fairy" }
+sprite{ id = "npc/fishman", description = "Fishman" }
+sprite{ id = "npc/frog", description = "Frog" }
+sprite{ id = "npc/grand_ma", description = "Grand-mother" }
+sprite{ id = "npc/kid_1", description = "Kid 1" }
+sprite{ id = "npc/kid_2", description = "Kid 2" }
+sprite{ id = "npc/kid_3", description = "Kid 3" }
+sprite{ id = "npc/kid_4", description = "Kid 4" }
 sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/monkey", description = "Monkey" }
 sprite{ id = "npc/owl", description = "Owl" }
@@ -518,6 +519,7 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
+entity{ id = "marine", description = "Marine" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }
