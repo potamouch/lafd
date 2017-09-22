@@ -246,29 +246,47 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
-  y = 120,
-  width = 16,
-  height = 24,
-  pattern = "shop_counter.2a",
+  x = 176,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
 }
 
 tile{
   layer = 0,
-  x = 144,
-  y = 120,
-  width = 16,
-  height = 24,
-  pattern = "shop_counter.1a",
+  x = 152,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
 }
 
 tile{
   layer = 0,
   x = 176,
   y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 120,
   width = 16,
-  height = 24,
-  pattern = "shop_counter.3a",
+  height = 8,
+  pattern = "table.8",
 }
 
 tile{
@@ -277,25 +295,16 @@ tile{
   y = 112,
   width = 16,
   height = 8,
-  pattern = "shop_counter.2b",
+  pattern = "table.5",
 }
 
-tile{
+npc{
   layer = 0,
-  x = 144,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.1b",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "shop_counter.3b",
+  x = 168,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/mr_write",
 }
 
 destructible{
@@ -440,6 +449,38 @@ destructible{
   y = 189,
   sprite = "entities/pot",
   weight = 1,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 104,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  name = "mr_write_house_2_B",
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "out/a1_west_mt_tamaranch",
+  destination = "mr_write_house_2_A",
+}
+
+destination{
+  name = "mr_write_house_1_B",
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 1,
 }
 
 tile{
@@ -460,23 +501,31 @@ tile{
   pattern = "287",
 }
 
-destination{
-  name = "mr_write_house_1_B",
+tile{
   layer = 1,
-  x = 160,
-  y = 213,
-  direction = 1,
+  x = 176,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
 }
 
-teletransporter{
-  name = "mr_write_house_2_B",
+tile{
+  layer = 1,
+  x = 160,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
   layer = 1,
   x = 152,
-  y = 224,
-  width = 16,
-  height = 16,
-  destination_map = "out/a1_west_mt_tamaranch",
-  destination = "mr_write_house_2_A",
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
 }
 
 tile{

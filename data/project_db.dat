@@ -285,6 +285,7 @@ sprite{ id = "npc/kid_3", description = "Kid 3" }
 sprite{ id = "npc/kid_4", description = "Kid 4" }
 sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/monkey", description = "Monkey" }
+sprite{ id = "npc/mr_write", description = "Mr Write" }
 sprite{ id = "npc/owl", description = "Owl" }
 sprite{ id = "npc/phone", description = "Phone" }
 sprite{ id = "npc/seagull", description = "Seagull" }
