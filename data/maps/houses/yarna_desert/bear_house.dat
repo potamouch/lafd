@@ -542,6 +542,15 @@ destructible{
   damage_on_enemies = 2,
 }
 
+npc{
+  layer = 0,
+  x = 176,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bear",
+}
+
 tile{
   layer = 1,
   x = 144,

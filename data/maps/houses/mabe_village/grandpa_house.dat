@@ -578,7 +578,7 @@ tile{
 }
 
 destination{
-  name = "old_man_house_1_B",
+  name = "grandpa_house_1_B",
   layer = 0,
   x = 160,
   y = 213,
@@ -586,14 +586,14 @@ destination{
 }
 
 teletransporter{
-  name = "old_man_house_2_B",
+  name = "grandpa_house_2_B",
   layer = 0,
   x = 152,
   y = 224,
   width = 16,
   height = 16,
   destination_map = "out/a3_mabe_village",
-  destination = "old_man_house_1_2_A",
+  destination = "grandpa_house_1_2_A",
 }
 
 npc{
@@ -651,6 +651,16 @@ destructible{
   sprite = "entities/pot",
   weight = 1,
   damage_on_enemies = 2,
+}
+
+npc{
+  name = "grandpa",
+  layer = 0,
+  x = 152,
+  y = 133,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/grandpa",
 }
 
 tile{

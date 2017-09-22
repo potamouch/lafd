@@ -14753,7 +14753,7 @@ teletransporter{
 }
 
 destination{
-  name = "old_man_house_1_2_A",
+  name = "grandpa_house_1_2_A",
   layer = 0,
   x = 376,
   y = 709,
@@ -14761,14 +14761,14 @@ destination{
 }
 
 teletransporter{
-  name = "old_man_house_1_1_A",
+  name = "grandpa_house_1_1_A",
   layer = 0,
   x = 368,
   y = 680,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/old_man_house",
-  destination = "old_man_house_1_B",
+  destination_map = "houses/mabe_village/grandpa_house",
+  destination = "grandpa_house_1_B",
 }
 
 destination{

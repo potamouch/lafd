@@ -1,4 +1,4 @@
--- Inside - Old man's house
+-- Inside - Grand pa's house
 
 -- Variables
 local map = ...
@@ -16,10 +16,24 @@ function map:set_music()
 
 end
 
+function map:talk_to_grandpa() 
+
+  game:start_dialog("maps.houses.mabe_village.grandpa_house.grandpa_1")
+
+end
+
+
 -- Events
 
 function map:on_started(destination)
 
   map:set_music()
+
+end
+
+
+function grandpa:on_interaction()
+
+      map:talk_to_grandpa()
 
 end

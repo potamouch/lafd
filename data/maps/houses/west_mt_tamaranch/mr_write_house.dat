@@ -298,15 +298,6 @@ tile{
   pattern = "table.5",
 }
 
-npc{
-  layer = 0,
-  x = 168,
-  y = 109,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/mr_write",
-}
-
 destructible{
   layer = 0,
   x = 80,
@@ -481,6 +472,25 @@ destination{
   x = 160,
   y = 213,
   direction = 1,
+}
+
+npc{
+  layer = 0,
+  x = 168,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+}
+
+custom_entity{
+  layer = 0,
+  x = 168,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/mr_write",
+  model = "mr_write",
 }
 
 tile{

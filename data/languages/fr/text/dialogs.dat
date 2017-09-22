@@ -1383,6 +1383,20 @@ Veux-tu la tester ici ?
 }
 
 dialog{
+  id = "maps.houses.mabe_village.grandpa_house.grandpa_1",
+  skip = "all",
+  text = [[
+Heu... Hum...   
+Comment dire?   
+Téléphone...    
+A l'extérieur...
+Pépé le Ramollo n'a pas 
+l'air d'être un grand 
+causeur...
+]]
+}
+
+dialog{
   id = "maps.houses.mabe_village.library.book_1.content",
   text = [[
 Choisis l'objet 

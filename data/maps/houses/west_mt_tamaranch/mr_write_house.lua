@@ -22,3 +22,10 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+
+function mr_write:on_collision_fire()
+
+      return false
+
+end
