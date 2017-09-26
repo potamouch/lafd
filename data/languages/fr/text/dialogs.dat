@@ -624,11 +624,10 @@ dialog{
   id = "_treasure.magnifying_lens.1",
   icon = "100",
   text = [[
-Tu as gagné     
-un Yoshi !       
-On le voit      
-dans tous les   
-jeux, celui-là !
+Tu as gagné un 
+Yoshi !       
+On le voit dans tous
+les jeux, celui-là !
 ]]
 }
 
@@ -695,8 +694,8 @@ dialog{
   icon = "101",
   text = [[
 Tu échanges ton 
-à contre ce     
-Ruban á .       
+Yoshi contre ce     
+Ruban.       
 Peut-être le    
 troqueras-tu    
 par la suite...
@@ -705,17 +704,17 @@ par la suite...
 
 dialog{
   id = "_treasure.magnifying_lens.3",
-  icon = "102",
+  icon = "103",
   text = [[
 Tu as échangé   
-le á contre     
-la pâtée â!
+le ruban contre     
+la pâtée !
 ]]
 }
 
 dialog{
   id = "_treasure.magnifying_lens.4",
-  icon = "103",
+  icon = "102",
   text = [[
 MIAM MIAM!      
 ... ... ... ... 
@@ -1755,6 +1754,111 @@ Je suis un
 chien très branché !
 J'aimerais avoir des 
 accessoires à la mode !
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.meow_meow_house.small_bowwow_2_2",
+  question = "1",
+  text = [[
+Ouaf Ouaf ! 
+Je suis un 
+chien très branché !
+Ce ruban, c'est d'un
+chic ! Il me le faut 
+absolument... Tu 
+l'échanges contre
+ma pâtée ? 
+
+
+Oui
+Non   
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.meow_meow_house.small_bowwow_2_3",
+  text = [[
+Je n'arrive pas à 
+y croire...   
+Tu es nul !
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.meow_meow_house.small_bowwow_2_4",
+  text = [[
+Génial, merci !  
+En échange,     
+voici ma patée ...
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.father_1",
+  text = [[
+Je suis Papounet le papa 
+des quadruplés.     
+Plus tard, je me perdrai 
+dans les montagnes.      
+Tu viendras m'aider,
+hein?
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.mother_1",
+  text = [[
+J'ai trop de bébés ! 
+Ils se ressemblent tous
+en plus !
+Au fait sais-tu où      
+trouver un Yoshi ? 
+J'en ai vu un au jeu du 
+hasard mais je n'ai pas
+pu l'avoir.
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.mother_2",
+  question = "1",
+  text = [[
+Tu offres ce Yoshi        
+à mon bébé ? 
+
+ 
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.mother_3",
+  text = [[
+Tant pis...     
+C'est dommage !
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.mother_4",
+  text = [[
+Oh ! Merci !      
+Tu es un gentil
+garçon.
+En échange, je  
+te donne ceci.
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.mother_5",
+  text = [[
+Ces quatre là se
+ressemblent tant
+que moi-même,   
+je m'y perds...
 ]]
 }
 

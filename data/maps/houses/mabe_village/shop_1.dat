@@ -299,6 +299,15 @@ teletransporter{
   destination = "shop_1_2_A",
 }
 
+chest{
+  layer = 0,
+  x = 80,
+  y = 173,
+  treasure_name = "magnifying_lens",
+  treasure_savegame_variable = "magnifying_lens_1",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,

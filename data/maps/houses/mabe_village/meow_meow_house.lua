@@ -37,7 +37,23 @@ end
 
 function map:talk_to_small_bowwow_2() 
 
-  game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_1")
+    local item = game:get_item("magnifying_lens")
+    local variant = item:get_variant()
+    if variant == 2 then
+      game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_2", function(answer)
+        if answer == 1 then
+            game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_4", function()
+              hero:start_treasure("magnifying_lens", 3, "magnifying_lens_3")
+              end)
+        else
+          game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_3")
+        end
+      end)
+    elseif variant > 1 then
+      game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_1")
+    else
+      game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_1")
+    end
 
 end
 
@@ -69,9 +85,6 @@ function map:set_animation_small_bowwow(entity)
   end)
 
 end
-
-
-
 
 -- Events
 

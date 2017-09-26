@@ -14,6 +14,7 @@ local disabled_entities -- Nearby streams and teletransporters that are disabled
 
 function item:on_created()
   self:set_savegame_variable("possession_feather")
+  self:set_sound_when_brandished("treasure_2")
   self:set_assignable(true)
   --[[ Redefine event game.on_command_pressed.
   -- Avoids restarting hero animation when feather command is pressed

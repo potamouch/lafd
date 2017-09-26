@@ -1243,6 +1243,26 @@ teletransporter{
   destination = "quadruplets_house_2_C",
 }
 
+npc{
+  name = "father",
+  layer = 1,
+  x = 440,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/quadruplet_father",
+}
+
+npc{
+  name = "mother",
+  layer = 1,
+  x = 392,
+  y = 85,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/quadruplet_mother",
+}
+
 tile{
   layer = 2,
   x = 0,

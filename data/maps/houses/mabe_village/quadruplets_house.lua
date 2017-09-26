@@ -17,6 +17,35 @@ function map:set_music()
 
 end
 
+function map:talk_to_father() 
+
+  game:start_dialog("maps.houses.mabe_village.quadruplets_house.father_1")
+
+end
+
+function map:talk_to_mother() 
+
+    local item = game:get_item("magnifying_lens")
+    local variant = item:get_variant()
+    if variant == 1 then
+      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_2", function(answer)
+        if answer == 1 then
+            game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_4", function()
+              hero:start_treasure("magnifying_lens", 2, "magnifying_lens_2")
+              end)
+        else
+          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_3")
+        end
+      end)
+    elseif variant > 1 then
+      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_5")
+    else
+      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_1")
+    end
+
+end
+
+
 -- Events
 
 function map:on_started(destination)
@@ -24,3 +53,17 @@ function map:on_started(destination)
   map:set_music()
 
 end
+
+function father:on_interaction()
+
+      map:talk_to_father()
+
+end
+
+function mother:on_interaction()
+
+      map:talk_to_mother()
+
+end
+
+
