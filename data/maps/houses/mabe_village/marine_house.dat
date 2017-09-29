@@ -501,7 +501,7 @@ teletransporter{
 }
 
 sensor{
-  name = "maison_link_exit_sensor",
+  name = "exit_sensor",
   layer = 0,
   x = 160,
   y = 221,

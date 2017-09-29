@@ -128,7 +128,7 @@ function map:on_finished()
 
 end
 
-function maison_link_exit_sensor:on_activated()
+function exit_sensor:on_activated()
 
   if game:has_item("shield") == false then
     game:start_dialog("maps.houses.mabe_village.marine_house.tarin_3", function()
