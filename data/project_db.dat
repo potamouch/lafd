@@ -111,6 +111,7 @@ sprite{ id = "enemies/blob_red", description = "Blob red" }
 sprite{ id = "enemies/boss_small_1", description = "Small boss 1" }
 sprite{ id = "enemies/bubble", description = "Bubble" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
+sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/goomba", description = "Goomba" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" }
@@ -499,6 +500,7 @@ enemy{ id = "blob_red", description = "Blob red" }
 enemy{ id = "boss_small_1", description = "Small boss 1" }
 enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
+enemy{ id = "chicken_mortal", description = "Chicken mortal" }
 enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
 enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }
 enemy{ id = "goomba", description = "Goomba" }

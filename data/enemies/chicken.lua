@@ -1,59 +1,77 @@
--- Chicken
 local enemy = ...
-local sprite = enemy:create_sprite("enemies/chicken")
+local map = enemy:get_map()
+
+local angry = false
+local num_times_hurt = 0
 
 function enemy:on_created()
 
-  self:set_life(10000000000000000)
-  self:set_can_attack(false)
-  self:set_damage(0)
-  self:set_hurt_style("normal")
-  self:set_size(16, 16)
-  self:set_origin(8, 13)
-
+  enemy:set_life(10000)
+  enemy:set_damage(2)
+  enemy:create_sprite("enemies/" .. enemy:get_breed())
+  enemy:set_size(16, 16)
+  enemy:set_origin(8, 13)
+  enemy:set_hurt_style("monster")
 end
 
-function enemy:on_restarted()
+function enemy:on_movement_changed(movement)
 
-  self:go_random()
-
-end
-
-function enemy:on_movement_finished(movement)
-
-  self:go_random()
-
+  local direction4 = movement:get_direction4()
+  local sprite = self:get_sprite()
+  sprite:set_direction(direction4)
 end
 
 function enemy:on_obstacle_reached(movement)
 
-  self:go_random()
+  if not angry then
+    enemy:go_random()
+  else
+    enemy:go_angry()
+  end
+end
 
+function enemy:on_restarted()
+
+  if angry then
+    enemy:go_angry()
+  else
+    enemy:go_random()
+    sol.timer.start(enemy, 100, function()
+      if map.angry_chickens and not angry then
+        enemy:go_angry()
+        return false
+      end
+      return true  -- Repeat the timer.
+    end)
+  end
 end
 
 function enemy:go_random()
 
-  -- Random diagonal direction.
-  local rand4 = math.random(4)
-  local direction8 = rand4 * 2 - 1
-  local angle = direction8 * math.pi / 4
-  local m = sol.movement.create("straight")
-  m:set_speed(24)
-  m:set_angle(angle)
-  m:set_max_distance(24 + math.random(96))
-  m:start(self)
-  sprite:set_direction(m:get_direction4())
-  sol.timer.stop_all(self)
-  sol.timer.start(self, 300 + math.random(1500), function()
-    --sprite:set_animation("bite")
-  end)
-
+  angry = false
+  local movement = sol.movement.create("random")
+  movement:set_speed(32)
+  movement:start(enemy)
+  enemy:set_can_attack(false)
 end
 
-function sprite:on_animation_finished(animation)
+function enemy:go_angry()
 
-  if animation == "bite" then
-    self:set_animation("walking")
+  angry = true
+  map.angry_chickens = true
+  going_hero = true
+  local movement = sol.movement.create("target")
+  movement:set_speed(96)
+  movement:start(enemy)
+  enemy:get_sprite():set_animation("angry")
+  enemy:set_can_attack(true)
+end
+
+function enemy:on_hurt()
+
+  num_times_hurt = num_times_hurt + 1
+  if num_times_hurt == 3 and not map.angry_chickens then
+    -- Make all chickens of the map attack the hero.
+    map.angry_chickens = true
   end
-
 end
