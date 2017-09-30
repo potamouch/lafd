@@ -10000,6 +10000,51 @@ tile{
   pattern = "1441",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 488,
+  width = 48,
+  height = 40,
+  pattern = "2202",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 472,
+  width = 48,
+  height = 16,
+  pattern = "12842",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 488,
+  width = 8,
+  height = 40,
+  pattern = "2204",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 488,
+  width = 8,
+  height = 40,
+  pattern = "2205",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 528,
+  width = 48,
+  height = 8,
+  pattern = "2203",
+}
+
 teletransporter{
   name = "to_a3",
   layer = 0,
@@ -11833,6 +11878,36 @@ custom_entity{
   width = 8,
   height = 48,
   direction = 2,
+  sprite = "entities/palm",
+}
+
+custom_entity{
+  layer = 1,
+  x = 120,
+  y = 477,
+  width = 8,
+  height = 48,
+  direction = 2,
+  sprite = "entities/palm",
+}
+
+custom_entity{
+  layer = 1,
+  x = 128,
+  y = 461,
+  width = 48,
+  height = 64,
+  direction = 1,
+  sprite = "entities/palm",
+}
+
+custom_entity{
+  layer = 1,
+  x = 176,
+  y = 477,
+  width = 8,
+  height = 48,
+  direction = 0,
   sprite = "entities/palm",
 }
 
