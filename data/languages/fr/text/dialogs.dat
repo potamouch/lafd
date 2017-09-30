@@ -1863,6 +1863,23 @@ je m'y perds...
 }
 
 dialog{
+  id = "maps.houses.mabe_village.shop_2.marchant_1",
+  text = [[
+Bienvenue !      
+Apporte ici ce que tu       
+veux acheter.
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_2.marchant_2",
+  text = [[
+Hé! Une minute! 
+Tu dois payer!
+]]
+}
+
+dialog{
   id = "maps.houses.phone_booth.0",
   text = [[
 DRING DRING !    

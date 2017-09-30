@@ -1,5 +1,8 @@
 -- Inside - Shop 2
 
+-- Includes scripts
+local shop_manager = require("scripts/maps/shop_manager")
+
 -- Variables
 local map = ...
 local game = map:get_game()
@@ -48,12 +51,19 @@ function map:init_merchant()
 
 end
 
+function map:talk_to_merchant() 
+
+  game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
+
+end
+
 -- Events
 
 function map:on_started(destination)
 
   map:set_music()
   map:init_merchant()
+  shop_manager:init(map)
 
 end
 
@@ -61,10 +71,22 @@ function exit_sensor:on_activated()
 
   local direction4 = merchant:get_sprite():get_direction()
   if direction4 == 2 or direction4 == 3 then
-    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_3", function()
+    game:start_dialog("maps.houses.mabe_village.shop_2.marchant_2", function()
      hero:set_direction(2)
      hero:walk("2222")
    end)
   end
+
+end
+
+function merchant:on_interaction()
+
+      map:talk_to_merchant()
+
+end
+
+function merchant_invisible:on_interaction()
+
+      map:talk_to_merchant()
 
 end

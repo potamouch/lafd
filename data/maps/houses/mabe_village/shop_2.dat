@@ -348,6 +348,15 @@ sensor{
   height = 16,
 }
 
+npc{
+  name = "merchant_invisible",
+  layer = 0,
+  x = 208,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
