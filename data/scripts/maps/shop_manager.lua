@@ -18,6 +18,7 @@ function shop_manager:add_product(map, product, placeholder)
 
         local item, variant, price = unpack(product)
         local placeholder = map:get_entity(placeholder)
+        placeholder:set_enabled(false)
         local x,y,layer= placeholder:get_position()
         local surface = sol.surface.create(320, 256)
         local destructible = map:create_destructible{
@@ -26,6 +27,10 @@ function shop_manager:add_product(map, product, placeholder)
                     y = y,
                     layer = layer
          }
+           local price_text = sol.text_surface.create({
+              horizontal_alignment = "center",
+              text = price
+           })
         local entity = map:create_custom_entity{
                     x = x,
                     y = y,
@@ -37,16 +42,12 @@ function shop_manager:add_product(map, product, placeholder)
 
         function destructible:on_lifting()
 
-          print("ok")
+          shop_manager:remove_product(map, item)
 
         end
 
         function entity:on_pre_draw()
 
-           local price_text = sol.text_surface.create({
-              horizontal_alignment = "center",
-              text = price
-           })
            map:draw_visual(price_text, x, y- 16)
            shop_manager.products[item]= {
             destructible = destructible,
