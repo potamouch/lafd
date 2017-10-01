@@ -308,27 +308,6 @@ teletransporter{
   destination = "shop_2_2_A",
 }
 
-destructible{
-  layer = 0,
-  x = 88,
-  y = 77,
-  sprite = "entities/bomb",
-}
-
-destructible{
-  layer = 0,
-  x = 136,
-  y = 77,
-  sprite = "entities/heart",
-}
-
-destructible{
-  layer = 0,
-  x = 184,
-  y = 77,
-  sprite = "entities/shield",
-}
-
 npc{
   name = "merchant",
   layer = 0,
@@ -355,6 +334,59 @@ npc{
   y = 157,
   direction = 3,
   subtype = 1,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 72,
+  width = 176,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  name = "placeholder_1",
+  layer = 0,
+  x = 88,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "placeholder_2",
+  layer = 0,
+  x = 136,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "placeholder_3",
+  layer = 0,
+  x = 184,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "placeholder_4",
+  layer = 0,
+  x = 232,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

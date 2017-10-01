@@ -23,7 +23,6 @@ end
 function map:repeat_merchant_direction_check()
 
   local direction4 = merchant:get_direction4_to(hero)
-  print(direction4)
   if direction4 == 0 then
       if merchant_move == false then
         merchant_move = true
@@ -64,6 +63,12 @@ function map:on_started(destination)
   map:set_music()
   map:init_merchant()
   shop_manager:init(map)
+  local product = {"entities/bomb", 1, 30}
+  shop_manager:add_product(map, product, 'placeholder_1')
+  local product = {"entities/heart", 1, 10}
+  shop_manager:add_product(map, product, 'placeholder_2')
+  local product = {"entities/shield", 1, 50}
+  shop_manager:add_product(map, product, 'placeholder_3')
 
 end
 
@@ -82,6 +87,7 @@ end
 function merchant:on_interaction()
 
       map:talk_to_merchant()
+    shop_manager:remove_product(map, "entities/bomb")
 
 end
 
