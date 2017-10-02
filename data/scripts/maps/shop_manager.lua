@@ -6,16 +6,19 @@ local map
 function shop_manager:init(map)
 
   map.shop_manager_products = {}
+  map.shop_manager_product = nil
   map:register_event("on_command_pressed", function(map, command)
 
     local hero = map:get_hero()
     if command == "action" and hero:get_state() == "carrying" then
       for k, product in pairs(map.shop_manager_products) do
-          if hero:get_distance(product["placeholder"]) < 24 then
-            shop_manager:add_product(map, product["product"], product["placeholder"])
+          if hero:get_distance(product["placeholder"]) < 24 and hero:get_direction() == 1 then
+            if map.shop_manager_product == product["item"] then
+              shop_manager:add_product(map, product["product"], product["placeholder"])
             -- To force removal of the carried object
             hero:freeze()
             hero:unfreeze()
+            end
           end
         end
       return true  -- Stop the propagation to other objects.
@@ -53,6 +56,7 @@ function shop_manager:add_product(map, product, placeholder)
         function destructible:on_lifting()
 
           shop_manager:remove_product(map, item)
+          map.shop_manager_product  = item
 
         end
 
