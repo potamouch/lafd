@@ -1,23 +1,33 @@
 local shop_manager = {}
 
-shop_manager.products = {}
+local map
 
 
 function shop_manager:init(map)
 
+  map.shop_manager_products = {}
+  map:register_event("on_command_pressed", function(map, command)
 
-end
-
-function shop_manager:get_surface()
-
-  return shop_manager.prices.surface
+    local hero = map:get_hero()
+    if command == "action" and hero:get_state() == "carrying" then
+      for k, product in pairs(map.shop_manager_products) do
+          if hero:get_distance(product["placeholder"]) < 24 then
+            shop_manager:add_product(map, product["product"], product["placeholder"])
+            -- To force removal of the carried object
+            hero:freeze()
+            hero:unfreeze()
+          end
+        end
+      return true  -- Stop the propagation to other objects.
+    end
+  end)
 
 end
 
 function shop_manager:add_product(map, product, placeholder)
 
         local item, variant, price = unpack(product)
-        local placeholder = map:get_entity(placeholder)
+        local hero = map:get_hero()
         placeholder:set_enabled(false)
         local x,y,layer= placeholder:get_position()
         local surface = sol.surface.create(320, 256)
@@ -27,10 +37,10 @@ function shop_manager:add_product(map, product, placeholder)
                     y = y,
                     layer = layer
          }
-           local price_text = sol.text_surface.create({
-              horizontal_alignment = "center",
-              text = price
-           })
+        local price_text = sol.text_surface.create({
+          horizontal_alignment = "center",
+          text = price
+        })
         local entity = map:create_custom_entity{
                     x = x,
                     y = y,
@@ -49,23 +59,25 @@ function shop_manager:add_product(map, product, placeholder)
         function entity:on_pre_draw()
 
            map:draw_visual(price_text, x, y- 16)
-           shop_manager.products[item]= {
+        end
+
+           map.shop_manager_products [item]= {
             destructible = destructible,
+            placeholder = placeholder,
             entity = entity,
             price = price,
             item = item,
+            product = product,
             variant = variant,
             price_text = price_text        
           }
-        end
         
 end
 
 function shop_manager:remove_product(map, item)
 
-        local entity = shop_manager.products[item]['entity']
+        local entity = map.shop_manager_products[item]['entity']
         entity:remove()
-        shop_manager.products[item] = nil
         
 end
 

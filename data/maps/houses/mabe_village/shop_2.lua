@@ -64,11 +64,11 @@ function map:on_started(destination)
   map:init_merchant()
   shop_manager:init(map)
   local product = {"entities/bomb", 1, 30}
-  shop_manager:add_product(map, product, 'placeholder_1')
+  shop_manager:add_product(map, product, placeholder_1)
   local product = {"entities/heart", 1, 10}
-  shop_manager:add_product(map, product, 'placeholder_2')
+  shop_manager:add_product(map, product, placeholder_2)
   local product = {"entities/shield", 1, 50}
-  shop_manager:add_product(map, product, 'placeholder_3')
+  shop_manager:add_product(map, product, placeholder_3)
 
 end
 
