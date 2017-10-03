@@ -50414,3 +50414,15 @@ tile_pattern{
   height = 16,
 }
 
+border_set{
+  id = "Carpet",
+  pattern_0 = "carpet.6",
+  pattern_1 = "carpet.2",
+  pattern_2 = "carpet.4",
+  pattern_3 = "carpet.8",
+  pattern_4 = "carpet.3",
+  pattern_5 = "carpet.1",
+  pattern_6 = "carpet.7",
+  pattern_7 = "carpet.9",
+}
+

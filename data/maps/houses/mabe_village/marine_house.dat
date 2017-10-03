@@ -406,6 +406,15 @@ tile{
   pattern = "carpet.6",
 }
 
+tile{
+  layer = 0,
+  x = 240,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
 sensor{
   name = "link_search_sword_sensor_2",
   layer = 0,
@@ -479,7 +488,7 @@ npc{
   y = 157,
   direction = 2,
   subtype = 1,
-  sprite = "npc/tarkin",
+  sprite = "npc/tarin",
 }
 
 destination{
@@ -556,15 +565,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 240,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
 }
 
 destination{

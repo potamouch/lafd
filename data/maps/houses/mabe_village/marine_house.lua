@@ -29,6 +29,17 @@ function map:repeat_marine_direction_check()
   end)
 end
 
+function map:repeat_tarin_direction_check()
+
+  local direction4 = tarin:get_direction4_to(hero)
+  tarin:get_sprite():set_direction(direction4)
+
+  -- Rappeler cette fonction dans 0.1 seconde.
+  sol.timer.start(map, 100, function() 
+    map:repeat_tarin_direction_check()
+  end)
+end
+
 function map:jump_from_bed()
 
   hero:set_visible(true)
@@ -61,6 +72,7 @@ function map:init_tarin()
     tarin:set_visible(false)
   else
     tarin:get_sprite():set_animation("waiting")
+    map:repeat_tarin_direction_check()
   end
 
 end

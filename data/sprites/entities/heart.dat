@@ -1,5 +1,5 @@
 animation{
-  name = "normal",
+  name = "stopped",
   src_image = "entities/items.png",
   directions = {
     { x = 144, y = 64, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
@@ -9,6 +9,6 @@ animation{
   name = "walking",
   src_image = "entities/items.png",
   directions = {
-    { x = 144, y = 64, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 5 },
+    { x = 144, y = 64, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
   },
 }

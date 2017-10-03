@@ -15,9 +15,10 @@ function shop_manager:init(map)
           if hero:get_distance(product["placeholder"]) < 24 and hero:get_direction() == 1 then
             if map.shop_manager_product == product["item"] then
               shop_manager:add_product(map, product["product"], product["placeholder"])
-            -- To force removal of the carried object
-            hero:freeze()
-            hero:unfreeze()
+              -- To force removal of the carried object
+              hero:freeze()
+              hero:unfreeze()
+              map.shop_manager_product = nil
             end
           end
         end
