@@ -540,6 +540,7 @@ entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }
 entity{ id = "mr_write", description = "Mr Write" }
+entity{ id = "seagull", description = "Seagull" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }

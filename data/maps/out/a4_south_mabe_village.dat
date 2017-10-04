@@ -11949,3 +11949,51 @@ npc{
   sprite = "npc/owl",
 }
 
+custom_entity{
+  name = "butterfly_30",
+  layer = 2,
+  x = 784,
+  y = 669,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_31",
+  layer = 2,
+  x = 800,
+  y = 669,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_32",
+  layer = 2,
+  x = 920,
+  y = 701,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_33",
+  layer = 2,
+  x = 704,
+  y = 677,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+

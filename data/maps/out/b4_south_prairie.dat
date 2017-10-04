@@ -18922,3 +18922,63 @@ custom_entity{
   sprite = "entities/palm",
 }
 
+custom_entity{
+  name = "butterfly_30",
+  layer = 2,
+  x = 136,
+  y = 437,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_31",
+  layer = 2,
+  x = 264,
+  y = 477,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_32",
+  layer = 2,
+  x = 112,
+  y = 709,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_33",
+  layer = 2,
+  x = 88,
+  y = 597,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "butterfly_34",
+  layer = 2,
+  x = 176,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
