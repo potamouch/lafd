@@ -13,7 +13,7 @@ properties{
 tile{
   layer = 0,
   x = 0,
-  y = 16,
+  y = 0,
   width = 960,
   height = 768,
   pattern = "14667",
@@ -14538,24 +14538,6 @@ wall{
 
 wall{
   layer = 0,
-  x = 328,
-  y = 456,
-  width = 16,
-  height = 16,
-  stops_enemies = true,
-}
-
-wall{
-  layer = 0,
-  x = 392,
-  y = 456,
-  width = 16,
-  height = 16,
-  stops_enemies = true,
-}
-
-wall{
-  layer = 0,
   x = 608,
   y = 496,
   width = 16,
@@ -14909,17 +14891,6 @@ destination{
   direction = 3,
 }
 
-teletransporter{
-  name = "meow_meow_house_1_C",
-  layer = 0,
-  x = 392,
-  y = 456,
-  width = 16,
-  height = 16,
-  destination_map = "houses/mabe_village/meow_meow_house",
-  destination = "meow_meow_house_1_D",
-}
-
 npc{
   name = "kid_1",
   layer = 0,
@@ -14946,7 +14917,7 @@ teletransporter{
   x = 960,
   y = 0,
   width = 16,
-  height = 816,
+  height = 768,
   transition = "scrolling",
   destination_map = "out/b3_prairie",
   destination = "_side",
@@ -15765,7 +15736,6 @@ destructible{
   layer = 0,
   x = 840,
   y = 477,
-  treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -17792,15 +17762,15 @@ destructible{
 npc{
   name = "fishman",
   layer = 0,
-  x = 360,
-  y = 61,
-  direction = 3,
+  x = 352,
+  y = 69,
+  direction = 2,
   subtype = 1,
   sprite = "npc/fishman",
 }
 
 dynamic_tile{
-  name = "broom_grandma_door",
+  name = "meow_meow_house_2_A_door",
   layer = 0,
   x = 328,
   y = 456,
@@ -17951,6 +17921,209 @@ custom_entity{
   height = 16,
   direction = 3,
   sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+destructible{
+  layer = 0,
+  x = 776,
+  y = 701,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+sensor{
+  name = "open_house_meow_meow_house_2_A_door_sensor",
+  layer = 0,
+  x = 328,
+  y = 485,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "quadruplets_house_2_A_door",
+  layer = 0,
+  x = 592,
+  y = 72,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_quadruplets_house_2_A_door_sensor",
+  layer = 0,
+  x = 592,
+  y = 101,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "quadruplets_house_2_C_door",
+  layer = 0,
+  x = 648,
+  y = 72,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_quadruplets_house_2_C_door_sensor",
+  layer = 0,
+  x = 648,
+  y = 101,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "shop_2_2_A_door",
+  layer = 0,
+  x = 824,
+  y = 328,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_shop_2_2_A_door_sensor",
+  layer = 0,
+  x = 824,
+  y = 357,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "shop_1_2_A_door",
+  layer = 0,
+  x = 824,
+  y = 672,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_shop_1_2_A_door_sensor",
+  layer = 0,
+  x = 824,
+  y = 701,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "grandpa_house_1_2_A_door",
+  layer = 0,
+  x = 368,
+  y = 680,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_grandpa_house_1_2_A_door_sensor",
+  layer = 0,
+  x = 368,
+  y = 709,
+  width = 32,
+  height = 16,
+}
+
+wall{
+  layer = 0,
+  x = 392,
+  y = 456,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  name = "meow_meow_house_1_C",
+  layer = 0,
+  x = 392,
+  y = 456,
+  width = 16,
+  height = 16,
+  destination_map = "houses/mabe_village/meow_meow_house",
+  destination = "meow_meow_house_1_D",
+}
+
+custom_entity{
+  name = "butterfly_13",
+  layer = 0,
+  x = 72,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_14",
+  layer = 0,
+  x = 296,
+  y = 581,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_15",
+  layer = 0,
+  x = 152,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_16",
+  layer = 0,
+  x = 64,
+  y = 717,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_17",
+  layer = 0,
+  x = 192,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
   model = "butterfly",
 }
 
@@ -20931,15 +21104,6 @@ tile{
   width = 48,
   height = 8,
   pattern = "1544",
-}
-
-sensor{
-  name = "open_house_broom_grandma_door_sensor",
-  layer = 1,
-  x = 328,
-  y = 485,
-  width = 32,
-  height = 16,
 }
 
 npc{
