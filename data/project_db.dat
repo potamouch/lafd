@@ -176,6 +176,7 @@ sprite{ id = "entities/pot", description = "Pot" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/shield", description = "Shield" }
+sprite{ id = "entities/shovel", description = "Shovel" }
 sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/snores", description = "Snoring" }
 sprite{ id = "entities/solid_switch", description = "Solid switch" }
@@ -280,9 +281,13 @@ sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/bear", description = "Bear" }
 sprite{ id = "npc/bowwow", description = "Bowwow" }
+sprite{ id = "npc/butterfly_blue", description = "Butterfly blue" }
+sprite{ id = "npc/butterfly_red", description = "Butterfly red" }
+sprite{ id = "npc/butterfly_yellow", description = "Butterfly yellow" }
 sprite{ id = "npc/fairy", description = "Fairy" }
 sprite{ id = "npc/fishman", description = "Fishman" }
 sprite{ id = "npc/frog", description = "Frog" }
+sprite{ id = "npc/game_man", description = "Game man" }
 sprite{ id = "npc/grand_ma", description = "Grand-mother" }
 sprite{ id = "npc/grandpa", description = "Grand pa" }
 sprite{ id = "npc/kid_1", description = "Kid 1" }
@@ -526,6 +531,7 @@ enemy{ id = "vegas", description = "Vegas" }
 enemy{ id = "zol_green", description = "Zol green" }
 
 entity{ id = "bowwow", description = "Bowwow" }
+entity{ id = "butterfly", description = "Butterfly" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "hole", description = "Hole" }

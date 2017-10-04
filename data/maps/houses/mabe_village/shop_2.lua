@@ -52,7 +52,10 @@ end
 
 function map:talk_to_merchant() 
 
-  game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
+    if map.shop_manager_product == nil then
+      game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
+    else
+    end
 
 end
 
@@ -63,7 +66,7 @@ function map:on_started(destination)
   map:set_music()
   map:init_merchant()
   shop_manager:init(map)
-  local product = {"entities/bomb", 1, 30}
+  local product = {"entities/shovel", 1, 200}
   shop_manager:add_product(map, product, placeholder_1)
   local product = {"entities/heart", 1, 10}
   shop_manager:add_product(map, product, placeholder_2)
@@ -74,25 +77,14 @@ end
 
 function exit_sensor:on_activated()
 
-  local direction4 = merchant:get_sprite():get_direction()
-  if direction4 == 2 or direction4 == 3 then
-    game:start_dialog("maps.houses.mabe_village.shop_2.marchant_2", function()
-     hero:set_direction(2)
-     hero:walk("2222")
-   end)
+  if map.shop_manager_product ~= nil then
+    local direction4 = merchant:get_sprite():get_direction()
+    if direction4 == 2 or direction4 == 3 then
+      game:start_dialog("maps.houses.mabe_village.shop_2.marchant_2", function()
+       hero:set_direction(2)
+       --hero:walk("2222")
+     end)
+    end
   end
-
-end
-
-function merchant:on_interaction()
-
-      map:talk_to_merchant()
-    shop_manager:remove_product(map, "entities/bomb")
-
-end
-
-function merchant_invisible:on_interaction()
-
-      map:talk_to_merchant()
 
 end

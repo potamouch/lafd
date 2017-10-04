@@ -8,7 +8,6 @@ function shop_manager:init(map)
   map.shop_manager_products = {}
   map.shop_manager_product = nil
   map:register_event("on_command_pressed", function(map, command)
-
     local hero = map:get_hero()
     if command == "action" and hero:get_state() == "carrying" then
       for k, product in pairs(map.shop_manager_products) do

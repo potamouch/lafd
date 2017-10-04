@@ -308,6 +308,16 @@ chest{
   sprite = "entities/chest",
 }
 
+npc{
+  name = "merchant",
+  layer = 0,
+  x = 240,
+  y = 189,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/game_man",
+}
+
 tile{
   layer = 1,
   x = 144,

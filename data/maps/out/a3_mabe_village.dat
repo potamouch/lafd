@@ -17738,11 +17738,166 @@ destructible{
 npc{
   name = "fishman",
   layer = 0,
-  x = 392,
-  y = 85,
+  x = 360,
+  y = 61,
   direction = 3,
   subtype = 1,
   sprite = "npc/fishman",
+}
+
+dynamic_tile{
+  name = "broom_grandma_door",
+  layer = 0,
+  x = 328,
+  y = 456,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+custom_entity{
+  name = "butterfly_1",
+  layer = 0,
+  x = 488,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_2",
+  layer = 0,
+  x = 416,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_3",
+  layer = 0,
+  x = 736,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_4",
+  layer = 0,
+  x = 872,
+  y = 373,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_5",
+  layer = 0,
+  x = 864,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_6",
+  layer = 0,
+  x = 688,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_7",
+  layer = 0,
+  x = 400,
+  y = 325,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_8",
+  layer = 0,
+  x = 512,
+  y = 629,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_9",
+  layer = 0,
+  x = 816,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_10",
+  layer = 0,
+  x = 824,
+  y = 421,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_11",
+  layer = 0,
+  x = 696,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_12",
+  layer = 0,
+  x = 568,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
 }
 
 tile{
@@ -20722,6 +20877,15 @@ tile{
   width = 48,
   height = 8,
   pattern = "1544",
+}
+
+sensor{
+  name = "open_house_broom_grandma_door_sensor",
+  layer = 1,
+  x = 328,
+  y = 485,
+  width = 32,
+  height = 16,
 }
 
 npc{
