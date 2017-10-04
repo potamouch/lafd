@@ -1,0 +1,442 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 2000,
+  height = 2000,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeons/blue",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 88,
+  width = 160,
+  height = 72,
+  pattern = "alter_floor",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 152,
+  width = 144,
+  height = 8,
+  pattern = "alter_floor.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 128,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 88,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 88,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 128,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 72,
+  width = 160,
+  height = 16,
+  pattern = "alter_wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 88,
+  width = 16,
+  height = 72,
+  pattern = "alter_wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 88,
+  width = 16,
+  height = 72,
+  pattern = "alter_wall.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 160,
+  width = 48,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 160,
+  width = 64,
+  height = 32,
+  pattern = "alter_stairs",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 160,
+  width = 48,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 40,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 120,
+  width = 24,
+  height = 64,
+  pattern = "full_wall_decor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 240,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 120,
+  width = 24,
+  height = 64,
+  pattern = "full_wall_decor.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 384,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 320,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 320,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 336,
+  width = 16,
+  height = 48,
+  pattern = "floor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 336,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 336,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 384,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+pickable{
+  name = "instrument",
+  layer = 0,
+  x = 192,
+  y = 125,
+  treasure_name = "conch_horn",
+  treasure_savegame_variable = "dungeon_2_instrument",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 376,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 336,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 376,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 336,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
