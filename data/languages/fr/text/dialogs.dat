@@ -716,13 +716,9 @@ dialog{
   id = "_treasure.magnifying_lens.4",
   icon = "102",
   text = [[
-MIAM MIAM!      
-... ... ... ... 
-Quel délice !    
-En récompense,  
-je t'offre des  
-Bananes. Hmm !   
-Quel régal !
+Tu lui as donné 
+une patée en
+échange de bananes.
 ]]
 }
 
@@ -2296,6 +2292,87 @@ Cave aux Clés,
 située dans     
 La Prairie.     
 Salut ! CLIC !
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_1",
+  text = [[
+Bienvenue chez  
+AlligoBanane !   
+lci j'entrepose.
+Mon hobby, c'est
+collectionner des 
+boîtes de conserve.    
+Mon frère cadet est
+un artiste. 
+Moi...          
+Je suis plus terre à 
+terre.  
+J'adore manger !
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_2",
+  question = "1",
+  text = [[
+Mais qu'est-ce  
+que tu as là ?   
+Je t'en prie, 
+donne-moi cette
+patée ...     
+Je t'en SUPPLIE !
+Alors, que décides-tu ?     
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_3",
+  text = [[
+Tant pis !       
+Mais si tu changes 
+d'avis, reviens vite 
+me voir !
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_4",
+  text = [[
+Merci ! Vite !    
+A table !
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_5",
+  text = [[
+MIAM MIAM!      
+... ... ... ... 
+Quel délice !    
+En récompense, je t'offre
+des Bananes. Hmm !   
+Quel régal !
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_6",
+  text = [[
+Encore merci !
+]]
+}
+
+dialog{
+  id = "maps.houses.south_mabe_village.sales_house_o_bananas.wardrobe_1",
+  text = [[
+$v a inspecté la
+commode.     
+C'est un objet 
+d'art... ...
 ]]
 }
 

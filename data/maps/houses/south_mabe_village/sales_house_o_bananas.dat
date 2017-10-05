@@ -255,7 +255,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
+  x = 160,
   y = 40,
   width = 8,
   height = 8,
@@ -264,7 +264,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
+  x = 160,
   y = 48,
   width = 8,
   height = 72,
@@ -273,7 +273,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
+  x = 160,
   y = 120,
   width = 8,
   height = 8,
@@ -284,7 +284,7 @@ tile{
   layer = 0,
   x = 128,
   y = 120,
-  width = 24,
+  width = 32,
   height = 8,
   pattern = "barrier.1-1",
 }
@@ -496,6 +496,114 @@ tile{
   pattern = "table.6",
 }
 
+tile{
+  layer = 0,
+  x = 192,
+  y = 40,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 40,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 40,
+  width = 88,
+  height = 8,
+  pattern = "water_shallow.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 48,
+  width = 8,
+  height = 64,
+  pattern = "water_shallow.4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 80,
+  height = 8,
+  pattern = "water_shallow.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 8,
+  height = 64,
+  pattern = "water_shallow.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.2",
+}
+
 pickable{
   layer = 0,
   x = 216,
@@ -571,6 +679,43 @@ destructible{
   weight = 1,
 }
 
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 176,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 192,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 208,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "alligator",
+  layer = 0,
+  x = 224,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alligator",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -578,42 +723,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 192,
-  y = 40,
-  width = 24,
-  height = 24,
-  pattern = "dresser.4a",
-}
-
-tile{
-  layer = 1,
-  x = 192,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "287",
-}
-
-tile{
-  layer = 1,
-  x = 168,
-  y = 40,
-  width = 24,
-  height = 24,
-  pattern = "dresser.4a",
-}
-
-tile{
-  layer = 1,
-  x = 168,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "287",
 }
 
 tile{

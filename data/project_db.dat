@@ -237,6 +237,7 @@ sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
 sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
+sprite{ id = "npc/alligator", description = "Alligator" }
 sprite{ id = "npc/alttp/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/alttp/average_middle_aged_man", description = "Average middle-aged man" }
 sprite{ id = "npc/alttp/bird_green", description = "Green bird" }
@@ -379,6 +380,7 @@ sound{ id = "bomb", description = "Bomb" }
 sound{ id = "boomerang", description = "Boomerang" }
 sound{ id = "boss_killed", description = "Boss killed" }
 sound{ id = "bow", description = "Bow" }
+sound{ id = "bowwow", description = "bowwow" }
 sound{ id = "bush", description = "Bush" }
 sound{ id = "chest_open", description = "Chest open" }
 sound{ id = "compass_signal", description = "Compass signal" }

@@ -58,7 +58,6 @@ end
 
 function seagull:join_origin()
 
- print("join")
   is_move = true
   -- Set the sprite.
   sprite:set_animation("walking")
