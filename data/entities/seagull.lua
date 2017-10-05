@@ -28,7 +28,6 @@ function seagull:on_created()
           if hero:get_distance(seagull) < 24 and is_escape == false and is_move == false then
             seagull:escape_hero()
           end
-print(is_escape)
           if hero:get_distance(x,y) > 50 and is_escape == true and is_move == false  then
             seagull:join_origin()
           end

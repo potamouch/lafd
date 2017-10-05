@@ -157,6 +157,7 @@ sprite{ id = "entities/doors/door_small_key", description = "Door small key" }
 sprite{ id = "entities/doors/door_very_weak_wall", description = "Door very weak wall" }
 sprite{ id = "entities/doors/door_weak_wall", description = "Door_weak_wall" }
 sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
+sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
@@ -432,6 +433,7 @@ sound{ id = "rupee_counter_end", description = "Rupee counter end" }
 sound{ id = "seagull", description = "Seagull" }
 sound{ id = "secret_1", description = "Secret 1" }
 sound{ id = "secret_2", description = "Secret 2" }
+sound{ id = "shake", description = "Shake" }
 sound{ id = "shield_brandish", description = "Shield brandish" }
 sound{ id = "solarus_logo", description = "Solarus logo" }
 sound{ id = "splash", description = "Splash" }

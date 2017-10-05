@@ -1,20 +1,10 @@
 animation{
-  name = "closed",
+  name = "normal",
   src_image = "entities/entrance_dungeon_1.png",
   directions = {
     { x = 0, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
     { x = 0, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
     { x = 0, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
     { x = 0, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
-  },
-}
-animation{
-  name = "opened",
-  src_image = "entities/entrance_dungeon_1.png",
-  directions = {
-    { x = 56, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
-    { x = 56, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
-    { x = 56, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
-    { x = 56, y = 0, frame_width = 56, frame_height = 48, origin_x = 28, origin_y = 45 },
   },
 }

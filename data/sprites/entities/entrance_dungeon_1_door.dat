@@ -1,0 +1,27 @@
+animation{
+  name = "closed",
+  src_image = "entities/entrance_dungeon_1_door.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 8, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+  },
+}
+animation{
+  name = "opened",
+  src_image = "entities/entrance_dungeon_1_door.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 224, y = 8, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "entities/entrance_dungeon_1_door.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 8, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 8 },
+  },
+}
