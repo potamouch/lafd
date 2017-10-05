@@ -31,6 +31,7 @@ map{ id = "examples/dungeon_store", description = "Dungeon store" }
 map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle outside" }
 map{ id = "examples/island", description = "island" }
 map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
+map{ id = "examples/others", description = "Others" }
 map{ id = "examples/outside_store", description = "Outside Store" }
 map{ id = "houses/east_prairie/telephone_booth_5", description = "Telephone booth 5" }
 map{ id = "houses/egg_of_the_dream_fish/photographer_house", description = "Photographer house" }
@@ -120,6 +121,7 @@ sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" 
 sprite{ id = "enemies/hardhat_beetle_red", description = "Hardhat beetle red" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
+sprite{ id = "enemies/moldorm", description = "Moldorm" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
@@ -154,6 +156,7 @@ sprite{ id = "entities/doors/door_normal", description = "Door" }
 sprite{ id = "entities/doors/door_small_key", description = "Door small key" }
 sprite{ id = "entities/doors/door_very_weak_wall", description = "Door very weak wall" }
 sprite{ id = "entities/doors/door_weak_wall", description = "Door_weak_wall" }
+sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
@@ -184,6 +187,9 @@ sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/somaria_block", description = "Somaria block" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
+sprite{ id = "entities/statue_dungeon_1", description = "Statue dungeon 1" }
+sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
+sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
@@ -303,6 +309,7 @@ sprite{ id = "npc/owl", description = "Owl" }
 sprite{ id = "npc/phone", description = "Phone" }
 sprite{ id = "npc/quadruplet_father", description = "Quadruplet's father" }
 sprite{ id = "npc/quadruplet_mother", description = "Quadruplet's mother" }
+sprite{ id = "npc/richard", description = "Richard" }
 sprite{ id = "npc/seagull", description = "Seagull" }
 sprite{ id = "npc/small_bowwow", description = "Small bowwow" }
 sprite{ id = "npc/tarin", description = "Tarin" }
@@ -519,6 +526,7 @@ enemy{ id = "hardhat_beetle_blue", description = "Hardhat beetle blue" }
 enemy{ id = "hardhat_beetle_red", description = "Hardhat beetle red" }
 enemy{ id = "keese", description = "Keese" }
 enemy{ id = "moblin", description = "Moblin" }
+enemy{ id = "moldorm", description = "Moldorm" }
 enemy{ id = "octorok", description = "Octorok" }
 enemy{ id = "octorok_stone", description = "Octorok stone" }
 enemy{ id = "pike_auto", description = "Pike auto" }

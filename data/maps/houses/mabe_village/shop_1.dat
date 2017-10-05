@@ -381,3 +381,200 @@ tile{
   pattern = "ceiling.2",
 }
 
+stream{
+  layer = 2,
+  x = 128,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 2,
+  x = 144,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 2,
+  x = 160,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 2,
+  x = 176,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 2,
+  x = 192,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 2,
+  x = 208,
+  y = 157,
+  direction = 0,
+}
+
+stream{
+  layer = 2,
+  x = 224,
+  y = 157,
+  direction = 2,
+}
+
+stream{
+  layer = 2,
+  x = 224,
+  y = 141,
+  direction = 2,
+}
+
+stream{
+  layer = 2,
+  x = 224,
+  y = 125,
+  direction = 2,
+}
+
+stream{
+  layer = 2,
+  x = 224,
+  y = 109,
+  direction = 2,
+}
+
+stream{
+  layer = 2,
+  x = 224,
+  y = 93,
+  direction = 2,
+}
+
+stream{
+  layer = 2,
+  x = 224,
+  y = 77,
+  direction = 4,
+}
+
+stream{
+  layer = 2,
+  x = 208,
+  y = 77,
+  direction = 4,
+}
+
+stream{
+  layer = 2,
+  x = 192,
+  y = 77,
+  direction = 4,
+}
+
+stream{
+  layer = 2,
+  x = 176,
+  y = 77,
+  direction = 4,
+}
+
+stream{
+  layer = 2,
+  x = 160,
+  y = 77,
+  direction = 4,
+}
+
+stream{
+  layer = 2,
+  x = 144,
+  y = 77,
+  direction = 4,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 77,
+  direction = 6,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 93,
+  direction = 6,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 109,
+  direction = 6,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 125,
+  direction = 6,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 141,
+  direction = 6,
+}
+
+pickable{
+  layer = 2,
+  x = 144,
+  y = 77,
+  treasure_name = "heart",
+}
+
+pickable{
+  layer = 2,
+  x = 208,
+  y = 77,
+  treasure_name = "rupee",
+}
+
+pickable{
+  layer = 2,
+  x = 224,
+  y = 109,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 2,
+  x = 208,
+  y = 157,
+  treasure_name = "shield",
+}
+
+pickable{
+  layer = 2,
+  x = 128,
+  y = 141,
+  treasure_name = "magic_powder",
+}
+
+pickable{
+  layer = 2,
+  x = 176,
+  y = 117,
+  treasure_name = "magnifying_lens",
+}
+

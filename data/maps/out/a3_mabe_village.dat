@@ -17780,150 +17780,6 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
-custom_entity{
-  name = "butterfly_1",
-  layer = 0,
-  x = 488,
-  y = 469,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_2",
-  layer = 0,
-  x = 416,
-  y = 605,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_3",
-  layer = 0,
-  x = 736,
-  y = 637,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_4",
-  layer = 0,
-  x = 872,
-  y = 373,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_5",
-  layer = 0,
-  x = 864,
-  y = 173,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_6",
-  layer = 0,
-  x = 688,
-  y = 125,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_7",
-  layer = 0,
-  x = 400,
-  y = 325,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_blue",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_8",
-  layer = 0,
-  x = 512,
-  y = 629,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_blue",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_9",
-  layer = 0,
-  x = 816,
-  y = 573,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_blue",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_10",
-  layer = 0,
-  x = 824,
-  y = 421,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_yellow",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_11",
-  layer = 0,
-  x = 696,
-  y = 261,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_yellow",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_12",
-  layer = 0,
-  x = 568,
-  y = 349,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_yellow",
-  model = "butterfly",
-}
-
 destructible{
   layer = 0,
   x = 776,
@@ -18065,66 +17921,6 @@ teletransporter{
   height = 16,
   destination_map = "houses/mabe_village/meow_meow_house",
   destination = "meow_meow_house_1_D",
-}
-
-custom_entity{
-  name = "butterfly_13",
-  layer = 0,
-  x = 72,
-  y = 573,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_yellow",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_14",
-  layer = 0,
-  x = 296,
-  y = 581,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_yellow",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_15",
-  layer = 0,
-  x = 152,
-  y = 445,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_yellow",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_16",
-  layer = 0,
-  x = 64,
-  y = 717,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
-}
-
-custom_entity{
-  name = "butterfly_17",
-  layer = 0,
-  x = 192,
-  y = 621,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/butterfly_red",
-  model = "butterfly",
 }
 
 tile{
@@ -21104,6 +20900,210 @@ tile{
   width = 48,
   height = 8,
   pattern = "1544",
+}
+
+custom_entity{
+  name = "butterfly_1",
+  layer = 1,
+  x = 488,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_2",
+  layer = 1,
+  x = 416,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_3",
+  layer = 1,
+  x = 736,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_4",
+  layer = 1,
+  x = 872,
+  y = 373,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_5",
+  layer = 1,
+  x = 864,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_6",
+  layer = 1,
+  x = 688,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_7",
+  layer = 1,
+  x = 400,
+  y = 325,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_8",
+  layer = 1,
+  x = 512,
+  y = 629,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_9",
+  layer = 1,
+  x = 816,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_10",
+  layer = 1,
+  x = 824,
+  y = 421,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_11",
+  layer = 1,
+  x = 696,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_12",
+  layer = 1,
+  x = 568,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_13",
+  layer = 1,
+  x = 72,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_14",
+  layer = 1,
+  x = 296,
+  y = 581,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_15",
+  layer = 1,
+  x = 152,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_16",
+  layer = 1,
+  x = 64,
+  y = 717,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_17",
+  layer = 1,
+  x = 192,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
 }
 
 npc{

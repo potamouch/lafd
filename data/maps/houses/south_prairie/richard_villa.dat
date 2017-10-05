@@ -625,6 +625,15 @@ custom_entity{
   model = "frog",
 }
 
+npc{
+  layer = 0,
+  x = 216,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/richard",
+}
+
 tile{
   layer = 1,
   x = 144,

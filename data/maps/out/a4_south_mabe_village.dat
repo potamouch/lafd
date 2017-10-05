@@ -48,7 +48,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 24,
+  x = 224,
   y = 0,
   width = 936,
   height = 392,
@@ -7563,177 +7563,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 840,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "8893",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 216,
-  width = 8,
-  height = 24,
-  pattern = "8899",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 232,
-  width = 8,
-  height = 8,
-  pattern = "9478",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "8192",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 208,
-  width = 8,
-  height = 16,
-  pattern = "9480",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "8892",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 224,
-  width = 8,
-  height = 8,
-  pattern = "10817",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 232,
-  width = 8,
-  height = 8,
-  pattern = "10819",
-}
-
-tile{
-  layer = 0,
-  x = 880,
-  y = 216,
-  width = 8,
-  height = 24,
-  pattern = "8898",
-}
-
-tile{
-  layer = 0,
-  x = 880,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "8897",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 208,
-  width = 16,
-  height = 8,
-  pattern = "8900",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 224,
-  width = 16,
-  height = 8,
-  pattern = "9477",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 216,
-  width = 16,
-  height = 8,
-  pattern = "8903",
-}
-
-tile{
-  layer = 0,
-  x = 880,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "8895",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 224,
-  width = 8,
-  height = 8,
-  pattern = "10818",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 208,
-  width = 8,
-  height = 16,
-  pattern = "9482",
-}
-
-tile{
-  layer = 0,
-  x = 880,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "8894",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 232,
-  width = 8,
-  height = 8,
-  pattern = "10820",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 232,
-  width = 8,
-  height = 8,
-  pattern = "9479",
-}
-
-tile{
-  layer = 0,
   x = 304,
   y = 528,
   width = 8,
@@ -8958,24 +8787,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 864,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "8896",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "8191",
-}
-
-tile{
-  layer = 0,
   x = 904,
   y = 184,
   width = 8,
@@ -10045,6 +9856,24 @@ tile{
   pattern = "2203",
 }
 
+tile{
+  layer = 0,
+  x = 856,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "8900",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 192,
+  width = 48,
+  height = 32,
+  pattern = "1058",
+}
+
 teletransporter{
   name = "to_a3",
   layer = 0,
@@ -10210,17 +10039,6 @@ destination{
 }
 
 teletransporter{
-  name = "dungeon_1_1_A",
-  layer = 0,
-  x = 856,
-  y = 208,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "dungeon_1_1_B",
-}
-
-teletransporter{
   name = "to_b4",
   layer = 0,
   x = 960,
@@ -10318,15 +10136,6 @@ enemy{
   y = 141,
   direction = 0,
   breed = "octorok",
-}
-
-npc{
-  name = "dungeon_1_lock",
-  layer = 0,
-  x = 864,
-  y = 333,
-  direction = 3,
-  subtype = 0,
 }
 
 enemy{
@@ -10700,6 +10509,166 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 864,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/entrance_dungeon_1",
+}
+
+wall{
+  layer = 0,
+  x = 856,
+  y = 320,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 864,
+  y = 333,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_1_key",
+}
+
+npc{
+  name = "dungeon_1_lock",
+  layer = 0,
+  x = 864,
+  y = 333,
+  direction = 3,
+  subtype = 0,
+}
+
+wall{
+  layer = 0,
+  x = 824,
+  y = 304,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 832,
+  y = 317,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_1_block",
+}
+
+wall{
+  layer = 0,
+  x = 888,
+  y = 304,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 896,
+  y = 317,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_1_block",
+}
+
+wall{
+  layer = 0,
+  x = 840,
+  y = 208,
+  width = 16,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 872,
+  y = 208,
+  width = 16,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 856,
+  y = 208,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "dungeon_1_entrance_wall",
+  layer = 0,
+  x = 856,
+  y = 224,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  name = "dungeon_1_1_A",
+  layer = 0,
+  x = 856,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "dungeon_1_1_B",
+}
+
+chest{
+  layer = 0,
+  x = 800,
+  y = 277,
+  treasure_name = "tail_key",
+  sprite = "entities/chest",
 }
 
 tile{
@@ -11909,6 +11878,36 @@ custom_entity{
   height = 48,
   direction = 0,
   sprite = "entities/palm",
+}
+
+custom_entity{
+  layer = 1,
+  x = 832,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_1",
+}
+
+custom_entity{
+  layer = 1,
+  x = 896,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_1",
+}
+
+custom_entity{
+  layer = 1,
+  x = 864,
+  y = 317,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_1",
 }
 
 sensor{
