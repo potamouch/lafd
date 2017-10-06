@@ -22,7 +22,7 @@ map{ id = "dungeons/6/1f", description = "Dungeon 6 1F" }
 map{ id = "dungeons/7/1f", description = "Dungeon 7 1F" }
 map{ id = "dungeons/7/2f", description = "Dungeon 7 2F" }
 map{ id = "dungeons/7/3f", description = "Dungeon 7 3F" }
-map{ id = "dungeons/7/4f", description = "Dungeon 7 4F" }
+map{ id = "dungeons/7/3f_bis", description = "Dungeon 7 3F Bis" }
 map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
 map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
 map{ id = "examples/beach_store", description = "Beach Store" }
