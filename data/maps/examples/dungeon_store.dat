@@ -359,6 +359,96 @@ tile{
   pattern = "door.1.support.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 224,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 368,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 368,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 328,
+  width = 8,
+  height = 40,
+  pattern = "door_main.2.floor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 328,
+  width = 32,
+  height = 16,
+  pattern = "door_main.2.floor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 328,
+  width = 8,
+  height = 40,
+  pattern = "door_main.2.floor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 344,
+  width = 32,
+  height = 24,
+  pattern = "door_main.2.floor.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 328,
+  width = 8,
+  height = 40,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 320,
+  width = 8,
+  height = 48,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 320,
+  width = 56,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
 pickable{
   name = "instrument",
   layer = 0,
@@ -438,5 +528,14 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 384,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-2",
 }
 

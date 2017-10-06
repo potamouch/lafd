@@ -48,7 +48,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
+  x = 24,
   y = 0,
   width = 936,
   height = 392,

@@ -558,6 +558,16 @@ chest{
   sprite = "entities/chest",
 }
 
+teletransporter{
+  layer = 0,
+  x = 120,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/7/1f",
+  destination = "destination",
+}
+
 tile{
   layer = 1,
   x = 144,

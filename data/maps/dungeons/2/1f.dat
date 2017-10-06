@@ -438,7 +438,7 @@ tile{
   layer = 0,
   x = 208,
   y = 848,
-  width = 64,
+  width = 72,
   height = 96,
   pattern = "hole",
 }
