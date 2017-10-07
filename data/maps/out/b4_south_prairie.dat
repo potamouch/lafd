@@ -17129,6 +17129,46 @@ teletransporter{
   destination = "_side",
 }
 
+dynamic_tile{
+  name = "richard_villa_1_A_door",
+  layer = 0,
+  x = 592,
+  y = 288,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_richard_villa_1_A_door_sensor",
+  layer = 0,
+  x = 592,
+  y = 317,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "ghost_house_1_A_door",
+  layer = 0,
+  x = 616,
+  y = 704,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_ghost_house_1_A_door_sensor",
+  layer = 0,
+  x = 616,
+  y = 733,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 640,

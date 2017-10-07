@@ -16417,6 +16417,26 @@ destination{
   default = true,
 }
 
+dynamic_tile{
+  name = "photographer_house_1_A_door",
+  layer = 0,
+  x = 736,
+  y = 656,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_photographer_house_1_A_door_sensor",
+  layer = 0,
+  x = 736,
+  y = 685,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 712,

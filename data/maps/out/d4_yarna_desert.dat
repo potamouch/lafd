@@ -8868,6 +8868,86 @@ separator{
   height = 432,
 }
 
+dynamic_tile{
+  name = "rabbits_house_1_A_door",
+  layer = 0,
+  x = 88,
+  y = 96,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_rabbits_house_1_A_door_sensor",
+  layer = 0,
+  x = 88,
+  y = 125,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "bear_house_1_A_2_door",
+  layer = 0,
+  x = 296,
+  y = 96,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_bear_house_1_A_2_door_sensor",
+  layer = 0,
+  x = 296,
+  y = 125,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "empty_house_1_A_door",
+  layer = 0,
+  x = 376,
+  y = 96,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_empty_house_1_A_door_sensor",
+  layer = 0,
+  x = 376,
+  y = 125,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "bear_house_1_A_door",
+  layer = 0,
+  x = 368,
+  y = 296,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_bear_house_1_A_door_sensor",
+  layer = 0,
+  x = 368,
+  y = 325,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 400,

@@ -10872,6 +10872,26 @@ npc{
   behavior = "dialog#maps.out.west_mt_tamaranch.sign_1",
 }
 
+dynamic_tile{
+  name = "mr_write_house_1_A_door",
+  layer = 0,
+  x = 152,
+  y = 592,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_mr_write_house_1_A_door_sensor",
+  layer = 0,
+  x = 152,
+  y = 621,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 200,
