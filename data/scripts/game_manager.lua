@@ -63,15 +63,38 @@ end
   local destructible_meta = sol.main.get_metatable("destructible")
   -- destructible_meta represents the shared behavior of all destructible objects.
 
+function destructible_meta:on_created()
+
+    -- Here, self is the destructible object.
+    local game = self:get_game()
+    local hero = game:get_hero()
+    local sprite = self:get_sprite()
+    if self:get_weight() == 3 then
+      sol.timer.start(self, 50, function()
+            if hero:get_distance(self) <= 24 then
+              sprite:set_animation('destroy')
+              self:remove()
+            end
+          return true
+        end)
+    end
+   
+  end
+
   function destructible_meta:on_looked()
 
     -- Here, self is the destructible object.
     local game = self:get_game()
-    if self:get_can_be_cut() == false then
-      if not game:has_ability("lift") then
-        game:start_dialog("_cannot_lift_too_heavy");
-      else
-        game:start_dialog("_cannot_lift_still_too_heavy");
+    local sprite = self:get_sprite()
+    if self:get_weight() == 3 then
+      game:start_dialog("_cannot_break_without_boots");
+    else
+      if self:get_can_be_cut() == false then
+        if not game:has_ability("lift") then
+          game:start_dialog("_cannot_lift_too_heavy");
+        else
+          game:start_dialog("_cannot_lift_still_too_heavy");
+        end
       end
     end
   end

@@ -554,6 +554,7 @@ entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "butterfly", description = "Butterfly" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
+entity{ id = "green_crystal", description = "Green crystal" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }

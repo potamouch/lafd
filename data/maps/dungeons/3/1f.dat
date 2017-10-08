@@ -5730,7 +5730,7 @@ crystal_block{
 chest{
   layer = 0,
   x = 432,
-  y = 885,
+  y = 877,
   sprite = "entities/chest",
 }
 
@@ -5777,20 +5777,6 @@ stairs{
   subtype = 4,
 }
 
-destructible{
-  layer = 0,
-  x = 376,
-  y = 1421,
-  sprite = "entities/green_cristal",
-}
-
-destructible{
-  layer = 0,
-  x = 376,
-  y = 1437,
-  sprite = "entities/green_cristal",
-}
-
 destination{
   name = "destination",
   layer = 0,
@@ -5805,6 +5791,36 @@ stairs{
   y = 1448,
   direction = 1,
   subtype = 4,
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 1437,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/green_cristal",
+  model = "green_crystal",
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 1421,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/green_cristal",
+  model = "green_crystal",
+}
+
+chest{
+  layer = 0,
+  x = 440,
+  y = 1709,
+  treasure_name = "pegasus_shoes",
+  sprite = "entities/chest",
 }
 
 tile{
