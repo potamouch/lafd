@@ -12130,7 +12130,7 @@ chest{
 
 wall{
   layer = 0,
-  x = 792,
+  x = 816,
   y = 984,
   width = 16,
   height = 80,
