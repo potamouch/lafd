@@ -10,6 +10,17 @@ function enemy_meta:receive_attack_consequence(attack, reaction)
     self:hurt(reaction)
   elseif reaction == "immobilized" then
     self:immobilize()
+  elseif reaction == "scared" then
+    sol.timer.stop_all(self)  -- Stop the towards_hero behavior.
+      local hero = self:get_map():get_hero()
+      local angle = hero:get_angle(self)
+      local movement = sol.movement.create("straight")
+      movement:set_speed(128)
+      movement:set_angle(angle)
+      movement:start(self)
+      sol.timer.start(self, 400, function()
+        self:restart()
+      end)
   elseif reaction == "protected" then
     sol.audio.play_sound("sword_tapping")
   elseif reaction == "custom" then

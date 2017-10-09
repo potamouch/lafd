@@ -6679,6 +6679,24 @@ tile{
   pattern = "958",
 }
 
+tile{
+  layer = 0,
+  x = 400,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "124",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 376,
+  width = 32,
+  height = 8,
+  pattern = "123",
+}
+
 destructible{
   layer = 0,
   x = 48,
@@ -8861,20 +8879,30 @@ destructible{
 }
 
 separator{
+  name = "separator_1",
   layer = 0,
-  x = 504,
-  y = 0,
-  width = 16,
-  height = 432,
+  x = 0,
+  y = 464,
+  width = 464,
+  height = 16,
 }
 
-tile{
-  layer = 1,
-  x = 400,
-  y = 376,
-  width = 8,
-  height = 8,
-  pattern = "124",
+separator{
+  name = "separator_2",
+  layer = 0,
+  x = 464,
+  y = -32,
+  width = 16,
+  height = 496,
+}
+
+separator{
+  name = "separator_3",
+  layer = 0,
+  x = 464,
+  y = 480,
+  width = 16,
+  height = 288,
 }
 
 tile{
@@ -10198,15 +10226,6 @@ tile{
   width = 80,
   height = 32,
   pattern = "6817",
-}
-
-tile{
-  layer = 1,
-  x = 368,
-  y = 376,
-  width = 32,
-  height = 8,
-  pattern = "123",
 }
 
 tile{

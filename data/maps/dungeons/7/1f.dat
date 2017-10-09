@@ -6594,14 +6594,6 @@ destructible{
   weight = 1,
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 480,
-  y = 965,
-  direction = 1,
-}
-
 destructible{
   layer = 0,
   x = 200,
@@ -6712,16 +6704,6 @@ teletransporter{
   height = 16,
   destination_map = "dungeons/7/2f",
   destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 472,
-  y = 920,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/3/1f",
-  destination = "destination",
 }
 
 tile{
