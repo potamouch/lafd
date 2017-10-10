@@ -530,6 +530,33 @@ tile{
   pattern = "barrier.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 192,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.spiral_up.1",
+}
+
 pickable{
   name = "instrument",
   layer = 0,
@@ -654,5 +681,23 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.stairs.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 448,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 448,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.1-2",
 }
 
