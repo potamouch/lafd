@@ -20621,6 +20621,26 @@ teletransporter{
   destination = "_side",
 }
 
+dynamic_tile{
+  name = "witch_1_A_door",
+  layer = 0,
+  x = 352,
+  y = 424,
+  pattern = "6020",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "open_house_witch_1_A_door_sensor",
+  layer = 0,
+  x = 360,
+  y = 453,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 736,
