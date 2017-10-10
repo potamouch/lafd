@@ -12865,24 +12865,6 @@ wall{
 }
 
 enemy{
-  name = "enemy_group_10_2",
-  layer = 0,
-  x = 1744,
-  y = 845,
-  direction = 0,
-  breed = "bubble",
-}
-
-enemy{
-  name = "enemy_group_10_3",
-  layer = 0,
-  x = 1744,
-  y = 949,
-  direction = 0,
-  breed = "bubble",
-}
-
-enemy{
   name = "enemy_group_13_2",
   layer = 0,
   x = 1704,
@@ -13162,6 +13144,52 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
+}
+
+custom_entity{
+  name = "placeholder_boss",
+  layer = 0,
+  x = 2080,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 2032,
+  y = 445,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1424,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "destination",
+}
+
+enemy{
+  name = "enemy_group_10_2",
+  layer = 0,
+  x = 1768,
+  y = 941,
+  direction = 0,
+  breed = "fireball",
+}
+
+enemy{
+  name = "enemy_group_10_3",
+  layer = 0,
+  x = 1840,
+  y = 949,
+  direction = 0,
+  breed = "fireball",
 }
 
 tile{
