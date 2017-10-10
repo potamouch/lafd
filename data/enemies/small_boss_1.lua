@@ -38,14 +38,19 @@ function enemy:on_created()
     layer = layer
   }
   sprite_spike = spike:get_sprite()
-  sprite_spike:set_animation("stopped")
-  enemy:go_to_spike()
   sol.timer.start(spike, 150, function()
     if spike_move then
       sol.audio.play_sound("rolling_spike")
     end
     return true
   end)
+
+end
+
+function enemy:on_restarted()
+
+  sprite_spike:set_animation("stopped")
+  enemy:go_to_spike()
 
 end
 

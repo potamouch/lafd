@@ -1,71 +1,46 @@
--- Lua script of enemy moldorm.
--- This script is executed every time an enemy with this model is created.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation for the full specification
--- of types, events and methods:
--- http://www.solarus-games.org/doc/latest
-
 local enemy = ...
 local game = enemy:get_game()
 local map = enemy:get_map()
 local hero = map:get_hero()
-local sprite_head
-local circle_x
-local circle_y
-local angle = 0
-local clockwise = nil
-
--- Event called when the enemy is initialized.
-function enemy:on_created()
-
-  local x, y, layer = enemy:get_position()
-  circle_x = x
-  circle_y = y
-  sprite_head = enemy:create_sprite("enemies/" .. enemy:get_breed() .. "_head")
-  enemy:set_life(4)
-  enemy:set_damage(1)
-  enemy:set_traversable(true)
-
-end
+local movement
+enemy:create_sprite("enemies/" .. enemy:get_breed() .. '_head')
 
 function enemy:on_restarted()
 
-  enemy:start_move()
+  local x, y = enemy:get_position()
+  enemy:go(true, 0, x - 32, y)
+
+  sol.timer.start(enemy, 1000, function()
+    enemy:repeat_switch_side()
+  end)
 
 end
 
-function enemy:start_move()
+function enemy:repeat_switch_side()
 
-    sol.timer.start(hero, math.random(1000), function()
-        enemy:update_movement()
-        return true
-    end)
-
+  local x, y = enemy:get_position()
+  local clockwise = not movement:is_clockwise()
+  local center_x, center_y = x - (movement.center_x - x), y - (movement.center_y - y)
+  local angle = sol.main.get_angle(center_x, center_y, x, y)
+  enemy:go(clockwise, angle, center_x, center_y)
+  sol.timer.start(enemy, math.random(1000, 3000), function()
+    enemy:repeat_switch_side()
+  end)
 end
 
-function enemy:update_movement()
+function enemy:go(clockwise, angle, center_x, center_y)
 
-      local x, y, layer = enemy:get_position()
-      local clockwise_new = math.random(2)
-      if clockwise_new ~= clockwise then
-        clockwise = clockwise_new
-        local movement = sol.movement.create("circle")
-        angle = angle + math.pi
-        movement:set_radius(32)
-        movement:set_angle_speed(90)
-        movement:set_initial_angle(angle)
-        circle_x, circle_y = x - (circle_x - x), y - (circle_y - y)
-        if clockwise == 1 then
-          movement:set_clockwise(true)
-        else
-          movement:set_clockwise(false)
-        end
-        movement:set_center(circle_x, circle_y)
-        movement:start(enemy)
-      end
-     
-
+  movement = sol.movement.create("circle")
+  movement:set_radius(32)
+  movement:set_angle_speed(180)
+  local angle_degrees = angle * 360 / (2 * math.pi)
+  movement:set_initial_angle(angle_degrees)
+  movement:set_ignore_obstacles(false)
+  movement:set_clockwise(clockwise)
+  movement:set_center(center_x, center_y)
+  movement.center_x, movement.center_y = center_x, center_y
+  function movement:on_obstacle_reached()
+    movement:set_clockwise(not movement:is_clockwise())
+  end
+  movement:start(enemy)
 end
