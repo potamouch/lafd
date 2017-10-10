@@ -13068,15 +13068,6 @@ wall{
   stops_blocks = true,
 }
 
-chest{
-  layer = 0,
-  x = 1152,
-  y = 1413,
-  treasure_name = "bomb_bag",
-  treasure_variant = 3,
-  sprite = "entities/chest",
-}
-
 door{
   name = "weak_wall_A_1",
   layer = 0,
@@ -13117,20 +13108,10 @@ destination{
 }
 
 custom_entity{
-  name = "dungeon_teleporter_A",
+  name = "teletransporter_A",
   layer = 0,
   x = 2080,
-  y = 901,
-  width = 16,
-  height = 16,
-  direction = 0,
-}
-
-custom_entity{
-  name = "dungeon_teleporter_B",
-  layer = 0,
-  x = 1120,
-  y = 1413,
+  y = 885,
   width = 16,
   height = 16,
   direction = 0,
@@ -13156,24 +13137,6 @@ custom_entity{
   direction = 0,
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 2032,
-  y = 445,
-  direction = 1,
-}
-
-teletransporter{
-  layer = 0,
-  x = 1112,
-  y = 1424,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "destination",
-}
-
 enemy{
   name = "enemy_group_10_2",
   layer = 0,
@@ -13190,6 +13153,50 @@ enemy{
   y = 949,
   direction = 0,
   breed = "fireball",
+}
+
+destination{
+  name = "teletransporter_destination_A",
+  layer = 0,
+  x = 2080,
+  y = 909,
+  direction = 1,
+}
+
+custom_entity{
+  name = "teletransporter_B",
+  layer = 0,
+  x = 1120,
+  y = 1405,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+destination{
+  name = "teletransporter_destination_B",
+  layer = 0,
+  x = 1120,
+  y = 1421,
+  direction = 1,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 1120,
+  y = 1477,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1040,
+  y = 1456,
+  width = 16,
+  height = 16,
+  destination_map = "houses/mabe_village/marine_house",
+  destination = "marine_house_1_B",
 }
 
 tile{

@@ -145,3 +145,9 @@ function enemy:change_direction()
     sprite_enemy:set_direction(0)
   end
 end
+
+function enemy:on_dead()
+
+  spike:remove()
+
+end

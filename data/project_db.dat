@@ -206,6 +206,7 @@ sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 ke
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
+sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
@@ -463,6 +464,8 @@ sound{ id = "sword1", description = "Sword 1" }
 sound{ id = "sword_spin_attack_load", description = "Sword spin attack load" }
 sound{ id = "sword_spin_attack_release", description = "Sword spin attack release" }
 sound{ id = "sword_tapping", description = "Sword tapping" }
+sound{ id = "teletransporter", description = "Teletransporter" }
+sound{ id = "teletransporter_appear", description = "Teletransporter appear" }
 sound{ id = "throw", description = "Throw" }
 sound{ id = "treasure", description = "Get treasure" }
 sound{ id = "treasure_2", description = "Get treasure 2" }

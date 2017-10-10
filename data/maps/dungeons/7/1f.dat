@@ -6706,6 +6706,24 @@ teletransporter{
   destination = "_same",
 }
 
+destination{
+  name = "destination",
+  layer = 0,
+  x = 480,
+  y = 957,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 416,
+  y = 944,
+  width = 16,
+  height = 16,
+  destination_map = "houses/mabe_village/marine_house",
+  destination = "marine_house_1_B",
+}
+
 tile{
   layer = 1,
   x = 32,

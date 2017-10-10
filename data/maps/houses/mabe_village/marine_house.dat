@@ -558,6 +558,90 @@ destructible{
   weight = 1,
 }
 
+teletransporter{
+  layer = 0,
+  x = 104,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "destination",
+}
+
+teletransporter{
+  layer = 0,
+  x = 136,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/3/1f",
+  destination = "destination",
+}
+
+teletransporter{
+  layer = 0,
+  x = 168,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/7/1f",
+  destination = "destination",
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 101,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 85,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 85,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 101,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 101,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 85,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
 tile{
   layer = 1,
   x = 144,

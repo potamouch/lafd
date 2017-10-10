@@ -24,6 +24,7 @@ function map:on_started()
   local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
   treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_small_key_2_appear", treasure, "placeholder_small_key_2")
   switch_manager:activate_when_savegame_exist(map, "dungeon_1_small_key_2_appear", "switch_1")
+  enemy_manager:create_teletransporter_if_small_boss_dead(map, "dungeon_1_small_boss", false)
 
 end
 
@@ -80,7 +81,7 @@ function sensor_3:on_activated()
 
   if is_small_boss_active == false then
     is_small_boss_active = true
-    enemy_manager:launch_small_boss_if_not_dead(map, "small_boss", "door_group_3",  "placeholder_small_boss", 1)
+    enemy_manager:launch_small_boss_if_not_dead(map, "dungeon_1_small_boss", "door_group_3",  "placeholder_small_boss", 1)
   end
 
 end
@@ -89,7 +90,7 @@ function sensor_4:on_activated()
 
   if is_boss_active == false then
     is_boss_active = true
-    enemy_manager:launch_boss_if_not_dead(map, "boss", "dungeon_1_door_group_4", "placeholder_boss", 1)
+    enemy_manager:launch_boss_if_not_dead(map, "dungeon_1_boss", "dungeon_1_door_group_4", "placeholder_boss", 1)
   end
 
 end
