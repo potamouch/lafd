@@ -42,15 +42,27 @@ function enemy_manager:execute_when_vegas_dead(map, enemy_prefix)
 end
 
 -- Launch battle if small boss in the room are not dead
-function enemy_manager:launch_small_boss_if_not_dead(map, save, door_prefix)
+function enemy_manager:launch_small_boss_if_not_dead(map, save, door_prefix, placeholder, dungeon)
 
+    local placeholder = map:get_entity(placeholder)
+    local x,y,layer = placeholder:get_position()
+    local game = map:get_game()
+    placeholder:set_enabled(false)
+    map:create_enemy{
+                  sprite = "enemies/small_boss_1",
+                  breed = "small_boss_1",
+                  direction = 2,
+                  x = x,
+                  y = y,
+                  layer = layer
+                }
     map:close_doors(door_prefix)
-    sol.audio.play_music("maps/dungeons/boss_small")
+    sol.audio.play_music("maps/dungeons/small_boss")
         
 end
 
 -- Launch battle if  boss in the room are not dead
-function enemy_manager:launch_boss_if_not_dead(map, save, door_prefix)
+function enemy_manager:launch_boss_if_not_dead(map, save, door_prefix, placeholder, dungeon)
 
     map:close_doors(door_prefix)
     sol.audio.play_music("boss")

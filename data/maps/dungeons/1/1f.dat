@@ -13134,6 +13134,36 @@ destination{
   direction = 2,
 }
 
+custom_entity{
+  name = "dungeon_teleporter_A",
+  layer = 0,
+  x = 2080,
+  y = 901,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "dungeon_teleporter_B",
+  layer = 0,
+  x = 1120,
+  y = 1413,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "placeholder_small_boss",
+  layer = 0,
+  x = 2176,
+  y = 893,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
 tile{
   layer = 1,
   x = 1576,
@@ -15084,7 +15114,7 @@ separator{
 separator{
   layer = 2,
   x = 0,
-  y = 1008,
+  y = 1016,
   width = 2240,
   height = 16,
 }

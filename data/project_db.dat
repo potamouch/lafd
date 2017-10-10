@@ -111,7 +111,6 @@ tileset{ id = "out/outside", description = "Outside" }
 sprite{ id = "enemies/beamos", description = "Beamos" }
 sprite{ id = "enemies/blob_green", description = "Blob green" }
 sprite{ id = "enemies/blob_red", description = "Blob red" }
-sprite{ id = "enemies/boss_small_1", description = "Small boss 1" }
 sprite{ id = "enemies/bubble", description = "Bubble" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
@@ -127,8 +126,9 @@ sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
 sprite{ id = "enemies/pike_detect", description = "Pike detect" }
 sprite{ id = "enemies/pike_fixed", description = "Pike fixed" }
-sprite{ id = "enemies/rolling_spike_trap", description = "Rolling spike" }
+sprite{ id = "enemies/rolling_spike_vertical", description = "Rolling spike vertical" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
+sprite{ id = "enemies/small_boss_1", description = "Small boss 1" }
 sprite{ id = "enemies/stalfos_blue", description = "Stalfos blue" }
 sprite{ id = "enemies/stalfos_grey", description = "Stalfos grey" }
 sprite{ id = "enemies/stalfos_red", description = "Stalfos red" }
@@ -345,10 +345,11 @@ music{ id = "maps/dungeons/8/dungeon", description = "Dungeon 8" }
 music{ id = "maps/dungeons/8/instrument", description = "Instrument" }
 music{ id = "maps/dungeons/9/dungeon", description = "Dungeon 9" }
 music{ id = "maps/dungeons/boss", description = "Boss" }
-music{ id = "maps/dungeons/boss_small", description = "Small boss" }
 music{ id = "maps/dungeons/dungeon_end", description = "Dungeon end" }
 music{ id = "maps/dungeons/instrument", description = "Introduction instrument" }
+music{ id = "maps/dungeons/instruments", description = "Instruments" }
 music{ id = "maps/dungeons/passageways", description = "Passageways" }
+music{ id = "maps/dungeons/small_boss", description = "Small boss" }
 music{ id = "maps/houses/cucco_house", description = "Cucco's House" }
 music{ id = "maps/houses/ghost_house", description = "Ghost's house" }
 music{ id = "maps/houses/inside", description = "Inside" }
@@ -525,7 +526,6 @@ item{ id = "wind_marimba", description = "Wind marimba" }
 enemy{ id = "beamos", description = "Beamos" }
 enemy{ id = "blob_green", description = "Blob green" }
 enemy{ id = "blob_red", description = "Blob red" }
-enemy{ id = "boss_small_1", description = "Small boss 1" }
 enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "chicken_mortal", description = "Chicken mortal" }
@@ -542,8 +542,9 @@ enemy{ id = "octorok_stone", description = "Octorok stone" }
 enemy{ id = "pike_auto", description = "Pike auto" }
 enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }
-enemy{ id = "rolling_spike_trap", description = "Rolling spike trap" }
+enemy{ id = "rolling_spike_vertical", description = "Rolling spike vertical" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
+enemy{ id = "small_boss_1", description = "Small boss 1" }
 enemy{ id = "stalfos_blue", description = "Stalfos blue" }
 enemy{ id = "stalfos_grey", description = "Stalfos grey" }
 enemy{ id = "stalfos_red", description = "Stalfos red" }

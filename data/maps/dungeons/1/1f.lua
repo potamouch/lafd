@@ -10,6 +10,8 @@
 local map = ...
 local separator = ...
 local game = map:get_game()
+local is_small_boss_active = false
+local is_boss_active = false
 
 local door_manager = require("scripts/maps/door_manager")
 local treasure_manager = require("scripts/maps/treasure_manager")
@@ -76,13 +78,19 @@ end
 
 function sensor_3:on_activated()
 
-  enemy_manager:launch_small_boss_if_not_dead(map, "small_boss", "door_group_3")
+  if is_small_boss_active == false then
+    is_small_boss_active = true
+    enemy_manager:launch_small_boss_if_not_dead(map, "small_boss", "door_group_3",  "placeholder_small_boss", 1)
+  end
 
 end
 
 function sensor_4:on_activated()
 
-  enemy_manager:launch_boss_if_not_dead(map, "boss", "dungeon_1_door_group_4")
+  if is_boss_active == false then
+    is_boss_active = true
+    enemy_manager:launch_boss_if_not_dead(map, "boss", "dungeon_1_door_group_4", "placeholder_boss", 1)
+  end
 
 end
 
