@@ -45,7 +45,7 @@ end
 function enemy_manager:launch_small_boss_if_not_dead(map, save, door_prefix)
 
     map:close_doors(door_prefix)
-    sol.audio.play_music("boss_small")
+    sol.audio.play_music("maps/dungeons/boss_small")
         
 end
 

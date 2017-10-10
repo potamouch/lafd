@@ -1,4 +1,16 @@
 dialog{
+  id = "_cannot_break_without_boots",
+  skip = "all",
+  text = [[
+Oh ! Quel        
+drôle d'objet !  
+Peut-être que tu
+peux le briser  
+en fonçant dedans.
+]]
+}
+
+dialog{
   id = "_cannot_lift_should_cut",
   skip = "all",
   text = [[

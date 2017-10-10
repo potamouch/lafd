@@ -13,13 +13,16 @@ local game = map:get_game()
 
 local door_manager = require("scripts/maps/door_manager")
 local treasure_manager = require("scripts/maps/treasure_manager")
+local switch_manager = require("scripts/maps/switch_manager")
 local enemy_manager = require("scripts/maps/enemy_manager")
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
+  treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_small_key_2_appear", treasure, "placeholder_small_key_2")
+  switch_manager:activate_when_savegame_exist(map, "dungeon_1_small_key_2_appear", "switch_1")
+
 end
 
 -- Event called after the opening transition effect of the map,
@@ -45,13 +48,12 @@ end
 
 -- Treasures
 
-
 local treasure = {"small_key", 1, "dungeon_1_small_key_1"}
-treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", treasure, "placeholder_small_key_1")
+treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", treasure, "placeholder_small_key_1", "dungeon_1_small_key_1_appear", true)
 local treasure = {"rupee", 3, "dungeon_1_rupee_1"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1")
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1", "dungeon_1_rupee_1_appear", true)
 local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone")
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone", true)
 
 -- Doors
 
@@ -96,7 +98,7 @@ end
 function switch_1:on_activated()
 
   local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
-  treasure_manager:appear_chest(map, treasure, "placeholder_small_key_2")
+  treasure_manager:appear_chest(map, treasure, "placeholder_small_key_2", "dungeon_1_small_key_2_appear", true)
 
 end
 
@@ -118,3 +120,13 @@ function map:on_obtaining_treasure(item, variant, savegame_variable)
 
 end
 
+
+-- Doors events
+
+function weak_wall_A_1:on_opened()
+
+  weak_wall_closed_A_1:remove();
+  weak_wall_closed_A_2:remove();
+  sol.audio.play_sound("secret_1")
+
+end
