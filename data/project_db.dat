@@ -114,6 +114,7 @@ sprite{ id = "enemies/blob_red", description = "Blob red" }
 sprite{ id = "enemies/boss_1_body_1", description = "Boss 1 body 1" }
 sprite{ id = "enemies/boss_1_body_2", description = "Boss 1 body 2" }
 sprite{ id = "enemies/boss_1_body_3", description = "Boss 1 body 3" }
+sprite{ id = "enemies/boss_1_eyes", description = "Boss eyes" }
 sprite{ id = "enemies/boss_1_head", description = "Boss 1 head" }
 sprite{ id = "enemies/boss_1_tail", description = "Boss 1 tail" }
 sprite{ id = "enemies/bubble", description = "Bubble" }
