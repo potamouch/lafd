@@ -178,6 +178,8 @@ sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake brown" }
 sprite{ id = "entities/hammer_stake_green", description = "Hammer stake green" }
 sprite{ id = "entities/hammer_stake_yellow", description = "Hammer stake yellow" }
 sprite{ id = "entities/heart", description = "Heart" }
+sprite{ id = "entities/heart_fly", description = "Heart fly" }
+sprite{ id = "entities/heart_fly_shadow", description = "Heart fly shadow" }
 sprite{ id = "entities/hint_stone", description = "Hint stone" }
 sprite{ id = "entities/hook", description = "Hook" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
@@ -211,6 +213,7 @@ sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
+sprite{ id = "entities/teletransporter_dungeon", description = "Teletransporter dungeon" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
@@ -503,6 +506,7 @@ item{ id = "golden_leaves_counter", description = "Golden leafs counter" }
 item{ id = "hammer", description = "Hammer" }
 item{ id = "heart", description = "Heart" }
 item{ id = "heart_container", description = "Heart container" }
+item{ id = "heart_fly", description = "Heart fly" }
 item{ id = "hookshot", description = "Hookshot" }
 item{ id = "magic_powder", description = "Magic Powder" }
 item{ id = "magic_powders_counter", description = "Magic powders counter" }
@@ -541,6 +545,10 @@ enemy{ id = "beamos", description = "Beamos" }
 enemy{ id = "blob_green", description = "Blob green" }
 enemy{ id = "blob_red", description = "Blob red" }
 enemy{ id = "boss_1", description = "Boss 1" }
+enemy{ id = "boss_1_body_1", description = "Boss 1 body 1" }
+enemy{ id = "boss_1_body_2", description = "Boss 1 body 2" }
+enemy{ id = "boss_1_body_3", description = "Boss 1 body 3" }
+enemy{ id = "boss_1_tail", description = "Boss 1 tail" }
 enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "chicken_mortal", description = "Chicken mortal" }
@@ -571,6 +579,7 @@ entity{ id = "butterfly", description = "Butterfly" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }
+entity{ id = "heart_fly", description = "Heart fly" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }

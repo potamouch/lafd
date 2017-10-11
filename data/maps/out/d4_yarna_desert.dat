@@ -8976,15 +8976,6 @@ sensor{
   height = 16,
 }
 
-tile{
-  layer = 1,
-  x = 400,
-  y = 376,
-  width = 8,
-  height = 8,
-  pattern = "124",
-}
-
 separator{
   name = "separator_3",
   layer = 0,
@@ -8992,6 +8983,15 @@ separator{
   y = 480,
   width = 16,
   height = 288,
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "124",
 }
 
 tile{
@@ -10576,3 +10576,4 @@ custom_entity{
   direction = 1,
   sprite = "entities/palm",
 }
+

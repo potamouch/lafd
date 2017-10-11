@@ -1,0 +1,9 @@
+animation{
+  name = "normal",
+  src_image = "entities/teletransporter_dungeon.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 4, origin_y = 4, num_frames = 8 },
+  },
+}

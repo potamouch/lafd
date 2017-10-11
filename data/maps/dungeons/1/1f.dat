@@ -13167,7 +13167,7 @@ custom_entity{
   name = "teletransporter_B",
   layer = 0,
   x = 1120,
-  y = 1405,
+  y = 1389,
   width = 16,
   height = 16,
   direction = 0,
@@ -13197,6 +13197,17 @@ teletransporter{
   height = 16,
   destination_map = "houses/mabe_village/marine_house",
   destination = "marine_house_1_B",
+}
+
+custom_entity{
+  layer = 0,
+  x = 160,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/heart_fly",
+  model = "heart_fly",
 }
 
 tile{
@@ -14187,6 +14198,17 @@ chest{
   treasure_name = "boss_key",
   treasure_savegame_variable = "dungeon_1_chest_boss_key",
   sprite = "entities/big_chest",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1088,
+  y = 1437,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/heart_fly",
+  model = "heart_fly",
 }
 
 tile{

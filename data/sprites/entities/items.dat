@@ -1,11 +1,4 @@
 animation{
-  name = "random",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 0, origin_y = 0 },
-  },
-}
-animation{
   name = "angler_key",
   src_image = "entities/items.png",
   directions = {
@@ -484,6 +477,13 @@ animation{
     { x = 496, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 496, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 496, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "random",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 1, frame_height = 1, origin_x = 0, origin_y = 0 },
   },
 }
 animation{
