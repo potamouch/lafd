@@ -19,6 +19,11 @@ function enemy:on_created()
   else
     clockwise = true
   end
+
+end
+
+function enemy:on_restarted()
+
   enemy:go()
 
 end
@@ -28,7 +33,7 @@ function enemy:go()
   movement:set_angle(angle)
   movement:set_speed(96)
   movement:start(self)
-  sol.timer.start(hero, 50, function()
+  sol.timer.start(enemy, 50, function()
     enemy:calculate_new_angle()
     movement:set_angle(angle)
     return true
