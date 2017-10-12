@@ -11344,105 +11344,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 912,
-  y = 552,
-  width = 96,
-  height = 80,
-  pattern = "933",
-}
-
-tile{
-  layer = 0,
-  x = 1008,
-  y = 552,
-  width = 176,
-  height = 48,
-  pattern = "933",
-}
-
-tile{
-  layer = 0,
-  x = 1184,
-  y = 552,
-  width = 224,
-  height = 80,
-  pattern = "933",
-}
-
-tile{
-  layer = 0,
-  x = 1352,
-  y = 632,
-  width = 32,
-  height = 24,
-  pattern = "933",
-}
-
-tile{
-  layer = 0,
-  x = 1384,
-  y = 528,
-  width = 32,
-  height = 112,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 1352,
-  y = 624,
-  width = 32,
-  height = 32,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 1320,
-  y = 552,
-  width = 32,
-  height = 80,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 1352,
-  y = 544,
-  width = 32,
-  height = 80,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 1176,
-  y = 552,
-  width = 144,
-  height = 80,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 552,
-  width = 272,
-  height = 48,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 912,
-  y = 600,
-  width = 96,
-  height = 32,
-  pattern = "floor.9-Alpha",
-}
-
-tile{
-  layer = 0,
   x = 1168,
   y = 320,
   width = 48,
@@ -12837,8 +12738,8 @@ teletransporter{
 
 stairs{
   layer = 0,
-  x = 2056,
-  y = 648,
+  x = 2104,
+  y = 600,
   direction = 1,
   subtype = 3,
 }
@@ -12901,7 +12802,7 @@ sensor{
 }
 
 door{
-  name = "dungeon_1_door_group_3_3",
+  name = "door_group_3_3",
   layer = 0,
   x = 2072,
   y = 792,
@@ -12937,7 +12838,7 @@ door{
 }
 
 door{
-  name = "dungeon_1_door_group_3_4",
+  name = "door_group_3_4",
   layer = 0,
   x = 2072,
   y = 728,
@@ -13111,7 +13012,7 @@ custom_entity{
   name = "teletransporter_A",
   layer = 0,
   x = 2080,
-  y = 885,
+  y = 909,
   width = 16,
   height = 16,
   direction = 0,
@@ -13137,29 +13038,11 @@ custom_entity{
   direction = 0,
 }
 
-enemy{
-  name = "enemy_group_10_2",
-  layer = 0,
-  x = 1768,
-  y = 941,
-  direction = 0,
-  breed = "fireball",
-}
-
-enemy{
-  name = "enemy_group_10_3",
-  layer = 0,
-  x = 1840,
-  y = 949,
-  direction = 0,
-  breed = "fireball",
-}
-
 destination{
   name = "teletransporter_destination_A",
   layer = 0,
   x = 2080,
-  y = 909,
+  y = 893,
   direction = 1,
 }
 
@@ -13167,7 +13050,7 @@ custom_entity{
   name = "teletransporter_B",
   layer = 0,
   x = 1120,
-  y = 1389,
+  y = 1421,
   width = 16,
   height = 16,
   direction = 0,
@@ -13177,7 +13060,7 @@ destination{
   name = "teletransporter_destination_B",
   layer = 0,
   x = 1120,
-  y = 1421,
+  y = 1405,
   direction = 1,
 }
 
@@ -13208,6 +13091,141 @@ custom_entity{
   direction = 0,
   sprite = "entities/heart_fly",
   model = "heart_fly",
+}
+
+enemy{
+  name = "enemy_group_10_5",
+  layer = 0,
+  x = 1744,
+  y = 861,
+  direction = 0,
+  breed = "fireball",
+}
+
+enemy{
+  name = "enemy_group_10_6",
+  layer = 0,
+  x = 1768,
+  y = 981,
+  direction = 0,
+  breed = "fireball",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 584,
+  y = 373,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1432,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "destination_2",
+}
+
+enemy{
+  name = "enemy_group_10_7",
+  layer = 0,
+  x = 904,
+  y = 469,
+  direction = 0,
+  breed = "fireball",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 552,
+  width = 176,
+  height = 48,
+  pattern = "933",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 632,
+  width = 32,
+  height = 24,
+  pattern = "933",
+}
+
+tile{
+  layer = 1,
+  x = 1184,
+  y = 552,
+  width = 224,
+  height = 80,
+  pattern = "933",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 624,
+  width = 32,
+  height = 32,
+  pattern = "floor.9-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 1384,
+  y = 528,
+  width = 32,
+  height = 112,
+  pattern = "floor.9-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 1320,
+  y = 552,
+  width = 32,
+  height = 80,
+  pattern = "floor.9-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 1176,
+  y = 552,
+  width = 144,
+  height = 80,
+  pattern = "floor.9-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 1352,
+  y = 544,
+  width = 32,
+  height = 80,
+  pattern = "floor.9-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 912,
+  y = 552,
+  width = 96,
+  height = 80,
+  pattern = "933",
+}
+
+tile{
+  layer = 1,
+  x = 904,
+  y = 552,
+  width = 272,
+  height = 48,
+  pattern = "floor.9-Alpha",
 }
 
 tile{
@@ -13555,15 +13573,6 @@ tile{
 tile{
   layer = 1,
   x = 1168,
-  y = 616,
-  width = 16,
-  height = 24,
-  pattern = "barrier_big.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 1168,
   y = 600,
   width = 16,
   height = 16,
@@ -13658,42 +13667,6 @@ tile{
   width = 16,
   height = 24,
   pattern = "barrier_big.border.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 992,
-  y = 552,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 1008,
-  y = 552,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 1184,
-  y = 552,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 1168,
-  y = 552,
-  width = 16,
-  height = 16,
-  pattern = "torch",
 }
 
 tile{
@@ -14182,6 +14155,60 @@ tile{
   pattern = "door_top.2-6",
 }
 
+tile{
+  layer = 1,
+  x = 912,
+  y = 600,
+  width = 96,
+  height = 32,
+  pattern = "floor.9-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 1168,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 1184,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 1,
+  x = 1168,
+  y = 616,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.2-1",
+}
+
 destination{
   name = "stairs_1_B",
   layer = 1,
@@ -14198,17 +14225,6 @@ chest{
   treasure_name = "boss_key",
   treasure_savegame_variable = "dungeon_1_chest_boss_key",
   sprite = "entities/big_chest",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1088,
-  y = 1437,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/heart_fly",
-  model = "heart_fly",
 }
 
 tile{
@@ -15187,9 +15203,9 @@ separator{
 separator{
   layer = 2,
   x = 952,
-  y = 0,
+  y = 512,
   width = 16,
-  height = 1536,
+  height = 1024,
 }
 
 separator{
@@ -15214,5 +15230,13 @@ separator{
   y = 248,
   width = 2240,
   height = 16,
+}
+
+separator{
+  layer = 2,
+  x = 952,
+  y = 0,
+  width = 16,
+  height = 256,
 }
 

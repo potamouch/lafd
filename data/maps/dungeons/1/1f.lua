@@ -62,7 +62,7 @@ treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure,
 
 door_manager:open_when_enemies_dead(map,  "enemy_group_6",  "door_group_1")
 door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_5")
-
+door_manager:open_if_small_boss_dead(map,  "dungeon_1_small_boss",  "door_group_3")
 -- Sensors events
 
 function sensor_1:on_activated()
@@ -90,7 +90,7 @@ function sensor_4:on_activated()
 
   if is_boss_active == false then
     is_boss_active = true
-    enemy_manager:launch_boss_if_not_dead(map, "dungeon_1_boss", "dungeon_1_door_group_4", "placeholder_boss", 1)
+    enemy_manager:launch_boss_if_not_dead(map, "dungeon_1_boss", "door_group_4", "placeholder_boss", 1)
   end
 
 end

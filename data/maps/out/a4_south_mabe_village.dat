@@ -10629,8 +10629,8 @@ teletransporter{
 
 chest{
   layer = 0,
-  x = 800,
-  y = 277,
+  x = 792,
+  y = 237,
   treasure_name = "tail_key",
   sprite = "entities/chest",
 }
@@ -10644,6 +10644,22 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/entrance_dungeon_1_door",
+}
+
+chest{
+  layer = 0,
+  x = 776,
+  y = 237,
+  treasure_name = "shield",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 808,
+  y = 237,
+  treasure_name = "sword",
+  sprite = "entities/chest",
 }
 
 tile{

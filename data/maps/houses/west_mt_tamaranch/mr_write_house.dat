@@ -493,6 +493,16 @@ custom_entity{
   model = "mr_write",
 }
 
+custom_entity{
+  layer = 0,
+  x = 224,
+  y = 69,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "npc/bird",
+}
+
 tile{
   layer = 1,
   x = 144,

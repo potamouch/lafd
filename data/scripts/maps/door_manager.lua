@@ -20,6 +20,16 @@ function door_manager:open_when_enemies_dead(map, enemy_prefix, door_prefix)
 
 end
 
+-- Open doors when small boss is dead
+function door_manager:open_if_small_boss_dead(map, savegame, door_prefix)
+
+    local game = map:get_game()
+    if game:get_value(savegame) then
+        map:set_doors_open(door_prefix, true)
+    end
+
+end
+
 -- Open doors when all blocks in the room are moved
 function door_manager:open_when_blocks_moved(map, block_prefix, door_prefix)
 

@@ -134,6 +134,7 @@ sprite{ id = "enemies/pike_detect", description = "Pike detect" }
 sprite{ id = "enemies/pike_fixed", description = "Pike fixed" }
 sprite{ id = "enemies/rolling_spike_vertical", description = "Rolling spike vertical" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
+sprite{ id = "enemies/slime_green", description = "Slime green" }
 sprite{ id = "enemies/small_boss_1", description = "Small boss 1" }
 sprite{ id = "enemies/stalfos_blue", description = "Stalfos blue" }
 sprite{ id = "enemies/stalfos_grey", description = "Stalfos grey" }
@@ -309,6 +310,7 @@ sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/bear", description = "Bear" }
+sprite{ id = "npc/bird", description = "Bird" }
 sprite{ id = "npc/bowwow", description = "Bowwow" }
 sprite{ id = "npc/butterfly_blue", description = "Butterfly blue" }
 sprite{ id = "npc/butterfly_red", description = "Butterfly red" }
