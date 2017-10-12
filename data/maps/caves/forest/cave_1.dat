@@ -1530,15 +1530,9 @@ destructible{
   layer = 0,
   x = 200,
   y = 109,
+  treasure_name = "random",
   sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 216,
-  y = 93,
-  sprite = "entities/pot",
+  destruction_sound = "stone",
   weight = 1,
 }
 
@@ -1589,6 +1583,16 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 93,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
 tile{
