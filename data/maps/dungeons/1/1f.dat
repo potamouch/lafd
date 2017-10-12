@@ -11765,6 +11765,15 @@ tile{
   pattern = "door.3",
 }
 
+tile{
+  layer = 0,
+  x = 592,
+  y = 872,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.4-2",
+}
+
 dynamic_tile{
   name = "weak_wall_closed_A_2",
   layer = 0,
@@ -12144,6 +12153,7 @@ enemy{
   y = 1413,
   direction = 0,
   breed = "zol_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12171,6 +12181,7 @@ enemy{
   y = 1413,
   direction = 0,
   breed = "zol_green",
+  treasure_name = "quiver",
 }
 
 enemy{
@@ -12180,6 +12191,7 @@ enemy{
   y = 1365,
   direction = 0,
   breed = "zol_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12189,6 +12201,7 @@ enemy{
   y = 1365,
   direction = 0,
   breed = "zol_green",
+  treasure_name = "random",
 }
 
 switch{
@@ -12414,6 +12427,7 @@ enemy{
   y = 1133,
   direction = 3,
   breed = "stalfos_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12423,6 +12437,7 @@ enemy{
   y = 1133,
   direction = 3,
   breed = "stalfos_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12432,6 +12447,7 @@ enemy{
   y = 1205,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12441,6 +12457,7 @@ enemy{
   y = 1205,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12487,6 +12504,7 @@ enemy{
   y = 1149,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12496,6 +12514,7 @@ enemy{
   y = 1149,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12505,6 +12524,7 @@ enemy{
   y = 1181,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12514,6 +12534,7 @@ enemy{
   y = 1181,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 door{
@@ -12613,6 +12634,7 @@ enemy{
   y = 877,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12622,6 +12644,7 @@ enemy{
   y = 973,
   direction = 0,
   breed = "keese",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12631,6 +12654,7 @@ enemy{
   y = 925,
   direction = 3,
   breed = "stalfos_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12640,6 +12664,7 @@ enemy{
   y = 909,
   direction = 3,
   breed = "stalfos_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -12685,6 +12710,7 @@ enemy{
   y = 901,
   direction = 0,
   breed = "zol_green",
+  treasure_name = "random",
 }
 
 chest{
@@ -13064,22 +13090,14 @@ destination{
   direction = 1,
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 1120,
-  y = 1477,
-  direction = 1,
-}
-
 teletransporter{
   layer = 0,
   x = 1040,
   y = 1456,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/marine_house",
-  destination = "marine_house_1_B",
+  destination_map = "dungeons/2/1f",
+  destination = "dungeon_2_1_B",
 }
 
 custom_entity{
@@ -13117,16 +13135,6 @@ destination{
   x = 584,
   y = 373,
   direction = 1,
-}
-
-teletransporter{
-  layer = 0,
-  x = 1112,
-  y = 1432,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "destination_2",
 }
 
 enemy{

@@ -1047,11 +1047,14 @@ des algues !
 }
 
 dialog{
-  id = "_treasure.seashell.1",
+  id = "_treasure.seashells_counter.1",
   icon = "38",
   text = [[
-Tu as trouvé un
-coquillage !
+Tu as trouvé un 
+coquillage !     
+Collectes-en    
+beaucoup pour faire
+du troc...
 ]]
 }
 

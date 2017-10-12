@@ -18,7 +18,6 @@ local treasure_manager = require("scripts/maps/treasure_manager")
 local switch_manager = require("scripts/maps/switch_manager")
 local enemy_manager = require("scripts/maps/enemy_manager")
 
--- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
   local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
@@ -28,8 +27,6 @@ function map:on_started()
 
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished(destination)
     if destination == dungeon_1_1_B then
       map:set_doors_open("door_group_1", true)
@@ -47,22 +44,24 @@ function map:on_opening_transition_finished(destination)
 end
 
 -- Enemies
+
   enemy_manager:execute_when_vegas_dead(map, "enemy_group_13")
 
 -- Treasures
 
 local treasure = {"small_key", 1, "dungeon_1_small_key_1"}
-treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", treasure, "placeholder_small_key_1", "dungeon_1_small_key_1_appear", true)
+treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", treasure, "placeholder_small_key_1", "dungeon_1_small_key_1_appear")
 local treasure = {"rupee", 3, "dungeon_1_rupee_1"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1", "dungeon_1_rupee_1_appear", true)
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1", "dungeon_1_rupee_1_appear")
 local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone", true)
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone")
 
 -- Doors
 
 door_manager:open_when_enemies_dead(map,  "enemy_group_6",  "door_group_1")
 door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_5")
 door_manager:open_if_small_boss_dead(map,  "dungeon_1_small_boss",  "door_group_3")
+
 -- Sensors events
 
 function sensor_1:on_activated()
@@ -128,7 +127,6 @@ function map:on_obtaining_treasure(item, variant, savegame_variable)
     end
 
 end
-
 
 -- Doors events
 

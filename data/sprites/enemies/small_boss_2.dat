@@ -1,0 +1,33 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/small_boss_2.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+  },
+}
+animation{
+  name = "attacked",
+  src_image = "enemies/small_boss_2.png",
+  frame_delay = 200,
+  directions = {
+    { x = 0, y = 56, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 56, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 56, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 56, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 3 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/small_boss_2.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 4 },
+  },
+}

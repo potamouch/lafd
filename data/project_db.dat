@@ -136,12 +136,15 @@ sprite{ id = "enemies/rolling_spike_vertical", description = "Rolling spike vert
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
 sprite{ id = "enemies/slime_green", description = "Slime green" }
 sprite{ id = "enemies/small_boss_1", description = "Small boss 1" }
+sprite{ id = "enemies/small_boss_2", description = "Small boss 2" }
 sprite{ id = "enemies/stalfos_blue", description = "Stalfos blue" }
 sprite{ id = "enemies/stalfos_grey", description = "Stalfos grey" }
 sprite{ id = "enemies/stalfos_red", description = "Stalfos red" }
 sprite{ id = "enemies/vegas", description = "Vegas" }
 sprite{ id = "enemies/zol_green", description = "Zol green" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/ball", description = "Ball" }
+sprite{ id = "entities/ball_shadow", description = "Ball shadow" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
 sprite{ id = "entities/big_chest", description = "Chest (big)" }
 sprite{ id = "entities/block", description = "Block" }
@@ -570,6 +573,7 @@ enemy{ id = "pike_fixed", description = "Pike fixed" }
 enemy{ id = "rolling_spike_vertical", description = "Rolling spike vertical" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
 enemy{ id = "small_boss_1", description = "Small boss 1" }
+enemy{ id = "small_boss_2", description = "Small boss 2" }
 enemy{ id = "stalfos_blue", description = "Stalfos blue" }
 enemy{ id = "stalfos_grey", description = "Stalfos grey" }
 enemy{ id = "stalfos_red", description = "Stalfos red" }
