@@ -1,12 +1,12 @@
 properties{
   x = 0,
-  y = 0,
+  y = 256,
   width = 2240,
   height = 1536,
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_1",
-  floor = 1,
+  floor = 0,
   tileset = "dungeons/pink",
   music = "maps/dungeons/1/dungeon",
 }
@@ -12181,7 +12181,7 @@ enemy{
   y = 1413,
   direction = 0,
   breed = "zol_green",
-  treasure_name = "quiver",
+  treasure_name = "random",
 }
 
 enemy{
@@ -13096,8 +13096,8 @@ teletransporter{
   y = 1456,
   width = 16,
   height = 16,
-  destination_map = "dungeons/8/1f",
-  destination = "destination",
+  destination_map = "dungeons/2/1f",
+  destination = "dungeon_2_1_B",
 }
 
 enemy{
