@@ -180,7 +180,7 @@ function lost_sensor:on_activated()
     end
   end
 
-  -- Put Tarkin above the grass.
+  -- Put Tarin above the grass.
   tarin:bring_to_front()
   tarin_2:bring_to_front()
 end

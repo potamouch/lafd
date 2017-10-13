@@ -10805,7 +10805,7 @@ tile{
 tile{
   layer = 0,
   x = 488,
-  y = 1432,
+  y = 1424,
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.1.top.border.2-1",
@@ -10814,7 +10814,7 @@ tile{
 tile{
   layer = 0,
   x = 464,
-  y = 1432,
+  y = 1424,
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.1.top.border.1-1",

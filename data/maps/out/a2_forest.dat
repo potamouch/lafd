@@ -9183,7 +9183,7 @@ npc{
   y = 341,
   direction = 3,
   subtype = 1,
-  sprite = "npc/tarkin",
+  sprite = "npc/tarin",
 }
 
 teletransporter{
@@ -9196,16 +9196,6 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/b2_graveyard",
   destination = "_side",
-}
-
-npc{
-  name = "tarin_2",
-  layer = 0,
-  x = 912,
-  y = 533,
-  direction = 3,
-  subtype = 0,
-  sprite = "npc/tarkin",
 }
 
 npc{
@@ -11555,6 +11545,16 @@ chest{
   y = 165,
   treasure_name = "hookshot",
   sprite = "entities/chest",
+}
+
+npc{
+  name = "tarin_2",
+  layer = 0,
+  x = 912,
+  y = 533,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/tarin",
 }
 
 tile{
