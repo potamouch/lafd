@@ -10,19 +10,25 @@ end
 -- Called when the player uses the bombs of his inventory by pressing the corresponding item key.
 function item:on_using()
 
-  if self:get_amount() == 0 then
-    sol.audio.play_sound("wrong")
+  if item:get_amount() == 0 then
+    if sound_timer == nil then
+      sol.audio.play_sound("wrong")
+      sound_timer = sol.timer.start(game, 500, function()
+        sound_timer = nil
+      end)
+    end
   else
-    self:remove_amount(1)
-    local x, y, layer = self:create_bomb()
+    item:remove_amount(1)
+    local x, y, layer = item:create_bomb()
     sol.audio.play_sound("bomb")
   end
-  self:set_finished()
+  item:set_finished()
 end
 
 function item:create_bomb()
 
-  local hero = self:get_map():get_entity("hero")
+  local map = item:get_map()
+  local hero = map:get_entity("hero")
   local x, y, layer = hero:get_position()
   local direction = hero:get_direction()
   if direction == 0 then
@@ -35,10 +41,27 @@ function item:create_bomb()
     y = y + 16
   end
 
-  self:get_map():create_bomb{
+  local bomb = map:create_bomb{
     x = x,
     y = y,
     layer = layer
   }
+
+  map.current_bombs = map.current_bombs or {}
+  map.current_bombs[bomb] = true
+
 end
+
+function item:remove_bombs_on_map()
+
+  local map = item:get_map()
+  if map.current_bombs == nil then
+    return
+  end
+  for bomb in pairs(map.current_bombs) do
+    bomb:remove()
+  end
+  map.current_bombs = {}
+end
+
 

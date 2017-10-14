@@ -20,13 +20,34 @@ local function initialize_dungeon_features(game)
       maps = { "dungeons/1/1f"},
       secrets = {
         [0] = {        
-          [15] = "dungeon_1_chest_feather",
-          [18] = "dungeon_1_chest_boss_key",
-          [20] = "dungeon_1_beak_of_stone",
-          [24] = "dungeon_1_rupee_1",
-          [25] = "dungeon_1_small_key_3",
-          [32] = "dungeon_1_small_key_2",
-          [33] = "dungeon_1_map"
+          [15] = {
+            savegame = "dungeon_1_chest_feather",
+            signal = true
+          },
+          [18] = {
+            savegame = "dungeon_1_chest_boss_key",
+            signal = true
+          },
+          [20] = {
+            savegame = "dungeon_1_beak_of_stone",
+            signal = true
+          },
+          [24] = {
+            savegame = "dungeon_1_rupee_1",
+            signal = false
+          },
+          [25] = {
+            savegame = "dungeon_1_small_key_3",
+            signal = true
+          },
+          [32] = {
+            savegame = "dungeon_1_small_key_2",
+            signal = true
+          },
+          [33] = {
+            savegame = "dungeon_1_small_key_2",
+            signal = true
+          }
         }
       },
       boss = {
@@ -36,20 +57,33 @@ local function initialize_dungeon_features(game)
         savegame_variable = "dungeon_1_boss",
       }
     },
- [2] = {
-      lowest_floor = 0,
-      highest_floor = 0,
-      maps = { "dungeons/2/1f"},
-      secrets = {
+   [2] = {
+        lowest_floor = 0,
+        highest_floor = 0,
+        maps = { "dungeons/2/1f"},
+        secrets = {
+        },
+        boss = {
+          floor = 0,
+          x = 640 + 1440,
+          y = 720 + 365,
+          savegame_variable = "dungeon_2_boss",
+        }
       },
-      boss = {
-        floor = 0,
-        x = 640 + 1440,
-        y = 720 + 365,
-        savegame_variable = "dungeon_1_boss",
+   [3] = {
+        lowest_floor = -1,
+        highest_floor = 0,
+        maps = { "dungeons/3/1f"},
+        secrets = {
+        },
+        boss = {
+          floor = 0,
+          x = 640 + 1440,
+          y = 720 + 365,
+          savegame_variable = "dungeon_3_boss",
+        }
       }
     }
-  }
 
   -- Returns the index of the current dungeon if any, or nil.
   function game:get_dungeon_index()
@@ -102,10 +136,37 @@ local function initialize_dungeon_features(game)
       if dungeons_info[dungeon_index]["secrets"][floor][room] == nil then
         return false
       end
-      if game:get_value(dungeons_info[dungeon_index]["secrets"][floor][room]) then
+      if game:get_value(dungeons_info[dungeon_index]["secrets"][floor][room]["savegame"]) then
         return false
       else
         return true
+      end
+
+  end
+
+  function game:is_secret_signal_room(dungeon_index, floor, room)
+
+      dungeon_index = dungeon_index or game:get_dungeon_index()
+      if floor == nil then
+        if game:get_map() ~= nil then
+          floor = game:get_map():get_floor()
+        else
+          floor = 0
+        end
+      end
+      if dungeons_info[dungeon_index] == nil then
+        return false
+      end
+      if dungeons_info[dungeon_index]["secrets"][floor] == nil then
+        return false
+      end
+      if dungeons_info[dungeon_index]["secrets"][floor][room] == nil then
+        return false
+      end
+      if dungeons_info[dungeon_index]["secrets"][floor][room]["signal"] then
+        return true
+      else
+        return false
       end
 
   end

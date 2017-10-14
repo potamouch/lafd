@@ -46,7 +46,7 @@ function hero_meta:on_position_changed(x, y, layer)
     local row = math.floor(y / room_height)
     local room = row * num_columns + column + 1
     local room_old = game:get_value("room")
-    if game:has_dungeon_compass() and room_old ~= room and game:is_secret_room(nil, nil, room) then
+    if game:has_dungeon_compass() and room_old ~= room and game:is_secret_room(nil, nil, room)  and game:is_secret_signal_room(nil, nil, room)then
       sol.audio.play_sound("compass_signal")
     end
     game:set_value("room", room)

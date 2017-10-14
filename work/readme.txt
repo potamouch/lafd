@@ -95,10 +95,11 @@ Bonus - Sidescrolling
 CREDITS
 
 Development : Binbin, Christopho, Neovyse, Metallizer
-Graphics : Neovyse, Newlink
-Mapping : Binbin, Mymy, Christopho, Valoo, Metallizer
-Musics : Jeremiah Sun - The Second Narrator
+Graphics : Nintendo, Neovyse, Newlink, Fire-Luigi, Solink
+Mapping : Binbin, Mymy, Christopho, Valoo, Franck
+Musics : Nintendo, Binbin
 Tests : -
+Déploiement MacOS : Vlag
 
-Special Thanks : Zemo, Yorick, Miniriël
+Special Thanks : Zemo, Yorick, Miniriël, Lelinuxien, Vivig, Nintendo
 

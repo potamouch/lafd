@@ -51,6 +51,29 @@ function map_submenu:on_command_pressed(command)
     elseif command == "right" then
         self:next_submenu()
         handled = true
+    elseif command == "up" or command == "down" then
+
+    if self.game:is_in_dungeon() then
+      local new_selected_floor
+      if command == "up" then
+        new_selected_floor = self.selected_floor + 1
+      else
+        new_selected_floor = self.selected_floor - 1
+      end
+      if new_selected_floor >= self.dungeon.lowest_floor and new_selected_floor <= self.dungeon.highest_floor then
+        -- The new floor is valid.
+        sol.audio.play_sound("cursor")
+        self.sprite_hero_head:set_frame(0)
+        self.selected_floor = new_selected_floor
+        self:load_dungeon_map_image()
+        if self.selected_floor <= self.highest_floor_displayed - 7 then
+          self.highest_floor_displayed = self.highest_floor_displayed - 1
+        elseif self.selected_floor > self.highest_floor_displayed then
+          self.highest_floor_displayed = self.highest_floor_displayed + 1
+        end
+      end
+    end
+    handled = true
   end
 end
 
@@ -199,6 +222,7 @@ end
 
 function map_submenu:draw_dungeon_map_rooms(dst_surface)
 
+  self.rooms_surface:clear()
   if self.game:has_dungeon_map() then
     self.rooms_sprite:set_animation(self.selected_floor)
     self.rooms_sprite:set_direction(0)

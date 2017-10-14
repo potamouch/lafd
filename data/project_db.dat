@@ -254,6 +254,8 @@ sprite{ id = "menus/dungeon_maps/map_1", description = "Map 1" }
 sprite{ id = "menus/dungeon_maps/map_1_compass", description = "Map 1 compass" }
 sprite{ id = "menus/dungeon_maps/map_2", description = "Map 2" }
 sprite{ id = "menus/dungeon_maps/map_2_compass", description = "Map 2 compass" }
+sprite{ id = "menus/dungeon_maps/map_3", description = "Map 3" }
+sprite{ id = "menus/dungeon_maps/map_3_compass", description = "Map 3 compass" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }
 sprite{ id = "menus/map_zone", description = "Map zone" }

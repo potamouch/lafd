@@ -17,6 +17,7 @@ local door_manager = require("scripts/maps/door_manager")
 local treasure_manager = require("scripts/maps/treasure_manager")
 local switch_manager = require("scripts/maps/switch_manager")
 local enemy_manager = require("scripts/maps/enemy_manager")
+local separator_manager = require("scripts/maps/separator_manager")
 
 function map:on_started()
 
@@ -101,6 +102,20 @@ function sensor_5:on_activated()
 
 end
 
+function sensor_6:on_activated()
+
+  map:set_doors_open("door_group_6", true)
+
+end
+
+function sensor_7:on_activated()
+
+
+  map:close_doors("door_group_6")
+
+end
+
+
 -- Switchs events
 
 function switch_1:on_activated()
@@ -137,3 +152,6 @@ function weak_wall_A_1:on_opened()
   sol.audio.play_sound("secret_1")
 
 end
+
+
+separator_manager:manage_map(map)

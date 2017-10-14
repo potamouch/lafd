@@ -18,11 +18,9 @@ function separator_manager:manage_map(map)
   local function separator_on_activated(separator)
 
     local hero = map:get_hero()
-
     -- Enemies.
-    for _, enemy_place in ipairs(enemy_places) do
+    for k, enemy_place in pairs(enemy_places) do
       local enemy = enemy_place.enemy
-
       -- First remove any enemy.
       if enemy:exists() then
         enemy:remove()
@@ -94,11 +92,10 @@ function separator_manager:manage_map(map)
     separator.on_activating = separator_on_activating
     separator.on_activated = separator_on_activated
   end
-
   -- Store the position and properties of enemies.
-  for enemy in map:get_entities("auto_enemy") do
+  for enemy in map:get_entities_by_type("enemy") do
     local x, y, layer = enemy:get_position()
-    enemy_places[#enemy_places + 1] = {
+    enemy_places[enemy:get_name()] = {
       x = x,
       y = y,
       layer = layer,
@@ -106,7 +103,7 @@ function separator_manager:manage_map(map)
       direction = enemy:get_sprite():get_direction(),
       name = enemy:get_name(),
       treasure = { enemy:get_treasure() },
-      enemy = enemy,
+      enemy = enemy
     }
 
     local hero = map:get_hero()
@@ -139,6 +136,14 @@ function separator_manager:manage_map(map)
       ground = destructible:get_modified_ground(),
       destructible = destructible,
     }
+  end
+
+  for enemy in map:get_entities_by_type("enemy") do
+    enemy:register_event("on_dead", function()
+      if enemy:get_breed() ~= "hardhat_beetle_blue" then
+          enemy_places[enemy:get_name()] = nil
+      end
+    end)
   end
 
 end

@@ -3,8 +3,11 @@ local treasure_manager = {}
 function treasure_manager:appear_chest_when_enemies_dead(map, enemy_prefix, treasure, placeholder, savegame)
     
   local function enemy_on_dead()
+    local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
+      if not game:get_value(savegame) then
          self:appear_chest(map, treasure, placeholder, savegame, true)
+      end
     end
   end
 
@@ -17,8 +20,11 @@ end
 function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, treasure, placeholder, savegame)
     
   local function enemy_on_dead()
+    local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
+      if not game:get_value(savegame) then
          self:appear_pickable(map, treasure, placeholder, savegame, true)
+      end
     end
   end
 

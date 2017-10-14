@@ -13,6 +13,69 @@ properties{
 
 tile{
   layer = 0,
+  x = 688,
+  y = 848,
+  width = 544,
+  height = 128,
+  pattern = "floor.9-1",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 960,
+  width = 80,
+  height = 24,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 968,
+  width = 80,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 936,
+  width = 24,
+  height = 48,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 960,
+  width = 64,
+  height = 24,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 968,
+  width = 80,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 936,
+  width = 16,
+  height = 32,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
   x = 1960,
   y = 296,
   width = 240,
@@ -142,15 +205,6 @@ tile{
   x = 1024,
   y = 720,
   width = 112,
-  height = 128,
-  pattern = "floor.9-1",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 848,
-  width = 544,
   height = 128,
   pattern = "floor.9-1",
 }
@@ -8311,9 +8365,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 688,
+  x = 912,
   y = 976,
-  width = 544,
+  width = 320,
   height = 8,
   pattern = "wall_border.2-2",
 }
@@ -8321,18 +8375,9 @@ tile{
 tile{
   layer = 0,
   x = 680,
-  y = 976,
+  y = 616,
   width = 8,
-  height = 8,
-  pattern = "wall_border.corner.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 624,
-  width = 8,
-  height = 352,
+  height = 320,
   pattern = "wall_border.3-2",
 }
 
@@ -11774,6 +11819,132 @@ tile{
   pattern = "wall_border.4-2",
 }
 
+tile{
+  layer = 0,
+  x = 680,
+  y = 936,
+  width = 16,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 936,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 944,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 960,
+  width = 56,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 960,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 968,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 960,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 960,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 960,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 960,
+  width = 64,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 968,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 968,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 976,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 968,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
 dynamic_tile{
   name = "weak_wall_closed_A_2",
   layer = 0,
@@ -11794,46 +11965,6 @@ dynamic_tile{
   width = 24,
   height = 48,
   enabled_at_start = true,
-}
-
-wall{
-  layer = 0,
-  x = 600,
-  y = 1400,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 1512,
-  y = 728,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 1432,
-  y = 984,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 1560,
-  y = 888,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 block{
@@ -12088,16 +12219,6 @@ block{
   maximum_moves = 1,
 }
 
-wall{
-  layer = 0,
-  x = 920,
-  y = 1144,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
 door{
   name = "door_small_key_1_1",
   layer = 0,
@@ -12168,8 +12289,8 @@ enemy{
 enemy{
   name = "enemy_group_7_2",
   layer = 0,
-  x = 840,
-  y = 1453,
+  x = 760,
+  y = 1373,
   direction = 3,
   breed = "hardhat_beetle_blue",
 }
@@ -12219,7 +12340,7 @@ switch{
 enemy{
   name = "enemy_group_2_1",
   layer = 0,
-  x = 1104,
+  x = 1096,
   y = 1101,
   direction = 3,
   breed = "hardhat_beetle_blue",
@@ -12233,66 +12354,6 @@ chest{
   treasure_name = "map",
   treasure_savegame_variable = "dungeon_1_chest_map",
   sprite = "entities/chest",
-}
-
-wall{
-  layer = 0,
-  x = 816,
-  y = 984,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 2072,
-  y = 728,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 2072,
-  y = 472,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 2072,
-  y = 216,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 808,
-  y = 472,
-  width = 16,
-  height = 80,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 600,
-  y = 336,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 enemy{
@@ -12406,7 +12467,7 @@ enemy{
   name = "enemy_group_2_3",
   layer = 0,
   x = 1192,
-  y = 1205,
+  y = 1197,
   direction = 0,
   breed = "zol_green",
 }
@@ -12414,8 +12475,8 @@ enemy{
 enemy{
   name = "enemy_group_2_2",
   layer = 0,
-  x = 1056,
-  y = 1205,
+  x = 1048,
+  y = 1197,
   direction = 0,
   breed = "zol_green",
 }
@@ -12781,16 +12842,6 @@ teletransporter{
   destination = "stairs_2_B",
 }
 
-wall{
-  layer = 0,
-  x = 1880,
-  y = 888,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
 enemy{
   name = "enemy_group_13_2",
   layer = 0,
@@ -12985,16 +13036,6 @@ destination{
   direction = 1,
 }
 
-wall{
-  layer = 0,
-  x = 600,
-  y = 888,
-  width = 80,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
 door{
   name = "weak_wall_A_1",
   layer = 0,
@@ -13090,16 +13131,6 @@ destination{
   direction = 1,
 }
 
-teletransporter{
-  layer = 0,
-  x = 1040,
-  y = 1456,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/2/1f",
-  destination = "dungeon_2_1_B",
-}
-
 enemy{
   name = "enemy_group_10_5",
   layer = 0,
@@ -13133,6 +13164,110 @@ enemy{
   y = 469,
   direction = 0,
   breed = "fireball",
+}
+
+enemy{
+  name = "enemy_group_14_1",
+  layer = 0,
+  x = 1176,
+  y = 901,
+  direction = 0,
+  breed = "fireball",
+}
+
+enemy{
+  name = "enemy_group_14_2",
+  layer = 0,
+  x = 1096,
+  y = 829,
+  direction = 0,
+  breed = "fireball",
+}
+
+destructible{
+  layer = 0,
+  x = 776,
+  y = 973,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 792,
+  y = 973,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 808,
+  y = 973,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 824,
+  y = 973,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+chest{
+  layer = 0,
+  x = 1080,
+  y = 1437,
+  treasure_name = "bomb_bag",
+  sprite = "entities/chest",
+}
+
+sensor{
+  name = "sensor_7",
+  layer = 0,
+  x = 1440,
+  y = 981,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_6",
+  layer = 0,
+  x = 1264,
+  y = 1141,
+  width = 16,
+  height = 48,
+}
+
+door{
+  name = "door_group_6_1",
+  layer = 0,
+  x = 1432,
+  y = 1048,
+  direction = 3,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "Oups",
+}
+
+door{
+  name = "door_group_6_2",
+  layer = 0,
+  x = 1432,
+  y = 984,
+  direction = 1,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "Oups",
 }
 
 tile{
@@ -15145,6 +15280,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_8",
   layer = 2,
   x = 1592,
   y = 0,
@@ -15153,6 +15289,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_9",
   layer = 2,
   x = 1912,
   y = 0,
@@ -15161,6 +15298,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_7",
   layer = 2,
   x = 1272,
   y = 0,
@@ -15169,6 +15307,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_4",
   layer = 2,
   x = 312,
   y = 0,
@@ -15185,6 +15324,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 0,
   y = 1272,
@@ -15193,6 +15333,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_2",
   layer = 2,
   x = 0,
   y = 1016,
@@ -15209,6 +15350,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_6",
   layer = 2,
   x = 952,
   y = 512,
@@ -15217,6 +15359,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_5",
   layer = 2,
   x = 632,
   y = 0,
@@ -15225,6 +15368,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_3",
   layer = 2,
   x = 0,
   y = 760,

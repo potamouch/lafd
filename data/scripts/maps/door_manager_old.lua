@@ -7,6 +7,7 @@
 -- or when unlighting the last torch auto_torch_lit_<door_name>.
 
 local door_manager = {}
+require("scripts/multi_events")
 
 function door_manager:manage_map(map)
 

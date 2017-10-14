@@ -22,6 +22,7 @@ local light_manager = require("scripts/maps/light_manager")
 
 function map:on_started()
 
+  light_manager:init(map)
   enemy_manager:create_teletransporter_if_small_boss_dead(map, "dungeon_2_small_boss", false)
 
 end
@@ -55,10 +56,8 @@ door_manager:open_when_blocks_moved(map, "block_group_1", "door_group_2")
 
 function sensor_1:on_activated()
 
-  print("activated")
   if is_small_boss_active == false then
     is_small_boss_active = true
-  print("go")
     enemy_manager:launch_small_boss_if_not_dead(map, "dungeon_2_small_boss", "door_group_3",  "placeholder_small_boss", 2)
   end
 
