@@ -2676,6 +2676,14 @@ wall{
   stops_projectiles = true,
 }
 
+enemy{
+  layer = 0,
+  x = 872,
+  y = 133,
+  direction = 0,
+  breed = "moblin_chief",
+}
+
 tile{
   layer = 1,
   x = 336,

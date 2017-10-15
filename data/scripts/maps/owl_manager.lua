@@ -54,4 +54,25 @@ function owl_manager:appear(map, step, callback)
 
 end
 
+function owl_manager:manage_map(map)
+
+  local game = map:get_game()
+  for beak in map:get_entities("owl") do
+    function beak:on_interaction()
+        local game = map:get_game()
+        if game:has_dungeon_beak_of_stone() then
+          beak:get_sprite():set_animation("full")
+          game:start_dialog("maps.dungeons." .. game:get_dungeon_index() .. "." .. beak:get_name(), function()
+            beak:get_sprite():set_animation("normal")
+         end)
+        else
+          game:start_dialog("maps.dungeons.owl")
+        end
+
+      end
+  end
+
+end
+
+
 return owl_manager

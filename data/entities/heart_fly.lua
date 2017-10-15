@@ -39,7 +39,11 @@ entity:add_collision_test("touching", function(heart, entity)
     local item = game:get_item("feather")
     if item:is_jumping() then
       heart:remove()
-      game:add_life(4)
+     if game:get_life() == game:get_max_life() then
+        sol.audio.play_sound("picked_item")
+      else
+        game:add_life(4)
+      end
     else
     end
   end

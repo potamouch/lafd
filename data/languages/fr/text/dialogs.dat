@@ -1224,6 +1224,32 @@ marais fleuri.
 }
 
 dialog{
+  id = "maps.dungeons.1.owl_1",
+  text = [[
+Si tu vois les pointes,    
+pense à utiliser ton
+bouclier.
+]]
+}
+
+dialog{
+  id = "maps.dungeons.1.owl_2",
+  text = [[
+Si une porte ne s'ouvre
+pas, déplace un bloc.
+]]
+}
+
+dialog{
+  id = "maps.dungeons.1.owl_3",
+  text = [[
+Si tu vois les pointes,    
+pense à utiliser ton
+bouclier.
+]]
+}
+
+dialog{
   id = "maps.dungeons.1.welcome",
   skip = "current",
   text = [[
@@ -1357,6 +1383,17 @@ dialog{
   text = [[
         Niveau secret       
 Temple des couleurs
+]]
+}
+
+dialog{
+  id = "maps.dungeons.owl",
+  text = [[
+Cette statue veut me
+dire quelque chose mais 
+je ne comprends rien ! 
+Elle n'a pas de 
+bec...
 ]]
 }
 

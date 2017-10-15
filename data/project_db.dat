@@ -127,6 +127,7 @@ sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" 
 sprite{ id = "enemies/hardhat_beetle_red", description = "Hardhat beetle red" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
+sprite{ id = "enemies/moblin_chief", description = "Moblin chief" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
@@ -196,6 +197,7 @@ sprite{ id = "entities/movies/background_introduction", description = "Backgroun
 sprite{ id = "entities/movies/swell", description = "Swell" }
 sprite{ id = "entities/movies/wreck", description = "Wreck" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
+sprite{ id = "entities/owl", description = "Owl" }
 sprite{ id = "entities/palm", description = "Palm" }
 sprite{ id = "entities/pillar", description = "Pillar" }
 sprite{ id = "entities/pillar_base", description = "Pillar base" }
@@ -336,6 +338,7 @@ sprite{ id = "npc/kid_2", description = "Kid 2" }
 sprite{ id = "npc/kid_3", description = "Kid 3" }
 sprite{ id = "npc/kid_4", description = "Kid 4" }
 sprite{ id = "npc/marine", description = "Marine" }
+sprite{ id = "npc/meow_meow", description = "Meow meow" }
 sprite{ id = "npc/merchant", description = "Merchant" }
 sprite{ id = "npc/monkey", description = "Monkey" }
 sprite{ id = "npc/mr_write", description = "Mr Write" }
@@ -509,6 +512,7 @@ item{ id = "conch_horn", description = "Conch horn" }
 item{ id = "coral_triangle", description = "Coral triangle" }
 item{ id = "drug", description = "Drug" }
 item{ id = "face_key", description = "Face key" }
+item{ id = "fairy", description = "Fairy" }
 item{ id = "feather", description = "Feather" }
 item{ id = "fire_rod", description = "Fire rod" }
 item{ id = "flippers", description = "Flippers" }
@@ -572,6 +576,7 @@ enemy{ id = "hardhat_beetle_blue", description = "Hardhat beetle blue" }
 enemy{ id = "hardhat_beetle_red", description = "Hardhat beetle red" }
 enemy{ id = "keese", description = "Keese" }
 enemy{ id = "moblin", description = "Moblin" }
+enemy{ id = "moblin_chief", description = "Moblin chief" }
 enemy{ id = "octorok", description = "Octorok" }
 enemy{ id = "octorok_stone", description = "Octorok stone" }
 enemy{ id = "pike_auto", description = "Pike auto" }

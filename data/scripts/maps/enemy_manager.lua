@@ -100,7 +100,17 @@ function enemy_manager:launch_small_boss_if_not_dead(map, savegame, door_prefix,
    enemy:register_event("on_dead", function()
       sol.audio.play_music(music)
       game:set_value(savegame, true)
+      map:open_doors(door_prefix)
       enemy_manager:create_teletransporter_if_small_boss_dead(map, savegame, true)
+     local x,y,layer = enemy:get_position()
+      print(x)
+     map:create_pickable({
+        x = x,
+        y = y,
+        layer = layer, 
+        treasure_name = "fairy",
+        treasure_variant = 1
+    })
     end)
     map:close_doors(door_prefix)
     sol.audio.play_music("maps/dungeons/small_boss")

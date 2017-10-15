@@ -103,6 +103,8 @@ function map_submenu:build_dungeon_map()
     self.sprite_compass:set_animation("compass")
     self.sprite_boss_key  = sol.sprite.create("entities/items")
     self.sprite_boss_key:set_animation("boss_key")
+    self.sprite_beak_of_stone  = sol.sprite.create("entities/items")
+    self.sprite_beak_of_stone:set_animation("beak_of_stone")
     self.sprite_hero_head  = sol.sprite.create("menus/hero_head")
     self.boss_icon_img = sol.surface.create("menus/boss_icon.png")
     self.chest_icon_img = sol.surface.create("menus/chest_icon.png")
@@ -182,17 +184,17 @@ end
 function map_submenu:draw_dungeon_map_items(dst_surface)
 
   if self.game:has_dungeon_map() then
-      self.sprite_map:draw(dst_surface, 64, 190)
-    end
-    if self.game:has_dungeon_compass() then
-      self.sprite_compass:draw(dst_surface, 84, 190)
-    end
-    if self.game:has_dungeon_boss_key() then
-      self.sprite_boss_key:draw(dst_surface, 104, 190)
-    end
-    if self.game:has_dungeon_boss_key() then
-      self.sprite_boss_key:draw(dst_surface, 124, 190)
-    end
+    self.sprite_map:draw(dst_surface, 64, 190)
+  end
+  if self.game:has_dungeon_compass() then
+    self.sprite_compass:draw(dst_surface, 84, 190)
+  end
+  if self.game:has_dungeon_boss_key() then
+    self.sprite_boss_key:draw(dst_surface, 104, 190)
+  end
+  if self.game:has_dungeon_beak_of_stone() then
+    self.sprite_beak_of_stone:draw(dst_surface, 124, 190)
+  end
 
 end
 

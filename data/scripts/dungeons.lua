@@ -191,6 +191,13 @@ local function initialize_dungeon_features(game)
     return game:get_value("dungeon_" .. dungeon_index .. "_boss_key")
   end
 
+  function game:has_dungeon_beak_of_stone(dungeon_index)
+
+    dungeon_index = dungeon_index or game:get_dungeon_index()
+    return game:get_value("dungeon_" .. dungeon_index .. "_beak_of_stone")
+
+  end
+
   function game:get_dungeon_name(dungeon_index)
 
     dungeon_index = dungeon_index or game:get_dungeon_index()

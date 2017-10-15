@@ -750,7 +750,7 @@ npc{
   y = 101,
   direction = 3,
   subtype = 1,
-  sprite = "npc/grand_ma",
+  sprite = "npc/meow_meow",
 }
 
 destructible{

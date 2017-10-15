@@ -18,13 +18,16 @@ local treasure_manager = require("scripts/maps/treasure_manager")
 local switch_manager = require("scripts/maps/switch_manager")
 local enemy_manager = require("scripts/maps/enemy_manager")
 local separator_manager = require("scripts/maps/separator_manager")
+local owl_manager = require("scripts/maps/owl_manager")
 
 function map:on_started()
 
   local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
   treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_small_key_2_appear", treasure, "placeholder_small_key_2")
+  treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_beak_of_stone_appear", treasure, "placeholder_beak_of_stone")
   switch_manager:activate_when_savegame_exist(map, "dungeon_1_small_key_2_appear", "switch_1")
   enemy_manager:create_teletransporter_if_small_boss_dead(map, "dungeon_1_small_boss", false)
+
 
 end
 
@@ -55,7 +58,7 @@ treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", treasur
 local treasure = {"rupee", 3, "dungeon_1_rupee_1"}
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1", "dungeon_1_rupee_1_appear")
 local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone")
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone_appear")
 
 -- Doors
 
@@ -153,5 +156,5 @@ function weak_wall_A_1:on_opened()
 
 end
 
-
 separator_manager:manage_map(map)
+owl_manager:manage_map(map)

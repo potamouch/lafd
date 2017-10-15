@@ -39,6 +39,7 @@ function separator_manager:manage_map(map)
         })
         enemy:set_treasure(unpack(enemy_place.treasure))
         enemy.on_dead = old_enemy.on_dead  -- For door_manager.
+        enemy.on_symbol_fixed = old_enemy.on_symbol_fixed -- For Vegas enemis
         enemy_place.enemy = enemy
       end
     end

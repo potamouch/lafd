@@ -4,7 +4,7 @@ local map_metatable = sol.main.get_metatable("map")
 
 
 local gravity = 5       -- How often to update gravity in milliseconds (move the hero down one pixel this often). Default is every 10 ms.
-local jump_height = 60  -- How high to make the hero go when he jumps (in pixels). Default is 40.
+local jump_height = 40  -- How high to make the hero go when he jumps (in pixels). Default is 40.
 local multi_jump = 5    -- How many times to allow the character to jump. Default is 1, or enter 0 to disable jumping entirely.
 local state             -- "stopped", "walking", "jumping", "ladder", "dying", "action", "attack"
 local last_anim
