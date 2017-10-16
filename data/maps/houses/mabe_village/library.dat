@@ -506,6 +506,114 @@ custom_entity{
   sprite = "entities/book_red",
 }
 
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 72,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 88,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 104,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_4",
+  layer = 0,
+  x = 120,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_5",
+  layer = 0,
+  x = 136,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_6",
+  layer = 0,
+  x = 152,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_7",
+  layer = 0,
+  x = 168,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_8",
+  layer = 0,
+  x = 184,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_9",
+  layer = 0,
+  x = 200,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_10",
+  layer = 0,
+  x = 216,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_11",
+  layer = 0,
+  x = 232,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_12",
+  layer = 0,
+  x = 248,
+  y = 45,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,

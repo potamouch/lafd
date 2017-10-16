@@ -103,7 +103,6 @@ function enemy_manager:launch_small_boss_if_not_dead(map, savegame, door_prefix,
       map:open_doors(door_prefix)
       enemy_manager:create_teletransporter_if_small_boss_dead(map, savegame, true)
      local x,y,layer = enemy:get_position()
-      print(x)
      map:create_pickable({
         x = x,
         y = y,
@@ -133,6 +132,7 @@ function enemy_manager:launch_boss_if_not_dead(map, save, door_prefix, placehold
                 }
     map:close_doors(door_prefix)
     sol.audio.play_music("maps/dungeons/boss")
+    game:start_dialog("maps.dungeons." .. dungeon .. ".boss_welcome")
         
 end
 

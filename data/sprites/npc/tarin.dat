@@ -1,6 +1,6 @@
 animation{
   name = "waiting",
-  src_image = "npc/tarkin.png",
+  src_image = "npc/tarin.png",
   frame_delay = 300,
   frame_to_loop_on = 0,
   directions = {
@@ -11,8 +11,18 @@ animation{
   },
 }
 animation{
+  name = "sleeping",
+  src_image = "npc/tarin.png",
+  directions = {
+    { x = 0, y = 136, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 136, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 136, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 136, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+  },
+}
+animation{
   name = "stopped",
-  src_image = "npc/tarkin.png",
+  src_image = "npc/tarin.png",
   directions = {
     { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
     { x = 0, y = 72, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
@@ -22,7 +32,7 @@ animation{
 }
 animation{
   name = "waiting_raccoon",
-  src_image = "npc/tarkin.png",
+  src_image = "npc/tarin.png",
   frame_delay = 300,
   frame_to_loop_on = 0,
   directions = {
@@ -34,7 +44,7 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "npc/tarkin.png",
+  src_image = "npc/tarin.png",
   frame_delay = 300,
   frame_to_loop_on = 0,
   directions = {

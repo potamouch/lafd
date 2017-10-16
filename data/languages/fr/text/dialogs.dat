@@ -1215,6 +1215,14 @@ de l'odorat..
 }
 
 dialog{
+  id = "maps.dungeons.1.boss_welcome",
+  text = [[
+GRRR ! GRR !      
+UN INTRRRUS !
+]]
+}
+
+dialog{
   id = "maps.dungeons.1.indication",
   text = [[
 ...MARAIS...    
@@ -1759,6 +1767,16 @@ Hé mon gars,
 attends un peu ! 
 J'ai quêqu' chose à te 
 dire !
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.marine_house.tarin_4",
+  skip = "all",
+  text = [[
+Je suis éreinté !
+J'vais faire un p'tit somme. 
+ZZZ...ZZZ...
 ]]
 }
 
@@ -2419,12 +2437,22 @@ Encore merci !
 }
 
 dialog{
-  id = "maps.houses.south_mabe_village.sales_house_o_bananas.wardrobe_1",
+  id = "maps.houses.wardrobe_1",
   text = [[
 $v a inspecté la
 commode.     
 C'est un objet 
 d'art... ...
+]]
+}
+
+dialog{
+  id = "maps.houses.wardrobe_2",
+  text = [[
+Ce n'est pas une
+commode... Quoi ?
+Tu avais remarqué ?
+... OK !
 ]]
 }
 

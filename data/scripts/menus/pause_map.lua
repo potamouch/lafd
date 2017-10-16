@@ -231,21 +231,31 @@ function map_submenu:draw_dungeon_map_rooms(dst_surface)
     self.rooms_sprite:draw(self.rooms_surface)
   end
   for i = 1, self.rooms_sprite:get_num_directions() - 1 do
-   if self.game:has_explored_dungeon_room(self.dungeon_index, self.selected_floor, i) then
+    if self.game:has_explored_dungeon_room(self.dungeon_index, self.selected_floor, i) then
       -- If the room is visited, show it in another color.
+      self.rooms_sprite:set_animation(self.selected_floor)
       self.rooms_sprite:set_direction(i)
       local src_x, src_y = self.rooms_sprite:get_frame_src_xy()
-      src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
+      --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
       self.rooms_sprite:draw(self.rooms_surface, src_x, src_y)
-  end
+    end
    if self.game:has_dungeon_compass() and self.game:is_secret_room(self.dungeon_index, self.selected_floor, i) then
+      self.rooms_compass_sprite:set_animation(self.selected_floor)
       self.rooms_compass_sprite:set_direction(i)
       local src_x, src_y = self.rooms_compass_sprite:get_frame_src_xy()
-      src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
+      --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
       self.rooms_compass_sprite:draw(self.rooms_surface, src_x, src_y)
    end
   end
-   self.rooms_surface:draw(self.map_surface, 140, 70)
+  local offsetX = 0
+  local offsetY = 0
+  if self.dungeon.cols%2 ~= 0 then
+    offsetX = (8 - self.dungeon.cols) * 8
+  end
+  if self.dungeon.rows%2 ~= 0 then
+    offsetY = (8 - self.dungeon.rows) * 8
+  end
+   self.rooms_surface:draw(self.map_surface,  offsetX + 140,  offsetY + 70)
 
 end
 

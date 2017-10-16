@@ -237,24 +237,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
-  y = 24,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.1",
-}
-
-tile{
-  layer = 0,
-  x = 224,
-  y = 24,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.3",
-}
-
-tile{
-  layer = 0,
   x = 240,
   y = 32,
   width = 16,
@@ -415,6 +397,42 @@ tile{
   pattern = "seat.1",
 }
 
+tile{
+  layer = 0,
+  x = 216,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
 sensor{
   name = "link_search_sword_sensor_2",
   layer = 0,
@@ -558,6 +576,53 @@ destructible{
   weight = 1,
 }
 
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 216,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 200,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 232,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+custom_entity{
+  name = "snores_tarin",
+  layer = 0,
+  x = 80,
+  y = 69,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/snores",
+}
+
+npc{
+  name = "tarin_npc",
+  layer = 0,
+  x = 96,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -583,6 +648,26 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/bed",
+}
+
+npc{
+  name = "bed_tarin",
+  layer = 1,
+  x = 88,
+  y = 77,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/bed",
+}
+
+custom_entity{
+  name = "placeholder_tarin_sleep",
+  layer = 1,
+  x = 88,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

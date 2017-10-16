@@ -32,6 +32,7 @@ function map:on_started()
 end
 
 function map:on_opening_transition_finished(destination)
+
     if destination == dungeon_1_1_B then
       map:set_doors_open("door_group_1", true)
       map:set_doors_open("door_group_2", false)

@@ -1985,7 +1985,7 @@ tile{
   layer = 0,
   x = 112,
   y = 400,
-  width = 848,
+  width = 864,
   height = 16,
   pattern = "957",
 }
@@ -1994,7 +1994,7 @@ tile{
   layer = 0,
   x = 112,
   y = 384,
-  width = 848,
+  width = 864,
   height = 16,
   pattern = "958",
 }
@@ -2003,7 +2003,7 @@ tile{
   layer = 0,
   x = 112,
   y = 376,
-  width = 848,
+  width = 864,
   height = 8,
   pattern = "959",
 }

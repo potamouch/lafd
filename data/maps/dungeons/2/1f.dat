@@ -2,7 +2,7 @@ properties{
   x = 0,
   y = 0,
   width = 2560,
-  height = 1792,
+  height = 2048,
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_2",
@@ -18537,6 +18537,16 @@ enemy{
   breed = "boss_2_vase",
 }
 
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1704,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/3/b1",
+  destination = "stairs_1_B",
+}
+
 tile{
   layer = 1,
   x = 1896,
@@ -20149,12 +20159,21 @@ tile{
   pattern = "ceiling.1",
 }
 
+tile{
+  layer = 2,
+  x = 0,
+  y = 1792,
+  width = 2560,
+  height = 256,
+  pattern = "ceiling.1",
+}
+
 separator{
   layer = 2,
   x = 632,
   y = 0,
   width = 16,
-  height = 1792,
+  height = 2048,
 }
 
 separator{
@@ -20162,7 +20181,7 @@ separator{
   x = 952,
   y = 1536,
   width = 16,
-  height = 256,
+  height = 512,
 }
 
 separator{
@@ -20170,7 +20189,7 @@ separator{
   x = 1272,
   y = 0,
   width = 16,
-  height = 1792,
+  height = 2048,
 }
 
 separator{
@@ -20178,7 +20197,7 @@ separator{
   x = 1592,
   y = 0,
   width = 16,
-  height = 1792,
+  height = 2048,
 }
 
 separator{
@@ -20186,7 +20205,7 @@ separator{
   x = 1912,
   y = 0,
   width = 16,
-  height = 1792,
+  height = 2048,
 }
 
 separator{
@@ -20276,7 +20295,7 @@ separator{
   x = 312,
   y = 0,
   width = 16,
-  height = 1792,
+  height = 2048,
 }
 
 separator{
@@ -20284,6 +20303,14 @@ separator{
   x = 2232,
   y = 0,
   width = 16,
-  height = 1792,
+  height = 2048,
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 1784,
+  width = 2560,
+  height = 16,
 }
 

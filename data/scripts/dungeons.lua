@@ -17,35 +17,37 @@ local function initialize_dungeon_features(game)
     [1] = {
       lowest_floor = 0,
       highest_floor = 0,
+      rows = 6,
+      cols= 7,
       maps = { "dungeons/1/1f"},
       secrets = {
         [0] = {        
-          [15] = {
+          [17] = {
             savegame = "dungeon_1_chest_feather",
             signal = true
           },
-          [18] = {
+          [20] = {
             savegame = "dungeon_1_chest_boss_key",
             signal = true
           },
-          [20] = {
+          [22] = {
             savegame = "dungeon_1_beak_of_stone",
             signal = true
           },
-          [24] = {
+          [27] = {
             savegame = "dungeon_1_rupee_1",
             signal = false
           },
-          [25] = {
+          [28] = {
             savegame = "dungeon_1_small_key_3",
             signal = true
           },
-          [32] = {
+          [36] = {
             savegame = "dungeon_1_small_key_2",
             signal = true
           },
-          [33] = {
-            savegame = "dungeon_1_small_key_2",
+          [37] = {
+            savegame = "dungeon_1_map",
             signal = true
           }
         }
@@ -60,6 +62,8 @@ local function initialize_dungeon_features(game)
    [2] = {
       lowest_floor = 0,
       highest_floor = 0,
+      rows = 7,
+      cols= 6,
       maps = { "dungeons/2/1f"},
       secrets = {
         [0] = {        
@@ -79,6 +83,8 @@ local function initialize_dungeon_features(game)
    [3] = {
         lowest_floor = -1,
         highest_floor = 0,
+        rows = 8,
+        cols= 4,
         maps = { "dungeons/3/1f"},
         secrets = {
         },

@@ -10,12 +10,6 @@ local merchant_move = false
 
 -- Methods - Functions
 
-function  map:talk_to_wardrobe() 
-
-  game:start_dialog("maps.houses.south_mabe_village.sales_house_o_bananas.wardrobe_1", game:get_player_name())
-
-end
-
 function map:talk_to_alligator() 
 
     local item = game:get_item("magnifying_lens")
@@ -107,24 +101,9 @@ function alligator:on_interaction()
 
 end
 
-
-function wardrobe_1:on_interaction()
-
-      map:talk_to_wardrobe()
-
+for wardrobe in map:get_entities("wardrobe") do
+  function wardrobe:on_interaction()
+    game:start_dialog("maps.houses.wardrobe_1", game:get_player_name())
+  end
 end
-
-function wardrobe_2:on_interaction()
-
-      map:talk_to_wardrobe()
-
-end
-
-function wardrobe_3:on_interaction()
-
-      map:talk_to_wardrobe()
-
-end
-
-
 

@@ -68,9 +68,19 @@ end
 
 function map:init_tarin()
  
-  if game:get_value("main_quest_step") > 3  then
-    tarin:set_visible(false)
+   if game:get_value("main_quest_step") > 4 then
+    local x,y,layer = placeholder_tarin_sleep:get_position()
+    tarin:set_position(x,y,layer)
+    tarin:get_sprite():set_animation("sleeping")
+    bed:remove()
+  elseif game:get_value("main_quest_step") > 3  then
+    snores_tarin:remove()
+    bed_tarin:remove()
+    bed:remove()
+    tarin:remove()
   else
+    snores_tarin:remove()
+    bed_tarin:remove()
     tarin:get_sprite():set_animation("waiting")
     map:repeat_tarin_direction_check()
   end
@@ -79,6 +89,9 @@ end
 
 function  map:talk_to_tarin() 
 
+   if game:get_value("main_quest_step") > 4 then
+    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_4")
+   else
   if game:has_item("shield") == false then
     game:start_dialog("maps.houses.mabe_village.marine_house.tarin_1", game:get_player_name(), function()
       hero:start_treasure("shield", 1, "schield")
@@ -88,12 +101,14 @@ function  map:talk_to_tarin()
       game:start_dialog("maps.houses.mabe_village.marine_house.tarin_2", game:get_player_name())
   end
 
+  end
+
 end
 
 function map:init_marine()
  
   if game:get_value("main_quest_step") > 3  then
-    marine:set_visible(false)
+    marine:remove()
   else
     marine:get_sprite():set_animation("waiting")
     map:repeat_marine_direction_check()
@@ -158,8 +173,21 @@ function tarin:on_interaction()
 
 end
 
+function tarin_npc:on_interaction()
+
+      map:talk_to_tarin()
+
+end
+
 function marine:on_interaction()
 
       map:talk_to_marine()
 
 end
+
+for wardrobe in map:get_entities("wardrobe") do
+  function wardrobe:on_interaction()
+    game:start_dialog("maps.houses.wardrobe_1", game:get_player_name())
+  end
+end
+

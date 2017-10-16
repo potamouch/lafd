@@ -219,78 +219,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.1",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.3",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.1",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.3",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.1",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.3",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.1",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "bookshelf.3",
-}
-
-tile{
-  layer = 0,
   x = 160,
   y = 72,
   width = 32,
@@ -577,6 +505,114 @@ tile{
   pattern = "table.6",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
 destination{
   name = "grandpa_house_1_B",
   layer = 0,
@@ -661,6 +697,87 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/grandpa",
+}
+
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 112,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 96,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 128,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_4",
+  layer = 0,
+  x = 160,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_5",
+  layer = 0,
+  x = 144,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_6",
+  layer = 0,
+  x = 176,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_7",
+  layer = 0,
+  x = 208,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_8",
+  layer = 0,
+  x = 192,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_9",
+  layer = 0,
+  x = 224,
+  y = 53,
+  direction = 3,
+  subtype = 1,
 }
 
 tile{
