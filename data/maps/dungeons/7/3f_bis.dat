@@ -3760,7 +3760,7 @@ pickable{
   layer = 0,
   x = 800,
   y = 357,
-  treasure_name = "organ_of_evening_calm",
+  treasure_name = "instrument_7",
   treasure_savegame_variable = "dungeon_2_instrument",
 }
 

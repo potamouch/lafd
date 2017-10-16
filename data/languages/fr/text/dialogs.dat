@@ -373,22 +373,6 @@ le progrès...
 }
 
 dialog{
-  id = "_treasure.conch_horn.1",
-  text = [[
-Tu as la conque
-de l'écume !
-]]
-}
-
-dialog{
-  id = "_treasure.coral_triangle.1",
-  text = [[
-Tu as le triangle
-de corail !
-]]
-}
-
-dialog{
   id = "_treasure.drug.1",
   icon = "49",
   text = [[
@@ -442,14 +426,6 @@ Appuie sur B
 quand tu nages: 
 tu pourras alors
 plonger!
-]]
-}
-
-dialog{
-  id = "_treasure.full_moon_cello.1",
-  text = [[
-Tu as le violon
-des vagues !
 ]]
 }
 
@@ -570,6 +546,70 @@ Grappin!  $0
 Tu vas voir     
 comment la      
 chaîne s'étire!
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_1.1",
+  text = [[
+Tu as le violon
+des vagues !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_2.1",
+  text = [[
+Tu as la conque
+de l'écume !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_3.1",
+  text = [[
+Tu as la cloche
+des algues !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_4.1",
+  text = [[
+Tu as la harpe
+du reflux !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_5.1",
+  text = [[
+Tu as le xylophone
+marin !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_6.1",
+  text = [[
+Tu as le triangle
+de corail !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_7.1",
+  text = [[
+Tu as l'orgue
+de l'embellie !
+]]
+}
+
+dialog{
+  id = "_treasure.instrument_8.1",
+  text = [[
+Tu as le tambour
+des marées !
 ]]
 }
 
@@ -865,14 +905,6 @@ plusieurs airs !
 }
 
 dialog{
-  id = "_treasure.organ_of_evening_calm.1",
-  text = [[
-Tu as l'orgue
-de l'embellie !
-]]
-}
-
-dialog{
   id = "_treasure.pegasus_shoes.1",
   icon = "13",
   text = [[
@@ -1039,14 +1071,6 @@ Quelle extase !
 }
 
 dialog{
-  id = "_treasure.sea_lilys_bell.1",
-  text = [[
-Tu as la cloche
-des algues !
-]]
-}
-
-dialog{
   id = "_treasure.seashells_counter.1",
   icon = "38",
   text = [[
@@ -1108,14 +1132,6 @@ dans les environs.
 }
 
 dialog{
-  id = "_treasure.surf_harp.1",
-  text = [[
-Tu as la harpe
-du reflux !
-]]
-}
-
-dialog{
   id = "_treasure.sword.1",
   icon = "66",
   text = [[
@@ -1154,14 +1170,6 @@ Cave Flagello!
 }
 
 dialog{
-  id = "_treasure.thunder_drum.1",
-  text = [[
-Tu as le tambour
-des marées !
-]]
-}
-
-dialog{
   id = "_treasure.tunic.2",
   icon = "61",
   text = [[
@@ -1187,14 +1195,6 @@ rouge !$0 Elle te
 protège de manière
 plus efficace contre
 les ennemis !
-]]
-}
-
-dialog{
-  id = "_treasure.wind_marimba.1",
-  text = [[
-Tu as le xylophone
-marin !
 ]]
 }
 

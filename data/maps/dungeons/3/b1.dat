@@ -4266,7 +4266,7 @@ pickable{
   layer = 0,
   x = 1120,
   y = 1381,
-  treasure_name = "sea_lilys_bell",
+  treasure_name = "instrument_3",
   treasure_savegame_variable = "dungeon_3_instrument",
 }
 

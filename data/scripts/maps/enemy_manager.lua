@@ -41,9 +41,11 @@ function enemy_manager:execute_when_vegas_dead(map, enemy_prefix)
   end
 end
 
-function enemy_manager:create_teletransporter_if_small_boss_dead(map, savegame, sound)
+function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
 
     local game = map:get_game()
+    local dungeon = game:get_dungeon_index()
+    local savegame = "dungeon_" .. dungeon .. "_small_boss"
     if game:get_value(savegame) then
       local placeholder_teletransporter_A = map:get_entity("teletransporter_A")
       local placeholder_teletransporter_B = map:get_entity("teletransporter_B")
@@ -79,9 +81,13 @@ function enemy_manager:create_teletransporter_if_small_boss_dead(map, savegame, 
 end
 
 -- Launch battle if small boss in the room are not dead
-function enemy_manager:launch_small_boss_if_not_dead(map, savegame, door_prefix, placeholder, dungeon)
+function enemy_manager:launch_small_boss_if_not_dead(map)
 
     local game = map:get_game()
+    local door_prefix = "door_group_small_boss"
+    local dungeon = game:get_dungeon_index()
+    local savegame = "dungeon_" .. dungeon .. "_small_boss"
+    local placeholder = "placeholder_small_boss"
     if game:get_value(savegame) then
       return false
     end
@@ -98,30 +104,26 @@ function enemy_manager:launch_small_boss_if_not_dead(map, savegame, door_prefix,
                   layer = layer
                 }
    enemy:register_event("on_dead", function()
-      sol.audio.play_music(music)
-      game:set_value(savegame, true)
-      map:open_doors(door_prefix)
-      enemy_manager:create_teletransporter_if_small_boss_dead(map, savegame, true)
-     local x,y,layer = enemy:get_position()
-     map:create_pickable({
-        x = x,
-        y = y,
-        layer = layer, 
-        treasure_name = "fairy",
-        treasure_variant = 1
-    })
-    end)
+      enemy:launch_small_boss_dead(music)
+   end)
     map:close_doors(door_prefix)
     sol.audio.play_music("maps/dungeons/small_boss")
         
 end
 
 -- Launch battle if  boss in the room are not dead
-function enemy_manager:launch_boss_if_not_dead(map, save, door_prefix, placeholder, dungeon)
+function enemy_manager:launch_boss_if_not_dead(map)
 
+    local game = map:get_game()
+    local door_prefix = "door_group_boss"
+    local dungeon = game:get_dungeon_index()
+    local savegame = "dungeon_" .. dungeon .. "_boss"
+    local placeholder = "placeholder_boss"
+    if game:get_value(savegame) then
+      return false
+    end
     local placeholder = map:get_entity(placeholder)
     local x,y,layer = placeholder:get_position()
-    local game = map:get_game()
     placeholder:set_enabled(false)
     local enemy = map:create_enemy{
                   breed = "boss_" .. dungeon,
@@ -130,6 +132,9 @@ function enemy_manager:launch_boss_if_not_dead(map, save, door_prefix, placehold
                   y = y,
                   layer = layer
                 }
+     enemy:register_event("on_dead", function()
+        enemy:launch_boss_dead(door_prefix, savegame)
+     end)
     map:close_doors(door_prefix)
     sol.audio.play_music("maps/dungeons/boss")
     game:start_dialog("maps.dungeons." .. dungeon .. ".boss_welcome")

@@ -24,9 +24,12 @@ function map:on_started()
 
   local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
   treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_small_key_2_appear", treasure, "placeholder_small_key_2")
+  local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
   treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_beak_of_stone_appear", treasure, "placeholder_beak_of_stone")
+  local treasure = {"map", 1, "dungeon_1_map"}
+  treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_map_appear", treasure, "placeholder_map")
   switch_manager:activate_when_savegame_exist(map, "dungeon_1_small_key_2_appear", "switch_1")
-  enemy_manager:create_teletransporter_if_small_boss_dead(map, "dungeon_1_small_boss", false)
+  enemy_manager:create_teletransporter_if_small_boss_dead(map, false)
 
 
 end
@@ -36,14 +39,14 @@ function map:on_opening_transition_finished(destination)
     if destination == dungeon_1_1_B then
       map:set_doors_open("door_group_1", true)
       map:set_doors_open("door_group_2", false)
-      map:set_doors_open("door_group_3", true)
+      map:set_doors_open("door_group_small_boss", true)
       map:set_doors_open("door_group_5", true)
       game:start_dialog("maps.dungeons.1.welcome")
     end
     if destination == stairs_1_B then
       map:set_doors_open("door_group_1", true)
       map:set_doors_open("door_group_2", true)
-      map:set_doors_open("door_group_3", true)
+      map:set_doors_open("door_group_small_boss", true)
     end
 
 end
@@ -60,12 +63,14 @@ local treasure = {"rupee", 3, "dungeon_1_rupee_1"}
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1", "dungeon_1_rupee_1_appear")
 local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone_appear")
+local treasure = {"map", 1, "dungeon_1_map"}
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_4", treasure, "placeholder_map", "dungeon_1_map_appear")
 
 -- Doors
 
 door_manager:open_when_enemies_dead(map,  "enemy_group_6",  "door_group_1")
 door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_5")
-door_manager:open_if_small_boss_dead(map,  "dungeon_1_small_boss",  "door_group_3")
+door_manager:open_if_small_boss_dead(map)
 
 -- Sensors events
 
@@ -85,7 +90,7 @@ function sensor_3:on_activated()
 
   if is_small_boss_active == false then
     is_small_boss_active = true
-    enemy_manager:launch_small_boss_if_not_dead(map, "dungeon_1_small_boss", "door_group_3",  "placeholder_small_boss", 1)
+    enemy_manager:launch_small_boss_if_not_dead(map)
   end
 
 end
@@ -94,7 +99,7 @@ function sensor_4:on_activated()
 
   if is_boss_active == false then
     is_boss_active = true
-    enemy_manager:launch_boss_if_not_dead(map, "dungeon_1_boss", "door_group_4", "placeholder_boss", 1)
+    enemy_manager:launch_boss_if_not_dead(map)
   end
 
 end
@@ -119,6 +124,13 @@ function sensor_7:on_activated()
 
 end
 
+function sensor_8:on_activated()
+
+
+  map:close_doors("door_group_2")
+
+end
+
 
 -- Switchs events
 
@@ -131,7 +143,7 @@ end
 
 -- Blocks events
 
-function block_1:on_moved()
+function auto_block_1:on_moved()
 
   map:open_doors("door_group_2")
 

@@ -25,6 +25,7 @@ local angle_to_spike
 -- Event called when the enemy is initialized.
 function enemy:on_created()
 
+  enemy:set_hurt_style("boss")
   local x,y,layer = enemy:get_position()
   sprite_enemy = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_life(4)

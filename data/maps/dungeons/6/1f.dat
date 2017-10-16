@@ -9205,7 +9205,7 @@ pickable{
   layer = 0,
   x = 1440,
   y = 357,
-  treasure_name = "coral_triangle",
+  treasure_name = "instrument_6",
   treasure_savegame_variable = "dungeon_6_instrument",
 }
 

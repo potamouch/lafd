@@ -10070,7 +10070,7 @@ pickable{
   layer = 0,
   x = 160,
   y = 357,
-  treasure_name = "surf_harp",
+  treasure_name = "instrument_4",
   treasure_savegame_variable = "dungeon_4_instrument",
 }
 

@@ -153,26 +153,6 @@ animation{
   },
 }
 animation{
-  name = "conch_horn",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 320, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "coral_triangle",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 448, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "croissant",
   src_image = "entities/items.png",
   directions = {
@@ -233,16 +213,6 @@ animation{
   },
 }
 animation{
-  name = "full_moon_cello",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 288, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "glove",
   src_image = "entities/items.png",
   directions = {
@@ -299,6 +269,86 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 80, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_1",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 288, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_2",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 320, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_3",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 336, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_4",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 400, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_5",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 432, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_6",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 448, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_7",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 464, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "instrument_8",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -425,16 +475,6 @@ animation{
   },
 }
 animation{
-  name = "organ_of_evening_calm",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 464, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "pegasus_shoes",
   src_image = "entities/items.png",
   directions = {
@@ -517,16 +557,6 @@ animation{
   },
 }
 animation{
-  name = "sea_lilys_bell",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 336, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "seashell",
   src_image = "entities/items.png",
   directions = {
@@ -571,16 +601,6 @@ animation{
   },
 }
 animation{
-  name = "surf_harp",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 400, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "sword",
   src_image = "entities/items.png",
   directions = {
@@ -598,32 +618,12 @@ animation{
   },
 }
 animation{
-  name = "thunder_drum",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "tunic",
   src_image = "entities/items.png",
   directions = {
     { x = 512, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 512, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 512, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "wind_marimba",
-  src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 272, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
-    { x = 432, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

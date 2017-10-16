@@ -10320,7 +10320,7 @@ pickable{
   layer = 0,
   x = 1120,
   y = 101,
-  treasure_name = "thunder_drum",
+  treasure_name = "instrument_8",
   treasure_savegame_variable = "dungeon_8_instrument",
 }
 

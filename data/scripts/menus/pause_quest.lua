@@ -1,15 +1,15 @@
 local submenu = require("scripts/menus/pause_submenu")
 local quest_submenu = submenu:new()
 local item_names_static_left = {
-  "full_moon_cello",
-  "conch_horn",
-  "sea_lilys_bell",
-  "surf_harp",
+  "instrument_1",
+  "instrument_2",
+  "instrument_3",
+  "instrument_4",
   "magnifying_lens",
-  "wind_marimba",
-  "coral_triangle",
-  "organ_of_evening_calm",
-  "thunder_drum"
+  "instrument_5",
+  "instrument_6",
+  "instrument_7",
+  "instrument_8"
 }
 local item_names_static_right = {
   "tail_key",

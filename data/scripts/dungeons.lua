@@ -19,36 +19,40 @@ local function initialize_dungeon_features(game)
       highest_floor = 0,
       rows = 6,
       cols= 7,
+      teletransporter_end_dungeon = {
+        map_id = "out/a4_south_mabe_village",
+        destination_name = "dungeon_1_2_A"
+      },
       maps = { "dungeons/1/1f"},
       secrets = {
         [0] = {        
-          [17] = {
+          [25] = {
             savegame = "dungeon_1_chest_feather",
-            signal = true
-          },
-          [20] = {
-            savegame = "dungeon_1_chest_boss_key",
-            signal = true
-          },
-          [22] = {
-            savegame = "dungeon_1_beak_of_stone",
-            signal = true
-          },
-          [27] = {
-            savegame = "dungeon_1_rupee_1",
             signal = false
           },
           [28] = {
+            savegame = "dungeon_1_chest_boss_key",
+            signal = true
+          },
+          [30] = {
+            savegame = "dungeon_1_beak_of_stone",
+            signal = false
+          },
+          [35] = {
+            savegame = "dungeon_1_rupee_1",
+            signal = false
+          },
+          [36] = {
             savegame = "dungeon_1_small_key_3",
             signal = true
           },
-          [36] = {
+          [44] = {
             savegame = "dungeon_1_small_key_2",
             signal = true
           },
-          [37] = {
+          [45] = {
             savegame = "dungeon_1_map",
-            signal = true
+            signal = false
           }
         }
       },

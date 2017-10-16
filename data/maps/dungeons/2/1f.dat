@@ -16650,7 +16650,7 @@ pickable{
   layer = 0,
   x = 1760,
   y = 613,
-  treasure_name = "conch_horn",
+  treasure_name = "instrument_2",
   treasure_savegame_variable = "dungeon_2_instrument",
 }
 
