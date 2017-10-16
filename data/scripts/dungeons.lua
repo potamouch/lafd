@@ -58,18 +58,24 @@ local function initialize_dungeon_features(game)
       }
     },
    [2] = {
-        lowest_floor = 0,
-        highest_floor = 0,
-        maps = { "dungeons/2/1f"},
-        secrets = {
-        },
-        boss = {
-          floor = 0,
-          x = 640 + 1440,
-          y = 720 + 365,
-          savegame_variable = "dungeon_2_boss",
+      lowest_floor = 0,
+      highest_floor = 0,
+      maps = { "dungeons/2/1f"},
+      secrets = {
+        [0] = {        
+          [44] = {
+            savegame = "dungeon_8_chest_feather",
+            signal = true
+          }
         }
       },
+      boss = {
+        floor = 0,
+        x = 640 + 1440,
+        y = 720 + 365,
+        savegame_variable = "dungeon_2_boss",
+      }
+   },
    [3] = {
         lowest_floor = -1,
         highest_floor = 0,

@@ -117,6 +117,8 @@ sprite{ id = "enemies/boss_1_body_3", description = "Boss 1 body 3" }
 sprite{ id = "enemies/boss_1_eyes", description = "Boss eyes" }
 sprite{ id = "enemies/boss_1_head", description = "Boss 1 head" }
 sprite{ id = "enemies/boss_1_tail", description = "Boss 1 tail" }
+sprite{ id = "enemies/boss_2", description = "Boss 2" }
+sprite{ id = "enemies/boss_2_vase", description = "Boss 2 vase" }
 sprite{ id = "enemies/bubble", description = "Bubble" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
@@ -254,7 +256,7 @@ sprite{ id = "hud/sword_icon_flip", description = "Sword icon" }
 sprite{ id = "menus/arrow", description = "Arrow" }
 sprite{ id = "menus/dungeon_maps/map_1", description = "Map 1" }
 sprite{ id = "menus/dungeon_maps/map_1_compass", description = "Map 1 compass" }
-sprite{ id = "menus/dungeon_maps/map_2", description = "Map 2" }
+sprite{ id = "menus/dungeon_maps/map_2", description = "Map 2 " }
 sprite{ id = "menus/dungeon_maps/map_2_compass", description = "Map 2 compass" }
 sprite{ id = "menus/dungeon_maps/map_3", description = "Map 3" }
 sprite{ id = "menus/dungeon_maps/map_3_compass", description = "Map 3 compass" }
@@ -565,6 +567,8 @@ enemy{ id = "boss_1_body_1", description = "Boss 1 body 1" }
 enemy{ id = "boss_1_body_2", description = "Boss 1 body 2" }
 enemy{ id = "boss_1_body_3", description = "Boss 1 body 3" }
 enemy{ id = "boss_1_tail", description = "Boss 1 tail" }
+enemy{ id = "boss_2", description = "Boss 2" }
+enemy{ id = "boss_2_vase", description = "Boss 2 vase" }
 enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "chicken_mortal", description = "Chicken mortal" }

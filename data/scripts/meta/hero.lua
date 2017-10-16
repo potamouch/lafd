@@ -1,12 +1,14 @@
 -- Initialize hero behavior specific to this quest.
 
+require("scripts/multi_events")
 local hero_meta = sol.main.get_metatable("hero")
 
-function hero_meta:on_position_changed(x, y, layer)
+hero_meta:register_event("on_position_changed", function(hero)
 
-  local game = self:get_game()
+  local game = hero:get_game()
   local map = game:get_map()
   local dungeon = game:get_dungeon()
+  local x, y = hero:get_center_position()
   if dungeon == nil then
     local world = map:get_world()
     local square_x = 0
@@ -53,7 +55,7 @@ function hero_meta:on_position_changed(x, y, layer)
     game:set_explored_dungeon_room(nil, nil, room)
     
   end
-end
+end)
 
 function hero_meta:on_state_changed(state)
 

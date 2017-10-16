@@ -13273,6 +13273,26 @@ npc{
   sprite = "entities/owl",
 }
 
+teletransporter{
+  layer = 0,
+  x = 1040,
+  y = 1456,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/1f",
+  destination = "dungeon_2_1_B",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1056,
+  y = 1456,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/3/1f",
+  destination = "stairs_1_B",
+}
+
 tile{
   layer = 1,
   x = 1008,

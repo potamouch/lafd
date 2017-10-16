@@ -18509,8 +18509,32 @@ chest{
   layer = 0,
   x = 752,
   y = 1693,
-  treasure_name = "magic_powders_counter",
+  treasure_name = "map",
   sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 768,
+  y = 1693,
+  treasure_name = "compass",
+  sprite = "entities/chest",
+}
+
+enemy{
+  layer = 0,
+  x = 2080,
+  y = 621,
+  direction = 0,
+  breed = "boss_2",
+}
+
+enemy{
+  layer = 0,
+  x = 2080,
+  y = 645,
+  direction = 0,
+  breed = "boss_2_vase",
 }
 
 tile{
