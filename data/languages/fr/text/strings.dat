@@ -5,17 +5,22 @@ text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }
 text{ key = "inventory.caption.item.bow.1", value = "Arc" }
 text{ key = "inventory.caption.item.bow.2", value = "Arc & Flèches" }
 text{ key = "inventory.caption.item.carte.1", value = "Carte de Cocolint" }
-text{ key = "inventory.caption.item.conch_horn.1", value = "Conque de l'écume" }
-text{ key = "inventory.caption.item.coral_triangle.1", value = "Triangle du corail" }
 text{ key = "inventory.caption.item.drug.1", value = "Médicament secret" }
 text{ key = "inventory.caption.item.face_key.1", value = "Clé du masque" }
 text{ key = "inventory.caption.item.feather.1", value = "Plume" }
 text{ key = "inventory.caption.item.fire_rod.1", value = "Bâton de feu" }
 text{ key = "inventory.caption.item.flippers.1", value = "Palmes" }
-text{ key = "inventory.caption.item.full_moon_cello.1", value = "Violon des vagues" }
 text{ key = "inventory.caption.item.golden_leaves_counter.1", value = "Feuilles d'or" }
 text{ key = "inventory.caption.item.hammer.1", value = "Marteau" }
 text{ key = "inventory.caption.item.hookshot.1", value = "Grappin" }
+text{ key = "inventory.caption.item.instrument_1.1", value = "Violon des vagues" }
+text{ key = "inventory.caption.item.instrument_2.1", value = "Conque de l'écume" }
+text{ key = "inventory.caption.item.instrument_3.1", value = "Cloche des algues" }
+text{ key = "inventory.caption.item.instrument_4.1", value = "Harpe du reflux" }
+text{ key = "inventory.caption.item.instrument_5.1", value = "Xylophone marin" }
+text{ key = "inventory.caption.item.instrument_6.1", value = "Triangle du corail" }
+text{ key = "inventory.caption.item.instrument_7.1", value = "Orgue de l'embellie" }
+text{ key = "inventory.caption.item.instrument_8.1", value = "Tambour des marées" }
 text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
 text{ key = "inventory.caption.item.magic_powders_counter.1", value = "Poudre magique" }
 text{ key = "inventory.caption.item.magnifying_lens.1", value = "Yoshi" }
@@ -37,7 +42,6 @@ text{ key = "inventory.caption.item.melody_2.1", value = "Mambo de Mambo" }
 text{ key = "inventory.caption.item.melody_3.1", value = "Chanson des grenouilles" }
 text{ key = "inventory.caption.item.mushroom.1", value = "Champignon" }
 text{ key = "inventory.caption.item.ocarina.1", value = "Ocarina" }
-text{ key = "inventory.caption.item.organ_of_evening_calm.1", value = "Orgue de l'embellie" }
 text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
 text{ key = "inventory.caption.item.photos_counter.1", value = "Photos" }
 text{ key = "inventory.caption.item.piece_of_heart.0", value = "0 fragment de coeur" }
@@ -45,21 +49,17 @@ text{ key = "inventory.caption.item.piece_of_heart.1", value = "1 fragment de co
 text{ key = "inventory.caption.item.piece_of_heart.2", value = "2 fragments de coeur" }
 text{ key = "inventory.caption.item.piece_of_heart.3", value = "3 fragments de coeur" }
 text{ key = "inventory.caption.item.power_bracelet.1", value = "Bracelets de force" }
-text{ key = "inventory.caption.item.sea_lilys_bell.1", value = "Cloche des algues" }
 text{ key = "inventory.caption.item.seashells_counter.1", value = "Coquillages" }
 text{ key = "inventory.caption.item.shield.1", value = "Bouclier" }
 text{ key = "inventory.caption.item.shield.2", value = "Bouclier reflet" }
 text{ key = "inventory.caption.item.shovel.1", value = "Pelle" }
 text{ key = "inventory.caption.item.slim_key.1", value = "Clé cyclope" }
-text{ key = "inventory.caption.item.surf_harp.1", value = "Harpe du reflux" }
 text{ key = "inventory.caption.item.sword.1", value = "Epée" }
 text{ key = "inventory.caption.item.sword.2", value = "Glaive Hylien" }
 text{ key = "inventory.caption.item.tail_key.1", value = "Clé flagello" }
-text{ key = "inventory.caption.item.thunder_drum.1", value = "Tambour des marées" }
 text{ key = "inventory.caption.item.tunic.1", value = "Cotte de Mailles$verte" }
 text{ key = "inventory.caption.item.tunic.2", value = "Cotte de Mailles$bleue" }
 text{ key = "inventory.caption.item.tunic.3", value = "Cotte de Mailles$rouge" }
-text{ key = "inventory.caption.item.wind_marimba.1", value = "Xylophone marin" }
 text{ key = "map.caption.dungeon_name_1", value = "Cave Flagello" }
 text{ key = "map.caption.dungeon_name_10", value = "Précipice aquatique" }
 text{ key = "map.caption.dungeon_name_2", value = "Grotte du génie" }

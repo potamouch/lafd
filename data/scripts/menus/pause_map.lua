@@ -26,7 +26,7 @@ function map_submenu:on_draw(dst_surface)
   else
     self:draw_world_map(self.map_surface)
   end
-  self:draw_save_dialog_if_any(self.map_surface)
+  self:draw_save_dialog_if_any(dst_surface)
 
 
 end

@@ -1,12 +1,14 @@
 local treasure_manager = {}
 
-function treasure_manager:appear_chest_when_enemies_dead(map, enemy_prefix, treasure, placeholder, savegame)
+function treasure_manager:appear_chest_when_enemies_dead(map, enemy_prefix, chest)
     
   local function enemy_on_dead()
     local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
-      if not game:get_value(savegame) then
-         self:appear_chest(map, treasure, placeholder, savegame, true)
+       local chest = map:get_entity(chest)
+       local treasure, variant, savegame = chest:get_treasure()
+      if  not savegame or savegame and not game:get_value(savegame) then
+         self:appear_chest(map, chest, true)
       end
     end
   end
@@ -17,13 +19,15 @@ function treasure_manager:appear_chest_when_enemies_dead(map, enemy_prefix, trea
 
 end
 
-function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, treasure, placeholder, savegame)
+function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, pickable)
     
   local function enemy_on_dead()
     local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
-      if not game:get_value(savegame) then
-         self:appear_pickable(map, treasure, placeholder, savegame, true)
+       local pickable = map:get_entity(pickable)
+       local treasure, variant, savegame = pickable:get_treasure()
+      if  not savegame or savegame and not game:get_value(savegame) then
+         self:appear_chest(map, pickable, true)
       end
     end
   end
@@ -34,63 +38,70 @@ function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, t
 
 end
 
-function treasure_manager:appear_chest_when_savegame_exist(map, savegame, treasure, placeholder)
+function treasure_manager:disappear_chest(map, chest)
     
+  local chest = map:get_entity(chest)
+  chest:set_enabled(false)
+
+end
+
+function treasure_manager:disappear_pickable(map, pickable)
+    
+  local pickable = map:get_entity(pickable)
+  if pickable then
+    pickable:set_enabled(false)
+  end
+
+end
+
+function treasure_manager:appear_chest_if_savegame_exist(map, chest, savegame)
+
   local game = map:get_game()
-  if game:get_value(savegame) then
-         self:appear_chest(map, treasure, placeholder, savegame, false)
+  if savegame and game:get_value(savegame) then
+    treasure_manager:appear_chest(map, chest, false)
+  else
+    treasure_manager:disappear_chest(map, chest)
   end
+      
+end
+
+
+function treasure_manager:appear_chest(map, chest, sound)
+
+  local chest = map:get_entity(chest)
+  local game = map:get_game()
+  chest:set_enabled(true)
+  if sound ~= nil and sound ~= false then
+    sol.audio.play_sound("secret_1")
+  end
+      
+end
+
+function treasure_manager:appear_pickable(map, pickable, sound)
+
+    local pickable = map:get_entity(pickable)
+    if not pickable:is_enabled() then
+      local game = map:get_game()
+      if pickable then
+        pickable:set_enabled(true)
+        if sound ~= nil and sound ~= false then
+          sol.audio.play_sound("secret_1")
+        end
+      end
+    end
 
 end
 
 
-function treasure_manager:appear_chest(map, treasure, placeholder, savegame, sound)
+function treasure_manager:appear_heart_container_if_boss_dead(map)
 
-        local item, variant, savegame_variable = unpack(treasure)
-        local placeholder = map:get_entity(placeholder)
-        local x,y,layer = placeholder:get_position()
-        local game = map:get_game()
-        placeholder:set_enabled(false)
-        if sound ~= nil and sound ~= false then
-          sol.audio.play_sound("secret_1")
-        end
-        if savegame ~= nil and savegame ~= false then
-          game:set_value(savegame,  true)
-        end
-        map:create_chest{
-              sprite = "entities/chest",
-              treasure_name = item,
-              treasure_variant = variant,
-              treasure_savegame_variable = savegame_variable,
-              x = x,
-              y = y,
-              layer = layer
-            }
-        
-end
+    local game = map:get_game()
+    local dungeon = game:get_dungeon_index()
+    local savegame = "dungeon_" .. dungeon .. "_boss"
+    if game:get_value(savegame) then
+      self:appear_pickable(map, "heart_container", false)
+    end
 
-function treasure_manager:appear_pickable(map, treasure, placeholder, savegame, sound)
-
-       local item, variant, savegame_variable = unpack(treasure)
-       local placeholder = map:get_entity(placeholder)
-       local x,y,layer= placeholder:get_position()
-       local game = map:get_game()
-       placeholder:set_enabled(false)
-        if sound ~= nil and sound ~= false then
-          sol.audio.play_sound("secret_1")
-        end
-        if savegame ~= nil and savegame ~= false then
-          game:set_value(savegame,  true)
-        end
-       map:create_pickable{
-            treasure_name = item,
-            treasure_variant = variant,
-            treasure_savegame_variable = savegame_variable,
-            x = x,
-            y = y,
-            layer = layer
-          }
-        
 end
 
 function treasure_manager:get_instrument(map, dungeon)

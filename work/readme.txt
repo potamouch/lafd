@@ -103,3 +103,11 @@ Déploiement MacOS : Vlag
 
 Special Thanks : Zemo, Yorick, Miniriël, Lelinuxien, Vivig, Nintendo
 
+
+
+EASTER EGGS
+
+- Si héro a le meme nom qu'un boss, le boss en question a trois fois plus de point de vie + message du style
+Tu apprendras à tes dépends qu'il ne peut y avoir qu'un seul XXX !!!
+Mouahahaha !
+

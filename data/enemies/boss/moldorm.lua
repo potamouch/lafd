@@ -13,7 +13,7 @@ local movement_body_3
 local movement_tail
 local is_dead = false
 
-enemy:create_sprite("enemies/" .. enemy:get_breed() .. '_tail')
+enemy:create_sprite("enemies/" .. enemy:get_breed())
 
 function enemy:on_created()
 
@@ -23,7 +23,7 @@ function enemy:on_created()
   enemy:set_pushed_back_when_hurt(false)
   local x, y, layer = enemy:get_position()
   head = map:create_enemy{
-        breed = enemy:get_breed() .. '_head',
+        breed = enemy:get_breed() .. '/moldorm_head',
         direction = 3,
         x = x,
         y = y,
@@ -32,7 +32,7 @@ function enemy:on_created()
         layer = layer
       }
   body_1 = map:create_enemy{
-      breed = enemy:get_breed() .. '_body_1',
+      breed = enemy:get_breed() .. '/moldorm_body_1',
       direction = 3,
       x = x,
       y = y,
@@ -41,7 +41,7 @@ function enemy:on_created()
       layer = layer
     }
   body_2 = map:create_enemy{
-        breed = enemy:get_breed() .. '_body_2',
+        breed = enemy:get_breed() .. '/moldorm_body_2',
         direction = 3,
         x = x,
         y = y,
@@ -50,7 +50,7 @@ function enemy:on_created()
         layer = layer
       }
   body_3 = map:create_enemy{
-        breed = enemy:get_breed() .. '_body_3',
+        breed = enemy:get_breed() .. '/moldorm_body_3',
         direction = 3,
         x = x,
         y = y,
@@ -84,19 +84,20 @@ function enemy:go_body()
    movement_body_1 = sol.movement.create("target")
    movement_body_1:set_target(head)
    movement_body_1:set_speed(128)
-   movement_body_1:start(body_1)
    movement_body_2 = sol.movement.create("target")
    movement_body_2:set_target(body_1)
    movement_body_2:set_speed(128)
-   movement_body_2:start(body_2)
    movement_body_3 = sol.movement.create("target")
    movement_body_3:set_target(body_2)
    movement_body_3:set_speed(128)
-   movement_body_3:start(body_3)
    movement_tail = sol.movement.create("target")
    movement_tail:set_target(body_3)
    movement_tail:set_speed(128)
+   movement_body_1:start(body_1)
+   movement_body_2:start(body_2)
+   movement_body_3:start(body_3)
    movement_tail:start(enemy)
+
 end
 
 function enemy:repeat_switch_side()

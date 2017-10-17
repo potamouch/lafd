@@ -1,4 +1,4 @@
--- Lua script of enemy boss_small_1.
+-- Lua script of enemy rolling_bones
 -- This script is executed every time an enemy with this model is created.
 
 -- Feel free to modify the code below.
@@ -7,6 +7,7 @@
 -- See the Solarus Lua API documentation for the full specification
 -- of types, events and methods:
 -- http://www.solarus-games.org/doc/latest
+
 
 local enemy = ...
 local spike
@@ -31,8 +32,7 @@ function enemy:on_created()
   enemy:set_life(4)
   enemy:set_damage(1)
   spike = map:create_enemy{
-    sprite = "enemies/rolling_spike_vertical",
-    breed = "rolling_spike_vertical",
+    breed = enemy:get_breed() .. "/rolling_bones_spike",
     direction = 2,
     x = x - 64,
     y = y,

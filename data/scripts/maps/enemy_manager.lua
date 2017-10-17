@@ -86,6 +86,7 @@ function enemy_manager:launch_small_boss_if_not_dead(map)
     local game = map:get_game()
     local door_prefix = "door_group_small_boss"
     local dungeon = game:get_dungeon_index()
+    local dungeon_infos = game:get_dungeon()
     local savegame = "dungeon_" .. dungeon .. "_small_boss"
     local placeholder = "placeholder_small_boss"
     if game:get_value(savegame) then
@@ -97,12 +98,12 @@ function enemy_manager:launch_small_boss_if_not_dead(map)
     local music = sol.audio.get_music()
     placeholder:set_enabled(false)
     local enemy = map:create_enemy{
-                  breed = "small_boss_" .. dungeon,
-                  direction = 2,
-                  x = x,
-                  y = y,
-                  layer = layer
-                }
+       breed = dungeon_infos["small_boss"]["breed"],
+       direction = 2,
+        x = x,
+        y = y,
+        layer = layer
+      }
    enemy:register_event("on_dead", function()
       enemy:launch_small_boss_dead(music)
    end)
@@ -117,6 +118,7 @@ function enemy_manager:launch_boss_if_not_dead(map)
     local game = map:get_game()
     local door_prefix = "door_group_boss"
     local dungeon = game:get_dungeon_index()
+    local dungeon_infos = game:get_dungeon()
     local savegame = "dungeon_" .. dungeon .. "_boss"
     local placeholder = "placeholder_boss"
     if game:get_value(savegame) then
@@ -126,12 +128,12 @@ function enemy_manager:launch_boss_if_not_dead(map)
     local x,y,layer = placeholder:get_position()
     placeholder:set_enabled(false)
     local enemy = map:create_enemy{
-                  breed = "boss_" .. dungeon,
-                  direction = 2,
-                  x = x,
-                  y = y,
-                  layer = layer
-                }
+      breed = dungeon_infos["boss"]["breed"],
+      direction = 2,
+      x = x,
+      y = y,
+      layer = layer
+    }
      enemy:register_event("on_dead", function()
         enemy:launch_boss_dead(door_prefix, savegame)
      end)

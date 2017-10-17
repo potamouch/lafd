@@ -2993,26 +2993,6 @@ ennemis coriaces.
 }
 
 dialog{
-  id = "scripts.menus.pause_inventory.conch_horn.1",
-  skip = "all",
-  text = [[
-C'est le second 
-instrument des 
-sirènes.
-]]
-}
-
-dialog{
-  id = "scripts.menus.pause_inventory.coral_triangle.1",
-  skip = "all",
-  text = [[
-C'est le sixième 
-instrument des 
-sirènes.
-]]
-}
-
-dialog{
   id = "scripts.menus.pause_inventory.drug.1",
   icon = "49",
   skip = "all",
@@ -3066,16 +3046,6 @@ dans l'eau profonde.
 }
 
 dialog{
-  id = "scripts.menus.pause_inventory.full_moon_cello.1",
-  skip = "all",
-  text = [[
-C'est le premier 
-instrument des 
-sirènes.
-]]
-}
-
-dialog{
   id = "scripts.menus.pause_inventory.golden_leaves_counter.1",
   icon = "115",
   skip = "all",
@@ -3106,6 +3076,78 @@ Hisse-toi à des
 endroits
 inaccessibles grâce
 au Grappin.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_1.1",
+  skip = "all",
+  text = [[
+C'est le premier 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_2.1",
+  skip = "all",
+  text = [[
+C'est le second 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_3.1",
+  skip = "all",
+  text = [[
+C'est le troisième 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_4.1",
+  skip = "all",
+  text = [[
+C'est le quatrième 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_5.1",
+  skip = "all",
+  text = [[
+C'est le cinquième 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_6.1",
+  skip = "all",
+  text = [[
+C'est le sixième 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_7.1",
+  skip = "all",
+  text = [[
+C'est le septième 
+instrument des sirènes.
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.instrument_8.1",
+  skip = "all",
+  text = [[
+C'est le huitième 
+instrument des sirènes.
 ]]
 }
 
@@ -3326,16 +3368,6 @@ votre vie !
 }
 
 dialog{
-  id = "scripts.menus.pause_inventory.organ_of_evening_calm.1",
-  skip = "all",
-  text = [[
-C'est le septième 
-instrument des 
-sirènes.
-]]
-}
-
-dialog{
   id = "scripts.menus.pause_inventory.pegasus_shoes.1",
   icon = "13",
   skip = "all",
@@ -3366,16 +3398,6 @@ dialog{
 Collectionnes en 4
 pour récupérer un
 coeur supplémentaire !
-]]
-}
-
-dialog{
-  id = "scripts.menus.pause_inventory.sea_lilys_bell.1",
-  skip = "all",
-  text = [[
-C'est le troisième 
-instrument des 
-sirènes.
 ]]
 }
 
@@ -3412,16 +3434,6 @@ la cave aux clefs
 }
 
 dialog{
-  id = "scripts.menus.pause_inventory.surf_harp.1",
-  skip = "all",
-  text = [[
-C'est le quatrième 
-instrument des 
-sirènes.
-]]
-}
-
-dialog{
   id = "scripts.menus.pause_inventory.sword.1",
   icon = "66",
   skip = "all",
@@ -3439,16 +3451,6 @@ dialog{
 Permet d'ouvrir
 la porte de
 la cave Flagello
-]]
-}
-
-dialog{
-  id = "scripts.menus.pause_inventory.thunder_drum.1",
-  skip = "all",
-  text = [[
-C'est le huitième 
-instrument des 
-sirènes.
 ]]
 }
 
@@ -3482,16 +3484,6 @@ dialog{
 Une tunique rouge 
 pour le plus beau
 des héros !
-]]
-}
-
-dialog{
-  id = "scripts.menus.pause_inventory.wind_marimba.1",
-  skip = "all",
-  text = [[
-C'est le cinquième 
-instrument des 
-sirènes.
 ]]
 }
 

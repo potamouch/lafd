@@ -64,14 +64,8 @@ function enemy_meta:launch_boss_dead()
   sol.audio.play_music("maps/dungeons/instruments")
   game:set_value(savegame, true)
   map:open_doors(door_prefix)
-  local x,y,layer = self:get_position()
-  map:create_pickable({
-    x = x,
-    y = y,
-    layer = layer, 
-    treasure_name = "heart_container",
-    treasure_variant = 1
-  })
+  local heart_container = map:get_entity("heart_container")
+  heart_container:set_enabled(true)
 
 end
 

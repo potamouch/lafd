@@ -22,14 +22,17 @@ local owl_manager = require("scripts/maps/owl_manager")
 
 function map:on_started()
 
-  local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
-  treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_small_key_2_appear", treasure, "placeholder_small_key_2")
-  local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
-  treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_beak_of_stone_appear", treasure, "placeholder_beak_of_stone")
-  local treasure = {"map", 1, "dungeon_1_map"}
-  treasure_manager:appear_chest_when_savegame_exist(map, "dungeon_1_map_appear", treasure, "placeholder_map")
-  switch_manager:activate_when_savegame_exist(map, "dungeon_1_small_key_2_appear", "switch_1")
+  -- Init music
+  game:play_dungeon_music()
+  treasure_manager:disappear_pickable(map, "pickable_small_key_1")
+  treasure_manager:disappear_pickable(map, "heart_container")
+  treasure_manager:appear_chest_if_savegame_exist(map, "chest_small_key_2",  "dungeon_1_small_key_2")
+  treasure_manager:appear_chest_if_savegame_exist(map, "chest_map",  "dungeon_1_map")
+  treasure_manager:appear_chest_if_savegame_exist(map, "chest_beak_of_stone",  "dungeon_1_beak_of_stone")
+  treasure_manager:appear_chest_if_savegame_exist(map, "chest_rupee_1",  "dungeon_1_rupee_1")
+  switch_manager:activate_switch_if_savegame_exist(map, "switch_1",  "dungeon_1_small_key_2")
   enemy_manager:create_teletransporter_if_small_boss_dead(map, false)
+  treasure_manager:appear_heart_container_if_boss_dead(map)
 
 
 end
@@ -42,8 +45,7 @@ function map:on_opening_transition_finished(destination)
       map:set_doors_open("door_group_small_boss", true)
       map:set_doors_open("door_group_5", true)
       game:start_dialog("maps.dungeons.1.welcome")
-    end
-    if destination == stairs_1_B then
+    elseif destination == stairs_1_B then
       map:set_doors_open("door_group_1", true)
       map:set_doors_open("door_group_2", true)
       map:set_doors_open("door_group_small_boss", true)
@@ -57,20 +59,17 @@ end
 
 -- Treasures
 
-local treasure = {"small_key", 1, "dungeon_1_small_key_1"}
-treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", treasure, "placeholder_small_key_1", "dungeon_1_small_key_1_appear")
-local treasure = {"rupee", 3, "dungeon_1_rupee_1"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", treasure, "placeholder_rupee_1", "dungeon_1_rupee_1_appear")
-local treasure = {"beak_of_stone", 1, "dungeon_1_beak_of_stone"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", treasure, "placeholder_beak_of_stone", "dungeon_1_beak_of_stone_appear")
-local treasure = {"map", 1, "dungeon_1_map"}
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_4", treasure, "placeholder_map", "dungeon_1_map_appear")
+treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_7", "pickable_small_key_1", nil)
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_12", "chest_rupee_1")
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_13", "chest_beak_of_stone")
+treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_4", "chest_map")
 
 -- Doors
 
 door_manager:open_when_enemies_dead(map,  "enemy_group_6",  "door_group_1")
 door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_5")
 door_manager:open_if_small_boss_dead(map)
+door_manager:open_if_boss_dead(map)
 
 -- Sensors events
 
@@ -136,8 +135,7 @@ end
 
 function switch_1:on_activated()
 
-  local treasure = {"small_key", 1, "dungeon_1_small_key_2"}
-  treasure_manager:appear_chest(map, treasure, "placeholder_small_key_2", "dungeon_1_small_key_2_appear", true)
+  treasure_manager:appear_chest(map, "chest_small_key_2", true)
 
 end
 
@@ -153,7 +151,7 @@ end
 
 function map:on_obtaining_treasure(item, variant, savegame_variable)
 
-    if savegame_variable == "dungeon_1_instrument" then
+    if savegame_variable == "dungeon_1_big_treasure" then
       treasure_manager:get_instrument(map, 1)
     end
 

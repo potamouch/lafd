@@ -53,14 +53,24 @@ local function initialize_dungeon_features(game)
           [45] = {
             savegame = "dungeon_1_map",
             signal = false
+          },
+          [51] = {
+            savegame = "dungeon_1_small_key_1",
+            signal = true
           }
         }
       },
+      small_boss = {
+        floor = 0,
+        breed = "boss/rolling_bones",
+        x = 640 + 1440,
+        y = 720 + 365
+      },
       boss = {
         floor = 0,
+        breed = "boss/moldorm",
         x = 640 + 1440,
-        y = 720 + 365,
-        savegame_variable = "dungeon_1_boss",
+        y = 720 + 365
       }
     },
    [2] = {
@@ -77,11 +87,14 @@ local function initialize_dungeon_features(game)
           }
         }
       },
+      small_boss = {
+        breed = "boss/hinox",
+      },
       boss = {
         floor = 0,
+        breed = "boss/genie",
         x = 640 + 1440,
-        y = 720 + 365,
-        savegame_variable = "dungeon_2_boss",
+        y = 720 + 365
       }
    },
    [3] = {
@@ -218,6 +231,18 @@ local function initialize_dungeon_features(game)
 
     dungeon_index = dungeon_index or game:get_dungeon_index()
     return sol.language.get_string("dungeon_" .. dungeon_index .. ".name")
+  end
+
+  function game:play_dungeon_music(dungeon_index)
+
+    dungeon_index = dungeon_index or game:get_dungeon_index()
+    local music = "maps/dungeons/" .. dungeon_index .. "/dungeon"
+    local savegame_boss = "dungeon_" .. dungeon_index .. "_boss"
+    local savegame_treasure = "dungeon_" .. dungeon_index .. "_big_treasure"
+    if  game:get_value(savegame_boss) and not game:get_value(savegame_treasure) then
+      music = "maps/dungeons/instruments"
+    end
+    sol.audio.play_music(music)
   end
 
   local function compute_merged_rooms(game, dungeon_index, floor)
