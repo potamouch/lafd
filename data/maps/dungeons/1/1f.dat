@@ -13247,8 +13247,7 @@ chest{
   layer = 0,
   x = 1064,
   y = 1725,
-  treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_1_chest_boss_key",
+  treasure_name = "magic_powders_counter",
   sprite = "entities/chest",
 }
 

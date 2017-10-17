@@ -10,6 +10,7 @@
 local map = ...
 local game = map:get_game()
 local music_name = sol.audio.get_music()
+local light_manager = require("scripts/maps/light_manager")
 
 function map:talk_to_witch() 
 
@@ -62,6 +63,7 @@ end
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
+  light_manager:init(map)
   map:set_light(0)
 end
 
