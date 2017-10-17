@@ -5,8 +5,8 @@ function treasure_manager:appear_chest_when_enemies_dead(map, enemy_prefix, ches
   local function enemy_on_dead()
     local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
-       local chest = map:get_entity(chest)
-       local treasure, variant, savegame = chest:get_treasure()
+       local chest_entity = map:get_entity(chest)
+       local treasure, variant, savegame = chest_entity:get_treasure()
       if  not savegame or savegame and not game:get_value(savegame) then
          self:appear_chest(map, chest, true)
       end
@@ -24,10 +24,10 @@ function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, p
   local function enemy_on_dead()
     local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
-       local pickable = map:get_entity(pickable)
-       local treasure, variant, savegame = pickable:get_treasure()
+       local pickable_entity = map:get_entity(pickable)
+       local treasure, variant, savegame = pickable_entity:get_treasure()
       if  not savegame or savegame and not game:get_value(savegame) then
-         self:appear_chest(map, pickable, true)
+         self:appear_pickable(map, pickable, true)
       end
     end
   end
@@ -80,13 +80,11 @@ end
 function treasure_manager:appear_pickable(map, pickable, sound)
 
     local pickable = map:get_entity(pickable)
-    if not pickable:is_enabled() then
+    if pickable and not pickable:is_enabled() then
       local game = map:get_game()
-      if pickable then
-        pickable:set_enabled(true)
-        if sound ~= nil and sound ~= false then
-          sol.audio.play_sound("secret_1")
-        end
+      pickable:set_enabled(true)
+      if sound ~= nil and sound ~= false then
+        sol.audio.play_sound("secret_1")
       end
     end
 

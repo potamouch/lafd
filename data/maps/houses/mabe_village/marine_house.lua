@@ -42,7 +42,7 @@ end
 
 function map:jump_from_bed()
 
-  hero:set_visible(true)
+  hero:set_enabled(true)
   hero:start_jumping(7, 24, true)
   game:set_pause_allowed(true)
   bed:get_sprite():set_animation("empty_open")
@@ -137,7 +137,7 @@ function map:on_started(destination)
     snores:get_sprite():set_ignore_suspend(true)
     bed:get_sprite():set_animation("hero_sleeping")
     hero:freeze()
-    hero:set_visible(false)
+    hero:set_enabled(false)
     sol.timer.start(3000, function()
       map:wake_up()
     end)

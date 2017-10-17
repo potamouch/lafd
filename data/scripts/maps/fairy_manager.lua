@@ -13,7 +13,7 @@ function fairy_manager:launch_fairy_if_hero_not_max_life(map, fairy_name, music_
       fairy:get_sprite():set_ignore_suspend(true)
       hero:set_direction(1)
       hero:freeze()
-      fairy:set_visible(true)
+      fairy:set_enabled(true)
       sol.audio.play_music("scripts/meta/map/fairy_fountain")
       fairy:get_sprite():fade_in(100, function()
         game:start_dialog("scripts.meta.map.fairy", function()
@@ -157,7 +157,7 @@ end
 function fairy_manager:init_fairy(map, fairy_name)
 
     local fairy = map:get_entity(fairy_name)
-    fairy:set_visible(false)
+    fairy:set_enabled(false)
         
 end
 

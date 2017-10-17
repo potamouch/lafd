@@ -156,6 +156,17 @@ animation{
   },
 }
 animation{
+  name = "lifting_heavy",
+  src_image = "hero/heavy_lifting.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 96, frame_width = 48, frame_height = 24, origin_x = 24, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 120, frame_width = 48, frame_height = 24, origin_x = 24, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 24, origin_x = 24, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 168, frame_width = 48, frame_height = 24, origin_x = 24, origin_y = 21, num_frames = 5 },
+  },
+}
+animation{
   name = "plunging_lava",
   src_image = "hero/plunging.png",
   frame_delay = 50,

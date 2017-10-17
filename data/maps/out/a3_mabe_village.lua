@@ -27,9 +27,17 @@ end
 function map:init_marine()
  
   if game:get_value("main_quest_step") < 4  then
-    marine:set_visible(false)
+    marine:set_enabled(false)
   else
     marine:get_sprite():set_animation("waiting")
+  end
+
+end
+
+function map:init_bowwow()
+ 
+  if game:get_value("main_quest_step") > 7  then
+    bowwow:set_enabled(false)
   end
 
 end
@@ -151,6 +159,7 @@ function map:on_started(destination)
   end
   map:set_music()
   map:init_marine()
+  map:init_bowwow()
   grand_ma:get_sprite():set_animation("walking")
   kid_1:get_sprite():set_animation("playing")
   kid_2:get_sprite():set_animation("playing")

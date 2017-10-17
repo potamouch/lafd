@@ -30,8 +30,8 @@ end
 function map:on_started(destination)
 
   map:set_music()
-  owl_1:set_visible(false)
-  owl_4:set_visible(false)
+  owl_1:set_enabled(false)
+  owl_4:set_enabled(false)
   dungeon_1_entrance:set_can_traverse("hero", false)
   if game:get_value("main_quest_step") > 6 then
     map:open_dungeon_1()

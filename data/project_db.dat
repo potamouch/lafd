@@ -220,6 +220,7 @@ sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/statue_dungeon_1", description = "Statue dungeon 1" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
+sprite{ id = "entities/stone_large_white", description = "Large white stone" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
@@ -614,6 +615,7 @@ entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }
 entity{ id = "mr_write", description = "Mr Write" }
 entity{ id = "seagull", description = "Seagull" }
+entity{ id = "stone_large", description = "Stone large" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }

@@ -37,7 +37,7 @@ function map:init_tarin()
     tarin:get_sprite():set_animation("waiting_raccoon")
     tarin_2:get_sprite():set_animation("waiting_raccoon")
     tarin_2:get_sprite():synchronize(tarin:get_sprite())
-    tarin_2:set_visible(false)
+    tarin_2:set_enabled(false)
   end
 
 end
@@ -74,10 +74,10 @@ function map:on_started(destination)
 
   map:set_overlay()
   map:init_tarin()
-  owl_2:set_visible(false)
-  owl_3:set_visible(false)
+  owl_2:set_enabled(false)
+  owl_3:set_enabled(false)
   if game:has_item("mushroom") or game:has_item("magic_powders_counter") then 
-    mushroom:set_visible(false)
+    mushroom:set_enabled(false)
   end
   if map:get_game():get_value("owl_2") == true then
         map:set_music()
@@ -175,7 +175,7 @@ function lost_sensor:on_activated()
         damage_on_enemies = damage_on_enemies,
         modified_ground = modified_ground,
       }
-      tarin_2:set_visible(true)
+      tarin_2:set_enabled(true)
       tarin_2:get_sprite():fade_out()
     end
   end
@@ -198,7 +198,7 @@ end
 function separator:on_activated()
 
   if tarin_2 ~= nil then
-    tarin_2:set_visible(false)
+    tarin_2:set_enabled(false)
     map.raccoon_warning_done = false
   end
 end
@@ -209,7 +209,9 @@ function tarin:on_interaction()
     game:start_dialog("maps.out.forest.raccoon")
   else
     game:start_dialog("maps.out.forest.tarin")
-    tarin_2:get_sprite():set_direction(tarin:get_sprite():get_direction())
+    if tarin_2 then
+     tarin_2:get_sprite():set_direction(tarin:get_sprite():get_direction())
+    end
   end
 end
 
@@ -252,7 +254,6 @@ end
 function owl_2_sensor:on_activated()
 
   if map:get_game():get_value("owl_2") ~= true then
-        print("go")
       owl_manager:appear(map, 2, function()
         map:set_music()
       end)

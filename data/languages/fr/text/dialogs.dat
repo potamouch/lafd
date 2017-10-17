@@ -1775,7 +1775,8 @@ dialog{
   skip = "all",
   text = [[
 Je suis éreinté !
-J'vais faire un p'tit somme. 
+J'vais faire un p'tit 
+somme. 
 ZZZ...ZZZ...
 ]]
 }
@@ -2511,9 +2512,10 @@ abstenez-vous !
 dialog{
   id = "maps.out.forest.tarin",
   text = [[
-Oh là là !! J'me sens tout
-drôle ! Faut m'reposer
-avant d'rentrer.
+Oh là là !! J'me sens 
+tout drôle !
+Faut m'reposer avant 
+d'rentrer.
 ]]
 }
 
