@@ -433,15 +433,6 @@ tile{
   pattern = "287",
 }
 
-tile{
-  layer = 0,
-  x = 112,
-  y = 136,
-  width = 96,
-  height = 56,
-  pattern = "hole",
-}
-
 sensor{
   name = "link_search_sword_sensor_2",
   layer = 0,
@@ -630,17 +621,6 @@ npc{
   y = 77,
   direction = 3,
   subtype = 1,
-}
-
-custom_entity{
-  layer = 0,
-  x = 160,
-  y = 189,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/vacuum_cleaner",
-  model = "vacuum_cleaner",
 }
 
 tile{

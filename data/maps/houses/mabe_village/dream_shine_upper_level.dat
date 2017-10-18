@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
-  music = "same",
+  music = "maps/houses/dream_shine_upper_level",
 }
 
 tile{
@@ -228,150 +228,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
   x = 144,
   y = 96,
   width = 32,
@@ -551,7 +407,7 @@ tile{
 }
 
 destination{
-  name = "ocarina_house_1_B",
+  name = "dream_shine_1_B",
   layer = 0,
   x = 160,
   y = 213,
@@ -559,14 +415,234 @@ destination{
 }
 
 teletransporter{
-  name = "ocarina_house_2_B",
+  name = "dream_shine_2_B",
   layer = 0,
   x = 152,
   y = 224,
   width = 16,
   height = 16,
   destination_map = "out/a3_mabe_village",
-  destination = "ocarina_house_2_A",
+  destination = "dream_shine_2_A",
+}
+
+destination{
+  name = "dream_shine_lower_1_A",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 2,
+}
+
+npc{
+  name = "bed_npc",
+  layer = 0,
+  x = 152,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+}
+
+custom_entity{
+  name = "snores",
+  layer = 0,
+  x = 152,
+  y = 101,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/snores",
+}
+
+custom_entity{
+  name = "light_torch_1_1",
+  layer = 0,
+  x = 80,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_1_2",
+  layer = 0,
+  x = 96,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_1_3",
+  layer = 0,
+  x = 80,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_1_4",
+  layer = 0,
+  x = 96,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_2_1",
+  layer = 0,
+  x = 224,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_2_2",
+  layer = 0,
+  x = 240,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_2_3",
+  layer = 0,
+  x = 224,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_2_4",
+  layer = 0,
+  x = 240,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_3_1",
+  layer = 0,
+  x = 224,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_3_2",
+  layer = 0,
+  x = 240,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_3_3",
+  layer = 0,
+  x = 240,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_3_4",
+  layer = 0,
+  x = 224,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_4_1",
+  layer = 0,
+  x = 80,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_4_2",
+  layer = 0,
+  x = 80,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_4_3",
+  layer = 0,
+  x = 96,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "light_torch_4_4",
+  layer = 0,
+  x = 96,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
 }
 
 tile{
@@ -576,6 +652,26 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+npc{
+  name = "bed",
+  layer = 1,
+  x = 160,
+  y = 109,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/bed",
+}
+
+custom_entity{
+  name = "placeholder_link_sleep",
+  layer = 1,
+  x = 160,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

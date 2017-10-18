@@ -40,12 +40,12 @@ map{ id = "houses/graveyard/witch_house", description = "Witch house" }
 map{ id = "houses/kanalet_castle/kanalet_castle_1f", description = "Kanalet castle 1F" }
 map{ id = "houses/kanalet_castle/kanalet_castle_2f", description = "Kanalet castle 2F" }
 map{ id = "houses/kanalet_castle/telephone_booth_6", description = "Telephone booth 6" }
+map{ id = "houses/mabe_village/dream_shine_lower_level", description = "Dream shine lower level" }
+map{ id = "houses/mabe_village/dream_shine_upper_level", description = "Dream shine upper level" }
 map{ id = "houses/mabe_village/grandpa_house", description = "Grandpa house" }
 map{ id = "houses/mabe_village/library", description = "Library" }
 map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
-map{ id = "houses/mabe_village/ocarina_house", description = "Ocarina house" }
-map{ id = "houses/mabe_village/ocarina_house_dream", description = "Ocarina house (dream)" }
 map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets house" }
 map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
 map{ id = "houses/mabe_village/shop_2", description = "Shop 2" }
@@ -228,6 +228,7 @@ sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/teletransporter_dungeon", description = "Teletransporter dungeon" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/vacuum_cleaner", description = "Vacuum cleaner" }
+sprite{ id = "entities/vacuum_cleaner_ground", description = "Vacuum cleaner ground" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
 sprite{ id = "ground_effects/leaves", description = "ground_effects/leaves" }
@@ -377,6 +378,9 @@ music{ id = "maps/dungeons/instruments", description = "Instruments" }
 music{ id = "maps/dungeons/passageways", description = "Passageways" }
 music{ id = "maps/dungeons/small_boss", description = "Small boss" }
 music{ id = "maps/houses/cucco_house", description = "Cucco's House" }
+music{ id = "maps/houses/dream_shine_in_the_bed", description = "Dream shine in the bed" }
+music{ id = "maps/houses/dream_shine_lower_level", description = "Dream shine lower level" }
+music{ id = "maps/houses/dream_shine_upper_level", description = "Dream shine upper level" }
 music{ id = "maps/houses/ghost_house", description = "Ghost's house" }
 music{ id = "maps/houses/inside", description = "Inside" }
 music{ id = "maps/houses/kanalet_castle", description = "Kanalet castle" }

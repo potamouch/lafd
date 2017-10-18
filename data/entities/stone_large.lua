@@ -28,8 +28,12 @@ function entity:on_interaction()
     y = y + 16
   end
 
+  hero:set_invincible(true)
   hero:freeze()
+  
   hero:get_sprite():set_animation("lifting_heavy")
+  local shieldid = hero:get_shield_sprite_id()
+  hero:set_shield_sprite_id("")
 
   sol.timer.start(hero, 1200, function()
     local stone = map:create_destructible{
@@ -42,9 +46,13 @@ function entity:on_interaction()
       destruction_sound = "stone",
       damage_on_enemies = 4
     }
+    hero:set_shield_sprite_id(shieldid)
     entity:remove()
     hero:unfreeze()
+    hero:set_invincible(false)
     game:simulate_command_pressed("action")
+
+    
 
     x, y, layer = hero:get_position()
     wall = map:create_wall{

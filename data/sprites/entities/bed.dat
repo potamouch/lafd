@@ -8,7 +8,6 @@ animation{
     { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
   },
 }
-
 animation{
   name = "empty_open",
   src_image = "entities/bed.png",
@@ -19,7 +18,18 @@ animation{
     { x = 32, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
   },
 }
-
+animation{
+  name = "hero_goes_to_bed",
+  src_image = "entities/bed.png",
+  frame_delay = 170,
+  frame_to_loop_on = 1,
+  directions = {
+    { x = 160, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+    { x = 160, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+    { x = 160, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+    { x = 160, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+  },
+}
 animation{
   name = "hero_sleeping",
   src_image = "entities/bed.png",
@@ -30,11 +40,10 @@ animation{
     { x = 64, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
   },
 }
-
 animation{
   name = "hero_waking",
   src_image = "entities/bed.png",
-  frame_delay = 200,
+  frame_delay = 170,
   frame_to_loop_on = 1,
   directions = {
     { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
@@ -43,4 +52,3 @@ animation{
     { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
   },
 }
-

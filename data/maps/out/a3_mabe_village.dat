@@ -14846,7 +14846,7 @@ teletransporter{
 }
 
 destination{
-  name = "ocarina_house_2_A",
+  name = "dream_shine_2_A",
   layer = 0,
   x = 776,
   y = 85,
@@ -14854,14 +14854,14 @@ destination{
 }
 
 teletransporter{
-  name = "ocarina_house_1_A",
+  name = "dream_shine_1_A",
   layer = 0,
   x = 768,
   y = 56,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/ocarina_house",
-  destination = "ocarina_house_1_B",
+  destination_map = "houses/mabe_village/dream_shine_upper_level",
+  destination = "dream_shine_1_B",
 }
 
 destination{

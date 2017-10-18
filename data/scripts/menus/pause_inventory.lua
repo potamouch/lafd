@@ -310,7 +310,14 @@ function inventory_submenu:assign_item(slot)
           self.menu_ocarina = false
         end
       else
-        self.menu_ocarina = true
+        local melody_1 = self.game:get_item("melody_1")
+        local melody_2 = self.game:get_item("melody_2")
+        local melody_3 = self.game:get_item("melody_3")
+        if melody_1:get_variant() > 0 or melody_2:get_variant() > 0 or melody_3:get_variant() > 0 then
+          self.menu_ocarina = true
+        else
+          assignable = true
+        end
       end
   else
     assignable = true
