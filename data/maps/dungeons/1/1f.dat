@@ -12646,6 +12646,78 @@ tile{
   pattern = "wall_decor.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 1688,
+  y = 1184,
+  width = 112,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1792,
+  y = 1184,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1792,
+  y = 1112,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1688,
+  y = 1184,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1688,
+  y = 1112,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 1696,
+  y = 1112,
+  width = 96,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1688,
+  y = 1120,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 1792,
+  y = 1120,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.3-2",
+}
+
 dynamic_tile{
   name = "weak_wall_closed_A_2",
   layer = 0,
@@ -13896,14 +13968,6 @@ npc{
   sprite = "entities/owl",
 }
 
-chest{
-  layer = 0,
-  x = 1064,
-  y = 1725,
-  treasure_name = "magic_powders_counter",
-  sprite = "entities/chest",
-}
-
 destructible{
   layer = 0,
   x = 824,
@@ -14129,6 +14193,15 @@ pickable{
   y = 637,
   treasure_name = "heart_container",
   treasure_savegame_variable = "dungeon_1_heart_container",
+}
+
+enemy{
+  name = "enemy_group_13_2",
+  layer = 0,
+  x = 1704,
+  y = 909,
+  direction = 3,
+  breed = "vegas",
 }
 
 tile{

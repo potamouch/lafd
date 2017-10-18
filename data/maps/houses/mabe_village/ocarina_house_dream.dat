@@ -750,15 +750,6 @@ tile{
 tile{
   layer = 0,
   x = 440,
-  y = -48,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 440,
   y = 320,
   width = 8,
   height = 8,

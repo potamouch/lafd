@@ -4,7 +4,6 @@ local game = map:get_game()
 
 -- Includes scripts
 local owl_manager = require("scripts/maps/owl_manager")
-local weather_manager = require("scripts/maps/weather_manager")
 
 -- Functions
 
@@ -36,7 +35,6 @@ function map:on_started(destination)
   if game:get_value("main_quest_step") > 6 then
     map:open_dungeon_1()
   end
-weather_manager:launch_rain(map)
 
 end
 

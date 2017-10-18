@@ -227,6 +227,7 @@ sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/teletransporter_dungeon", description = "Teletransporter dungeon" }
 sprite{ id = "entities/torch", description = "Torch" }
+sprite{ id = "entities/vacuum_cleaner", description = "Vacuum cleaner" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
 sprite{ id = "ground_effects/leaves", description = "ground_effects/leaves" }
@@ -617,6 +618,7 @@ entity{ id = "mr_write", description = "Mr Write" }
 entity{ id = "seagull", description = "Seagull" }
 entity{ id = "stone_large", description = "Stone large" }
 entity{ id = "torch", description = "Torch" }
+entity{ id = "vacuum_cleaner", description = "Vacuum cleaner" }
 
 language{ id = "fr", description = "Français" }
 
