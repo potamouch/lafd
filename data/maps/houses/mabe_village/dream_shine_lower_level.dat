@@ -211,15 +211,6 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner_reverse.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 64,
   y = 72,
   width = 8,
   height = 368,
@@ -480,7 +471,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 48,
   width = 512,
   height = 16,
@@ -512,6 +503,15 @@ tile{
   width = 8,
   height = 16,
   pattern = "door_main.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-6",
 }
 
 custom_entity{
@@ -610,6 +610,204 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+enemy{
+  name = "enemy_group_1_1",
+  layer = 0,
+  x = 56,
+  y = 397,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_2_2",
+  layer = 0,
+  x = 56,
+  y = 141,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_2_1",
+  layer = 0,
+  x = 56,
+  y = 189,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_3_1",
+  layer = 0,
+  x = 136,
+  y = 61,
+  direction = 2,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_3_2",
+  layer = 0,
+  x = 200,
+  y = 61,
+  direction = 2,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_4_1",
+  layer = 0,
+  x = 408,
+  y = 61,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_4_2",
+  layer = 0,
+  x = 456,
+  y = 61,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_4_3",
+  layer = 0,
+  x = 504,
+  y = 61,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_5_1",
+  layer = 0,
+  x = 584,
+  y = 109,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_5_2",
+  layer = 0,
+  x = 584,
+  y = 157,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_6_1",
+  layer = 0,
+  x = 584,
+  y = 317,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_6_2",
+  layer = 0,
+  x = 584,
+  y = 349,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_6_3",
+  layer = 0,
+  x = 584,
+  y = 381,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+enemy{
+  name = "enemy_group_6_4",
+  layer = 0,
+  x = 584,
+  y = 413,
+  direction = 3,
+  breed = "arm_mimic",
+}
+
+wall{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 432,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 64,
+  y = 64,
+  width = 8,
+  height = 384,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 552,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 64,
+  width = 496,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 568,
+  y = 64,
+  width = 8,
+  height = 384,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 592,
+  y = 48,
+  width = 8,
+  height = 424,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 440,
+  width = 496,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 48,
+  y = 464,
+  width = 544,
+  height = 8,
+  stops_enemies = true,
 }
 
 tile{
@@ -1546,6 +1744,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 0,
   y = 248,
@@ -1554,6 +1753,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_2",
   layer = 2,
   x = 312,
   y = 0,

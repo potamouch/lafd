@@ -108,6 +108,7 @@ tileset{ id = "movies/beach", description = "Beach" }
 tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
 tileset{ id = "out/outside", description = "Outside" }
 
+sprite{ id = "enemies/arm_mimic", description = "Arm mimic" }
 sprite{ id = "enemies/beamos", description = "Beamos" }
 sprite{ id = "enemies/blob_green", description = "Blob green" }
 sprite{ id = "enemies/blob_red", description = "Blob red" }
@@ -115,6 +116,7 @@ sprite{ id = "enemies/boss/genie", description = "Genie" }
 sprite{ id = "enemies/boss/genie/genie_bottle", description = "Genie bottle" }
 sprite{ id = "enemies/boss/genie_enemies/genie_bottle", description = "Genie bottle" }
 sprite{ id = "enemies/boss/hinox_master", description = "Hinox master" }
+sprite{ id = "enemies/boss/moblin_chief", description = "Moblin chief" }
 sprite{ id = "enemies/boss/moldorm", description = "Moldorm tail" }
 sprite{ id = "enemies/boss/moldorm/moldorm_body_1", description = "Moldorm body 1" }
 sprite{ id = "enemies/boss/moldorm/moldorm_body_2", description = "Moldorm body 2" }
@@ -128,12 +130,13 @@ sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/fireball", description = "Fireball" }
+sprite{ id = "enemies/giant_goponga_flower", description = "Giant Goponga Flower" }
 sprite{ id = "enemies/goomba", description = "Goomba" }
+sprite{ id = "enemies/goponga_flower", description = "Goponga flower" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" }
 sprite{ id = "enemies/hardhat_beetle_red", description = "Hardhat beetle red" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
-sprite{ id = "enemies/moblin_chief", description = "Moblin chief" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
@@ -200,6 +203,7 @@ sprite{ id = "entities/la_beach/la_wreck", description = "entities/la_beach/la_w
 sprite{ id = "entities/movies/background_introduction", description = "Background introduction" }
 sprite{ id = "entities/movies/swell", description = "Swell" }
 sprite{ id = "entities/movies/wreck", description = "Wreck" }
+sprite{ id = "entities/notes", description = "Notes" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/owl", description = "Owl" }
 sprite{ id = "entities/palm", description = "Palm" }
@@ -572,12 +576,14 @@ item{ id = "sword", description = "Sword" }
 item{ id = "tail_key", description = "Tail key" }
 item{ id = "tunic", description = "Tunic (green/blue/red)" }
 
+enemy{ id = "arm_mimic", description = "Arm mimic" }
 enemy{ id = "beamos", description = "Beamos" }
 enemy{ id = "blob_green", description = "Blob green" }
 enemy{ id = "blob_red", description = "Blob red" }
 enemy{ id = "boss/genie", description = "Genie" }
 enemy{ id = "boss/genie/genie_bottle", description = "Genie bottle" }
 enemy{ id = "boss/hinox_master", description = "Hinox master" }
+enemy{ id = "boss/moblin_chief", description = "Moblin chief" }
 enemy{ id = "boss/moldorm", description = "Moldorm" }
 enemy{ id = "boss/moldorm/moldorm_body_1", description = "Moldorm body 1" }
 enemy{ id = "boss/moldorm/moldorm_body_2", description = "Moldorm body 2" }
@@ -591,12 +597,13 @@ enemy{ id = "chicken_mortal", description = "Chicken mortal" }
 enemy{ id = "fireball", description = "Fireball" }
 enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
 enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }
+enemy{ id = "giant_goponga_flower", description = "Giant goponga flower" }
 enemy{ id = "goomba", description = "Goomba" }
+enemy{ id = "goponga_flower", description = "Goponga flower" }
 enemy{ id = "hardhat_beetle_blue", description = "Hardhat beetle blue" }
 enemy{ id = "hardhat_beetle_red", description = "Hardhat beetle red" }
 enemy{ id = "keese", description = "Keese" }
 enemy{ id = "moblin", description = "Moblin" }
-enemy{ id = "moblin_chief", description = "Moblin chief" }
 enemy{ id = "octorok", description = "Octorok" }
 enemy{ id = "octorok_stone", description = "Octorok stone" }
 enemy{ id = "pike_auto", description = "Pike auto" }
@@ -610,6 +617,7 @@ enemy{ id = "vegas", description = "Vegas" }
 enemy{ id = "zol_green", description = "Zol green" }
 
 entity{ id = "bowwow", description = "Bowwow" }
+entity{ id = "bowwow_follow", description = "Bowwow follow" }
 entity{ id = "butterfly", description = "Butterfly" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }

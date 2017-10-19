@@ -14080,7 +14080,7 @@ wall{
 
 wall{
   layer = 0,
-  x = 792,
+  x = 752,
   y = 1240,
   width = 16,
   height = 80,

@@ -2575,6 +2575,15 @@ tile{
   pattern = "barrier.1-1",
 }
 
+sensor{
+  name = "sensor_4",
+  layer = 0,
+  x = 872,
+  y = 93,
+  width = 48,
+  height = 48,
+}
+
 wall{
   layer = 0,
   x = 64,
@@ -2677,11 +2686,162 @@ wall{
 }
 
 enemy{
+  name = "enemy_group_3_1",
   layer = 0,
-  x = 872,
-  y = 133,
+  x = 488,
+  y = 117,
+  direction = 2,
+  breed = "boss/moblin_chief",
+}
+
+enemy{
+  name = "enemy_group_1_1",
+  layer = 0,
+  x = 152,
+  y = 389,
+  direction = 3,
+  breed = "moblin",
+}
+
+enemy{
+  name = "enemy_group_2_3",
+  layer = 0,
+  x = 208,
+  y = 109,
+  direction = 3,
+  breed = "moblin",
+}
+
+enemy{
+  name = "enemy_group_2_2",
+  layer = 0,
+  x = 120,
+  y = 101,
+  direction = 3,
+  breed = "moblin",
+}
+
+enemy{
+  name = "enemy_group_2_4",
+  layer = 0,
+  x = 184,
+  y = 157,
+  direction = 3,
+  breed = "moblin",
+}
+
+enemy{
+  name = "enemy_group_2_1",
+  layer = 0,
+  x = 80,
+  y = 157,
+  direction = 3,
+  breed = "moblin",
+}
+
+door{
+  name = "door_group_1_1",
+  layer = 0,
+  x = 64,
+  y = 280,
+  direction = 3,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  name = "door_group_1_4",
+  layer = 0,
+  x = 64,
+  y = 216,
+  direction = 1,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+sensor{
+  name = "sensor_1",
+  layer = 0,
+  x = 160,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_2",
+  layer = 0,
+  x = 72,
+  y = 213,
+  width = 16,
+  height = 16,
+}
+
+door{
+  name = "door_group_1_2",
+  layer = 0,
+  x = 280,
+  y = 128,
+  direction = 2,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  name = "door_group_1_5",
+  layer = 0,
+  x = 344,
+  y = 128,
   direction = 0,
-  breed = "moblin_chief",
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+sensor{
+  name = "sensor_3",
+  layer = 0,
+  x = 376,
+  y = 141,
+  width = 16,
+  height = 16,
+}
+
+door{
+  name = "door_group_1_3",
+  layer = 0,
+  x = 600,
+  y = 120,
+  direction = 2,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  name = "door_group_1_6",
+  layer = 0,
+  x = 664,
+  y = 120,
+  direction = 0,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+custom_entity{
+  name = "bowwow",
+  layer = 0,
+  x = 888,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/bowwow",
+  model = "bowwow",
 }
 
 tile{
@@ -3189,6 +3349,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_3",
   layer = 2,
   x = 312,
   y = 0,
@@ -3197,6 +3358,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 632,
   y = 0,
@@ -3205,6 +3367,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_2",
   layer = 2,
   x = 0,
   y = 248,

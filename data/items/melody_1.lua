@@ -22,9 +22,12 @@ end
 -- Event called when the hero is using this item.
 function item:on_using()
 
-    sol.audio.play_sound("items/ocarina_1")
+    local map = game:get_map()
+    local hero = map:get_hero()
+    local ocarina = game:get_item("ocarina")
+    ocarina:playing_song("items/ocarina_1")
 
-  item:set_finished()
+    item:set_finished()
 end
 
 -- Event called when a pickable treasure representing this item

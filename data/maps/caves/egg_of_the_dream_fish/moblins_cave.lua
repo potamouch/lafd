@@ -9,6 +9,9 @@
 
 local map = ...
 local game = map:get_game()
+require("scripts/multi_events")
+local door_manager = require("scripts/maps/door_manager")
+local separator_manager = require("scripts/maps/separator_manager")
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
@@ -22,3 +25,51 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function map:on_opening_transition_finished(destination)
+
+  map:set_doors_open("door_group_1", true)
+  door_manager:close_if_enemies_not_dead(map, "enemy_group_1", "door_group_1")
+  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_1")
+
+end
+
+ -- Doors
+
+door_manager:open_when_enemies_dead(map,  "enemy_group_1",  "door_group_1")
+door_manager:open_when_enemies_dead(map,  "enemy_group_2",  "door_group_1")
+door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_1")
+
+function sensor_2:on_activated()
+
+  door_manager:close_if_enemies_not_dead(map, "enemy_group_2", "door_group_1")
+
+end
+
+function sensor_3:on_activated()
+
+  door_manager:close_if_enemies_not_dead(map, "enemy_group_3", "door_group_1")
+  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_2")
+
+end
+
+function sensor_4:on_activated()
+
+  local x,y, layer = bowwow:get_position()
+  local name =  bowwow:get_name()
+  bowwow:remove()
+  bowwow = map:create_custom_entity({
+      name = "bowwow",
+      sprite = "npc/bowwow",
+      x = x,
+      y = y,
+      width = 16,
+      height = 16,
+      layer = layer,
+      direction = 0,
+      model =  "bowwow_follow"
+    })
+
+end
+
+separator_manager:manage_map(map)

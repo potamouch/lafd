@@ -645,6 +645,14 @@ custom_entity{
   model = "torch",
 }
 
+enemy{
+  layer = 0,
+  x = 120,
+  y = 173,
+  direction = 0,
+  breed = "hardhat_beetle_blue",
+}
+
 tile{
   layer = 1,
   x = 144,

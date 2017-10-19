@@ -167,6 +167,18 @@ animation{
   },
 }
 animation{
+  name = "playing_ocarina",
+  src_image = "hero/ocarina.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 24, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 22, num_frames = 4 },
+    { x = 24, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 22, num_frames = 4 },
+    { x = 24, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 22, num_frames = 4 },
+    { x = 24, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 22, num_frames = 4 },
+  },
+}
+animation{
   name = "plunging_lava",
   src_image = "hero/plunging.png",
   frame_delay = 50,

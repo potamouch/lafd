@@ -1,0 +1,24 @@
+animation{
+  name = "walking",
+  src_image = "enemies/goponga_flower.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/goponga_flower.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+  },
+}

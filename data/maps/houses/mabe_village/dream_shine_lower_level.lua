@@ -9,6 +9,7 @@
 
 local map = ...
 local game = map:get_game()
+local separator_manager = require("scripts/maps/separator_manager")
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
@@ -39,3 +40,4 @@ function map:on_started(destination)
   end
 
 end
+separator_manager:manage_map(map)

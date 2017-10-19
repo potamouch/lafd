@@ -1215,6 +1215,27 @@ de l'odorat..
 }
 
 dialog{
+  id = "maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_1",
+  text = [[
+C'est qui ce freluquet?   
+Les gars, débarrassez-moi 
+vite de lui !
+]]
+}
+
+dialog{
+  id = "maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_2",
+  text = [[
+Tu es venu chercher 
+Toutou ?
+Tu dois être le 
+mercenaire envoyé par      
+Mme Miaou Miaou.
+Je vais te corriger !!
+]]
+}
+
+dialog{
   id = "maps.dungeons.1.boss_welcome",
   text = [[
 GRRR ! GRR !      

@@ -17923,6 +17923,14 @@ npc{
   sprite = "npc/kid_2",
 }
 
+chest{
+  layer = 0,
+  x = 720,
+  y = 125,
+  treasure_name = "pegasus_shoes",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = -24,

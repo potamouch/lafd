@@ -22,17 +22,17 @@ end
 -- Event called when the hero is using this item.
 function item:on_using()
 
-  local game = self:get_game()
-  local map = game:get_map()
-  local hero = map:get_hero()
-  sol.audio.play_sound("items/ocarina_2")
-  sol.timer.start(map, 3000, function()
-    sol.audio.play_sound("items/ocarina_2_warp")
-     sol.timer.start(map, 2000, function()
-        hero:teleport("out/b2_graveyard", "ocarina_2", "fade")
+    local map = game:get_map()
+    local hero = map:get_hero()
+    local ocarina = game:get_item("ocarina")
+    ocarina:playing_song("items/ocarina_2")
+    sol.timer.start(map, 4000, function()
+        sol.audio.play_sound("items/ocarina_2_warp")
+         sol.timer.start(map, 2000, function()
+            hero:teleport("out/b2_graveyard", "ocarina_2", "fade")
+         end)
      end)
-  end)
-  item:set_finished()
+    item:set_finished()
 end
 
 -- Event called when a pickable treasure representing this item

@@ -1,4 +1,4 @@
--- Lua script of enemy moblin_chief.
+-- Lua script of enemy goponga.
 -- This script is executed every time an enemy with this model is created.
 
 -- Feel free to modify the code below.
@@ -23,6 +23,7 @@ function enemy:on_created()
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_life(1)
   enemy:set_damage(1)
+  enemy:set_invincible(true)
 end
 
 -- Event called when the enemy should start or restart its movements.
@@ -30,8 +31,4 @@ end
 -- it was hurt or immobilized.
 function enemy:on_restarted()
 
-  movement = sol.movement.create("target")
-  movement:set_target(hero)
-  movement:set_speed(48)
-  movement:start(enemy)
 end

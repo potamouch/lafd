@@ -18506,22 +18506,6 @@ destructible{
   weight = 1,
 }
 
-chest{
-  layer = 0,
-  x = 752,
-  y = 1693,
-  treasure_name = "map",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 768,
-  y = 1693,
-  treasure_name = "compass",
-  sprite = "entities/chest",
-}
-
 enemy{
   layer = 0,
   x = 2080,
@@ -18538,14 +18522,12 @@ enemy{
   breed = "boss/genie/genie_bottle",
 }
 
-teletransporter{
+destination{
+  name = "dungeon_2_1_B",
   layer = 0,
-  x = 792,
-  y = 1704,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/3/b1",
-  destination = "stairs_1_B",
+  x = 800,
+  y = 1757,
+  direction = 1,
 }
 
 tile{
@@ -19244,14 +19226,6 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 40,
-}
-
-destination{
-  name = "dungeon_2_1_B",
-  layer = 1,
-  x = 800,
-  y = 1757,
-  direction = 1,
 }
 
 custom_entity{
