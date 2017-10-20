@@ -623,6 +623,15 @@ npc{
   subtype = 1,
 }
 
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 176,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/1f",
+}
+
 tile{
   layer = 1,
   x = 144,

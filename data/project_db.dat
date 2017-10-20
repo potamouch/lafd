@@ -224,6 +224,7 @@ sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/statue_dungeon_1", description = "Statue dungeon 1" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
+sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
 sprite{ id = "entities/stone_large_white", description = "Large white stone" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
