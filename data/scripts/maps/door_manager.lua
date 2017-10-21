@@ -130,7 +130,7 @@ end
 function door_manager:close_if_enemies_not_dead(map, enemy_prefix, door_prefix)
 
    if map:has_entities(enemy_prefix) then
-        map:close_doors(door_prefix)
+        map:close_doors("door_group")
   end
         
 end

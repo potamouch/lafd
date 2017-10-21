@@ -7,6 +7,7 @@ local marine_song = false
 local ball
 local ball_shadow
 local ball_is_launch = false
+local companion_manager = require("scripts/maps/companion_manager")
 
 -- Methods - Functions
 
@@ -152,8 +153,11 @@ function map:get_alert_moblins()
 
 end
 
+-- Events
+
 function map:on_started(destination)
 
+  companion_manager:init_map(map)
   if   game:get_value("main_quest_step") == 2 then
     game:set_value("main_quest_step", 3)
   end
@@ -166,8 +170,6 @@ function map:on_started(destination)
   map:create_ball(kid_1, kid_2)
 
 end
-
--- Events
 
 function grand_ma:on_interaction()
 

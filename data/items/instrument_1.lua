@@ -2,7 +2,7 @@ local item = ...
 
 function item:on_created()
 
-  self:set_savegame_variable("possession_full_moon_cello")
+  self:set_savegame_variable("possession_instrument_1")
   self:set_brandish_when_picked(false)
 
 end

@@ -8,10 +8,8 @@ local movement
 
 bowwow:set_optimization_distance(0)
 bowwow:set_drawn_in_y_order(true)
-
 bowwow:set_traversable_by(true)
 bowwow:set_traversable_by("hero", false)
-
 bowwow:set_can_traverse("enemy", true)
 bowwow:set_can_traverse("npc", true)
 bowwow:set_can_traverse("sensor", true)
@@ -24,6 +22,7 @@ local function follow_hero()
 
   movement = sol.movement.create("target")
   movement:set_speed(100)
+  movement:set_ignore_obstacles(true)
   movement:start(bowwow)
   game.bowwow_following = true
   sprite:set_animation("walking")

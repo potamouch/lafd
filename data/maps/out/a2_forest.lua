@@ -5,6 +5,7 @@ local game = map:get_game()
 -- Includes scripts
 local fairy_manager = require("scripts/maps/fairy_manager")
 local owl_manager = require("scripts/maps/owl_manager")
+local companion_manager = require("scripts/maps/companion_manager")
 
 -- Variables
 
@@ -72,6 +73,7 @@ end
 
 function map:on_started(destination)
 
+  companion_manager:init_map(map)
   map:set_overlay()
   map:init_tarin()
   owl_2:set_enabled(false)

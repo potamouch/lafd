@@ -939,11 +939,56 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 72,
   y = 640,
-  width = 240,
-  height = 96,
-  pattern = "floor_low.3-2",
+  width = 176,
+  height = 80,
+  pattern = "911",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 640,
+  width = 160,
+  height = 80,
+  pattern = "floor.13-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 560,
+  width = 24,
+  height = 160,
+  pattern = "911",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 560,
+  width = 24,
+  height = 160,
+  pattern = "911",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 96,
+  width = 224,
+  height = 32,
+  pattern = "911",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 48,
+  width = 128,
+  height = 48,
+  pattern = "911",
 }
 
 tile{
@@ -962,24 +1007,6 @@ tile{
   width = 240,
   height = 24,
   pattern = "wall.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 248,
-  y = 544,
-  width = 32,
-  height = 96,
-  pattern = "floor_low.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 544,
-  width = 32,
-  height = 96,
-  pattern = "floor_low.3-2",
 }
 
 tile{
@@ -1416,15 +1443,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 48,
-  y = 96,
-  width = 240,
-  height = 32,
-  pattern = "floor_low.3-2",
-}
-
-tile{
-  layer = 1,
   x = 272,
   y = 88,
   width = 8,
@@ -1529,15 +1547,6 @@ tile{
   width = 48,
   height = 8,
   pattern = "wall_border.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 96,
-  y = 48,
-  width = 128,
-  height = 48,
-  pattern = "floor_low.3-2",
 }
 
 tile{
@@ -1916,6 +1925,42 @@ tile{
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 48,
+  width = 128,
+  height = 48,
+  pattern = "floor.13-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 96,
+  width = 224,
+  height = 32,
+  pattern = "floor.13-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 560,
+  width = 32,
+  height = 160,
+  pattern = "floor.13-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 560,
+  width = 32,
+  height = 160,
+  pattern = "floor.13-Alpha",
 }
 
 jumper{

@@ -109,6 +109,7 @@ tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
 tileset{ id = "out/outside", description = "Outside" }
 
 sprite{ id = "enemies/arm_mimic", description = "Arm mimic" }
+sprite{ id = "enemies/arrow", description = "Arrow" }
 sprite{ id = "enemies/beamos", description = "Beamos" }
 sprite{ id = "enemies/blob_green", description = "Blob green" }
 sprite{ id = "enemies/blob_red", description = "Blob red" }
@@ -128,6 +129,7 @@ sprite{ id = "enemies/boss/rolling_bones/rolling_bones_spike", description = "Ro
 sprite{ id = "enemies/bubble", description = "Bubble" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
+sprite{ id = "enemies/death_ball", description = "Death ball" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/fireball", description = "Fireball" }
 sprite{ id = "enemies/giant_goponga_flower", description = "Giant Goponga Flower" }
@@ -136,6 +138,7 @@ sprite{ id = "enemies/goponga_flower", description = "Goponga flower" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" }
 sprite{ id = "enemies/hardhat_beetle_red", description = "Hardhat beetle red" }
 sprite{ id = "enemies/keese", description = "Keese" }
+sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
@@ -225,6 +228,8 @@ sprite{ id = "entities/statue_dungeon_1", description = "Statue dungeon 1" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
 sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
+sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
+sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
 sprite{ id = "entities/stone_large_white", description = "Large white stone" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
@@ -397,6 +402,7 @@ music{ id = "maps/houses/shop_high", description = "Shop high" }
 music{ id = "maps/houses/southern_shrine", description = "Southern shrine" }
 music{ id = "maps/houses/telephone_booth", description = "Telephone booth" }
 music{ id = "maps/houses/trendy_game", description = "Trendy game" }
+music{ id = "maps/others/monkeys_build_a_bridge", description = "Monkeys" }
 music{ id = "maps/others/tarin_and_bees", description = "Tarin And Bees" }
 music{ id = "maps/out/animal_village", description = "Animal village" }
 music{ id = "maps/out/let_the_journey_begin", description = "Let the journey begin" }
@@ -436,6 +442,7 @@ sound{ id = "door_open", description = "Door open" }
 sound{ id = "door_unlocked", description = "Door unlocked" }
 sound{ id = "enemies/sea_urchin_1", description = "enemies/sea_urchin_1" }
 sound{ id = "enemies/sea_urchin_2", description = "enemies/sea_urchin_2" }
+sound{ id = "enemy_bounce", description = "Enemy bounce" }
 sound{ id = "enemy_hurt", description = "Enemy hurt" }
 sound{ id = "enemy_killed", description = "Enemy killed" }
 sound{ id = "explosion", description = "Explosion" }
@@ -578,6 +585,7 @@ item{ id = "tail_key", description = "Tail key" }
 item{ id = "tunic", description = "Tunic (green/blue/red)" }
 
 enemy{ id = "arm_mimic", description = "Arm mimic" }
+enemy{ id = "arrow", description = "Arrow" }
 enemy{ id = "beamos", description = "Beamos" }
 enemy{ id = "blob_green", description = "Blob green" }
 enemy{ id = "blob_red", description = "Blob red" }
@@ -595,6 +603,7 @@ enemy{ id = "boss/rolling_bones/rolling_bones_spike", description = "Rolling bon
 enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "chicken_mortal", description = "Chicken mortal" }
+enemy{ id = "death_ball", description = "Death ball" }
 enemy{ id = "fireball", description = "Fireball" }
 enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
 enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }
@@ -604,6 +613,7 @@ enemy{ id = "goponga_flower", description = "Goponga flower" }
 enemy{ id = "hardhat_beetle_blue", description = "Hardhat beetle blue" }
 enemy{ id = "hardhat_beetle_red", description = "Hardhat beetle red" }
 enemy{ id = "keese", description = "Keese" }
+enemy{ id = "maskass", description = "Maskass" }
 enemy{ id = "moblin", description = "Moblin" }
 enemy{ id = "octorok", description = "Octorok" }
 enemy{ id = "octorok_stone", description = "Octorok stone" }
@@ -624,12 +634,12 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }
 entity{ id = "heart_fly", description = "Heart fly" }
+entity{ id = "heavy_object", description = "Heavy object" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }
 entity{ id = "mr_write", description = "Mr Write" }
 entity{ id = "seagull", description = "Seagull" }
-entity{ id = "stone_large", description = "Stone large" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "vacuum_cleaner", description = "Vacuum cleaner" }
 

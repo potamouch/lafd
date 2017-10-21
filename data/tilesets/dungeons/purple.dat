@@ -50430,3 +50430,19 @@ border_set{
   pattern_11 = "wall_border.corner_reverse.4-2",
 }
 
+border_set{
+  id = "Borders water",
+  pattern_0 = "water_shallow.4",
+  pattern_1 = "water_shallow.1",
+  pattern_2 = "water_shallow.3",
+  pattern_3 = "water_shallow.2",
+  pattern_4 = "water_shallow.corner.2",
+  pattern_5 = "water_shallow.corner.1",
+  pattern_6 = "water_shallow.corner.3",
+  pattern_7 = "water_shallow.corner.4",
+  pattern_8 = "water_shallow.corner_reverse.2",
+  pattern_9 = "water_shallow.corner_reverse.1",
+  pattern_10 = "water_shallow.corner_reverse.3",
+  pattern_11 = "water_shallow.corner_reverse.4",
+}
+

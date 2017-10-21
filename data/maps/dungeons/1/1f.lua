@@ -39,16 +39,14 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-    if destination == dungeon_1_1_B then
-      map:set_doors_open("door_group_1", true)
-      map:set_doors_open("door_group_2", false)
+     map:set_doors_open("door_group_1", true)
       map:set_doors_open("door_group_small_boss", true)
+    if destination == dungeon_1_1_B then
+      map:set_doors_open("door_group_2", false)
       map:set_doors_open("door_group_5", true)
       game:start_dialog("maps.dungeons.1.welcome")
     elseif destination == stairs_1_B then
-      map:set_doors_open("door_group_1", true)
       map:set_doors_open("door_group_2", true)
-      map:set_doors_open("door_group_small_boss", true)
     end
 
 end

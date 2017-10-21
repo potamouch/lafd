@@ -2523,8 +2523,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 440,
-  y = 456,
+  x = 488,
+  y = 464,
   width = 16,
   height = 48,
   pattern = "1338",
@@ -11545,7 +11545,7 @@ custom_entity{
   height = 32,
   direction = 0,
   sprite = "entities/stone_large_white",
-  model = "stone_large",
+  model = "heavy_object",
 }
 
 chest{

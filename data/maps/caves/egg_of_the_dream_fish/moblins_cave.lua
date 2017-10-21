@@ -9,25 +9,43 @@
 
 local map = ...
 local game = map:get_game()
+local launch_boss = false
 require("scripts/multi_events")
 local door_manager = require("scripts/maps/door_manager")
 local separator_manager = require("scripts/maps/separator_manager")
+local companion_manager = require("scripts/maps/companion_manager")
 
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+function map:set_music()
+  
+  if game:get_value("main_quest_step") == 9  then
+    sol.audio.play_music("maps/out/moblins_and_bow_wow")
+  else
+    sol.audio.play_music("maps/caves/cave")
+  end
+
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_started()
+  map:set_music()
+  local step = game:get_value("main_quest_step")
+  if step ~= 9 then
+    for enemy in map:get_entities_by_type("enemy") do
+      enemy:remove()
+    end
+    bowwow:remove()
+    map:set_doors_open("door_group", true)
+  end
+  companion_manager:init_map(map)
 
 end
 
 function map:on_opening_transition_finished(destination)
 
+  local step = game:get_value("main_quest_step")
+  if step ~= nil and step ~= 9 then
+    return
+  end
   map:set_doors_open("door_group_1", true)
   door_manager:close_if_enemies_not_dead(map, "enemy_group_1", "door_group_1")
   game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_1")
@@ -42,21 +60,44 @@ door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_1")
 
 function sensor_2:on_activated()
 
+  local step = game:get_value("main_quest_step")
+  if step ~= nil and step ~= 9 then
+    return
+  end
   door_manager:close_if_enemies_not_dead(map, "enemy_group_2", "door_group_1")
 
 end
 
 function sensor_3:on_activated()
 
+  local step = game:get_value("main_quest_step")
+  if step ~= nil and step ~= 9 then
+    return
+  end
+  if launch_boss then
+    return
+  end
+  launch_boss = true
   door_manager:close_if_enemies_not_dead(map, "enemy_group_3", "door_group_1")
-  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_2")
+  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_2", function()
+    enemy_group_3_1:start_battle()
+  end)
 
 end
 
 function sensor_4:on_activated()
 
+  local step = game:get_value("main_quest_step")
+  if step ~= nil and step ~= 9 then
+    return
+  end
+  for enemy in map:get_entities_by_type("enemy") do
+    enemy:remove()
+  end
+  sol.audio.play_sound("treasure_2")
   local x,y, layer = bowwow:get_position()
   local name =  bowwow:get_name()
+  game:set_value("main_quest_step", 10)
   bowwow:remove()
   bowwow = map:create_custom_entity({
       name = "bowwow",
@@ -71,5 +112,7 @@ function sensor_4:on_activated()
     })
 
 end
-
-separator_manager:manage_map(map)
+local step = game:get_value("main_quest_step")
+if step == 9 then
+  separator_manager:manage_map(map)
+end

@@ -78,6 +78,10 @@ local function initialize_dungeon_features(game)
       highest_floor = 0,
       rows = 7,
       cols= 6,
+      teletransporter_end_dungeon = {
+        map_id = "out/b1_egg_of_the_dream_fish",
+        destination_name = "dungeon_2_2_A"
+      },
       maps = { "dungeons/2/1f"},
       secrets = {
         [0] = {        
@@ -88,7 +92,7 @@ local function initialize_dungeon_features(game)
         }
       },
       small_boss = {
-        breed = "boss/hinox",
+        breed = "boss/hinox_master",
       },
       boss = {
         floor = 0,

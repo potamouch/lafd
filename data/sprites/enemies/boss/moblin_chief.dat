@@ -1,7 +1,7 @@
 animation{
   name = "walking",
-  src_image = "enemies/moblin_chief.png",
-  frame_delay = 200,
+  src_image = "enemies/boss/moblin_chief.png",
+  frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
     { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 4 },
@@ -11,8 +11,32 @@ animation{
   },
 }
 animation{
+  name = "attacked",
+  src_image = "enemies/boss/moblin_chief.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/boss/moblin_chief.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
+    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
+    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
+    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
+  },
+}
+animation{
   name = "immobilized",
-  src_image = "enemies/moblin_chief.png",
+  src_image = "enemies/boss/moblin_chief.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
@@ -24,7 +48,7 @@ animation{
 }
 animation{
   name = "shocked",
-  src_image = "enemies/moblin_chief.png",
+  src_image = "enemies/boss/moblin_chief.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {

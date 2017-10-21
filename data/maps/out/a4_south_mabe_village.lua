@@ -4,6 +4,7 @@ local game = map:get_game()
 
 -- Includes scripts
 local owl_manager = require("scripts/maps/owl_manager")
+local companion_manager = require("scripts/maps/companion_manager")
 
 -- Functions
 
@@ -28,6 +29,7 @@ end
 
 function map:on_started(destination)
 
+  companion_manager:init_map(map)
   map:set_music()
   owl_1:set_enabled(false)
   owl_4:set_enabled(false)

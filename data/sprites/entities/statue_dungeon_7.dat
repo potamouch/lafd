@@ -1,6 +1,6 @@
 animation{
   name = "normal",
-  src_image = "entities/statue_dungeon_6.png",
+  src_image = "entities/statue_dungeon_7.png",
   directions = {
     { x = 0, y = 0, frame_width = 40, frame_height = 48, origin_x = 20, origin_y = 45 },
     { x = 0, y = 0, frame_width = 40, frame_height = 48, origin_x = 20, origin_y = 45 },

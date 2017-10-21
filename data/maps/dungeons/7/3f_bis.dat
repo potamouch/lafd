@@ -13,155 +13,155 @@ properties{
 
 tile{
   layer = 0,
-  x = 784,
-  y = 720,
-  width = 32,
-  height = 96,
-  pattern = "floor.8-1",
+  x = 688,
+  y = 808,
+  width = 224,
+  height = 176,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 552,
+  width = 224,
+  height = 176,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 296,
+  width = 224,
+  height = 176,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
   x = 688,
-  y = 816,
-  width = 224,
-  height = 160,
-  pattern = "floor.8-1",
+  y = 296,
+  width = 240,
+  height = 176,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
-  x = 96,
-  y = 464,
-  width = 16,
-  height = 96,
-  pattern = "floor.8-1",
+  x = 688,
+  y = 40,
+  width = 224,
+  height = 176,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
-  x = 48,
-  y = 560,
-  width = 224,
-  height = 160,
-  pattern = "floor.8-1",
+  x = 352,
+  y = 808,
+  width = 160,
+  height = 64,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
   x = 368,
-  y = 432,
-  width = 80,
-  height = 32,
-  pattern = "floor.8-1",
+  y = 872,
+  width = 224,
+  height = 112,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
-  x = 368,
-  y = 352,
-  width = 112,
+  x = 784,
+  y = 728,
+  width = 48,
   height = 80,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 48,
-  width = 224,
-  height = 128,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 512,
-  y = 896,
-  width = 80,
-  height = 80,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 384,
-  y = 816,
-  width = 128,
-  height = 160,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 720,
-  width = 16,
-  height = 256,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 560,
-  width = 80,
-  height = 160,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 624,
-  width = 224,
-  height = 96,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 624,
-  width = 96,
-  height = 96,
-  pattern = "floor.8-1",
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
   x = 768,
-  y = 560,
+  y = 552,
   width = 144,
-  height = 160,
-  pattern = "floor.8-1",
+  height = 64,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
-  x = 688,
-  y = 304,
-  width = 224,
-  height = 160,
-  pattern = "floor.8-1",
+  x = 672,
+  y = 616,
+  width = 240,
+  height = 112,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
-  x = 1008,
-  y = 304,
+  x = 448,
+  y = 616,
   width = 224,
-  height = 160,
-  pattern = "floor.8-1",
+  height = 112,
+  pattern = "floor.7-1",
 }
 
 tile{
   layer = 0,
-  x = 1008,
-  y = 624,
+  x = 368,
+  y = 552,
+  width = 80,
+  height = 176,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 552,
+  width = 240,
+  height = 176,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 280,
   width = 224,
-  height = 96,
-  pattern = "floor.8-1",
+  height = 192,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 344,
+  width = 128,
+  height = 128,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 184,
+  width = 48,
+  height = 192,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 40,
+  width = 240,
+  height = 144,
+  pattern = "floor.7-1",
 }
 
 tile{
@@ -432,15 +432,6 @@ tile{
   width = 32,
   height = 24,
   pattern = "wall.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 40,
-  width = 240,
-  height = 176,
-  pattern = "floor.3-1",
 }
 
 tile{
@@ -1908,24 +1899,6 @@ tile{
   width = 64,
   height = 80,
   pattern = "994",
-}
-
-tile{
-  layer = 0,
-  x = 1008,
-  y = 304,
-  width = 64,
-  height = 80,
-  pattern = "floor_low.2-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 1168,
-  y = 304,
-  width = 64,
-  height = 80,
-  pattern = "floor_low.2-Alpha",
 }
 
 tile{
@@ -3568,46 +3541,10 @@ tile{
 
 tile{
   layer = 0,
-  x = 1008,
-  y = 560,
-  width = 48,
-  height = 64,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 1184,
-  y = 560,
-  width = 48,
-  height = 64,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
   x = 792,
   y = 488,
   width = 16,
   height = 48,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 496,
-  y = 720,
-  width = 16,
-  height = 96,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 176,
-  width = 48,
-  height = 192,
   pattern = "floor.8-1",
 }
 
@@ -3624,15 +3561,6 @@ tile{
   layer = 0,
   x = 48,
   y = 304,
-  width = 224,
-  height = 160,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 304,
   width = 16,
   height = 16,
   pattern = "floor_pot",
@@ -3663,15 +3591,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 352,
-  width = 96,
-  height = 16,
-  pattern = "floor.8-1",
 }
 
 tile{
@@ -3753,6 +3672,42 @@ tile{
   width = 8,
   height = 24,
   pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 304,
+  width = 64,
+  height = 80,
+  pattern = "floor.18-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 304,
+  width = 64,
+  height = 80,
+  pattern = "floor.18-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 472,
+  width = 16,
+  height = 96,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 728,
+  width = 16,
+  height = 80,
+  pattern = "floor.7-1",
 }
 
 pickable{

@@ -11061,16 +11061,6 @@ teletransporter{
   destination = "_side",
 }
 
-custom_entity{
-  layer = 0,
-  x = 88,
-  y = 93,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/items",
-}
-
 teletransporter{
   name = "to_c4",
   layer = 0,

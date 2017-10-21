@@ -7,6 +7,7 @@
 -- - Bombs.
 
 local separator_manager = {}
+require("scripts/multi_events")
 
 function separator_manager:manage_map(map)
 
@@ -52,6 +53,11 @@ function separator_manager:manage_map(map)
       end
     end
 
+    -- Torches
+    for torch in map:get_entities("auto_torch") do
+      torch:set_lit(false)
+    end
+
     -- Destroy bombs.
     game:get_item("bombs_counter"):remove_bombs_on_map()
   end
@@ -90,8 +96,8 @@ function separator_manager:manage_map(map)
   end
 
   for separator in map:get_entities("auto_separator") do
-    separator.on_activating = separator_on_activating
-    separator.on_activated = separator_on_activated
+    separator:register_event("on_activating", separator_on_activating)
+    separator:register_event("on_activated", separator_on_activated)
   end
   -- Store the position and properties of enemies.
   for enemy in map:get_entities_by_type("enemy") do

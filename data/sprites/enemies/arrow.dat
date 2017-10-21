@@ -1,5 +1,15 @@
 animation{
-  name = "flying",
+  name = "walking",
+  src_image = "entities/arrow.png",
+  directions = {
+    { x = 0, y = 4, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 4 },
+    { x = 4, y = 16, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 8 },
+    { x = 0, y = 36, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 4 },
+    { x = 4, y = 48, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 8 },
+  },
+}
+animation{
+  name = "immobilized",
   src_image = "entities/arrow.png",
   directions = {
     { x = 0, y = 4, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 4 },

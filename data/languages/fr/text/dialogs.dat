@@ -1301,7 +1301,7 @@ dialog{
   skip = "current",
   text = [[
         Niveau 2       
-Grotte du génie    
+    Grotte du génie    
 ]]
 }
 
@@ -1319,7 +1319,7 @@ dialog{
   skip = "current",
   text = [[
         Niveau 3       
-Cave aux clés
+    Cave aux clés
 ]]
 }
 
@@ -1336,7 +1336,7 @@ dialog{
   id = "maps.dungeons.4.welcome",
   text = [[
         Niveau 4       
-Abîme du poisson
+   Abîme du poisson
 ]]
 }
 
@@ -1353,7 +1353,7 @@ dialog{
   id = "maps.dungeons.5.welcome",
   text = [[
         Niveau 5       
-Poisson-chat
+    Poisson-chat
 ]]
 }
 
@@ -1369,7 +1369,7 @@ dialog{
   id = "maps.dungeons.6.welcome",
   text = [[
         Niveau 6       
-Temple du masque
+  Temple du masque
 ]]
 }
 
@@ -1386,7 +1386,7 @@ dialog{
   id = "maps.dungeons.7.welcome",
   text = [[
         Niveau 7       
-Tour du vautour
+  Tour du vautour
 ]]
 }
 
@@ -1403,7 +1403,7 @@ dialog{
   id = "maps.dungeons.8.welcome",
   text = [[
         Niveau 8      
-Roc de la tortue
+   Roc de la tortue
 ]]
 }
 
@@ -1411,7 +1411,7 @@ dialog{
   id = "maps.dungeons.9.welcome",
   text = [[
         Niveau secret       
-Temple des couleurs
+  Temple des couleurs
 ]]
 }
 

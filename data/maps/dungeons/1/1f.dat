@@ -13002,7 +13002,7 @@ door{
   y = 1144,
   direction = 2,
   sprite = "entities/doors/door_small_key",
-  savegame_variable = "door_small_key_3",
+  savegame_variable = "dungeon_1_door_small_key_3",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
@@ -13015,13 +13015,13 @@ door{
   y = 1144,
   direction = 0,
   sprite = "entities/doors/door_small_key",
-  savegame_variable = "door_small_key_3",
+  savegame_variable = "dungeon_1_door_small_key_3",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
 }
 
 chest{
-  name = "compass",
+  name = "chest_compass",
   layer = 0,
   x = 424,
   y = 1645,
@@ -13205,7 +13205,7 @@ stairs{
 }
 
 chest{
-  name = "small_key_3",
+  name = "chest_small_key_3",
   layer = 0,
   x = 1096,
   y = 1101,
@@ -13282,7 +13282,7 @@ enemy{
 }
 
 enemy{
-  name = "dungeon_1_enemy_group_8_1",
+  name = "enemy_group_8_1",
   layer = 0,
   x = 56,
   y = 933,
@@ -13300,7 +13300,7 @@ enemy{
 }
 
 chest{
-  name = "feather",
+  name = "chest_feather",
   layer = 0,
   x = 160,
   y = 853,
@@ -13734,7 +13734,7 @@ door{
   layer = 0,
   x = 664,
   y = 1144,
-  direction = 2,
+  direction = 0,
   sprite = "entities/doors/door_weak_wall",
   savegame_variable = "dungeon_1_weak_wall_A",
   opening_method = "explosion",
@@ -13745,7 +13745,7 @@ door{
   layer = 0,
   x = 600,
   y = 1144,
-  direction = 0,
+  direction = 2,
   sprite = "entities/doors/door_weak_wall",
   savegame_variable = "dungeon_1_weak_wall_A",
   opening_method = "explosion",
@@ -15284,7 +15284,7 @@ destination{
 }
 
 chest{
-  name = "boss_key",
+  name = "chest_boss_key",
   layer = 1,
   x = 1096,
   y = 837,
@@ -16331,6 +16331,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_12",
   layer = 2,
   x = 0,
   y = 504,
@@ -16339,6 +16340,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_13",
   layer = 2,
   x = 952,
   y = 0,
@@ -16347,6 +16349,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_15",
   layer = 2,
   x = 0,
   y = 248,
@@ -16355,6 +16358,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_14",
   layer = 2,
   x = 0,
   y = 1784,
