@@ -1288,11 +1288,39 @@ dialog{
 }
 
 dialog{
+  id = "maps.dungeons.2.boss_welcome",
+  text = [[
+HI HI HI !!      
+Attends un peu,
+que je m'occupe de 
+toi... HI HI!
+]]
+}
+
+dialog{
   id = "maps.dungeons.2.indication",
   text = [[
 ...PRAIRIE...   
 ...PRAIRIE...   
 Elle t'attend.
+]]
+}
+
+dialog{
+  id = "maps.dungeons.2.owl_1",
+  text = [[
+D'abord un lapin
+et en dernier,  
+un spectre...
+]]
+}
+
+dialog{
+  id = "maps.dungeons.2.owl_2",
+  text = [[
+D'abord un lapin
+et en dernier,  
+un spectre...
 ]]
 }
 

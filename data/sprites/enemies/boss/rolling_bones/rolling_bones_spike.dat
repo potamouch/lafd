@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "enemies/rolling_spike_vertical.png",
+  src_image = "enemies/boss/rolling_bones_spike.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -12,7 +12,7 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "enemies/rolling_spike_vertical.png",
+  src_image = "enemies/boss/rolling_bones_spike.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {

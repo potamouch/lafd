@@ -81,6 +81,9 @@ function sensor_2:on_activated()
   if is_small_boss_active == false then
     is_small_boss_active = true
     enemy_manager:launch_small_boss_if_not_dead(map)
+  else
+    map:close_doors("door_group_small_boss_1")
+    map:close_doors("door_group_small_boss_2")
   end
 
 end
@@ -129,14 +132,14 @@ end)
 
 auto_separator_4:register_event("on_activating", function(separator, direction4)
   local x, y = hero:get_position()
-  if direction4 == 0 then
+  if direction4 == 2 then
     map:set_light(0)
   end
 end)
 
 auto_separator_4:register_event("on_activated", function(separator, direction4)
 
-  if direction4 ~= 0 then
+  if direction4 ~= 2 then
     map:set_light(1)
   end
 end)

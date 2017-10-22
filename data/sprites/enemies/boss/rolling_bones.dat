@@ -1,6 +1,6 @@
 animation{
   name = "immobilized",
-  src_image = "enemies/small_boss_1.png",
+  src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 200,
   directions = {
     { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
@@ -11,7 +11,7 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "enemies/small_boss_1.png",
+  src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 200,
   directions = {
     { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
@@ -22,7 +22,7 @@ animation{
 }
 animation{
   name = "killed",
-  src_image = "enemies/small_boss_1.png",
+  src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 200,
   directions = {
     { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },

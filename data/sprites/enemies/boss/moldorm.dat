@@ -1,6 +1,6 @@
 animation{
   name = "immobilized",
-  src_image = "enemies/boss_1.png",
+  src_image = "enemies/boss/moldorm.png",
   directions = {
     { x = 0, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
     { x = 0, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
@@ -10,7 +10,7 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "enemies/boss_1.png",
+  src_image = "enemies/boss/moldorm.png",
   directions = {
     { x = 0, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
     { x = 0, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
@@ -20,7 +20,7 @@ animation{
 }
 animation{
   name = "killed",
-  src_image = "enemies/boss_1.png",
+  src_image = "enemies/boss/moldorm.png",
   directions = {
     { x = 0, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
     { x = 0, y = 128, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
@@ -30,7 +30,7 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "enemies/boss_1.png",
+  src_image = "enemies/boss/moldorm.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {

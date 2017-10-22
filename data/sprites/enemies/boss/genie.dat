@@ -1,6 +1,6 @@
 animation{
   name = "walking",
-  src_image = "enemies/boss_2.png",
+  src_image = "enemies/boss/genie.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
