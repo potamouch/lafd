@@ -19029,7 +19029,7 @@ enemy{
   x = 1752,
   y = 429,
   direction = 0,
-  breed = "keese",
+  breed = "pols_voice",
   treasure_name = "random",
 }
 
@@ -19087,7 +19087,7 @@ enemy{
   x = 2040,
   y = 125,
   direction = 0,
-  breed = "zol_green",
+  breed = "pols_voice",
   treasure_name = "random",
 }
 
@@ -19107,7 +19107,7 @@ enemy{
   x = 2168,
   y = 205,
   direction = 0,
-  breed = "zol_green",
+  breed = "pols_voice",
   treasure_name = "random",
 }
 

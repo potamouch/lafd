@@ -111,8 +111,6 @@ tileset{ id = "out/outside", description = "Outside" }
 sprite{ id = "enemies/arm_mimic", description = "Arm mimic" }
 sprite{ id = "enemies/arrow", description = "Arrow" }
 sprite{ id = "enemies/beamos", description = "Beamos" }
-sprite{ id = "enemies/blob_green", description = "Blob green" }
-sprite{ id = "enemies/blob_red", description = "Blob red" }
 sprite{ id = "enemies/boss/genie", description = "Genie" }
 sprite{ id = "enemies/boss/genie/genie_bottle", description = "Genie bottle" }
 sprite{ id = "enemies/boss/genie_enemies/genie_bottle", description = "Genie bottle" }
@@ -145,6 +143,7 @@ sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
 sprite{ id = "enemies/pike_detect", description = "Pike detect" }
 sprite{ id = "enemies/pike_fixed", description = "Pike fixed" }
+sprite{ id = "enemies/pols_voice", description = "Pols voice" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
 sprite{ id = "enemies/slime_green", description = "Slime green" }
 sprite{ id = "enemies/stalfos_blue", description = "Stalfos blue" }
@@ -620,6 +619,7 @@ enemy{ id = "octorok_stone", description = "Octorok stone" }
 enemy{ id = "pike_auto", description = "Pike auto" }
 enemy{ id = "pike_detect", description = "Pike detect" }
 enemy{ id = "pike_fixed", description = "Pike fixed" }
+enemy{ id = "pols_voice", description = "Pols voice" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
 enemy{ id = "stalfos_blue", description = "Stalfos blue" }
 enemy{ id = "stalfos_grey", description = "Stalfos grey" }
