@@ -11,6 +11,7 @@ local map = ...
 local game = map:get_game()
 local music_name = sol.audio.get_music()
 local light_manager = require("scripts/maps/light_manager")
+local companion_manager = require("scripts/maps/companion_manager")
 
 function map:talk_to_witch() 
 

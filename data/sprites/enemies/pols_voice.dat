@@ -1,5 +1,5 @@
 animation{
-  name = "waiting",
+  name = "walking",
   src_image = "enemies/pols_voice.png",
   frame_delay = 500,
   frame_to_loop_on = 0,

@@ -398,9 +398,8 @@ dialog{
   icon = "0",
   text = [[
 Tu as la Plume!$0
-Soudain, tu es  
-plus léger      
-que l'air!
+Soudain, tu es plus 
+léger que l'air !
 ]]
 }
 
@@ -1215,6 +1214,14 @@ de l'odorat..
 }
 
 dialog{
+  id = "maps.caves.egg_of_the_dream_fish.moblins_cave.bowwow_1",
+  text = [[
+Tu as trouvé Toutou !
+Il a l'air féroce...
+]]
+}
+
+dialog{
   id = "maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_1",
   text = [[
 C'est qui ce freluquet?   
@@ -1347,7 +1354,7 @@ dialog{
   skip = "current",
   text = [[
         Niveau 3       
-    Cave aux clés
+     Cave aux clés
 ]]
 }
 
@@ -1449,8 +1456,7 @@ dialog{
 Cette statue veut me
 dire quelque chose mais 
 je ne comprends rien ! 
-Elle n'a pas de 
-bec...
+Elle n'a pas de bec...
 ]]
 }
 
@@ -1844,13 +1850,25 @@ dialog{
   text = [[
 Au secours !     
 Quelle horreur ! 
-Toutou a été    
-chien-nappé par 
-des Moblins !    
+Toutou a été chien-nappé 
+par des Moblins !    
 OHH ! AHH !       
-Je t'en prie,   
-va secourir     
+Je t'en prie, va secourir
 mon Toutou !
+]]
+}
+
+dialog{
+  id = "maps.houses.mabe_village.meow_meow_house.meow_meow_3",
+  text = [[
+Ah! Tu m'as ramené 
+mon Toutou adoré !   
+Quelle joie !    
+Et en plus, tu veux 
+aller le promener ?    
+Cela m'arrange ! 
+Du fond de mon coeur,
+merci !
 ]]
 }
 
@@ -2507,12 +2525,44 @@ Tu avais remarqué ?
 }
 
 dialog{
+  id = "maps.houses.west_mt_tamaranch.mr_write_house.mr_write_1",
+  text = [[
+Bonjour, je suis 
+Mr Wright.      
+Mon hobby, c'est écrire    
+des lettres...  
+Le problème, c'est que       
+quand j'écris, je n'ai
+jamais de réponse...
+]]
+}
+
+dialog{
+  id = "maps.houses.west_mt_tamaranch.mr_write_house.mr_write_2",
+  text = [[
+Une lettre ?     
+Pour moi ?       
+Mais c'est formidable...   
+Il y a même une
+photo !
+]]
+}
+
+dialog{
   id = "maps.out.egg_of_the_dream_fish.sign_1",
   text = [[
 Tu es près du Plateau 
 Tartare.
 Le photographe n'est
 pas loin.
+]]
+}
+
+dialog{
+  id = "maps.out.egg_of_the_dream_fish.sign_2",
+  text = [[
+Est : Mt Tamaranch  
+Ouest : Mrs Anémones
 ]]
 }
 
@@ -2571,8 +2621,8 @@ d'rentrer.
 dialog{
   id = "maps.out.graveyard.sign_1",
   text = [[
-> Chez Monique  
-v Mare Bobo
+Est : Chez Monique  
+Sud : Mare Bobo
 ]]
 }
 
@@ -2790,22 +2840,20 @@ dialog{
   text = [[
 M'sieu ! M'sieu !         
 C'est terrible, c'est 
-horrible ! 
-c'est c'est... 
-Des Gogo...     
-des Momo...     
-des Moblins     
-sont venus dans le
-village ! Ils étaient     
-une armée... 
+horrible ! C'est 
+c'est... des Gogo...     
+des Momo... des 
+Moblins sont venus 
+dans le village ! 
+Ils étaient une armée... 
 Ils...ils...    
 Ils sont sortis !
 Ils sont entrés !
 Oui, c'est ça !  
-Ils sont entrés là et ils
-ont pris le Minou,  
-non non... Ils ont pris    
-Toutou !!        
+Ils sont entrés là et 
+ils ont pris le 
+Minou, non non... 
+Ils ont pris Toutou !!        
 ... ... ... ... 
 ... ... ... ... 
 Il vaudrait mieux que
@@ -2818,14 +2866,26 @@ dialog{
   id = "maps.out.mabe_village.marine_1",
   skip = "all",
   text = [[
-Bonjour Link !  
+Bonjour $v !  
 Tarkin est parti dans
 la forêt chercher des    
 champignons.    
 Moi,je préfère chanter.        
 Ecoute ceci : c'est la 
-Ballade du 
-Poisson-Rêve.
+Ballade du Poisson-Rêve.
+]]
+}
+
+dialog{
+  id = "maps.out.mabe_village.marine_2",
+  skip = "all",
+  text = [[
+$v, Tarkin   
+fait la sieste à la 
+maison. Je préfère      
+chanter. Oui ! Pourquoi
+pas la Ballade du 
+Poisson-Rêve ?
 ]]
 }
 
@@ -2850,8 +2910,8 @@ dialog{
   id = "maps.out.prairie.sign_1",
   skip = "all",
   text = [[
-Est > Prairie   
-Plus à l'Est    
+Est : Prairie   
+Plus à l'Est :  
 Village des Animaux
 ]]
 }
@@ -2897,6 +2957,14 @@ dialog{
   text = [[
 Château Canulet 
 10 min. Est, puis Nord
+]]
+}
+
+dialog{
+  id = "maps.out.west_mt_tamaranch.owl_statue_1",
+  text = [[
+VA VOIR L'OEUF SACRE.
+IL REPOND AUX SONS.
 ]]
 }
 

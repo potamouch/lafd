@@ -6060,6 +6060,15 @@ custom_entity{
   model = "hookable",
 }
 
+separator{
+  name = "auto_separator_1",
+  layer = 0,
+  x = 0,
+  y = 376,
+  width = 960,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 8,

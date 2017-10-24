@@ -53,11 +53,13 @@ function enemy:calculate_parameters()
   if x_hero < x_enemy then
     angle = math.pi
     direction = 4
+    sprite:set_direction(2)
     direction_arrow = 2
     x = x_hero + distance 
   else
     angle = 0
     direction = 0
+    sprite:set_direction(0)
     direction_arrow = 0
     x = x_hero - distance 
   end
@@ -116,7 +118,7 @@ function enemy:throw_arrow()
     breed =  'arrow',
     direction = direction_arrow,
     x = x_enemy,
-    y = y_enemy,
+    y = y_enemy - 8,
     width = 16,
     height = 8,
     layer = layer_enemy

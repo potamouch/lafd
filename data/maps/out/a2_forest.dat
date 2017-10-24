@@ -6385,9 +6385,9 @@ tile{
 tile{
   layer = 0,
   x = 40,
-  y = 248,
+  y = 200,
   width = 16,
-  height = 32,
+  height = 80,
   pattern = "524",
 }
 
@@ -6397,15 +6397,6 @@ tile{
   y = 120,
   width = 80,
   height = 16,
-  pattern = "524",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 200,
-  width = 16,
-  height = 32,
   pattern = "524",
 }
 
@@ -6440,15 +6431,6 @@ tile{
   layer = 0,
   x = 40,
   y = 144,
-  width = 16,
-  height = 8,
-  pattern = "36",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 232,
   width = 16,
   height = 8,
   pattern = "36",
@@ -9010,6 +8992,15 @@ tile{
   pattern = "866",
 }
 
+tile{
+  layer = 0,
+  x = 440,
+  y = 456,
+  width = 16,
+  height = 48,
+  pattern = "1338",
+}
+
 destructible{
   layer = 0,
   x = 432,
@@ -9173,6 +9164,7 @@ chest{
   layer = 0,
   x = 352,
   y = 77,
+  treasure_savegame_variable = "forest_chest_1",
   sprite = "entities/chest",
 }
 
@@ -9235,30 +9227,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 176,
-  y = 653,
-  direction = 3,
-  breed = "moblin",
-}
-
-enemy{
-  layer = 0,
-  x = 104,
-  y = 541,
-  direction = 3,
-  breed = "moblin",
-}
-
-enemy{
-  layer = 0,
-  x = 320,
-  y = 485,
-  direction = 3,
-  breed = "moblin",
-}
-
-enemy{
-  layer = 0,
   x = 288,
   y = 453,
   direction = 3,
@@ -9307,14 +9275,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 584,
-  y = 317,
-  direction = 3,
-  breed = "moblin",
-}
-
-enemy{
-  layer = 0,
   x = 680,
   y = 109,
   direction = 3,
@@ -9335,14 +9295,6 @@ enemy{
   y = 109,
   direction = 3,
   breed = "zol_green",
-}
-
-enemy{
-  layer = 0,
-  x = 824,
-  y = 85,
-  direction = 3,
-  breed = "moblin",
 }
 
 enemy{
@@ -9602,7 +9554,7 @@ destructible{
 destructible{
   layer = 0,
   x = 48,
-  y = 261,
+  y = 245,
   treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
@@ -11548,12 +11500,15 @@ custom_entity{
   model = "heavy_object",
 }
 
-chest{
+destructible{
   layer = 0,
-  x = 600,
-  y = 213,
-  treasure_name = "power_bracelet",
-  sprite = "entities/chest",
+  x = 48,
+  y = 261,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
 }
 
 tile{

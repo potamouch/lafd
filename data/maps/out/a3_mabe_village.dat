@@ -14991,42 +14991,6 @@ npc{
   sprite = "npc/kid_1",
 }
 
-sensor{
-  name = "moblins_start_1_sensor",
-  layer = 0,
-  x = 112,
-  y = 757,
-  width = 32,
-  height = 16,
-}
-
-sensor{
-  name = "moblins_stop_1_sensor",
-  layer = 0,
-  x = 56,
-  y = 653,
-  width = 144,
-  height = 16,
-}
-
-sensor{
-  name = "moblins_start_2_sensor",
-  layer = 0,
-  x = 56,
-  y = 669,
-  width = 144,
-  height = 16,
-}
-
-sensor{
-  name = "moblins_stop_2_sensor",
-  layer = 0,
-  x = 112,
-  y = 773,
-  width = 32,
-  height = 16,
-}
-
 custom_entity{
   name = "bowwow",
   layer = 0,
@@ -17929,6 +17893,16 @@ chest{
   y = 125,
   treasure_name = "pegasus_shoes",
   sprite = "entities/chest",
+}
+
+custom_entity{
+  name = "kids_alert_position_center",
+  layer = 0,
+  x = 120,
+  y = 733,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

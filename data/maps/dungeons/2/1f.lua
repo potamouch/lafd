@@ -12,7 +12,9 @@ local separator = ...
 local game = map:get_game()
 local is_small_boss_active = false
 local is_boss_active = false
+local boss_key_enemies_index = 0
 
+require("scripts/multi_events")
 local door_manager = require("scripts/maps/door_manager")
 local treasure_manager = require("scripts/maps/treasure_manager")
 local switch_manager = require("scripts/maps/switch_manager")
@@ -31,8 +33,9 @@ function map:on_started()
   treasure_manager:disappear_pickable(map, "heart_container")
   treasure_manager:appear_chest_if_savegame_exist(map, "chest_compass",  "dungeon_2_compass")
   treasure_manager:appear_chest_if_savegame_exist(map, "chest_small_key_4",  "dungeon_2_small_key_4")
-  treasure_manager:appear_chest_if_savegame_exist(map, "chest_power_bracelet",  "dungeon_2_chest_power_bracelet")
-  treasure_manager:appear_chest_if_savegame_exist(map, "chest_boss_key",  "dungeon_2_chest_boss_key")
+  treasure_manager:appear_chest_if_savegame_exist(map, "chest_power_bracelet",  "dungeon_2_power_bracelet")
+  treasure_manager:appear_chest_if_savegame_exist(map, "chest_boss_key",  "dungeon_2_boss_key")
+  switch_manager:activate_switch_if_savegame_exist(map, "switch_1",  "dungeon_2_small_key_4")
   enemy_manager:create_teletransporter_if_small_boss_dead(map, false)
   light_manager:init(map)
 
@@ -53,7 +56,6 @@ treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_2", "pickab
 treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_5", "pickable_small_key_2", nil)
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_3", "chest_compass")
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_17", "chest_power_bracelet")
-treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_15", "chest_boss_key")
 
 -- Doors
 door_manager:open_when_torches_lit(map, "auto_torch_group_1", "door_group_1")
@@ -102,6 +104,26 @@ function sensor_4:on_activated()
   end
 
 end
+
+-- Enemies events
+
+enemy_group_15_1:register_event("on_dead", function()
+  if boss_key_enemies_index == 0 then
+    boss_key_enemies_index = 1
+  end
+end)
+
+enemy_group_15_2:register_event("on_dead", function()
+  if boss_key_enemies_index == 1 then
+    boss_key_enemies_index = 2
+  end
+end)
+
+enemy_group_15_3:register_event("on_dead", function()
+  if boss_key_enemies_index == 2 then
+    treasure_manager:appear_chest(map, "chest_boss_key", true)
+  end
+end)
 
 -- Switchs events
 
@@ -177,8 +199,6 @@ auto_separator_25:register_event("on_activated", function(separator, direction4)
     map:set_light(1)
   end
 end)
-
-
 
 separator_manager:manage_map(map)
 owl_manager:manage_map(map)

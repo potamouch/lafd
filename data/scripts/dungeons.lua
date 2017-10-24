@@ -23,15 +23,14 @@ local function initialize_dungeon_features(game)
         map_id = "out/a4_south_mabe_village",
         destination_name = "dungeon_1_2_A"
       },
-      maps = { "dungeons/1/1f"},
       secrets = {
         [0] = {        
           [25] = {
-            savegame = "dungeon_1_chest_feather",
+            savegame = "dungeon_1_feather",
             signal = false
           },
           [28] = {
-            savegame = "dungeon_1_chest_boss_key",
+            savegame = "dungeon_1_boss_key",
             signal = true
           },
           [30] = {
@@ -85,10 +84,50 @@ local function initialize_dungeon_features(game)
       maps = { "dungeons/2/1f"},
       secrets = {
         [0] = {        
-          [44] = {
-            savegame = "dungeon_8_chest_feather",
+          [2] = {
+            savegame = "dungeon_2_power_bracelet",
+            signal = false
+          },
+          [4] = {
+            savegame = "dungeon_2_small_key_5",
             signal = true
-          }
+          },
+          [11] = {
+            savegame = "dungeon_2_map",
+            signal = false
+          },
+          [14] = {
+            savegame = "dungeon_2_boss_key",
+            signal = true
+          },
+          [34] = {
+            savegame = "dungeon_2_beak_of_stone",
+            signal = false
+          },
+          [44] = {
+            savegame = "dungeon_2_small_key_1",
+            signal = true
+          },
+          [46] = {
+            savegame = "dungeon_2_small_key_2",
+            signal = true
+          },
+          [51] = {
+            savegame = "dungeon_2_rupee_1",
+            signal = false
+          },
+          [52] = {
+            savegame = "dungeon_2_compass",
+            signal = false
+          },
+          [53] = {
+            savegame = "dungeon_2_small_key_3",
+            signal = true
+          },
+          [54] = {
+            savegame = "dungeon_2_small_key_4",
+            signal = true
+          },
         }
       },
       small_boss = {
@@ -106,7 +145,6 @@ local function initialize_dungeon_features(game)
         highest_floor = 0,
         rows = 8,
         cols= 4,
-        maps = { "dungeons/3/1f"},
         secrets = {
         },
         boss = {

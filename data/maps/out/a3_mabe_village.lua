@@ -8,6 +8,7 @@ local ball
 local ball_shadow
 local ball_is_launch = false
 local companion_manager = require("scripts/maps/companion_manager")
+local hero_is_alerted = false
 
 -- Methods - Functions
 
@@ -115,16 +116,23 @@ end
 
 function map:talk_to_marine() 
 
-  game:start_dialog("maps.out.mabe_village.marine_1", function()
-    marine_song = true
-    map:set_music()
-  end)
+  if game:get_value("main_quest_step") <= 4 then
+    game:start_dialog("maps.out.mabe_village.marine_1", game:get_player_name(), function()
+      marine_song = true
+      map:set_music()
+    end)
+  else
+    game:start_dialog("maps.out.mabe_village.marine_2", game:get_player_name(), function()
+      marine_song = true
+      map:set_music()
+    end)
+  end
 
 end
 
 function  map:talk_to_grand_ma()
 
-    if map:get_game():get_value("main_quest_step") < 8 then
+    if map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then
       game:start_dialog("maps.out.mabe_village.grand_ma_1")
     else
       game:start_dialog("maps.out.mabe_village.grand_ma_2")
@@ -157,17 +165,48 @@ end
 
 function map:on_started(destination)
 
-  companion_manager:init_map(map)
-  if   game:get_value("main_quest_step") == 2 then
+
+  if game:get_value("main_quest_step") == 2 then
     game:set_value("main_quest_step", 3)
   end
   map:set_music()
+  companion_manager:init_map(map)
   map:init_marine()
   map:init_bowwow()
   grand_ma:get_sprite():set_animation("walking")
-  kid_1:get_sprite():set_animation("playing")
-  kid_2:get_sprite():set_animation("playing")
-  map:create_ball(kid_1, kid_2)
+  if map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then
+    kid_1:get_sprite():set_animation("playing")
+    kid_2:get_sprite():set_animation("playing")
+    map:create_ball(kid_1, kid_2)
+  else
+    kid_1:get_sprite():set_animation("scared")
+    kid_2:get_sprite():set_animation("scared")
+  end
+
+end
+
+function map:on_opening_transition_finished(destination)
+
+ if map:get_game():get_value("main_quest_step") == 8 or map:get_game():get_value("main_quest_step") == 9 then
+    if  hero:get_distance(kids_alert_position_center) < 64 then
+      hero_is_alerted = true
+      map:get_alert_moblins()
+   end
+   sol.timer.start(map, 500, function()
+    if  hero:get_distance(kids_alert_position_center) < 64 then
+      if not hero_is_alerted then
+        hero_is_alerted = true
+        map:get_alert_moblins()
+      end
+    else
+      if hero_is_alerted then
+        hero_is_alerted = false
+        map:set_music()
+      end
+    end
+    return true
+   end)
+  end
 
 end
 
@@ -220,41 +259,6 @@ end
 function fishman:on_interaction()
 
       map:talk_to_fishman()
-
-end
-
-function moblins_start_1_sensor:on_activated()
-
-  if map:get_game():get_value("main_quest_step") == 8 then
-    map:get_alert_moblins()
-  end
-
-end
-
-function moblins_start_2_sensor:on_activated()
-
-  if map:get_game():get_value("main_quest_step") == 8 then
-    map:get_alert_moblins()
-  end
-
-end
-
-
-function moblins_stop_1_sensor:on_activated()
-
-  if map:get_game():get_value("main_quest_step") == 9 then
-    self:get_game():set_value("main_quest_step", 8)
-    map:set_music()
-  end
-
-end
-
-function moblins_stop_2_sensor:on_activated()
-
-  if map:get_game():get_value("main_quest_step") == 9 then
-    self:get_game():set_value("main_quest_step", 8)
-    map:set_music()
-  end
 
 end
 

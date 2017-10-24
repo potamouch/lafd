@@ -33,7 +33,7 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "enemies/small_boss_1.png",
+  src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {

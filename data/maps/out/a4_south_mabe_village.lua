@@ -29,8 +29,8 @@ end
 
 function map:on_started(destination)
 
-  companion_manager:init_map(map)
   map:set_music()
+  companion_manager:init_map(map)
   owl_1:set_enabled(false)
   owl_4:set_enabled(false)
   dungeon_1_entrance:set_can_traverse("hero", false)

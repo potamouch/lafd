@@ -23,8 +23,10 @@ function map:talk_to_meow_meow()
 
   if game:get_value("main_quest_step") < 8 then
     game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_1")
-  else
+  elseif game:get_value("main_quest_step") == 8 or game:get_value("main_quest_step") == 9 then
     game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_2")
+  else
+    game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_3")
   end
 
 end
@@ -94,6 +96,7 @@ function map:on_started(destination)
 
   map:set_music()
   map:launch_small_bowwow()
+  companion_manager:init_map(map)
 
 end
 

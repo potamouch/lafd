@@ -1,3 +1,4 @@
+require("scripts/multi_events")
 local door_manager = {}
 
 
@@ -46,6 +47,19 @@ function door_manager:open_if_boss_dead(map)
 
 end
 
+-- Open doors if block moved
+function door_manager:open_if_block_moved(map, block_prefix, door_prefix)
+
+      for block in map:get_entities(block_prefix) do
+       if block.is_moved then
+        map:open_doors(door_prefix)
+       else
+          map:close_doors(door_prefix)
+       end
+      end
+
+end
+
 -- Open doors when all blocks in the room are moved
 function door_manager:open_when_blocks_moved(map, block_prefix, door_prefix)
 
@@ -60,6 +74,36 @@ function door_manager:open_when_blocks_moved(map, block_prefix, door_prefix)
       for block in map:get_entities(block_prefix) do
         block.on_moved = block_on_moved
       end
+
+end
+
+-- Open doors when a block in the room are moved
+function door_manager:open_when_block_moved(map, block_prefix, door_prefix)
+
+      local function block_on_moved(block)
+        if not block.is_moved then
+          block.is_moved = true
+          map:open_doors(door_prefix)
+          sol.audio.play_sound("secret_1")
+        end
+       end
+      for block in map:get_entities(block_prefix) do
+        block.is_moved = false
+        block.on_moved = block_on_moved
+      end
+
+end
+
+-- Open doors when pot break
+function door_manager:open_when_pot_break(map, door_prefix)
+
+      local detect_entity = map:get_entity("detect_" .. door_prefix)
+      detect_entity:add_collision_test("touching", function(entity_source, entity_dest)
+        if entity_dest:get_type() == "carried_object" then
+            map:open_doors(door_prefix)
+            sol.audio.play_sound("secret_1")
+        end
+      end)
 
 end
 
@@ -78,8 +122,8 @@ function door_manager:open_when_torches_lit(map, torch_prefix, door_prefix)
     if is_closed then
       remaining = remaining - 1
       if remaining == 0 then
-        sol.audio.play_sound("secret_1")
         map:open_doors(door_prefix)
+        sol.audio.play_sound("secret_1")
       end
     end
   end

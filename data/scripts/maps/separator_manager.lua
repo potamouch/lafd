@@ -50,6 +50,7 @@ function separator_manager:manage_map(map)
       -- Reset blocks in regions no longer visible.
       if not block:is_in_same_region(hero) then
         block:reset()
+        block.is_moved = false
       end
     end
 

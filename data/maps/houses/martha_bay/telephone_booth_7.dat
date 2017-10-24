@@ -307,6 +307,15 @@ tile{
   pattern = "dresser.4a",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 128,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
 npc{
   name = "phone",
   layer = 0,
@@ -345,6 +354,33 @@ npc{
   subtype = 1,
 }
 
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 144,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 128,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 160,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -357,6 +393,15 @@ tile{
 tile{
   layer = 1,
   x = 120,
+  y = 104,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 1,
+  x = 144,
   y = 104,
   width = 24,
   height = 24,

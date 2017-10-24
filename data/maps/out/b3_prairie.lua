@@ -24,5 +24,6 @@ function map:on_started(destination)
   map:set_music()
   companion_manager:init_map(map)
 
-
 end
+
+

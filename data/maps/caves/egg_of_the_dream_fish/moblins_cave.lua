@@ -95,21 +95,23 @@ function sensor_4:on_activated()
     enemy:remove()
   end
   sol.audio.play_sound("treasure_2")
-  local x,y, layer = bowwow:get_position()
-  local name =  bowwow:get_name()
-  game:set_value("main_quest_step", 10)
-  bowwow:remove()
-  bowwow = map:create_custom_entity({
-      name = "bowwow",
-      sprite = "npc/bowwow",
-      x = x,
-      y = y,
-      width = 16,
-      height = 16,
-      layer = layer,
-      direction = 0,
-      model =  "bowwow_follow"
-    })
+  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.bowwow_1", function()
+    game:set_value("main_quest_step", 10)
+    local x,y, layer = bowwow:get_position()
+    local name =  bowwow:get_name()
+    bowwow:remove()
+    bowwow = map:create_custom_entity({
+        name = "bowwow",
+        sprite = "npc/bowwow",
+        x = x,
+        y = y,
+        width = 16,
+        height = 16,
+        layer = layer,
+        direction = 0,
+        model =  "bowwow_follow"
+      })
+  end)
 
 end
 local step = game:get_value("main_quest_step")

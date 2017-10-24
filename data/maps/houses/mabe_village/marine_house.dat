@@ -579,7 +579,7 @@ destructible{
 npc{
   name = "wardrobe_1",
   layer = 0,
-  x = 216,
+  x = 200,
   y = 53,
   direction = 3,
   subtype = 1,
@@ -588,7 +588,7 @@ npc{
 npc{
   name = "wardrobe_2",
   layer = 0,
-  x = 200,
+  x = 216,
   y = 53,
   direction = 3,
   subtype = 1,
@@ -621,15 +621,6 @@ npc{
   y = 77,
   direction = 3,
   subtype = 1,
-}
-
-teletransporter{
-  layer = 0,
-  x = 152,
-  y = 176,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/6/1f",
 }
 
 tile{

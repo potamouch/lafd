@@ -39,15 +39,14 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-     map:set_doors_open("door_group_1", true)
-      map:set_doors_open("door_group_small_boss", true)
-    if destination == dungeon_1_1_B then
-      map:set_doors_open("door_group_2", false)
-      map:set_doors_open("door_group_5", true)
-      game:start_dialog("maps.dungeons.1.welcome")
-    elseif destination == stairs_1_B then
-      map:set_doors_open("door_group_2", true)
-    end
+   map:set_doors_open("door_group_1", true)
+   map:set_doors_open("door_group_small_boss", true)
+   map:set_doors_open("door_group_2", true)
+  if destination == dungeon_1_1_B then
+    map:set_doors_open("door_group_2", false)
+    map:set_doors_open("door_group_5", true)
+    game:start_dialog("maps.dungeons.1.welcome")
+  end
 
 end
 
@@ -68,6 +67,10 @@ door_manager:open_when_enemies_dead(map,  "enemy_group_6",  "door_group_1")
 door_manager:open_when_enemies_dead(map,  "enemy_group_3",  "door_group_5")
 door_manager:open_if_small_boss_dead(map)
 door_manager:open_if_boss_dead(map)
+
+-- Blocks
+
+door_manager:open_when_block_moved(map, "auto_block_1", "door_group_2")
 
 -- Sensors events
 
@@ -123,8 +126,7 @@ end
 
 function sensor_8:on_activated()
 
-
-  map:close_doors("door_group_2")
+  door_manager:open_if_block_moved(map,  "auto_block_1" , "door_group_2")
 
 end
 
@@ -134,14 +136,6 @@ end
 function switch_1:on_activated()
 
   treasure_manager:appear_chest(map, "chest_small_key_2", true)
-
-end
-
--- Blocks events
-
-function auto_block_1:on_moved()
-
-  map:open_doors("door_group_2")
 
 end
 

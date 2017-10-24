@@ -5,7 +5,7 @@ local symbol_fixed = false
 function enemy:on_created()
 
   enemy:set_life(1000)
-  enemy:set_damage(4)
+  enemy:set_damage(1)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_invincible()

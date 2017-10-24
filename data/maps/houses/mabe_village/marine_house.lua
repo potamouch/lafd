@@ -3,6 +3,7 @@
 -- Variables
 local map = ...
 local game = map:get_game()
+local companion_manager = require("scripts/maps/companion_manager")
 
 -- Methods - Functions
 
@@ -130,6 +131,7 @@ function map:on_started(destination)
   map:set_music()
   map:init_marine()
   map:init_tarin()
+  companion_manager:init_map(map)
   if destination:get_name() == "start_position"  then
     -- the intro scene is playing
     game:set_hud_enabled(true)

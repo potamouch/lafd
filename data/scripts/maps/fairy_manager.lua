@@ -154,7 +154,7 @@ end
 
 
 -- Init fairy
-function fairy_manager:init_fairy(map, fairy_name)
+function fairy_manager:init_map(map, fairy_name)
 
     local fairy = map:get_entity(fairy_name)
     fairy:set_enabled(false)

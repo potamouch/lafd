@@ -3,6 +3,7 @@
 -- Variables
 local map = ...
 local game = map:get_game()
+local companion_manager = require("scripts/maps/companion_manager")
 
 -- Methods - Functions
 
@@ -21,5 +22,6 @@ end
 function map:on_started(destination)
 
   map:set_music()
+  companion_manager:init_map(map)
 
 end

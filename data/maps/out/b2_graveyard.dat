@@ -4990,7 +4990,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 16,
+  y = 32,
   width = 64,
   height = 16,
   pattern = "1041",
@@ -4999,7 +4999,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 32,
+  y = 48,
   width = 32,
   height = 16,
   pattern = "1041",
@@ -5008,25 +5008,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 80,
-  width = 32,
-  height = 16,
-  pattern = "1041",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 80,
-  width = 32,
-  height = 16,
-  pattern = "1041",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 32,
+  y = 96,
   width = 32,
   height = 16,
   pattern = "1041",
@@ -5036,6 +5018,15 @@ tile{
   layer = 0,
   x = 72,
   y = 48,
+  width = 32,
+  height = 16,
+  pattern = "1041",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 64,
   width = 16,
   height = 32,
   pattern = "1041",
@@ -5044,7 +5035,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 48,
+  y = 64,
   width = 16,
   height = 32,
   pattern = "1041",
@@ -7429,7 +7420,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 96,
+  y = 112,
   width = 64,
   height = 16,
   pattern = "1041",
@@ -18568,6 +18559,24 @@ tile{
   pattern = "2204",
 }
 
+tile{
+  layer = 0,
+  x = 72,
+  y = 96,
+  width = 32,
+  height = 16,
+  pattern = "1041",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
 destructible{
   layer = 0,
   x = 520,
@@ -18794,7 +18803,18 @@ destructible{
 destructible{
   layer = 0,
   x = 128,
-  y = 45,
+  y = 61,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 77,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -18815,8 +18835,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 112,
-  y = 45,
+  x = 96,
+  y = 93,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -18837,30 +18857,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 96,
-  y = 61,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
   x = 128,
-  y = 61,
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  layer = 0,
-  x = 144,
-  y = 61,
+  y = 77,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -18881,8 +18879,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 128,
-  y = 77,
+  x = 144,
+  y = 93,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -18892,8 +18890,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 112,
-  y = 77,
+  x = 128,
+  y = 93,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -18914,8 +18912,19 @@ destructible{
 
 destructible{
   layer = 0,
+  x = 112,
+  y = 109,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
   x = 128,
-  y = 93,
+  y = 109,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -18927,7 +18936,7 @@ pickable{
   name = "piece_of_heart_2",
   layer = 0,
   x = 120,
-  y = 69,
+  y = 85,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "piece_of_heart_2",
 }
@@ -20639,6 +20648,16 @@ sensor{
   y = 453,
   width = 16,
   height = 16,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 45,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{

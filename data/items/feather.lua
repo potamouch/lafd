@@ -35,6 +35,20 @@ function item:on_created()
   end)
 end
 
+
+function item:set_max_height(height)
+  
+  max_height = height
+
+end
+
+function item:set_max_distance(distance)
+  
+  max_distance = distance
+
+end
+
+
 -- The custom jump can only be used under certain conditions.
 -- We define "item.on_custom_using" instead of "item.on_using", which
 -- is directly called by the event "game.on_command_pressed".
@@ -51,13 +65,24 @@ function hero_meta:is_jumping()
 end
 
 -- Function to determine if the hero can jump on this type of ground.
-local function is_jumpable_ground(ground_type)
-  local is_good_ground = ( (ground_type == "traversable")
-    or (ground_type == "wall_top_right") or (ground_type == "wall_top_left")
-    or (ground_type == "wall_bottom_left") or (ground_type == "wall_bottom_right")
-    or (ground_type == "shallow_water") or (ground_type == "grass")
-    or (ground_type == "ice") )
-  return is_good_ground
+function item:is_jumpable_ground(ground_type)
+  local game = self:get_game()
+  local map = self:get_map()
+  if map.is_side_view ~= nil and map:is_side_view() then
+    local is_good_ground = ( (ground_type == "traversable")
+      or (ground_type == "wall_top_right") or (ground_type == "wall_top_left")
+      or (ground_type == "wall_bottom_left") or (ground_type == "wall_bottom_right")
+      or (ground_type == "shallow_water") or (ground_type == "grass")
+      or (ground_type == "ice")  or (ground_type == "ladder") )
+    return is_good_ground
+  else
+    local is_good_ground = ( (ground_type == "traversable")
+      or (ground_type == "wall_top_right") or (ground_type == "wall_top_left")
+      or (ground_type == "wall_bottom_left") or (ground_type == "wall_bottom_right")
+      or (ground_type == "shallow_water") or (ground_type == "grass")
+      or (ground_type == "ice") )
+    return is_good_ground
+  end
 end
 -- Returns true if there are "blocking streams" below the hero.
 local function blocking_stream_below_hero(map)
@@ -77,13 +102,19 @@ function item:start_custom_jump()
   local map = self:get_map()
   local hero = map:get_hero()
 
+   -- Change Max height
+   if map.is_side_view ~= nil and map:is_side_view() then
+      max_height = 32
+  else
+      max_height = 16
+  end
   -- Do nothing if the hero is frozen, carrying, "custom jumping",
   -- or if there is bad ground below. [Add more restrictions if necessary.]
   local hero_state = hero:get_state()
   local is_hero_frozen = hero_state == "frozen"
   local is_hero_carrying = hero_state == "carrying"
   local ground_type = map:get_ground(hero:get_position())
-  local is_ground_jumpable = is_jumpable_ground(ground_type)
+  local is_ground_jumpable = self:is_jumpable_ground(ground_type)
   local is_blocked_on_stream = blocking_stream_below_hero(map)
 
   if is_hero_frozen or is_hero_jumping or is_hero_carrying 
@@ -110,22 +141,24 @@ function item:start_custom_jump()
   elseif state == "sword spin attack" then
     hero:set_fixed_animations("spin_attack", "spin_attack")
   end
-
-  -- Create shadow platform with traversable ground that follows the hero under him.
-  local x, y, layer = hero:get_position()
-  local platform_properties = {x=x,y=y,layer=layer,direction=0,width=8,height=8}
-  local tile = map:create_custom_entity(platform_properties)
-  tile:set_origin(4, 4)
-  tile:set_modified_ground("traversable")
-  local sprite = tile:create_sprite("shadows/shadow_big_dynamic")
-  local nb_frames = sprite:get_num_frames()
-  local frame_delay = math.floor(jump_duration/nb_frames)
-  sprite:set_frame_delay(frame_delay)
-  -- Shadow platform has to follow the hero.
-  sol.timer.start(tile, 1, function()
-    tile:set_position(hero:get_position())
-    return true
-  end)
+  local tile
+   if map.is_side_view == nil or map:is_side_view() == false then
+    -- Create shadow platform with traversable ground that follows the hero under him.
+    local x, y, layer = hero:get_position()
+    local platform_properties = {x=x,y=y,layer=layer,direction=0,width=8,height=8}
+    tile = map:create_custom_entity(platform_properties)
+    tile:set_origin(4, 4)
+    tile:set_modified_ground("traversable")
+    local sprite = tile:create_sprite("shadows/shadow_big_dynamic")
+    local nb_frames = sprite:get_num_frames()
+    local frame_delay = math.floor(jump_duration/nb_frames)
+    sprite:set_frame_delay(frame_delay)
+    -- Shadow platform has to follow the hero.
+    sol.timer.start(tile, 1, function()
+      tile:set_position(hero:get_position())
+      return true
+    end)
+  end
 
   -- Shift all sprites during jump with parabolic trajectory.
   local instant = 0
@@ -149,7 +182,9 @@ function item:start_custom_jump()
 
     hero:set_walking_speed(ws) -- Restore initial walking speed.
     hero:set_fixed_animations(nil, nil) -- Restore tunic animations.
-    tile:remove()  -- Delete shadow platform tile.
+   if map.is_side_view == nil or map:is_side_view() == false then
+     tile:remove()  -- Delete shadow platform tile.
+    end
     -- If ground is empty, move hero to lower layer.
     local x,y,layer = hero:get_position()
     local ground = map:get_ground(hero:get_position())
@@ -171,7 +206,7 @@ function item:start_custom_jump()
     -- Restore solid ground as soon as possible.
     sol.timer.start(map, 1, function()
       local ground_type = map:get_ground(hero:get_position())    
-      local is_good_ground = is_jumpable_ground(ground_type)
+      local is_good_ground = self:is_jumpable_ground(ground_type)
       if is_good_ground then
         hero:reset_solid_ground()
         return false

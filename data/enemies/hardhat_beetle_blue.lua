@@ -7,16 +7,16 @@ local behavior = require("enemies/lib/towards_hero")
 
 local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
-  life = 10,
-  damage = 3,
-  normal_speed = 48,
-  faster_speed = 48,
-  detection_distance = 220
+  life = 1,
+  damage = 1,
+  normal_speed = 24,
+  faster_speed = 24,
+  detection_distance = 220,
+  obstacle_behavior = "normal"
 }
 
 behavior:create(enemy, properties)
 
-enemy:set_layer_independent_collisions(true)
 enemy:set_invincible(true)
 enemy:set_attack_consequence("arrow", "custom")
 enemy:set_attack_consequence("boomerang", "custom")
@@ -34,7 +34,7 @@ function enemy:on_custom_attack_received(attack)
   local angle = hero:get_angle(enemy)
   local movement = sol.movement.create("straight")
   movement:set_speed(128)
-  movement:set_ignore_obstacles(properties.ignore_obstacles)
+  movement:set_ignore_obstacles(true)
   movement:set_angle(angle)
   movement:start(enemy)
   sol.timer.start(enemy, 400, function()

@@ -307,6 +307,15 @@ tile{
   pattern = "dresser.4a",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 128,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
 npc{
   name = "phone",
   layer = 0,
@@ -357,6 +366,15 @@ tile{
 tile{
   layer = 1,
   x = 120,
+  y = 104,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 1,
+  x = 144,
   y = 104,
   width = 24,
   height = 24,

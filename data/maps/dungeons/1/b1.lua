@@ -10,18 +10,9 @@
 local map = ...
 local game = map:get_game()
 
-local side_view_manager = require("scripts/maps/side_view_manager")
-side_view_manager:manage_map(map)
 
--- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+  map:set_side_view(true)
 
 end

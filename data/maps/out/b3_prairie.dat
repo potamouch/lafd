@@ -21,6 +21,15 @@ tile{
 
 tile{
   layer = 0,
+  x = 352,
+  y = 600,
+  width = 128,
+  height = 16,
+  pattern = "111",
+}
+
+tile{
+  layer = 0,
   x = 800,
   y = 216,
   width = 16,
@@ -15736,15 +15745,6 @@ tile{
 tile{
   layer = 0,
   x = 352,
-  y = 608,
-  width = 128,
-  height = 8,
-  pattern = "111",
-}
-
-tile{
-  layer = 0,
-  x = 352,
   y = 616,
   width = 120,
   height = 8,
@@ -16196,7 +16196,7 @@ tile{
   layer = 0,
   x = 360,
   y = 632,
-  width = 64,
+  width = 16,
   height = 16,
   pattern = "917",
 }
@@ -18989,6 +18989,15 @@ tile{
   width = 96,
   height = 16,
   pattern = "12842",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 632,
+  width = 16,
+  height = 16,
+  pattern = "917",
 }
 
 destructible{
@@ -22892,6 +22901,25 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/c3_east_prairie",
   destination = "_side",
+}
+
+destination{
+  name = "dungeon_3_2_A",
+  layer = 0,
+  x = 392,
+  y = 637,
+  direction = 3,
+}
+
+teletransporter{
+  name = "dungeon_3_1_A",
+  layer = 0,
+  x = 384,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/3/1f",
+  destination = "dungeon_3_1_B",
 }
 
 tile{

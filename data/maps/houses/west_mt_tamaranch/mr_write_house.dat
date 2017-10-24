@@ -298,148 +298,13 @@ tile{
   pattern = "table.5",
 }
 
-destructible{
+tile{
   layer = 0,
-  x = 80,
-  y = 61,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 61,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 77,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 77,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 93,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 93,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 109,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 109,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 125,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 125,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 141,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 141,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 157,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 157,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 173,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 173,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 189,
-  sprite = "entities/pot",
-  weight = 1,
-}
-
-destructible{
-  layer = 0,
-  x = 96,
-  y = 189,
-  sprite = "entities/pot",
-  weight = 1,
+  x = 128,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
 }
 
 wall{
@@ -475,6 +340,7 @@ destination{
 }
 
 npc{
+  name = "mr_write_invisible",
   layer = 0,
   x = 168,
   y = 125,
@@ -483,6 +349,7 @@ npc{
 }
 
 custom_entity{
+  name = "mr_write",
   layer = 0,
   x = 168,
   y = 109,
@@ -501,6 +368,214 @@ custom_entity{
   height = 16,
   direction = 2,
   sprite = "npc/bird",
+  model = "bird",
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 61,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 61,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 77,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 77,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 93,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 93,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 125,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 125,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 141,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 141,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 157,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 157,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 173,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 173,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 189,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 189,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 112,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 128,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 144,
+  y = 53,
+  direction = 3,
+  subtype = 1,
 }
 
 tile{
@@ -546,6 +621,15 @@ tile{
   width = 8,
   height = 8,
   pattern = "table.1",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
 }
 
 tile{

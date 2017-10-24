@@ -19,7 +19,6 @@ map.overlay_step = 1
 
 map.num_destructibles_created = 0
 map.raccoon_warning_done = false
-fairy_manager:init_fairy(map, "fairy")
 
 -- Functions
 
@@ -74,6 +73,7 @@ end
 function map:on_started(destination)
 
   companion_manager:init_map(map)
+ fairy_manager:init_map(map, "fairy")
   map:set_overlay()
   map:init_tarin()
   owl_2:set_enabled(false)

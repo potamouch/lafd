@@ -25,10 +25,12 @@ function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, p
     local game = map:get_game()
     if not map:has_entities(enemy_prefix) then
        local pickable_entity = map:get_entity(pickable)
-       local treasure, variant, savegame = pickable_entity:get_treasure()
-      if  not savegame or savegame and not game:get_value(savegame) then
-         self:appear_pickable(map, pickable, true)
-      end
+        if pickable_entity ~= nil then
+          local treasure, variant, savegame = pickable_entity:get_treasure()
+          if  not savegame or savegame and not game:get_value(savegame) then
+           self:appear_pickable(map, pickable, true)
+          end
+        end
     end
   end
 

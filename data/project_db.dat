@@ -135,6 +135,7 @@ sprite{ id = "enemies/goomba", description = "Goomba" }
 sprite{ id = "enemies/goponga_flower", description = "Goponga flower" }
 sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" }
 sprite{ id = "enemies/hardhat_beetle_red", description = "Hardhat beetle red" }
+sprite{ id = "enemies/hooded_stalfos", description = "Hooded stalfos" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
@@ -208,6 +209,7 @@ sprite{ id = "entities/movies/wreck", description = "Wreck" }
 sprite{ id = "entities/notes", description = "Notes" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/owl", description = "Owl" }
+sprite{ id = "entities/owl_blue", description = "Owl blue" }
 sprite{ id = "entities/palm", description = "Palm" }
 sprite{ id = "entities/pillar", description = "Pillar" }
 sprite{ id = "entities/pillar_base", description = "Pillar base" }
@@ -520,6 +522,7 @@ sound{ id = "treasure_2", description = "Get treasure 2" }
 sound{ id = "treasure_sword", description = "Get treasure sword" }
 sound{ id = "walk_on_grass", description = "Walk on grass" }
 sound{ id = "walk_on_water", description = "Walk on water" }
+sound{ id = "water_fill", description = "Water fill" }
 sound{ id = "wrong", description = "Wrong" }
 sound{ id = "zonzifleur/solarus_team_logo", description = "Solarus Team logo" }
 
@@ -611,6 +614,7 @@ enemy{ id = "goomba", description = "Goomba" }
 enemy{ id = "goponga_flower", description = "Goponga flower" }
 enemy{ id = "hardhat_beetle_blue", description = "Hardhat beetle blue" }
 enemy{ id = "hardhat_beetle_red", description = "Hardhat beetle red" }
+enemy{ id = "hooded_stalfos", description = "Hooded stalfos" }
 enemy{ id = "keese", description = "Keese" }
 enemy{ id = "maskass", description = "Maskass" }
 enemy{ id = "moblin", description = "Moblin" }
@@ -627,6 +631,7 @@ enemy{ id = "stalfos_red", description = "Stalfos red" }
 enemy{ id = "vegas", description = "Vegas" }
 enemy{ id = "zol_green", description = "Zol green" }
 
+entity{ id = "bird", description = "Bird" }
 entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "bowwow_follow", description = "Bowwow follow" }
 entity{ id = "butterfly", description = "Butterfly" }
