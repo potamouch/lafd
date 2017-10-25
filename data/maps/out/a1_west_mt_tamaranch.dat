@@ -11293,6 +11293,44 @@ jumper{
   jump_length = 88,
 }
 
+destination{
+  name = "west_mt_tamaranch_cave_1_2_D",
+  layer = 0,
+  x = 264,
+  y = 461,
+  direction = 3,
+}
+
+teletransporter{
+  name = "west_mt_tamaranch_cave_1_1_D",
+  layer = 0,
+  x = 256,
+  y = 432,
+  width = 16,
+  height = 16,
+  destination_map = "caves/west_mt_tamaranch/cave_1",
+  destination = "west_mt_tamaranch_cave_1_1_C",
+}
+
+destination{
+  name = "west_mt_tamaranch_cave_1_2_A",
+  layer = 0,
+  x = 184,
+  y = 461,
+  direction = 3,
+}
+
+teletransporter{
+  name = "west_mt_tamaranch_cave_1_1_A",
+  layer = 0,
+  x = 176,
+  y = 432,
+  width = 16,
+  height = 16,
+  destination_map = "caves/west_mt_tamaranch/cave_1",
+  destination = "west_mt_tamaranch_cave_1_1_B",
+}
+
 tile{
   layer = 1,
   x = 200,

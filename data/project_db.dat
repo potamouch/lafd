@@ -6,6 +6,7 @@ map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
+map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
 map{ id = "dungeons/10/1f", description = "Dungeon 10 1F" }
@@ -277,6 +278,8 @@ sprite{ id = "menus/dungeon_maps/map_2", description = "Map 2 " }
 sprite{ id = "menus/dungeon_maps/map_2_compass", description = "Map 2 compass" }
 sprite{ id = "menus/dungeon_maps/map_3", description = "Map 3" }
 sprite{ id = "menus/dungeon_maps/map_3_compass", description = "Map 3 compass" }
+sprite{ id = "menus/dungeon_maps/map_4", description = "Map 4" }
+sprite{ id = "menus/dungeon_maps/map_4_compass", description = "Map 4 compass" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }
 sprite{ id = "menus/map_zone", description = "Map zone" }

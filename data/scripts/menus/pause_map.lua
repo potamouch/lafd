@@ -255,6 +255,7 @@ function map_submenu:draw_dungeon_map_rooms(dst_surface)
   if self.dungeon.rows%2 ~= 0 then
     offsetY = (8 - self.dungeon.rows) * 8
   end
+
    self.rooms_surface:draw(self.map_surface,  offsetX + 140,  offsetY + 70)
 
 end

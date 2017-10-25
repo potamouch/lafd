@@ -96,7 +96,6 @@ function map:on_started(destination)
 
   map:set_music()
   map:launch_small_bowwow()
-  companion_manager:init_map(map)
 
 end
 

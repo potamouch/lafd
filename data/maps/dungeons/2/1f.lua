@@ -138,11 +138,12 @@ end
 
 function map:on_obtaining_treasure(item, variant, savegame_variable)
 
-    if savegame_variable == "dungeon_2_instrument" then
+    if savegame_variable == "dungeon_2_big_treasure_test" then
       treasure_manager:get_instrument(map, 2)
     end
 
 end
+
 
 -- Separator events
 

@@ -9164,7 +9164,6 @@ chest{
   layer = 0,
   x = 352,
   y = 77,
-  treasure_savegame_variable = "forest_chest_1",
   sprite = "entities/chest",
 }
 
