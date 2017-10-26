@@ -1083,24 +1083,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 80,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 112,
   y = 32,
   width = 24,
@@ -1487,7 +1469,7 @@ destructible{
   x = 200,
   y = 109,
   treasure_name = "random",
-  sprite = "entities/pot",
+  sprite = "entities/skull_white",
   destruction_sound = "stone",
   weight = 1,
 }
@@ -1516,7 +1498,7 @@ destructible{
   x = 216,
   y = 93,
   treasure_name = "random",
-  sprite = "entities/pot",
+  sprite = "entities/skull_white",
   destruction_sound = "stone",
   weight = 1,
 }

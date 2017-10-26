@@ -13,12 +13,12 @@ animation{
 animation{
   name = "attacked",
   src_image = "enemies/boss/moblin_chief.png",
-  frame_delay = 50,
+  frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
+    { x = 192, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
     { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
-    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
-    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
+    { x = 128, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
     { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
   },
 }

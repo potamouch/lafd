@@ -3,6 +3,7 @@
 -- Variables
 local map = ...
 local game = map:get_game()
+local hero = map:get_hero()
 local companion_manager = require("scripts/maps/companion_manager")
 
 -- Methods - Functions
@@ -25,10 +26,7 @@ function map:talk_to_monkey()
           game:start_dialog("maps.out.kanalet_castle.monkey_3", function(answer) 
             if answer == 1 then
               game:start_dialog("maps.out.kanalet_castle.monkey_4", function()
-                bridge:set_enabled(true)
-                monkey:set_enabled(false)
-                baton:set_enabled(true)
-                game:set_value("main_quest_step", 14) 
+                map:monkey_build_bridge()
               end)
             else
               game:start_dialog("maps.out.kanalet_castle.monkey_2")
@@ -43,6 +41,7 @@ end
 
 function map:monkey_build_bridge()
 
+  hero:freeze()
   local x, y, layer = monkey:get_position()
   sol.audio.stop_music()
   sol.audio.play_sound("monkeys_build_a_bridge")
@@ -137,6 +136,8 @@ function map:monkey_leave_bridge()
     movement:start(monkey)
     function movement:on_finished()
       monkey:remove()
+      hero:unfreeze()
+      game:set_value("main_quest_step", 14) 
     end
 end
 
@@ -163,7 +164,6 @@ end
 
 function monkey:on_interaction()
 
-    map:monkey_build_bridge()
-      --map:talk_to_monkey()
+  map:talk_to_monkey()
 
 end

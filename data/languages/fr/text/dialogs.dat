@@ -777,10 +777,9 @@ dialog{
   id = "_treasure.magnifying_lens.5",
   icon = "104",
   text = [[
-Tu prends       
-le bâton        
-que le singe    
-a laissé.
+Tu prends le bâton        
+que le singe a
+laissé.
 ]]
 }
 
@@ -1070,7 +1069,7 @@ Quelle extase !
 }
 
 dialog{
-  id = "_treasure.seashells_counter.1",
+  id = "_treasure.seashell.1",
   icon = "38",
   text = [[
 Tu as trouvé un 
@@ -2674,6 +2673,13 @@ Château Canulet
 }
 
 dialog{
+  id = "maps.out.east_prairie.sign_3",
+  text = [[
+Est : Village des Animaux
+]]
+}
+
+dialog{
   id = "maps.out.egg_of_the_dream_fish.sign_1",
   text = [[
 Tu es près du Plateau 
@@ -3090,6 +3096,15 @@ dialog{
   skip = "all",
   text = [[
 Ci-gît le Coq Volant.
+]]
+}
+
+dialog{
+  id = "maps.out.prairie.dungeon_3_lock",
+  text = [[
+Une serrure ici?
+Hum, voyons :   
+Serrure Cyclope
 ]]
 }
 

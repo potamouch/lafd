@@ -15690,6 +15690,8 @@ destructible{
   layer = 0,
   x = 840,
   y = 477,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_1",
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -17887,14 +17889,6 @@ npc{
   sprite = "npc/kid_2",
 }
 
-chest{
-  layer = 0,
-  x = 720,
-  y = 125,
-  treasure_name = "pegasus_shoes",
-  sprite = "entities/chest",
-}
-
 custom_entity{
   name = "kids_alert_position_center",
   layer = 0,
@@ -17903,6 +17897,31 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
+}
+
+chest{
+  layer = 0,
+  x = 696,
+  y = 125,
+  treasure_name = "bomb",
+  sprite = "entities/chest",
+}
+
+npc{
+  name = "bear",
+  layer = 0,
+  x = 736,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bear",
+}
+
+pickable{
+  layer = 0,
+  x = 656,
+  y = 125,
+  treasure_name = "bomb",
 }
 
 tile{
@@ -20948,7 +20967,7 @@ custom_entity{
   name = "butterfly_6",
   layer = 1,
   x = 688,
-  y = 125,
+  y = 149,
   width = 16,
   height = 16,
   direction = 3,

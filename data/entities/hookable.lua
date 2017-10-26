@@ -8,3 +8,4 @@ function hookable:is_hookable()
 end
 
 hookable:set_traversable_by(false)
+hookable:set_drawn_in_y_order(true)

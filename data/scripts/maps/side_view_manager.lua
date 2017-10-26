@@ -54,7 +54,6 @@ function side_view_manager:manage_map(map)
         end
         local x, y, l = hero:get_position()
         if state ~= "jumping" then
-          print(map:get_ground(x, y, l))
           if map:get_ground(x, y, l) ~= "ladder"  and map:get_ground(x, y + 8, l) == "ladder" then 
             -- Nothing
           elseif map:get_ground(hero:get_position()) ~= "ladder" then

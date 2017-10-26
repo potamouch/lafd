@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/statues_out.png",
+  directions = {
+    { x = 136, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 136, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 136, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 136, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+  },
+}

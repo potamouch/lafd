@@ -15,22 +15,17 @@ MAIN_QUEST_STEP
 12 - Bow wow is returned to Mme miaou miaou
 13 - Bridge is builded
 14 - Golden leaves quest are founded
-15 - Dungeon 3 key is retrieved
-16 - Dungeon 3 is opened
-17 - Dungeon 3 is resolved
-18 - Dream fish ballad is learned
-19 - The walrus is revealed
-20 - The Sand Snake is killed
-21 - Dungeon 4 key is retrieved
-22 - Dungeon 4 is opened
-23 - Dungeon 4 is resolved
+15 - Gold leaves are given to Richard
+16 - Dungeon 3 key is retrieved
+17 - Dungeon 3 is opened
+18 - Dungeon 3 is resolved
+19 - Dream fish ballad is learned
+20 - The walrus is revealed
+21 - The Sand Snake is killed
+22 - Dungeon 4 key is retrieved
+23 - Dungeon 4 is opened
+24 - Dungeon 4 is resolved
 
-EQUIPMENT
-
-Sword
-Schield
-Feather
-Bracelet of force
 
 
 PROCESSED MUSIC

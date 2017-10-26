@@ -13541,12 +13541,12 @@ enemy{
 }
 
 chest{
-  name = "seashell",
+  name = "chest_seashell",
   layer = 0,
   x = 440,
   y = 1149,
-  treasure_name = "seashells_counter",
-  treasure_savegame_variable = "dungeon_1_seashell",
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_3",
   sprite = "entities/chest",
 }
 

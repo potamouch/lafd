@@ -9115,7 +9115,8 @@ chest{
   layer = 0,
   x = 312,
   y = 693,
-  treasure_savegame_variable = "forest_chest_2",
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_5",
   sprite = "entities/chest",
 }
 

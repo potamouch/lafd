@@ -951,6 +951,14 @@ npc{
   subtype = 1,
 }
 
+pickable{
+  layer = 0,
+  x = 400,
+  y = 141,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_2",
+}
+
 tile{
   layer = 1,
   x = 128,

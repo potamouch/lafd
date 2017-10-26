@@ -7,3 +7,9 @@ function item:on_created()
 
 end
 
+function item:on_obtaining(variant, savegame_variable)
+
+    self:get_game():set_value("main_quest_step", 16)
+
+end
+
