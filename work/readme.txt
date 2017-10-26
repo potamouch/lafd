@@ -13,7 +13,7 @@ MAIN_QUEST_STEP
 10 - Bow wow is saved
 11 - Dungeon 2 is resolved
 12 - Bow wow is returned to Mme miaou miaou
-13 - Golden leaves quest is started
+13 - Bridge is builded
 14 - Golden leaves quest are founded
 15 - Dungeon 3 key is retrieved
 16 - Dungeon 3 is opened

@@ -16639,7 +16639,7 @@ teletransporter{
 }
 
 chest{
-  name = "forest_chest_2",
+  name = "egg_of_the_dream_fish_chest_1",
   layer = 0,
   x = 24,
   y = 605,
@@ -16987,6 +16987,22 @@ destructible{
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
+}
+
+enemy{
+  layer = 0,
+  x = 136,
+  y = 413,
+  direction = 0,
+  breed = "goponga_flower",
+}
+
+enemy{
+  layer = 0,
+  x = 40,
+  y = 413,
+  direction = 0,
+  breed = "goponga_flower",
 }
 
 tile{

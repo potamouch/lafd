@@ -25,8 +25,14 @@ function map:talk_to_meow_meow()
     game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_1")
   elseif game:get_value("main_quest_step") == 8 or game:get_value("main_quest_step") == 9 then
     game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_2")
-  else
+  elseif game:get_value("main_quest_step") < 11 then
     game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_3")
+  elseif game:get_value("main_quest_step") == 11 then
+    game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_4", function()
+      game:set_value("main_quest_step", 12)
+    end)
+  else
+    game:start_dialog("maps.houses.mabe_village.meow_meow_house.meow_meow_1")
   end
 
 end

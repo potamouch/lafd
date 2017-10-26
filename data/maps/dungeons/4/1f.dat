@@ -10290,6 +10290,16 @@ destination{
   direction = 1,
 }
 
+teletransporter{
+  layer = 0,
+  x = 1120,
+  y = 1704,
+  width = 16,
+  height = 16,
+  destination_map = "houses/mabe_village/marine_house",
+  destination = "marine_house_1_B",
+}
+
 tile{
   layer = 1,
   x = 1600,

@@ -69,39 +69,56 @@ end
 
 function map:init_tarin()
  
-   if game:get_value("main_quest_step") > 4 then
+    local item = game:get_item("magnifying_lens")
+    local variant = item:get_variant()
+   if game:get_value("main_quest_step") > 10 and variant < 4 then
+    snores_tarin:remove()
+    bed_tarin:remove()
+    tarin:get_sprite():set_animation("waiting")
+    tarin:get_sprite():set_direction(3)
+   elseif game:get_value("main_quest_step") > 10  then
+    snores_tarin:remove()
+    bed_tarin:remove()
+    bed:remove()
+    tarin:remove()
+    bananas:remove()
+   elseif game:get_value("main_quest_step") > 4 then
     local x,y,layer = placeholder_tarin_sleep:get_position()
     tarin:set_position(x,y,layer)
     tarin:get_sprite():set_animation("sleeping")
     bed:remove()
+    bananas:remove()
   elseif game:get_value("main_quest_step") > 3  then
     snores_tarin:remove()
     bed_tarin:remove()
     bed:remove()
     tarin:remove()
+    bananas:remove()
   else
     snores_tarin:remove()
     bed_tarin:remove()
     tarin:get_sprite():set_animation("waiting")
     map:repeat_tarin_direction_check()
+    bananas:remove()
   end
 
 end
 
 function  map:talk_to_tarin() 
 
-   if game:get_value("main_quest_step") > 4 then
+   if game:get_value("main_quest_step") > 10 then
+    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_5")
+   elseif game:get_value("main_quest_step") > 4 then
     game:start_dialog("maps.houses.mabe_village.marine_house.tarin_4")
    else
-  if game:has_item("shield") == false then
-    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_1", game:get_player_name(), function()
-      hero:start_treasure("shield", 1, "schield")
-      game:set_value("main_quest_step", 2)
-    end)
-  else
-      game:start_dialog("maps.houses.mabe_village.marine_house.tarin_2", game:get_player_name())
-  end
-
+      if game:has_item("shield") == false then
+        game:start_dialog("maps.houses.mabe_village.marine_house.tarin_1", game:get_player_name(), function()
+          hero:start_treasure("shield", 1, "schield")
+          game:set_value("main_quest_step", 2)
+        end)
+      else
+          game:start_dialog("maps.houses.mabe_village.marine_house.tarin_2", game:get_player_name())
+      end
   end
 
 end

@@ -19590,6 +19590,43 @@ npc{
   sprite = "entities/owl",
 }
 
+enemy{
+  name = "enemy_group_19_1",
+  layer = 0,
+  x = 1968,
+  y = 1077,
+  direction = 0,
+  breed = "fireball",
+}
+
+enemy{
+  name = "enemy_group_20_1",
+  layer = 0,
+  x = 1384,
+  y = 77,
+  direction = 0,
+  breed = "zol_green",
+}
+
+enemy{
+  name = "enemy_group_20_2",
+  layer = 0,
+  x = 1480,
+  y = 77,
+  direction = 0,
+  breed = "hardhat_beetle_blue",
+}
+
+npc{
+  name = "owl_3",
+  layer = 0,
+  x = 1440,
+  y = 1333,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl",
+}
+
 tile{
   layer = 1,
   x = 936,

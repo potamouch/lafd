@@ -38,7 +38,7 @@ end
 
 function map:init_bowwow()
  
-  if game:get_value("main_quest_step") > 7  then
+  if game:get_value("main_quest_step") > 7 and game:get_value("main_quest_step") < 12  then
     bowwow:set_enabled(false)
   end
 
@@ -121,8 +121,13 @@ function map:talk_to_marine()
       marine_song = true
       map:set_music()
     end)
-  else
+  elseif game:get_value("main_quest_step") < 11 then
     game:start_dialog("maps.out.mabe_village.marine_2", game:get_player_name(), function()
+      marine_song = true
+      map:set_music()
+    end)
+  else
+    game:start_dialog("maps.out.mabe_village.marine_3", game:get_player_name(), function()
       marine_song = true
       map:set_music()
     end)

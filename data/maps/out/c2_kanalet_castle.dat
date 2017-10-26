@@ -12,6 +12,33 @@ properties{
 
 tile{
   layer = 0,
+  x = 56,
+  y = 624,
+  width = 664,
+  height = 40,
+  pattern = "112",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 656,
+  width = 656,
+  height = 8,
+  pattern = "1340",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 648,
+  width = 656,
+  height = 16,
+  pattern = "919",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 0,
   width = 88,
@@ -318,15 +345,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
-  y = 624,
-  width = 664,
-  height = 40,
-  pattern = "112",
-}
-
-tile{
-  layer = 0,
   x = 704,
   y = 632,
   width = 8,
@@ -404,15 +422,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "926",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 656,
-  width = 656,
-  height = 8,
-  pattern = "1340",
 }
 
 tile{
@@ -7381,15 +7390,6 @@ tile{
   pattern = "988",
 }
 
-tile{
-  layer = 0,
-  x = 40,
-  y = 648,
-  width = 656,
-  height = 16,
-  pattern = "919",
-}
-
 teletransporter{
   name = "to_c3",
   layer = 0,
@@ -7616,6 +7616,154 @@ dynamic_tile{
   width = 16,
   height = 88,
   enabled_at_start = true,
+}
+
+npc{
+  name = "monkey",
+  layer = 0,
+  x = 768,
+  y = 693,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/monkey",
+}
+
+pickable{
+  name = "baton",
+  layer = 0,
+  x = 768,
+  y = 589,
+  treasure_name = "magnifying_lens",
+  treasure_variant = 5,
+}
+
+destination{
+  name = "telephone_booth_6_2_A",
+  layer = 0,
+  x = 800,
+  y = 77,
+  direction = 3,
+}
+
+teletransporter{
+  name = "telephone_booth_6_1_A",
+  layer = 0,
+  x = 792,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "houses/kanalet_castle/telephone_booth_6",
+  destination = "telephone_booth_6_1_B",
+}
+
+custom_entity{
+  name = "monkey_1",
+  layer = 0,
+  x = 760,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_2",
+  layer = 0,
+  x = 776,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_3",
+  layer = 0,
+  x = 768,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_4",
+  layer = 0,
+  x = 760,
+  y = 589,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_5",
+  layer = 0,
+  x = 776,
+  y = 589,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_6",
+  layer = 0,
+  x = 768,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_7",
+  layer = 0,
+  x = 760,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_8",
+  layer = 0,
+  x = 776,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_9",
+  layer = 0,
+  x = 768,
+  y = 541,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_0",
+  layer = 0,
+  x = 768,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "monkey_10",
+  layer = 0,
+  x = 768,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

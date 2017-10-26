@@ -623,14 +623,21 @@ npc{
   subtype = 1,
 }
 
-teletransporter{
+pickable{
+  name = "bananas",
   layer = 0,
-  x = 144,
-  y = 136,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/4/1f",
-  destination = "destination",
+  x = 224,
+  y = 173,
+  treasure_name = "magnifying_lens",
+  treasure_variant = 4,
+}
+
+chest{
+  layer = 0,
+  x = 128,
+  y = 157,
+  treasure_name = "shovel",
+  sprite = "entities/chest",
 }
 
 tile{

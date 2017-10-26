@@ -17,8 +17,32 @@ function map:on_started()
 
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function  map:talk_to_richard() 
 
+   if game:get_value("main_quest_step") < 12 then
+    game:start_dialog("maps.houses.south_prairie.richard_villa.richard_1")
+   else
+    game:start_dialog("maps.houses.south_prairie.richard_villa.richard_2", function(answer)
+        if answer == 1 then
+          game:start_dialog("maps.houses.south_prairie.richard_villa.richard_4")
+        else
+          game:start_dialog("maps.houses.south_prairie.richard_villa.richard_3")
+        end
+    end)
+  end
+
+end
+
+
+function richard:on_interaction()
+
+      map:talk_to_richard()
+
+end
+
+
+for wardrobe in map:get_entities("wardrobe") do
+  function wardrobe:on_interaction()
+    game:start_dialog("maps.houses.wardrobe_1", game:get_player_name())
+  end
 end

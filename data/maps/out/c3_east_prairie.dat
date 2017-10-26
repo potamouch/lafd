@@ -10956,7 +10956,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#maps.out.mabe_village.sign_1",
+  behavior = "dialog#maps.out.east_prairie.sign_2",
 }
 
 npc{
@@ -10966,7 +10966,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#maps.out.mabe_village.sign_1",
+  behavior = "dialog#maps.out.east_prairie.sign_1",
 }
 
 npc{
@@ -11035,6 +11035,7 @@ npc{
   y = 557,
   direction = 3,
   subtype = 1,
+  sprite = "entities/owl_blue",
 }
 
 teletransporter{

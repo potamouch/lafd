@@ -341,8 +341,8 @@ teletransporter{
   y = 240,
   width = 16,
   height = 16,
-  destination_map = "out/a3_mabe_village",
-  destination = "telephone_booth_1_2_A",
+  destination_map = "out/c2_kanalet_castle",
+  destination = "telephone_booth_6_2_A",
 }
 
 npc{
