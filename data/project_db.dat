@@ -5,6 +5,8 @@ map{ id = "caves/forest/cave_2", description = "Cave 2" }
 map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
+map{ id = "caves/prairie/cave_1", description = "Cave 1" }
+map{ id = "caves/prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
@@ -169,6 +171,7 @@ sprite{ id = "entities/book_red", description = "Book red" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
 sprite{ id = "entities/bush", description = "Bush" }
+sprite{ id = "entities/bush_grass", description = "Bush grass" }
 sprite{ id = "entities/cannonball", description = "Cannon ball" }
 sprite{ id = "entities/chest", description = "Chest (normal)" }
 sprite{ id = "entities/conveyor_belt1", description = "Conveyor belt 1" }
@@ -242,6 +245,7 @@ sprite{ id = "entities/statue_small_dungeon_3", description = "Statue small dung
 sprite{ id = "entities/statue_small_key_dungeon_3", description = "Statue small key dungeon 3" }
 sprite{ id = "entities/stone_large_white", description = "Large white stone" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
+sprite{ id = "entities/stone_small_brwon", description = "Stone small brown" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
@@ -290,11 +294,7 @@ sprite{ id = "menus/dungeon_maps/map_4", description = "Map 4" }
 sprite{ id = "menus/dungeon_maps/map_4_compass", description = "Map 4 compass" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }
-sprite{ id = "menus/map_zone", description = "Map zone" }
-sprite{ id = "menus/map_zone_position", description = "Map zone position" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }
-sprite{ id = "menus/outside_map", description = "Outside map" }
-sprite{ id = "menus/outside_map_grid", description = "Outside map grid" }
 sprite{ id = "menus/pause_cursor", description = "Pause cursor" }
 sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
 sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }

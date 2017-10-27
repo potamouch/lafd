@@ -1,4 +1,6 @@
 local item = ...
+local game = item:get_game()
+
 
 function item:on_created()
 
@@ -24,8 +26,16 @@ function item:on_using()
     sol.audio.play_sound("wrong")
   else
     sol.audio.play_sound("magic_powder")
-    self:set_amount(amount)
+   local map = game:get_map()
+   local hero = map:get_hero()
+   local x,y,layer = hero:get_position()
+   hero:freeze()
+   hero:set_animation("magic_powder")
+   self:set_amount(amount)
     item:create_fire()
+    sol.timer.start(item, 400, function()
+      hero:unfreeze()
+    end)
   end
   self:set_finished()
 

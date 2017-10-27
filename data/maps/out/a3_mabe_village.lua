@@ -215,11 +215,6 @@ function map:on_opening_transition_finished(destination)
 
 end
 
-
-function bear:on_interaction()
-  hero:start_treasure("bombs_counter", 1)
-end
-
 function grand_ma:on_interaction()
 
   map:talk_to_grand_ma()

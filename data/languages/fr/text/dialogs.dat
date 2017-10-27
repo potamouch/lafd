@@ -947,7 +947,7 @@ Coeur complet!
 
 dialog{
   id = "_treasure.power_bracelet.1",
-  icon = "33",
+  icon = "32",
   text = [[
 Tu as trouvé    
 le Bracelet !    
@@ -960,7 +960,7 @@ pierres !
 
 dialog{
   id = "_treasure.power_bracelet.2",
-  icon = "32",
+  icon = "33",
   text = [[
 Tu as trouvé le 
 Super Bracelet ! 
@@ -3076,9 +3076,8 @@ dialog{
   skip = "all",
   text = [[
 J'adore chanter!
-Et toi $v ,   
-qu'est-ce que   
-tu aimes?
+Et toi $v , qu'est-ce 
+que tu aimes ?
 ]]
 }
 
@@ -3154,6 +3153,14 @@ Attention
 aux oursins !    
 Se protéger avec
 un bouclier !
+]]
+}
+
+dialog{
+  id = "maps.out.south_prairie.owl_statue_1",
+  text = [[
+SOUS TES PIEDS, 
+DORT UN SECRET.
 ]]
 }
 
@@ -3729,6 +3736,29 @@ dialog{
 Collectionnes en 4
 pour récupérer un
 coeur supplémentaire !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.power_bracelet.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+Ce bracelet vous 
+permet de porter 
+des choses lourdes !
+]]
+}
+
+dialog{
+  id = "scripts.menus.pause_inventory.power_bracelet.2",
+  icon = "33",
+  skip = "all",
+  text = [[
+Ce bracelet vous 
+permet de porter 
+des choses
+très lourdes !
 ]]
 }
 
