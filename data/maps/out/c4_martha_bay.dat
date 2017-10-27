@@ -10583,6 +10583,16 @@ destructible{
   can_be_cut = true,
 }
 
+npc{
+  layer = 0,
+  x = 936,
+  y = 101,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#maps.out.yarna_desert.sign_1",
+}
+
 tile{
   layer = 1,
   x = 568,

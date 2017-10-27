@@ -2680,6 +2680,14 @@ Est : Village des Animaux
 }
 
 dialog{
+  id = "maps.out.east_prairie.sign_4",
+  text = [[
+Maison aux      
+Coquillages
+]]
+}
+
+dialog{
   id = "maps.out.egg_of_the_dream_fish.sign_1",
   text = [[
 Tu es près du Plateau 
@@ -2694,6 +2702,13 @@ dialog{
   text = [[
 Est : Mt Tamaranch  
 Ouest : Mrs Anémones
+]]
+}
+
+dialog{
+  id = "maps.out.egg_of_the_dream_fish.sign_3",
+  text = [[
+Mt Tamaranch
 ]]
 }
 
@@ -3159,8 +3174,8 @@ un bouclier !
 dialog{
   id = "maps.out.south_prairie.owl_statue_1",
   text = [[
-SOUS TES PIEDS, 
-DORT UN SECRET.
+SOUS TES PIEDS, DORT 
+UN SECRET.
 ]]
 }
 
@@ -3200,6 +3215,14 @@ dialog{
   text = [[
 Est : Mrs Anémones  
 Sud : Forêt Enchantée
+]]
+}
+
+dialog{
+  id = "maps.out.yarna_desert.sign_1",
+  text = [[
+Est : Enfin !
+Vill. des Animaux
 ]]
 }
 
@@ -4022,7 +4045,7 @@ la Cave Flagello,
 située au Sud   
 du village ? Vas-y 
 avec la Clé cachée      
-dans la Forêt.  
+dans la Forêt.
 Le Poisson-Rêve te
 regarde. Hou !
 ]]

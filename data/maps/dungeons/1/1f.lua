@@ -76,12 +76,14 @@ door_manager:open_when_block_moved(map, "auto_block_1", "door_group_2")
 
 function sensor_1:on_activated()
 
+  print("oups")
   door_manager:close_if_enemies_not_dead(map, "enemy_group_6", "door_group_1")
 
 end
 
 function sensor_2:on_activated()
 
+  print("oups2")
   door_manager:close_if_enemies_not_dead(map, "enemy_group_6", "door_group_1")
 
 end
@@ -106,7 +108,7 @@ end
 
 function sensor_5:on_activated()
 
-
+  print("ok")
   door_manager:close_if_enemies_not_dead(map, "enemy_group_3", "door_group_5")
 
 end

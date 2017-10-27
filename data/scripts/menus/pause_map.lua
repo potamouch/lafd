@@ -140,6 +140,8 @@ function map_submenu:build_dungeon_map()
   self.rooms_surface = sol.surface.create(168, 168)
   self.rooms_sprite = sol.sprite.create("menus/dungeon_maps/map_" .. self.dungeon_index)
   self.rooms_compass_sprite = sol.sprite.create("menus/dungeon_maps/map_" .. self.dungeon_index .. "_compass")
+  self.rooms_no_map_sprite = sol.sprite.create("menus/dungeon_maps/map_" .. self.dungeon_index .. "_no_map")
+  self.rooms_no_map_compass_sprite = sol.sprite.create("menus/dungeon_maps/map_" .. self.dungeon_index .. "_no_map_compass")
 end
 
 function map_submenu:draw_world_map(dst_surface)
@@ -231,20 +233,37 @@ function map_submenu:draw_dungeon_map_rooms(dst_surface)
     self.rooms_sprite:draw(self.rooms_surface)
   end
   for i = 1, self.rooms_sprite:get_num_directions() - 1 do
-    if self.game:has_explored_dungeon_room(self.dungeon_index, self.selected_floor, i) then
-      -- If the room is visited, show it in another color.
-      self.rooms_sprite:set_animation(self.selected_floor)
-      self.rooms_sprite:set_direction(i)
-      local src_x, src_y = self.rooms_sprite:get_frame_src_xy()
-      --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
-      self.rooms_sprite:draw(self.rooms_surface, src_x, src_y)
+    if  self.game:has_explored_dungeon_room(self.dungeon_index, self.selected_floor, i) then
+      if self.game:has_dungeon_map() then
+        -- If the room is visited, show it in another color.
+        self.rooms_sprite:set_animation(self.selected_floor)
+        self.rooms_sprite:set_direction(i)
+        local src_x, src_y = self.rooms_sprite:get_frame_src_xy()
+        --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
+        self.rooms_sprite:draw(self.rooms_surface, src_x, src_y)
+      else
+        -- If the room is visited, show it in another color.
+        self.rooms_no_map_sprite:set_animation(self.selected_floor)
+        self.rooms_no_map_sprite:set_direction(i)
+        local src_x, src_y = self.rooms_no_map_sprite:get_frame_src_xy()
+        --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
+        self.rooms_no_map_sprite:draw(self.rooms_surface, src_x, src_y)
+      end
     end
    if self.game:has_dungeon_compass() and self.game:is_secret_room(self.dungeon_index, self.selected_floor, i) then
-      self.rooms_compass_sprite:set_animation(self.selected_floor)
-      self.rooms_compass_sprite:set_direction(i)
-      local src_x, src_y = self.rooms_compass_sprite:get_frame_src_xy()
-      --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
-      self.rooms_compass_sprite:draw(self.rooms_surface, src_x, src_y)
+      if self.game:has_dungeon_map() then
+        self.rooms_compass_sprite:set_animation(self.selected_floor)
+        self.rooms_compass_sprite:set_direction(i)
+        local src_x, src_y = self.rooms_compass_sprite:get_frame_src_xy()
+        --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
+        self.rooms_compass_sprite:draw(self.rooms_surface, src_x, src_y)
+      else
+        self.rooms_no_map_compass_sprite:set_animation(self.selected_floor)
+        self.rooms_no_map_compass_sprite:set_direction(i)
+        local src_x, src_y = self.rooms_no_map_compass_sprite:get_frame_src_xy()
+        --src_x = src_x - 128 * (self.selected_floor- self.dungeon.lowest_floor)
+        self.rooms_no_map_compass_sprite:draw(self.rooms_surface, src_x, src_y)
+      end
    end
   end
   local offsetX = 0

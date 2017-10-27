@@ -158,6 +158,10 @@ sprite{ id = "enemies/zol_green", description = "Zol green" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/ball", description = "Ball" }
 sprite{ id = "entities/ball_shadow", description = "Ball shadow" }
+sprite{ id = "entities/beach_debris_1", description = "Beach debris 1" }
+sprite{ id = "entities/beach_debris_2", description = "Beach debris 2" }
+sprite{ id = "entities/beach_debris_3", description = "Beach debris 3" }
+sprite{ id = "entities/beach_debris_4", description = "Beach debris 4" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
 sprite{ id = "entities/big_chest", description = "Chest (big)" }
 sprite{ id = "entities/block", description = "Block" }
@@ -187,6 +191,7 @@ sprite{ id = "entities/doors/door_normal", description = "Door" }
 sprite{ id = "entities/doors/door_small_key", description = "Door small key" }
 sprite{ id = "entities/doors/door_very_weak_wall", description = "Door very weak wall" }
 sprite{ id = "entities/doors/door_weak_wall", description = "Door_weak_wall" }
+sprite{ id = "entities/egg", description = "Egg" }
 sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
 sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
 sprite{ id = "entities/explosion", description = "Explosion" }
@@ -215,6 +220,9 @@ sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/owl", description = "Owl" }
 sprite{ id = "entities/owl_blue", description = "Owl blue" }
 sprite{ id = "entities/palm", description = "Palm" }
+sprite{ id = "entities/palm_footer_brown", description = "Palm footer brown" }
+sprite{ id = "entities/palm_footer_green", description = "Palm footer green" }
+sprite{ id = "entities/palm_footer_yellow", description = "Palm footer yellow" }
 sprite{ id = "entities/pillar", description = "Pillar" }
 sprite{ id = "entities/pillar_base", description = "Pillar base" }
 sprite{ id = "entities/pot", description = "Pot" }
@@ -286,12 +294,20 @@ sprite{ id = "hud/sword_icon_flip", description = "Sword icon" }
 sprite{ id = "menus/arrow", description = "Arrow" }
 sprite{ id = "menus/dungeon_maps/map_1", description = "Map 1" }
 sprite{ id = "menus/dungeon_maps/map_1_compass", description = "Map 1 compass" }
+sprite{ id = "menus/dungeon_maps/map_1_no_map", description = "Map 1 no map" }
+sprite{ id = "menus/dungeon_maps/map_1_no_map_compass", description = "Map 1 no map compass" }
 sprite{ id = "menus/dungeon_maps/map_2", description = "Map 2 " }
 sprite{ id = "menus/dungeon_maps/map_2_compass", description = "Map 2 compass" }
+sprite{ id = "menus/dungeon_maps/map_2_no_map", description = "Map 2 no map" }
+sprite{ id = "menus/dungeon_maps/map_2_no_map_compass", description = "Map 2 no map compass" }
 sprite{ id = "menus/dungeon_maps/map_3", description = "Map 3" }
 sprite{ id = "menus/dungeon_maps/map_3_compass", description = "Map 3 compass" }
+sprite{ id = "menus/dungeon_maps/map_3_no_map", description = "Map 3 no map" }
+sprite{ id = "menus/dungeon_maps/map_3_no_map_compass", description = "Map 3 no map compass" }
 sprite{ id = "menus/dungeon_maps/map_4", description = "Map 4" }
 sprite{ id = "menus/dungeon_maps/map_4_compass", description = "Map 4 compass" }
+sprite{ id = "menus/dungeon_maps/map_4_no_map", description = "Map 4 no map" }
+sprite{ id = "menus/dungeon_maps/map_4_no_map_compass", description = "Map 4 no map compass" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }

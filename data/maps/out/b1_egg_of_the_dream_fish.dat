@@ -16465,7 +16465,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#",
+  behavior = "dialog#maps.out.egg_of_the_dream_fish.sign_3",
 }
 
 destination{
@@ -17008,6 +17008,16 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 101,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/egg",
 }
 
 tile{

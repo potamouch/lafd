@@ -1027,17 +1027,6 @@ teletransporter{
   destination = "stairs_3_B",
 }
 
-teletransporter{
-  name = "stairs_6_A",
-  layer = 0,
-  x = 576,
-  y = 256,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/1f",
-  destination = "stairs_5_B",
-}
-
 dynamic_tile{
   name = "invisible_tile_2",
   layer = 0,
@@ -1093,7 +1082,7 @@ destination{
   layer = 0,
   x = 584,
   y = 29,
-  direction = 1,
+  direction = 3,
 }
 
 destination{
@@ -1101,15 +1090,7 @@ destination{
   layer = 0,
   x = 40,
   y = 29,
-  direction = 1,
-}
-
-destination{
-  name = "stairs_6_B",
-  layer = 0,
-  x = 584,
-  y = 285,
-  direction = 1,
+  direction = 3,
 }
 
 dynamic_tile{
@@ -1149,5 +1130,24 @@ enemy{
   direction = 0,
   breed = "goomba",
   treasure_name = "heart",
+}
+
+destination{
+  name = "stairs_6_B",
+  layer = 0,
+  x = 584,
+  y = 285,
+  direction = 3,
+}
+
+teletransporter{
+  name = "stairs_6_A",
+  layer = 0,
+  x = 576,
+  y = 256,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "stairs_5_B",
 }
 

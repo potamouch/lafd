@@ -10324,7 +10324,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#maps.out.east_prairie.sign_3",
+  behavior = "dialog#maps.out.east_prairie.sign_4",
 }
 
 npc{
