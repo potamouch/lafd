@@ -1,0 +1,65 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 256,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeons/sideview",
+  music = "maps/dungeons/passageways",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 56,
+  width = 16,
+  height = 176,
+  pattern = "21",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 56,
+  width = 128,
+  height = 176,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 56,
+  width = 16,
+  height = 176,
+  pattern = "30",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "19",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "20",
+}
+

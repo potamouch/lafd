@@ -10,7 +10,9 @@ map{ id = "caves/prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
-map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
+map{ id = "dungeons/1/b1_bis", description = "Dungeon 1 B1" }
+map{ id = "dungeons/1/sideview_1", description = "Sideview 1" }
+map{ id = "dungeons/1/sideview_2", description = "Sideview 2" }
 map{ id = "dungeons/10/1f", description = "Dungeon 10 1F" }
 map{ id = "dungeons/11/1f", description = "Dungeon 11 1F" }
 map{ id = "dungeons/11/b1", description = "Dungeon 11 B1" }
@@ -106,6 +108,7 @@ tileset{ id = "dungeons/light_yellow", description = "Light yellow" }
 tileset{ id = "dungeons/pink", description = "Pink" }
 tileset{ id = "dungeons/purple", description = "Purple" }
 tileset{ id = "dungeons/purple_blue", description = "Purple blue" }
+tileset{ id = "dungeons/sideview", description = "Sideview" }
 tileset{ id = "dungeons/yellow", description = "Yellow" }
 tileset{ id = "movies/beach", description = "Beach" }
 tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
