@@ -10,14 +10,6 @@ local is_side_view = false
 
 local side_view_manager = {}
 
-
-function map:is_side_view()
-
-  if map:get_slide_view() then
-    return true
-  end
-end
-
 function map:get_side_view()
 
   return is_side_view

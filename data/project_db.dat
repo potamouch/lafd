@@ -14,11 +14,13 @@ map{ id = "dungeons/1/b1_bis", description = "Dungeon 1 B1" }
 map{ id = "dungeons/1/sideview_1", description = "Sideview 1" }
 map{ id = "dungeons/1/sideview_2", description = "Sideview 2" }
 map{ id = "dungeons/10/1f", description = "Dungeon 10 1F" }
+map{ id = "dungeons/10/sideview_1", description = "Sideview 1" }
 map{ id = "dungeons/11/1f", description = "Dungeon 11 1F" }
 map{ id = "dungeons/11/b1", description = "Dungeon 11 B1" }
 map{ id = "dungeons/11/b2", description = "Dungeon 11 B2" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
+map{ id = "dungeons/2/sideview_3", description = "Sideview 3" }
 map{ id = "dungeons/3/1f", description = "Dungeon 3 1F" }
 map{ id = "dungeons/3/b1", description = "Dungeon 3 B1" }
 map{ id = "dungeons/4/1f", description = "Dungeon 4 1F" }
@@ -188,6 +190,7 @@ sprite{ id = "entities/conveyor_belt4", description = "Conveyor belt 4" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination of teletransporter" }
+sprite{ id = "entities/diggable", description = "Diggable" }
 sprite{ id = "entities/doors/door_big_key", description = "Door big key" }
 sprite{ id = "entities/doors/door_boss_key", description = "Door boss key" }
 sprite{ id = "entities/doors/door_normal", description = "Door" }
@@ -670,6 +673,7 @@ entity{ id = "bird", description = "Bird" }
 entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "bowwow_follow", description = "Bowwow follow" }
 entity{ id = "butterfly", description = "Butterfly" }
+entity{ id = "diggable", description = "diggable" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }

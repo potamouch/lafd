@@ -124,7 +124,7 @@ teletransporter{
   y = 560,
   width = 224,
   height = 160,
-  destination_map = "dungeons/1/b1_bis",
+  destination_map = "dungeons/1/sideview_2",
   destination = "wall_destination",
 }
 

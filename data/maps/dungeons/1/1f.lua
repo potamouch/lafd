@@ -24,6 +24,7 @@ function map:on_started()
 
   -- Init music
   game:play_dungeon_music()
+  map:set_digging_allowed(false)
   treasure_manager:disappear_pickable(map, "pickable_small_key_1")
   treasure_manager:disappear_pickable(map, "heart_container")
   treasure_manager:appear_chest_if_savegame_exist(map, "chest_small_key_2",  "dungeon_1_small_key_2")

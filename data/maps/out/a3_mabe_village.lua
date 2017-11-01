@@ -170,7 +170,7 @@ end
 
 function map:on_started(destination)
 
-
+  map:set_digging_allowed(true)
   if game:get_value("main_quest_step") == 2 then
     game:set_value("main_quest_step", 3)
   end

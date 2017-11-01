@@ -9800,7 +9800,7 @@ destination{
   name = "dungeon_1_2_A",
   layer = 0,
   x = 864,
-  y = 253,
+  y = 261,
   direction = 3,
 }
 
@@ -11180,6 +11180,14 @@ custom_entity{
   direction = 0,
   sprite = "entities/beach_debris_4",
   model = "obstacle",
+}
+
+chest{
+  layer = 0,
+  x = 832,
+  y = 525,
+  treasure_name = "shovel",
+  sprite = "entities/chest",
 }
 
 tile{
