@@ -8,6 +8,7 @@ map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/prairie/cave_1", description = "Cave 1" }
 map{ id = "caves/prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
+map{ id = "caves/south_prairie/cave_1", description = "Cave 1" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1_bis", description = "Dungeon 1 B1" }
@@ -374,6 +375,7 @@ sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/bear", description = "Bear" }
+sprite{ id = "npc/bee", description = "Bee" }
 sprite{ id = "npc/bird", description = "Bird" }
 sprite{ id = "npc/bowwow", description = "Bowwow" }
 sprite{ id = "npc/butterfly_blue", description = "Butterfly blue" }
@@ -669,6 +671,7 @@ enemy{ id = "stalfos_red", description = "Stalfos red" }
 enemy{ id = "vegas", description = "Vegas" }
 enemy{ id = "zol_green", description = "Zol green" }
 
+entity{ id = "bee", description = "Bee" }
 entity{ id = "bird", description = "Bird" }
 entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "bowwow_follow", description = "Bowwow follow" }

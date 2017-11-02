@@ -632,6 +632,14 @@ pickable{
   treasure_variant = 4,
 }
 
+chest{
+  layer = 0,
+  x = 136,
+  y = 165,
+  treasure_name = "shovel",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,

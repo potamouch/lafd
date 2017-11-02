@@ -25987,6 +25987,30 @@ pickable{
   treasure_variant = 6,
 }
 
+custom_entity{
+  name = "butterfly_7",
+  layer = 1,
+  x = 808,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/bee",
+  model = "bee",
+}
+
+custom_entity{
+  name = "butterfly_8",
+  layer = 1,
+  x = 848,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/bee",
+  model = "bee",
+}
+
 npc{
   layer = 2,
   x = 112,

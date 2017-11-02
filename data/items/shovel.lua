@@ -1,6 +1,8 @@
 -- Shovel
 local item = ...
 local map_meta = sol.main.get_metatable("map")
+local game = item:get_game()
+require("scripts/multi_events")
 
 function item:on_created()
 
@@ -18,6 +20,7 @@ function item:on_using()
   local is_diggable = map:is_digging_allowed()
   local index = map:get_entity_position_index(hero)
   map.grounds_dug = map.grounds_dug or {}
+  map.shovel_treasures = map.shovel_treasures or {}
   hero:freeze()
   if item:can_dig() then
     hero:set_animation("shovel", function()
@@ -36,14 +39,19 @@ function item:on_using()
         pattern = "728",
         enabled_at_start = true
       }
-  map:create_pickable{
-        layer = layer,
-        x = x,
-        y = y,
-        treasure_name = "random",
-        treasure_variant = 1,
-      }
-    end)
+      if map.shovel_treasures[index] ~= nil then
+        map.shovel_treasures[index]:bring_to_front()
+        map.shovel_treasures[index]:set_enabled(true)
+      else
+        map:create_pickable{
+              layer = layer,
+              x = x,
+              y = y,
+              treasure_name = "random",
+              treasure_variant = 1,
+            }
+          end
+      end)
   else
       hero:set_animation("shovel_fail", function()
         hero:unfreeze()
@@ -64,6 +72,7 @@ function item:can_dig()
   local active = false
   local x,y, layer = map:get_position_dig()
   local ground = map:get_ground(x, y, layer)
+  print(ground)
   local index = map:get_entity_position_index(hero)
   local is_diggable = map:is_digging_allowed()
   if is_diggable and ground == "traversable" and not map.grounds_dug[index] then
@@ -149,5 +158,16 @@ function map_meta:get_entity_position_index(entity)
 return index 
 
 end
+
+game:register_event("on_map_changed", function(game, map)
+
+  map.shovel_treasures = map.shovel_treasures or {}
+  for pickable in map:get_entities("auto_shovel") do
+    local index = map:get_entity_position_index(pickable)
+    map.shovel_treasures[index] = pickable
+    pickable:set_enabled(false)
+  end
+
+end)
 
 

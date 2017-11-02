@@ -2622,6 +2622,18 @@ feuilles !
 }
 
 dialog{
+  id = "maps.houses.south_prairie.richard_villa.richard_7",
+  text = [[
+Cher ami,       
+tu as retrouvé mes
+Feuilles !   
+Fort bien donc. 
+Déplace cette boîte.    
+Une surprise t'attend !
+]]
+}
+
+dialog{
   id = "maps.houses.wardrobe_1",
   text = [[
 $v a inspecté la
