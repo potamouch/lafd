@@ -45,6 +45,13 @@ end
 -- Event called when the player pressed a keyboard key.
 function sol.main:on_key_pressed(key, modifiers)
 
+  if key == "m" then
+    local id = "maps/dungeons/instrument"
+    sol.audio.play_music(id, function()
+      sol.audio.play_music(id, false)
+    end)
+  end
+
   local handled = false
   if key == "f5" then
     -- F5: change the video mode.
