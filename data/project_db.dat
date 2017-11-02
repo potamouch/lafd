@@ -547,6 +547,7 @@ sound{ id = "stairs_down_start", description = "Stairs down end" }
 sound{ id = "stairs_up_end", description = "Stairs up end" }
 sound{ id = "stairs_up_start", description = "Stairs up start" }
 sound{ id = "stone", description = "Stone" }
+sound{ id = "swim", description = "Swim" }
 sound{ id = "switch", description = "Switch" }
 sound{ id = "sword1", description = "Sword 1" }
 sound{ id = "sword_spin_attack_load", description = "Sword spin attack load" }
