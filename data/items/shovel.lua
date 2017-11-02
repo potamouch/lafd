@@ -36,6 +36,13 @@ function item:on_using()
         pattern = "728",
         enabled_at_start = true
       }
+  map:create_pickable{
+        layer = layer,
+        x = x,
+        y = y,
+        treasure_name = "random",
+        treasure_variant = 1,
+      }
     end)
   else
       hero:set_animation("shovel_fail", function()

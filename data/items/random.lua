@@ -5,12 +5,6 @@ local item = ...
 
 -- Probability of each item between 0 and 1000.
 local probabilities = {
-  [{ "bomb", 1 }]       = 8,    -- 1 bomb.
-  [{ "bomb", 2 }]       = 5,    -- 3 bombs.
-  [{ "bomb", 3 }]       = 2,    -- 8 bombs.
-  [{ "arrow", 1 }]      = 8,    -- 1 arrow.
-  [{ "arrow", 2 }]      = 5,    -- 5 arrows.
-  [{ "arrow", 3 }]      = 2,    -- 10 arrows.
   [{ "rupee", 1 }]      = 50,   -- 1 rupee.
   [{ "rupee", 2 }]      = 15,   -- 5 rupees.
   [{ "heart", 1}]       = 100,  -- Heart.

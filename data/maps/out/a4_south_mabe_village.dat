@@ -84,8 +84,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 272,
+  x = 176,
+  y = 352,
   width = 16,
   height = 432,
   pattern = "1069",
@@ -10447,7 +10447,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 216,
-  y = 565,
+  y = 557,
   width = 8,
   height = 16,
   direction = 2,
@@ -10457,7 +10457,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 272,
-  y = 565,
+  y = 557,
   width = 8,
   height = 16,
   direction = 0,

@@ -2070,14 +2070,12 @@ dialog{
   id = "maps.houses.phone_booth.1",
   text = [[
 DRING DRING !!   
-Pépé le Ramollo 
-à l'appareil... 
-Je sais tout de 
-cette île !      
+Pépé le Ramollo à 
+l'appareil... 
+Je sais tout de cette île !      
 Si tu te perds, 
-passe-moi un    
-coup de fil !    
-Salut !  CLIC ! 
+passe-moi un coup de
+fil ! Salut !  CLIC ! 
 ]]
 }
 
@@ -2609,6 +2607,17 @@ dialog{
 Grâce à toi, j'ai
 mes feuilles!   
 Je te suis reconnaissant.
+]]
+}
+
+dialog{
+  id = "maps.houses.south_prairie.richard_villa.richard_6",
+  text = [[
+$v mon ami,  
+au nom de la justice 
+et... en mon nom...   
+tu dois trouver les 5 
+feuilles ! 
 ]]
 }
 
@@ -3164,10 +3173,9 @@ dialog{
   id = "maps.out.south_mabe_village.sign_2",
   skip = "all",
   text = [[
-Attention       
-aux oursins !    
-Se protéger avec
-un bouclier !
+Attention aux oursins !    
+Se protéger avec un
+bouclier !
 ]]
 }
 

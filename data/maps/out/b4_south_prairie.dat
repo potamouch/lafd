@@ -20263,6 +20263,7 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/beach_debris_4",
+  model = "obstacle",
 }
 
 custom_entity{

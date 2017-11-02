@@ -779,6 +779,13 @@ custom_entity{
   model = "frog",
 }
 
+pickable{
+  layer = 0,
+  x = 112,
+  y = 181,
+  treasure_name = "golden_leaf",
+}
+
 tile{
   layer = 1,
   x = 144,

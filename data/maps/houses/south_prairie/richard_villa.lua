@@ -22,13 +22,20 @@ function  map:talk_to_richard()
    if game:get_value("main_quest_step") < 12 then
     game:start_dialog("maps.houses.south_prairie.richard_villa.richard_1")
    else
-    game:start_dialog("maps.houses.south_prairie.richard_villa.richard_2", function(answer)
-        if answer == 1 then
-          game:start_dialog("maps.houses.south_prairie.richard_villa.richard_4")
-        else
-          game:start_dialog("maps.houses.south_prairie.richard_villa.richard_3")
-        end
-    end)
+    local item = game:get_item("golden_leaves_counter")
+    local savegame = item:get_amount_savegame_variable()
+    local num = game:get_value(savegame) 
+    if num == nil then
+      game:start_dialog("maps.houses.south_prairie.richard_villa.richard_2", function(answer)
+          if answer == 1 then
+            game:start_dialog("maps.houses.south_prairie.richard_villa.richard_4")
+          else
+            game:start_dialog("maps.houses.south_prairie.richard_villa.richard_3")
+          end
+      end)
+    else
+      game:start_dialog("maps.houses.south_prairie.richard_villa.richard_6", game:get_player_name())
+    end
   end
 
 end
