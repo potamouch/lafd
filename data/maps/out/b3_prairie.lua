@@ -29,6 +29,7 @@ end
 function map:on_started(destination)
 
   map:set_music()
+  map:set_digging_allowed(true)
   companion_manager:init_map(map)
   dungeon_3_entrance:set_can_traverse("hero", false)
   if game:get_value("main_quest_step") > 16 then

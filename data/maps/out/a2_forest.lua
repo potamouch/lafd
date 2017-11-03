@@ -73,6 +73,7 @@ end
 function map:on_started(destination)
 
   companion_manager:init_map(map)
+  map:set_digging_allowed(true)
  fairy_manager:init_map(map, "fairy")
   map:set_overlay()
   map:init_tarin()

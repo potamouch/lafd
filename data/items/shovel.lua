@@ -18,8 +18,7 @@ function item:on_using()
   local map = game:get_map()
   local hero = map:get_hero()
   local is_diggable = map:is_digging_allowed()
-  local index = map:get_entity_position_index(hero)
-  map.grounds_dug = map.grounds_dug or {}
+  local index1,index2,index3,index4 = map:get_hero_digging_index(hero)
   map.shovel_treasures = map.shovel_treasures or {}
   hero:freeze()
   if item:can_dig() then
@@ -27,7 +26,10 @@ function item:on_using()
       hero:unfreeze()
     end)
     local x,y,layer = map:get_position_dig()
-    map:set_square_diggable(index, false)
+    map:set_square_diggable(index1, false)
+    map:set_square_diggable(index2, false)
+    map:set_square_diggable(index3, false)
+    map:set_square_diggable(index4, false)
     sol.audio.play_sound("dig")
     sol.timer.start(map, 150, function()
       map:create_dynamic_tile{
@@ -72,13 +74,17 @@ function item:can_dig()
   local active = false
   local x,y, layer = map:get_position_dig()
   local ground = map:get_ground(x, y, layer)
-  print(ground)
-  local index = map:get_entity_position_index(hero)
+  local index1,index2,index3,index4 = map:get_entity_position_indexes(hero)
+  print(index1,index2,index3,index4)
   local is_diggable = map:is_digging_allowed()
-  if is_diggable and ground == "traversable" and not map.grounds_dug[index] then
+  local is_squares_diggables = true
+  if map:is_square_diggable(index1) and map:is_square_diggable(index2) and map:is_square_diggable(index3) and map:is_square_diggable(index4) then
+    is_squares_diggables = false
+  end
+  if is_diggable and ground == "traversable" and not is_squares_diggable then
     active = true
   end
-
+print(active)
   return active
 
 end
@@ -95,10 +101,10 @@ function map_meta:get_position_dig()
  elseif direction == 2 then
    x = x - 16
  elseif direction == 3 then
-   y = y + 16
+   y = y + 8
  end
-  x = math.floor(x / 16) * 16
-  y = math.floor(y / 16) * 16
+  x = math.floor(x / 8) * 8
+  y = math.floor(y / 8) * 8
 
   return x,y, hero:get_layer()
 
@@ -122,7 +128,8 @@ end
 
 function map_meta:is_square_diggable(square_index)
 
-  if map.grounds_dug[square_index] then
+  self.grounds_dug = self.grounds_dug or {}
+  if self.grounds_dug[square_index] then
     return false
   end
 
@@ -140,22 +147,44 @@ function map_meta:set_square_diggable(square_index, diggable)
   end
 end
 
-function map_meta:get_entity_position_index(entity)
+function map_meta:get_entity_position_indexes(entity)
 
   local x,y,layer = entity:get_position()
-  if entity:get_type() == "hero" then
-        x,y = self:get_position_dig()
-  else
-    x = math.floor(x / 16) * 16
-    y = math.floor(y / 16) * 16
-  end
- local i = math.floor(y / 16)
- local j = math.floor(x / 16)
- local width,height = self:get_size()
- local cols = width / 16
+  --x = math.floor(x / 16) * 16
+  --y = math.floor(y / 16) * 16
+  local cols, rows = self:get_size8()
+  local index1 = self:get_index_from_position(x, y)
+  
+return index1, index1 + 1, index1 + cols, index1 + cols + 1
+
+end
+
+function map_meta:get_hero_digging_index()
+
+local x,y = self:get_position_dig()
+local cols, rows = self:get_size8()
+local index1 = self:get_index_from_position(x, y)
+  
+return index1, index1 + 1, index1 + cols, index1 + cols + 1
+
+end
+
+function map_meta:get_index_from_position(x, y)
+
+ local i = math.floor(y / 8)
+ local j = math.floor(x / 8)
+ local cols, rows = self:get_size8()
  local index = i * cols + j
   
 return index 
+
+end
+
+function map_meta:get_size8()
+
+  local width,height = self:get_size()
+
+  return width / 16, height / 16
 
 end
 

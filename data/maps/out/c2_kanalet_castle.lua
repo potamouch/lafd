@@ -145,6 +145,7 @@ end
 
 function map:on_started()
 
+  map:set_digging_allowed(true)
   local item = game:get_item("magnifying_lens")
   local variant = item:get_variant()
   companion_manager:init_map(map)

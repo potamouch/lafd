@@ -15,7 +15,10 @@ local map = entity:get_map()
 -- Event called when the custom entity is initialized.
 function entity:on_created()
 
-  local index = map:get_entity_position_index(entity)
-  map:set_square_diggable(index, false)
+  local index1, index2, index3, index4 = map:get_entity_position_indexes(entity)
+  map:set_square_diggable(index1, false)
+  map:set_square_diggable(index2, false)
+  map:set_square_diggable(index3, false)
+  map:set_square_diggable(index4, false)
   entity:remove()
 end
