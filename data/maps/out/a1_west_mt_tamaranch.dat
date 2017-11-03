@@ -492,7 +492,7 @@ tile{
   x = 464,
   y = 400,
   width = 8,
-  height = 72,
+  height = 64,
   pattern = "129",
 }
 

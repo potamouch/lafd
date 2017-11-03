@@ -191,7 +191,6 @@ sprite{ id = "entities/conveyor_belt4", description = "Conveyor belt 4" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination of teletransporter" }
-sprite{ id = "entities/diggable", description = "Diggable" }
 sprite{ id = "entities/doors/door_big_key", description = "Door big key" }
 sprite{ id = "entities/doors/door_boss_key", description = "Door boss key" }
 sprite{ id = "entities/doors/door_normal", description = "Door" }
@@ -222,6 +221,7 @@ sprite{ id = "entities/la_beach/la_wreck", description = "entities/la_beach/la_w
 sprite{ id = "entities/movies/background_introduction", description = "Background introduction" }
 sprite{ id = "entities/movies/swell", description = "Swell" }
 sprite{ id = "entities/movies/wreck", description = "Wreck" }
+sprite{ id = "entities/non_diggable", description = "Diggable" }
 sprite{ id = "entities/notes", description = "Notes" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/owl", description = "Owl" }
@@ -677,7 +677,6 @@ entity{ id = "bird", description = "Bird" }
 entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "bowwow_follow", description = "Bowwow follow" }
 entity{ id = "butterfly", description = "Butterfly" }
-entity{ id = "diggable", description = "diggable" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }
@@ -687,6 +686,7 @@ entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }
 entity{ id = "mr_write", description = "Mr Write" }
+entity{ id = "non_diggable", description = "Non diggable" }
 entity{ id = "obstacle", description = "Obstacle" }
 entity{ id = "seagull", description = "Seagull" }
 entity{ id = "statue_pig", description = "Statue pig" }
