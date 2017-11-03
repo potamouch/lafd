@@ -75,16 +75,15 @@ function item:can_dig()
   local x,y, layer = map:get_position_dig()
   local ground = map:get_ground(x, y, layer)
   local index1,index2,index3,index4 = map:get_entity_position_indexes(hero)
-  print(index1,index2,index3,index4)
   local is_diggable = map:is_digging_allowed()
-  local is_squares_diggables = true
+  local is_squares_diggable = false
   if map:is_square_diggable(index1) and map:is_square_diggable(index2) and map:is_square_diggable(index3) and map:is_square_diggable(index4) then
-    is_squares_diggables = false
+    is_squares_diggable = true
   end
-  if is_diggable and ground == "traversable" and not is_squares_diggable then
+  if is_diggable and ground == "traversable" and is_squares_diggable then
     active = true
   end
-print(active)
+
   return active
 
 end
@@ -150,8 +149,8 @@ end
 function map_meta:get_entity_position_indexes(entity)
 
   local x,y,layer = entity:get_position()
-  --x = math.floor(x / 16) * 16
-  --y = math.floor(y / 16) * 16
+  x = math.floor(x / 8) * 8
+  y = math.floor(y / 8) * 8
   local cols, rows = self:get_size8()
   local index1 = self:get_index_from_position(x, y)
   
@@ -184,7 +183,7 @@ function map_meta:get_size8()
 
   local width,height = self:get_size()
 
-  return width / 16, height / 16
+  return width / 8, height / 8
 
 end
 
