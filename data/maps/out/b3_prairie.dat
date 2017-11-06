@@ -23630,6 +23630,14 @@ destructible{
   can_be_cut = true,
 }
 
+chest{
+  layer = 0,
+  x = 792,
+  y = 469,
+  treasure_name = "flippers",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 696,
