@@ -1,6 +1,6 @@
 animation{
   name = "0",
-  src_image = "menus/dungeon_maps/map3_1f_no_map_compass.png",
+  src_image = "menus/dungeon_maps/map_3_1f_no_map_compass.png",
   directions = {
     { x = 0, y = 128, frame_width = 128, frame_height = 128, origin_x = 0, origin_y = 0 },
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
@@ -71,7 +71,7 @@ animation{
 }
 animation{
   name = "-1",
-  src_image = "menus/dungeon_maps/map3_b1_no_map_compass.png",
+  src_image = "menus/dungeon_maps/map_3_b1_no_map_compass.png",
   directions = {
     { x = 0, y = 128, frame_width = 128, frame_height = 128, origin_x = 0, origin_y = 0 },
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
