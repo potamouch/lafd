@@ -1648,14 +1648,6 @@ tile{
   pattern = "door_stairs.spiral_up.2",
 }
 
-separator{
-  layer = 0,
-  x = 0,
-  y = 248,
-  width = 320,
-  height = 16,
-}
-
 block{
   layer = 0,
   x = 72,
@@ -1827,5 +1819,13 @@ tile{
   width = 16,
   height = 48,
   pattern = "ceiling.2",
+}
+
+separator{
+  layer = 2,
+  x = 0,
+  y = 248,
+  width = 320,
+  height = 16,
 }
 
