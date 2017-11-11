@@ -41,6 +41,7 @@ map{ id = "examples/island", description = "island" }
 map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "examples/others", description = "Others" }
 map{ id = "examples/outside_store", description = "Outside Store" }
+map{ id = "examples/sideview_cave", description = "Sideview cave example" }
 map{ id = "houses/east_prairie/telephone_booth_5", description = "Telephone booth 5" }
 map{ id = "houses/egg_of_the_dream_fish/photographer_house", description = "Photographer house" }
 map{ id = "houses/graveyard/drugstore", description = "Drugstore" }
