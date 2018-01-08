@@ -21,7 +21,7 @@ end
 function map:open_dungeon_1()
 
   dungeon_1_entrance:get_sprite():set_animation("opened")
-  dungeon_1_entrance:set_can_traverse("hero", true)
+  dungeon_1_entrance:set_traversable_by("hero", true)
 
 end
 

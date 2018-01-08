@@ -204,6 +204,7 @@ sprite{ id = "entities/doors/door_weak_wall", description = "Door_weak_wall" }
 sprite{ id = "entities/egg", description = "Egg" }
 sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
 sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
+sprite{ id = "entities/entrance_dungeon_5", description = "Entrance dungeon 5" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }

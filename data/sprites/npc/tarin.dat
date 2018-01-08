@@ -26,7 +26,7 @@ animation{
   directions = {
     { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
     { x = 0, y = 72, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 48, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }

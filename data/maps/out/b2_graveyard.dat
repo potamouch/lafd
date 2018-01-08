@@ -18534,15 +18534,6 @@ destructible{
   damage_on_enemies = 2,
 }
 
-pickable{
-  name = "piece_of_heart_2",
-  layer = 0,
-  x = 120,
-  y = 85,
-  treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "piece_of_heart_2",
-}
-
 destructible{
   layer = 0,
   x = 344,
@@ -21717,6 +21708,15 @@ destructible{
   weight = -1,
   can_be_cut = true,
   ground = "grass",
+}
+
+pickable{
+  name = "piece_of_heart_2",
+  layer = 0,
+  x = 120,
+  y = 85,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_2",
 }
 
 tile{
