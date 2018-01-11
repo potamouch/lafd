@@ -15,6 +15,7 @@ file(GLOB_RECURSE data_files
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.ttf
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.ttc
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.fon
+  ${CMAKE_CURRENT_SOURCE_DIR}/data/*.glsl
 )
 
 file(GLOB_RECURSE data_files_prefixed
@@ -28,6 +29,7 @@ file(GLOB_RECURSE data_files_prefixed
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.ttf
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.ttc
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.fon
+  ${CMAKE_CURRENT_SOURCE_DIR}/data/*.glsl
 )
 
 # add other data to zip archive
