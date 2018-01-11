@@ -104,15 +104,6 @@ tile{
   layer = 0,
   x = 328,
   y = 104,
-  width = 112,
-  height = 96,
-  pattern = "floor_low.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 328,
-  y = 104,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.1-1",
@@ -701,6 +692,15 @@ tile{
   width = 24,
   height = 24,
   pattern = "287",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 112,
+  width = 96,
+  height = 80,
+  pattern = "floor_low.5-1",
 }
 
 npc{

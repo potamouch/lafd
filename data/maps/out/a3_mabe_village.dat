@@ -23271,7 +23271,7 @@ custom_entity{
 
 npc{
   layer = 2,
-  x = 616,
+  x = 624,
   y = 653,
   direction = 3,
   subtype = 1,

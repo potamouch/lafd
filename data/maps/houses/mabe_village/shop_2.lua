@@ -37,9 +37,20 @@ function map:repeat_merchant_direction_check()
         merchant:get_sprite():set_direction(direction4)
       end
   end
+  
+  -- Check if hero can talk to merchant
+    if hero:get_state() == "carrying" then 
+      if hero:get_distance(merchant) <=16  or hero:get_distance(merchant_invisible) <=16  then
+      game:set_custom_command_effect("action", "speak")
+    else 
+      -- none does not have the same effect as nil (nil means to show the effect from the engine)
+      game:set_custom_command_effect("action", "none")
+    end
+  end
+
 
   -- Rappeler cette fonction dans 0.1 seconde.
-  sol.timer.start(map, 100, function() 
+  sol.timer.start(map, 1, function() 
     map:repeat_merchant_direction_check()
   end)
 end
@@ -55,7 +66,6 @@ function map:talk_to_merchant()
 
     if map.shop_manager_product == nil then
       game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
-    else
     end
 
 end
@@ -90,3 +100,33 @@ function exit_sensor:on_activated()
   end
 
 end
+
+function merchant:on_interaction()
+
+      map:talk_to_merchant()
+
+end
+
+function merchant_invisible:on_interaction()
+
+      map:talk_to_merchant()
+
+end
+
+map:register_event("on_command_pressed", function(map, command)
+    local hero = map:get_hero()
+    if command == "action" and hero:get_state() == "carrying" then
+      if hero:get_distance(merchant) <=16  or hero:get_distance(merchant_invisible) <=16  then
+        game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
+      local money = game:get_money()
+print(money)
+      local money_product = shop_manager:buy_product(map, map.shop_manager_product)
+      end
+    end
+
+end)
+
+
+
+
+

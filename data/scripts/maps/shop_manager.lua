@@ -13,11 +13,7 @@ function shop_manager:init(map)
       for k, product in pairs(map.shop_manager_products) do
           if hero:get_distance(product["placeholder"]) < 24 and hero:get_direction() == 1 then
             if map.shop_manager_product == product["item"] then
-              shop_manager:add_product(map, product["product"], product["placeholder"])
-              -- To force removal of the carried object
-              hero:freeze()
-              hero:unfreeze()
-              map.shop_manager_product = nil
+              shop_manager:reset_product(map, product)
             end
           end
         end
@@ -27,8 +23,27 @@ function shop_manager:init(map)
 
 end
 
+function shop_manager:reset_product(map, product)
+
+  local hero = map:get_hero()
+  shop_manager:add_product(map, product["product"], product["placeholder"])
+  -- To force removal of the carried object
+  hero:freeze()
+  hero:unfreeze()
+  map.shop_manager_product = nil
+
+end
+
+function shop_manager:buy_product(map, product)
+
+  print(product)
+
+end
+
 function shop_manager:add_product(map, product, placeholder)
 
+        local game = map:get_game()
+        game:set_custom_command_effect("action", nil)
         local item, variant, price = unpack(product)
         local hero = map:get_hero()
         placeholder:set_enabled(false)
@@ -55,6 +70,7 @@ function shop_manager:add_product(map, product, placeholder)
 
         function destructible:on_lifting()
 
+          game:set_custom_command_effect("action", "none")
           shop_manager:remove_product(map, item)
           map.shop_manager_product  = item
 
@@ -81,7 +97,8 @@ end
 function shop_manager:remove_product(map, item)
 
         local entity = map.shop_manager_products[item]['entity']
-        entity:remove()
+        local game = map:get_game()
+       entity:remove()
         
 end
 

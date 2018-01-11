@@ -23559,15 +23559,6 @@ destructible{
   can_be_cut = true,
 }
 
-chest{
-  layer = 0,
-  x = 288,
-  y = 693,
-  treasure_name = "slim_key",
-  sprite = "entities/chest",
-  opening_condition = "slim_key",
-}
-
 destructible{
   layer = 0,
   x = 336,

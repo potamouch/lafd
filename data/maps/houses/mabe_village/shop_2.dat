@@ -228,24 +228,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 80,
-  width = 176,
-  height = 8,
-  pattern = "floor_border.2",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 152,
-  width = 8,
-  height = 8,
-  pattern = "table.6",
-}
-
-tile{
-  layer = 0,
   x = 200,
   y = 160,
   width = 8,
@@ -268,25 +250,52 @@ tile{
   y = 152,
   width = 8,
   height = 8,
-  pattern = "table.4",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 144,
-  width = 8,
-  height = 8,
   pattern = "table.1",
 }
 
 tile{
   layer = 0,
   x = 208,
-  y = 144,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-9",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-9",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-9",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-9",
 }
 
 tile{
@@ -318,119 +327,47 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 104,
-  width = 144,
-  height = 24,
-  pattern = "carpet.5",
+  x = 144,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
 }
 
 tile{
   layer = 0,
-  x = 88,
-  y = 96,
-  width = 144,
-  height = 8,
-  pattern = "carpet.2",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 104,
-  width = 8,
-  height = 24,
-  pattern = "carpet.4",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 104,
-  width = 8,
-  height = 24,
-  pattern = "carpet.6",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 128,
-  width = 144,
-  height = 8,
-  pattern = "carpet.8",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "carpet.1",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "carpet.3",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 128,
-  width = 8,
-  height = 8,
-  pattern = "carpet.7",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 128,
-  width = 8,
-  height = 8,
-  pattern = "carpet.9",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 16,
+  x = 48,
+  y = 112,
   width = 16,
   height = 32,
-  pattern = "wall_pillar.1-9",
+  pattern = "wall_torch.3",
 }
 
 tile{
   layer = 0,
-  x = 96,
-  y = 192,
+  x = 264,
+  y = 112,
   width = 16,
   height = 32,
-  pattern = "wall_pillar.2-9",
+  pattern = "wall_torch.4",
 }
 
 tile{
   layer = 0,
-  x = 208,
-  y = 16,
-  width = 16,
+  x = 72,
+  y = 88,
+  width = 176,
   height = 32,
-  pattern = "wall_pillar.1-9",
+  pattern = "floor_low.1-2",
 }
 
 tile{
   layer = 0,
-  x = 208,
-  y = 192,
-  width = 16,
-  height = 32,
-  pattern = "wall_pillar.2-9",
+  x = 72,
+  y = 80,
+  width = 176,
+  height = 8,
+  pattern = "floor_boarder.5-L",
 }
 
 destination{
@@ -456,7 +393,7 @@ npc{
   name = "merchant",
   layer = 0,
   x = 224,
-  y = 157,
+  y = 165,
   direction = 2,
   subtype = 1,
   sprite = "npc/merchant",
@@ -475,7 +412,7 @@ npc{
   name = "merchant_invisible",
   layer = 0,
   x = 208,
-  y = 157,
+  y = 165,
   direction = 3,
   subtype = 1,
 }

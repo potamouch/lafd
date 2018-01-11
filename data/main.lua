@@ -1,6 +1,7 @@
 -- Main Lua script of the quest.
 
 require("scripts/features")
+local shader_manager = require("scripts/shader_manager")
 local initial_menus_config = require("scripts/menus/initial_menus_config")
 local initial_menus = {}
 
@@ -45,17 +46,10 @@ end
 -- Event called when the player pressed a keyboard key.
 function sol.main:on_key_pressed(key, modifiers)
 
-  if key == "m" then
-    local id = "maps/dungeons/instrument"
-    sol.audio.play_music(id, function()
-      sol.audio.play_music(id, false)
-    end)
-  end
-
   local handled = false
   if key == "f5" then
     -- F5: change the video mode.
-    sol.video.switch_mode()
+    shader_manager:switch_shader()
   elseif key == "f11" or
     (key == "return" and (modifiers.alt or modifiers.control)) then
     -- F11 or Ctrl + return or Alt + Return: switch fullscreen.

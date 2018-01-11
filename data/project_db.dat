@@ -186,6 +186,7 @@ sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
 sprite{ id = "entities/bush", description = "Bush" }
 sprite{ id = "entities/bush_grass", description = "Bush grass" }
+sprite{ id = "entities/camera", description = "Camera" }
 sprite{ id = "entities/cannonball", description = "Cannon ball" }
 sprite{ id = "entities/chest", description = "Chest (normal)" }
 sprite{ id = "entities/conveyor_belt1", description = "Conveyor belt 1" }
@@ -204,6 +205,7 @@ sprite{ id = "entities/doors/door_weak_wall", description = "Door_weak_wall" }
 sprite{ id = "entities/egg", description = "Egg" }
 sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
 sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
+sprite{ id = "entities/entrance_dungeon_4", description = "Entrance dungeon 4" }
 sprite{ id = "entities/entrance_dungeon_5", description = "Entrance dungeon 5" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
@@ -253,10 +255,13 @@ sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/somaria_block", description = "Somaria block" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
+sprite{ id = "entities/statue_big_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_1", description = "Statue dungeon 1" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
 sprite{ id = "entities/statue_dungeon_3", description = "Statue dungeon 3" }
+sprite{ id = "entities/statue_dungeon_3_block", description = "Statue dungeon 3 block" }
+sprite{ id = "entities/statue_dungeon_3_key", description = "Statue dungeon 3 key" }
 sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
 sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
 sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
@@ -274,6 +279,8 @@ sprite{ id = "entities/teletransporter_dungeon", description = "Teletransporter 
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/vacuum_cleaner", description = "Vacuum cleaner" }
 sprite{ id = "entities/vacuum_cleaner_ground", description = "Vacuum cleaner ground" }
+sprite{ id = "entities/water_tree", description = "Water tree" }
+sprite{ id = "entities/water_tree_junction", description = "Water tree junction" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
 sprite{ id = "ground_effects/leaves", description = "ground_effects/leaves" }
@@ -710,4 +717,8 @@ font{ id = "small_green_digits", description = "Small green digits" }
 font{ id = "small_white_digits", description = "Small white digits" }
 font{ id = "white_digits", description = "White digits" }
 
+shader{ id = "6xbrz", description = "6xbrz" }
+shader{ id = "sepia", description = "Sepia" }
+shader{ id = "toon", description = "Toon" }
+shader{ id = "xBR-v3.8c", description = "xBR-v3.8c" }
 

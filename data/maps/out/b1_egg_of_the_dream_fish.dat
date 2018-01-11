@@ -17138,7 +17138,7 @@ sensor{
   name = "open_house_photographer_house_1_A_door_sensor",
   layer = 0,
   x = 736,
-  y = 709,
+  y = 685,
   width = 32,
   height = 16,
 }
@@ -18522,5 +18522,15 @@ tile{
   width = 8,
   height = 48,
   pattern = "1444",
+}
+
+custom_entity{
+  layer = 1,
+  x = 744,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/camera",
 }
 

@@ -1218,6 +1218,36 @@ teletransporter{
   destination = "_side",
 }
 
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 133,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/water_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 312,
+  y = 133,
+  width = 24,
+  height = 24,
+  direction = 0,
+  sprite = "entities/water_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 133,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/water_tree",
+}
+
 tile{
   layer = 1,
   x = 392,

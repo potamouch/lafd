@@ -48,6 +48,7 @@ function action_icon_builder:new(game, config)
         ["speak"] = 12,
         ["change"] = 13,
         ["swim"] = 14,
+        ["none"] = 15,
       }
       action_icon.icon_region_y = 24 * effects_indexes[action_icon.effect_displayed]
     end
@@ -61,7 +62,7 @@ function action_icon_builder:new(game, config)
       local effect = game.get_custom_command_effect ~= nil and game:get_custom_command_effect("action") or game:get_command_effect("action")
       if effect ~= action_icon.effect_displayed then
         if action_icon.effect_displayed ~= nil then
-          if effect ~= nil then
+          if effect ~= nil and effect  ~= "none" then
             action_icon.icon_flip_sprite:set_animation("flip")
           else
             action_icon.icon_flip_sprite:set_animation("disappearing")
