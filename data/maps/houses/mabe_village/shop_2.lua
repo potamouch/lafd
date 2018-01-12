@@ -16,7 +16,12 @@ function map:set_music()
   if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
-    sol.audio.play_music("maps/houses/shop")
+    local thief_must_die = game:get_value("thief_must_die")
+    if thief_must_die then
+      sol.audio.play_music("maps/dungeons/boss")
+    else
+      sol.audio.play_music("maps/houses/shop")
+    end
   end
 
 end
@@ -60,6 +65,9 @@ function map:init_merchant()
   local thief_must_die = game:get_value("thief_must_die")
   if thief_must_die then
     merchant:set_enabled(false)
+    game:start_dialog("maps.houses.mabe_village.shop_2.merchant_5", function()
+      game:set_life(0)
+    end)
   else  
     merchant_angry:set_enabled(false)
   end

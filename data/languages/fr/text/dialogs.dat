@@ -2073,6 +2073,15 @@ choses inutiles ?
 }
 
 dialog{
+  id = "maps.houses.mabe_village.shop_2.merchant_5",
+  text = [[
+Je t'avais bien dit de
+me payer. Tu vas le       
+regretter...
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.shop_2.product_heart",
   question = "1",
   text = [[

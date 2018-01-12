@@ -438,7 +438,7 @@ npc{
   name = "merchant_angry",
   layer = 0,
   x = 160,
-  y = 101,
+  y = 141,
   direction = 3,
   subtype = 1,
   sprite = "npc/merchant",
