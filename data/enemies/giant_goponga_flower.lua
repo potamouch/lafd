@@ -21,9 +21,12 @@ function enemy:on_created()
   -- Initialize the properties of your enemy here,
   -- like the sprite, the life and the damage.
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
+  enemy:set_traversable(false)
   enemy:set_life(1)
   enemy:set_damage(1)
   enemy:set_invincible(true)
+  enemy:set_size(32, 32)
+  enemy:set_origin(16, 29)
 end
 
 -- Event called when the enemy should start or restart its movements.

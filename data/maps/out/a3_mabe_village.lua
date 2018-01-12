@@ -170,7 +170,9 @@ end
 
 function map:on_started(destination)
 
+  -- Digging
   map:set_digging_allowed(true)
+   -- Sword quest
   if game:get_value("main_quest_step") == 2 then
     game:set_value("main_quest_step", 3)
   end
@@ -178,7 +180,11 @@ function map:on_started(destination)
   companion_manager:init_map(map)
   map:init_marine()
   map:init_bowwow()
+  
+ -- Grand ma
   grand_ma:get_sprite():set_animation("walking")
+
+   -- Kids
   if map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then
     kid_1:get_sprite():set_animation("playing")
     kid_2:get_sprite():set_animation("playing")
@@ -187,6 +193,15 @@ function map:on_started(destination)
     kid_1:get_sprite():set_animation("scared")
     kid_2:get_sprite():set_animation("scared")
   end
+
+  -- Thief detect
+  local hero_is_thief_message = game:get_value("hero_is_thief_message")
+  if hero_is_thief_message then
+    game:start_dialog("maps.out.mabe_village.thief_message", function()
+      game:set_value("hero_is_thief_message", false)
+    end)
+  end
+  
 
 end
 

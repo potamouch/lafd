@@ -50,22 +50,30 @@ function map:repeat_merchant_direction_check()
 
 
   -- Rappeler cette fonction dans 0.1 seconde.
-  sol.timer.start(map, 1, function() 
+  sol.timer.start(map, 100, function() 
     map:repeat_merchant_direction_check()
   end)
 end
 
 function map:init_merchant()
  
-    merchant:get_sprite():set_animation("waiting")
-    map:repeat_merchant_direction_check()
+  local thief_must_die = game:get_value("thief_must_die")
+  if thief_must_die then
+    merchant:set_enabled(false)
+  else  
+    merchant_angry:set_enabled(false)
+  end
+  merchant:get_sprite():set_animation("waiting")
+  map:repeat_merchant_direction_check()
 
 end
 
 function map:talk_to_merchant() 
 
+    local direction4 = merchant:get_direction4_to(hero)
+    merchant:get_sprite():set_direction(direction4)
     if map.shop_manager_product == nil then
-      game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
+      game:start_dialog("maps.houses.mabe_village.shop_2.merchant_1")
     end
 
 end
@@ -78,11 +86,11 @@ function map:on_started(destination)
   map:init_merchant()
   companion_manager:init_map(map)
   shop_manager:init(map)
-  local product = {"entities/shovel", 1, 200}
+  local product = {"shovel", 1, 200, "shovel"}
   shop_manager:add_product(map, product, placeholder_1)
-  local product = {"entities/heart", 1, 10}
+  local product = {"heart", 1, 10, "heart"}
   shop_manager:add_product(map, product, placeholder_2)
-  local product = {"entities/shield", 1, 50}
+  local product = {"shield", 1, 50, "shield"}
   shop_manager:add_product(map, product, placeholder_3)
 
 end
@@ -92,10 +100,26 @@ function exit_sensor:on_activated()
   if map.shop_manager_product ~= nil then
     local direction4 = merchant:get_sprite():get_direction()
     if direction4 == 2 or direction4 == 3 then
-      game:start_dialog("maps.houses.mabe_village.shop_2.marchant_2", function()
-       hero:set_direction(2)
-       --hero:walk("2222")
-     end)
+      game:start_dialog("maps.houses.mabe_village.shop_2.merchant_2", function()
+        local x_initial,y_initial = hero_invisible:get_position()
+        local movement = sol.movement.create("straight")
+        movement:set_angle(math.pi / 2)
+        movement:set_max_distance(16)
+        movement:set_speed(45)
+        movement:start(hero_invisible)
+        hero:set_direction(1)
+        function movement:on_position_changed()
+          local x,y = hero_invisible:get_position()
+          hero:set_position(x, y)
+        end
+        function movement:on_finished()
+          hero_invisible:set_position(x_initial, y_initial)
+        end
+      end)
+    else
+      game:set_value("hero_is_thief", true)
+      game:set_value("hero_is_thief_message", true)
+      game:set_value("thief_must_die", true)
     end
   end
 
@@ -115,12 +139,13 @@ end
 
 map:register_event("on_command_pressed", function(map, command)
     local hero = map:get_hero()
-    if command == "action" and hero:get_state() == "carrying" then
+    if command == "attack" then -- Disable sword
+      return true
+    elseif command == "action" and hero:get_state() == "carrying" then
       if hero:get_distance(merchant) <=16  or hero:get_distance(merchant_invisible) <=16  then
-        game:start_dialog("maps.houses.mabe_village.shop_2.marchant_1")
-      local money = game:get_money()
-print(money)
-      local money_product = shop_manager:buy_product(map, map.shop_manager_product)
+        local direction4 = merchant:get_direction4_to(hero)
+        merchant:get_sprite():set_direction(direction4)
+        shop_manager:buy_product(map, map.shop_manager_product)
       end
     end
 

@@ -228,42 +228,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "table.7",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "table.9",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 152,
-  width = 8,
-  height = 8,
-  pattern = "table.1",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 152,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
-}
-
-tile{
-  layer = 0,
   x = 96,
   y = 16,
   width = 16,
@@ -470,6 +434,36 @@ custom_entity{
   direction = 0,
 }
 
+npc{
+  name = "merchant_angry",
+  layer = 0,
+  x = 160,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/merchant",
+}
+
+custom_entity{
+  name = "hero_target",
+  layer = 0,
+  x = 208,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  layer = 0,
+  x = 208,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shop_office",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -477,6 +471,16 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+custom_entity{
+  name = "hero_invisible",
+  layer = 1,
+  x = 160,
+  y = 221,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

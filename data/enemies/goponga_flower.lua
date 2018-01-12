@@ -21,6 +21,7 @@ function enemy:on_created()
   -- Initialize the properties of your enemy here,
   -- like the sprite, the life and the damage.
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
+  enemy:set_traversable(false)
   enemy:set_life(1)
   enemy:set_damage(1)
   enemy:set_invincible(true)

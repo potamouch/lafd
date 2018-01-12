@@ -35,8 +35,36 @@ function shop_manager:reset_product(map, product)
 end
 
 function shop_manager:buy_product(map, product)
-
-  print(product)
+       
+  local game = map:get_game()
+  local product_table = map.shop_manager_products[product]
+  local product_key, product_variant, product_price,product_dialog_id = unpack(product_table["product"])
+  game:start_dialog("maps.houses.mabe_village.shop_2.product" .. "_" .. product_dialog_id, function(answer)
+    if answer == 1 then
+      local error = false
+      -- Hearts
+      if product_key == "heart" then
+        if  game:get_life() == game:get_max_life() then
+          error = true
+        end
+      elseif product_key == "shield" then
+        local item = game:get_item("shield")
+        local variant = item:get_variant()
+        if variant > 0 then
+          error = true
+        end
+      end
+      if error then
+          game:start_dialog("maps.houses.mabe_village.shop_2.merchant_4")
+      else
+        local money = game:get_money()
+        if money >= product_price then
+        else
+          game:start_dialog("maps.houses.mabe_village.shop_2.merchant_3")
+        end
+      end
+    end
+  end)
 
 end
 
@@ -45,6 +73,7 @@ function shop_manager:add_product(map, product, placeholder)
         local game = map:get_game()
         game:set_custom_command_effect("action", nil)
         local item, variant, price = unpack(product)
+        item = "entities/" .. item
         local hero = map:get_hero()
         placeholder:set_enabled(false)
         local x,y,layer= placeholder:get_position()
@@ -81,7 +110,7 @@ function shop_manager:add_product(map, product, placeholder)
            map:draw_visual(price_text, x, y- 16)
         end
 
-           map.shop_manager_products [item]= {
+           map.shop_manager_products[item]= {
             destructible = destructible,
             placeholder = placeholder,
             entity = entity,

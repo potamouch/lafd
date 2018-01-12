@@ -7,7 +7,7 @@ drôle d'objet !
 Peut-être que tu
 peux le briser  
 en fonçant dedans.
-]]
+]],
 }
 
 dialog{
@@ -17,7 +17,7 @@ dialog{
 Il te faudrait quelque
 chose de tranchant pour
 couper ces buissons...
-]]
+]],
 }
 
 dialog{
@@ -26,7 +26,7 @@ dialog{
   text = [[
 C'est beaucoup trop
 lourd pour toi !
-]]
+]],
 }
 
 dialog{
@@ -39,14 +39,14 @@ bien trop lourd !
 Tu n'y arriveras jamais
 rien que par la force
 de tes bras !
-]]
+]],
 }
 
 dialog{
   id = "_shop.amount_full",
   text = [[
 Tu es déjà au maximum !
-]]
+]],
 }
 
 dialog{
@@ -55,7 +55,7 @@ dialog{
   text = [[
 Désolé, mais tu n'as
 pas assez d'argent !
-]]
+]],
 }
 
 dialog{
@@ -65,7 +65,7 @@ dialog{
 Prix : $v rubis.
 Acheter
 Ne pas acheter
-]]
+]],
 }
 
 dialog{
@@ -74,7 +74,7 @@ dialog{
   text = [[
 Tu as la        
 Clé Poisson!
-]]
+]],
 }
 
 dialog{
@@ -85,7 +85,7 @@ dialog{
 Tu as trouvé une
 Flèche !$0
 Utilise l'Arc et les
-]]
+]],
 }
 
 dialog{
@@ -94,7 +94,7 @@ dialog{
 Flèches pour vaincre
 des ennemis à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -105,7 +105,7 @@ dialog{
 Tu as trouvé 5
 Flèches !$0
 Utilise l'Arc et les
-]]
+]],
 }
 
 dialog{
@@ -116,7 +116,7 @@ dialog{
 Tu as trouvé 10
 Flèches !$0
 Utilise l'Arc et les
-]]
+]],
 }
 
 dialog{
@@ -128,7 +128,7 @@ bec de pierre !
 Allez compléter
 une statue de
 chouette.
-]]
+]],
 }
 
 dialog{
@@ -141,7 +141,7 @@ désormais ouvrir les
 portes spéciales et
 découvrir de
 nouveaux trésors !
-]]
+]],
 }
 
 dialog{
@@ -150,7 +150,7 @@ dialog{
   text = [[
 Tu as la        
 Clé Vautour!
-]]
+]],
 }
 
 dialog{
@@ -163,7 +163,7 @@ Potion Bleue !$0
 Bois-la pour
 retrouver toute ta
 vie et ta magie !
-]]
+]],
 }
 
 dialog{
@@ -174,7 +174,7 @@ dialog{
 Tu as trouvé une
 Bombe !$0
 Utilise une Bombe
-]]
+]],
 }
 
 dialog{
@@ -183,7 +183,7 @@ dialog{
 pour faire exploser
 un ennemi ou un
 obstacle.
-]]
+]],
 }
 
 dialog{
@@ -194,7 +194,7 @@ dialog{
 Tu as trouvé 3
 Bombes !$0
 Utilise une Bombe
-]]
+]],
 }
 
 dialog{
@@ -205,7 +205,7 @@ dialog{
 Tu as trouvé 8
 Bombes !$0
 Utilise une Bombe
-]]
+]],
 }
 
 dialog{
@@ -218,7 +218,7 @@ contient 10 Bombes.
 Assigne-les à une
 touche et fais tout
 sauter !
-]]
+]],
 }
 
 dialog{
@@ -231,7 +231,7 @@ Bombes !$0
 Il peut contenir
 jusqu'à 30 Bombes
 au lieu de 10 !
-]]
+]],
 }
 
 dialog{
@@ -244,7 +244,7 @@ de Bombes Géant !$0
 Il peut contenir
 jusqu'à 99 Bombes
 au lieu de 30 !
-]]
+]],
 }
 
 dialog{
@@ -261,7 +261,7 @@ Il y a plusieurs
 techniques pour le
 manipuler, à toi
 de les découvrir !
-]]
+]],
 }
 
 dialog{
@@ -274,7 +274,7 @@ Super Boomerang !$0
 Il est plus rapide
 et plus puissant que
 l'ancien !
-]]
+]],
 }
 
 dialog{
@@ -287,7 +287,7 @@ peux maintenant
 entrer dans le
 repaire du maître
 des lieux !
-]]
+]],
 }
 
 dialog{
@@ -300,7 +300,7 @@ Potion Rouge !$0
 Bois-la pour
 retrouver toute ton
 énergie vitale.
-]]
+]],
 }
 
 dialog{
@@ -313,7 +313,7 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
-]]
+]],
 }
 
 dialog{
@@ -326,7 +326,7 @@ Potion Bleue !$0
 Bois-la pour
 retrouver toute ta
 vie et ta magie !
-]]
+]],
 }
 
 dialog{
@@ -339,7 +339,7 @@ et tu pourras
 vaincre à distance
 les ennemis
 coriaces !
-]]
+]],
 }
 
 dialog{
@@ -350,7 +350,7 @@ Tu as trouvé l'Arc !$0
 Tu peux vaincre les
 ennemis coriaces
 à distance !
-]]
+]],
 }
 
 dialog{
@@ -369,7 +369,7 @@ salle, un son te
 préviendra!     
 C'est ça        
 le progrès...
-]]
+]],
 }
 
 dialog{
@@ -381,7 +381,7 @@ médicament
 secret! A quoi  
 cela peut-il    
 servir?
-]]
+]],
 }
 
 dialog{
@@ -390,7 +390,7 @@ dialog{
   text = [[
 Tu as la        
 Clé Masque!
-]]
+]],
 }
 
 dialog{
@@ -400,7 +400,7 @@ dialog{
 Tu as la Plume!$0
 Soudain, tu es plus 
 léger que l'air !
-]]
+]],
 }
 
 dialog{
@@ -412,7 +412,7 @@ de Feu! $0
 Brûle! Brûle!   
 Brûle tout      
 ce que tu veux!
-]]
+]],
 }
 
 dialog{
@@ -425,7 +425,7 @@ Appuie sur B
 quand tu nages: 
 tu pourras alors
 plonger!
-]]
+]],
 }
 
 dialog{
@@ -438,7 +438,7 @@ Appuyez sur
 START pour voir 
 combien vous en 
 avez !
-]]
+]],
 }
 
 dialog{
@@ -451,7 +451,7 @@ Appuyez sur
 START pour voir 
 combien vous en 
 avez !
-]]
+]],
 }
 
 dialog{
@@ -464,7 +464,7 @@ Appuyez sur
 START pour voir 
 combien vous en 
 avez !
-]]
+]],
 }
 
 dialog{
@@ -477,7 +477,7 @@ Appuyez sur
 START pour voir 
 combien vous en 
 avez !
-]]
+]],
 }
 
 dialog{
@@ -490,7 +490,7 @@ Feuille d'Or !
 Amène-les chez  
 Richard. Parle- 
 lui de la Clé...
-]]
+]],
 }
 
 dialog{
@@ -503,7 +503,7 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
-]]
+]],
 }
 
 dialog{
@@ -512,7 +512,7 @@ dialog{
   text = [[
 Tu as trouvé le 
 marteau !
-]]
+]],
 }
 
 dialog{
@@ -521,7 +521,7 @@ dialog{
   text = [[
 Tu as trouvé un
 Coeur !
-]]
+]],
 }
 
 dialog{
@@ -533,7 +533,7 @@ Réceptacle de Coeur.
 
 Tu obtiens un Coeur
 supplémentaire !
-]]
+]],
 }
 
 dialog{
@@ -545,7 +545,7 @@ Grappin!  $0
 Tu vas voir     
 comment la      
 chaîne s'étire!
-]]
+]],
 }
 
 dialog{
@@ -553,7 +553,7 @@ dialog{
   text = [[
 Tu as le violon
 des vagues !
-]]
+]],
 }
 
 dialog{
@@ -561,7 +561,7 @@ dialog{
   text = [[
 Tu as la conque
 de l'écume !
-]]
+]],
 }
 
 dialog{
@@ -569,7 +569,7 @@ dialog{
   text = [[
 Tu as la cloche
 des algues !
-]]
+]],
 }
 
 dialog{
@@ -577,7 +577,7 @@ dialog{
   text = [[
 Tu as la harpe
 du reflux !
-]]
+]],
 }
 
 dialog{
@@ -585,7 +585,7 @@ dialog{
   text = [[
 Tu as le xylophone
 marin !
-]]
+]],
 }
 
 dialog{
@@ -593,7 +593,7 @@ dialog{
   text = [[
 Tu as le triangle
 de corail !
-]]
+]],
 }
 
 dialog{
@@ -601,7 +601,7 @@ dialog{
   text = [[
 Tu as l'orgue
 de l'embellie !
-]]
+]],
 }
 
 dialog{
@@ -609,7 +609,7 @@ dialog{
   text = [[
 Tu as le tambour
 des marées !
-]]
+]],
 }
 
 dialog{
@@ -623,7 +623,7 @@ t'éclaire dans le
 noir et te permet
 d'allumer des
 braseros.
-]]
+]],
 }
 
 dialog{
@@ -636,7 +636,7 @@ Magique !$0
 Elle t'avertira si
 tu t'approches d'un
 mur fragile.
-]]
+]],
 }
 
 dialog{
@@ -646,7 +646,7 @@ dialog{
 Tu as trouvé une
 petite bouteille
 d'énergie magique !
-]]
+]],
 }
 
 dialog{
@@ -656,7 +656,7 @@ dialog{
 Tu as trouvé une
 grande bouteille
 d'énergie magique !
-]]
+]],
 }
 
 dialog{
@@ -668,7 +668,7 @@ Poudre Magique! $0
 Tu peux la      
 saupoudrer sur  
 plein de trucs.
-]]
+]],
 }
 
 dialog{
@@ -679,7 +679,7 @@ Tu as gagné un
 Yoshi !       
 On le voit dans tous
 les jeux, celui-là !
-]]
+]],
 }
 
 dialog{
@@ -691,7 +691,7 @@ offert un è.
 Mais...         
 cette photo...  
 ce n'est pas...
-]]
+]],
 }
 
 dialog{
@@ -703,7 +703,7 @@ le è contre
 le é !           
 Que feras-tu    
 de celui-ci ?
-]]
+]],
 }
 
 dialog{
@@ -713,7 +713,7 @@ dialog{
 é  devient un   
 collier ê !      
 Génial !
-]]
+]],
 }
 
 dialog{
@@ -725,7 +725,7 @@ collier contre
 une écaille...  
 A quoi sert-    
 elle ?
-]]
+]],
 }
 
 dialog{
@@ -737,7 +737,7 @@ Elle te montrera
 ce que tu ne    
 pouvais pas voir
 auparavant !
-]]
+]],
 }
 
 dialog{
@@ -750,7 +750,7 @@ Ruban.
 Peut-être le    
 troqueras-tu    
 par la suite...
-]]
+]],
 }
 
 dialog{
@@ -760,7 +760,7 @@ dialog{
 Tu as échangé   
 le ruban contre     
 la pâtée !
-]]
+]],
 }
 
 dialog{
@@ -770,7 +770,7 @@ dialog{
 Tu lui as donné 
 une patée en
 échange de bananes.
-]]
+]],
 }
 
 dialog{
@@ -780,7 +780,7 @@ dialog{
 Tu prends le bâton        
 que le singe a
 laissé.
-]]
+]],
 }
 
 dialog{
@@ -792,7 +792,7 @@ le ä contre
 le Miel å .     
 Pour quoi faire,
 tu verras bien !
-]]
+]],
 }
 
 dialog{
@@ -803,7 +803,7 @@ Tu as échangé
 le å contre     
 l'Ananas æ .    
 Il est juteux !
-]]
+]],
 }
 
 dialog{
@@ -815,7 +815,7 @@ un petit cadeau.
 Je te donne     
 cet ç ... C'est 
 un Hibiscus.
-]]
+]],
 }
 
 dialog{
@@ -826,7 +826,7 @@ Tu as échangé
 l' ç contre une 
 lettre de chèvre
 í ... Super ! 
-]]
+]],
 }
 
 dialog{
@@ -837,7 +837,7 @@ Tu as une Carte!
 Appuie sur      
 START pour      
 la consulter!
-]]
+]],
 }
 
 dialog{
@@ -850,7 +850,7 @@ du Poisson-Rêve.
 La jolie chanson
 de Marine est   
 gravée en toi.
-]]
+]],
 }
 
 dialog{
@@ -862,7 +862,7 @@ Mambo de Manbo !
 Quand tu        
 sors de l'eau,  
 joue cet air !
-]]
+]],
 }
 
 dialog{
@@ -876,7 +876,7 @@ C'est cool non ?
 Tu peux donc    
 insuffler la vie
 dans les objets.
-]]
+]],
 }
 
 dialog{
@@ -888,7 +888,7 @@ le Champignon!$0
 Un arôme subtil 
 exalte ton sens 
 de l'odorat.
-]]
+]],
 }
 
 dialog{
@@ -899,7 +899,7 @@ Tu as l'Ocarina ! $0
 J'espère que    
 tu pourras jouer
 plusieurs airs !
-]]
+]],
 }
 
 dialog{
@@ -912,7 +912,7 @@ Garde le bouton
 enfoncé et      
 tu fileras      
 comme le vent!
-]]
+]],
 }
 
 dialog{
@@ -921,7 +921,7 @@ dialog{
   text = [[
 Tu as récupéré 
 une photo !
-]]
+]],
 }
 
 dialog{
@@ -930,7 +930,7 @@ dialog{
   text = [[
 Tu as trouvé un
 Fragment de Coeur !
-]]
+]],
 }
 
 dialog{
@@ -942,7 +942,7 @@ Tu as collecté
 de Coeur. Tu as 
 maintenant un   
 Coeur complet!
-]]
+]],
 }
 
 dialog{
@@ -955,7 +955,7 @@ Génial ! Tu peux
 soulever des    
 jarres et des   
 pierres !
-]]
+]],
 }
 
 dialog{
@@ -967,7 +967,7 @@ Super Bracelet !
 Tu pourrais même
 soulever...     
 un éléphant !
-]]
+]],
 }
 
 dialog{
@@ -980,7 +980,7 @@ Grand Carquois !$0
 Il peut contenir
 jusqu'à 30 Flèches
 au lieu de 10 !
-]]
+]],
 }
 
 dialog{
@@ -993,7 +993,7 @@ Carquois Géant !$0
 Il peut contenir
 jusqu'à 99 Flèches
 au lieu de 30 !
-]]
+]],
 }
 
 dialog{
@@ -1006,7 +1006,7 @@ Potion Rouge !$0
 Bois-la pour
 retrouver toute ton
 énergie vitale.
-]]
+]],
 }
 
 dialog{
@@ -1015,7 +1015,7 @@ dialog{
   text = [[
 Tu as trouvé un
 rubis !
-]]
+]],
 }
 
 dialog{
@@ -1025,7 +1025,7 @@ dialog{
 Tu as trouvé    
 5 rubis.       
 O joie !
-]]
+]],
 }
 
 dialog{
@@ -1035,7 +1035,7 @@ dialog{
 Tu as trouvé    
 20 rubis.       
 O joie !
-]]
+]],
 }
 
 dialog{
@@ -1045,7 +1045,7 @@ dialog{
 Tu as trouvé    
 50 rubis.       
 Merveilleux !
-]]
+]],
 }
 
 dialog{
@@ -1055,7 +1055,7 @@ dialog{
 Tu as trouvé    
 100 rubis.      
 Fantastique !
-]]
+]],
 }
 
 dialog{
@@ -1065,7 +1065,7 @@ dialog{
 Tu as trouvé    
 200 rubis.      
 Quelle extase !
-]]
+]],
 }
 
 dialog{
@@ -1077,7 +1077,7 @@ coquillage !
 Collectes-en    
 beaucoup pour faire
 du troc...
-]]
+]],
 }
 
 dialog{
@@ -1090,7 +1090,7 @@ votre bouclier! $0
 Utilisez-le pour
 repousser vos   
 ennemis!
-]]
+]],
 }
 
 dialog{
@@ -1101,7 +1101,7 @@ Tu as la Pelle!$0
 Maintenant,     
 tu peux creuser 
 où tu veux!
-]]
+]],
 }
 
 dialog{
@@ -1113,7 +1113,7 @@ Clé Cyclope!
 Vite! Va vers   
 l'entrée de     
 La Prairie!
-]]
+]],
 }
 
 dialog{
@@ -1126,7 +1126,7 @@ Petite Clé !
 Tu peux ouvrir une
 porte verrouillée
 dans les environs.
-]]
+]],
 }
 
 dialog{
@@ -1139,7 +1139,7 @@ ton Epée!  $0
 C'est la tienne 
 car il y a ton  
 nom dessus!
-]]
+]],
 }
 
 dialog{
@@ -1152,7 +1152,7 @@ nouvelle Epée!$0
 N'oublie pas de 
 graver ton nom  
 dessus!
-]]
+]],
 }
 
 dialog{
@@ -1164,7 +1164,7 @@ Clé Flagello!
 Tu peux ouvrir  
 la porte de la  
 Cave Flagello!
-]]
+]],
 }
 
 dialog{
@@ -1180,7 +1180,7 @@ ennemis et te permet
 de résister aux
 températures les
 plus glaciales...
-]]
+]],
 }
 
 dialog{
@@ -1193,7 +1193,7 @@ rouge !$0 Elle te
 protège de manière
 plus efficace contre
 les ennemis !
-]]
+]],
 }
 
 dialog{
@@ -1209,7 +1209,7 @@ de votre tête
 et un arôme subtil 
 exalte ton sens 
 de l'odorat..
-]]
+]],
 }
 
 dialog{
@@ -1217,7 +1217,7 @@ dialog{
   text = [[
 Tu as trouvé Toutou !
 Il a l'air féroce...
-]]
+]],
 }
 
 dialog{
@@ -1226,7 +1226,7 @@ dialog{
 C'est qui ce freluquet?   
 Les gars, débarrassez-moi 
 vite de lui !
-]]
+]],
 }
 
 dialog{
@@ -1238,7 +1238,7 @@ Tu dois être le
 mercenaire envoyé par      
 Mme Miaou Miaou.
 Je vais te corriger !!
-]]
+]],
 }
 
 dialog{
@@ -1246,7 +1246,7 @@ dialog{
   text = [[
 GRRR ! GRR !      
 UN INTRRRUS !
-]]
+]],
 }
 
 dialog{
@@ -1255,7 +1255,7 @@ dialog{
 ...MARAIS...    
 La route mène au
 marais fleuri.
-]]
+]],
 }
 
 dialog{
@@ -1264,7 +1264,7 @@ dialog{
 Si tu vois les pointes,    
 pense à utiliser ton
 bouclier.
-]]
+]],
 }
 
 dialog{
@@ -1272,7 +1272,7 @@ dialog{
   text = [[
 Si une porte ne s'ouvre
 pas, déplace un bloc.
-]]
+]],
 }
 
 dialog{
@@ -1281,7 +1281,7 @@ dialog{
 Si tu vois les pointes,    
 pense à utiliser ton
 bouclier.
-]]
+]],
 }
 
 dialog{
@@ -1290,7 +1290,7 @@ dialog{
   text = [[
         Niveau 1       
      Cave Flagello
-]]
+]],
 }
 
 dialog{
@@ -1300,7 +1300,7 @@ HI HI HI !!
 Attends un peu,
 que je m'occupe de 
 toi... HI HI!
-]]
+]],
 }
 
 dialog{
@@ -1309,7 +1309,7 @@ dialog{
 ...PRAIRIE...   
 ...PRAIRIE...   
 Elle t'attend.
-]]
+]],
 }
 
 dialog{
@@ -1318,7 +1318,7 @@ dialog{
 D'abord un lapin
 et en dernier,  
 un spectre...
-]]
+]],
 }
 
 dialog{
@@ -1328,7 +1328,7 @@ Si les blocs se
 ressemblent, un 
 nouveau chemin  
 s'ouvrira.
-]]
+]],
 }
 
 dialog{
@@ -1337,7 +1337,7 @@ dialog{
 Une partie du sol 
 s'élève. Actionne le     
 cristal bleu.
-]]
+]],
 }
 
 dialog{
@@ -1346,7 +1346,7 @@ dialog{
   text = [[
         Niveau 2       
     Grotte du génie    
-]]
+]],
 }
 
 dialog{
@@ -1355,7 +1355,7 @@ dialog{
 ...CASCADE...   
 C'est caché     
 sous la cascade.
-]]
+]],
 }
 
 dialog{
@@ -1364,7 +1364,7 @@ dialog{
   text = [[
         Niveau 3       
      Cave aux clés
-]]
+]],
 }
 
 dialog{
@@ -1373,7 +1373,7 @@ dialog{
 ...BAIE...      
 Ta route passe  
 par la baie.
-]]
+]],
 }
 
 dialog{
@@ -1381,7 +1381,7 @@ dialog{
   text = [[
         Niveau 4       
    Abîme du poisson
-]]
+]],
 }
 
 dialog{
@@ -1390,7 +1390,7 @@ dialog{
 ...TEMPLE...    
 Il renferme le  
 secret de l'île.
-]]
+]],
 }
 
 dialog{
@@ -1398,7 +1398,7 @@ dialog{
   text = [[
         Niveau 5       
     Poisson-chat
-]]
+]],
 }
 
 dialog{
@@ -1406,7 +1406,7 @@ dialog{
   text = [[
 ...MONTAGNE...  
 Elle t'appelle.
-]]
+]],
 }
 
 dialog{
@@ -1414,7 +1414,7 @@ dialog{
   text = [[
         Niveau 6       
   Temple du masque
-]]
+]],
 }
 
 dialog{
@@ -1423,7 +1423,7 @@ dialog{
 ...OCARINA...   
 Sa musique      
 te guidera.
-]]
+]],
 }
 
 dialog{
@@ -1431,7 +1431,7 @@ dialog{
   text = [[
         Niveau 7       
   Tour du vautour
-]]
+]],
 }
 
 dialog{
@@ -1440,7 +1440,7 @@ dialog{
 L'heure a sonné.
 L'Oeuf Sacré    
 te réclame.
-]]
+]],
 }
 
 dialog{
@@ -1448,7 +1448,7 @@ dialog{
   text = [[
         Niveau 8      
    Roc de la tortue
-]]
+]],
 }
 
 dialog{
@@ -1456,7 +1456,7 @@ dialog{
   text = [[
         Niveau secret       
   Temple des couleurs
-]]
+]],
 }
 
 dialog{
@@ -1466,7 +1466,7 @@ Cette statue veut me
 dire quelque chose mais 
 je ne comprends rien ! 
 Elle n'a pas de bec...
-]]
+]],
 }
 
 dialog{
@@ -1476,7 +1476,7 @@ C'est une perte de temps !
 Pour ma poudre, il me
 faut le Champignon de 
 la forêt.
-]]
+]],
 }
 
 dialog{
@@ -1487,7 +1487,7 @@ Champignon qui endort.
 Bon ! Dare dare !      
 Je te concocte une 
 mixture !!
-]]
+]],
 }
 
 dialog{
@@ -1498,7 +1498,7 @@ Tout est prêt !
 Attention, il y en a 
 peu !  
 Veux-tu la tester ici ?
-]]
+]],
 }
 
 dialog{
@@ -1512,7 +1512,7 @@ A l'extérieur...
 Pépé le Ramollo n'a pas 
 l'air d'être un grand 
 causeur...
-]]
+]],
 }
 
 dialog{
@@ -1530,7 +1530,7 @@ d'un combat.
 Essaie-les tous 
 pour avoir le   
 plus adéquat !
-]]
+]],
 }
 
 dialog{
@@ -1543,7 +1543,7 @@ LE BON OBJET
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1566,7 +1566,7 @@ le message
 du hibou. Ainsi,
 tu n'auras pas  
 à tout noter !
-]]
+]],
 }
 
 dialog{
@@ -1579,7 +1579,7 @@ ET CARTE
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1601,7 +1601,7 @@ c'est suffisant,
 relâche-le.     
 Crois-tu que tu 
 peux le faire ?
-]]
+]],
 }
 
 dialog{
@@ -1614,7 +1614,7 @@ TOURNOYANTE!
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1632,7 +1632,7 @@ standard,
 il y en a un    
 qui te protège  
 des lasers !
-]]
+]],
 }
 
 dialog{
@@ -1645,7 +1645,7 @@ D'UN BOUCLIER
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1663,7 +1663,7 @@ encore sur
 le même bouton. 
 Connaissais-tu  
 cette astuce ?
-]]
+]],
 }
 
 dialog{
@@ -1676,7 +1676,7 @@ LES BOMBES
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1699,7 +1699,7 @@ vers un trou
 qui n'est pas   
 encore apparu   
 à l'écran !
-]]
+]],
 }
 
 dialog{
@@ -1712,7 +1712,7 @@ TELEPORTATION
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1731,7 +1731,7 @@ son nom.
 Tu veux le consulter ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1743,7 +1743,7 @@ la Loupe
 pour lire       
 les petits      
 caractères...
-]]
+]],
 }
 
 dialog{
@@ -1756,7 +1756,7 @@ DE COCOLINT
 Tu veux le lire ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -1770,7 +1770,7 @@ tu as échoué ici, des
 monstres terribles
 rôdent dans le coin.
 Sois prudent...
-]]
+]],
 }
 
 dialog{
@@ -1786,7 +1786,7 @@ patraque !
 Je suis Marine ! 
 Tu es sur l'île
 Cocolint !
-]]
+]],
 }
 
 dialog{
@@ -1803,7 +1803,7 @@ sur le Bouclier !
 Ben, d'ailleurs 
 il est à toi !
 J'te l'donne !
-]]
+]],
 }
 
 dialog{
@@ -1820,7 +1820,7 @@ monstres !
 Car, depuis que t'es 
 ici $v, des monstres,   
 y'en a partout !
-]]
+]],
 }
 
 dialog{
@@ -1831,7 +1831,7 @@ Hé mon gars,
 attends un peu ! 
 J'ai quêqu' chose à te 
 dire !
-]]
+]],
 }
 
 dialog{
@@ -1842,7 +1842,7 @@ Je suis éreinté !
 J'vais faire un p'tit 
 somme. 
 ZZZ...ZZZ...
-]]
+]],
 }
 
 dialog{
@@ -1856,7 +1856,7 @@ plage !
 MIAM MIAM !     
 Link si t'en veux,   
 fais comm'moi.
-]]
+]],
 }
 
 dialog{
@@ -1865,7 +1865,7 @@ dialog{
 Hmmm...         
 Mon Toutou est si fier     
 de son pelage !
-]]
+]],
 }
 
 dialog{
@@ -1878,7 +1878,7 @@ par des Moblins !
 OHH ! AHH !       
 Je t'en prie, va secourir
 mon Toutou !
-]]
+]],
 }
 
 dialog{
@@ -1892,7 +1892,7 @@ aller le promener ?
 Cela m'arrange ! 
 Du fond de mon coeur,
 merci !
-]]
+]],
 }
 
 dialog{
@@ -1908,7 +1908,7 @@ BISOU BISOU...
 Tu as eu la récompense 
 de Mme Miaou Miaou.
 Petit veinard...
-]]
+]],
 }
 
 dialog{
@@ -1916,7 +1916,7 @@ dialog{
   text = [[
 Ouaf Ouaf !      
 Ouaf Ouaf !
-]]
+]],
 }
 
 dialog{
@@ -1927,7 +1927,7 @@ Je suis un
 chien très branché !
 J'aimerais avoir des 
 accessoires à la mode !
-]]
+]],
 }
 
 dialog{
@@ -1946,7 +1946,7 @@ ma pâtée ?
 
 Oui
 Non   
-]]
+]],
 }
 
 dialog{
@@ -1955,7 +1955,7 @@ dialog{
 Je n'arrive pas à 
 y croire...   
 Tu es nul !
-]]
+]],
 }
 
 dialog{
@@ -1964,7 +1964,7 @@ dialog{
 Génial, merci !  
 En échange,     
 voici ma patée ...
-]]
+]],
 }
 
 dialog{
@@ -1976,7 +1976,7 @@ Plus tard, je me perdrai
 dans les montagnes.      
 Tu viendras m'aider,
 hein?
-]]
+]],
 }
 
 dialog{
@@ -1990,7 +1990,7 @@ trouver un Yoshi ?
 J'en ai vu un au jeu du 
 hasard mais je n'ai pas
 pu l'avoir.
-]]
+]],
 }
 
 dialog{
@@ -2003,7 +2003,7 @@ Tu offres ce Yoshi
  
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -2011,7 +2011,7 @@ dialog{
   text = [[
 Tant pis...     
 C'est dommage !
-]]
+]],
 }
 
 dialog{
@@ -2022,7 +2022,7 @@ Tu es un gentil
 garçon.
 En échange, je  
 te donne ceci.
-]]
+]],
 }
 
 dialog{
@@ -2032,24 +2032,83 @@ Ces quatre là se
 ressemblent tant
 que moi-même,   
 je m'y perds...
-]]
+]],
 }
 
 dialog{
-  id = "maps.houses.mabe_village.shop_2.marchant_1",
+  id = "maps.houses.mabe_village.shop_2.merchant_1",
   text = [[
 Bienvenue !      
 Apporte ici ce que tu       
 veux acheter.
-]]
+]],
 }
 
 dialog{
-  id = "maps.houses.mabe_village.shop_2.marchant_2",
+  id = "maps.houses.mabe_village.shop_2.merchant_2",
   text = [[
 Hé! Une minute! 
 Tu dois payer!
-]]
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_2.merchant_3",
+  text = [[
+Désolé petit !   
+Tu n'as pas assez 
+de rubis. 
+Reviens donc plus tard.
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_2.merchant_4",
+  text = [[
+Mama mia ! Tu n'es 
+pas encore rôdé...  
+Pourquoi acheter des
+choses inutiles ?
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_2.product_heart",
+  question = "1",
+  text = [[
+Trois Coeurs   
+10 rubis !
+
+
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_2.product_shield",
+  question = "1",
+  text = [[
+Bouclier        
+personnalisé.   
+20 rubis !  
+
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_2.product_shovel",
+  question = "1",
+  text = [[
+Pelle de qualité
+200 rubis!   
+C'est pas donné !
+
+Oui
+Non
+]],
 }
 
 dialog{
@@ -2063,7 +2122,7 @@ No darling...
 CLIC !           
 Tu as dû faire  
 un faux numéro !
-]]
+]],
 }
 
 dialog{
@@ -2076,7 +2135,7 @@ Je sais tout de cette île !
 Si tu te perds, 
 passe-moi un coup de
 fil ! Salut !  CLIC ! 
-]]
+]],
 }
 
 dialog{
@@ -2097,7 +2156,7 @@ peux pas être
 plus explicite  
 que cela...     
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2112,7 +2171,7 @@ Je te conseille
 de l'amener là  
 où il veut.     
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2126,7 +2185,7 @@ un Poisson-Chat
 ouvre sa gueule.
 Va donc y nager.
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2141,7 +2200,7 @@ situé au Nord
 du Village      
 des Animaux ?    
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2164,7 +2223,7 @@ gît désormais
 sous la         
 Girouette.      
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2179,7 +2238,7 @@ Donne-lui
 de la vie pour  
 la déplacer...  
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2197,7 +2256,7 @@ la Cordillère.
 Ce renseignement
 t'est utile ?    
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2214,7 +2273,7 @@ la Cordillère.
 Tu devrais aller
 y faire un tour !
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2230,7 +2289,7 @@ du Mt Tamaranch.
 Link ,          
 sois prudent.   
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2249,7 +2308,7 @@ renseigner à
 la Bibliothèque.
 Désolé hein !    
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2265,7 +2324,7 @@ vivent également
 dans la cave du 
 Plateau Tartare.
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2280,7 +2339,7 @@ Mme Miaou Miaou.
 Elle sera folle 
 de joie.        
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2299,7 +2358,7 @@ des Panneaux.
 Il est bon mais 
 un peu cher...  
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2319,7 +2378,7 @@ une cave qui
 renferme un     
 objet important.
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2336,7 +2395,7 @@ les Coquillages.
 Sois confiant !  
 Bonne chance !   
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2349,7 +2408,7 @@ un effort...
 Je suis de tout 
 coeur avec toi. 
 Vas-y mon gars !
-]]
+]],
 }
 
 dialog{
@@ -2367,7 +2426,7 @@ qu'on dit...
 Pourquoi        
 n'y vas-tu pas? 
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2388,7 +2447,7 @@ appelé Richard.
 Je te conseille 
 d'aller le voir.
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2402,7 +2461,7 @@ bananes, parle
 de nouveau aux  
 gens du village.
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2419,7 +2478,7 @@ apportera-t'elle
 une réponse à   
 tes questions ?  
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2437,7 +2496,7 @@ sûrement aider
 un p'tit gars   
 comme toi !      
 CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2453,7 +2512,7 @@ peut-être
 auras-tu        
 de la chance ?   
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2467,7 +2526,7 @@ Cave aux Clés,
 située dans     
 La Prairie.     
 Salut ! CLIC !
-]]
+]],
 }
 
 dialog{
@@ -2485,7 +2544,7 @@ Moi...
 Je suis plus terre à 
 terre.  
 J'adore manger !
-]]
+]],
 }
 
 dialog{
@@ -2501,7 +2560,7 @@ Je t'en SUPPLIE !
 Alors, que décides-tu ?     
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -2511,7 +2570,7 @@ Tant pis !
 Mais si tu changes 
 d'avis, reviens vite 
 me voir !
-]]
+]],
 }
 
 dialog{
@@ -2519,7 +2578,7 @@ dialog{
   text = [[
 Merci ! Vite !    
 A table !
-]]
+]],
 }
 
 dialog{
@@ -2531,14 +2590,14 @@ Quel délice !
 En récompense, je t'offre
 des Bananes. Hmm !   
 Quel régal !
-]]
+]],
 }
 
 dialog{
   id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_6",
   text = [[
 Encore merci !
-]]
+]],
 }
 
 dialog{
@@ -2551,7 +2610,7 @@ allergie aux poils...
 On discutera quand 
 tu seras sans ce Toutou. 
 Tchao !
-]]
+]],
 }
 
 dialog{
@@ -2576,7 +2635,7 @@ mon cher ami ?
 
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -2588,7 +2647,7 @@ puis supporter
 les pleutres !   
 Hors de ma vue, 
 paysan!...
-]]
+]],
 }
 
 dialog{
@@ -2598,7 +2657,7 @@ Il existe en tout cinq
 feuilles d'or.  
 Souviens-toi d'acheter 
 une pelle.
-]]
+]],
 }
 
 dialog{
@@ -2607,7 +2666,7 @@ dialog{
 Grâce à toi, j'ai
 mes feuilles!   
 Je te suis reconnaissant.
-]]
+]],
 }
 
 dialog{
@@ -2618,7 +2677,7 @@ au nom de la justice
 et... en mon nom...   
 tu dois trouver les 5 
 feuilles ! 
-]]
+]],
 }
 
 dialog{
@@ -2630,7 +2689,7 @@ Feuilles !
 Fort bien donc. 
 Déplace cette boîte.    
 Une surprise t'attend !
-]]
+]],
 }
 
 dialog{
@@ -2640,7 +2699,7 @@ $v a inspecté la
 commode.     
 C'est un objet 
 d'art... ...
-]]
+]],
 }
 
 dialog{
@@ -2650,7 +2709,7 @@ Ce n'est pas une
 commode... Quoi ?
 Tu avais remarqué ?
 ... OK !
-]]
+]],
 }
 
 dialog{
@@ -2663,7 +2722,7 @@ des lettres...
 Le problème, c'est que       
 quand j'écris, je n'ai
 jamais de réponse...
-]]
+]],
 }
 
 dialog{
@@ -2674,7 +2733,7 @@ Pour moi ?
 Mais c'est formidable...   
 Il y a même une
 photo !
-]]
+]],
 }
 
 dialog{
@@ -2682,7 +2741,7 @@ dialog{
   text = [[
 Château Canulet 
 50 pas vers le Nord
-]]
+]],
 }
 
 dialog{
@@ -2690,14 +2749,14 @@ dialog{
   text = [[
 Château Canulet 
 5 min. vers l'Est
-]]
+]],
 }
 
 dialog{
   id = "maps.out.east_prairie.sign_3",
   text = [[
 Est : Village des Animaux
-]]
+]],
 }
 
 dialog{
@@ -2705,7 +2764,7 @@ dialog{
   text = [[
 Maison aux      
 Coquillages
-]]
+]],
 }
 
 dialog{
@@ -2715,7 +2774,7 @@ Tu es près du Plateau
 Tartare.
 Le photographe n'est
 pas loin.
-]]
+]],
 }
 
 dialog{
@@ -2723,14 +2782,14 @@ dialog{
   text = [[
 Est : Mt Tamaranch  
 Ouest : Mrs Anémones
-]]
+]],
 }
 
 dialog{
   id = "maps.out.egg_of_the_dream_fish.sign_3",
   text = [[
 Mt Tamaranch
-]]
+]],
 }
 
 dialog{
@@ -2740,7 +2799,7 @@ J'suis un raton-laveur
 espiègle. Et j'aime pas
 du tout c'qu'est
 poudreux...
-]]
+]],
 }
 
 dialog{
@@ -2749,7 +2808,7 @@ dialog{
 Hé hé ! Tu vas te perdre
 dans la Forêt. Hi hi !
 Bien fait !!
-]]
+]],
 }
 
 dialog{
@@ -2762,7 +2821,7 @@ raton-laveur !
 Après, j'sais plus trop,
 mais c'était trop
 rigolo !!
-]]
+]],
 }
 
 dialog{
@@ -2772,7 +2831,7 @@ Attention au plancher
 fissuré.        
 Rondouillards : 
 abstenez-vous !
-]]
+]],
 }
 
 dialog{
@@ -2782,7 +2841,7 @@ Oh là là !! J'me sens
 tout drôle !
 Faut m'reposer avant 
 d'rentrer.
-]]
+]],
 }
 
 dialog{
@@ -2790,7 +2849,7 @@ dialog{
   text = [[
 Est : Chez Monique  
 Sud : Mare Bobo
-]]
+]],
 }
 
 dialog{
@@ -2798,7 +2857,7 @@ dialog{
   text = [[
 > Cimetière     
 v La Prairie
-]]
+]],
 }
 
 dialog{
@@ -2807,7 +2866,7 @@ dialog{
 Kiiiki ! Quoi ?   
 OK sale chien,  
 on va se battre !
-]]
+]],
 }
 
 dialog{
@@ -2817,7 +2876,7 @@ Kkkkk !
 Kiki le singe !  
 Kiki a faim !    
 Kkkkkk !
-]]
+]],
 }
 
 dialog{
@@ -2830,7 +2889,7 @@ Miam Miam !
 Pour Kiki ?      
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -2840,7 +2899,7 @@ Bananes, bananes !
 Kik i!     
 Les copains, venez !
 On va le remercier !
-]]
+]],
 }
 
 dialog{
@@ -2849,7 +2908,7 @@ dialog{
 Le pont des singes      
 est prêt !       
 Salut ! Kiki !
-]]
+]],
 }
 
 dialog{
@@ -2865,7 +2924,7 @@ mon gars ?
 
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -2878,7 +2937,7 @@ lancer.
 Dès que le poisson est     
 ferré, presse vite AïB
 pour le remonter !
-]]
+]],
 }
 
 dialog{
@@ -2887,7 +2946,7 @@ dialog{
   text = [[
 Vis ta vie !     
 Sois un peu plus motivé !
-]]
+]],
 }
 
 dialog{
@@ -2896,7 +2955,7 @@ dialog{
   text = [[
 YOUPI! J'ai la  
 pêche ! Et toi ? 
-]]
+]],
 }
 
 dialog{
@@ -2910,7 +2969,7 @@ voisine d'en
 face ! Que faire ?
 Moi, je ne sais 
 que balayer !!
-]]
+]],
 }
 
 dialog{
@@ -2925,7 +2984,7 @@ Heu, je n'en sais pas
 plus, je ne suis qu'un
 gosse !
 
-]]
+]],
 }
 
 dialog{
@@ -2936,7 +2995,7 @@ Où allez-vous tous les
 deux ? Mais non, je    
 n'insinue rien ! Moi, je 
 ne suis qu'un gosse !
-]]
+]],
 }
 
 dialog{
@@ -2950,7 +3009,7 @@ il y a un...
 Mais comme je ne suis
 qu'un gosse, je n'en  
 dirai pas plus !
-]]
+]],
 }
 
 dialog{
@@ -2965,7 +3024,7 @@ par laquelle vous êtes
 passé ! Pourquoi ? 
 Je n'en sais rien, 
 je suis un môme !
-]]
+]],
 }
 
 dialog{
@@ -2977,7 +3036,7 @@ l'île en appuyant
 sur SELECT. Après, je 
 ne sais pas trop car je
 ne suis qu'un gosse !
-]]
+]],
 }
 
 dialog{
@@ -2990,7 +3049,7 @@ dans une maison ou
 une grotte. Pourquoi ? 
 Je ne sais pas, je suis
 trop petit !
-]]
+]],
 }
 
 dialog{
@@ -3001,7 +3060,7 @@ M'sieu ! Que
 pensez-vous de Marine ? 
 Moi ? Ben ! Je ne suis 
 qu'un gosse !
-]]
+]],
 }
 
 dialog{
@@ -3012,7 +3071,7 @@ M'sieu! D'où vous
 venez ? De l'extérieur ? 
 Je ne connais pas ce 
 mot, je suis trop petit !
-]]
+]],
 }
 
 dialog{
@@ -3024,7 +3083,7 @@ Tamaranch ? Il paraît
 que le Poisson-Rêve    
 dort dedans. Je ne sais
 pas, je suis un môme !
-]]
+]],
 }
 
 dialog{
@@ -3038,7 +3097,7 @@ signifie : depuis
 quand ?   
 N'oubliez pas que je 
 ne suis qu'un gosse !
-]]
+]],
 }
 
 dialog{
@@ -3050,7 +3109,7 @@ toute seule regarder
 la mer. Pourquoi ? 
 Je ne sais pas moi,   
 je ne suis qu'un gosse !
-]]
+]],
 }
 
 dialog{
@@ -3077,7 +3136,7 @@ Ils ont pris Toutou !!
 Il vaudrait mieux que
 tu ailles voir ce qui
 s'est passé !
-]]
+]],
 }
 
 dialog{
@@ -3091,7 +3150,7 @@ champignons.
 Moi,je préfère chanter.        
 Ecoute ceci : c'est la 
 Ballade du Poisson-Rêve.
-]]
+]],
 }
 
 dialog{
@@ -3104,7 +3163,7 @@ maison. Je préfère
 chanter. Oui ! Pourquoi
 pas la Ballade du 
 Poisson-Rêve ?
-]]
+]],
 }
 
 dialog{
@@ -3114,7 +3173,7 @@ dialog{
 J'adore chanter!
 Et toi $v , qu'est-ce 
 que tu aimes ?
-]]
+]],
 }
 
 dialog{
@@ -3123,7 +3182,16 @@ dialog{
   text = [[
 Forêt Enchantée 
 (Un peu énigmatique)
-]]
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.thief_message",
+  text = [[
+Tu as pu sortir sans 
+payer ?  Tu n'as pas 
+honte, voyou ?!
+]],
 }
 
 dialog{
@@ -3131,7 +3199,7 @@ dialog{
   skip = "all",
   text = [[
 Ci-gît le Coq Volant.
-]]
+]],
 }
 
 dialog{
@@ -3140,7 +3208,7 @@ dialog{
 Une serrure ici?
 Hum, voyons :   
 Serrure Cyclope
-]]
+]],
 }
 
 dialog{
@@ -3150,7 +3218,7 @@ dialog{
 Est : Prairie   
 Plus à l'Est :  
 Village des Animaux
-]]
+]],
 }
 
 dialog{
@@ -3160,7 +3228,7 @@ dialog{
 Château Canulet 
 10 min. Vers l'Est,
 puis vers le Nord.
-]]
+]],
 }
 
 dialog{
@@ -3169,7 +3237,7 @@ dialog{
 Une serrure ici ?
 Hum, voyons :   
 Serrure Flagello
-]]
+]],
 }
 
 dialog{
@@ -3178,7 +3246,7 @@ dialog{
   text = [[
 Est : Cave Flagello 
 Sud : Plage Coco
-]]
+]],
 }
 
 dialog{
@@ -3188,7 +3256,7 @@ dialog{
 Attention aux oursins !    
 Se protéger avec un
 bouclier !
-]]
+]],
 }
 
 dialog{
@@ -3196,14 +3264,14 @@ dialog{
   text = [[
 SOUS TES PIEDS, DORT 
 UN SECRET.
-]]
+]],
 }
 
 dialog{
   id = "maps.out.south_prairie.sign_1",
   text = [[
 Villa de Richard
-]]
+]],
 }
 
 dialog{
@@ -3211,7 +3279,7 @@ dialog{
   text = [[
 Château Canulet 
 10 min. Est, puis Nord
-]]
+]],
 }
 
 dialog{
@@ -3219,7 +3287,7 @@ dialog{
   text = [[
 VA VOIR L'OEUF SACRE.
 IL REPOND AUX SONS.
-]]
+]],
 }
 
 dialog{
@@ -3227,7 +3295,7 @@ dialog{
   text = [[
 Accès interdit! 
 (sauf Toutou)
-]]
+]],
 }
 
 dialog{
@@ -3235,7 +3303,7 @@ dialog{
   text = [[
 Est : Mrs Anémones  
 Sud : Forêt Enchantée
-]]
+]],
 }
 
 dialog{
@@ -3243,7 +3311,7 @@ dialog{
   text = [[
 Est : Enfin !
 Vill. des Animaux
-]]
+]],
 }
 
 dialog{
@@ -3251,7 +3319,7 @@ dialog{
   text = [[
 ...
 Oh !
-]]
+]],
 }
 
 dialog{
@@ -3259,7 +3327,7 @@ dialog{
   text = [[
 DEBOUT !
 $0$0$0$0
-]]
+]],
 }
 
 dialog{
@@ -3274,7 +3342,7 @@ $v ?
 REVEILLE-TOI !
 ALLEZ !
 DEBOUT FEIGNASSE !
-]]
+]],
 }
 
 dialog{
@@ -3287,7 +3355,7 @@ Qu'est-ce que c'est
 que ça ?
 D'où ça vient ?
 Un naufrage ?
-]]
+]],
 }
 
 dialog{
@@ -3298,7 +3366,7 @@ dialog{
 Permet d'ouvrir
 la porte de
 l'abîme du poisson.
-]]
+]],
 }
 
 dialog{
@@ -3309,7 +3377,7 @@ dialog{
 Permet d'ouvrir
 la porte de la
 la tour du vautour.
-]]
+]],
 }
 
 dialog{
@@ -3322,7 +3390,7 @@ contre les ennemis
 ou pour faire
 exploser des
 obstacles.
-]]
+]],
 }
 
 dialog{
@@ -3335,7 +3403,7 @@ pour immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -3349,7 +3417,7 @@ immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -3359,7 +3427,7 @@ dialog{
   text = [[
 Tu n'as plus de
 Flèches !
-]]
+]],
 }
 
 dialog{
@@ -3370,7 +3438,7 @@ dialog{
 Tire des Flèches
 pour vaincre des
 ennemis coriaces.
-]]
+]],
 }
 
 dialog{
@@ -3381,7 +3449,7 @@ dialog{
 Un peu d'énergie
 pour croquer la vie
 à pleines dents !
-]]
+]],
 }
 
 dialog{
@@ -3392,7 +3460,7 @@ dialog{
 Permet d'ouvrir
 la porte du
 temple du masque.
-]]
+]],
 }
 
 dialog{
@@ -3403,7 +3471,7 @@ dialog{
 Utilise la Plume
 pour sauter et fran-
 chir des obstacles.
-]]
+]],
 }
 
 dialog{
@@ -3412,7 +3480,7 @@ dialog{
   skip = "all",
   text = [[
 Brûle tout !
-]]
+]],
 }
 
 dialog{
@@ -3423,7 +3491,7 @@ dialog{
 Les Palmes te
 permettent de nager
 dans l'eau profonde.
-]]
+]],
 }
 
 dialog{
@@ -3435,7 +3503,7 @@ Retrouvez toutes les
 feuilles d'or et
 apportez-les
 à Richard.
-]]
+]],
 }
 
 dialog{
@@ -3445,7 +3513,7 @@ dialog{
   text = [[
 Retournez et écrasez
 vos ennemis !
-]]
+]],
 }
 
 dialog{
@@ -3457,7 +3525,7 @@ Hisse-toi à des
 endroits
 inaccessibles grâce
 au Grappin.
-]]
+]],
 }
 
 dialog{
@@ -3466,7 +3534,7 @@ dialog{
   text = [[
 C'est le premier 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3475,7 +3543,7 @@ dialog{
   text = [[
 C'est le second 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3484,7 +3552,7 @@ dialog{
   text = [[
 C'est le troisième 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3493,7 +3561,7 @@ dialog{
   text = [[
 C'est le quatrième 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3502,7 +3570,7 @@ dialog{
   text = [[
 C'est le cinquième 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3511,7 +3579,7 @@ dialog{
   text = [[
 C'est le sixième 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3520,7 +3588,7 @@ dialog{
   text = [[
 C'est le septième 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3529,7 +3597,7 @@ dialog{
   text = [[
 C'est le huitième 
 instrument des sirènes.
-]]
+]],
 }
 
 dialog{
@@ -3540,7 +3608,7 @@ dialog{
 Essaie de la    
 saupoudrer sur  
 plein de choses !
-]]
+]],
 }
 
 dialog{
@@ -3551,7 +3619,7 @@ dialog{
 Une magnifique
 peluche en forme
 de Yoshi !
-]]
+]],
 }
 
 dialog{
@@ -3562,7 +3630,7 @@ dialog{
 Un balai
 pour faire le
 ménage...
-]]
+]],
 }
 
 dialog{
@@ -3572,7 +3640,7 @@ dialog{
   text = [[
 Un hameçon...
 Mais que faire avec ?
-]]
+]],
 }
 
 dialog{
@@ -3581,7 +3649,7 @@ dialog{
   skip = "all",
   text = [[
 Un jolie collier...
-]]
+]],
 }
 
 dialog{
@@ -3591,7 +3659,7 @@ dialog{
   text = [[
 Une écaille de sirène.
 Quelle chance !
-]]
+]],
 }
 
 dialog{
@@ -3604,7 +3672,7 @@ pour te montrer
 ce que tu ne    
 pouvais pas voir
 auparavant !
-]]
+]],
 }
 
 dialog{
@@ -3614,7 +3682,7 @@ dialog{
   text = [[
 Un beau beau ruban
 rose...
-]]
+]],
 }
 
 dialog{
@@ -3626,7 +3694,7 @@ De la patée pour
 chien...
 Mais qu'est-ce donc
 que ceci ?
-]]
+]],
 }
 
 dialog{
@@ -3636,7 +3704,7 @@ dialog{
   text = [[
 Un petit lot
 de bananes...
-]]
+]],
 }
 
 dialog{
@@ -3647,7 +3715,7 @@ dialog{
 Un bâton
 donné par un
 singe...
-]]
+]],
 }
 
 dialog{
@@ -3657,7 +3725,7 @@ dialog{
   text = [[
 Hmm le bon
 miel !
-]]
+]],
 }
 
 dialog{
@@ -3668,7 +3736,7 @@ dialog{
 Un ananas
 donné par
 un ours !
-]]
+]],
 }
 
 dialog{
@@ -3678,7 +3746,7 @@ dialog{
   text = [[
 Mais que faire
 avec cet hibiscus ?
-]]
+]],
 }
 
 dialog{
@@ -3688,7 +3756,7 @@ dialog{
   text = [[
 Une petite lettre
 à donner à quelqu'un.
-]]
+]],
 }
 
 dialog{
@@ -3699,7 +3767,7 @@ dialog{
 Une jolie mélodie
 que Marine vous
 a apprise !
-]]
+]],
 }
 
 dialog{
@@ -3710,7 +3778,7 @@ dialog{
 Une jolie mélodie
 que Mambo vous
 a apprise !
-]]
+]],
 }
 
 dialog{
@@ -3721,7 +3789,7 @@ dialog{
 Une jolie mélodie
 que Wart vous
 a apprise !
-]]
+]],
 }
 
 dialog{
@@ -3733,7 +3801,7 @@ Si tu brandis
 le Champignon,  
 un arôme subtil 
 se répandra !
-]]
+]],
 }
 
 dialog{
@@ -3745,7 +3813,7 @@ Jouez de la musique
 et mettez de
 l'ambiance dans 
 votre vie !
-]]
+]],
 }
 
 dialog{
@@ -3758,7 +3826,7 @@ grâce aux Bottes de
 Pégase.
 Appuie sur la touche
 Action pour courir.
-]]
+]],
 }
 
 dialog{
@@ -3769,7 +3837,7 @@ dialog{
 Collectionnes-les
 en souvenir de
 votre aventure !
-]]
+]],
 }
 
 dialog{
@@ -3779,7 +3847,7 @@ dialog{
 Collectionnes en 4
 pour récupérer un
 coeur supplémentaire !
-]]
+]],
 }
 
 dialog{
@@ -3790,7 +3858,7 @@ dialog{
 Ce bracelet vous 
 permet de porter 
 des choses lourdes !
-]]
+]],
 }
 
 dialog{
@@ -3802,7 +3870,7 @@ Ce bracelet vous
 permet de porter 
 des choses
 très lourdes !
-]]
+]],
 }
 
 dialog{
@@ -3813,7 +3881,7 @@ dialog{
 Collectes-en    
 beaucoup pour   
 faire du troc !
-]]
+]],
 }
 
 dialog{
@@ -3823,7 +3891,7 @@ dialog{
   text = [[
 Permet de repousser
 vos ennemis.
-]]
+]],
 }
 
 dialog{
@@ -3834,7 +3902,7 @@ dialog{
 Permet d'ouvrir
 la porte de
 la cave aux clefs
-]]
+]],
 }
 
 dialog{
@@ -3844,7 +3912,7 @@ dialog{
   text = [[
 Une belle épée avec
 ton nom écrit dessus.
-]]
+]],
 }
 
 dialog{
@@ -3855,7 +3923,7 @@ dialog{
 Permet d'ouvrir
 la porte de
 la cave Flagello
-]]
+]],
 }
 
 dialog{
@@ -3866,7 +3934,7 @@ dialog{
 Une tunique verte 
 pour le plus beau
 des héros !
-]]
+]],
 }
 
 dialog{
@@ -3877,7 +3945,7 @@ dialog{
 Une tunique bleue 
 pour le plus beau
 des héros !
-]]
+]],
 }
 
 dialog{
@@ -3888,7 +3956,7 @@ dialog{
 Une tunique rouge 
 pour le plus beau
 des héros !
-]]
+]],
 }
 
 dialog{
@@ -3897,7 +3965,7 @@ dialog{
 Voici un petit bonus.    
 Je restaure tous tes
 Coeurs !
-]]
+]],
 }
 
 dialog{
@@ -3920,7 +3988,7 @@ Forêt Enchantée, au
 Nord du village.
 Je t'y attends. 
 Hou hou !
-]]
+]],
 }
 
 dialog{
@@ -3950,7 +4018,7 @@ sait... Suis ton
 instinct. Ainsi,
 tu sauras...    
 Hou hou !
-]]
+]],
 }
 
 dialog{
@@ -3972,7 +4040,7 @@ Va à la tour
 de la montagne  
 en volant comme 
 un oiseau! Hou !
-]]
+]],
 }
 
 dialog{
@@ -3986,7 +4054,7 @@ Va vers l'Est.
 Le Poisson du   
 Vent a besoin de
 sommeil. 
-]]
+]],
 }
 
 dialog{
@@ -4007,7 +4075,7 @@ plus son sommeil
 est agité...    
 Tu es dans la   
 bonne voie. Hou !
-]]
+]],
 }
 
 dialog{
@@ -4032,7 +4100,7 @@ Sois brave !
 Le Poisson-Rêve 
 attend...       
 Hou hou !
-]]
+]],
 }
 
 dialog{
@@ -4043,7 +4111,7 @@ Le Poisson-Rêve
 t'attend. Entre 
 dans l'Oeuf...  
 Hou hou!
-]]
+]],
 }
 
 dialog{
@@ -4068,7 +4136,7 @@ avec la Clé cachée
 dans la Forêt.
 Le Poisson-Rêve te
 regarde. Hou !
-]]
+]],
 }
 
 dialog{
@@ -4082,7 +4150,7 @@ qui y est dissimulé.
 Dépêche-toi !    
 Le Poisson-Rêve 
 attend! Hou !
-]]
+]],
 }
 
 dialog{
@@ -4110,7 +4178,7 @@ va au Marais
 des Anémones,   
 situé au Nord !  
 Hou !
-]]
+]],
 }
 
 dialog{
@@ -4123,7 +4191,7 @@ N'oublie pas,le
 2ème Instrument 
 se trouve dans  
 le Marais !
-]]
+]],
 }
 
 dialog{
@@ -4143,7 +4211,7 @@ Ainsi seulement,
 pourras-tu      
 quitter l'île...
 Hou! !
-]]
+]],
 }
 
 dialog{
@@ -4167,7 +4235,7 @@ des sables
 t'indiquera     
 le chemin !      
 Hou hou !
-]]
+]],
 }
 
 dialog{
@@ -4182,7 +4250,7 @@ une cascade. Va
 fais disparaître
 l'eau et        
 saute du sommet.
-]]
+]],
 }
 
 dialog{
@@ -4199,6 +4267,6 @@ parlent
 du Poisson-Rêve.
 Tu en sauras    
 sûrement plus...
-]]
+]],
 }
 
