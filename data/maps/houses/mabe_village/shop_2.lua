@@ -8,6 +8,7 @@ local companion_manager = require("scripts/maps/companion_manager")
 local map = ...
 local game = map:get_game()
 local merchant_move = false
+local link_move = false
 
 -- Methods - Functions
 
@@ -95,12 +96,28 @@ function map:on_started(destination)
   map:init_merchant()
   companion_manager:init_map(map)
   shop_manager:init(map)
-  local product = {"shovel", 1, 200, "shovel"}
-  shop_manager:add_product(map, product, placeholder_1)
-  local product = {"heart", 1, 10, "heart"}
+  local item_shovel = game:get_item("shovel")
+  local variant_shovel = item_shovel:get_variant()
+  local item_bow = game:get_item("bow")
+  local variant_bow = item_bow:get_variant()
+  if variant_shovel == 0 then
+    local product = {"shovel", 1, 200, 1, "shovel"}
+    shop_manager:add_product(map, product, placeholder_1)
+  elseif variant_shovel >= 1 and variant_bow == 0 then 
+    local product = {"bow", 1, 980, 1, "bow"}
+    shop_manager:add_product(map, product, placeholder_1)
+  elseif variant_shovel >= 1 and variant_bow >= 1 then 
+    local product = {"arrow", 1, 10, 10, "arrow"}
+    shop_manager:add_product(map, product, placeholder_1)
+  end
+  local product = {"heart", 1, 10, 3, "heart"}
   shop_manager:add_product(map, product, placeholder_2)
-  local product = {"shield", 1, 50, "shield"}
+  local product = {"shield", 1, 50, 1, "shield"}
   shop_manager:add_product(map, product, placeholder_3)
+  if variant_shovel >=1 then 
+    local product = {"bomb", 1, 10, 10, "bombs"}
+    shop_manager:add_product(map, product, placeholder_4)
+  end
 
 end
 
@@ -109,6 +126,7 @@ function exit_sensor:on_activated()
   if map.shop_manager_product ~= nil then
     local direction4 = merchant:get_sprite():get_direction()
     if direction4 == 2 or direction4 == 3 then
+      link_move = true
       game:start_dialog("maps.houses.mabe_village.shop_2.merchant_2", function()
         local x_initial,y_initial = hero_invisible:get_position()
         local movement = sol.movement.create("straight")
@@ -123,6 +141,7 @@ function exit_sensor:on_activated()
         end
         function movement:on_finished()
           hero_invisible:set_position(x_initial, y_initial)
+          link_move = false
         end
       end)
     else
@@ -156,6 +175,9 @@ map:register_event("on_command_pressed", function(map, command)
         merchant:get_sprite():set_direction(direction4)
         shop_manager:buy_product(map, map.shop_manager_product)
       end
+    elseif (command == "up" or command == "down" or command == "left" or command == "right") and link_move == true then
+      print("ok")
+      return true
     end
 
 end)

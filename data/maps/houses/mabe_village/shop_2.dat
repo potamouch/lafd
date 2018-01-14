@@ -397,7 +397,7 @@ wall{
 custom_entity{
   name = "placeholder_1",
   layer = 0,
-  x = 88,
+  x = 96,
   y = 77,
   width = 16,
   height = 16,
@@ -427,7 +427,7 @@ custom_entity{
 custom_entity{
   name = "placeholder_4",
   layer = 0,
-  x = 232,
+  x = 224,
   y = 77,
   width = 16,
   height = 16,
@@ -462,6 +462,14 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/shop_office",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 149,
+  treasure_name = "shovel",
+  sprite = "entities/chest",
 }
 
 tile{

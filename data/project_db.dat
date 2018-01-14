@@ -184,6 +184,7 @@ sprite{ id = "entities/book_orange", description = "Book orange" }
 sprite{ id = "entities/book_red", description = "Book red" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
+sprite{ id = "entities/bow", description = "Bow" }
 sprite{ id = "entities/bush", description = "Bush" }
 sprite{ id = "entities/bush_grass", description = "Bush grass" }
 sprite{ id = "entities/camera", description = "Camera" }

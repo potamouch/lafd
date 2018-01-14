@@ -2082,6 +2082,19 @@ regretter...
 }
 
 dialog{
+  id = "maps.houses.mabe_village.shop_2.product_bombs",
+  question = "1",
+  text = [[
+10 Bombes   
+10 rubis !   
+
+
+Oui
+Non
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.shop_2.product_heart",
   question = "1",
   text = [[

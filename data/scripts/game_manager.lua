@@ -23,7 +23,13 @@ function game_manager:create(file)
   end
 
   function game:get_player_name()
-    return self:get_value("player_name")
+
+    local name = self:get_value("player_name")
+    local hero_is_thief = game:get_value("hero_is_thief")
+    if hero_is_thief then
+      name = sol.language.get_string("game.thief")
+    end
+    return name
   end
 
   function game:set_player_name(player_name)

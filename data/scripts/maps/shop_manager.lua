@@ -1,4 +1,5 @@
 local shop_manager = {}
+local language_manager = require("scripts/language_manager")
 
 local map
 
@@ -38,7 +39,7 @@ function shop_manager:buy_product(map, product)
        
   local game = map:get_game()
   local product_table = map.shop_manager_products[product]
-  local product_key, product_variant, product_price,product_dialog_id = unpack(product_table["product"])
+  local product_key, product_variant, product_price, product_quantity, product_dialog_id = unpack(product_table["product"])
   game:start_dialog("maps.houses.mabe_village.shop_2.product" .. "_" .. product_dialog_id, function(answer)
     if answer == 1 then
       local error = false
@@ -72,12 +73,13 @@ function shop_manager:add_product(map, product, placeholder)
 
         local game = map:get_game()
         game:set_custom_command_effect("action", nil)
-        local item, variant, price = unpack(product)
+        local item, variant, price, quantity = unpack(product)
         item = "entities/" .. item
         local hero = map:get_hero()
         placeholder:set_enabled(false)
         local x,y,layer= placeholder:get_position()
         local surface = sol.surface.create(320, 256)
+        local font = language_manager:get_menu_font(id)
         local destructible = map:create_destructible{
                     sprite = item,
                     x = x,
@@ -88,6 +90,15 @@ function shop_manager:add_product(map, product, placeholder)
           horizontal_alignment = "center",
           text = price
         })
+        local quantity_text = nil
+        if quantity > 1 then
+          quantity_text = sol.text_surface.create({
+            font = font,
+            text = "x" .. quantity,
+            font_size = 8,
+            color = {255,255,255}
+          })
+        end
         local entity = map:create_custom_entity{
                     x = x,
                     y = y,
@@ -107,7 +118,11 @@ function shop_manager:add_product(map, product, placeholder)
 
         function entity:on_pre_draw()
 
-           map:draw_visual(price_text, x, y- 16)
+           map:draw_visual(price_text, x, y - 20)
+           if quantity_text ~= nil then
+            map:draw_visual(quantity_text, x + 5, y - 4)
+           end
+
         end
 
            map.shop_manager_products[item]= {
@@ -118,6 +133,7 @@ function shop_manager:add_product(map, product, placeholder)
             item = item,
             product = product,
             variant = variant,
+            quantity_text = quantity_text, 
             price_text = price_text        
           }
         

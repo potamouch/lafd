@@ -1,3 +1,4 @@
+text{ key = "game.thief", value = "VOYOU" }
 text{ key = "inventory.caption.item.angler_key.1", value = "Clé poisson" }
 text{ key = "inventory.caption.item.bird_key.1", value = "Clé vautour" }
 text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
