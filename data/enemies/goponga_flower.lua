@@ -25,6 +25,8 @@ function enemy:on_created()
   enemy:set_life(1)
   enemy:set_damage(1)
   enemy:set_invincible(true)
+  enemy:set_attacking_collision_mode("touching")
+
 end
 
 -- Event called when the enemy should start or restart its movements.

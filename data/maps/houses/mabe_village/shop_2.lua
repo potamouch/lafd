@@ -65,6 +65,7 @@ function map:init_merchant()
   local thief_must_die = game:get_value("thief_must_die")
   if thief_must_die then
     merchant:set_enabled(false)
+    game:set_value("thief_must_die", false)
     game:start_dialog("maps.houses.mabe_village.shop_2.merchant_5", function()
       game:set_life(0)
     end)

@@ -182,7 +182,7 @@ end
 function map_meta:is_digging_allowed()
 
   if self.is_diggable == nil then
-    return true
+    return false
   end
 
   return self.is_diggable

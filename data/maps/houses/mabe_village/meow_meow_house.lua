@@ -100,6 +100,9 @@ end
 
 function map:on_started(destination)
 
+  -- Digging
+  map:set_digging_allowed(true)
+
   map:set_music()
   map:launch_small_bowwow()
 
