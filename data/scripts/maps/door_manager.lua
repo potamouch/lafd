@@ -77,6 +77,23 @@ function door_manager:open_when_blocks_moved(map, block_prefix, door_prefix)
 
 end
 
+-- Open doors when a switch in the room is activated
+function door_manager:open_when_switch_activated(map, switch_prefix, door_prefix)
+
+      local function switch_on_activated(switch)
+        if not switch.is_activated then
+          switch.is_activated = true
+          map:open_doors(door_prefix)
+          sol.audio.play_sound("secret_1")
+        end
+       end
+      for switch in map:get_entities(switch_prefix) do
+        switch.is_activated = false
+        switch.on_activated = switch_on_activated
+      end
+
+end
+
 -- Open doors when a block in the room are moved
 function door_manager:open_when_block_moved(map, block_prefix, door_prefix)
 

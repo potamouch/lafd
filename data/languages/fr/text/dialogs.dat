@@ -1413,7 +1413,7 @@ dialog{
   id = "maps.dungeons.6.welcome",
   text = [[
         Niveau 6       
-  Temple du masque
+    Temple du masque
 ]],
 }
 

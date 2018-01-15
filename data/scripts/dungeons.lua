@@ -167,6 +167,20 @@ local function initialize_dungeon_features(game)
           y = 720 + 365,
           savegame_variable = "dungeon_4_boss",
         }
+      },
+ [5] = {
+        lowest_floor = 0,
+        highest_floor = 0,
+        rows = 7,
+        cols= 8,
+        secrets = {
+        },
+        boss = {
+          floor = 0,
+          x = 640 + 1440,
+          y = 720 + 365,
+          savegame_variable = "dungeon_6_boss",
+        }
       }
     }
 

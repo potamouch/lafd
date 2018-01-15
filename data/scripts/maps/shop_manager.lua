@@ -24,6 +24,8 @@ function shop_manager:init(map)
 
 end
 
+-- Clear a product in the shop
+
 function shop_manager:reset_product(map, product)
 
   local hero = map:get_hero()
@@ -34,6 +36,8 @@ function shop_manager:reset_product(map, product)
   map.shop_manager_product = nil
 
 end
+
+-- Buy a product in the shop
 
 function shop_manager:buy_product(map, product)
        
@@ -69,6 +73,8 @@ function shop_manager:buy_product(map, product)
 
 end
 
+-- Add a product in the shop
+
 function shop_manager:add_product(map, product, placeholder)
 
         local game = map:get_game()
@@ -86,6 +92,7 @@ function shop_manager:add_product(map, product, placeholder)
                     y = y,
                     layer = layer
          }
+        destructible:get_sprite():set_direction(1)
         local price_text = sol.text_surface.create({
           horizontal_alignment = "center",
           text = price
@@ -138,6 +145,8 @@ function shop_manager:add_product(map, product, placeholder)
           }
         
 end
+
+-- Add a product in the shop
 
 function shop_manager:remove_product(map, item)
 

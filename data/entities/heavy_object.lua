@@ -13,9 +13,9 @@ end
 function entity:on_interaction()
 
   local lift = 1
-  --if self:get_sprite():get_name() == "entities/statue_dungeon_6" then
---    lift = 2
- -- end
+  if self:get_sprite():get_name() == "entities/statue_dungeon_6" then
+    lift = 2
+  end
   if game:get_ability("lift") < lift then
     return
   end
