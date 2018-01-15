@@ -53,6 +53,9 @@ treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_9", "pickab
 door_manager:open_when_enemies_dead(map,  "enemy_group_1",  "door_group_1")
 door_manager:open_when_switch_activated(map,  "switch_1",  "door_group_2")
 door_manager:open_when_pot_break(map, "door_group_3")
+door_manager:open_when_pot_break(map, "door_group_5")
+door_manager:open_when_pot_break(map, "door_group_6")
+door_manager:open_when_enemies_dead(map,  "enemy_group_2",  "door_group_4")
 
 
 -- Separator events
