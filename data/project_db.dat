@@ -143,6 +143,7 @@ sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
 sprite{ id = "enemies/death_ball", description = "Death ball" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/fireball", description = "Fireball" }
+sprite{ id = "enemies/flying_tile", description = "Flying tile" }
 sprite{ id = "enemies/giant_goponga_flower", description = "Giant Goponga Flower" }
 sprite{ id = "enemies/goomba", description = "Goomba" }
 sprite{ id = "enemies/goponga_flower", description = "Goponga flower" }
@@ -208,8 +209,11 @@ sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
 sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
 sprite{ id = "entities/entrance_dungeon_4", description = "Entrance dungeon 4" }
 sprite{ id = "entities/entrance_dungeon_5", description = "Entrance dungeon 5" }
+sprite{ id = "entities/entrance_dungeon_7", description = "Entrance dungeon 7" }
+sprite{ id = "entities/entrance_dungeon_7_door", description = "Entrance dungeon 7 door" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
+sprite{ id = "entities/fish_manbo", description = "Fish Manbo" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/green_cristal", description = "Green cristal" }
 sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake brown" }
@@ -231,10 +235,12 @@ sprite{ id = "entities/movies/swell", description = "Swell" }
 sprite{ id = "entities/movies/wreck", description = "Wreck" }
 sprite{ id = "entities/non_diggable", description = "Diggable" }
 sprite{ id = "entities/notes", description = "Notes" }
+sprite{ id = "entities/numbers", description = "Numbers" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/outside_ladder", description = "Outside ladder" }
 sprite{ id = "entities/owl", description = "Owl" }
 sprite{ id = "entities/owl_blue", description = "Owl blue" }
+sprite{ id = "entities/owl_out", description = "Owl out" }
 sprite{ id = "entities/palm", description = "Palm" }
 sprite{ id = "entities/palm_footer_brown", description = "Palm footer brown" }
 sprite{ id = "entities/palm_footer_green", description = "Palm footer green" }
@@ -663,7 +669,9 @@ enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "chicken_mortal", description = "Chicken mortal" }
 enemy{ id = "death_ball", description = "Death ball" }
+enemy{ id = "evil_tile", description = "Evile tile" }
 enemy{ id = "fireball", description = "Fireball" }
+enemy{ id = "flying_tile", description = "Flying tile" }
 enemy{ id = "generic_towards_hero", description = "generic_towards_hero" }
 enemy{ id = "generic_waiting_for_hero", description = "generic_waiting_for_hero" }
 enemy{ id = "giant_goponga_flower", description = "Giant goponga flower" }
@@ -698,6 +706,7 @@ entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }
 entity{ id = "heart_fly", description = "Heart fly" }
 entity{ id = "heavy_object", description = "Heavy object" }
+entity{ id = "heavy_statue", description = "Heavy statue" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }

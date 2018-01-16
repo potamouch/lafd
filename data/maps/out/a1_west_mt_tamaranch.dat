@@ -11239,7 +11239,7 @@ enemy{
 npc{
   layer = 0,
   x = 248,
-  y = 301,
+  y = 293,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl_blue",

@@ -19,6 +19,8 @@ local switch_manager = require("scripts/maps/switch_manager")
 local enemy_manager = require("scripts/maps/enemy_manager")
 local separator_manager = require("scripts/maps/separator_manager")
 local owl_manager = require("scripts/maps/owl_manager")
+local flying_tile_manager = require("scripts/maps/flying_tile_manager")
+--flying_tile_manager:create_flying_tiles(map, "enemy_group_11")
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -51,10 +53,12 @@ treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_9", "pickab
 -- Doors
 
 door_manager:open_when_enemies_dead(map,  "enemy_group_1",  "door_group_1")
+door_manager:open_when_enemies_dead(map,  "enemy_group_11_enemy",  "door_group_7")
 door_manager:open_when_switch_activated(map,  "switch_1",  "door_group_2")
 door_manager:open_when_pot_break(map, "door_group_3")
 door_manager:open_when_pot_break(map, "door_group_5")
 door_manager:open_when_pot_break(map, "door_group_6")
+door_manager:open_when_pot_break(map, "door_group_8")
 door_manager:open_when_enemies_dead(map,  "enemy_group_2",  "door_group_4")
 
 
@@ -93,7 +97,6 @@ auto_separator_17:register_event("on_activating", function(separator, direction4
     end)
   end
 end)
-
 
 separator_manager:manage_map(map)
 owl_manager:manage_map(map)

@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/entrance_dungeon_7.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
+  },
+}

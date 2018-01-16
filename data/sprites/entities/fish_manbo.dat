@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/fish_manbo.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13 },
+  },
+}

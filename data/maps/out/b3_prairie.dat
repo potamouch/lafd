@@ -19042,7 +19042,7 @@ wall{
 
 wall{
   layer = 0,
-  x = 328,
+  x = 344,
   y = 608,
   width = 40,
   height = 16,
@@ -19298,7 +19298,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/statue_dungeon_3",
+  sprite = "entities/statue_big_dungeon_3",
   model = "obstacle",
 }
 
@@ -19309,16 +19309,8 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/statue_dungeon_3",
+  sprite = "entities/statue_big_dungeon_3",
   model = "obstacle",
-}
-
-chest{
-  layer = 0,
-  x = 840,
-  y = 165,
-  treasure_name = "bombs_counter",
-  sprite = "entities/chest",
 }
 
 custom_entity{
