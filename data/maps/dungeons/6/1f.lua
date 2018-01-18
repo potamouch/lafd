@@ -13,14 +13,13 @@ local game = map:get_game()
 local is_small_boss_active = false
 local is_boss_active = false
 
+local flying_tile_manager = require("scripts/maps/flying_tile_manager")
 local door_manager = require("scripts/maps/door_manager")
 local treasure_manager = require("scripts/maps/treasure_manager")
 local switch_manager = require("scripts/maps/switch_manager")
 local enemy_manager = require("scripts/maps/enemy_manager")
 local separator_manager = require("scripts/maps/separator_manager")
 local owl_manager = require("scripts/maps/owl_manager")
-local flying_tile_manager = require("scripts/maps/flying_tile_manager")
---flying_tile_manager:create_flying_tiles(map, "enemy_group_11")
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -39,6 +38,7 @@ function map:on_opening_transition_finished(destination)
   if destination == dungeon_6_1_B then
     map:set_doors_open("door_group_1", true)
     map:set_doors_open("door_group_3", true)
+    map:set_doors_open("door_group_7", true)
     game:start_dialog("maps.dungeons.6.welcome")
   end
 
@@ -52,17 +52,137 @@ treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_9", "pickab
 
 -- Doors
 
-door_manager:open_when_enemies_dead(map,  "enemy_group_1",  "door_group_1")
-door_manager:open_when_enemies_dead(map,  "enemy_group_11_enemy",  "door_group_7")
+door_manager:open_when_flying_tiles_dead(map,  "enemy_group_11_enemy",  "door_group_7")
 door_manager:open_when_switch_activated(map,  "switch_1",  "door_group_2")
 door_manager:open_when_pot_break(map, "door_group_3")
 door_manager:open_when_pot_break(map, "door_group_5")
 door_manager:open_when_pot_break(map, "door_group_6")
 door_manager:open_when_pot_break(map, "door_group_8")
+door_manager:open_when_enemies_dead(map,  "enemy_group_1",  "door_group_1")
 door_manager:open_when_enemies_dead(map,  "enemy_group_2",  "door_group_4")
+door_manager:open_when_enemies_dead(map,  "enemy_group_12",  "door_group_8")
+door_manager:open_when_enemies_dead(map,  "enemy_group_12",  "door_group_10", false)
+door_manager:open_when_enemies_dead(map,  "enemy_group_12",  "door_group_17", false)
+-- Sensors events
+function sensor_1:on_activated()
 
+  flying_tile_manager:init(map, "enemy_group_11")
+
+end
+
+function sensor_2:on_activated()
+
+  if flying_tile_manager.is_launch == false then
+    map:close_doors("door_group_7")
+    flying_tile_manager:launch(map, "enemy_group_11")
+ end
+
+end
+
+function sensor_3:on_activated()
+
+  flying_tile_manager:reset(map, "enemy_group_11")
+
+end
+
+function sensor_4:on_activated()
+
+  flying_tile_manager:init(map, "enemy_group_11")
+  map:set_doors_open("door_group_8", true)
+
+end
+
+function sensor_5:on_activated()
+
+  if flying_tile_manager.is_launch == false then
+    map:close_doors("door_group_7")
+    flying_tile_manager:launch(map, "enemy_group_11")
+ end
+
+end
+
+function sensor_6:on_activated()
+
+  flying_tile_manager:reset(map, "enemy_group_11")
+  local direction4 = hero:get_direction()
+  if direction4 == 1 then
+    map:close_doors("door_group_8")
+  end
+
+end
+
+function sensor_7:on_activated()
+
+  local direction4 = hero:get_direction()
+  if direction4 == 0 then
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_8")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_10")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_17")
+  end
+
+end
+
+function sensor_8:on_activated()
+
+  local direction4 = hero:get_direction()
+  if direction4 == 3 then
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_8")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_10")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_17")
+  end
+
+end
+
+function sensor_9:on_activated()
+
+  local direction4 = hero:get_direction()
+  if direction4 == 1 then
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_8")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_10")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_12", "door_group_17")
+  end
+
+end
+
+function sensor_10:on_activated()
+
+  flying_tile_manager:reset(map, "enemy_group_11")
+  map:set_doors_open("door_group_8", true)
+  map:set_doors_open("door_group_10", true)
+  map:set_doors_open("door_group_17", true)
+  local direction4 = hero:get_direction()
+  if direction4 == 1 then
+      map:close_doors("door_group_8")
+  end
+
+end
+
+function sensor_11:on_activated()
+
+    map:set_doors_open("door_group_8", true)
+    map:set_doors_open("door_group_10", true)
+    map:set_doors_open("door_group_17", true)
+
+end
+
+
+function sensor_12:on_activated()
+
+    map:set_doors_open("door_group_8", true)
+    map:set_doors_open("door_group_10", true)
+    map:set_doors_open("door_group_17", true)
+
+end
+
+function sensor_13:on_activated()
+
+    local x,y = infinite_hallway:get_position()
+    hero:set_position(x,y)
+
+end
 
 -- Separator events
+
 
 auto_separator_14:register_event("on_activating", function(separator, direction4)
   local x, y = hero:get_position()
@@ -100,3 +220,4 @@ end)
 
 separator_manager:manage_map(map)
 owl_manager:manage_map(map)
+--flying_tile_manager:create_flying_tiles(map, "enemy_group_11")

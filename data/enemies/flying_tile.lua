@@ -7,11 +7,13 @@ local state = nil  -- "raising", "attacking" or "destroying".
 function enemy:on_created()
 
   self:set_life(1)
-  self:set_damage(4)
+  self:set_damage(2)
+  self:set_enabled(false)
+  self.state = state
 
   local sprite = self:create_sprite("enemies/" .. enemy:get_breed())
   function sprite:on_animation_finished(animation)
-    if state == "destroying" then
+    if enemy.state == "destroying" then
       enemy:remove()
     end
   end
@@ -35,7 +37,7 @@ function enemy:on_restarted()
   m:set_speed(16)
   m:start(self)
   sol.timer.start(self, 2000, function() self:go_hero() end)
-  state = "raising"
+  enemy.state = "raising"
 end
 
 function enemy:go_hero()
@@ -46,7 +48,7 @@ function enemy:go_hero()
   m:set_angle(angle)
   m:set_smooth(false)
   m:start(self)
-  state = "attacking"
+  enemy.state = "attacking"
 end
 
 function enemy:on_obstacle_reached()
@@ -55,15 +57,15 @@ end
 
 function enemy:on_custom_attack_received(attack, sprite)
 
-  if state == "attacking" then
+  if enemy.state == "attacking" then
     self:disappear()
   end
 end
 
 function enemy:disappear()
 
-  if state ~= "destroying" then
-    state = "destroying"
+  if enemy.state ~= "destroying" then
+    enemy.state = "destroying"
     local sprite = self:get_sprite()
     self:set_attack_consequence("sword", "ignored")
     self:set_can_attack(false)
@@ -71,15 +73,18 @@ function enemy:disappear()
     sprite:set_animation("destroy")
     sol.audio.play_sound("stone")
     sol.timer.stop_all(self)
+    if enemy.on_flying_tile_dead ~= nil then
+      enemy:on_flying_tile_dead()
+    end
   end
 end
 
 function enemy:on_pre_draw()
 
   -- Show the shadow.
-  if state ~= "destroying" then
+  if enemy.state ~= "destroying" then
     local x, y = self:get_position()
-    if state == "attacking" then
+    if enemy.state == "attacking" then
       y = y + 16
     else
       y = initial_y or y

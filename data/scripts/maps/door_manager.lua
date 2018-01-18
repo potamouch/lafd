@@ -4,19 +4,45 @@ local door_manager = {}
 
 
 -- Open doors when all ennemis in the room are dead
-function door_manager:open_when_enemies_dead(map, enemy_prefix, door_prefix)
+function door_manager:open_when_enemies_dead(map, enemy_prefix, door_prefix, sound)
 
 
   local function enemy_on_dead()
 
+    if sound == nil then
+      sound = true
+    end
     if not map:has_entities(enemy_prefix) then
         map:open_doors(door_prefix)
-        sol.audio.play_sound("secret_1")
+        if sound then
+          sol.audio.play_sound("secret_1")
+        end
    end
   end
-
    for enemy in map:get_entities(enemy_prefix) do
-     enemy.on_dead = enemy_on_dead
+     --enemy.on_dead = enemy_on_dead
+     enemy:register_event("on_dead", enemy_on_dead)
+   end
+
+end
+
+-- Open doors when all flying tiles in the room are dead
+function door_manager:open_when_flying_tiles_dead(map, enemy_prefix, door_prefix)
+
+    local function enemy_on_flying_tile_dead()
+     local open_door = true
+     for enemy in map:get_entities(enemy_prefix) do
+       if enemy.state ~= "destroying" then
+        open_door = false
+       end
+     end
+     if open_door then
+        map:open_doors(door_prefix)
+        sol.audio.play_sound("secret_1")
+     end
+  end
+   for enemy in map:get_entities(enemy_prefix) do
+     enemy.on_flying_tile_dead = enemy_on_flying_tile_dead
    end
 
 end
