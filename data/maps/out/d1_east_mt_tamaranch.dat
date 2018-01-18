@@ -9,6 +9,114 @@ properties{
   tileset = "out/outside",
 }
 
+tile{
+  layer = 0,
+  x = -16,
+  y = 192,
+  width = 16,
+  height = 8,
+  pattern = "1754",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "1752",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "1753",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 312,
+  width = 16,
+  height = 8,
+  pattern = "1751",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "111",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "3974",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 736,
+  width = 16,
+  height = 32,
+  pattern = "1069",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "969",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1016",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "955",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "918",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "919",
+}
+
 teletransporter{
   name = "to_d2",
   layer = 0,
