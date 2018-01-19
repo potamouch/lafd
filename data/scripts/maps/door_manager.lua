@@ -150,6 +150,30 @@ function door_manager:open_when_pot_break(map, door_prefix)
 
 end
 
+-- Destroy wall by explosion
+function door_manager:destroy_wall(map, weak_wall_prefix)
+
+    local game = map:get_game()
+    local dungeon = game:get_dungeon_index()
+    if game:get_value("dungeon_" .. dungeon .. "_" .. weak_wall_prefix) == nil then
+      game:set_value("dungeon_" .. dungeon .. "_" .. weak_wall_prefix, true)
+      map:remove_entities(weak_wall_prefix)
+      sol.audio.play_sound("secret_1")
+    end
+
+end
+
+-- Destroy wall by explosion
+function door_manager:check_destroy_wall(map, weak_wall_prefix)
+
+    local game = map:get_game()
+    local dungeon = game:get_dungeon_index()
+    if game:get_value("dungeon_" .. dungeon .. "_" .. weak_wall_prefix) == true then
+      map:remove_entities(weak_wall_prefix)
+    end
+
+end
+
 -- Open doors when all torches in the room are lit
 function door_manager:open_when_torches_lit(map, torch_prefix, door_prefix)
 

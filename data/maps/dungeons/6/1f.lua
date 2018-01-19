@@ -27,7 +27,10 @@ function map:on_started()
   -- Init music
   game:play_dungeon_music()
   treasure_manager:disappear_pickable(map, "pickable_small_key_1")
+  treasure_manager:disappear_pickable(map, "pickable_small_key_2")
   treasure_manager:appear_chest_if_savegame_exist(map, "chest_map",  "dungeon_6_map")
+  door_manager:check_destroy_wall(map, "weak_wall_group_1")
+  door_manager:check_destroy_wall(map, "weak_wall_group_15")
 
 end
 
@@ -48,6 +51,7 @@ end
 
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_5", "chest_map")
 treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_9", "pickable_small_key_1", nil)
+treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_29", "pickable_small_key_2", nil)
 
 
 -- Doors
@@ -181,6 +185,36 @@ function sensor_13:on_activated()
 
 end
 
+function sensor_14:on_collision_explosion()
+
+   door_manager:destroy_wall(map, "weak_wall_group_1")
+
+end
+
+function sensor_15:on_collision_explosion()
+
+   door_manager:destroy_wall(map, "weak_wall_group_2")
+
+end
+
+function sensor_16:on_activated()
+
+  flying_tile_manager:reset(map, "enemy_group_29")
+
+end
+
+function sensor_17:on_activated()
+
+  flying_tile_manager:init(map, "enemy_group_29")
+
+end
+
+function sensor_18:on_activated()
+
+  flying_tile_manager:launch(map, "enemy_group_29")
+
+end
+
 -- Separator events
 
 
@@ -220,4 +254,3 @@ end)
 
 separator_manager:manage_map(map)
 owl_manager:manage_map(map)
---flying_tile_manager:create_flying_tiles(map, "enemy_group_11")

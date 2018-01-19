@@ -11,6 +11,7 @@ function enemy:on_created()
   self:set_damage(1)
   self:create_sprite("enemies/fireball")
   self:set_invincible()
+  self:set_obstacle_behavior("flying")
   sprite = enemy:get_sprite()
   local direction = sprite:get_direction()
   angle = math.pi /2 * direction

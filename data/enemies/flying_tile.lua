@@ -9,6 +9,7 @@ function enemy:on_created()
   self:set_life(1)
   self:set_damage(2)
   self:set_enabled(false)
+  self:set_obstacle_behavior("flying")
   self.state = state
 
   local sprite = self:create_sprite("enemies/" .. enemy:get_breed())

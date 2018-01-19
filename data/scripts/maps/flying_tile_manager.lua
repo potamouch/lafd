@@ -10,6 +10,7 @@ function flying_tile_manager:init(map, enemy_prefix)
       flying_tile_manager.is_init = true
       map:set_entities_enabled(enemy_prefix .. "_enemy", false)
       map:set_entities_enabled(enemy_prefix .. "_after", false)
+      map:set_entities_enabled(enemy_prefix .. "_before", true)
     end
 
 end
@@ -23,6 +24,7 @@ function flying_tile_manager:reset(map, enemy_prefix)
     flying_tile_manager.is_init = false
     map:set_entities_enabled(enemy_prefix .. "_enemy", false)
     map:set_entities_enabled(enemy_prefix .. "_after", false)
+      map:set_entities_enabled(enemy_prefix .. "_before", true)
      for enemy in map:get_entities(enemy_prefix) do
         sol.timer.stop_all(enemy)
      end
@@ -42,12 +44,19 @@ function flying_tile_manager:launch(map, enemy_prefix)
       if map:get_entity(enemy_prefix .. "_after_" .. next_index) ~= nil then
         map:get_entity(enemy_prefix .. "_after_" .. next_index):set_enabled(true)
       end
+      if map:get_entity(enemy_prefix .. "_before_" .. next_index .. "_1") ~= nil then
+        map:get_entity(enemy_prefix .. "_before_" .. next_index .. "_1"):set_enabled(false)
+      end
+      if map:get_entity(enemy_prefix .. "_before_" .. next_index .. "_2") ~= nil then
+        map:get_entity(enemy_prefix .. "_before_" .. next_index .. "_2"):set_enabled(false)
+      end
       next_index = next_index + 1
     end
     local total = map:get_entities_count(enemy_prefix .. "_enemy")
-    local spawn_delay = 50  -- Delay between two flying tiles.
+    local spawn_delay = 1500  -- Delay between two flying tiles.
     map:set_entities_enabled(enemy_prefix .. "_enemy", false)
     map:set_entities_enabled(enemy_prefix .. "_after", false)
+    map:set_entities_enabled(enemy_prefix .. "_before", true)
       -- Spawn a tile and schedule the next one.
       spawn_next()
       flying_tile_manager.timer = sol.timer.start(map, spawn_delay, function()
