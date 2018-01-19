@@ -31,17 +31,20 @@ function map:on_started()
   treasure_manager:appear_chest_if_savegame_exist(map, "chest_map",  "dungeon_6_map")
   door_manager:check_destroy_wall(map, "weak_wall_group_1")
   door_manager:check_destroy_wall(map, "weak_wall_group_15")
+  map:set_doors_open("door_group_1", true)
+  map:set_doors_open("door_group_3", true)
+  map:set_doors_open("door_group_7", true)
+  map:set_doors_open("door_group_18", true)
+  map:set_doors_open("door_group_19", true)
+  map:set_doors_open("door_group_20", true)
 
 end
 
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished(destination)
+function map:on_opening_transition_finished(destination_test)
 
-  if destination == dungeon_6_1_B then
-    map:set_doors_open("door_group_1", true)
-    map:set_doors_open("door_group_3", true)
-    map:set_doors_open("door_group_7", true)
+  if destination_test == dungeon_6_1_B then
     game:start_dialog("maps.dungeons.6.welcome")
   end
 
@@ -51,8 +54,7 @@ end
 
 treasure_manager:appear_chest_when_enemies_dead(map, "enemy_group_5", "chest_map")
 treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_9", "pickable_small_key_1", nil)
-treasure_manager:appear_pickable_when_enemies_dead(map, "enemy_group_29", "pickable_small_key_2", nil)
-
+treasure_manager:appear_pickable_when_flying_tiles_dead(map, "enemy_group_29_enemy", "pickable_small_key_2", nil)
 
 -- Doors
 
@@ -67,6 +69,10 @@ door_manager:open_when_enemies_dead(map,  "enemy_group_2",  "door_group_4")
 door_manager:open_when_enemies_dead(map,  "enemy_group_12",  "door_group_8")
 door_manager:open_when_enemies_dead(map,  "enemy_group_12",  "door_group_10", false)
 door_manager:open_when_enemies_dead(map,  "enemy_group_12",  "door_group_17", false)
+door_manager:open_when_enemies_dead(map,  "enemy_group_26",  "door_group_18")
+door_manager:open_when_enemies_dead(map,  "enemy_group_26",  "door_group_20", false)
+door_manager:open_when_enemies_dead(map,  "enemy_group_27",  "door_group_19")
+door_manager:open_when_enemies_dead(map,  "enemy_group_27",  "door_group_20", false)
 -- Sensors events
 function sensor_1:on_activated()
 
@@ -200,6 +206,7 @@ end
 function sensor_16:on_activated()
 
   flying_tile_manager:reset(map, "enemy_group_29")
+  treasure_manager:disappear_pickable(map, "pickable_small_key_2")
 
 end
 
@@ -212,6 +219,58 @@ end
 function sensor_18:on_activated()
 
   flying_tile_manager:launch(map, "enemy_group_29")
+
+end
+
+function sensor_19:on_activated()
+
+  flying_tile_manager:launch(map, "enemy_group_29")
+
+end
+
+function sensor_20:on_activated()
+
+  flying_tile_manager:reset(map, "enemy_group_29")
+
+end
+
+function sensor_21:on_activated()
+
+  flying_tile_manager:init(map, "enemy_group_29")
+
+end
+
+function sensor_22:on_activated()
+
+  flying_tile_manager:launch(map, "enemy_group_29")
+
+end
+
+function sensor_23:on_activated()
+
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_26", "door_group_18")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_26", "door_group_20")
+
+end
+
+function sensor_24:on_activated()
+
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_26", "door_group_18")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_26", "door_group_20")
+
+end
+
+function sensor_25:on_activated()
+
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_26", "door_group_19")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_26", "door_group_20")
+
+end
+
+function sensor_26:on_activated()
+
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_27", "door_group_19")
+    door_manager:close_if_enemies_not_dead(map, "enemy_group_27", "door_group_20")
 
 end
 

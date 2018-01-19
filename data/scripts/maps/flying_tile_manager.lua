@@ -6,7 +6,7 @@ flying_tile_manager.timer = nil
 
 function flying_tile_manager:init(map, enemy_prefix)
   
-    if flying_tile_manager.is_init == false then
+    if flying_tile_manager.is_init == false and  flying_tile_manager.is_launch == false then
       flying_tile_manager.is_init = true
       map:set_entities_enabled(enemy_prefix .. "_enemy", false)
       map:set_entities_enabled(enemy_prefix .. "_after", false)
@@ -53,7 +53,7 @@ function flying_tile_manager:launch(map, enemy_prefix)
       next_index = next_index + 1
     end
     local total = map:get_entities_count(enemy_prefix .. "_enemy")
-    local spawn_delay = 1500  -- Delay between two flying tiles.
+    local spawn_delay = 1500 -- Delay between two flying tiles.
     map:set_entities_enabled(enemy_prefix .. "_enemy", false)
     map:set_entities_enabled(enemy_prefix .. "_after", false)
     map:set_entities_enabled(enemy_prefix .. "_before", true)

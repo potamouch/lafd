@@ -40,6 +40,33 @@ function treasure_manager:appear_pickable_when_enemies_dead(map, enemy_prefix, p
 
 end
 
+function treasure_manager:appear_pickable_when_flying_tiles_dead(map, enemy_prefix, pickable)
+
+    local function enemy_on_flying_tile_dead()
+     local game = map:get_game()
+     local pickable_appear = true
+     for enemy in map:get_entities(enemy_prefix) do
+       if enemy.state ~= "destroying" then
+        pickable_appear = false
+       end
+     end
+     if pickable_appear then
+       local pickable_entity = map:get_entity(pickable)
+        if pickable_entity ~= nil then
+          local treasure, variant, savegame = pickable_entity:get_treasure()
+          if  not savegame or savegame and not game:get_value(savegame) then
+           self:appear_pickable(map, pickable, true)
+          end
+        end
+     end
+  end
+   for enemy in map:get_entities(enemy_prefix) do
+     enemy.on_flying_tile_dead = enemy_on_flying_tile_dead
+   end
+
+end
+
+
 function treasure_manager:disappear_chest(map, chest)
     
   local chest = map:get_entity(chest)

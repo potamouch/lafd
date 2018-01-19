@@ -774,6 +774,24 @@ enemy{
 
 tile{
   layer = 0,
+  x = 1072,
+  y = 816,
+  width = 160,
+  height = 128,
+  pattern = "911",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 816,
+  width = 160,
+  height = 128,
+  pattern = "floor.13-Alpha",
+}
+
+tile{
+  layer = 0,
   x = 2448,
   y = 848,
   width = 64,
@@ -1265,24 +1283,6 @@ tile{
   width = 160,
   height = 80,
   pattern = "911",
-}
-
-tile{
-  layer = 0,
-  x = 1072,
-  y = 816,
-  width = 160,
-  height = 112,
-  pattern = "911",
-}
-
-tile{
-  layer = 0,
-  x = 1056,
-  y = 816,
-  width = 176,
-  height = 112,
-  pattern = "floor.13-Alpha",
 }
 
 tile{
@@ -3232,7 +3232,7 @@ tile{
 tile{
   layer = 0,
   x = 1040,
-  y = 936,
+  y = 952,
   width = 24,
   height = 24,
   pattern = "wall.corner.3-2",
@@ -3243,7 +3243,7 @@ tile{
   x = 1040,
   y = 808,
   width = 24,
-  height = 128,
+  height = 144,
   pattern = "wall.3-2",
 }
 
@@ -3270,14 +3270,14 @@ tile{
   x = 1240,
   y = 552,
   width = 24,
-  height = 384,
+  height = 400,
   pattern = "wall.4-2",
 }
 
 tile{
   layer = 0,
   x = 1240,
-  y = 936,
+  y = 952,
   width = 24,
   height = 24,
   pattern = "wall.corner.4-2",
@@ -3286,7 +3286,7 @@ tile{
 tile{
   layer = 0,
   x = 1064,
-  y = 936,
+  y = 952,
   width = 176,
   height = 24,
   pattern = "wall.2-2",
@@ -10407,7 +10407,7 @@ tile{
   x = 1232,
   y = 560,
   width = 8,
-  height = 368,
+  height = 384,
   pattern = "wall_border.4-2",
 }
 
@@ -10479,14 +10479,14 @@ tile{
   x = 1064,
   y = 816,
   width = 8,
-  height = 112,
+  height = 128,
   pattern = "wall_border.3-2",
 }
 
 tile{
   layer = 0,
   x = 1072,
-  y = 928,
+  y = 944,
   width = 160,
   height = 8,
   pattern = "wall_border.2-2",
@@ -10585,7 +10585,7 @@ tile{
 tile{
   layer = 0,
   x = 1064,
-  y = 928,
+  y = 944,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.3-2",
@@ -10594,7 +10594,7 @@ tile{
 tile{
   layer = 0,
   x = 1232,
-  y = 928,
+  y = 944,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.4-2",
@@ -16219,7 +16219,7 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 936,
+  y = 952,
   width = 16,
   height = 16,
   pattern = "door.2",
@@ -16228,7 +16228,7 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 936,
+  y = 952,
   width = 8,
   height = 16,
   pattern = "door.2.support.1-1",
@@ -16237,7 +16237,7 @@ tile{
 tile{
   layer = 0,
   x = 1192,
-  y = 936,
+  y = 952,
   width = 8,
   height = 16,
   pattern = "door.2.support.2-1",
@@ -16246,9 +16246,9 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 952,
+  y = 968,
   width = 16,
-  height = 96,
+  height = 80,
   pattern = "floor.3-1",
 }
 
@@ -17650,7 +17650,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 864,
+  y = 880,
   width = 16,
   height = 16,
   pattern = "floor.11-1",
@@ -17659,7 +17659,7 @@ tile{
 tile{
   layer = 0,
   x = 1088,
-  y = 864,
+  y = 880,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17668,7 +17668,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 848,
+  y = 864,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17677,7 +17677,7 @@ tile{
 tile{
   layer = 0,
   x = 1120,
-  y = 864,
+  y = 880,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17686,7 +17686,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 880,
+  y = 896,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17695,7 +17695,7 @@ tile{
 tile{
   layer = 0,
   x = 1120,
-  y = 896,
+  y = 912,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17704,7 +17704,7 @@ tile{
 tile{
   layer = 0,
   x = 1136,
-  y = 880,
+  y = 896,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17713,7 +17713,7 @@ tile{
 tile{
   layer = 0,
   x = 1152,
-  y = 880,
+  y = 896,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17722,6 +17722,15 @@ tile{
 tile{
   layer = 0,
   x = 1168,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
   y = 864,
   width = 16,
   height = 16,
@@ -17730,17 +17739,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1184,
-  y = 848,
-  width = 16,
-  height = 16,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
   x = 1136,
-  y = 912,
+  y = 928,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17749,7 +17749,7 @@ tile{
 tile{
   layer = 0,
   x = 1152,
-  y = 912,
+  y = 928,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17758,7 +17758,7 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 896,
+  y = 912,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17767,7 +17767,7 @@ tile{
 tile{
   layer = 0,
   x = 1184,
-  y = 880,
+  y = 896,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17776,7 +17776,7 @@ tile{
 tile{
   layer = 0,
   x = 1200,
-  y = 864,
+  y = 880,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17785,7 +17785,16 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 832,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 1120,
+  y = 848,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17802,17 +17811,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1120,
-  y = 816,
-  width = 16,
-  height = 16,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
   x = 1168,
-  y = 816,
+  y = 832,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17821,7 +17821,7 @@ tile{
 tile{
   layer = 0,
   x = 1072,
-  y = 864,
+  y = 880,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17830,7 +17830,7 @@ tile{
 tile{
   layer = 0,
   x = 1216,
-  y = 864,
+  y = 880,
   width = 16,
   height = 16,
   pattern = "hole",
@@ -17839,7 +17839,7 @@ tile{
 tile{
   layer = 0,
   x = 1072,
-  y = 864,
+  y = 880,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -17848,7 +17848,7 @@ tile{
 tile{
   layer = 0,
   x = 1096,
-  y = 864,
+  y = 880,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -17857,7 +17857,7 @@ tile{
 tile{
   layer = 0,
   x = 1096,
-  y = 872,
+  y = 888,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -17866,7 +17866,7 @@ tile{
 tile{
   layer = 0,
   x = 1072,
-  y = 872,
+  y = 888,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -17875,7 +17875,7 @@ tile{
 tile{
   layer = 0,
   x = 1080,
-  y = 864,
+  y = 880,
   width = 16,
   height = 8,
   pattern = "hole.1",
@@ -17884,7 +17884,7 @@ tile{
 tile{
   layer = 0,
   x = 1080,
-  y = 872,
+  y = 888,
   width = 16,
   height = 8,
   pattern = "hole.2",
@@ -17893,7 +17893,7 @@ tile{
 tile{
   layer = 0,
   x = 1136,
-  y = 912,
+  y = 928,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -17902,7 +17902,7 @@ tile{
 tile{
   layer = 0,
   x = 1160,
-  y = 912,
+  y = 928,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -17911,7 +17911,7 @@ tile{
 tile{
   layer = 0,
   x = 1160,
-  y = 920,
+  y = 936,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -17920,7 +17920,7 @@ tile{
 tile{
   layer = 0,
   x = 1136,
-  y = 920,
+  y = 936,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -17929,7 +17929,7 @@ tile{
 tile{
   layer = 0,
   x = 1144,
-  y = 912,
+  y = 928,
   width = 16,
   height = 8,
   pattern = "hole.1",
@@ -17938,7 +17938,7 @@ tile{
 tile{
   layer = 0,
   x = 1144,
-  y = 920,
+  y = 936,
   width = 16,
   height = 8,
   pattern = "hole.2",
@@ -17947,7 +17947,7 @@ tile{
 tile{
   layer = 0,
   x = 1136,
-  y = 880,
+  y = 896,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -17956,7 +17956,7 @@ tile{
 tile{
   layer = 0,
   x = 1160,
-  y = 880,
+  y = 896,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -17965,7 +17965,7 @@ tile{
 tile{
   layer = 0,
   x = 1160,
-  y = 888,
+  y = 904,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -17974,7 +17974,7 @@ tile{
 tile{
   layer = 0,
   x = 1136,
-  y = 888,
+  y = 904,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -17983,7 +17983,7 @@ tile{
 tile{
   layer = 0,
   x = 1144,
-  y = 880,
+  y = 896,
   width = 16,
   height = 8,
   pattern = "hole.1",
@@ -17992,7 +17992,7 @@ tile{
 tile{
   layer = 0,
   x = 1144,
-  y = 888,
+  y = 904,
   width = 16,
   height = 8,
   pattern = "hole.2",
@@ -18001,7 +18001,7 @@ tile{
 tile{
   layer = 0,
   x = 1200,
-  y = 864,
+  y = 880,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18010,7 +18010,7 @@ tile{
 tile{
   layer = 0,
   x = 1224,
-  y = 864,
+  y = 880,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -18019,7 +18019,7 @@ tile{
 tile{
   layer = 0,
   x = 1224,
-  y = 872,
+  y = 888,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18028,7 +18028,7 @@ tile{
 tile{
   layer = 0,
   x = 1200,
-  y = 872,
+  y = 888,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -18037,7 +18037,7 @@ tile{
 tile{
   layer = 0,
   x = 1208,
-  y = 864,
+  y = 880,
   width = 16,
   height = 8,
   pattern = "hole.1",
@@ -18046,7 +18046,7 @@ tile{
 tile{
   layer = 0,
   x = 1208,
-  y = 872,
+  y = 888,
   width = 16,
   height = 8,
   pattern = "hole.2",
@@ -18055,7 +18055,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 848,
+  y = 864,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18064,7 +18064,7 @@ tile{
 tile{
   layer = 0,
   x = 1112,
-  y = 856,
+  y = 872,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18073,7 +18073,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 856,
+  y = 872,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -18082,7 +18082,7 @@ tile{
 tile{
   layer = 0,
   x = 1112,
-  y = 848,
+  y = 864,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -18091,7 +18091,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 880,
+  y = 896,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18100,7 +18100,7 @@ tile{
 tile{
   layer = 0,
   x = 1112,
-  y = 888,
+  y = 904,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18109,7 +18109,7 @@ tile{
 tile{
   layer = 0,
   x = 1104,
-  y = 888,
+  y = 904,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -18118,78 +18118,6 @@ tile{
 tile{
   layer = 0,
   x = 1112,
-  y = 880,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 1120,
-  y = 864,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 1128,
-  y = 872,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 1120,
-  y = 872,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 1128,
-  y = 864,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 1120,
-  y = 896,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 1128,
-  y = 904,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 1120,
-  y = 904,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 1128,
   y = 896,
   width = 8,
   height = 8,
@@ -18198,43 +18126,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1168,
-  y = 896,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 1176,
-  y = 904,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 1168,
-  y = 904,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 1176,
-  y = 896,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 1184,
+  x = 1120,
   y = 880,
   width = 8,
   height = 8,
@@ -18243,7 +18135,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1192,
+  x = 1128,
   y = 888,
   width = 8,
   height = 8,
@@ -18252,7 +18144,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1184,
+  x = 1120,
   y = 888,
   width = 8,
   height = 8,
@@ -18261,7 +18153,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1192,
+  x = 1128,
   y = 880,
   width = 8,
   height = 8,
@@ -18270,8 +18162,44 @@ tile{
 
 tile{
   layer = 0,
+  x = 1120,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 920,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1120,
+  y = 920,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
   x = 1168,
-  y = 864,
+  y = 912,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18280,7 +18208,7 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 872,
+  y = 920,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18289,7 +18217,7 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 872,
+  y = 920,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -18298,7 +18226,7 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 864,
+  y = 912,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -18307,7 +18235,7 @@ tile{
 tile{
   layer = 0,
   x = 1184,
-  y = 848,
+  y = 896,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18316,7 +18244,7 @@ tile{
 tile{
   layer = 0,
   x = 1192,
-  y = 856,
+  y = 904,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18325,7 +18253,7 @@ tile{
 tile{
   layer = 0,
   x = 1184,
-  y = 856,
+  y = 904,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -18334,7 +18262,79 @@ tile{
 tile{
   layer = 0,
   x = 1192,
-  y = 848,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 880,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1176,
+  y = 888,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 888,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1176,
+  y = 880,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1192,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1192,
+  y = 864,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -18343,7 +18343,7 @@ tile{
 tile{
   layer = 0,
   x = 1120,
-  y = 816,
+  y = 832,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18352,7 +18352,7 @@ tile{
 tile{
   layer = 0,
   x = 1128,
-  y = 816,
+  y = 832,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -18361,7 +18361,7 @@ tile{
 tile{
   layer = 0,
   x = 1128,
-  y = 824,
+  y = 840,
   width = 8,
   height = 16,
   pattern = "hole.4",
@@ -18370,7 +18370,7 @@ tile{
 tile{
   layer = 0,
   x = 1128,
-  y = 840,
+  y = 856,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18379,7 +18379,7 @@ tile{
 tile{
   layer = 0,
   x = 1120,
-  y = 824,
+  y = 840,
   width = 8,
   height = 16,
   pattern = "hole.3",
@@ -18388,7 +18388,7 @@ tile{
 tile{
   layer = 0,
   x = 1120,
-  y = 840,
+  y = 856,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
@@ -18397,7 +18397,7 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 816,
+  y = 832,
   width = 8,
   height = 8,
   pattern = "hole.corner.1",
@@ -18406,7 +18406,7 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 816,
+  y = 832,
   width = 8,
   height = 8,
   pattern = "hole.corner.2",
@@ -18415,7 +18415,7 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 824,
+  y = 840,
   width = 8,
   height = 16,
   pattern = "hole.4",
@@ -18424,7 +18424,7 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 840,
+  y = 856,
   width = 8,
   height = 8,
   pattern = "hole.corner.4",
@@ -18433,7 +18433,7 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 824,
+  y = 840,
   width = 8,
   height = 16,
   pattern = "hole.3",
@@ -18442,17 +18442,142 @@ tile{
 tile{
   layer = 0,
   x = 1168,
-  y = 840,
+  y = 856,
   width = 8,
   height = 8,
   pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 1192,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 1200,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 1304,
+  y = 1192,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 1200,
+  width = 48,
+  height = 16,
+  pattern = "floor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 1216,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 1216,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1304,
+  y = 1216,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 1192,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1304,
+  y = 1200,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+dynamic_tile{
+  name = "enemy_group_29_before_22_1",
+  layer = 0,
+  x = 1168,
+  y = 816,
+  pattern = "911",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_group_29_before_22_2",
+  layer = 0,
+  x = 1168,
+  y = 816,
+  pattern = "floor.13-Alpha",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_group_29_before_21_1",
+  layer = 0,
+  x = 1120,
+  y = 816,
+  pattern = "911",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "enemy_group_29_before_21_2",
+  layer = 0,
+  x = 1120,
+  y = 816,
+  pattern = "floor.13-Alpha",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
 }
 
 dynamic_tile{
   name = "enemy_group_29_before_9_1",
   layer = 0,
   x = 1168,
-  y = 896,
+  y = 912,
   pattern = "911",
   width = 16,
   height = 16,
@@ -18463,7 +18588,7 @@ dynamic_tile{
   name = "enemy_group_29_before_9_2",
   layer = 0,
   x = 1168,
-  y = 896,
+  y = 912,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -21679,7 +21804,7 @@ custom_entity{
 custom_entity{
   name = "detect_door_group_5",
   layer = 0,
-  x = 608,
+  x = 592,
   y = 1101,
   width = 16,
   height = 16,
@@ -21833,28 +21958,6 @@ enemy{
   direction = 3,
   breed = "wizzrobe_white",
   treasure_name = "random",
-}
-
-door{
-  name = "door_group_9_2",
-  layer = 0,
-  x = 2016,
-  y = 1536,
-  direction = 3,
-  sprite = "entities/doors/door_normal",
-  opening_condition = "dungeon_1_small_keys",
-  opening_condition_consumed = true,
-}
-
-door{
-  name = "door_group_9_1",
-  layer = 0,
-  x = 1968,
-  y = 1520,
-  direction = 1,
-  sprite = "entities/doors/door_normal",
-  opening_condition = "dungeon_1_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -22649,8 +22752,8 @@ destructible{
 enemy{
   name = "enemy_group_25_1",
   layer = 0,
-  x = 1336,
-  y = 829,
+  x = 1328,
+  y = 821,
   direction = 0,
   breed = "fireball",
   treasure_name = "random",
@@ -22659,8 +22762,8 @@ enemy{
 enemy{
   name = "enemy_group_25_2",
   layer = 0,
-  x = 1544,
-  y = 829,
+  x = 1552,
+  y = 821,
   direction = 0,
   breed = "fireball",
   treasure_name = "random",
@@ -22946,7 +23049,7 @@ door{
   name = "door_group_18_2",
   layer = 0,
   x = 1176,
-  y = 936,
+  y = 952,
   direction = 1,
   sprite = "entities/doors/door_normal",
   opening_condition = "dungeon_1_small_keys",
@@ -23218,9 +23321,9 @@ block{
   x = 1528,
   y = 1149,
   sprite = "entities/block",
-  pushable = false,
+  pushable = true,
   pullable = false,
-  maximum_moves = 0,
+  maximum_moves = 2,
 }
 
 block{
@@ -23248,9 +23351,9 @@ block{
   x = 1528,
   y = 1133,
   sprite = "entities/block",
-  pushable = false,
+  pushable = true,
   pullable = false,
-  maximum_moves = 0,
+  maximum_moves = 2,
 }
 
 block{
@@ -23258,9 +23361,9 @@ block{
   x = 1352,
   y = 1117,
   sprite = "entities/block",
-  pushable = false,
+  pushable = true,
   pullable = false,
-  maximum_moves = 0,
+  maximum_moves = 2,
 }
 
 block{
@@ -23268,7 +23371,7 @@ block{
   x = 1352,
   y = 1101,
   sprite = "entities/block",
-  pushable = false,
+  pushable = true,
   pullable = false,
   maximum_moves = 0,
 }
@@ -23426,7 +23529,7 @@ dynamic_tile{
   name = "enemy_group_29_before_1_1",
   layer = 0,
   x = 1072,
-  y = 864,
+  y = 880,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23437,7 +23540,7 @@ dynamic_tile{
   name = "enemy_group_29_before_1_2",
   layer = 0,
   x = 1072,
-  y = 864,
+  y = 880,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23448,7 +23551,7 @@ enemy{
   name = "enemy_group_29_enemy_1",
   layer = 0,
   x = 1080,
-  y = 877,
+  y = 893,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23458,7 +23561,7 @@ dynamic_tile{
   name = "enemy_group_29_before_2_1",
   layer = 0,
   x = 1088,
-  y = 864,
+  y = 880,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23469,7 +23572,7 @@ dynamic_tile{
   name = "enemy_group_29_before_2_2",
   layer = 0,
   x = 1088,
-  y = 864,
+  y = 880,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23480,7 +23583,7 @@ enemy{
   name = "enemy_group_29_enemy_2",
   layer = 0,
   x = 1096,
-  y = 877,
+  y = 893,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23490,7 +23593,7 @@ dynamic_tile{
   name = "enemy_group_29_before_3_1",
   layer = 0,
   x = 1152,
-  y = 880,
+  y = 896,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23501,7 +23604,7 @@ dynamic_tile{
   name = "enemy_group_29_before_3_2",
   layer = 0,
   x = 1152,
-  y = 880,
+  y = 896,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23512,7 +23615,7 @@ enemy{
   name = "enemy_group_29_enemy_3",
   layer = 0,
   x = 1160,
-  y = 893,
+  y = 909,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23522,7 +23625,7 @@ dynamic_tile{
   name = "enemy_group_29_before_4_1",
   layer = 0,
   x = 1216,
-  y = 864,
+  y = 880,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23533,7 +23636,7 @@ dynamic_tile{
   name = "enemy_group_29_before_4_2",
   layer = 0,
   x = 1216,
-  y = 864,
+  y = 880,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23544,7 +23647,7 @@ enemy{
   name = "enemy_group_29_enemy_4",
   layer = 0,
   x = 1224,
-  y = 877,
+  y = 893,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23554,7 +23657,7 @@ dynamic_tile{
   name = "enemy_group_29_before_6_1",
   layer = 0,
   x = 1136,
-  y = 880,
+  y = 896,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23565,7 +23668,7 @@ dynamic_tile{
   name = "enemy_group_29_before_6_2",
   layer = 0,
   x = 1136,
-  y = 880,
+  y = 896,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23576,7 +23679,7 @@ enemy{
   name = "enemy_group_29_enemy_6",
   layer = 0,
   x = 1144,
-  y = 893,
+  y = 909,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23586,7 +23689,7 @@ dynamic_tile{
   name = "enemy_group_29_before_7_1",
   layer = 0,
   x = 1120,
-  y = 816,
+  y = 832,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23597,7 +23700,7 @@ dynamic_tile{
   name = "enemy_group_29_before_7_2",
   layer = 0,
   x = 1120,
-  y = 816,
+  y = 832,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23608,7 +23711,7 @@ enemy{
   name = "enemy_group_29_enemy_7",
   layer = 0,
   x = 1128,
-  y = 829,
+  y = 845,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23618,7 +23721,7 @@ dynamic_tile{
   name = "enemy_group_29_before_8_1",
   layer = 0,
   x = 1120,
-  y = 832,
+  y = 848,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23629,7 +23732,7 @@ dynamic_tile{
   name = "enemy_group_29_before_8_2",
   layer = 0,
   x = 1120,
-  y = 832,
+  y = 848,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23640,7 +23743,7 @@ enemy{
   name = "enemy_group_29_enemy_8",
   layer = 0,
   x = 1128,
-  y = 845,
+  y = 861,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23650,7 +23753,7 @@ enemy{
   name = "enemy_group_29_enemy_9",
   layer = 0,
   x = 1176,
-  y = 909,
+  y = 925,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23660,7 +23763,7 @@ dynamic_tile{
   name = "enemy_group_29_before_10_1",
   layer = 0,
   x = 1168,
-  y = 816,
+  y = 832,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23671,7 +23774,7 @@ dynamic_tile{
   name = "enemy_group_29_before_11_1",
   layer = 0,
   x = 1168,
-  y = 832,
+  y = 848,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23682,7 +23785,7 @@ dynamic_tile{
   name = "enemy_group_29_before_10_2",
   layer = 0,
   x = 1168,
-  y = 816,
+  y = 832,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23693,7 +23796,7 @@ dynamic_tile{
   name = "enemy_group_29_before_11_2",
   layer = 0,
   x = 1168,
-  y = 832,
+  y = 848,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23704,7 +23807,7 @@ enemy{
   name = "enemy_group_29_enemy_10",
   layer = 0,
   x = 1176,
-  y = 829,
+  y = 845,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23714,7 +23817,7 @@ enemy{
   name = "enemy_group_29_enemy_11",
   layer = 0,
   x = 1176,
-  y = 845,
+  y = 861,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23723,7 +23826,7 @@ enemy{
 enemy{
   name = "enemy_group_19_1",
   layer = 0,
-  x = 1176,
+  x = 1192,
   y = 821,
   direction = 0,
   breed = "fireball",
@@ -23734,7 +23837,7 @@ dynamic_tile{
   name = "enemy_group_29_before_5_1",
   layer = 0,
   x = 1200,
-  y = 864,
+  y = 880,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23745,7 +23848,7 @@ dynamic_tile{
   name = "enemy_group_29_before_5_2",
   layer = 0,
   x = 1200,
-  y = 864,
+  y = 880,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23756,7 +23859,7 @@ enemy{
   name = "enemy_group_29_enemy_5",
   layer = 0,
   x = 1208,
-  y = 877,
+  y = 893,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23766,7 +23869,7 @@ dynamic_tile{
   name = "enemy_group_29_before_12_2",
   layer = 0,
   x = 1184,
-  y = 848,
+  y = 864,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23777,7 +23880,7 @@ dynamic_tile{
   name = "enemy_group_29_before_12_1",
   layer = 0,
   x = 1184,
-  y = 848,
+  y = 864,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23788,7 +23891,7 @@ enemy{
   name = "enemy_group_29_enemy_12",
   layer = 0,
   x = 1192,
-  y = 861,
+  y = 877,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23798,7 +23901,7 @@ dynamic_tile{
   name = "enemy_group_29_before_13_1",
   layer = 0,
   x = 1104,
-  y = 880,
+  y = 896,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23809,7 +23912,7 @@ dynamic_tile{
   name = "enemy_group_29_before_13_2",
   layer = 0,
   x = 1104,
-  y = 880,
+  y = 896,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23820,7 +23923,7 @@ enemy{
   name = "enemy_group_29_enemy_13",
   layer = 0,
   x = 1112,
-  y = 893,
+  y = 909,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23830,7 +23933,7 @@ dynamic_tile{
   name = "enemy_group_29_before_14_1",
   layer = 0,
   x = 1184,
-  y = 880,
+  y = 896,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23841,7 +23944,7 @@ dynamic_tile{
   name = "enemy_group_29_before_14_2",
   layer = 0,
   x = 1184,
-  y = 880,
+  y = 896,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23852,7 +23955,7 @@ enemy{
   name = "enemy_group_29_enemy_14",
   layer = 0,
   x = 1192,
-  y = 893,
+  y = 909,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23862,7 +23965,7 @@ dynamic_tile{
   name = "enemy_group_29_before_15_1",
   layer = 0,
   x = 1120,
-  y = 896,
+  y = 912,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23873,7 +23976,7 @@ dynamic_tile{
   name = "enemy_group_29_before_15_2",
   layer = 0,
   x = 1120,
-  y = 896,
+  y = 912,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23884,7 +23987,7 @@ enemy{
   name = "enemy_group_29_enemy_15",
   layer = 0,
   x = 1128,
-  y = 909,
+  y = 925,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23894,7 +23997,7 @@ dynamic_tile{
   name = "enemy_group_29_before_16_1",
   layer = 0,
   x = 1104,
-  y = 848,
+  y = 864,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23905,7 +24008,7 @@ dynamic_tile{
   name = "enemy_group_29_before_16_2",
   layer = 0,
   x = 1104,
-  y = 848,
+  y = 864,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23916,7 +24019,7 @@ enemy{
   name = "enemy_group_29_enemy_16",
   layer = 0,
   x = 1112,
-  y = 861,
+  y = 877,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23926,7 +24029,7 @@ dynamic_tile{
   name = "enemy_group_29_before_17_1",
   layer = 0,
   x = 1152,
-  y = 912,
+  y = 928,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23937,7 +24040,7 @@ dynamic_tile{
   name = "enemy_group_29_before_17_2",
   layer = 0,
   x = 1152,
-  y = 912,
+  y = 928,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23948,7 +24051,7 @@ enemy{
   name = "enemy_group_29_enemy_17",
   layer = 0,
   x = 1160,
-  y = 925,
+  y = 941,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23958,7 +24061,7 @@ dynamic_tile{
   name = "enemy_group_29_before_18_1",
   layer = 0,
   x = 1136,
-  y = 912,
+  y = 928,
   pattern = "911",
   width = 16,
   height = 16,
@@ -23969,7 +24072,7 @@ dynamic_tile{
   name = "enemy_group_29_before_18_2",
   layer = 0,
   x = 1136,
-  y = 912,
+  y = 928,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -23980,7 +24083,7 @@ enemy{
   name = "enemy_group_29_enemy_18",
   layer = 0,
   x = 1144,
-  y = 925,
+  y = 941,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -23990,7 +24093,7 @@ dynamic_tile{
   name = "enemy_group_29_before_19_1",
   layer = 0,
   x = 1120,
-  y = 864,
+  y = 880,
   pattern = "911",
   width = 16,
   height = 16,
@@ -24001,7 +24104,7 @@ dynamic_tile{
   name = "enemy_group_29_before_19_2",
   layer = 0,
   x = 1120,
-  y = 864,
+  y = 880,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -24012,7 +24115,7 @@ enemy{
   name = "enemy_group_29_enemy_19",
   layer = 0,
   x = 1128,
-  y = 877,
+  y = 893,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -24022,7 +24125,7 @@ dynamic_tile{
   name = "enemy_group_29_before_20_1",
   layer = 0,
   x = 1168,
-  y = 864,
+  y = 880,
   pattern = "911",
   width = 16,
   height = 16,
@@ -24033,7 +24136,7 @@ dynamic_tile{
   name = "enemy_group_29_before_20_2",
   layer = 0,
   x = 1168,
-  y = 864,
+  y = 880,
   pattern = "floor.13-Alpha",
   width = 16,
   height = 16,
@@ -24044,7 +24147,7 @@ enemy{
   name = "enemy_group_29_enemy_20",
   layer = 0,
   x = 1176,
-  y = 877,
+  y = 893,
   direction = 0,
   breed = "flying_tile",
   treasure_name = "random",
@@ -24087,12 +24190,137 @@ teletransporter{
   destination = "destination",
 }
 
+teletransporter{
+  name = "destination2_2",
+  layer = 0,
+  x = 1216,
+  y = 560,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/1f",
+  destination = "dungeon_6_1_B",
+}
+
+sensor{
+  name = "sensor_19",
+  layer = 0,
+  x = 1088,
+  y = 861,
+  width = 16,
+  height = 16,
+}
+
+enemy{
+  name = "enemy_group_29_enemy_21",
+  layer = 0,
+  x = 1128,
+  y = 829,
+  direction = 0,
+  breed = "flying_tile",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "enemy_group_29_enemy_22",
+  layer = 0,
+  x = 1176,
+  y = 829,
+  direction = 0,
+  breed = "flying_tile",
+  treasure_name = "random",
+}
+
+sensor{
+  name = "sensor_21",
+  layer = 0,
+  x = 1184,
+  y = 965,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_22",
+  layer = 0,
+  x = 1176,
+  y = 949,
+  width = 32,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_20",
+  layer = 0,
+  x = 1184,
+  y = 1061,
+  width = 16,
+  height = 16,
+}
+
 destination{
   name = "destination",
   layer = 0,
-  x = 1224,
-  y = 717,
+  x = 1088,
+  y = 837,
   direction = 1,
+}
+
+door{
+  name = "door_group_20_2",
+  layer = 0,
+  x = 1304,
+  y = 1200,
+  direction = 0,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  name = "door_group_20_1",
+  layer = 0,
+  x = 1240,
+  y = 1200,
+  direction = 2,
+  sprite = "entities/doors/door_normal",
+  opening_condition = "dungeon_1_small_keys",
+  opening_condition_consumed = true,
+}
+
+sensor{
+  name = "sensor_23",
+  layer = 0,
+  x = 1184,
+  y = 1077,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_24",
+  layer = 0,
+  x = 1232,
+  y = 1213,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_25",
+  layer = 0,
+  x = 1440,
+  y = 1077,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_26",
+  layer = 0,
+  x = 1328,
+  y = 1213,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -26771,7 +26999,7 @@ tile{
 tile{
   layer = 1,
   x = 1152,
-  y = 952,
+  y = 968,
   width = 64,
   height = 8,
   pattern = "door_cache.2-2",
@@ -26780,7 +27008,7 @@ tile{
 tile{
   layer = 1,
   x = 1168,
-  y = 952,
+  y = 968,
   width = 32,
   height = 8,
   pattern = "door_top.2-6",
@@ -26874,6 +27102,42 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1176,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 1176,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1192,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 1192,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-6",
 }
 
 custom_entity{
@@ -27879,7 +28143,7 @@ pickable{
   name = "pickable_small_key_2",
   layer = 1,
   x = 1112,
-  y = 877,
+  y = 893,
   treasure_name = "small_key",
   treasure_savegame_variable = "dungeon_6_small_key_2",
 }
@@ -28769,9 +29033,9 @@ tile{
 tile{
   layer = 2,
   x = 1040,
-  y = 960,
+  y = 976,
   width = 224,
-  height = 48,
+  height = 32,
   pattern = "ceiling.1",
 }
 
