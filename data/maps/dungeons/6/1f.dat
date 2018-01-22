@@ -24260,8 +24260,8 @@ sensor{
 destination{
   name = "destination",
   layer = 0,
-  x = 1088,
-  y = 837,
+  x = 1120,
+  y = 1645,
   direction = 1,
 }
 
