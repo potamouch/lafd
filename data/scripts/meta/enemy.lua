@@ -69,6 +69,14 @@ function enemy_meta:launch_boss_dead()
 
 end
 
+-- Attach a custom damage to the sprites of the enemy.
+function enemy_meta:get_sprite_damage(sprite)
+  return sprite.custom_damage or self:get_damage()
+end
+function enemy_meta:set_sprite_damage(sprite, damage)
+  sprite.custom_damage = damage
+end
+
 -- Warning: do not override these functions if you use the "custom shield" script.
 function enemy_meta:on_attacking_hero(hero, enemy_sprite)
   local enemy = self
