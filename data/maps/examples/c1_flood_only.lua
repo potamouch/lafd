@@ -1,4 +1,4 @@
--- Lua script of map examples/c1_flood.
+-- Lua script of map examples/c1_flood_only.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

@@ -37,7 +37,7 @@ map{ id = "dungeons/7/3f_bis", description = "Dungeon 7 3F Bis" }
 map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
 map{ id = "dungeons/9/1f", description = "Dungeon 9 1F" }
 map{ id = "examples/beach_store", description = "Beach Store" }
-map{ id = "examples/c1_flood", description = "Flooded C1" }
+map{ id = "examples/c1_flood_only", description = "Outside C1 (only flooded parts)" }
 map{ id = "examples/cave_store", description = "Cave Store" }
 map{ id = "examples/dungeon_store", description = "Dungeon store" }
 map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle outside" }
