@@ -1704,15 +1704,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 440,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-2",
-}
-
-tile{
-  layer = 0,
   x = 80,
   y = 472,
   width = 176,
@@ -1997,6 +1988,15 @@ tile{
   width = 16,
   height = 32,
   pattern = "floor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 440,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
 }
 
 jumper{
