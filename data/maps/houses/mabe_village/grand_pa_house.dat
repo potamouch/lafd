@@ -696,7 +696,7 @@ npc{
   y = 133,
   direction = 3,
   subtype = 1,
-  sprite = "npc/grandpa",
+  sprite = "npc/grand_pa",
 }
 
 npc{

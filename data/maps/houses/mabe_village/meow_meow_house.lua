@@ -19,6 +19,18 @@ function map:set_music()
 
 end
 
+function map:repeat_meow_meow_direction_check()
+
+  local direction4 = meow_meow:get_direction4_to(hero)
+  meow_meow:get_sprite():set_direction(direction4)
+
+  -- Rappeler cette fonction dans 0.1 seconde.
+  sol.timer.start(map, 100, function() 
+    map:repeat_meow_meow_direction_check()
+  end)
+end
+
+
 function map:talk_to_meow_meow() 
 
   if game:get_value("main_quest_step") < 8 then
@@ -105,6 +117,7 @@ function map:on_started(destination)
 
   map:set_music()
   map:launch_small_bowwow()
+  map:repeat_meow_meow_direction_check()
 
 end
 

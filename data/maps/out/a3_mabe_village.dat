@@ -14175,7 +14175,7 @@ teletransporter{
   y = 680,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/grandpa_house",
+  destination_map = "houses/mabe_village/grand_pa_house",
   destination = "grandpa_house_1_B",
 }
 
