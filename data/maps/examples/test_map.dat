@@ -1,0 +1,51 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 256,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "out/outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 256,
+  pattern = "14667",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 173,
+  treasure_name = "shield",
+  sprite = "entities/chest",
+}
+
+enemy{
+  layer = 0,
+  x = 64,
+  y = 117,
+  direction = 0,
+  breed = "sea_urchin",
+}
+
+enemy{
+  layer = 0,
+  x = 256,
+  y = 61,
+  direction = 0,
+  breed = "octorok",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 168,
+  y = 101,
+  direction = 1,
+}
+
