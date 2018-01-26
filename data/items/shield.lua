@@ -5,7 +5,7 @@ local enemy_meta = sol.main.get_metatable("enemy")
 local hero_meta = sol.main.get_metatable("hero")
 local game = item:get_game()
 
-local direction_fix_enabled = true
+local direction_fix_enabled = false
 local shield_state -- Values: "using".
 local shield_command_released
 local shield -- Custom entity shield.
@@ -129,8 +129,6 @@ function item:create_shield()
   -- Create sprites.
   local variant = item:get_variant()
   local sprite_shield = shield:create_sprite("hero/shield"..variant)
-  -- Synchronize shield sprite with hero tunic.
-  sprite_shield:synchronize(hero:get_sprite())
   
   -- Redefine functions to draw "shield".
   shield:set_drawn_in_y_order(true)
@@ -139,13 +137,19 @@ function item:create_shield()
   sprite_shield.old_set_xy = sprite_shield.set_xy
   function sprite_shield:set_xy(x, y) self:old_set_xy(x, y-2) end
   
-  -- Update position and sprites.
+  -- Update position and sprite frames.
   sol.timer.start(shield, 1, function()
     local tunic_sprite = hero:get_sprite()
     local x, y, layer = hero:get_position()
     for _, sh in pairs({shield}) do
       sh:set_position(x, y, layer)
       sh:set_direction(hero:get_direction())
+      local s = sh:get_sprite()
+      local anim = tunic_sprite:get_animation()
+      if s:has_animation(anim) then s:set_animation(anim) end
+      local frame = tunic_sprite:get_frame()
+      if frame > s:get_num_frames()-1 then frame = 0 end
+      s:set_frame(frame)
       local s = sh:get_sprite()
       local x, y = tunic_sprite:get_xy()
       s:set_xy(x, y) -- Necessary for shifts during custom jump.
