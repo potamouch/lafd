@@ -6,22 +6,15 @@ local hero_meta = sol.main.get_metatable("hero")
 local game = item:get_game()
 
 local direction_fix_enabled = true
-local shield_state -- Values: "preparing", "using".
+local shield_state -- Values: "using".
 local shield_command_released
-local shield, shield_below -- Custom entity shield.
+local shield -- Custom entity shield.
 local shield_width = 8 -- In pixels. Change this if necessary!
 
 function item:on_created()
   self:set_savegame_variable("possession_shield")
   self:set_assignable(true)
   self:set_sound_when_brandished("treasure_2")
-end
-
-function item:on_variant_changed(variant)
-  -- TODO: change shield variant.
-end
-
-function item:on_obtained()
 end
 
 -- Program custom shield.
@@ -46,12 +39,8 @@ function item:on_using()
   if hero:get_state() ~= "frozen" then
     hero:freeze() -- Freeze hero if necessary.
   end
-  shield_state = "preparing"
+  shield_state = "using"
   shield_command_released = false
-  -- Remove fixed animations (used if jumping).
-  hero:set_fixed_animations(nil, nil)
-  -- Show "shield_brandish" animation on hero.
-  hero:set_animation("shield_brandish")
   
   -- Disable hero abilities.
   item:set_grabing_abilities_enabled(0)
@@ -80,7 +69,7 @@ function item:on_using()
     return true
   end)
   
-  -- Stop fixed animations if the command is released.
+  -- Stop fixed direction if the command is released.
   sol.timer.start(item, 1, function()
     if shield_state == "using" then
       if shield_command_released == true or hero:get_state() == "sword swinging" then 
@@ -92,26 +81,10 @@ function item:on_using()
     return true
   end)
 
-  -- Start custom shield state when necessary: allow to sidle with shield.
-  local num_frames = hero_tunic_sprite:get_num_frames()
-  local frame_delay = hero_tunic_sprite:get_frame_delay()
-  -- Prevent bug: if frame delay is nil (which happens with 1 frame) stop using shield.
-  if not frame_delay then self:finish_using() return end  
-  local anim_duration = frame_delay * num_frames
-  sol.timer.start(item, anim_duration, function()  
-    -- Do not allow walking with shield if the command was released.
-    if shield_command_released == true then
-      self:finish_using()
-      return
-    end
-    -- Start loading sword if necessary. Fix direction and loading animations.
-    shield_state = "using"
-    hero:set_fixed_animations("shield_stopped", "shield_walking")
-    local dir = direction_fix_enabled and hero:get_direction() or nil
-    hero:set_fixed_direction(dir)
-    hero:set_animation("shield_stopped")
-    hero:unfreeze() -- Allow the hero to walk.
-  end)
+  -- Fix direction.
+  local dir = direction_fix_enabled and hero:get_direction() or nil
+  hero:set_fixed_direction(dir)
+  hero:unfreeze() -- Allow the hero to walk.
 
 end
 
@@ -126,10 +99,9 @@ function item:finish_using()
   sol.timer.stop_all(self)
   -- Finish using item.
   self:set_finished()
-  -- Reset fixed animations/direction. (Used while sidling with shield
+  -- Reset fixed direction. (Used while sidling with shield.)
   local hero = game:get_hero()
   hero:set_fixed_direction(nil)
-  hero:set_fixed_animations(nil, nil)
   shield_state = nil
   -- Destroy shield.
   if shield and shield:exists() then
@@ -153,15 +125,14 @@ function item:create_shield()
   local hdir = hero:get_direction()
   local prop = {x=hx, y=hy+2, layer=hlayer, direction=hdir, width=2*16, height=2*16}
   shield = map:create_custom_entity(prop) -- (Script variable.)
-  shield_below = map:create_custom_entity(prop)
-  function shield:on_removed() shield_below:remove() end
   
   -- Create sprites.
   local variant = item:get_variant()
-  shield_below:create_sprite("hero/shield_"..variant.."_below")
-  local sprite_shield = shield:create_sprite("hero/shield_"..variant.."_above")
+  local sprite_shield = shield:create_sprite("hero/shield"..variant)
+  -- Synchronize shield sprite with hero tunic.
+  sprite_shield:synchronize(hero:get_sprite())
   
-  -- Redefine functions to draw "shield" above hero and "shield_below" below hero.
+  -- Redefine functions to draw "shield".
   shield:set_drawn_in_y_order(true)
   shield.old_set_position = shield.set_position
   function shield:set_position(x, y, layer) self:old_set_position(x, y + 2, layer) end
@@ -172,17 +143,12 @@ function item:create_shield()
   sol.timer.start(shield, 1, function()
     local tunic_sprite = hero:get_sprite()
     local x, y, layer = hero:get_position()
-    for _, sh in pairs({shield, shield_below}) do
+    for _, sh in pairs({shield}) do
       sh:set_position(x, y, layer)
       sh:set_direction(hero:get_direction())
       local s = sh:get_sprite()
-      local anim = tunic_sprite:get_animation()
-      if s:has_animation(anim) then s:set_animation(anim) end
-      local frame = tunic_sprite:get_frame()
-      if frame > s:get_num_frames()-1 then frame = 0 end
-      s:set_frame(frame)
       local x, y = tunic_sprite:get_xy()
-      s:set_xy(x, y)
+      s:set_xy(x, y) -- Necessary for shifts during custom jump.
     end
     return true
   end)
@@ -210,10 +176,6 @@ function item:create_shield()
   function(shield, enemy, shield_sprite, enemy_sprite)
     shield_collision_test(shield, enemy, shield_sprite, enemy_sprite)
   end)
-  shield_below:add_collision_test("sprite",
-  function(shield, enemy, shield_sprite, enemy_sprite)
-    shield_collision_test(shield, enemy, shield_sprite, enemy_sprite)
-  end)  
 end
 
 function item:set_grabing_abilities_enabled(enabled)
@@ -270,13 +232,12 @@ function hero_meta:is_shield_protecting_from_enemy(enemy, enemy_sprite)
     return false
   end
   -- Check overlap with reduced bounding box (shield side not included).
-  -- Shield width: 8 pixels.
   local hx, hy, hw, hh = hero:get_bounding_box()
   local dir = hero:get_direction()
-  if dir == 0 then hw = hw - 8
-  elseif dir == 1 then hy = hy + 8; hh = hh - 8
-  elseif dir == 2 then hx = hx + 8 ; hw = hw - 8
-  elseif dir == 3 then hh = hh - 8 end
+  if dir == 0 then hw = hw - shield_width
+  elseif dir == 1 then hy = hy + shield_width; hh = hh - shield_width
+  elseif dir == 2 then hx = hx + shield_width ; hw = hw - shield_width
+  elseif dir == 3 then hh = hh - shield_width end
   if enemy:overlaps(hx, hy, hw, hh) then
     return false
   end

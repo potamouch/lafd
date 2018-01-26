@@ -13,7 +13,7 @@ function enemy:on_created()
   enemy:set_life(1)
   enemy:set_damage(1)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
-
+  self:set_can_be_pushed_by_shield(true)
 end
 
 local function go_hero()
