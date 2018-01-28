@@ -20,7 +20,9 @@ end
 
 function map:talk_to_father() 
 
-  game:start_dialog("maps.houses.mabe_village.quadruplets_house.father_1")
+  game:start_dialog("maps.houses.mabe_village.quadruplets_house.father_1", function()
+    father:get_sprite():set_direction(3)
+  end)
 
 end
 
@@ -33,15 +35,22 @@ function map:talk_to_mother()
         if answer == 1 then
             game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_4", function()
               hero:start_treasure("magnifying_lens", 2, "magnifying_lens_2")
+              mother:get_sprite():set_direction(3)
               end)
         else
-          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_3")
+          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_3", function()
+            mother:get_sprite():set_direction(3)
+          end)
         end
       end)
     elseif variant > 1 then
-      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_5")
+          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_5", function()
+            mother:get_sprite():set_direction(3)
+          end)
     else
-      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_1")
+          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_1", function()
+            mother:get_sprite():set_direction(3)
+          end)
     end
 
 end
