@@ -9640,6 +9640,15 @@ tile{
   pattern = "12842",
 }
 
+tile{
+  layer = 0,
+  x = 440,
+  y = 600,
+  width = 8,
+  height = 32,
+  pattern = "1012",
+}
+
 teletransporter{
   name = "to_a3",
   layer = 0,
@@ -9790,8 +9799,8 @@ enemy{
 enemy{
   name = "sea_urchin_6",
   layer = 0,
-  x = 532,
-  y = 669,
+  x = 508,
+  y = 693,
   direction = 3,
   breed = "sea_urchin",
 }
