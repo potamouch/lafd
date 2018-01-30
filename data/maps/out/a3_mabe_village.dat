@@ -19861,6 +19861,14 @@ wall{
   stops_projectiles = true,
 }
 
+enemy{
+  layer = 0,
+  x = 576,
+  y = 317,
+  direction = 0,
+  breed = "dog",
+}
+
 tile{
   layer = 1,
   x = 792,

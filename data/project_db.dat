@@ -143,6 +143,7 @@ sprite{ id = "enemies/bubble", description = "Bubble" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
 sprite{ id = "enemies/death_ball", description = "Death ball" }
+sprite{ id = "enemies/dog", description = "Dog" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/fireball", description = "Fireball" }
 sprite{ id = "enemies/flying_tile", description = "Flying tile" }
@@ -169,7 +170,6 @@ sprite{ id = "enemies/stalfos_red", description = "Stalfos red" }
 sprite{ id = "enemies/star", description = "Star" }
 sprite{ id = "enemies/tektite_blue", description = "Tektite blue" }
 sprite{ id = "enemies/vegas", description = "Vegas" }
-sprite{ id = "enemies/village_dog", description = "Village Dog" }
 sprite{ id = "enemies/wizzrobe_beam", description = "Wizzrobe beam" }
 sprite{ id = "enemies/wizzrobe_blue", description = "Wizzrobe lue" }
 sprite{ id = "enemies/wizzrobe_white", description = "Wizzrobe white" }
