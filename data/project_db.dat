@@ -679,6 +679,7 @@ enemy{ id = "bubble", description = "Bubble" }
 enemy{ id = "chicken", description = "Chicken" }
 enemy{ id = "chicken_mortal", description = "Chicken mortal" }
 enemy{ id = "death_ball", description = "Death ball" }
+enemy{ id = "dog", description = "Dog" }
 enemy{ id = "evil_tile", description = "Evile tile" }
 enemy{ id = "fireball", description = "Fireball" }
 enemy{ id = "flying_tile", description = "Flying tile" }

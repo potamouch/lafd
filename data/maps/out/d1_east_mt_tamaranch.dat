@@ -6686,3 +6686,23 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/entrance_dungeon_7_door",
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/entrance_dungeon_7",
+}
+
