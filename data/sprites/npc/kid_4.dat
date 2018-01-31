@@ -4,22 +4,10 @@ animation{
   frame_delay = 500,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
     { x = 0, y = 312, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
     { x = 0, y = 360, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-  },
-}
-animation{
-  name = "jumping",
-  src_image = "npc/kids.png",
-  frame_delay = 200,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 96, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 96, y = 312, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 96, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 96, y = 360, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
 animation{
@@ -37,23 +25,23 @@ animation{
 animation{
   name = "scared",
   src_image = "npc/kids.png",
-  frame_delay = 80,
+  frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 312, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 360, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 312, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 360, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
 animation{
   name = "stopped",
   src_image = "npc/kids.png",
   directions = {
-    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
     { x = 0, y = 312, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
     { x = 0, y = 360, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
 animation{
@@ -62,9 +50,9 @@ animation{
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
     { x = 0, y = 312, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
     { x = 0, y = 360, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 336, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 288, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
