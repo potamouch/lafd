@@ -19864,7 +19864,7 @@ wall{
 enemy{
   layer = 0,
   x = 576,
-  y = 317,
+  y = 341,
   direction = 0,
   breed = "dog",
 }
