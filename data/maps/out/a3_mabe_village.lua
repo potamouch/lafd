@@ -118,16 +118,19 @@ function map:talk_to_marine()
 
   if game:get_value("main_quest_step") <= 4 then
     game:start_dialog("maps.out.mabe_village.marine_1", game:get_player_name(), function()
+      marine:get_sprite():set_animation("singing")
       marine_song = true
       map:set_music()
     end)
   elseif game:get_value("main_quest_step") < 11 then
     game:start_dialog("maps.out.mabe_village.marine_2", game:get_player_name(), function()
+      marine:get_sprite():set_animation("singing")
       marine_song = true
       map:set_music()
     end)
   else
     game:start_dialog("maps.out.mabe_village.marine_3", game:get_player_name(), function()
+      marine:get_sprite():set_animation("singing")
       marine_song = true
       map:set_music()
     end)
@@ -285,6 +288,7 @@ end
 function marine_sensor_1:on_activated()
 
     marine_song = false
+    marine:get_sprite():set_animation("waiting")
     map:set_music()
 
 end
@@ -292,6 +296,7 @@ end
 function marine_sensor_2:on_activated()
 
     marine_song = false
+    marine:get_sprite():set_animation("waiting")
     map:set_music()
 
 end
