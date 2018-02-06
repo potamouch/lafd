@@ -1,5 +1,6 @@
 local enemy = ...
 local map = enemy:get_map()
+local angry = false
 
 function enemy:on_created()
 
@@ -26,7 +27,11 @@ end
 
 function enemy:on_restarted()
 
+  if angry then
+    enemy:go_angry()
+  else
     enemy:go_random()
+  end
    
 end
 
@@ -36,30 +41,34 @@ function enemy:go_random()
   movement:set_speed(32)
   movement:start(enemy)
   enemy:set_can_attack(false)
+  enemy:get_sprite():set_animation("walking")
+  angry = false
+
 end
 
 function enemy:go_angry()
 
-  angry = true
-  map.angry_chickens = true
-  going_hero = true
-  local movement = sol.movement.create("target")
-  movement:set_speed(96)
-  movement:start(enemy)
-  enemy:get_sprite():set_animation("angry")
-  enemy:set_can_attack(true)
+      local game = map:get_game()
+      local hero = game:get_hero()
+      local direction4 = enemy:get_direction4_to(hero)
+      hero:freeze()
+      enemy:set_can_attack(true)
+      enemy:get_sprite():set_direction(direction4)
+      enemy:get_sprite():set_animation("angry")
+      local movement = sol.movement.create("target")
+      movement:set_speed(96)
+      movement:start(enemy)
+      function movement:on_finished()
+        hero:unfreeze()
+        enemy:go_random()
+      end
+    
+
 end
 
 function enemy:on_hurt()
 
-  local game = map:get_game()
-  local hero = game:get_hero()
-  local direction4 = enemy:get_direction4_to(hero)
-  enemy:set_can_attack(true)
-  enemy:get_sprite():set_direction(direction4)
-  enemy:get_sprite():set_animation("angry")
-  local movement = sol.movement.create("target")
-  movement:set_speed(96)
-  movement:start(enemy)
+    angry = true
+
 
 end

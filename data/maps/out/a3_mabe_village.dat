@@ -21200,6 +21200,31 @@ custom_entity{
   model = "non_diggable",
 }
 
+enemy{
+  layer = 0,
+  x = 448,
+  y = 445,
+  direction = 0,
+  breed = "dog",
+}
+
+enemy{
+  layer = 0,
+  x = 744,
+  y = 637,
+  direction = 0,
+  breed = "dog",
+}
+
+enemy{
+  name = "Breed_5",
+  layer = 0,
+  x = 408,
+  y = 277,
+  direction = 3,
+  breed = "chicken",
+}
+
 tile{
   layer = 1,
   x = 792,
