@@ -416,6 +416,7 @@ sprite{ id = "npc/fairy", description = "Fairy" }
 sprite{ id = "npc/fishman", description = "Fishman" }
 sprite{ id = "npc/frog", description = "Frog" }
 sprite{ id = "npc/game_man", description = "Game man" }
+sprite{ id = "npc/ghost", description = "Ghost" }
 sprite{ id = "npc/grand_ma", description = "Grand-mother" }
 sprite{ id = "npc/grand_pa", description = "Grand pa" }
 sprite{ id = "npc/kid_1", description = "Kid 1" }
