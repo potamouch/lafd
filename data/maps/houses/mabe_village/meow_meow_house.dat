@@ -2138,14 +2138,6 @@ custom_entity{
   model = "non_diggable",
 }
 
-chest{
-  layer = 0,
-  x = 344,
-  y = 125,
-  treasure_name = "shovel",
-  sprite = "entities/chest",
-}
-
 tile{
   layer = 1,
   x = 128,

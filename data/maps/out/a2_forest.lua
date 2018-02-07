@@ -134,7 +134,9 @@ function lost_sensor:on_activated()
   if game:get_value("main_quest_step") > 4 then
     return
   end
-
+ map.num_destructibles_created = 0
+  tarin:get_sprite():set_animation("laugh_raccoon")
+  tarin_2:get_sprite():set_animation("laugh_raccoon")
   local x, y = hero:get_position()
   local sensor_x, sensor_y = self:get_position()
   local marker_x, marker_y = lost_destination:get_position()
@@ -155,22 +157,34 @@ function lost_sensor:on_activated()
       -- Move to the east the ones from the west.
       -- Some of them might be currently playing an animation, that's why
       -- we move them.
-      destructible:set_position(x + diff_x, y + diff_y)
-
-      -- And re-create the west ones.
       local sprite = destructible:get_sprite():get_animation_set()
       local destruction_sound = destructible:get_destruction_sound()
       local weight = destructible:get_weight()
       local can_be_cut = destructible:get_can_be_cut()
       local damage_on_enemies = destructible:get_damage_on_enemies()
       local modified_ground = destructible:get_modified_ground()
-
       map.num_destructibles_created = map.num_destructibles_created + 1
+      --destructible:set_position(x + diff_x, y + diff_y)
+      --destructible:set_name("destructible_bis_" .. map.num_destructibles_created)
+       map:create_destructible{
+              layer = 0,
+              x = x + diff_x,
+              y = y + diff_y,
+              name = "destructible_bis_" .. map.num_destructibles_created,
+              sprite = sprite,
+              destruction_sound = destruction_sound,
+              weight = weight,
+              can_be_cut = can_be_cut,
+              damage_on_enemies = damage_on_enemies,
+              modified_ground = modified_ground,
+            }
+
+      -- And re-create the west ones.
       map:create_destructible{
         layer = 0,
         x = x,
         y = y,
-        name = "destructible_bis_" .. map.num_destructibles_created,
+        name = "destructible_" .. map.num_destructibles_created,
         sprite = sprite,
         destruction_sound = destruction_sound,
         weight = weight,
@@ -178,10 +192,13 @@ function lost_sensor:on_activated()
         damage_on_enemies = damage_on_enemies,
         modified_ground = modified_ground,
       }
-      tarin_2:set_enabled(true)
-      tarin_2:get_sprite():fade_out()
     end
   end
+  tarin_2:set_enabled(true)
+  tarin_2:get_sprite():fade_out(function()
+      tarin:get_sprite():set_animation("waiting_raccoon")
+      tarin_2:get_sprite():set_animation("waiting_raccoon")
+  end)
 
   -- Put Tarin above the grass.
   tarin:bring_to_front()
@@ -193,7 +210,10 @@ function raccoon_lost_warning_sensor:on_activated()
   if game:get_value("main_quest_step") < 5
       and not map.raccoon_warning_done then
     map.raccoon_warning_done = true
-    game:start_dialog("maps.out.forest.raccoon_lost_warning")
+    game:start_dialog("maps.out.forest.raccoon_lost_warning", function() 
+      tarin:get_sprite():set_direction(3)
+      tarin_2:get_sprite():set_direction(3)
+    end)
   end
 
 end
@@ -209,7 +229,10 @@ end
 function tarin:on_interaction()
 
   if game:get_value("main_quest_step") < 5 then
-    game:start_dialog("maps.out.forest.raccoon")
+    game:start_dialog("maps.out.forest.raccoon", function()
+      tarin:get_sprite():set_direction(3)
+      tarin_2:get_sprite():set_direction(3)
+    end)
   else
     game:start_dialog("maps.out.forest.tarin")
     if tarin_2 then

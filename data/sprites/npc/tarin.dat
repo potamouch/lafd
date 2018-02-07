@@ -11,7 +11,7 @@ animation{
   },
 }
 animation{
-  name = "laugh_racoon",
+  name = "laugh_raccoon",
   src_image = "npc/tarin.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
