@@ -155,9 +155,13 @@ end
 function  map:talk_to_grand_ma()
 
     if map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then
-      game:start_dialog("maps.out.mabe_village.grand_ma_1")
+      game:start_dialog("maps.out.mabe_village.grand_ma_1", function()
+        grand_ma:get_sprite():set_direction(3)
+      end)
     else
-      game:start_dialog("maps.out.mabe_village.grand_ma_2")
+      game:start_dialog("maps.out.mabe_village.grand_ma_2", function()
+        grand_ma:get_sprite():set_direction(3)
+      end)
     end
 
 

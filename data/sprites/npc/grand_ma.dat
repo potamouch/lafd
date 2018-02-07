@@ -1,35 +1,4 @@
 animation{
-  name = "stopped",
-  src_image = "npc/grand_ma.png",
-  frame_delay = 200,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-  },
-}
-animation{
-  name = "itemget",
-  src_image = "npc/grand_ma.png",
-  directions = {
-    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "nobroom",
-  src_image = "npc/grand_ma.png",
-  frame_delay = 200,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 96, y = 32, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 96, y = 96, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 96, y = 64, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 96, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 4 },
-  },
-}
-animation{
   name = "walking",
   src_image = "npc/grand_ma.png",
   frame_delay = 200,
@@ -39,5 +8,39 @@ animation{
     { x = 0, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
     { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
+  name = "itemget",
+  src_image = "npc/grand_ma.png",
+  directions = {
+    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
+  name = "nobroom",
+  src_image = "npc/grand_ma.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 96, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 96, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 96, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "npc/grand_ma.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }

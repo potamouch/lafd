@@ -19,8 +19,8 @@ function initial_game:initialize_new_savegame(game)
   game:set_ability("tunic", 1)
   game:get_item("rupee_bag"):set_variant(1)
   game:set_value("main_quest_step", 0)
-  --game:set_starting_location("houses/mabe_village/marine_house", "start_position")
- game:set_starting_location("examples/test_map", "destination")
+  game:set_starting_location("houses/mabe_village/marine_house", "start_position")
+ --game:set_starting_location("examples/test_map", "destination")
 end
 
 return initial_game
