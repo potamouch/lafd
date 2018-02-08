@@ -12,7 +12,7 @@ properties{
 
 tile{
   layer = 0,
-  x = 8,
+  x = 0,
   y = 0,
   width = 960,
   height = 768,

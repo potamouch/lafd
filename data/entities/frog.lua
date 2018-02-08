@@ -26,7 +26,7 @@ end
 
 function entity:move_frog()
 
-  local direction4 = math.random(3)
+  local direction4 = math.random(4)
   local direction8 = 2 * direction4
   local duration = 500 + math.random(1000)
   local movement = sol.movement.create("jump")

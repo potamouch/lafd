@@ -730,6 +730,7 @@ entity{ id = "heavy_statue", description = "Heavy statue" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }
+entity{ id = "mouse", description = "Mouse" }
 entity{ id = "mr_write", description = "Mr Write" }
 entity{ id = "non_diggable", description = "Non diggable" }
 entity{ id = "obstacle", description = "Obstacle" }

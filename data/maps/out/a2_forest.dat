@@ -11557,6 +11557,28 @@ destructible{
   ground = "grass",
 }
 
+destructible{
+  layer = 0,
+  x = 808,
+  y = 269,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 904,
+  y = 269,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
 tile{
   layer = 1,
   x = 536,

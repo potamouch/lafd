@@ -180,18 +180,23 @@ function lost_sensor:on_activated()
     return
   end
   for key, destructible in pairs(destructible_places) do
-      local is_exist = map:has_entity(destructible["name"])
-      if (is_exist) then
-        map:get_entity("bis_" .. destructible["name"]):set_enabled(true)
-      else
-        map:get_entity("bis_" .. destructible["name"]):set_enabled(false)
-      end
-     end
+      local d = map:get_entity(destructible["name"])
+      if d ~= nil and d:get_sprite():get_animation() == "destroy" then
+      local bis_destructible = map:get_entity("bis_" .. destructible["name"])
+      local position_x, position_y = bis_destructible:get_position()
+      bis_destructible:remove()
+      d:set_position(position_x, position_y)
+    else
+        local is_exist = map:has_entity(destructible["name"])
+        if (is_exist) then
+          map:get_entity("bis_" .. destructible["name"]):set_enabled(true)
+        else
+          map:get_entity("bis_" .. destructible["name"]):set_enabled(false)
+        end
+    end
+  end
   tarin:get_sprite():set_animation("laugh_raccoon")
   tarin_2:get_sprite():set_animation("laugh_raccoon")
-  for destructible in map:get_entities("destructible") do
-    destructible:set_can_be_cut(false)
-  end
   local x, y = hero:get_position()
   local sensor_x, sensor_y = self:get_position()
   local marker_x, marker_y = lost_destination:get_position()
@@ -248,7 +253,6 @@ function separator:on_activating()
       })
     else
           map:get_entity(destructible_place["name"]):set_enabled(true)
-          map:get_entity(destructible_place["name"]):set_can_be_cut(true)
     end
   end
   for key, bis_destructible_place in pairs(bis_destructible_places) do
@@ -270,7 +274,6 @@ function separator:on_activating()
       })
     else
           map:get_entity(bis_destructible_place["name"]):set_enabled(true)
-          map:get_entity(bis_destructible_place["name"]):set_can_be_cut(true)
     end
   end
 

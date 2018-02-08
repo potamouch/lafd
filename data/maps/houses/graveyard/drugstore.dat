@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
+  music = "maps/houses/shop",
 }
 
 tile{
@@ -372,7 +373,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 88,
+  y = 72,
   width = 32,
   height = 8,
   pattern = "table.5",
@@ -381,7 +382,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 88,
+  y = 72,
   width = 8,
   height = 8,
   pattern = "table.6",
@@ -390,7 +391,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 80,
+  y = 64,
   width = 8,
   height = 8,
   pattern = "table.3",
@@ -399,7 +400,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 96,
+  y = 80,
   width = 32,
   height = 8,
   pattern = "table.8",
@@ -408,7 +409,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 96,
+  y = 80,
   width = 8,
   height = 8,
   pattern = "table.7",
@@ -417,7 +418,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 96,
+  y = 80,
   width = 8,
   height = 8,
   pattern = "table.9",
@@ -426,7 +427,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 80,
+  y = 64,
   width = 32,
   height = 8,
   pattern = "table.2",
@@ -435,7 +436,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 88,
+  y = 72,
   width = 8,
   height = 8,
   pattern = "table.4",
@@ -444,7 +445,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 80,
+  y = 64,
   width = 8,
   height = 8,
   pattern = "table.1",
@@ -453,7 +454,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 64,
+  y = 48,
   width = 16,
   height = 16,
   pattern = "seat.1",
@@ -476,6 +477,108 @@ destination{
   x = 160,
   y = 213,
   direction = 1,
+}
+
+custom_entity{
+  layer = 0,
+  x = 88,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "npc/mouse",
+  model = "mouse",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "npc/mouse",
+  model = "mouse",
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 77,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 93,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 109,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{
