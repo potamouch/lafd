@@ -219,8 +219,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
-  y = 40,
+  x = 192,
+  y = 48,
   width = 32,
   height = 40,
   pattern = "bed.default",
@@ -237,18 +237,18 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
+  x = 160,
   y = 64,
   width = 16,
-  height = 32,
+  height = 48,
   pattern = "floor_pot",
 }
 
 tile{
   layer = 0,
-  x = 176,
-  y = 96,
-  width = 96,
+  x = 160,
+  y = 112,
+  width = 112,
   height = 16,
   pattern = "floor_pot",
 }
@@ -375,7 +375,7 @@ tile{
   x = 120,
   y = 72,
   width = 32,
-  height = 8,
+  height = 16,
   pattern = "table.5",
 }
 
@@ -384,7 +384,7 @@ tile{
   x = 152,
   y = 72,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "table.6",
 }
 
@@ -400,7 +400,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 80,
+  y = 88,
   width = 32,
   height = 8,
   pattern = "table.8",
@@ -409,7 +409,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 80,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "table.7",
@@ -418,7 +418,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 80,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "table.9",
@@ -438,7 +438,7 @@ tile{
   x = 112,
   y = 72,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "table.4",
 }
 
@@ -458,6 +458,87 @@ tile{
   width = 16,
   height = 16,
   pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "bug_cage",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "bug_cage",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-9",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-9",
 }
 
 teletransporter{
@@ -492,8 +573,8 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 200,
-  y = 77,
+  x = 256,
+  y = 93,
   width = 16,
   height = 16,
   direction = 2,
@@ -503,7 +584,7 @@ custom_entity{
 
 destructible{
   layer = 0,
-  x = 184,
+  x = 168,
   y = 77,
   treasure_name = "random",
   sprite = "entities/pot",
@@ -513,7 +594,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 184,
+  x = 168,
   y = 93,
   treasure_name = "random",
   sprite = "entities/pot",
@@ -523,8 +604,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 184,
-  y = 109,
+  x = 168,
+  y = 125,
   treasure_name = "random",
   sprite = "entities/pot",
   weight = 1,
@@ -534,7 +615,7 @@ destructible{
 destructible{
   layer = 0,
   x = 200,
-  y = 109,
+  y = 125,
   treasure_name = "random",
   sprite = "entities/pot",
   weight = 1,
@@ -544,7 +625,7 @@ destructible{
 destructible{
   layer = 0,
   x = 216,
-  y = 109,
+  y = 125,
   treasure_name = "random",
   sprite = "entities/pot",
   weight = 1,
@@ -554,7 +635,7 @@ destructible{
 destructible{
   layer = 0,
   x = 232,
-  y = 109,
+  y = 125,
   treasure_name = "random",
   sprite = "entities/pot",
   weight = 1,
@@ -564,7 +645,7 @@ destructible{
 destructible{
   layer = 0,
   x = 248,
-  y = 109,
+  y = 125,
   treasure_name = "random",
   sprite = "entities/pot",
   weight = 1,
@@ -574,6 +655,53 @@ destructible{
 destructible{
   layer = 0,
   x = 264,
+  y = 125,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 248,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 264,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 125,
+  treasure_name = "random",
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+npc{
+  name = "wardrobe_4",
+  layer = 0,
+  x = 232,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 168,
   y = 109,
   treasure_name = "random",
   sprite = "entities/pot",
@@ -593,6 +721,15 @@ tile{
 tile{
   layer = 1,
   x = 248,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 1,
+  x = 224,
   y = 8,
   width = 24,
   height = 24,

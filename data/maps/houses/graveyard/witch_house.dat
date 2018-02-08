@@ -299,33 +299,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 24,
-  width = 16,
-  height = 32,
-  pattern = "wine_rack.1",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 24,
-  width = 16,
-  height = 32,
-  pattern = "wine_rack.3",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 24,
-  width = 16,
-  height = 32,
-  pattern = "wine_rack.2",
-}
-
-tile{
-  layer = 0,
   x = 112,
   y = 160,
   width = 16,
@@ -403,6 +376,24 @@ tile{
   width = 8,
   height = 72,
   pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "dresser.4a",
 }
 
 teletransporter{
@@ -670,6 +661,33 @@ custom_entity{
   model = "torch",
 }
 
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 112,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 128,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_4",
+  layer = 0,
+  x = 96,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -677,6 +695,24 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "287",
 }
 
 tile{

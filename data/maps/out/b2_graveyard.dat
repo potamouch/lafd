@@ -24644,3 +24644,39 @@ tile{
   pattern = "1452",
 }
 
+custom_entity{
+  name = "butterfly_1",
+  layer = 1,
+  x = 264,
+  y = 429,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_2",
+  layer = 1,
+  x = 264,
+  y = 509,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_3",
+  layer = 1,
+  x = 160,
+  y = 469,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+

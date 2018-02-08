@@ -80,3 +80,10 @@ function witch:on_interaction()
       map:talk_to_witch()
 
 end
+
+
+for wardrobe in map:get_entities("wardrobe") do
+  function wardrobe:on_interaction()
+    game:start_dialog("maps.houses.wardrobe_1", game:get_player_name())
+  end
+end
