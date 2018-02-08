@@ -2,9 +2,9 @@ animation{
   name = "normal",
   src_image = "entities/egg.png",
   directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
   },
 }

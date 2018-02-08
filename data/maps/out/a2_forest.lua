@@ -6,7 +6,8 @@ local game = map:get_game()
 local fairy_manager = require("scripts/maps/fairy_manager")
 local owl_manager = require("scripts/maps/owl_manager")
 local companion_manager = require("scripts/maps/companion_manager")
-
+local destructible_places = {}
+local bis_destructible_places = {}
 -- Variables
 
 map.overlay_angles = {
@@ -17,10 +18,14 @@ map.overlay_angles = {
 }
 map.overlay_step = 1
 
-map.num_destructibles_created = 0
 map.raccoon_warning_done = false
 
 -- Functions
+
+local function get_destructible_sprite_name(destructible)
+  local sprite = destructible:get_sprite()
+  return sprite ~= nil and sprite:get_animation_set() or ""
+end
 
 function map:set_music()
 
@@ -72,6 +77,46 @@ end
 
 function map:on_started(destination)
 
+  -- Store destructibles
+  for destructible in map:get_entities("destructible") do
+    local x, y, layer = destructible:get_position()
+    destructible_places[#destructible_places + 1] = {
+      x = x,
+      y = y,
+      layer = layer,
+      name = destructible:get_name(),
+      treasure = { destructible:get_treasure() },
+      sprite = get_destructible_sprite_name(destructible),
+      destruction_sound = destructible:get_destruction_sound(),
+      weight = destructible:get_weight(),
+      can_be_cut = destructible:get_can_be_cut(),
+      can_explode = destructible:get_can_explode(),
+      can_regenerate = destructible:get_can_regenerate(),
+      damage_on_enemies = destructible:get_damage_on_enemies(),
+      ground = destructible:get_modified_ground(),
+      destructible = destructible,
+    }
+  end
+  -- Store bis destructibles
+  for destructible in map:get_entities("bis_destructible") do
+    local x, y, layer = destructible:get_position()
+    bis_destructible_places[#bis_destructible_places + 1] = {
+      x = x,
+      y = y,
+      layer = layer,
+      name = destructible:get_name(),
+      treasure = { destructible:get_treasure() },
+      sprite = get_destructible_sprite_name(destructible),
+      destruction_sound = destructible:get_destruction_sound(),
+      weight = destructible:get_weight(),
+      can_be_cut = destructible:get_can_be_cut(),
+      can_explode = destructible:get_can_explode(),
+      can_regenerate = destructible:get_can_regenerate(),
+      damage_on_enemies = destructible:get_damage_on_enemies(),
+      ground = destructible:get_modified_ground(),
+      destructible = destructible,
+    }
+  end
   companion_manager:init_map(map)
   map:set_digging_allowed(true)
  fairy_manager:init_map(map, "fairy")
@@ -134,9 +179,19 @@ function lost_sensor:on_activated()
   if game:get_value("main_quest_step") > 4 then
     return
   end
- map.num_destructibles_created = 0
+  for key, destructible in pairs(destructible_places) do
+      local is_exist = map:has_entity(destructible["name"])
+      if (is_exist) then
+        map:get_entity("bis_" .. destructible["name"]):set_enabled(true)
+      else
+        map:get_entity("bis_" .. destructible["name"]):set_enabled(false)
+      end
+     end
   tarin:get_sprite():set_animation("laugh_raccoon")
   tarin_2:get_sprite():set_animation("laugh_raccoon")
+  for destructible in map:get_entities("destructible") do
+    destructible:set_can_be_cut(false)
+  end
   local x, y = hero:get_position()
   local sensor_x, sensor_y = self:get_position()
   local marker_x, marker_y = lost_destination:get_position()
@@ -147,53 +202,6 @@ function lost_sensor:on_activated()
 
   -- Keep the exact same destructible entities so that the player cannot see a difference.
 
-  for destructible in map:get_entities("destructible_") do
-
-    -- Destroy all bushes and grass entities in the east screen.
-    local x, y = destructible:get_position()
-    if destructible:get_position() > 480 then
-      destructible:remove()
-    else
-      -- Move to the east the ones from the west.
-      -- Some of them might be currently playing an animation, that's why
-      -- we move them.
-      local sprite = destructible:get_sprite():get_animation_set()
-      local destruction_sound = destructible:get_destruction_sound()
-      local weight = destructible:get_weight()
-      local can_be_cut = destructible:get_can_be_cut()
-      local damage_on_enemies = destructible:get_damage_on_enemies()
-      local modified_ground = destructible:get_modified_ground()
-      map.num_destructibles_created = map.num_destructibles_created + 1
-      --destructible:set_position(x + diff_x, y + diff_y)
-      --destructible:set_name("destructible_bis_" .. map.num_destructibles_created)
-       map:create_destructible{
-              layer = 0,
-              x = x + diff_x,
-              y = y + diff_y,
-              name = "destructible_bis_" .. map.num_destructibles_created,
-              sprite = sprite,
-              destruction_sound = destruction_sound,
-              weight = weight,
-              can_be_cut = can_be_cut,
-              damage_on_enemies = damage_on_enemies,
-              modified_ground = modified_ground,
-            }
-
-      -- And re-create the west ones.
-      map:create_destructible{
-        layer = 0,
-        x = x,
-        y = y,
-        name = "destructible_" .. map.num_destructibles_created,
-        sprite = sprite,
-        destruction_sound = destruction_sound,
-        weight = weight,
-        can_be_cut = can_be_cut,
-        damage_on_enemies = damage_on_enemies,
-        modified_ground = modified_ground,
-      }
-    end
-  end
   tarin_2:set_enabled(true)
   tarin_2:get_sprite():fade_out(function()
       tarin:get_sprite():set_animation("waiting_raccoon")
@@ -214,6 +222,56 @@ function raccoon_lost_warning_sensor:on_activated()
       tarin:get_sprite():set_direction(3)
       tarin_2:get_sprite():set_direction(3)
     end)
+  end
+
+end
+
+function separator:on_activating()
+
+ -- Rebuild destructibles
+  for key, destructible_place in pairs(destructible_places) do
+    local is_exist = map:has_entity(destructible_place["name"])
+    if (is_exist == false) then
+      local destructible = map:create_destructible({
+        x = destructible_place.x,
+        y = destructible_place.y,
+        layer = destructible_place.layer,
+        name = destructible_place.name,
+        sprite = destructible_place.sprite,
+        destruction_sound = destructible_place.destruction_sound,
+        weight = destructible_place.weight,
+        can_be_cut = destructible_place.can_be_cut,
+        can_explode = destructible_place.can_explode,
+        can_regenerate = destructible_place.can_regenerate,
+        damage_on_enemies = destructible_place.damage_on_enemies,
+        ground = destructible_place.ground,
+      })
+    else
+          map:get_entity(destructible_place["name"]):set_enabled(true)
+          map:get_entity(destructible_place["name"]):set_can_be_cut(true)
+    end
+  end
+  for key, bis_destructible_place in pairs(bis_destructible_places) do
+    local is_exist = map:has_entity(bis_destructible_place["name"])
+    if (is_exist == false) then
+      local destructible = map:create_destructible({
+        x = bis_destructible_place.x,
+        y = bis_destructible_place.y,
+        layer = bis_destructible_place.layer,
+        name = bis_destructible_place.name,
+        sprite = bis_destructible_place.sprite,
+        destruction_sound = bis_destructible_place.destruction_sound,
+        weight = bis_destructible_place.weight,
+        can_be_cut = bis_destructible_place.can_be_cut,
+        can_explode = bis_destructible_place.can_explode,
+        can_regenerate = bis_destructible_place.can_regenerate,
+        damage_on_enemies = bis_destructible_place.damage_on_enemies,
+        ground = bis_destructible_place.ground,
+      })
+    else
+          map:get_entity(bis_destructible_place["name"]):set_enabled(true)
+          map:get_entity(bis_destructible_place["name"]):set_can_be_cut(true)
+    end
   end
 
 end

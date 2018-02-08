@@ -9162,7 +9162,7 @@ enemy{
   y = 317,
   direction = 3,
   breed = "moblin",
-  treasure_name = "quiver",
+  treasure_name = "random",
 }
 
 enemy{
@@ -9403,258 +9403,10 @@ destructible{
 }
 
 destructible{
-  name = "destructible_bis_35",
-  layer = 0,
-  x = 912,
-  y = 661,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_36",
-  layer = 0,
-  x = 896,
-  y = 661,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_34",
-  layer = 0,
-  x = 896,
-  y = 645,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_33",
-  layer = 0,
-  x = 896,
-  y = 629,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_31",
-  layer = 0,
-  x = 896,
-  y = 613,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_32",
-  layer = 0,
-  x = 880,
-  y = 613,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_30",
-  layer = 0,
-  x = 880,
-  y = 597,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_29",
-  layer = 0,
-  x = 896,
-  y = 597,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_27",
-  layer = 0,
-  x = 896,
-  y = 581,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_28",
-  layer = 0,
-  x = 880,
-  y = 581,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_26",
-  layer = 0,
-  x = 896,
-  y = 565,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_23",
-  layer = 0,
-  x = 896,
-  y = 549,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_22",
-  layer = 0,
-  x = 912,
-  y = 549,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_21",
-  layer = 0,
-  x = 912,
-  y = 533,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_20",
-  layer = 0,
-  x = 912,
-  y = 517,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_19",
-  layer = 0,
-  x = 912,
-  y = 501,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_18",
-  layer = 0,
-  x = 912,
-  y = 485,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_17",
+  name = "bis_destructible_17",
   layer = 0,
   x = 912,
   y = 469,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_24",
-  layer = 0,
-  x = 896,
-  y = 421,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_bis_25",
-  layer = 0,
-  x = 896,
-  y = 405,
-  treasure_name = "random",
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -9705,189 +9457,6 @@ destructible{
   layer = 0,
   x = 416,
   y = 453,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_33",
-  layer = 0,
-  x = 416,
-  y = 437,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_31",
-  layer = 0,
-  x = 416,
-  y = 421,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_32",
-  layer = 0,
-  x = 400,
-  y = 421,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_30",
-  layer = 0,
-  x = 400,
-  y = 405,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_29",
-  layer = 0,
-  x = 416,
-  y = 405,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_27",
-  layer = 0,
-  x = 416,
-  y = 389,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_28",
-  layer = 0,
-  x = 400,
-  y = 389,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_26",
-  layer = 0,
-  x = 416,
-  y = 373,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_23",
-  layer = 0,
-  x = 416,
-  y = 357,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_22",
-  layer = 0,
-  x = 432,
-  y = 357,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_21",
-  layer = 0,
-  x = 432,
-  y = 341,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_20",
-  layer = 0,
-  x = 432,
-  y = 325,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_19",
-  layer = 0,
-  x = 432,
-  y = 309,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_18",
-  layer = 0,
-  x = 432,
-  y = 293,
-  treasure_name = "random",
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -9900,33 +9469,6 @@ destructible{
   layer = 0,
   x = 432,
   y = 277,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_24",
-  layer = 0,
-  x = 416,
-  y = 229,
-  treasure_name = "random",
-  sprite = "entities/grass",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-  ground = "grass",
-}
-
-destructible{
-  name = "destructible_25",
-  layer = 0,
-  x = 416,
-  y = 213,
-  treasure_name = "random",
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -10899,7 +10441,6 @@ destructible{
   layer = 0,
   x = 400,
   y = 301,
-  treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -11181,371 +10722,10 @@ enemy{
 }
 
 destructible{
-  name = "destructible_2",
-  layer = 0,
-  x = 400,
-  y = 285,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_3",
-  layer = 0,
-  x = 400,
-  y = 269,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_4",
-  layer = 0,
-  x = 384,
-  y = 253,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_5",
-  layer = 0,
-  x = 368,
-  y = 237,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_6",
-  layer = 0,
-  x = 352,
-  y = 237,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_7",
-  layer = 0,
-  x = 336,
-  y = 237,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_8",
-  layer = 0,
-  x = 320,
-  y = 253,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_9",
-  layer = 0,
-  x = 304,
-  y = 269,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_10",
-  layer = 0,
-  x = 304,
-  y = 285,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_11",
-  layer = 0,
-  x = 304,
-  y = 301,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_12",
-  layer = 0,
-  x = 320,
-  y = 317,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_13",
-  layer = 0,
-  x = 336,
-  y = 333,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_14",
-  layer = 0,
-  x = 352,
-  y = 333,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_15",
-  layer = 0,
-  x = 368,
-  y = 333,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_16",
-  layer = 0,
-  x = 384,
-  y = 317,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_1",
+  name = "bis_destructible_1",
   layer = 0,
   x = 880,
   y = 493,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_2",
-  layer = 0,
-  x = 880,
-  y = 477,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_3",
-  layer = 0,
-  x = 880,
-  y = 461,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_4",
-  layer = 0,
-  x = 864,
-  y = 445,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_5",
-  layer = 0,
-  x = 848,
-  y = 429,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_6",
-  layer = 0,
-  x = 832,
-  y = 429,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_7",
-  layer = 0,
-  x = 816,
-  y = 429,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_8",
-  layer = 0,
-  x = 800,
-  y = 445,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_9",
-  layer = 0,
-  x = 784,
-  y = 461,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_10",
-  layer = 0,
-  x = 784,
-  y = 477,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_11",
-  layer = 0,
-  x = 784,
-  y = 493,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_12",
-  layer = 0,
-  x = 800,
-  y = 509,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_13",
-  layer = 0,
-  x = 816,
-  y = 525,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_14",
-  layer = 0,
-  x = 832,
-  y = 525,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_15",
-  layer = 0,
-  x = 848,
-  y = 525,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  name = "destructible_bis_16",
-  layer = 0,
-  x = 864,
-  y = 509,
-  treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,
@@ -11603,6 +10783,778 @@ wall{
   height = 64,
   stops_enemies = true,
   stops_projectiles = true,
+}
+
+destructible{
+  name = "bis_destructible_2",
+  layer = 0,
+  x = 880,
+  y = 477,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_35",
+  layer = 0,
+  x = 912,
+  y = 661,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_36",
+  layer = 0,
+  x = 896,
+  y = 661,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+wall{
+  layer = 0,
+  x = 552,
+  y = 528,
+  width = 16,
+  height = 112,
+  stops_enemies = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 304,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_projectiles = true,
+}
+
+destructible{
+  name = "bis_destructible_3",
+  layer = 0,
+  x = 880,
+  y = 461,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_4",
+  layer = 0,
+  x = 864,
+  y = 445,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_5",
+  layer = 0,
+  x = 848,
+  y = 429,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_6",
+  layer = 0,
+  x = 832,
+  y = 429,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_7",
+  layer = 0,
+  x = 816,
+  y = 429,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_8",
+  layer = 0,
+  x = 800,
+  y = 445,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_9",
+  layer = 0,
+  x = 784,
+  y = 461,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_10",
+  layer = 0,
+  x = 784,
+  y = 477,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_11",
+  layer = 0,
+  x = 784,
+  y = 493,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_12",
+  layer = 0,
+  x = 800,
+  y = 509,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_13",
+  layer = 0,
+  x = 816,
+  y = 525,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_14",
+  layer = 0,
+  x = 832,
+  y = 525,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_15",
+  layer = 0,
+  x = 848,
+  y = 525,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bis_destructible_16",
+  layer = 0,
+  x = 864,
+  y = 509,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_2",
+  layer = 0,
+  x = 400,
+  y = 285,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_3",
+  layer = 0,
+  x = 400,
+  y = 269,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_4",
+  layer = 0,
+  x = 384,
+  y = 253,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_5",
+  layer = 0,
+  x = 368,
+  y = 237,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_6",
+  layer = 0,
+  x = 352,
+  y = 237,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_7",
+  layer = 0,
+  x = 336,
+  y = 237,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_8",
+  layer = 0,
+  x = 320,
+  y = 253,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_9",
+  layer = 0,
+  x = 304,
+  y = 269,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_10",
+  layer = 0,
+  x = 304,
+  y = 285,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_11",
+  layer = 0,
+  x = 304,
+  y = 301,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_12",
+  layer = 0,
+  x = 320,
+  y = 317,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_13",
+  layer = 0,
+  x = 336,
+  y = 333,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_14",
+  layer = 0,
+  x = 352,
+  y = 333,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_15",
+  layer = 0,
+  x = 368,
+  y = 333,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_16",
+  layer = 0,
+  x = 384,
+  y = 317,
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  name = "destructible_18",
+  layer = 0,
+  x = 432,
+  y = 293,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_19",
+  layer = 0,
+  x = 432,
+  y = 309,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_20",
+  layer = 0,
+  x = 432,
+  y = 325,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_21",
+  layer = 0,
+  x = 432,
+  y = 341,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_22",
+  layer = 0,
+  x = 432,
+  y = 357,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_23",
+  layer = 0,
+  x = 416,
+  y = 357,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_24",
+  layer = 0,
+  x = 416,
+  y = 229,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_25",
+  layer = 0,
+  x = 416,
+  y = 213,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_26",
+  layer = 0,
+  x = 416,
+  y = 373,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_27",
+  layer = 0,
+  x = 416,
+  y = 389,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_28",
+  layer = 0,
+  x = 400,
+  y = 389,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_29",
+  layer = 0,
+  x = 416,
+  y = 405,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_30",
+  layer = 0,
+  x = 400,
+  y = 405,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_31",
+  layer = 0,
+  x = 416,
+  y = 421,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_32",
+  layer = 0,
+  x = 400,
+  y = 421,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "destructible_33",
+  layer = 0,
+  x = 416,
+  y = 437,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_18",
+  layer = 0,
+  x = 912,
+  y = 485,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_19",
+  layer = 0,
+  x = 912,
+  y = 501,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_20",
+  layer = 0,
+  x = 912,
+  y = 517,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_21",
+  layer = 0,
+  x = 912,
+  y = 533,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_22",
+  layer = 0,
+  x = 912,
+  y = 549,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_23",
+  layer = 0,
+  x = 896,
+  y = 549,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_24",
+  layer = 0,
+  x = 896,
+  y = 565,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_25",
+  layer = 0,
+  x = 896,
+  y = 421,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_26",
+  layer = 0,
+  x = 896,
+  y = 405,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_27",
+  layer = 0,
+  x = 896,
+  y = 581,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_28",
+  layer = 0,
+  x = 880,
+  y = 581,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_29",
+  layer = 0,
+  x = 896,
+  y = 597,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_30",
+  layer = 0,
+  x = 880,
+  y = 597,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_31",
+  layer = 0,
+  x = 896,
+  y = 613,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_32",
+  layer = 0,
+  x = 880,
+  y = 613,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_33",
+  layer = 0,
+  x = 896,
+  y = 629,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "bis_destructible_34",
+  layer = 0,
+  x = 896,
+  y = 645,
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
 }
 
 tile{
