@@ -24680,3 +24680,39 @@ custom_entity{
   model = "butterfly",
 }
 
+custom_entity{
+  name = "butterfly_4",
+  layer = 1,
+  x = 296,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_blue",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_5",
+  layer = 1,
+  x = 256,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_red",
+  model = "butterfly",
+}
+
+custom_entity{
+  name = "butterfly_6",
+  layer = 1,
+  x = 424,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/butterfly_yellow",
+  model = "butterfly",
+}
+
