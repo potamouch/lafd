@@ -23,6 +23,18 @@ animation{
   },
 }
 animation{
+  name = "shocking_raccoon",
+  src_image = "npc/tarin.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 168, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 168, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 168, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 168, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
   name = "sleeping",
   src_image = "npc/tarin.png",
   directions = {

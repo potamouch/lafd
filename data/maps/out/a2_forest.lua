@@ -8,6 +8,8 @@ local owl_manager = require("scripts/maps/owl_manager")
 local companion_manager = require("scripts/maps/companion_manager")
 local destructible_places = {}
 local bis_destructible_places = {}
+local raccoon_positions =  {1, 2, 1, 2 , 3 , 4, 1, 2, 3, 4, 1, 2, 3, 4, 3, 2, 1}
+local raccoon_index = 1
 -- Variables
 
 map.overlay_angles = {
@@ -309,7 +311,32 @@ function tarin:on_interaction_item(item)
   end
 
   if item:get_name() == "magic_powders_counter"  then
+    print("freeze")
     hero:freeze()
+    local sprite = tarin:get_sprite()
+    sprite:set_animation("shocking_raccoon")
+    sol.timer.start(map, 1000, function()
+        change_movement_raccoon()
+    end)
+ 
+  end
+end
+
+function change_movement_raccoon()
+
+  local value = raccoon_positions[raccoon_index]
+  if value ~= nil then
+    local entity = map:get_entity("racoon_position_" .. value)
+    local movement = sol.movement.create("target")
+    movement:set_speed(256)
+    movement:set_target(entity)
+    movement:start(tarin)
+    function movement:on_finished()
+      raccoon_index = raccoon_index + 1
+      change_movement_raccoon()
+    end
+  else
+    print("ok")
     local x, y, layer = tarin:get_position()
     sol.audio.play_sound("explosion")
     map:create_explosion{
@@ -346,6 +373,13 @@ function owl_2_sensor:on_activated()
       end)
     end
 
+
+end
+
+function tarin:on_interaction()
+
+    local direction4 = tarin:get_direction4_to(hero)
+    tarin:get_sprite():set_direction(direction4)
 
 end
 

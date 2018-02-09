@@ -9070,16 +9070,6 @@ pickable{
   treasure_name = "mushroom",
 }
 
-npc{
-  name = "tarin",
-  layer = 0,
-  x = 432,
-  y = 341,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/tarin",
-}
-
 teletransporter{
   name = "to_b2",
   layer = 0,
@@ -11200,7 +11190,7 @@ destructible{
 destructible{
   name = "destructible_21",
   layer = 0,
-  x = 432,
+  x = 416,
   y = 341,
   sprite = "entities/grass",
   destruction_sound = "bush",
@@ -11577,6 +11567,56 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+custom_entity{
+  name = "racoon_position_1",
+  layer = 0,
+  x = 352,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "racoon_position_2",
+  layer = 0,
+  x = 288,
+  y = 285,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "racoon_position_3",
+  layer = 0,
+  x = 352,
+  y = 221,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "racoon_position_4",
+  layer = 0,
+  x = 416,
+  y = 285,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+npc{
+  name = "tarin",
+  layer = 0,
+  x = 432,
+  y = 341,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/tarin",
 }
 
 tile{
