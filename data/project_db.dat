@@ -426,6 +426,7 @@ sprite{ id = "npc/kid_4", description = "Kid 4" }
 sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/meow_meow", description = "Meow meow" }
 sprite{ id = "npc/merchant", description = "Merchant" }
+sprite{ id = "npc/monique", description = "Monique" }
 sprite{ id = "npc/monkey", description = "Monkey" }
 sprite{ id = "npc/monkey_brown", description = "Monkey brown" }
 sprite{ id = "npc/mouse", description = "Mouse" }
@@ -435,6 +436,7 @@ sprite{ id = "npc/phone", description = "Phone" }
 sprite{ id = "npc/photographer", description = "Photographer" }
 sprite{ id = "npc/quadruplet_father", description = "Quadruplet's father" }
 sprite{ id = "npc/quadruplet_mother", description = "Quadruplet's mother" }
+sprite{ id = "npc/raft_man", description = "Raft_man" }
 sprite{ id = "npc/richard", description = "Richard" }
 sprite{ id = "npc/seagull", description = "Seagull" }
 sprite{ id = "npc/small_bowwow", description = "Small bowwow" }
