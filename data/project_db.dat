@@ -412,6 +412,7 @@ sprite{ id = "npc/bowwow", description = "Bowwow" }
 sprite{ id = "npc/butterfly_blue", description = "Butterfly blue" }
 sprite{ id = "npc/butterfly_red", description = "Butterfly red" }
 sprite{ id = "npc/butterfly_yellow", description = "Butterfly yellow" }
+sprite{ id = "npc/cucco_man", description = "Cucco man" }
 sprite{ id = "npc/fairy", description = "Fairy" }
 sprite{ id = "npc/fishman", description = "Fishman" }
 sprite{ id = "npc/frog", description = "Frog" }
