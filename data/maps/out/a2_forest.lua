@@ -80,6 +80,10 @@ end
 
 function map:on_started(destination)
 
+  -- Tail key chest
+  if game:get_value("forest_chest_1")  then
+    forest_chest_1:set_open(true)
+  end
    tarin:get_sprite():set_direction(3)
    tarin:bring_to_front()
    raccoon_invisible:set_enabled(false)
@@ -300,7 +304,7 @@ function tarin:on_interaction()
       tarin_2:get_sprite():set_direction(3)
     end)
   else
-    game:start_dialog("maps.out.forest.tarin, function()
+    game:start_dialog("maps.out.forest.tarin", function()
       tarin:get_sprite():set_direction(3)
     end)
     if tarin_2 then
