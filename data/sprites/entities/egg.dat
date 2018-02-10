@@ -1,10 +1,20 @@
 animation{
-  name = "normal",
+  name = "closed",
   src_image = "entities/egg.png",
   directions = {
     { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
     { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
     { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
     { x = 0, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+  },
+}
+animation{
+  name = "opened",
+  src_image = "entities/egg.png",
+  directions = {
+    { x = 104, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+    { x = 104, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+    { x = 104, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
+    { x = 104, y = 0, frame_width = 104, frame_height = 120, origin_x = 52, origin_y = 117 },
   },
 }
