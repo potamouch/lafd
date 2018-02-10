@@ -131,15 +131,6 @@ teletransporter{
 tile{
   layer = 0,
   x = 0,
-  y = 736,
-  width = 2560,
-  height = 1312,
-  pattern = "floor.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 0,
   y = 528,
   width = 1936,
   height = 208,
@@ -12726,6 +12717,15 @@ tile{
   width = 8,
   height = 24,
   pattern = "stairs_down.2.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 1488,
+  width = 32,
+  height = 96,
+  pattern = "floor.9-1",
 }
 
 dynamic_tile{

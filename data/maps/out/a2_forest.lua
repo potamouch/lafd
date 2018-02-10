@@ -327,6 +327,7 @@ function tarin:on_interaction_item(item)
     sprite:set_animation("shocking_raccoon")
     sol.timer.start(map, 1000, function()
         hero:freeze()
+        sprite:set_frame_delay(150)
         change_movement_raccoon()
     end)
  
