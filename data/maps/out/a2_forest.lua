@@ -8,8 +8,9 @@ local owl_manager = require("scripts/maps/owl_manager")
 local companion_manager = require("scripts/maps/companion_manager")
 local destructible_places = {}
 local bis_destructible_places = {}
-local raccoon_positions =  {1, 2, 1, 2 , 3 , 4, 1, 2, 3, 4, 1, 2, 3, 4, 3, 2, 1}
+local raccoon_positions =  {1, 2, 1, 2 , 1 , 3, 1, 3, 4, 5, 6, 7, 6, 5, 4, 5, 6, 7, 6, 5, 4, 8}
 local raccoon_index = 1
+local raccoon_movement = false
 -- Variables
 
 map.overlay_angles = {
@@ -79,6 +80,9 @@ end
 
 function map:on_started(destination)
 
+   tarin:get_sprite():set_direction(3)
+   tarin:bring_to_front()
+   raccoon_invisible:set_enabled(false)
   -- Store destructibles
   for destructible in map:get_entities("destructible") do
     local x, y, layer = destructible:get_position()
@@ -178,7 +182,7 @@ end
 
 function lost_sensor:on_activated()
 
-  if game:get_value("main_quest_step") > 4 then
+  if raccoon_movement or game:get_value("main_quest_step") > 4 then
     return
   end
   for key, destructible in pairs(destructible_places) do
@@ -208,7 +212,6 @@ function lost_sensor:on_activated()
   map.overlay_offset_y = map.overlay_offset_y - diff_y
 
   -- Keep the exact same destructible entities so that the player cannot see a difference.
-
   tarin_2:set_enabled(true)
   tarin_2:get_sprite():fade_out(function()
       tarin:get_sprite():set_animation("waiting_raccoon")
@@ -297,7 +300,9 @@ function tarin:on_interaction()
       tarin_2:get_sprite():set_direction(3)
     end)
   else
-    game:start_dialog("maps.out.forest.tarin")
+    game:start_dialog("maps.out.forest.tarin, function()
+      tarin:get_sprite():set_direction(3)
+    end)
     if tarin_2 then
      tarin_2:get_sprite():set_direction(tarin:get_sprite():get_direction())
     end
@@ -311,11 +316,13 @@ function tarin:on_interaction_item(item)
   end
 
   if item:get_name() == "magic_powders_counter"  then
-    print("freeze")
-    hero:freeze()
+    raccoon_movement = true
+    raccoon_invisible:set_enabled(true)
+    sol.audio.stop_music()
     local sprite = tarin:get_sprite()
     sprite:set_animation("shocking_raccoon")
     sol.timer.start(map, 1000, function()
+        hero:freeze()
         change_movement_raccoon()
     end)
  
@@ -330,13 +337,20 @@ function change_movement_raccoon()
     local movement = sol.movement.create("target")
     movement:set_speed(256)
     movement:set_target(entity)
-    movement:start(tarin)
+    movement:set_ignore_obstacles(true)
+    movement:start(raccoon_invisible)
+    function movement:on_position_changed()
+      local x,y = raccoon_invisible:get_position()
+      tarin:set_position(x,y)
+    end
     function movement:on_finished()
+      local direction4 = hero:get_direction4_to(tarin)
+      hero:get_sprite():set_direction(direction4)
+      sol.audio.play_sound("bounce")
       raccoon_index = raccoon_index + 1
       change_movement_raccoon()
     end
   else
-    print("ok")
     local x, y, layer = tarin:get_position()
     sol.audio.play_sound("explosion")
     map:create_explosion{
@@ -344,14 +358,16 @@ function change_movement_raccoon()
       x = x,
       y = y,
     }
-    -- TODO make a movement instead.
-    tarin:get_sprite():set_animation("stopped")
+    raccoon_invisible:remove()
+    tarin:get_sprite():set_animation("waiting")
     sol.timer.start(map, 1000, function()
       game:set_value("main_quest_step", 5)
+      racoon_position_8:set_enabled(false)
       hero:unfreeze()
       tarin_2:remove()
       game:start_dialog("maps.out.forest.raccoon_to_tarin", function()
         sol.audio.play_sound("secret_1")
+        map:set_music()
       end)
     end)
   end
@@ -375,12 +391,3 @@ function owl_2_sensor:on_activated()
 
 
 end
-
-function tarin:on_interaction()
-
-    local direction4 = tarin:get_direction4_to(hero)
-    tarin:get_sprite():set_direction(direction4)
-
-end
-
-

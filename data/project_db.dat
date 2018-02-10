@@ -505,6 +505,7 @@ sound{ id = "boomerang", description = "Boomerang" }
 sound{ id = "boss_1_explode_part", description = "Boss 1 explode" }
 sound{ id = "boss_hurt", description = "Boss hurt" }
 sound{ id = "boss_killed", description = "Boss killed" }
+sound{ id = "bounce", description = "Bounce" }
 sound{ id = "bow", description = "Bow" }
 sound{ id = "bowwow", description = "bowwow" }
 sound{ id = "bush", description = "Bush" }
