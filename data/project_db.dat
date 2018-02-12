@@ -433,6 +433,7 @@ sprite{ id = "npc/monkey_brown", description = "Monkey brown" }
 sprite{ id = "npc/mouse", description = "Mouse" }
 sprite{ id = "npc/mr_write", description = "Mr Write" }
 sprite{ id = "npc/owl", description = "Owl" }
+sprite{ id = "npc/painter", description = "Painter" }
 sprite{ id = "npc/phone", description = "Phone" }
 sprite{ id = "npc/photographer", description = "Photographer" }
 sprite{ id = "npc/quadruplet_father", description = "Quadruplet's father" }

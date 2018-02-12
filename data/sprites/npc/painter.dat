@@ -1,0 +1,21 @@
+animation{
+  name = "painting",
+  src_image = "npc/painter.png",
+  frame_delay = 180,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 6 },
+  },
+}
+animation{
+  name = "waiting",
+  src_image = "npc/painter.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 40, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}
