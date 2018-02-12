@@ -1,0 +1,9 @@
+animation{
+  name = "waiting",
+  src_image = "npc/christine.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}
