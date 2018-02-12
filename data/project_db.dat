@@ -438,11 +438,15 @@ sprite{ id = "npc/phone", description = "Phone" }
 sprite{ id = "npc/photographer", description = "Photographer" }
 sprite{ id = "npc/quadruplet_father", description = "Quadruplet's father" }
 sprite{ id = "npc/quadruplet_mother", description = "Quadruplet's mother" }
+sprite{ id = "npc/rabbit", description = "Rabbit" }
 sprite{ id = "npc/raft_man", description = "Raft_man" }
 sprite{ id = "npc/richard", description = "Richard" }
 sprite{ id = "npc/seagull", description = "Seagull" }
 sprite{ id = "npc/small_bowwow", description = "Small bowwow" }
 sprite{ id = "npc/tarin", description = "Tarin" }
+sprite{ id = "npc/village_bird", description = "Village bird" }
+sprite{ id = "npc/village_hippo", description = "Village hippo" }
+sprite{ id = "npc/village_teddy", description = "Village teddy" }
 sprite{ id = "npc/walrus", description = "Walrus" }
 sprite{ id = "npc/wart", description = "Wart" }
 sprite{ id = "npc/warts_brother", description = "Wart's brother" }

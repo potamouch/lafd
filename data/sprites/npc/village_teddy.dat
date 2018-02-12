@@ -1,0 +1,10 @@
+animation{
+  name = "waiting",
+  src_image = "npc/animals.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 144, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 168, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
+  },
+}
