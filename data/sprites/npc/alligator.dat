@@ -1,34 +1,46 @@
 animation{
   name = "waiting",
   src_image = "npc/alligator.png",
-  frame_delay = 500,
+  frame_delay = 250,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
+  name = "begin_eating",
+  src_image = "npc/alligator.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29, num_frames = 5 },
   },
 }
 animation{
   name = "eating",
   src_image = "npc/alligator.png",
-  frame_delay = 500,
+  frame_delay = 250,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
-    { x = 0, y = 0, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
-    { x = 0, y = 0, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
-    { x = 0, y = 0, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 40, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 40, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 40, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 40, frame_width = 40, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 4 },
   },
 }
 animation{
   name = "stopped",
   src_image = "npc/alligator.png",
   directions = {
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
-    { x = 0, y = 32, frame_width = 40, frame_height = 32, origin_x = 20, origin_y = 29 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29 },
+    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 29 },
   },
 }
