@@ -249,6 +249,7 @@ sprite{ id = "entities/outside_ladder", description = "Outside ladder" }
 sprite{ id = "entities/owl", description = "Owl" }
 sprite{ id = "entities/owl_blue", description = "Owl blue" }
 sprite{ id = "entities/owl_out", description = "Owl out" }
+sprite{ id = "entities/painting", description = "Painting" }
 sprite{ id = "entities/palm", description = "Palm" }
 sprite{ id = "entities/palm_footer_brown", description = "Palm footer brown" }
 sprite{ id = "entities/palm_footer_green", description = "Palm footer green" }
