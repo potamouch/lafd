@@ -4,17 +4,20 @@ animation{
   frame_delay = 120,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 120, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 168, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 144, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 120, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 168, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
 animation{
   name = "rebirth",
   src_image = "npc/flying_rooster.png",
   directions = {
-    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
 animation{
@@ -23,9 +26,9 @@ animation{
   frame_delay = 250,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
