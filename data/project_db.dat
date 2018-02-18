@@ -427,6 +427,14 @@ sprite{ id = "npc/kid_1", description = "Kid 1" }
 sprite{ id = "npc/kid_2", description = "Kid 2" }
 sprite{ id = "npc/kid_3", description = "Kid 3" }
 sprite{ id = "npc/kid_4", description = "Kid 4" }
+sprite{ id = "npc/manbo", description = "Manbo" }
+sprite{ id = "npc/manbopals_blue", description = "Manbopals blue" }
+sprite{ id = "npc/manbopals_emerald", description = "Manbopals emerald" }
+sprite{ id = "npc/manbopals_green", description = "Manbopals green" }
+sprite{ id = "npc/manbopals_grey", description = "Manbopals grey" }
+sprite{ id = "npc/manbopals_pink", description = "Manbopals pink" }
+sprite{ id = "npc/manbopals_red", description = "Manbopals red" }
+sprite{ id = "npc/manbopals_yellow", description = "Manbopals yellow" }
 sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/meow_meow", description = "Meow meow" }
 sprite{ id = "npc/merchant", description = "Merchant" }
