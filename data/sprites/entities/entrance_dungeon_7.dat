@@ -1,12 +1,37 @@
 animation{
-  name = "normal",
+  name = "closed",
   src_image = "entities/entrance_dungeon_7.png",
-  frame_delay = 200,
+  directions = {
+    { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
+    { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
+    { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
+    { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "open",
+  src_image = "entities/entrance_dungeon_7.png",
+  directions = {
+    { x = 320, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shining",
+  src_image = "entities/entrance_dungeon_7.png",
+  frame_delay = 500,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61, num_frames = 10 },
-    { x = 5, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 160, frame_height = 96, origin_x = 24, origin_y = 61, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 160, frame_height = 96, origin_x = 24, origin_y = 61, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 160, frame_height = 96, origin_x = 24, origin_y = 61, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 160, frame_height = 96, origin_x = 24, origin_y = 61, num_frames = 2 },
+  },
+}
+animation{
+  name = "turning",
+  src_image = "entities/entrance_dungeon_7.png",
+  frame_delay = 500,
+  directions = {
+    { x = 0, y = 96, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13, num_frames = 6 },
   },
 }
