@@ -2,9 +2,9 @@ animation{
   name = "default",
   src_image = "entities/entrance_dungeon_4.png",
   directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 29 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 29 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 29 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 32, origin_x = 24, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 40 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 24, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 24, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 24, origin_y = 29 },
   },
 }

@@ -1,10 +1,12 @@
 animation{
   name = "normal",
   src_image = "entities/entrance_dungeon_7.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61, num_frames = 10 },
+    { x = 5, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61 },
+    { x = 0, y = 0, frame_width = 144, frame_height = 96, origin_x = 24, origin_y = 61 },
   },
 }
