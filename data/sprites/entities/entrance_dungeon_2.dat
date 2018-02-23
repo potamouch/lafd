@@ -1,0 +1,7 @@
+animation{
+  name = "default",
+  src_image = "entities/entrance_dungeon_2.png",
+  directions = {
+    { x = 2, y = 0, frame_width = 132, frame_height = 56, origin_x = 8, origin_y = 13 },
+  },
+}
