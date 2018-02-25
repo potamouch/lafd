@@ -202,18 +202,18 @@ function map_submenu:draw_dungeon_map_items(dst_surface)
   local items_y = 188
   local items_x = 63
 
-  --if self.game:has_dungeon_map() then
+  if self.game:has_dungeon_map() then
     self.sprite_map:draw(dst_surface, items_x, items_y)
- -- end
-  --if self.game:has_dungeon_compass() then
+  end
+  if self.game:has_dungeon_compass() then
     self.sprite_compass:draw(dst_surface, items_x + 20, items_y)
- -- end
- -- if self.game:has_dungeon_boss_key() then
+  end
+  if self.game:has_dungeon_boss_key() then
     self.sprite_boss_key:draw(dst_surface, items_x + 40, items_y)
- -- end
- -- if self.game:has_dungeon_beak_of_stone() then
+  end
+  if self.game:has_dungeon_beak_of_stone() then
     self.sprite_beak_of_stone:draw(dst_surface, items_x + 58, items_y)
-  --end
+  end
 
 end
 
