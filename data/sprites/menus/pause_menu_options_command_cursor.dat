@@ -1,0 +1,9 @@
+animation{
+  name = "normal",
+  src_image = "menus/pause_menu_options_command_cursor.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 16, origin_x = 32, origin_y = 8, num_frames = 8, num_columns = 1 },
+  },
+}
