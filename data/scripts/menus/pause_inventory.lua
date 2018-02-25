@@ -21,7 +21,6 @@ local item_names_static = {
   "power_bracelet"
 }
 
-
 function inventory_submenu:on_started()
 
   submenu.on_started(self)
@@ -42,14 +41,14 @@ function inventory_submenu:on_started()
   local row = math.floor(index / 7)
   local column = index % 7
   self:set_cursor_position(row, column)
+  
   -- Load Items
   for i,item_name in ipairs(item_names_assignable) do
     local item = self.game:get_item(item_name)
     local variant = item:get_variant()
     self.sprites_assignables[i] = sol.sprite.create("entities/items")
     self.sprites_assignables[i]:set_animation(item_name)
-    if 
- item:has_amount() then
+    if item:has_amount() then
       -- Show a counter in this case.
       local amount = item:get_amount()
       local maximum = item:get_max_amount()
@@ -60,8 +59,8 @@ function inventory_submenu:on_started()
         font = (amount == maximum) and "green_digits" or "white_digits",
       }
     end
-
   end
+
   for i,item_name in ipairs(item_names_static) do
     local item = self.game:get_item(item_name)
     local variant = item:get_variant()
@@ -71,12 +70,18 @@ function inventory_submenu:on_started()
 end
 
 function inventory_submenu:on_finished()
-
+  -- Nothing.
 end
 
 function inventory_submenu:on_draw(dst_surface)
 
+  local cell_size = 28
+  local cell_spacing = 4
+
+  -- Draw the background.
   self:draw_background(dst_surface)
+  
+  -- Draw the cursor caption.
   self:draw_caption(dst_surface)
 
   -- Draw each inventory static item.
@@ -90,8 +95,10 @@ function inventory_submenu:on_draw(dst_surface)
       -- The player has this item: draw it.
       self.sprites_static[k]:draw(dst_surface, x, y)
     end
-    y = y + 32
+    -- Next item position (they are on the same column).
+    y = y + cell_size + cell_spacing
   end
+
   -- Draw each inventory assignable item.
   local y = 90
   local k = 0
@@ -111,12 +118,13 @@ function inventory_submenu:on_draw(dst_surface)
           end
         end
       end
-      x = x + 32
+      x = x + cell_size + cell_spacing
     end
-    y = y + 32
+    y = y + cell_size + cell_spacing
   end
-  -- Draw menu ocarina
-  if self.menu_ocarina == true  then
+
+  -- Draw ocarina menu.
+  if self.menu_ocarina == true then
     local menu_ocarina_img = sol.surface.create("menus/pause_menu_ocarina.png")
     menu_ocarina_img:draw_region(0, 0, 98, 34, dst_surface, 174, 69) 
     local melody = self.game:get_item("melody_1")
@@ -136,15 +144,18 @@ function inventory_submenu:on_draw(dst_surface)
   end
   end
 
-  -- Draw cursor
-  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
+  -- Draw cursor only when the save dialog is not displayed.
+  if self.save_dialog_state == 0 then
+    self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
+  end
+
   -- Draw the item being assigned if any.
   if self:is_assigning_item() then
     self.item_assigned_sprite:draw(dst_surface)
   end
 
+  -- Draw the save dialog if necessary.
   self:draw_save_dialog_if_any(dst_surface)
-
 end
 
 function inventory_submenu:on_command_pressed(command)

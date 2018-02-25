@@ -9,23 +9,20 @@ local item_names_static_left = {
   "instrument_5",
   "instrument_6",
   "instrument_7",
-  "instrument_8"
+  "instrument_8",
 }
 local item_names_static_right = {
   "tail_key",
   "slim_key",
   "angler_key",
   "face_key",
-  "bird_key"
+  "bird_key",
 }
-
 local item_names_static_bottom = {
   "seashells_counter",
   "photos_counter",
   "golden_leaves_counter",
 }
-
-
 
 function quest_submenu:on_started()
 
@@ -36,12 +33,14 @@ function quest_submenu:on_started()
   self.sprites_static_left = {}
   self.sprites_static_right = {}
   self.sprites_static_bottom = {}
-  -- Initialize the cursor
+
+  -- Initialize the cursor.
   local index = self.game:get_value("pause_inventory_last_item_index") or 0
   local row = math.floor(index / 7)
   local column = index % 7
   self:set_cursor_position(row, column)
-  -- Load Items
+
+  -- Load Items.
   for i,item_name in ipairs(item_names_static_left) do
     local item = self.game:get_item(item_name)
     local variant = item:get_variant()
@@ -60,30 +59,37 @@ function quest_submenu:on_started()
     self.sprites_static_bottom[i] = sol.sprite.create("entities/items")
     self.sprites_static_bottom[i]:set_animation(item_name)
     if item:has_amount() then
-        -- Show a counter in this case.
-        local amount = item:get_amount()
-        local maximum = item:get_max_amount()
-        self.counters[i] = sol.text_surface.create{
-          horizontal_alignment = "center",
-          vertical_alignment = "top",
-          text = item:get_amount(),
-          font = (amount == maximum) and "green_digits" or "white_digits",
-        }
-      end
+      -- Show a counter in this case.
+      local amount = item:get_amount()
+      local maximum = item:get_max_amount()
+      self.counters[i] = sol.text_surface.create{
+        horizontal_alignment = "center",
+        vertical_alignment = "top",
+        text = item:get_amount(),
+        font = (amount == maximum) and "green_digits" or "white_digits",
+      }
     end
+  end
 end
 
 function quest_submenu:on_finished()
-
+  -- Nothing.
 end
 
 function quest_submenu:on_draw(dst_surface)
 
+  local cell_size = 28
+  local cell_spacing = 4
+
+  -- Draw the background.
   self:draw_background(dst_surface)
+  
+  -- Draw the cursor caption.
   self:draw_caption(dst_surface)
+
   -- Draw each inventory static item left.
- local y = 90
- local k = 0
+  local y = 90
+  local k = 0
   for i = 0, 2 do
     local x = 64
     for j = 0, 2 do
@@ -107,8 +113,9 @@ function quest_submenu:on_draw(dst_surface)
     end
     y = y + 32
   end
- -- Draw each inventory static item right.
-  for i,item_name in ipairs(item_names_static_right) do
+  
+  -- Draw each inventory static item right.
+  for i, item_name in ipairs(item_names_static_right) do
         local item = self.game:get_item(item_name)
         local x = 0
         local y = 0
@@ -134,44 +141,51 @@ function quest_submenu:on_draw(dst_surface)
           self.sprites_static_right[i]:draw(dst_surface, x, y)
         end
   end
- -- Draw each inventory static item bottom.
- local y = 187
- local x = 64
- local k = 0
+
+  -- Draw each inventory static item bottom.
+  local y = 187
+  local x = 64
+  local k = 0
   for i = 0, 2 do
     k = k + 1
     if item_names_static_bottom[k] ~= nil then
       local item = self.game:get_item(item_names_static_bottom[k])
-        --if item:get_variant() > 0 then
-          -- The player has this item: draw it.
-          if self.counters[k] ~= nil then
-            if item:get_amount() > 0 then
-              self.sprites_static_bottom[k]:set_direction(item:get_variant() )
-              self.sprites_static_bottom[k]:draw(dst_surface, x, y)
-              self.counters[k]:draw(dst_surface, x + 8, y)
-            end
-          else
+      --if item:get_variant() > 0 then
+        -- The player has this item: draw it.
+        if self.counters[k] ~= nil then
+          if item:get_amount() > 0 then
             self.sprites_static_bottom[k]:set_direction(item:get_variant() )
             self.sprites_static_bottom[k]:draw(dst_surface, x, y)
+            self.counters[k]:draw(dst_surface, x + 8, y)
           end
+        else
+          self.sprites_static_bottom[k]:set_direction(item:get_variant() )
+          self.sprites_static_bottom[k]:draw(dst_surface, x, y)
         end
       --end
-      x = x + 32
+    end
+    x = x + 32
   end
 
--- Pieces of heart.
+  -- Pieces of heart.
   local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
+  local pieces_of_heart_w = 28
+  local pieces_of_heart_x = pieces_of_heart_w * num_pieces_of_heart
+  self.hearts:draw_region(
+    pieces_of_heart_x, 0,                 -- region position in image
+    pieces_of_heart_w, pieces_of_heart_w, -- region size in image
+    dst_surface,                          -- destination surface
+    146, 168                              -- position in destination surface
+  )
+  
+  -- Draw cursor only when the save dialog is not displayed.
+  if self.save_dialog_state == 0 then
+    self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
+  end
 
-
-  local x = 16 * num_pieces_of_heart
-  self.hearts:draw_region(x, 0, 16, 16, dst_surface, 152, 174)
-  -- Draw cursor
-  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 86 + 32 * self.cursor_row)
-
+  -- Draw save dialog if necessary.
   self:draw_save_dialog_if_any(dst_surface)
 end
-
-
 
 function quest_submenu:on_command_pressed(command)
   
@@ -288,7 +302,6 @@ function quest_submenu:show_info_message()
      -- game:set_dialog_position("auto")  -- Back to automatic position.
     end)
   end
-
 end
 
 function quest_submenu:set_cursor_position(row, column)
@@ -340,8 +353,6 @@ function quest_submenu:set_cursor_position(row, column)
     self.game:get_hud():set_item_icon_opacity(1, item_icon_opacity)
     self.game:get_hud():set_item_icon_opacity(2, item_icon_opacity)
   end
-
-
 end
 
 function quest_submenu:get_item_name(row, column)
@@ -367,8 +378,6 @@ function quest_submenu:get_item_name(row, column)
     end
 
   return item_name
-
 end
-
 
 return quest_submenu

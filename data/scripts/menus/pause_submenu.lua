@@ -5,6 +5,7 @@ local submenu = {}
 local language_manager = require("scripts/language_manager")
 
 function submenu:new(game)
+  
   local o = { game = game }
   setmetatable(o, self)
   self.__index = self
@@ -13,30 +14,38 @@ end
 
 function submenu:on_started()
 
-  self.background_surfaces = sol.surface.create("pause_submenus.png", true)
+  self.background_surfaces = sol.surface.create("menus/pause_submenus.png")
+  self.title_surfaces = sol.surface.create("pause_submenus_title.png", true)
   self.save_dialog_sprite = sol.sprite.create("menus/pause_save_dialog")
   self.save_dialog_state = 0
+  self.text_color = { 115, 59, 22 }
+
+  -- Dark surface whose goal is to slightly hide the game and better highlight the menu.
+  local quest_w, quest_h = sol.video.get_quest_size()
+  self.dark_surface = sol.surface.create(quest_w, quest_h)
+  self.dark_surface:fill_color({127, 127, 127})
+  self.dark_surface:set_blend_mode("multiply")
 
   local menu_font, menu_font_size = language_manager:get_menu_font()
 
   self.question_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {255, 255, 255},
+    color = self.text_color,
     font = menu_font,
     font_size = menu_font_size,
   }
   self.question_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {255, 255, 255},
+    color = self.text_color,
     font = menu_font,
     font_size = menu_font_size,
   }
   self.answer_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {255, 255, 255},
+    color = self.text_color,
     text_key = "save_dialog.yes",
     font = menu_font,
     font_size = menu_font_size,
@@ -44,7 +53,7 @@ function submenu:on_started()
   self.answer_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {255, 255, 255},
+    color = self.text_color,
     text_key = "save_dialog.no",
     font = menu_font,
     font_size = menu_font_size,
@@ -56,6 +65,7 @@ function submenu:on_started()
     font = "fixed",
     font = menu_font,
     font_size = menu_font_size,
+    color = self.text_color,
   }
 
   self.caption_text_2 = sol.text_surface.create{
@@ -64,6 +74,7 @@ function submenu:on_started()
     font = "fixed",
     font = menu_font,
     font_size = menu_font_size,
+    color = self.text_color,
   }
 
   self.game:set_custom_command_effect("action", nil)
@@ -102,8 +113,8 @@ function submenu:draw_caption(dst_surface)
   if self.caption_text_2:get_text():len() == 0 then
     self.caption_text_1:draw(dst_surface, width / 2, height / 2 + 89)
   else
-    self.caption_text_1:draw(dst_surface, width / 2, height / 2 + 83)
-    self.caption_text_2:draw(dst_surface, width / 2, height / 2 + 95)
+    self.caption_text_1:draw(dst_surface, width / 2, height / 2 + 84)
+    self.caption_text_2:draw(dst_surface, width / 2, height / 2 + 94)
   end
 end
 
@@ -202,17 +213,36 @@ end
 
 function submenu:draw_background(dst_surface)
 
-  local submenu_index = self.game:get_value("pause_last_submenu")
   local width, height = dst_surface:get_size()
+
+  -- Fill the screen with a dark surface.
+  self.dark_surface:draw(dst_surface)
+
+  -- Draw the menu GUI window &ns the title (in the correct language)
+  local submenu_index = self.game:get_value("pause_last_submenu")
   self.background_surfaces:draw_region(
-      320 * (submenu_index - 1), 0, 320, 240,
-      dst_surface, (width - 320) / 2, (height - 240) / 2)
+      320 * (submenu_index - 1), 0,           -- region x, y
+      320, 240,                               -- region w, h
+      dst_surface,                            -- destination surface
+      (width - 320) / 2, (height - 240) / 2   -- pos in destination surface
+  )  
+  self.title_surfaces:draw_region(
+    0, 16 * (submenu_index - 1),                  -- region x, y
+    88, 16,                                       -- region w, h
+    dst_surface,                                  -- destination surface
+    (width - 88) / 2, ((height - 240) / 2 ) + 32  -- pos in destination surface
+  )
+
 end
 
 function submenu:draw_save_dialog_if_any(dst_surface)
 
   if self.save_dialog_state > 0 then
     local width, height = dst_surface:get_size()
+
+    -- A dark surface to better highlight the dialog
+    self.dark_surface:draw(dst_surface)
+
     local x = width / 2
     local y = height / 2
     self.save_dialog_sprite:draw(dst_surface, x - 110, y - 33)
@@ -222,6 +252,5 @@ function submenu:draw_save_dialog_if_any(dst_surface)
     self.answer_text_2:draw(dst_surface, x + 59, y + 24)
   end
 end
-
 
 return submenu

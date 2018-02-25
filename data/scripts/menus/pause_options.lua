@@ -12,7 +12,7 @@ function options_submenu:on_started()
   local center_x, center_y = width / 2, height / 2
 
   self.column_color = { 255, 255, 255}
-  self.text_color = { 255, 255, 255 }
+  self.text_color = { 115, 59, 22 }
 
   self.video_mode_label_text = sol.text_surface.create{
     horizontal_alignment = "left",
