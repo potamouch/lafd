@@ -332,6 +332,7 @@ sprite{ id = "hud/magic_bar", description = "Magic bar" }
 sprite{ id = "hud/pause_icon_flip", description = "Pause icon" }
 sprite{ id = "hud/sword_icon_flip", description = "Sword icon" }
 sprite{ id = "menus/arrow", description = "Arrow" }
+sprite{ id = "menus/dialog_cursor", description = "Dialog cursor" }
 sprite{ id = "menus/dungeon_maps/map_1", description = "Map 1" }
 sprite{ id = "menus/dungeon_maps/map_1_compass", description = "Map 1 compass" }
 sprite{ id = "menus/dungeon_maps/map_1_no_map", description = "Map 1 no map" }
@@ -350,9 +351,9 @@ sprite{ id = "menus/dungeon_maps/map_4_no_map", description = "Map 4 no map" }
 sprite{ id = "menus/dungeon_maps/map_4_no_map_compass", description = "Map 4 no map compass" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }
-sprite{ id = "menus/options_cursor", description = "Options cursor" }
 sprite{ id = "menus/pause_cursor", description = "Pause cursor" }
-sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
+sprite{ id = "menus/pause_menu_options_command_cursor", description = "Waiting for command input cursor" }
+sprite{ id = "menus/pause_menu_options_cursor", description = "Options menu cursor" }
 sprite{ id = "menus/selection_menu_cursor", description = "Savegame cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }

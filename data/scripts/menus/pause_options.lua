@@ -25,14 +25,14 @@ function options_submenu:on_started()
   self.video_mode_label_text:set_xy(center_x - 50, center_y - 58)
 
   self.video_mode_text = sol.text_surface.create{
-    horizontal_alignment = "right",
+    horizontal_alignment = "center",
     vertical_alignment = "top",
     font = font,
     font_size = font_size,
     text = sol.video.get_mode(),
     color = self.text_color,
   }
-  self.video_mode_text:set_xy(center_x + 104, center_y - 58)
+  self.video_mode_text:set_xy(center_x + 74, center_y - 58)
 
   self.command_column_text = sol.text_surface.create{
     horizontal_alignment = "center",
@@ -73,6 +73,7 @@ function options_submenu:on_started()
   self.keyboard_texts = {}
   self.joypad_texts = {}
   self.command_names = { "action", "attack", "item_1", "item_2", "pause", "left", "right", "up", "down" }
+  
   for i = 1, #self.command_names do
 
     self.command_texts[i] = sol.text_surface.create{
@@ -109,9 +110,11 @@ function options_submenu:on_started()
   self.down_arrow_sprite = sol.sprite.create("menus/arrow")
   self.down_arrow_sprite:set_direction(3)
   self.down_arrow_sprite:set_xy(center_x - 64, center_y + 62)
-  self.cursor_sprite = sol.sprite.create("menus/options_cursor")
+  self.cursor_sprite = sol.sprite.create("menus/pause_menu_options_cursor")
+  self.command_cursor_sprite = sol.sprite.create("menus/pause_menu_options_command_cursor")
   self.cursor_position = nil
   self:set_cursor_position(1)
+  self.waiting_for_command = false
 
   self.game:set_custom_command_effect("action", "change")
 end
@@ -143,9 +146,8 @@ function options_submenu:set_cursor_position(position)
     self.cursor_position = position
     if position == 1 then  -- Video mode.
       self:set_caption("options.caption.press_action_change_mode")
-      self.cursor_sprite.x = width / 2 - 58
-      self.cursor_sprite.y = height / 2 - 59
-      self.cursor_sprite:set_animation("big")
+      self.cursor_sprite.x = width / 2 + 78
+      self.cursor_sprite.y = height / 2 - 51
     else  -- Customization of a command.
       self:set_caption("options.caption.press_action_customize_key")
 
@@ -160,21 +162,20 @@ function options_submenu:set_cursor_position(position)
         self.commands_visible_y = self.commands_visible_y + 16
       end
 
-      self.cursor_sprite.x = width / 2 - 105
-      self.cursor_sprite.y = height / 2 - 32 + 16 * (position - self.commands_highest_visible)
-      self.cursor_sprite:set_animation("small")
+      self.cursor_sprite.x = width / 2 - 71
+      self.cursor_sprite.y = height / 2 - 32 + 6 + 16 * (position - self.commands_highest_visible)
     end
   end
 end
 
 function options_submenu:on_draw(dst_surface)
 
+  -- Draw background.
   self:draw_background(dst_surface)
+  
+  -- Draw caption.
   self:draw_caption(dst_surface)
-
-  -- Cursor.
-  self.cursor_sprite:draw(dst_surface, self.cursor_sprite.x, self.cursor_sprite.y)
-
+  
   -- Text.
   self.video_mode_label_text:draw(dst_surface)
   self.video_mode_text:draw(dst_surface)
@@ -182,18 +183,31 @@ function options_submenu:on_draw(dst_surface)
   self.keyboard_column_text:draw(dst_surface)
   self.joypad_column_text:draw(dst_surface)
   self.commands_surface:draw_region(0, self.commands_visible_y, 215, 84, dst_surface)
-
+  
   -- Arrows.
   if self.commands_visible_y > 0 then
     self.up_arrow_sprite:draw(dst_surface)
     self.up_arrow_sprite:draw(dst_surface, 115, 0)
   end
-
+  
   if self.commands_visible_y < 60 then
     self.down_arrow_sprite:draw(dst_surface)
     self.down_arrow_sprite:draw(dst_surface, 115, 0)
   end
+  
+  -- Draw cursor (only when the save dialog is not open).
+  if self.save_dialog_state == 0 then
+    if self.waiting_for_command then
+      -- Cursor when waiting for a command, in both cells (keyboard and joypad).
+      self.command_cursor_sprite:draw(dst_surface, self.cursor_sprite.x + 64, self.cursor_sprite.y)
+      self.command_cursor_sprite:draw(dst_surface, self.cursor_sprite.x + 138, self.cursor_sprite.y)
+    else
+      -- Normal cursor.
+      self.cursor_sprite:draw(dst_surface, self.cursor_sprite.x, self.cursor_sprite.y)
+    end
+  end
 
+  -- Draw save dialog if necessary.
   self:draw_save_dialog_if_any(dst_surface)
 end
 
@@ -230,12 +244,12 @@ function options_submenu:on_command_pressed(command)
       else
         -- Customize a game command.
         self:set_caption("options.caption.press_key")
-        self.cursor_sprite:set_animation("small_blink")
+        self.waiting_for_command = true
         local command_to_customize = self.command_names[self.cursor_position - 1]
         self.game:capture_command_binding(command_to_customize, function()
+          self.waiting_for_command = false
           sol.audio.play_sound("danger")
           self:set_caption("options.caption.press_action_customize_key")
-          self.cursor_sprite:set_animation("small")
           self:load_command_texts()
           -- TODO restore HUD icons.
         end)
@@ -250,4 +264,3 @@ function options_submenu:on_command_pressed(command)
 end
 
 return options_submenu
-

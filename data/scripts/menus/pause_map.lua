@@ -4,6 +4,7 @@ local map_submenu = submenu:new()
 function map_submenu:on_started()
 
   submenu.on_started(self)
+
   self.map_surface = sol.surface.create(320, 256)
   self.map_surface:clear()
   self.dungeon = self.game:get_dungeon()
@@ -18,16 +19,23 @@ end
 
 function map_submenu:on_draw(dst_surface)
 
+  -- Draw background.
   self:draw_background(dst_surface)
+  
+  -- Draw caption.
   self:draw_caption(dst_surface)
+  
   self.map_surface:draw(dst_surface, 0, 0)
+  
+  -- Draw map.
   if self.dungeon then
      self:draw_dungeon_map(self.map_surface)
   else
     self:draw_world_map(self.map_surface)
   end
+  
+  -- Draw save dialog if necessary/
   self:draw_save_dialog_if_any(dst_surface)
-
 
 end
 
@@ -52,33 +60,33 @@ function map_submenu:on_command_pressed(command)
         self:next_submenu()
         handled = true
     elseif command == "up" or command == "down" then
+      if self.game:is_in_dungeon() then
+        local new_selected_floor
+        if command == "up" then
+          new_selected_floor = self.selected_floor + 1
+        else
+          new_selected_floor = self.selected_floor - 1
+        end
+        
+        if new_selected_floor >= self.dungeon.lowest_floor and new_selected_floor <= self.dungeon.highest_floor then
+          -- The new floor is valid.
+          sol.audio.play_sound("cursor")
+          self.sprite_hero_head:set_frame(0)
+          self.selected_floor = new_selected_floor
+          self:load_dungeon_map_image()
+          if self.selected_floor <= self.highest_floor_displayed - 7 then
+            self.highest_floor_displayed = self.highest_floor_displayed - 1
+          elseif self.selected_floor > self.highest_floor_displayed then
+            self.highest_floor_displayed = self.highest_floor_displayed + 1
+          end
 
-    if self.game:is_in_dungeon() then
-      local new_selected_floor
-      if command == "up" then
-        new_selected_floor = self.selected_floor + 1
-      else
-        new_selected_floor = self.selected_floor - 1
-      end
-      if new_selected_floor >= self.dungeon.lowest_floor and new_selected_floor <= self.dungeon.highest_floor then
-        -- The new floor is valid.
-        sol.audio.play_sound("cursor")
-        self.sprite_hero_head:set_frame(0)
-        self.selected_floor = new_selected_floor
-        self:load_dungeon_map_image()
-        if self.selected_floor <= self.highest_floor_displayed - 7 then
-          self.highest_floor_displayed = self.highest_floor_displayed - 1
-        elseif self.selected_floor > self.highest_floor_displayed then
-          self.highest_floor_displayed = self.highest_floor_displayed + 1
         end
       end
+      handled = true
     end
-    handled = true
   end
-end
 
   return handled
-
 end
 
 function map_submenu:build_world_map()
@@ -92,7 +100,6 @@ function map_submenu:build_world_map()
 end
 
 function map_submenu:build_dungeon_map()
-
 
     local width, height = sol.video.get_quest_size()
     local center_x, center_y = width / 2, height / 2
@@ -174,29 +181,39 @@ end
 
 function map_submenu:draw_dungeon_map(dst_surface)
 
-
-  self.pause_menu_background_img:draw(dst_surface)
+  -- Draw dungeon background frames.
+  local width, height = dst_surface:get_size()
+  local center_x, center_y = width / 2, height / 2
+  self.pause_menu_background_img:draw(dst_surface, center_x - 110, center_y - 59)
+  
+  -- Draw items.
   self:draw_dungeon_map_items(dst_surface)
+  
+  -- Draw floors.
   self:draw_dungeon_map_floors(dst_surface)
+  
+  -- Draw rooms.
   self:draw_dungeon_map_rooms(dst_surface)
-
 
 end
 
 function map_submenu:draw_dungeon_map_items(dst_surface)
 
-  if self.game:has_dungeon_map() then
-    self.sprite_map:draw(dst_surface, 64, 190)
-  end
-  if self.game:has_dungeon_compass() then
-    self.sprite_compass:draw(dst_surface, 84, 190)
-  end
-  if self.game:has_dungeon_boss_key() then
-    self.sprite_boss_key:draw(dst_surface, 104, 190)
-  end
-  if self.game:has_dungeon_beak_of_stone() then
-    self.sprite_beak_of_stone:draw(dst_surface, 124, 190)
-  end
+  local items_y = 188
+  local items_x = 63
+
+  --if self.game:has_dungeon_map() then
+    self.sprite_map:draw(dst_surface, items_x, items_y)
+ -- end
+  --if self.game:has_dungeon_compass() then
+    self.sprite_compass:draw(dst_surface, items_x + 20, items_y)
+ -- end
+ -- if self.game:has_dungeon_boss_key() then
+    self.sprite_boss_key:draw(dst_surface, items_x + 40, items_y)
+ -- end
+ -- if self.game:has_dungeon_beak_of_stone() then
+    self.sprite_beak_of_stone:draw(dst_surface, items_x + 58, items_y)
+  --end
 
 end
 
@@ -283,7 +300,5 @@ end
 function map_submenu:load_dungeon_map_image()
 
 end
-
-
 
 return map_submenu
