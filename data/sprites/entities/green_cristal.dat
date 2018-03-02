@@ -1,8 +1,10 @@
 animation{
   name = "on_ground",
   src_image = "entities/destructibles.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
   directions = {
-    { x = 320, y = 32, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 368, y = 32, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 8 },
   },
 }
 animation{

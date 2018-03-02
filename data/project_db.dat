@@ -218,8 +218,10 @@ sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon
 sprite{ id = "entities/entrance_dungeon_2", description = "Entrance dungeon 2" }
 sprite{ id = "entities/entrance_dungeon_4", description = "Entrance dungeon 4" }
 sprite{ id = "entities/entrance_dungeon_5", description = "Entrance dungeon 5" }
+sprite{ id = "entities/entrance_dungeon_6", description = "Entrance dungeon 6" }
 sprite{ id = "entities/entrance_dungeon_7", description = "Entrance dungeon 7" }
 sprite{ id = "entities/entrance_dungeon_7_door", description = "Entrance dungeon 7 door" }
+sprite{ id = "entities/entrance_southern_face_shrine", description = "Entrance southern face shrine" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/fish_manbo", description = "Fish Manbo" }
