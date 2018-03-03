@@ -7050,42 +7050,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 688,
-  y = 1632,
-  width = 32,
-  height = 64,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 1584,
-  width = 32,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 1616,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 880,
-  y = 1584,
-  width = 32,
-  height = 112,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 696,
   y = 1560,
   width = 32,
@@ -8931,15 +8895,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1088,
-  y = 1664,
-  width = 80,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 1064,
   y = 1560,
   width = 32,
@@ -9440,51 +9395,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "statue_eye-2",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 48,
-  width = 112,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 176,
-  width = 112,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 160,
-  width = 144,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 80,
-  width = 144,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 2080,
-  y = 96,
-  width = 32,
-  height = 64,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -10254,15 +10164,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1648,
-  y = 1584,
-  width = 16,
-  height = 64,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 1640,
   y = 1576,
   width = 8,
@@ -10322,33 +10223,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "hole.corner_reverse.2",
-}
-
-tile{
-  layer = 0,
-  x = 2016,
-  y = 1072,
-  width = 128,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 2048,
-  y = 1088,
-  width = 64,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 2064,
-  y = 1104,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -10565,24 +10439,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "statue_eye-2",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 608,
-  width = 16,
-  height = 64,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 592,
-  width = 128,
-  height = 16,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -11254,15 +11110,6 @@ tile{
 tile{
   layer = 0,
   x = 744,
-  y = 80,
-  width = 48,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 744,
   y = 72,
   width = 24,
   height = 8,
@@ -11622,47 +11469,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 848,
-  y = 48,
-  width = 80,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 64,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 896,
-  y = 64,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 992,
   y = 88,
   width = 24,
   height = 24,
   pattern = "wall.corner_reverse.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 144,
-  width = 32,
-  height = 64,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -12122,33 +11933,6 @@ tile{
   width = 8,
   height = 96,
   pattern = "wall_border.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 1680,
-  y = 304,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1680,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1088,
-  y = 144,
-  width = 80,
-  height = 32,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -13539,33 +13323,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 2016,
-  y = 1216,
-  width = 128,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 2048,
-  y = 1200,
-  width = 64,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 2064,
-  y = 1184,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 1616,
   y = 1560,
   width = 24,
@@ -13598,42 +13355,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "floor.11-1",
-}
-
-tile{
-  layer = 0,
-  x = 1680,
-  y = 1328,
-  width = 16,
-  height = 48,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1696,
-  y = 1328,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1856,
-  y = 1440,
-  width = 16,
-  height = 48,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 1824,
-  y = 1472,
-  width = 32,
-  height = 16,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -13796,24 +13517,6 @@ tile{
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 1136,
-  width = 16,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 2176,
-  y = 1136,
-  width = 16,
-  height = 32,
-  pattern = "floor_pot",
 }
 
 tile{

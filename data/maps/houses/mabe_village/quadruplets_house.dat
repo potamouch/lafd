@@ -174,15 +174,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 80,
-  width = 128,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 112,
   y = 120,
   width = 8,
@@ -1275,15 +1266,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "287",
-}
-
-tile{
-  layer = 1,
-  x = 72,
-  y = 184,
-  width = 64,
-  height = 16,
-  pattern = "floor_pot",
 }
 
 tile{
