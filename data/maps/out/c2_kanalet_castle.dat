@@ -10345,6 +10345,17 @@ teletransporter{
   destination = "kanalet_castle_5_B",
 }
 
+custom_entity{
+  name = "phone_statue",
+  layer = 1,
+  x = 808,
+  y = 13,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/phone_statue",
+}
+
 tile{
   layer = 2,
   x = 336,
@@ -10361,14 +10372,5 @@ tile{
   width = 16,
   height = 8,
   pattern = "7691",
-}
-
-npc{
-  layer = 2,
-  x = 816,
-  y = 29,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/phone",
 }
 

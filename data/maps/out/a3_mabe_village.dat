@@ -24642,12 +24642,14 @@ custom_entity{
   model = "butterfly",
 }
 
-npc{
-  layer = 2,
-  x = 624,
-  y = 653,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/phone",
+custom_entity{
+  name = "phone_statue",
+  layer = 1,
+  x = 616,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/phone_statue",
 }
 

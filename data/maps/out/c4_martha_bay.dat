@@ -11845,3 +11845,25 @@ tile{
   pattern = "1455",
 }
 
+custom_entity{
+  name = "phone_statue",
+  layer = 1,
+  x = 136,
+  y = 341,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/phone_statue",
+}
+
+custom_entity{
+  name = "phone_statue_2",
+  layer = 1,
+  x = 912,
+  y = 285,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/phone_statue",
+}
+

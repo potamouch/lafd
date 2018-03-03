@@ -73,7 +73,7 @@ function map:init_merchant()
   else  
     merchant_angry:set_enabled(false)
   end
-  merchant:get_sprite():set_animation("waiting")
+  merchant:get_sprite():set_animation("walking")
   map:repeat_merchant_direction_check()
 
 end

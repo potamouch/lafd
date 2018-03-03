@@ -21,7 +21,7 @@ chest{
   layer = 0,
   x = 112,
   y = 173,
-  treasure_name = "shield",
+  treasure_name = "power_bracelet",
   sprite = "entities/chest",
 }
 
@@ -47,5 +47,69 @@ destination{
   x = 168,
   y = 101,
   direction = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 141,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 141,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 141,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 141,
+  sprite = "entities/pot",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 141,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+teletransporter{
+  layer = 0,
+  x = 176,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "out/a3_mabe_village",
+}
+
+chest{
+  layer = 0,
+  x = 96,
+  y = 173,
+  treasure_name = "magic_powder",
+  sprite = "entities/chest",
 }
 

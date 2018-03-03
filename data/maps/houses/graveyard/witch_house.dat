@@ -625,6 +625,17 @@ npc{
   subtype = 1,
 }
 
+custom_entity{
+  layer = 0,
+  x = 112,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "npc/mouse",
+  model = "mouse",
+}
+
 tile{
   layer = 1,
   x = 144,

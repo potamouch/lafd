@@ -25972,12 +25972,14 @@ custom_entity{
   model = "bee",
 }
 
-npc{
-  layer = 2,
-  x = 112,
-  y = 469,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/phone",
+custom_entity{
+  name = "phone_statue",
+  layer = 1,
+  x = 104,
+  y = 453,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/phone_statue",
 }
 
