@@ -1575,15 +1575,6 @@ enemy{
   breed = "keese",
 }
 
-destructible{
-  layer = 0,
-  x = 456,
-  y = 397,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
 enemy{
   name = "enemy_group_2_1",
   layer = 0,
@@ -1635,73 +1626,10 @@ block{
 
 destructible{
   layer = 0,
-  x = 456,
-  y = 381,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 456,
-  y = 365,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 472,
-  y = 365,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 488,
-  y = 397,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 488,
-  y = 381,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
   x = 440,
   y = 397,
   sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 440,
-  y = 381,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 440,
-  y = 365,
-  sprite = "entities/blue_cristal",
-  destruction_sound = "bush",
+  destruction_sound = "stone",
   can_be_cut = true,
 }
 
@@ -1727,6 +1655,78 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 397,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 365,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 365,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 472,
+  y = 365,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 381,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 456,
+  y = 381,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 488,
+  y = 381,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 488,
+  y = 397,
+  sprite = "entities/blue_cristal",
+  destruction_sound = "stone",
+  can_be_cut = true,
 }
 
 tile{

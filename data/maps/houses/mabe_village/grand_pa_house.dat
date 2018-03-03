@@ -649,6 +649,7 @@ destructible{
   x = 224,
   y = 173,
   sprite = "entities/pot",
+  destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -658,6 +659,7 @@ destructible{
   x = 240,
   y = 173,
   sprite = "entities/pot",
+  destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -667,6 +669,7 @@ destructible{
   x = 240,
   y = 189,
   sprite = "entities/pot",
+  destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
 }
@@ -676,6 +679,7 @@ destructible{
   x = 224,
   y = 189,
   sprite = "entities/pot",
+  destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
 }
