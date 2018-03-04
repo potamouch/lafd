@@ -206,6 +206,7 @@ sprite{ id = "entities/conveyor_belt4", description = "Conveyor belt 4" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination of teletransporter" }
+sprite{ id = "entities/dog_statue", description = "Dog statue" }
 sprite{ id = "entities/doors/door_big_key", description = "Door big key" }
 sprite{ id = "entities/doors/door_boss_key", description = "Door boss key" }
 sprite{ id = "entities/doors/door_normal", description = "Door" }
@@ -241,6 +242,7 @@ sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/la_beach/la_background", description = "entities/la_beach/la_background" }
 sprite{ id = "entities/la_beach/la_swell", description = "entities/la_beach/la_swell" }
 sprite{ id = "entities/la_beach/la_wreck", description = "entities/la_beach/la_wreck" }
+sprite{ id = "entities/moblin_throne", description = "Moblin throne" }
 sprite{ id = "entities/movies/background_introduction", description = "Background introduction" }
 sprite{ id = "entities/movies/swell", description = "Swell" }
 sprite{ id = "entities/movies/wreck", description = "Wreck" }

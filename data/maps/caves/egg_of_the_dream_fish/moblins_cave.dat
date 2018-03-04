@@ -2542,7 +2542,7 @@ sensor{
   name = "sensor_4",
   layer = 0,
   x = 872,
-  y = 93,
+  y = 109,
   width = 48,
   height = 48,
 }
@@ -2574,7 +2574,7 @@ wall{
 block{
   layer = 0,
   x = 904,
-  y = 109,
+  y = 125,
   sprite = "entities/block",
   pushable = false,
   pullable = false,
@@ -2648,8 +2648,8 @@ enemy{
 enemy{
   name = "enemy_group_1_1",
   layer = 0,
-  x = 152,
-  y = 389,
+  x = 160,
+  y = 381,
   direction = 3,
   breed = "moblin",
 }
@@ -2787,12 +2787,153 @@ custom_entity{
   name = "bowwow",
   layer = 0,
   x = 888,
-  y = 109,
+  y = 125,
   width = 16,
   height = 16,
   direction = 2,
   sprite = "npc/bowwow",
   model = "bowwow",
+}
+
+custom_entity{
+  layer = 0,
+  x = 240,
+  y = 325,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 112,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 88,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 216,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 248,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 824,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 856,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 824,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 856,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 728,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 728,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  layer = 0,
+  x = 192,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/dog_statue",
+}
+
+custom_entity{
+  name = "moblin_throne",
+  layer = 0,
+  x = 152,
+  y = 37,
+  width = 40,
+  height = 48,
+  direction = 0,
+  sprite = "entities/moblin_throne",
 }
 
 tile{

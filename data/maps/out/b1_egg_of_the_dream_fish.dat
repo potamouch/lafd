@@ -17140,14 +17140,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 88,
-  y = 477,
-  direction = 0,
-  breed = "goponga_flower",
-}
-
-enemy{
-  layer = 0,
   x = 104,
   y = 477,
   direction = 0,
