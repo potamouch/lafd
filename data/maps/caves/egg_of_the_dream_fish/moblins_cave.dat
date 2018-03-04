@@ -2928,7 +2928,7 @@ custom_entity{
 custom_entity{
   name = "moblin_throne",
   layer = 0,
-  x = 152,
+  x = 144,
   y = 37,
   width = 40,
   height = 48,

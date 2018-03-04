@@ -2,9 +2,6 @@ animation{
   name = "default",
   src_image = "entities/moblin_throne.png",
   directions = {
-    { x = 0, y = 0, frame_width = 40, frame_height = 48, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 0, frame_width = 40, frame_height = 48, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 0, frame_width = 40, frame_height = 48, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 0, frame_width = 40, frame_height = 48, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 8, origin_y = 13 },
   },
 }
