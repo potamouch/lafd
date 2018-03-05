@@ -4863,7 +4863,7 @@ tile{
   x = 1112,
   y = 1768,
   width = 16,
-  height = 32,
+  height = 16,
   pattern = "floor.3-1",
 }
 
@@ -4872,7 +4872,7 @@ tile{
   x = 1104,
   y = 1768,
   width = 8,
-  height = 32,
+  height = 16,
   pattern = "barrier.2-1",
 }
 
@@ -4881,7 +4881,7 @@ tile{
   x = 1128,
   y = 1768,
   width = 8,
-  height = 32,
+  height = 16,
   pattern = "barrier.2-1",
 }
 
@@ -18232,6 +18232,33 @@ tile{
   pattern = "door.3",
 }
 
+tile{
+  layer = 0,
+  x = 1112,
+  y = 1784,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 1744,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 1744,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-2",
+}
+
 dynamic_tile{
   name = "enemy_group_29_before_22_1",
   layer = 0,
@@ -20821,7 +20848,7 @@ destination{
   name = "dungeon_6_1_B",
   layer = 0,
   x = 1120,
-  y = 1765,
+  y = 1749,
   direction = 1,
 }
 
@@ -24280,9 +24307,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 1088,
+  x = 1104,
   y = 1768,
-  width = 64,
+  width = 32,
   height = 8,
   pattern = "door_cache.2-2",
 }
@@ -26841,6 +26868,15 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1768,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-6",
 }
 
 custom_entity{

@@ -1344,6 +1344,87 @@ tile{
 }
 
 tile{
+  layer = 0,
+  x = 152,
+  y = 488,
+  width = 16,
+  height = 16,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 504,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 464,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-9",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 464,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-9",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 445,
+  direction = 1,
+  default = true,
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 488,
+  width = 32,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 488,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.2-6",
+}
+
+tile{
   layer = 2,
   x = 16,
   y = 272,

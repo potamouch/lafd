@@ -391,9 +391,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
+  x = 376,
   y = 984,
-  width = 256,
+  width = 208,
   height = 24,
   pattern = "wall.2-2",
 }
@@ -6149,6 +6149,60 @@ tile{
   pattern = "floor.7-1",
 }
 
+tile{
+  layer = 0,
+  x = 440,
+  y = 976,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 976,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 1000,
+  width = 16,
+  height = 16,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 1000,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 1000,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 1016,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
 crystal_block{
   layer = 0,
   x = 400,
@@ -6980,9 +7034,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 456,
+  x = 464,
   y = 1000,
-  width = 64,
+  width = 32,
   height = 8,
   pattern = "door_cache.2-2",
 }
@@ -7381,6 +7435,15 @@ tile{
   width = 64,
   height = 32,
   pattern = "floor_low.2-Alpha",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 1000,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.2-2",
 }
 
 chest{

@@ -9,16 +9,13 @@
 
 local map = ...
 local game = map:get_game()
+local light_manager = require("scripts/maps/light_manager")
 
--- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  light_manager:init(map)
+  map:set_light(0)
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
 end

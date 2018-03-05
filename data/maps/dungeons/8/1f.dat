@@ -13,6 +13,195 @@ properties{
 
 tile{
   layer = 0,
+  x = 1488,
+  y = 1488,
+  width = 64,
+  height = 96,
+  pattern = "1064",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 1488,
+  width = 64,
+  height = 96,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1968,
+  y = 816,
+  width = 224,
+  height = 160,
+  pattern = "1064",
+}
+
+tile{
+  layer = 0,
+  x = 1968,
+  y = 880,
+  width = 224,
+  height = 32,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 2032,
+  y = 816,
+  width = 16,
+  height = 64,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 2032,
+  y = 912,
+  width = 16,
+  height = 64,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 832,
+  width = 16,
+  height = 48,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 2000,
+  y = 848,
+  width = 16,
+  height = 32,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 912,
+  width = 16,
+  height = 48,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 2000,
+  y = 912,
+  width = 16,
+  height = 32,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 1984,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 1984,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 1968,
+  y = 880,
+  width = 224,
+  height = 32,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 816,
+  width = 192,
+  height = 160,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 816,
+  width = 192,
+  height = 160,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 1328,
+  width = 224,
+  height = 160,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 1328,
+  width = 224,
+  height = 160,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 600,
+  width = 208,
+  height = 48,
+  pattern = "1064",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 608,
+  width = 176,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 1840,
+  width = 224,
+  height = 160,
+  pattern = "1020",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 1840,
+  width = 224,
+  height = 160,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
   x = 2368,
   y = 1832,
   width = 144,
@@ -634,15 +823,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 2016,
-  y = 1376,
-  width = 128,
-  height = 64,
-  pattern = "floor.3-Alpha",
-}
-
-tile{
-  layer = 0,
   x = 1520,
   y = 608,
   width = 128,
@@ -1120,24 +1300,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
-  y = 600,
-  width = 208,
-  height = 48,
-  pattern = "1064",
-}
-
-tile{
-  layer = 0,
-  x = 336,
-  y = 600,
-  width = 208,
-  height = 48,
-  pattern = "floor.3-Alpha",
-}
-
-tile{
-  layer = 0,
   x = 344,
   y = 544,
   width = 160,
@@ -1345,29 +1507,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
-  y = 1840,
-  width = 224,
-  height = 160,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
   x = 128,
   y = 1888,
   width = 80,
   height = 48,
   pattern = "1064",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 1840,
-  width = 224,
-  height = 160,
-  pattern = "floor.3-Alpha",
 }
 
 tile{
@@ -1462,15 +1606,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 688,
-  y = 816,
-  width = 192,
-  height = 160,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
   x = 768,
   y = 880,
   width = 32,
@@ -1485,15 +1620,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1064",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 816,
-  width = 192,
-  height = 160,
-  pattern = "floor.3-Alpha",
 }
 
 tile{
@@ -1539,15 +1665,6 @@ tile{
   width = 48,
   height = 368,
   pattern = "lava",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 1328,
-  width = 224,
-  height = 160,
-  pattern = "1020",
 }
 
 tile{
@@ -1611,15 +1728,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1064",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 1328,
-  width = 224,
-  height = 160,
-  pattern = "floor.3-Alpha",
 }
 
 tile{
@@ -10427,7 +10535,7 @@ tile{
 tile{
   layer = 0,
   x = 392,
-  y = 592,
+  y = 584,
   width = 16,
   height = 24,
   pattern = "stairs_inner_up.1-1",
@@ -10436,7 +10544,7 @@ tile{
 tile{
   layer = 0,
   x = 408,
-  y = 592,
+  y = 584,
   width = 8,
   height = 24,
   pattern = "stairs_inner_up.1.border.2-1",
@@ -10445,7 +10553,7 @@ tile{
 tile{
   layer = 0,
   x = 384,
-  y = 592,
+  y = 584,
   width = 8,
   height = 24,
   pattern = "stairs_inner_up.1.border.1-1",
@@ -10454,7 +10562,7 @@ tile{
 tile{
   layer = 0,
   x = 392,
-  y = 584,
+  y = 576,
   width = 16,
   height = 8,
   pattern = "stairs_inner_up.1.top-1",
@@ -10463,7 +10571,7 @@ tile{
 tile{
   layer = 0,
   x = 384,
-  y = 584,
+  y = 576,
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.1.top.border.1-1",
@@ -10472,37 +10580,10 @@ tile{
 tile{
   layer = 0,
   x = 408,
-  y = 584,
+  y = 576,
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.1.top.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 648,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 648,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 648,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
 }
 
 tile{
@@ -14018,105 +14099,6 @@ tile{
 tile{
   layer = 0,
   x = 1968,
-  y = 816,
-  width = 224,
-  height = 160,
-  pattern = "1064",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 880,
-  width = 224,
-  height = 32,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 2032,
-  y = 816,
-  width = 16,
-  height = 64,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 2032,
-  y = 912,
-  width = 16,
-  height = 64,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 2016,
-  y = 832,
-  width = 16,
-  height = 48,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 2000,
-  y = 848,
-  width = 16,
-  height = 32,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 2016,
-  y = 912,
-  width = 16,
-  height = 48,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 2000,
-  y = 912,
-  width = 16,
-  height = 32,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 1984,
-  y = 912,
-  width = 16,
-  height = 16,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 1984,
-  y = 864,
-  width = 16,
-  height = 16,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
-  y = 816,
-  width = 224,
-  height = 160,
-  pattern = "floor.3-Alpha",
-}
-
-tile{
-  layer = 0,
-  x = 1968,
   y = 1072,
   width = 224,
   height = 160,
@@ -15691,15 +15673,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1680,
-  y = 1488,
-  width = 128,
-  height = 96,
-  pattern = "floor.3-Alpha",
-}
-
-tile{
-  layer = 0,
   x = 1808,
   y = 1520,
   width = 32,
@@ -15786,24 +15759,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner_reverse.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 1488,
-  y = 1488,
-  width = 64,
-  height = 96,
-  pattern = "1064",
-}
-
-tile{
-  layer = 0,
-  x = 1488,
-  y = 1488,
-  width = 64,
-  height = 96,
-  pattern = "floor.3-Alpha",
 }
 
 tile{
@@ -19091,6 +19046,366 @@ tile{
   pattern = "hole.3",
 }
 
+tile{
+  layer = 0,
+  x = 1080,
+  y = 2000,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 2000,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 2024,
+  width = 16,
+  height = 16,
+  pattern = "floor.7-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 2024,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 2024,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 2040,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 1888,
+  width = 80,
+  height = 48,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 648,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 648,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 648,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 1344,
+  width = 32,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 1440,
+  width = 32,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 1440,
+  width = 32,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 1344,
+  width = 32,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 1360,
+  width = 64,
+  height = 16,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 1440,
+  width = 64,
+  height = 16,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 1376,
+  width = 128,
+  height = 64,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 880,
+  width = 32,
+  height = 96,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1984,
+  y = 864,
+  width = 64,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2000,
+  y = 848,
+  width = 48,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 832,
+  width = 32,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2032,
+  y = 816,
+  width = 16,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2032,
+  y = 960,
+  width = 16,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 944,
+  width = 32,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2000,
+  y = 928,
+  width = 48,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1984,
+  y = 912,
+  width = 64,
+  height = 16,
+  pattern = "floor.3-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2048,
+  y = 816,
+  width = 144,
+  height = 64,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2048,
+  y = 912,
+  width = 144,
+  height = 64,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1968,
+  y = 816,
+  width = 16,
+  height = 64,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1968,
+  y = 912,
+  width = 16,
+  height = 64,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1984,
+  y = 928,
+  width = 16,
+  height = 48,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1984,
+  y = 816,
+  width = 16,
+  height = 48,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2000,
+  y = 816,
+  width = 16,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2000,
+  y = 944,
+  width = 16,
+  height = 32,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 960,
+  width = 16,
+  height = 16,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 816,
+  width = 16,
+  height = 16,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 2016,
+  y = 1376,
+  width = 128,
+  height = 64,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1760,
+  y = 1488,
+  width = 48,
+  height = 96,
+  pattern = "floor.21-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 1680,
+  y = 1488,
+  width = 48,
+  height = 96,
+  pattern = "floor.21-Alpha",
+}
+
 separator{
   layer = 0,
   x = 2232,
@@ -20881,6 +21196,24 @@ tile{
   width = 16,
   height = 16,
   pattern = "torch_big.top",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 2024,
+  width = 32,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 2024,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-6",
 }
 
 block{
