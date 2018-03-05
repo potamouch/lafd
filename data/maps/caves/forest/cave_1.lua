@@ -11,14 +11,11 @@ local map = ...
 local game = map:get_game()
 local separator_manager = require("scripts/maps/separator_manager")
 local companion_manager = require("scripts/maps/companion_manager")
-local light_manager = require("scripts/maps/light_manager")
 
 separator_manager:manage_map(map)
 
 function map:on_started()
 
   companion_manager:init_map(map)
-  light_manager:init(map)
-  map:set_light(0)
 
 end

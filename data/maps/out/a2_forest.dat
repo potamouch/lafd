@@ -4037,7 +4037,7 @@ tile{
   layer = 0,
   x = 512,
   y = 72,
-  width = 144,
+  width = 48,
   height = 16,
   pattern = "1340",
 }
@@ -8983,6 +8983,15 @@ tile{
   pattern = "1338",
 }
 
+tile{
+  layer = 0,
+  x = 608,
+  y = 72,
+  width = 48,
+  height = 16,
+  pattern = "1340",
+}
+
 sensor{
   name = "raccoon_lost_warning_sensor",
   layer = 0,
@@ -9203,7 +9212,7 @@ teletransporter{
   name = "forest_cave_1_1_A",
   layer = 0,
   x = 632,
-  y = 464,
+  y = 456,
   width = 16,
   height = 16,
   destination_map = "caves/forest/cave_1",
@@ -9222,7 +9231,7 @@ teletransporter{
   name = "forest_cave_1_1_C",
   layer = 0,
   x = 152,
-  y = 272,
+  y = 264,
   width = 16,
   height = 16,
   destination_map = "caves/forest/cave_1",
@@ -9280,7 +9289,7 @@ teletransporter{
   name = "forest_cave_2_1_A",
   layer = 0,
   x = 576,
-  y = 80,
+  y = 72,
   width = 16,
   height = 16,
   destination_map = "caves/forest/cave_2",
@@ -11667,6 +11676,84 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/tarin",
+}
+
+wall{
+  layer = 0,
+  x = 136,
+  y = 264,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 264,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 560,
+  y = 72,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 592,
+  y = 72,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 616,
+  y = 456,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 648,
+  y = 456,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
