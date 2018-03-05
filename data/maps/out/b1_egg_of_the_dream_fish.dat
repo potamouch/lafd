@@ -17491,7 +17491,7 @@ wall{
 
 npc{
   layer = 0,
-  x = 392,
+  x = 496,
   y = 645,
   direction = 3,
   subtype = 1,
@@ -17507,6 +17507,26 @@ custom_entity{
   height = 56,
   direction = 0,
   sprite = "entities/entrance_dungeon_2",
+}
+
+custom_entity{
+  layer = 0,
+  x = 400,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/entrance_moblin_cave",
+}
+
+custom_entity{
+  layer = 0,
+  x = 456,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/entrance_moblin_cave",
 }
 
 tile{

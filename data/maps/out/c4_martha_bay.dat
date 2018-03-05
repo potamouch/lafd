@@ -10164,7 +10164,7 @@ tile{
 tile{
   layer = 0,
   x = 408,
-  y = 240,
+  y = 232,
   width = 16,
   height = 16,
   pattern = "1039",
@@ -10191,7 +10191,7 @@ tile{
 tile{
   layer = 0,
   x = 344,
-  y = 240,
+  y = 232,
   width = 16,
   height = 16,
   pattern = "1039",
@@ -10246,6 +10246,33 @@ tile{
   layer = 0,
   x = 328,
   y = 192,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 216,
   width = 16,
   height = 16,
   pattern = "1039",
@@ -10749,7 +10776,7 @@ npc{
 custom_entity{
   layer = 0,
   x = 384,
-  y = 213,
+  y = 189,
   width = 16,
   height = 16,
   direction = 0,

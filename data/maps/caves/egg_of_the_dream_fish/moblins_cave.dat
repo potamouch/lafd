@@ -2657,8 +2657,8 @@ enemy{
 enemy{
   name = "enemy_group_2_3",
   layer = 0,
-  x = 208,
-  y = 109,
+  x = 192,
+  y = 93,
   direction = 3,
   breed = "moblin",
 }
@@ -2666,8 +2666,8 @@ enemy{
 enemy{
   name = "enemy_group_2_2",
   layer = 0,
-  x = 120,
-  y = 101,
+  x = 128,
+  y = 93,
   direction = 3,
   breed = "moblin",
 }
@@ -2675,8 +2675,8 @@ enemy{
 enemy{
   name = "enemy_group_2_4",
   layer = 0,
-  x = 184,
-  y = 157,
+  x = 216,
+  y = 125,
   direction = 3,
   breed = "moblin",
 }
@@ -2684,8 +2684,8 @@ enemy{
 enemy{
   name = "enemy_group_2_1",
   layer = 0,
-  x = 80,
-  y = 157,
+  x = 104,
+  y = 125,
   direction = 3,
   breed = "moblin",
 }
@@ -2807,7 +2807,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 112,
+  x = 104,
   y = 445,
   width = 16,
   height = 16,
@@ -2917,7 +2917,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 192,
+  x = 200,
   y = 445,
   width = 16,
   height = 16,

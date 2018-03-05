@@ -12,10 +12,10 @@ properties{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 0,
-  width = 960,
-  height = 768,
+  x = -16,
+  y = -24,
+  width = 992,
+  height = 792,
   pattern = "14667",
 }
 
@@ -19437,8 +19437,8 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 832,
-  y = 269,
+  x = 784,
+  y = 285,
   width = 16,
   height = 16,
   direction = 0,
@@ -19499,17 +19499,6 @@ custom_entity{
   direction = 0,
   sprite = "entities/statue_small_dungeon_3",
   model = "obstacle",
-}
-
-custom_entity{
-  layer = 0,
-  x = 808,
-  y = 269,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/statue_pig",
-  model = "statue_pig",
 }
 
 npc{
@@ -25981,5 +25970,16 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/phone_statue",
+}
+
+custom_entity{
+  layer = 1,
+  x = 800,
+  y = 253,
+  width = 56,
+  height = 56,
+  direction = 0,
+  sprite = "entities/statue_pig",
+  model = "statue_pig",
 }
 
