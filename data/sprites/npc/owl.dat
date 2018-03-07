@@ -2,10 +2,10 @@ animation{
   name = "stopped",
   src_image = "npc/owl.png",
   directions = {
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
   },
 }
 animation{
@@ -14,10 +14,10 @@ animation{
   frame_delay = 350,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 9 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 9 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 9 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
   },
 }
 animation{
@@ -26,9 +26,9 @@ animation{
   frame_delay = 80,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 5 },
-    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 5 },
-    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 5 },
-    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
   },
 }
