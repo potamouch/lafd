@@ -222,6 +222,14 @@ function map:on_started(destination)
       game:set_value("hero_is_thief_message", false)
     end)
   end
+
+  --Weathercock statue pushed
+  if game:get_value("mabe_village_weathercook_statue_pushed") then
+      push_weathercook_sensor:set_enabled(false)
+      weathercock:set_enabled(false)
+      weathercook_statue_1:set_position(616,232)
+      weathercook_statue_2:set_position(616,248)
+  end
   
 
 end
@@ -323,4 +331,29 @@ function marine_sensor_2:on_activated()
       notes:remove()
     end
 
+end
+
+--Push the weathercook statue
+function push_weathercook_sensor:on_activated_repeat()
+    if hero:get_animation() == "pushing" and hero:get_direction() == 1 and game:get_ability("lift") == 1 then
+      hero:freeze()
+      hero:get_sprite():set_animation("pushing")
+      push_weathercook_sensor:set_enabled(false)
+      weathercock:set_enabled(false)
+      sol.audio.play_sound("hero_pushes")
+        local weathercook_x,weathercook_y = map:get_entity("weathercook_statue_1"):get_position()
+        local weathercook_x_2,weathercook_y_2 = map:get_entity("weathercook_statue_2"):get_position()
+        local i = 0
+        sol.timer.start(map,50,function()
+          i = i + 1
+          weathercook_y = weathercook_y - 1
+          weathercook_statue_1:set_position(weathercook_x, weathercook_y)
+          weathercook_y_2 = weathercook_y_2 - 1
+          weathercook_statue_2:set_position(weathercook_x_2, weathercook_y_2)
+          if i < 32 then return true end
+          sol.audio.play_sound("secret_2")
+          hero:unfreeze()
+          game:set_value("mabe_village_weathercook_statue_pushed",true)
+        end)
+    end
 end
