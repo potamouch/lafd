@@ -4899,9 +4899,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 552,
+  x = 536,
   y = 48,
-  width = 56,
+  width = 72,
   height = 16,
   pattern = "ceiling.2",
 }
@@ -6242,27 +6242,18 @@ tile{
   layer = 1,
   x = 504,
   y = 32,
-  width = 32,
+  width = 16,
   height = 24,
   pattern = "wall.1-3",
 }
 
 tile{
   layer = 1,
-  x = 536,
+  x = 520,
   y = 32,
   width = 24,
   height = 24,
   pattern = "wall.corner.2-3",
-}
-
-tile{
-  layer = 1,
-  x = 536,
-  y = 48,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.2-3",
 }
 
 tile{
@@ -6285,9 +6276,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 552,
+  x = 536,
   y = 48,
-  width = 32,
+  width = 48,
   height = 24,
   pattern = "wall.1-3",
 }
@@ -6416,60 +6407,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "wall_border.corner.2-3",
-}
-
-tile{
-  layer = 1,
-  x = 544,
-  y = 72,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 568,
-  y = 80,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 552,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "stairs_inner_up.1.top-2",
-}
-
-tile{
-  layer = 1,
-  x = 568,
-  y = 72,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 544,
-  y = 80,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 552,
-  y = 80,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-2",
 }
 
 tile{
@@ -6724,17 +6661,40 @@ tile{
   pattern = "door_top.low.1-3",
 }
 
-wall{
+tile{
   layer = 1,
   x = 544,
-  y = 72,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_up.1",
+}
+
+tile{
+  layer = 1,
+  x = 520,
+  y = 48,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3",
 }
 
 block{
@@ -6750,7 +6710,7 @@ block{
 block{
   layer = 1,
   x = 528,
-  y = 77,
+  y = 85,
   sprite = "entities/stone_small_brwon",
   pushable = true,
   pullable = false,
@@ -6781,14 +6741,14 @@ destination{
   name = "stair_north",
   layer = 1,
   x = 560,
-  y = 101,
+  y = 69,
   direction = 3,
 }
 
 teletransporter{
   layer = 1,
   x = 552,
-  y = 88,
+  y = 56,
   width = 16,
   height = 16,
   destination_map = "out/b1_egg_of_the_dream_fish",
@@ -6798,7 +6758,7 @@ teletransporter{
 stairs{
   layer = 1,
   x = 552,
-  y = 88,
+  y = 56,
   direction = 1,
   subtype = 2,
 }
@@ -7115,9 +7075,9 @@ tile{
 
 tile{
   layer = 2,
-  x = 560,
+  x = 544,
   y = 32,
-  width = 64,
+  width = 80,
   height = 16,
   pattern = "ceiling.2",
 }
@@ -7219,6 +7179,33 @@ tile{
   width = 960,
   height = 256,
   pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 544,
+  y = 48,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.1-3",
+}
+
+tile{
+  layer = 2,
+  x = 544,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-3",
+}
+
+tile{
+  layer = 2,
+  x = 552,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.1-1",
 }
 
 separator{
