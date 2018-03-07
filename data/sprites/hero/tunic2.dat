@@ -129,7 +129,7 @@ animation{
 animation{
   name = "hangup_phone",
   src_image = "hero/calling.png",
-  frame_delay = 200,
+  frame_delay = 150,
   directions = {
     { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
     { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
@@ -204,7 +204,7 @@ animation{
 animation{
   name = "pickup_phone",
   src_image = "hero/calling.png",
-  frame_delay = 200,
+  frame_delay = 150,
   directions = {
     { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
     { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },

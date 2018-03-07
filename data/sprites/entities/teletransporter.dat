@@ -1,9 +1,10 @@
 animation{
-  name = "yellow",
-  src_image = "entities/teletransporter.png",
-  frame_delay = 300,
-  frame_to_loop_on = 0,
+  name = "default",
+  src_image = "entities/teletransporter_out.png",
   directions = {
-    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
   },
 }
