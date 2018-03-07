@@ -6767,3 +6767,13 @@ destructible{
   damage_on_enemies = 2,
 }
 
+npc{
+  layer = 0,
+  x = 568,
+  y = 285,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl_blue",
+  behavior = "dialog#maps.out.east_mt_tamaranch.owl_statue_1",
+}
+

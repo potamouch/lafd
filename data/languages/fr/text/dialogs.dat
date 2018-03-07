@@ -2760,6 +2760,14 @@ photo !
 }
 
 dialog{
+  id = "maps.out.east_mt_tamaranch.owl_statue_1",
+  text = [[
+Tu es proche de la Tour.
+Prends garde au rapace !
+]],
+}
+
+dialog{
   id = "maps.out.east_prairie.sign_1",
   text = [[
 Château Canulet 
