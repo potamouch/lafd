@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "out/outside",
+  music = "maps/out/mt_tamaranch",
 }
 
 tile{
@@ -6688,21 +6689,81 @@ dynamic_tile{
 
 custom_entity{
   layer = 0,
-  x = 584,
-  y = 85,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/entrance_dungeon_7_door",
-}
-
-custom_entity{
-  layer = 0,
-  x = 584,
-  y = 85,
-  width = 16,
-  height = 16,
+  x = 576,
+  y = 13,
+  width = 128,
+  height = 96,
   direction = 0,
   sprite = "entities/entrance_dungeon_7",
+}
+
+destructible{
+  layer = 0,
+  x = 536,
+  y = 101,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 552,
+  y = 85,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 53,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 53,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 53,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 69,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 69,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 

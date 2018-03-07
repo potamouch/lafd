@@ -297,7 +297,7 @@ sprite{ id = "entities/statue_small_dungeon_3", description = "Statue small dung
 sprite{ id = "entities/statue_small_key_dungeon_3", description = "Statue small key dungeon 3" }
 sprite{ id = "entities/stone_large_white", description = "Large white stone" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
-sprite{ id = "entities/stone_small_brwon", description = "Stone small brown" }
+sprite{ id = "entities/stone_small_brown", description = "Stone small brown" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }

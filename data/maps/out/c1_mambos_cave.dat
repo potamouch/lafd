@@ -11201,7 +11201,7 @@ tile{
   layer = 0,
   x = 872,
   y = 152,
-  width = 88,
+  width = 104,
   height = 16,
   pattern = "3977",
 }
@@ -11210,7 +11210,7 @@ tile{
   layer = 0,
   x = 872,
   y = 136,
-  width = 88,
+  width = 104,
   height = 16,
   pattern = "3976",
 }
@@ -11219,7 +11219,7 @@ tile{
   layer = 0,
   x = 872,
   y = 120,
-  width = 88,
+  width = 104,
   height = 16,
   pattern = "3974",
 }
@@ -11273,7 +11273,7 @@ tile{
   layer = 0,
   x = 808,
   y = 72,
-  width = 152,
+  width = 168,
   height = 16,
   pattern = "3977",
 }
@@ -11444,7 +11444,7 @@ tile{
   layer = 0,
   x = 880,
   y = 56,
-  width = 80,
+  width = 88,
   height = 16,
   pattern = "3976",
 }
@@ -11453,7 +11453,7 @@ tile{
   layer = 0,
   x = 872,
   y = 40,
-  width = 88,
+  width = 96,
   height = 16,
   pattern = "3974",
 }
@@ -12694,6 +12694,7 @@ teletransporter{
   height = 768,
   transition = "scrolling",
   destination_map = "out/d1_east_mt_tamaranch",
+  destination = "_side",
 }
 
 teletransporter{

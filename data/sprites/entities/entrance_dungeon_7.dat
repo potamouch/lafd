@@ -2,7 +2,7 @@ animation{
   name = "closed",
   src_image = "entities/entrance_dungeon_7.png",
   directions = {
-    { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
+    { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 24, origin_y = 13 },
     { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
     { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },
     { x = 160, y = 0, frame_width = 160, frame_height = 96, origin_x = 8, origin_y = 13 },

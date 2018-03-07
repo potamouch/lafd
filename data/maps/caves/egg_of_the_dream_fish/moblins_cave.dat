@@ -2799,130 +2799,143 @@ custom_entity{
   layer = 0,
   x = 240,
   y = 325,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 3,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 104,
   y = 445,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 1,
   sprite = "entities/dog_statue",
+  model = "non_diggable",
 }
 
 custom_entity{
   layer = 0,
   x = 88,
   y = 61,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 3,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 216,
   y = 61,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 3,
   sprite = "entities/dog_statue",
+  model = "mr_write",
 }
 
 custom_entity{
   layer = 0,
   x = 56,
   y = 93,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 0,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 248,
   y = 93,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 2,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 824,
   y = 61,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 3,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 856,
   y = 61,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 3,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 824,
   y = 189,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 1,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 856,
   y = 189,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 1,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 728,
   y = 93,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 0,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 728,
   y = 157,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 0,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 200,
   y = 445,
-  width = 16,
-  height = 16,
+  width = 32,
+  height = 32,
   direction = 1,
   sprite = "entities/dog_statue",
+  model = "obstacle",
 }
 
 custom_entity{
@@ -2930,192 +2943,11 @@ custom_entity{
   layer = 0,
   x = 144,
   y = 37,
-  width = 40,
-  height = 48,
+  width = 48,
+  height = 56,
   direction = 0,
   sprite = "entities/moblin_throne",
-}
-
-wall{
-  layer = 0,
-  x = 48,
-  y = 80,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 80,
-  y = 48,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 208,
-  y = 48,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 240,
-  y = 80,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 96,
-  y = 432,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 192,
-  y = 432,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 232,
-  y = 312,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 720,
-  y = 80,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 720,
-  y = 144,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 816,
-  y = 176,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 848,
-  y = 176,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 816,
-  y = 48,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 848,
-  y = 48,
-  width = 32,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 136,
-  y = 40,
-  width = 48,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  model = "obstacle",
 }
 
 tile{
