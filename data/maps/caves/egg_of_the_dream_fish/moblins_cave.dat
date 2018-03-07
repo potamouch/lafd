@@ -2696,7 +2696,7 @@ door{
   x = 64,
   y = 280,
   direction = 3,
-  sprite = "entities/doors/door_normal",
+  sprite = "entities/doors/door_normal_cave",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
@@ -2707,7 +2707,7 @@ door{
   x = 64,
   y = 216,
   direction = 1,
-  sprite = "entities/doors/door_normal",
+  sprite = "entities/doors/door_normal_cave",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
@@ -2736,7 +2736,7 @@ door{
   x = 280,
   y = 120,
   direction = 2,
-  sprite = "entities/doors/door_normal",
+  sprite = "entities/doors/door_normal_cave",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
@@ -2747,7 +2747,7 @@ door{
   x = 344,
   y = 120,
   direction = 0,
-  sprite = "entities/doors/door_normal",
+  sprite = "entities/doors/door_normal_cave",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
@@ -2767,7 +2767,7 @@ door{
   x = 600,
   y = 120,
   direction = 2,
-  sprite = "entities/doors/door_normal",
+  sprite = "entities/doors/door_normal_cave",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
@@ -2778,7 +2778,7 @@ door{
   x = 664,
   y = 120,
   direction = 0,
-  sprite = "entities/doors/door_normal",
+  sprite = "entities/doors/door_normal_cave",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }

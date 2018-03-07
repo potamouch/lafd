@@ -453,9 +453,13 @@ block{
 }
 
 chest{
+  name = "forest_cave_2_chest_1",
   layer = 0,
   x = 80,
   y = 85,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "forest_cave_2_chest_1",
   sprite = "entities/chest",
 }
 

@@ -12664,6 +12664,15 @@ tile{
   pattern = "3981",
 }
 
+tile{
+  layer = 0,
+  x = 168,
+  y = 208,
+  width = 16,
+  height = 48,
+  pattern = "3970",
+}
+
 teletransporter{
   name = "to_b1",
   layer = 0,
@@ -13993,6 +14002,76 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 40,
+}
+
+destination{
+  name = "cave_c1_1",
+  layer = 0,
+  x = 152,
+  y = 213,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "caves/egg_of_the_dream_fish/cave_3",
+  destination = "entrance_west",
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 176,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_c1_2",
+  layer = 0,
+  x = 200,
+  y = 213,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 192,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "caves/egg_of_the_dream_fish/cave_3",
+  destination = "entrance_east",
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 176,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+chest{
+  layer = 0,
+  x = 120,
+  y = 221,
+  treasure_variant = 4,
+  sprite = "entities/chest",
 }
 
 tile{

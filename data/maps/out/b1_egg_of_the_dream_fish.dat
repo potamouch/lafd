@@ -9490,7 +9490,7 @@ tile{
 tile{
   layer = 0,
   x = 792,
-  y = 72,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "12455",
@@ -10619,51 +10619,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "1711",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 104,
-  width = 8,
-  height = 24,
-  pattern = "1893",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 96,
-  width = 32,
-  height = 8,
-  pattern = "1892",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 104,
-  width = 16,
-  height = 16,
-  pattern = "1896",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 120,
-  width = 16,
-  height = 8,
-  pattern = "1895",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 104,
-  width = 8,
-  height = 24,
-  pattern = "1894",
 }
 
 tile{
@@ -16831,6 +16786,51 @@ tile{
   pattern = "14799",
 }
 
+tile{
+  layer = 0,
+  x = 792,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "1901",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 96,
+  width = 8,
+  height = 24,
+  pattern = "1897",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "1900",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "1899",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 96,
+  width = 8,
+  height = 24,
+  pattern = "1898",
+}
+
 teletransporter{
   name = "to_b2",
   layer = 0,
@@ -17527,6 +17527,50 @@ custom_entity{
   height = 16,
   direction = 2,
   sprite = "entities/entrance_moblin_cave",
+}
+
+destination{
+  name = "cave_b1_1",
+  layer = 0,
+  x = 808,
+  y = 245,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 800,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "caves/egg_of_the_dream_fish/cave_1",
+  destination = "entrance",
+}
+
+destination{
+  name = "cave_b1_2",
+  layer = 0,
+  x = 800,
+  y = 109,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "caves/egg_of_the_dream_fish/cave_3",
+  destination = "stair_north",
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 96,
+  direction = 3,
+  subtype = 3,
 }
 
 tile{
