@@ -14249,6 +14249,17 @@ destructible{
   can_be_cut = true,
 }
 
+custom_entity{
+  name = "wallturn",
+  layer = 0,
+  x = 1440,
+  y = 1325,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/wallturn_prototype",
+}
+
 tile{
   layer = 1,
   x = 1008,
