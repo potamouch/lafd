@@ -10,18 +10,15 @@
 local map = ...
 local game = map:get_game()
 local separator_manager = require("scripts/maps/separator_manager")
-
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
-end
+local companion_manager = require("scripts/maps/companion_manager")
 
 separator_manager:manage_map(map)
+
+function map:on_started()
+
+  companion_manager:init_map(map)
+
+end
+
+--Weak doors play secret sound on opened
+function weak_door_1:on_opened() sol.audio.play_sound("secret_1") end

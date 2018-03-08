@@ -69,3 +69,6 @@ print(game:get_value("main_quest_step") )
       end
 
 end
+
+--Weak doors play secret sound on opened
+function weak_door_1:on_opened() sol.audio.play_sound("secret_1") end

@@ -11269,7 +11269,7 @@ destination{
   name = "west_mt_tamaranch_cave_1_2_D",
   layer = 0,
   x = 264,
-  y = 461,
+  y = 453,
   direction = 3,
 }
 
@@ -11277,7 +11277,7 @@ teletransporter{
   name = "west_mt_tamaranch_cave_1_1_D",
   layer = 0,
   x = 256,
-  y = 432,
+  y = 424,
   width = 16,
   height = 16,
   destination_map = "caves/west_mt_tamaranch/cave_1",
@@ -11288,7 +11288,7 @@ destination{
   name = "west_mt_tamaranch_cave_1_2_A",
   layer = 0,
   x = 184,
-  y = 461,
+  y = 453,
   direction = 3,
 }
 
@@ -11296,7 +11296,7 @@ teletransporter{
   name = "west_mt_tamaranch_cave_1_1_A",
   layer = 0,
   x = 176,
-  y = 432,
+  y = 424,
   width = 16,
   height = 16,
   destination_map = "caves/west_mt_tamaranch/cave_1",
