@@ -6777,3 +6777,14 @@ npc{
   behavior = "dialog#maps.out.east_mt_tamaranch.owl_statue_1",
 }
 
+custom_entity{
+  name = "keyhole7",
+  layer = 0,
+  x = 536,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/keyhole_dungeon_7",
+}
+

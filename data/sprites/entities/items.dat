@@ -614,6 +614,18 @@ animation{
   },
 }
 animation{
+  name = "sword_in_water",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 512, y = 64, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 512, y = 64, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 512, y = 64, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 512, y = 64, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+  },
+}
+animation{
   name = "tail_key",
   src_image = "entities/items.png",
   directions = {
