@@ -19,6 +19,7 @@ local is_destroy = false
 function entity:on_created()
 
   entity:set_traversable_by("hero", false)
+  entity:set_traversable_by("enemy", false)
 
 end
 

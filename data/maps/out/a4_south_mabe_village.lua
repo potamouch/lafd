@@ -34,6 +34,9 @@ function map:on_started(destination)
   companion_manager:init_map(map)
   owl_1:set_enabled(false)
   owl_4:set_enabled(false)
+  if sword ~= nil then
+    sword:get_sprite():set_direction(4)
+  end
   dungeon_1_entrance:set_traversable_by("hero", false)
   if game:get_value("main_quest_step") > 6 then
     map:open_dungeon_1()

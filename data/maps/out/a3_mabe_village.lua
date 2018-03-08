@@ -335,7 +335,7 @@ end
 
 --Push the weathercook statue
 function push_weathercook_sensor:on_activated_repeat()
-    if hero:get_animation() == "pushing" and hero:get_direction() == 1 and game:get_ability("lift") == 1 then
+    if hero:get_animation() == "pushing" and hero:get_direction() == 1 and game:get_ability("lift") == 2 then
       hero:freeze()
       hero:get_sprite():set_animation("pushing")
       push_weathercook_sensor:set_enabled(false)

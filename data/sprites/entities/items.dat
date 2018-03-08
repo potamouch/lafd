@@ -606,11 +606,14 @@ animation{
 animation{
   name = "sword",
   src_image = "entities/items.png",
+  frame_delay = 500,
+  frame_to_loop_on = 0,
   directions = {
     { x = 528, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 528, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 528, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 528, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 512, y = 64, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
   },
 }
 animation{

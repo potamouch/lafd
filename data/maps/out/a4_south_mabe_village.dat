@@ -49,7 +49,7 @@ tile{
 tile{
   layer = 0,
   x = 24,
-  y = 8,
+  y = 0,
   width = 936,
   height = 392,
   pattern = "14667",
@@ -10107,7 +10107,7 @@ pickable{
   layer = 0,
   x = 600,
   y = 733,
-  treasure_name = "sword_in_water",
+  treasure_name = "sword",
   treasure_savegame_variable = "step_2_link_found_sword",
 }
 

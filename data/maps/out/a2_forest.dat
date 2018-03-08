@@ -10717,7 +10717,7 @@ enemy{
   y = 501,
   direction = 3,
   breed = "moblin",
-  treasure_name = "quiver",
+  treasure_name = "random",
 }
 
 destructible{
@@ -13506,7 +13506,7 @@ sensor{
   name = "owl_2_position",
   layer = 2,
   x = 256,
-  y = 533,
+  y = 501,
   width = 16,
   height = 16,
 }
@@ -13515,7 +13515,7 @@ npc{
   name = "owl_2",
   layer = 2,
   x = 256,
-  y = 533,
+  y = 501,
   direction = 3,
   subtype = 0,
   sprite = "npc/owl",
