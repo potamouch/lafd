@@ -694,6 +694,7 @@ item{ id = "shovel", description = "Shovel" }
 item{ id = "slim_key", description = "Slim key" }
 item{ id = "small_key", description = "Small key" }
 item{ id = "sword", description = "Sword" }
+item{ id = "sword_in_water", description = "Sword in water" }
 item{ id = "tail_key", description = "Tail key" }
 item{ id = "tunic", description = "Tunic (green/blue/red)" }
 

@@ -10107,7 +10107,7 @@ pickable{
   layer = 0,
   x = 600,
   y = 733,
-  treasure_name = "sword",
+  treasure_name = "sword_in_water",
   treasure_savegame_variable = "step_2_link_found_sword",
 }
 
