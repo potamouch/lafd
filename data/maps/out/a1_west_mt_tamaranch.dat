@@ -12155,6 +12155,23 @@ wall{
   stops_projectiles = true,
 }
 
+destination{
+  name = "travel_destination",
+  layer = 0,
+  x = 432,
+  y = 117,
+  direction = 3,
+}
+
+sensor{
+  name = "travel_sensor",
+  layer = 0,
+  x = 432,
+  y = 53,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 120,

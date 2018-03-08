@@ -29,6 +29,13 @@ function map:set_music()
 
 end
 
+function travel_sensor:on_activated()
+
+  travel_manager:init(map, 1)
+  travel_manager:launch_step_1(map)
+
+end
+
 separator_1:register_event("on_activating", function(separator, direction4)
 
   if direction4 == 1 then
