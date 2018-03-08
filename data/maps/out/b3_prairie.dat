@@ -23531,7 +23531,7 @@ wall{
 }
 
 destination{
-  name = "travel_1_destination",
+  name = "travel_destination",
   layer = 0,
   x = 368,
   y = 365,

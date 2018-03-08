@@ -4,6 +4,7 @@
 local map = ...
 local game = map:get_game()
 local companion_manager = require("scripts/maps/companion_manager")
+local travel_manager = require("scripts/maps/travel_manager")
 
 -- Methods - Functions
 
@@ -31,7 +32,7 @@ end
 
 function travel_sensor:on_activated()
 
-  travel_manager:init(map, 1)
+  travel_manager:init(map, 4)
   travel_manager:launch_step_1(map)
 
 end

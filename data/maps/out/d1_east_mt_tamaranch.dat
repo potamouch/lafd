@@ -6634,6 +6634,15 @@ tile{
   pattern = "1680",
 }
 
+tile{
+  layer = 0,
+  x = 480,
+  y = 536,
+  width = 16,
+  height = 16,
+  pattern = "14667",
+}
+
 teletransporter{
   name = "to_d2",
   layer = 0,

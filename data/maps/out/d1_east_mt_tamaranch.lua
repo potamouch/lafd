@@ -5,6 +5,7 @@ local map = ...
 local game = map:get_game()
 local hero = map:get_hero()
 local companion_manager = require("scripts/maps/companion_manager")
+local travel_manager = require("scripts/maps/travel_manager")
 
 -- Methods - Functions
 

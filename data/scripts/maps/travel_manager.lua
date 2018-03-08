@@ -27,25 +27,35 @@ local positions_info = {
 
 function travel_manager:init(map, from_id)
   
-  print("init")
-  from_id = id
-  for room = 1, sprite:get_num_directions(animation) - 1 do
+  local game = map:get_game()
+  local savegame = positions_info[from_id]['savegame']
+  game:set_value(savegame, 1)
+  travel_manager.from_id = from_id
+  local i = travel_manager.from_id + 1
+  if i > 4 then
+    i = 1
   end
+  while game:get_value(positions_info[i]['savegame']) == nil do
+    i = i + 1
+    if i > 4 then
+      i = 1
+    end
+  end
+  travel_manager.to_id = i
 
 end
 
 function travel_manager:launch_step_1(map)
 
-  print("step 1")
   travel_manager:launch_step_2(map)
 
 end
 
 function travel_manager:launch_step_2(map)
 
-  print("step 2")
-  local map_id = positions_info[to_id]['map_id']
-  local destination_name = positions_info[to_id]['destination_name']
+  local hero = map:get_hero()
+  local map_id = positions_info[travel_manager.to_id]['map_id']
+  local destination_name = positions_info[travel_manager.to_id]['destination_name']
   hero:teleport(map_id, destination_name)
 
 end
