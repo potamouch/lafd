@@ -921,15 +921,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
-  y = 136,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.2-2",
-}
-
-tile{
-  layer = 0,
   x = 64,
   y = 136,
   width = 16,
@@ -1477,6 +1468,15 @@ tile{
   pattern = "door_blast.3.support.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 256,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-2",
+}
+
 door{
   name = "weak_door_1",
   layer = 0,
@@ -1486,17 +1486,6 @@ door{
   sprite = "entities/doors/door_weak_wall_cave",
   savegame_variable = "prairie_cave_1_weak_1",
   opening_method = "explosion",
-}
-
-custom_entity{
-  layer = 0,
-  x = 208,
-  y = 341,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/green_cristal",
-  model = "green_crystal",
 }
 
 chest{
@@ -1536,22 +1525,123 @@ pickable{
   treasure_savegame_variable = "piece_of_heart_3",
 }
 
+teletransporter{
+  name = "cave_1_2_B",
+  layer = 0,
+  x = 128,
+  y = 461,
+  width = 16,
+  height = 16,
+  destination_map = "out/b3_prairie",
+  destination = "cave_1_2_A",
+}
+
+destination{
+  name = "cave_1_1_B",
+  layer = 0,
+  x = 136,
+  y = 445,
+  direction = 1,
+}
+
 block{
   layer = 0,
-  x = 160,
-  y = 85,
-  sprite = "entities/stone_small_brwon",
+  x = 176,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
 }
 
 block{
-  name = "auto_block_1",
+  layer = 0,
+  x = 176,
+  y = 373,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 176,
+  y = 389,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 176,
+  y = 405,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 176,
+  y = 421,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 152,
+  y = 16,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+wall{
+  layer = 0,
+  x = 128,
+  y = 448,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed_1",
+  layer = 0,
+  x = 256,
+  y = 152,
+  pattern = "wall_low.4-2",
+  width = 24,
+  height = 48,
+  enabled_at_start = true,
+}
+
+block{
+  layer = 0,
+  x = 176,
+  y = 437,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
   layer = 0,
   x = 192,
   y = 341,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = true,
   pullable = false,
   maximum_moves = 1,
@@ -1559,9 +1649,9 @@ block{
 
 block{
   layer = 0,
-  x = 128,
-  y = 149,
-  sprite = "entities/stone_small_brwon",
+  x = 208,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1569,9 +1659,9 @@ block{
 
 block{
   layer = 0,
-  x = 160,
-  y = 101,
-  sprite = "entities/stone_small_brwon",
+  x = 224,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1579,9 +1669,9 @@ block{
 
 block{
   layer = 0,
-  x = 160,
-  y = 117,
-  sprite = "entities/stone_small_brwon",
+  x = 80,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1589,9 +1679,9 @@ block{
 
 block{
   layer = 0,
-  x = 160,
-  y = 133,
-  sprite = "entities/stone_small_brwon",
+  x = 96,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1599,29 +1689,9 @@ block{
 
 block{
   layer = 0,
-  x = 160,
-  y = 149,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 165,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 165,
-  sprite = "entities/stone_small_brwon",
+  x = 112,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1630,8 +1700,8 @@ block{
 block{
   layer = 0,
   x = 128,
-  y = 181,
-  sprite = "entities/stone_small_brwon",
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1639,159 +1709,9 @@ block{
 
 block{
   layer = 0,
-  x = 160,
-  y = 181,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 197,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 197,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 213,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 213,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 229,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 229,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 245,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 245,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 261,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 261,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 277,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 277,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 293,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 160,
-  y = 293,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 128,
-  y = 309,
-  sprite = "entities/stone_small_brwon",
+  x = 144,
+  y = 357,
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1801,7 +1721,7 @@ block{
   layer = 0,
   x = 128,
   y = 325,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1811,7 +1731,7 @@ block{
   layer = 0,
   x = 144,
   y = 325,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1821,7 +1741,7 @@ block{
   layer = 0,
   x = 160,
   y = 325,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1831,7 +1751,7 @@ block{
   layer = 0,
   x = 176,
   y = 325,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
@@ -1841,10 +1761,271 @@ block{
   layer = 0,
   x = 192,
   y = 325,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = false,
   pullable = false,
   maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 149,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 309,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 165,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 181,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 197,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 213,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 229,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 245,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 261,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 277,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 293,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 85,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 293,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 101,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 117,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 133,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 149,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 165,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 181,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 197,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 213,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 229,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 245,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 261,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 277,
+  sprite = "entities/stone_small_brown",
+  pushable = false,
+  pullable = false,
+  maximum_moves = 0,
+}
+
+custom_entity{
+  layer = 0,
+  x = 208,
+  y = 341,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/green_cristal",
+  model = "green_crystal",
 }
 
 custom_entity{
@@ -1856,26 +2037,6 @@ custom_entity{
   direction = 0,
   sprite = "entities/green_cristal",
   model = "green_crystal",
-}
-
-block{
-  layer = 0,
-  x = 208,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 224,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
 }
 
 custom_entity{
@@ -1889,72 +2050,6 @@ custom_entity{
   model = "green_crystal",
 }
 
-block{
-  layer = 0,
-  x = 176,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 45,
-  sprite = "entities/stone_small_brown",
-=======
-  x = 176,
-  y = 373,
-  sprite = "entities/stone_small_brwon",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 176,
-  y = 389,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 176,
-  y = 405,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 176,
-  y = 421,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 176,
-  y = 437,
-  sprite = "entities/stone_small_brwon",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
 custom_entity{
   layer = 0,
   x = 160,
@@ -2019,465 +2114,6 @@ custom_entity{
   direction = 0,
   sprite = "entities/green_cristal",
   model = "green_crystal",
-}
-
-block{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 61,
-  sprite = "entities/stone_small_brown",
-=======
-  x = 80,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 77,
-  sprite = "entities/stone_small_brown",
-=======
-  x = 96,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 93,
-  sprite = "entities/stone_small_brown",
-=======
-  x = 112,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 109,
-  sprite = "entities/stone_small_brown",
-=======
-  x = 128,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 125,
-  sprite = "entities/stone_small_brown",
-=======
-  x = 144,
-  y = 357,
-  sprite = "entities/stone_small_brwon",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-teletransporter{
-  name = "cave_1_2_B",
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 141,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 128,
-  y = 464,
-  width = 16,
-  height = 16,
-  destination_map = "out/b3_prairie",
-  destination = "cave_1_2_A",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-destination{
-  name = "cave_1_1_B",
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 157,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 136,
-  y = 445,
-  direction = 1,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-wall{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 173,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 128,
-  y = 448,
-  width = 16,
-  height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-wall{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 189,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 64,
-  y = 328,
-  width = 8,
-  height = 32,
-  stops_enemies = true,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-wall{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 205,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 104,
-  y = 448,
-  width = 64,
-  height = 8,
-  stops_enemies = true,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-wall{
-  layer = 0,
-  x = 168,
-<<<<<<< HEAD
-  y = 221,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  y = 440,
-  width = 8,
-  height = 16,
-  stops_enemies = true,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-wall{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 237,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 152,
-  y = 64,
-  width = 16,
-  height = 8,
-  stops_enemies = true,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-wall{
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 253,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 256,
-  y = 168,
-  width = 128,
-  height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-dynamic_tile{
-  name = "weak_door_1_closed_1",
-  layer = 0,
-<<<<<<< HEAD
-  x = 168,
-  y = 269,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 168,
-  y = 285,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 221,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 205,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 189,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 173,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 237,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 253,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 269,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 285,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 301,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 317,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 333,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 136,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 152,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 168,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 184,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 200,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 216,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 232,
-  y = 349,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 232,
-  y = 365,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  x = 256,
-  y = 160,
-  pattern = "wall_low.4-2",
-  width = 24,
-  height = 48,
-  enabled_at_start = true,
 }
 
 tile{
@@ -3117,7 +2753,6 @@ tile{
   width = 24,
   height = 32,
   pattern = "wall.3-3",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
 }
 
 tile{
@@ -3127,159 +2762,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner.1-3",
-}
-
-tile{
-  layer = 1,
-  x = 248,
-<<<<<<< HEAD
-  y = 365,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  y = 88,
-  width = 24,
-  height = 32,
-  pattern = "wall.4-3",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
-}
-
-tile{
-  layer = 1,
-  x = 216,
-<<<<<<< HEAD
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 200,
-  y = 397,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 200,
-  y = 413,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 200,
-  y = 429,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 200,
-  y = 445,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 200,
-  y = 461,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 56,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 72,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 88,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 104,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 120,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 136,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-}
-
-block{
-  layer = 0,
-  x = 152,
-  y = 381,
-  sprite = "entities/stone_small_brown",
-  pushable = false,
-  pullable = false,
-  maximum_moves = 0,
-=======
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-3",
 }
 
 tile{
@@ -3298,15 +2780,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner_reverse.1-3",
-}
-
-tile{
-  layer = 1,
-  x = 248,
-  y = 112,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.2-3",
 }
 
 tile{
@@ -3388,7 +2861,6 @@ tile{
   width = 64,
   height = 8,
   pattern = "door_cache_low.2-2",
->>>>>>> Cavernes de la prairie + Bas du mont Tamaranch
 }
 
 tile{
@@ -3416,6 +2888,33 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.low.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 88,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 112,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3",
 }
 
 dynamic_tile{

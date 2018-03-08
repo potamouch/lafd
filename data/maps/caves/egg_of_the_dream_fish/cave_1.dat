@@ -2664,7 +2664,7 @@ block{
   layer = 0,
   x = 496,
   y = 117,
-  sprite = "entities/stone_small_brwon",
+  sprite = "entities/stone_small_brown",
   pushable = true,
   pullable = false,
   maximum_moves = 1,
