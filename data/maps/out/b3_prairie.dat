@@ -25941,3 +25941,13 @@ custom_entity{
   model = "statue_pig",
 }
 
+npc{
+  name = "travel_transporter",
+  layer = 2,
+  x = 728,
+  y = 277,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/owl",
+}
+

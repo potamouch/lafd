@@ -2,6 +2,8 @@ local travel_manager = {}
 
 travel_manager.from_id = 1
 travel_manager.to_id = 1
+travel_manager.transporter = nil
+travel_manager.movement = nil
 local positions_info = {
   [1] = {
         map_id = "out/b3_prairie",
@@ -31,6 +33,7 @@ function travel_manager:init(map, from_id)
   local savegame = positions_info[from_id]['savegame']
   game:set_value(savegame, 1)
   travel_manager.from_id = from_id
+  travel_manager.transporter = map:get_entity('travel_transporter')
   local i = travel_manager.from_id + 1
   if i > 4 then
     i = 1
@@ -47,11 +50,34 @@ end
 
 function travel_manager:launch_step_1(map)
 
-  travel_manager:launch_step_2(map)
+  local game = map:get_game()
+  local hero = map:get_hero()
+  local x_h,y_h = hero:get_position()
+  y_h = y_h - 16
+  local x_t,y_t = travel_manager.transporter:get_position()
+  local xy = { x = x_t, y = y_t }
+  local direction4 = travel_manager.transporter:get_direction4_to(hero)
+  local transporter_sprite = travel_manager.transporter:get_sprite()
+  game:set_pause_allowed(false)
+  game:set_suspended(true)
+  hero:freeze()
+  transporter_sprite:set_animation("walking")
+  transporter_sprite:set_direction(direction4)
+  transporter_sprite:set_ignore_suspend(true)
+  travel_manager.movement = sol.movement.create("target")
+  function travel_manager.movement:on_position_changed(coord_x, coord_y)
+    travel_manager.transporter:set_position(coord_x, coord_y)
+  end
+  travel_manager.movement:set_speed(60)
+  travel_manager.movement:set_ignore_obstacles(true)
+  travel_manager.movement:set_target(x_h, y_h)
+  travel_manager.movement:start(xy, function() 
+        travel_manager.movement:stop()
+  end)
 
 end
 
-function travel_manager:launch_step_2(map)
+function travel_manager:launch_step_3(map)
 
   local hero = map:get_hero()
   local map_id = positions_info[travel_manager.to_id]['map_id']
@@ -60,7 +86,7 @@ function travel_manager:launch_step_2(map)
 
 end
 
-function travel_manager:launch_step_3(map)
+function travel_manager:launch_step_4(map)
 
 end
 
