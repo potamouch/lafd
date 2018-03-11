@@ -34,6 +34,7 @@ function travel_manager:init(map, from_id)
   game:set_value(savegame, 1)
   travel_manager.from_id = from_id
   travel_manager.transporter = map:get_entity('travel_transporter')
+  travel_manager.transporter:set_enabled(false)
   local i = travel_manager.from_id + 1
   if i > 4 then
     i = 1
@@ -52,12 +53,13 @@ function travel_manager:launch_step_1(map)
 
   local game = map:get_game()
   local hero = map:get_hero()
-  local x_h,y_h = hero:get_position()
-  y_h = y_h - 16
-  local x_t,y_t = travel_manager.transporter:get_position()
-  local xy = { x = x_t, y = y_t }
+  local x_hero,y_hero = hero:get_position()
+  y_hero = y_hero - 16
+  local x_transporter,y_transporter = travel_manager.transporter:get_position()
+  local xy = { x = x_transporter, y = y_transporter }
   local direction4 = travel_manager.transporter:get_direction4_to(hero)
   local transporter_sprite = travel_manager.transporter:get_sprite()
+  travel_manager.transporter:set_enabled(true)
   game:set_pause_allowed(false)
   game:set_suspended(true)
   hero:freeze()
@@ -70,10 +72,16 @@ function travel_manager:launch_step_1(map)
   end
   travel_manager.movement:set_speed(60)
   travel_manager.movement:set_ignore_obstacles(true)
-  travel_manager.movement:set_target(x_h, y_h)
+  travel_manager.movement:set_target(x_hero, y_hero)
   travel_manager.movement:start(xy, function() 
         travel_manager.movement:stop()
+        travel_manager:launch_step_2(map)
   end)
+
+end
+
+function travel_manager:launch_step_2(map)
+
 
 end
 

@@ -12950,3 +12950,13 @@ custom_entity{
   sprite = "entities/phone_statue",
 }
 
+npc{
+  name = "travel_transporter",
+  layer = 2,
+  x = 768,
+  y = 53,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/owl",
+}
+
