@@ -47,6 +47,8 @@ local function initialize_dialog_box_features(game)
     box_dst_position = nil,      -- Destination coordinates of the dialog box.
     question_dst_position = nil, -- Destination coordinates of the question icon.
     icon_dst_position = nil,     -- Destination coordinates of the icon.
+    text_color = { 115, 59, 22 } -- Text color.
+
   }
 
   -- Constants.
@@ -69,6 +71,7 @@ local function initialize_dialog_box_features(game)
       vertical_alignment = "top",
       font = font,
       font_size = font_size,
+      color = dialog_box.text_color
     }
   end
   dialog_box.dialog_surface = sol.surface.create(sol.video.get_quest_size())
@@ -112,10 +115,10 @@ local function initialize_dialog_box_features(game)
   function dialog_box:set_style(style)
 
     dialog_box.style = style
-    if style == "box" then
-      -- Make the dialog box slightly transparent.
-      dialog_box.dialog_surface:set_opacity(216)
-    end
+    -- if style == "box" then
+    --   -- Make the dialog box slightly transparent.
+    --   dialog_box.dialog_surface:set_opacity(216)
+    -- end
   end
 
   -- Sets the vertical position of the dialog box for subsequent dialogs.
