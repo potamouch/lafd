@@ -92,7 +92,7 @@ function magic_bar_builder:new(game, config)
       -- Fix left and right borders.
       if magic_bar.magic_displayed == 0 then
         -- Fix darker pixels on the right border.
-        dst_surface:fill_color({ 0, 0, 0}, x + 1, y + 1, 1, 6)
+        dst_surface:fill_color({0, 0, 0}, x + 1, y + 1, 1, 6)
       end
       if magic_bar.magic_displayed == magic_bar.max_magic_displayed then
         -- Fix darker pixels on the right border.
