@@ -2,9 +2,9 @@ animation{
   name = "default",
   src_image = "entities/graveyard_tree.png",
   directions = {
-    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 0, origin_y = 64 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 40 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 40 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 40 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
   },
 }
