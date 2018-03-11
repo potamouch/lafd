@@ -900,12 +900,3 @@ tile{
   pattern = "ceiling.2",
 }
 
-separator{
-  name = "auto_separator_1",
-  layer = 2,
-  x = 312,
-  y = 0,
-  width = 16,
-  height = 256,
-}
-

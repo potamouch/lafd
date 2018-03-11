@@ -1,0 +1,9 @@
+animation{
+  name = "default",
+  src_image = "entities/instrument_big_sparkle.png",
+  frame_delay = 70,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 136, frame_height = 128, origin_x = 68, origin_y = 64, num_frames = 5 },
+  },
+}
