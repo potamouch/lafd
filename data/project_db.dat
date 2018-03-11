@@ -236,6 +236,7 @@ sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/fish_manbo", description = "Fish Manbo" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/graveyard_tree", description = "Graveyard tree" }
+sprite{ id = "entities/graveyard_tree_footer_brown", description = "Graveyard tree footer" }
 sprite{ id = "entities/green_cristal", description = "Green cristal" }
 sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake brown" }
 sprite{ id = "entities/hammer_stake_green", description = "Hammer stake green" }
