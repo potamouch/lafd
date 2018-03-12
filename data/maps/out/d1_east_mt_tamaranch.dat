@@ -6814,3 +6814,50 @@ sensor{
   height = 16,
 }
 
+custom_entity{
+  name = "house_dungeon_7",
+  layer = 0,
+  x = 776,
+  y = 13,
+  width = 24,
+  height = 16,
+  direction = 2,
+  sprite = "entities/house_dungeon_7",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "house_dungeon_8",
+  layer = 0,
+  x = 824,
+  y = 13,
+  width = 24,
+  height = 16,
+  direction = 0,
+  sprite = "entities/house_dungeon_7",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "house_dungeon_9",
+  layer = 0,
+  x = 808,
+  y = 13,
+  width = 24,
+  height = 72,
+  direction = 1,
+  sprite = "entities/house_dungeon_7",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "house_dungeon_10",
+  layer = 0,
+  x = 808,
+  y = 77,
+  width = 24,
+  height = 16,
+  direction = 3,
+  sprite = "entities/house_dungeon_7",
+}
+
