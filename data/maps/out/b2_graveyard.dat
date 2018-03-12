@@ -2731,64 +2731,10 @@ tile{
 tile{
   layer = 0,
   x = 608,
-  y = 96,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 608,
-  y = 136,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = 608,
   y = 80,
   width = 48,
   height = 16,
   pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 600,
-  y = 96,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 96,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 696,
-  y = 32,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 696,
-  y = 72,
-  width = 48,
-  height = 8,
-  pattern = "2203",
 }
 
 tile{
@@ -2802,128 +2748,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 688,
-  y = 32,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 32,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = 80,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = 120,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
   x = 768,
   y = 64,
   width = 48,
   height = 16,
   pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 760,
-  y = 80,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 80,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 128,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 168,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 112,
-  width = 48,
-  height = 16,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 128,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 128,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 232,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 272,
-  width = 48,
-  height = 8,
-  pattern = "2203",
 }
 
 tile{
@@ -2937,65 +2766,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
-  y = 232,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 232,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 224,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 264,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
   x = 632,
   y = 208,
   width = 48,
   height = 16,
   pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 624,
-  y = 224,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 224,
-  width = 8,
-  height = 40,
-  pattern = "2205",
 }
 
 tile{
@@ -3855,24 +3630,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 736,
-  y = 544,
-  width = 32,
-  height = 32,
-  pattern = "1084",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 544,
-  width = 32,
-  height = 32,
-  pattern = "1501",
-}
-
-tile{
-  layer = 0,
   x = 528,
   y = 568,
   width = 32,
@@ -4310,141 +4067,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "6117",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 456,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 496,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 440,
-  width = 48,
-  height = 16,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 456,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 728,
-  y = 456,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 504,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 544,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 488,
-  width = 48,
-  height = 16,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 696,
-  y = 504,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 504,
-  width = 8,
-  height = 40,
-  pattern = "2205",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 552,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 592,
-  width = 48,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 536,
-  width = 48,
-  height = 16,
-  pattern = "12842",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 552,
-  width = 8,
-  height = 40,
-  pattern = "2204",
-}
-
-tile{
-  layer = 0,
-  x = 728,
-  y = 552,
-  width = 8,
-  height = 40,
-  pattern = "2205",
 }
 
 tile{
@@ -15096,24 +14718,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 592,
-  y = 24,
-  width = 32,
-  height = 32,
-  pattern = "110",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 312,
-  width = 32,
-  height = 32,
-  pattern = "110",
-}
-
-tile{
-  layer = 0,
   x = 656,
   y = 56,
   width = 8,
@@ -16329,15 +15933,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 680,
-  y = 208,
-  width = 32,
-  height = 32,
-  pattern = "110",
-}
-
-tile{
-  layer = 0,
   x = 600,
   y = 56,
   width = 16,
@@ -16824,7 +16419,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 816,
+  x = 824,
   y = 272,
   width = 32,
   height = 32,
@@ -18343,9 +17938,45 @@ tile{
   pattern = "124",
 }
 
-destructible{
+tile{
   layer = 0,
   x = 664,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "122",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "907",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 216,
+  width = 32,
+  height = 32,
+  pattern = "110",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 312,
+  width = 32,
+  height = 32,
+  pattern = "110",
+}
+
+destructible{
+  layer = 0,
+  x = 704,
   y = 461,
   treasure_name = "random",
   sprite = "entities/grass",
@@ -21659,7 +21290,7 @@ pickable{
 custom_entity{
   layer = 0,
   x = 296,
-  y = 485,
+  y = 477,
   width = 48,
   height = 16,
   direction = 1,
@@ -21675,27 +21306,69 @@ custom_entity{
   height = 8,
   direction = 3,
   sprite = "entities/graveyard_tree_footer_brown",
-}
-
-custom_entity{
-  layer = 0,
-  x = 320,
-  y = 493,
-  width = 8,
-  height = 16,
-  direction = 0,
-  sprite = "entities/palm_footer_brown",
+  model = "obstacle",
 }
 
 custom_entity{
   layer = 0,
   x = 392,
-  y = 485,
+  y = 477,
   width = 48,
   height = 16,
   direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 640,
+  y = 277,
+  width = 48,
+  height = 8,
+  direction = 3,
   sprite = "entities/graveyard_tree_footer_brown",
   model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 477,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 477,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 288,
+  y = 477,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 384,
+  y = 477,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
 }
 
 custom_entity{
@@ -21705,7 +21378,415 @@ custom_entity{
   width = 48,
   height = 8,
   direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 384,
+  y = 485,
+  width = 48,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree_footer_green",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 485,
+  width = 48,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree_footer_green",
+}
+
+custom_entity{
+  layer = 0,
+  x = 288,
+  y = 485,
+  width = 16,
+  height = 16,
+  direction = 2,
   sprite = "entities/graveyard_tree_footer_brown",
+}
+
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 485,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/graveyard_tree_footer_brown",
+}
+
+custom_entity{
+  layer = 0,
+  x = 696,
+  y = 589,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 704,
+  y = 541,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 688,
+  y = 493,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 688,
+  y = 469,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 704,
+  y = 517,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 696,
+  y = 565,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 688,
+  y = 565,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 696,
+  y = 517,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 680,
+  y = 469,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 736,
+  y = 469,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 752,
+  y = 517,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 744,
+  y = 565,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 792,
+  y = 285,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 792,
+  y = 261,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 784,
+  y = 261,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 840,
+  y = 261,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 616,
+  y = 149,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 616,
+  y = 125,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 608,
+  y = 125,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 664,
+  y = 125,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 704,
+  y = 85,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 704,
+  y = 61,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 696,
+  y = 61,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 752,
+  y = 61,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 776,
+  y = 133,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 776,
+  y = 109,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_green",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 768,
+  y = 109,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 824,
+  y = 109,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 752,
+  y = 157,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_brown",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 640,
+  y = 253,
+  width = 48,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree_footer_brown",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 752,
+  y = 181,
+  width = 48,
+  height = 8,
+  direction = 3,
+  sprite = "entities/graveyard_tree_footer_brown",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 632,
+  y = 253,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 688,
+  y = 253,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 744,
+  y = 157,
+  width = 8,
+  height = 8,
+  direction = 2,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 0,
+  x = 800,
+  y = 157,
+  width = 8,
+  height = 8,
+  direction = 0,
+  sprite = "entities/graveyard_tree",
 }
 
 tile{
@@ -21715,15 +21796,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "124",
-}
-
-tile{
-  layer = 1,
-  x = 664,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "122",
 }
 
 tile{
@@ -23195,258 +23267,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 608,
-  y = 120,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 608,
-  y = 64,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 656,
-  y = 72,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 608,
-  y = 72,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 600,
-  y = 72,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 696,
-  y = 56,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 696,
-  y = 0,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 744,
-  y = 8,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 696,
-  y = 8,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 688,
-  y = 8,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 768,
-  y = 104,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 768,
-  y = 48,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 816,
-  y = 56,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 768,
-  y = 56,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 760,
-  y = 56,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 744,
-  y = 96,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 792,
-  y = 104,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 744,
-  y = 104,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 736,
-  y = 104,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 784,
-  y = 256,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 784,
-  y = 200,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 832,
-  y = 208,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 784,
-  y = 208,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 776,
-  y = 208,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 632,
-  y = 248,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 632,
-  y = 192,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 632,
-  y = 200,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 624,
-  y = 200,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
   x = 648,
   y = 344,
   width = 96,
@@ -24032,141 +23852,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 680,
-  y = 480,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 680,
-  y = 424,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 728,
-  y = 432,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 680,
-  y = 432,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 672,
-  y = 432,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 704,
-  y = 528,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 704,
-  y = 472,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 752,
-  y = 480,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 704,
-  y = 480,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 696,
-  y = 480,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
-  x = 680,
-  y = 576,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 680,
-  y = 520,
-  width = 48,
-  height = 8,
-  pattern = "4559",
-}
-
-tile{
-  layer = 1,
-  x = 728,
-  y = 528,
-  width = 8,
-  height = 48,
-  pattern = "4558",
-}
-
-tile{
-  layer = 1,
-  x = 680,
-  y = 528,
-  width = 48,
-  height = 48,
-  pattern = "4592",
-}
-
-tile{
-  layer = 1,
-  x = 672,
-  y = 528,
-  width = 8,
-  height = 48,
-  pattern = "4556",
-}
-
-tile{
-  layer = 1,
   x = -8,
   y = 720,
   width = 384,
@@ -24379,24 +24064,6 @@ tile{
   width = 96,
   height = 48,
   pattern = "1455",
-}
-
-tile{
-  layer = 1,
-  x = 744,
-  y = 152,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
-  x = 680,
-  y = 200,
-  width = 8,
-  height = 48,
-  pattern = "4558",
 }
 
 tile{
@@ -24629,28 +24296,8 @@ custom_entity{
   layer = 1,
   x = 288,
   y = 445,
-  width = 8,
-  height = 40,
-  direction = 2,
-  sprite = "entities/graveyard_tree",
-}
-
-custom_entity{
-  layer = 1,
-  x = 344,
-  y = 445,
-  width = 8,
-  height = 40,
-  direction = 0,
-  sprite = "entities/graveyard_tree",
-}
-
-custom_entity{
-  layer = 1,
-  x = 296,
-  y = 445,
-  width = 48,
-  height = 40,
+  width = 64,
+  height = 32,
   direction = 3,
   sprite = "entities/graveyard_tree",
 }
@@ -24669,29 +24316,189 @@ custom_entity{
   layer = 1,
   x = 384,
   y = 445,
-  width = 8,
-  height = 40,
-  direction = 2,
-  sprite = "entities/graveyard_tree",
-}
-
-custom_entity{
-  layer = 1,
-  x = 440,
-  y = 445,
-  width = 8,
-  height = 40,
-  direction = 0,
-  sprite = "entities/graveyard_tree",
-}
-
-custom_entity{
-  layer = 1,
-  x = 392,
-  y = 445,
-  width = 48,
-  height = 40,
+  width = 64,
+  height = 32,
   direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 688,
+  y = 533,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 696,
+  y = 485,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 680,
+  y = 437,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 680,
+  y = 421,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 696,
+  y = 469,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 688,
+  y = 517,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 784,
+  y = 229,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 784,
+  y = 213,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 608,
+  y = 93,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 608,
+  y = 77,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 696,
+  y = 29,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 696,
+  y = 13,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 768,
+  y = 77,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 768,
+  y = 61,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 632,
+  y = 221,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 744,
+  y = 125,
+  width = 64,
+  height = 32,
+  direction = 3,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 632,
+  y = 205,
+  width = 64,
+  height = 16,
+  direction = 1,
+  sprite = "entities/graveyard_tree",
+}
+
+custom_entity{
+  layer = 1,
+  x = 744,
+  y = 109,
+  width = 64,
+  height = 16,
+  direction = 1,
   sprite = "entities/graveyard_tree",
 }
 

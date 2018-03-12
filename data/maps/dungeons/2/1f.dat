@@ -9381,24 +9381,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1392,
-  y = 1344,
-  width = 32,
-  height = 32,
-  pattern = "statue_eye-2",
-}
-
-tile{
-  layer = 0,
-  x = 1456,
-  y = 1344,
-  width = 32,
-  height = 32,
-  pattern = "statue_eye-2",
-}
-
-tile{
-  layer = 0,
   x = 1320,
   y = 1720,
   width = 32,
@@ -19337,6 +19319,30 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
+}
+
+custom_entity{
+  name = "statue_genius",
+  layer = 0,
+  x = 1400,
+  y = 1349,
+  width = 32,
+  height = 48,
+  direction = 0,
+  sprite = "entities/statue_genius",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "statue_genius_2",
+  layer = 0,
+  x = 1464,
+  y = 1349,
+  width = 32,
+  height = 48,
+  direction = 2,
+  sprite = "entities/statue_genius",
+  model = "obstacle",
 }
 
 tile{
