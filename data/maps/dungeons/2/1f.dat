@@ -15661,7 +15661,7 @@ enemy{
 crystal{
   layer = 0,
   x = 1440,
-  y = 1413,
+  y = 1421,
 }
 
 enemy{
@@ -19322,26 +19322,24 @@ npc{
 }
 
 custom_entity{
-  name = "statue_genius",
   layer = 0,
   x = 1400,
-  y = 1349,
+  y = 1373,
   width = 32,
-  height = 48,
+  height = 32,
   direction = 0,
-  sprite = "entities/statue_genius",
+  sprite = "entities/statue_dungeon_2",
   model = "obstacle",
 }
 
 custom_entity{
-  name = "statue_genius_2",
   layer = 0,
   x = 1464,
-  y = 1349,
+  y = 1373,
   width = 32,
-  height = 48,
-  direction = 2,
-  sprite = "entities/statue_genius",
+  height = 32,
+  direction = 0,
+  sprite = "entities/statue_dungeon_2",
   model = "obstacle",
 }
 
@@ -20061,6 +20059,26 @@ custom_entity{
   direction = 0,
   sprite = "entities/heart_fly",
   model = "heart_fly",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1400,
+  y = 1357,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_dungeon_2_head",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1464,
+  y = 1357,
+  width = 32,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_dungeon_2_head",
 }
 
 tile{

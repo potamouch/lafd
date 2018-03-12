@@ -296,6 +296,7 @@ sprite{ id = "entities/statue_big_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
 sprite{ id = "entities/statue_dungeon_2", description = "Statue dungeon 2" }
+sprite{ id = "entities/statue_dungeon_2_head", description = "Statue dungeon 2 head" }
 sprite{ id = "entities/statue_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_3_block", description = "Statue dungeon 3 block" }
 sprite{ id = "entities/statue_dungeon_3_key", description = "Statue dungeon 3 key" }
