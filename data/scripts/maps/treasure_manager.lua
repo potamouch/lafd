@@ -173,10 +173,33 @@ function treasure_manager:play_instrument(map)
 
      local game = map:get_game()
      local hero = map:get_entity("hero")
+     local x_hero,y_hero, layer_hero = hero:get_position()
      local dungeon = game:get_dungeon_index()
      local opacity = 0
      local dungeon_infos = game:get_dungeon()
+    local notes = map:create_custom_entity{
+      x = x_hero,
+      y = y_hero - 24,
+      layer = layer_hero,
+      width = 24,
+      height = 32,
+      direction = 0,
+      sprite = "entities/notes"
+    }
      sol.audio.play_sound("instruments/instrument_" .. dungeon)
+      sol.timer.start(5000, function()
+       notes:remove()
+       local effect_entity = map:create_custom_entity({
+          name = "effect",
+          sprite = "entities/instrument_big_sparkle",
+          x = x_hero,
+          y = y_hero - 24,
+          width = 16,
+          height = 16,
+          layer = layer_hero,
+          direction = 0
+        })
+      end)
       sol.timer.start(8000, function()
         local white_surface =  sol.surface.create(320, 256)
         white_surface:fill_color({255, 255, 255})
