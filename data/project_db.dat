@@ -236,8 +236,8 @@ sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/fish_manbo", description = "Fish Manbo" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/graveyard_tree", description = "Graveyard tree" }
-sprite{ id = "entities/graveyard_tree_footer_brown", description = "Graveyard tree footer" }
-sprite{ id = "entities/graveyard_tree_footer_green", description = "entities/graveyard_tree_footer_green" }
+sprite{ id = "entities/graveyard_tree_footer_brown", description = "Graveyard tree footer brown" }
+sprite{ id = "entities/graveyard_tree_footer_green", description = "Graveyard tree footer green" }
 sprite{ id = "entities/green_cristal", description = "Green cristal" }
 sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake brown" }
 sprite{ id = "entities/hammer_stake_green", description = "Hammer stake green" }
@@ -295,13 +295,13 @@ sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/statue_big_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
+sprite{ id = "entities/statue_dungeon_2", description = "Statue dungeon 2" }
 sprite{ id = "entities/statue_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_3_block", description = "Statue dungeon 3 block" }
 sprite{ id = "entities/statue_dungeon_3_key", description = "Statue dungeon 3 key" }
 sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
 sprite{ id = "entities/statue_dungeon_6_head", description = "Statue dungeon 6 head" }
 sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
-sprite{ id = "entities/statue_genius", description = "Statue genius" }
 sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
 sprite{ id = "entities/statue_pig", description = "Statue pig" }
 sprite{ id = "entities/statue_small", description = "Statue small" }
