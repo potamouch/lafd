@@ -34,7 +34,7 @@ function entity:on_created()
   sprite:set_animation("normal")
   sprite_shadow:set_animation("normal")
 
-entity:add_collision_test("touching", function(heart, entity)
+entity:add_collision_test("center", function(heart, entity)
   if entity :get_type()== "hero" then
     local item = game:get_item("feather")
     if item:is_jumping() then

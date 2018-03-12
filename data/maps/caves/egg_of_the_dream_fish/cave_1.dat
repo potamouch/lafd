@@ -2089,6 +2089,18 @@ tile{
   pattern = "door_stairs.spiral_down.1",
 }
 
+custom_entity{
+  name = "cave_hole_30",
+  layer = 0,
+  x = 448,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
 block{
   name = "auto_block_1",
   layer = 0,
@@ -2487,105 +2499,6 @@ custom_entity{
   sprite = "entities/cave_bones",
 }
 
-custom_entity{
-  name = "cave_hole",
-  layer = 0,
-  x = 416,
-  y = 85,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_2",
-  layer = 0,
-  x = 432,
-  y = 85,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_3",
-  layer = 0,
-  x = 448,
-  y = 85,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_4",
-  layer = 0,
-  x = 464,
-  y = 85,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_5",
-  layer = 0,
-  x = 480,
-  y = 85,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_6",
-  layer = 0,
-  x = 464,
-  y = 101,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_7",
-  layer = 0,
-  x = 464,
-  y = 117,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_8",
-  layer = 0,
-  x = 448,
-  y = 117,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_9",
-  layer = 0,
-  x = 432,
-  y = 117,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
 enemy{
   name = "enemy_group_1_1",
   layer = 0,
@@ -2597,83 +2510,6 @@ enemy{
 }
 
 custom_entity{
-  name = "cave_hole_10",
-  layer = 0,
-  x = 416,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_11",
-  layer = 0,
-  x = 432,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_12",
-  layer = 0,
-  x = 480,
-  y = 149,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_13",
-  layer = 0,
-  x = 496,
-  y = 149,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_14",
-  layer = 0,
-  x = 496,
-  y = 165,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_15",
-  layer = 0,
-  x = 512,
-  y = 165,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_16",
-  layer = 0,
-  x = 528,
-  y = 165,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
   name = "cave_hole_17",
   layer = 0,
   x = 496,
@@ -2682,50 +2518,7 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_18",
-  layer = 0,
-  x = 512,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_19",
-  layer = 0,
-  x = 528,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_20",
-  layer = 0,
-  x = 544,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
-}
-
-custom_entity{
-  name = "cave_hole_21",
-  layer = 0,
-  x = 560,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
 }
 
 custom_entity{
@@ -2893,7 +2686,127 @@ custom_entity{
 }
 
 custom_entity{
+  name = "cave_hole_18",
+  layer = 0,
+  x = 416,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_19",
+  layer = 0,
+  x = 432,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_20",
+  layer = 0,
+  x = 512,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_21",
+  layer = 0,
+  x = 512,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
   name = "cave_hole_23",
+  layer = 0,
+  x = 496,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_24",
+  layer = 0,
+  x = 496,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_25",
+  layer = 0,
+  x = 480,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_26",
+  layer = 0,
+  x = 464,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_27",
+  layer = 0,
+  x = 448,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_28",
+  layer = 0,
+  x = 432,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_29",
   layer = 0,
   x = 448,
   y = 101,
@@ -2901,6 +2814,115 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_31",
+  layer = 0,
+  x = 432,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_32",
+  layer = 0,
+  x = 416,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_33",
+  layer = 0,
+  x = 464,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_34",
+  layer = 0,
+  x = 480,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_35",
+  layer = 0,
+  x = 464,
+  y = 101,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_36",
+  layer = 0,
+  x = 528,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_37",
+  layer = 0,
+  x = 528,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_38",
+  layer = 0,
+  x = 544,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
+}
+
+custom_entity{
+  name = "cave_hole_39",
+  layer = 0,
+  x = 560,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_hole",
+  model = "collapsing_soil",
 }
 
 tile{

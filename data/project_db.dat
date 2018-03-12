@@ -565,6 +565,7 @@ sound{ id = "explosion", description = "Explosion" }
 sound{ id = "fairy_heal", description = "fairy_heal" }
 sound{ id = "fairy_vanish", description = "fairy_vanish" }
 sound{ id = "flame", description = "flame" }
+sound{ id = "ground_grumble", description = "Ground grumble" }
 sound{ id = "hammer", description = "Hammer" }
 sound{ id = "heart", description = "Heart" }
 sound{ id = "heart_container", description = "Heart container" }
@@ -762,6 +763,7 @@ entity{ id = "bird", description = "Bird" }
 entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "bowwow_follow", description = "Bowwow follow" }
 entity{ id = "butterfly", description = "Butterfly" }
+entity{ id = "collapsing_soil", description = "Collapsing soil" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }
