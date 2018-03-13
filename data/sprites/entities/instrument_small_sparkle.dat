@@ -3,7 +3,7 @@ animation{
   src_image = "entities/instrument_small_sparkle.png",
   frame_delay = 70,
   directions = {
-    { x = 0, y = 0, frame_width = 80, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 32, origin_x = 40, origin_y = 29, num_frames = 7 },
     { x = 0, y = 0, frame_width = 80, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 7 },
     { x = 0, y = 0, frame_width = 80, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 7 },
     { x = 0, y = 0, frame_width = 80, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 7 },

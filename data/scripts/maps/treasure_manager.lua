@@ -140,6 +140,16 @@ function treasure_manager:get_instrument(map, dungeon)
   local timer
   hero:freeze()
   hero:set_animation("brandish")
+ local effect_entity = map:create_custom_entity({
+    name = "effect",
+    sprite = "entities/instrument_small_sparkle",
+    x = x_hero,
+    y = y_hero - 24,
+    width = 16,
+    height = 16,
+    layer = layer_hero,
+    direction = 0
+  })
   local instrument_entity = map:create_custom_entity({
       name = "brandish_sword",
       sprite = "entities/items",
@@ -159,6 +169,7 @@ function treasure_manager:get_instrument(map, dungeon)
   end)
   timer:set_suspended_with_map(false)
   sol.timer.start(2000, function()
+      effect_entity:remove()
       game:start_dialog("_treasure.instrument_" .. dungeon ..".1", function()
         local remaining_time = timer:get_remaining_time()
         timer:stop()
@@ -177,7 +188,16 @@ function treasure_manager:play_instrument(map)
      local dungeon = game:get_dungeon_index()
      local opacity = 0
      local dungeon_infos = game:get_dungeon()
-    local notes = map:create_custom_entity{
+     local notes1 = map:create_custom_entity{
+      x = x_hero,
+      y = y_hero - 24,
+      layer = layer_hero,
+      width = 24,
+      height = 32,
+      direction = 2,
+      sprite = "entities/notes"
+    }
+     local notes2 = map:create_custom_entity{
       x = x_hero,
       y = y_hero - 24,
       layer = layer_hero,
@@ -188,7 +208,8 @@ function treasure_manager:play_instrument(map)
     }
      sol.audio.play_sound("instruments/instrument_" .. dungeon)
       sol.timer.start(5000, function()
-       notes:remove()
+       notes1:remove()
+       notes2:remove()
        local effect_entity = map:create_custom_entity({
           name = "effect",
           sprite = "entities/instrument_big_sparkle",
