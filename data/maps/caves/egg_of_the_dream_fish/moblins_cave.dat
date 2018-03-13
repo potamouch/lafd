@@ -2637,15 +2637,6 @@ wall{
 }
 
 enemy{
-  name = "enemy_group_3_1",
-  layer = 0,
-  x = 480,
-  y = 133,
-  direction = 2,
-  breed = "boss/moblin_chief",
-}
-
-enemy{
   name = "enemy_group_1_1",
   layer = 0,
   x = 160,
@@ -2948,6 +2939,26 @@ custom_entity{
   direction = 0,
   sprite = "entities/moblin_throne",
   model = "obstacle",
+}
+
+custom_entity{
+  name = "moblin_carpet",
+  layer = 0,
+  x = 416,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/moblin_carpet",
+}
+
+enemy{
+  name = "enemy_group_3_1",
+  layer = 0,
+  x = 480,
+  y = 133,
+  direction = 2,
+  breed = "boss/moblin_chief",
 }
 
 tile{
