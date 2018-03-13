@@ -317,7 +317,7 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 272, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
+    { x = 272, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
     { x = 400, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
@@ -327,7 +327,7 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 272, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
+    { x = 272, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
     { x = 432, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
@@ -337,7 +337,7 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 272, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
+    { x = 272, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
     { x = 448, y = 144, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
@@ -347,8 +347,8 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 272, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
-    { x = 464, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 272, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
+    { x = 272, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -357,7 +357,7 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
+    { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 13 },
     { x = 272, y = 176, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }

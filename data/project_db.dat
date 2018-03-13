@@ -250,6 +250,7 @@ sprite{ id = "entities/hook", description = "Hook" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/house_dungeon_7", description = "House dungeon 7" }
 sprite{ id = "entities/instrument_big_sparkle", description = "Instrument big sparkle" }
+sprite{ id = "entities/instrument_small_sparkle", description = "Instrument small sparkle" }
 sprite{ id = "entities/iron_ball", description = "Iron ball" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/keyhole_dungeon_7", description = "Keyhole dungeon 7" }
