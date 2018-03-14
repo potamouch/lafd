@@ -23547,6 +23547,17 @@ sensor{
   height = 16,
 }
 
+custom_entity{
+  layer = 0,
+  x = 800,
+  y = 253,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/statue_pig",
+  model = "statue_pig",
+}
+
 tile{
   layer = 1,
   x = 696,
@@ -25928,17 +25939,6 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/phone_statue",
-}
-
-custom_entity{
-  layer = 1,
-  x = 800,
-  y = 253,
-  width = 48,
-  height = 48,
-  direction = 0,
-  sprite = "entities/statue_pig",
-  model = "statue_pig",
 }
 
 npc{
