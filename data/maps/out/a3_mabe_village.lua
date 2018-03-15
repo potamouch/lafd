@@ -10,6 +10,7 @@ local ball_is_launch = false
 local companion_manager = require("scripts/maps/companion_manager")
 local hero_is_alerted = false
 local notes = nil
+local notes2 = nil
 
 -- Methods - Functions
 
@@ -37,6 +38,15 @@ function map:marine_sing()
     width = 24,
     height = 32,
     direction = 0,
+    sprite = "entities/notes"
+  }
+  notes2 = map:create_custom_entity{
+    x = x,
+    y = y - 16,
+    layer = layer + 1,
+    width = 24,
+    height = 32,
+    direction = 2,
     sprite = "entities/notes"
   }
   marine:get_sprite():set_animation("singing")
@@ -318,6 +328,9 @@ function marine_sensor_1:on_activated()
     map:set_music()
     if notes ~= nil then
       notes:remove()
+    end
+    if notes2 ~= nil then
+      notes2:remove()
     end
 
 end

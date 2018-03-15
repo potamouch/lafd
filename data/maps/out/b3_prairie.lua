@@ -32,6 +32,10 @@ function map:on_started(destination)
   map:set_digging_allowed(true)
   companion_manager:init_map(map)
   travel_manager:init(map, 1)
+  -- Statue pig
+  if game:get_value("statue_pig_exploded") then
+    statue_pig:remove()
+  end
   dungeon_3_entrance:set_can_traverse("hero", false)
   if game:get_value("main_quest_step") > 16 then
     map:open_dungeon_3()
