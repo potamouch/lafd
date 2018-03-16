@@ -90,6 +90,9 @@ function map:monkey_build_bridge()
         movement:start(monkey_entity)
         function movement:on_finished()
           num_monkeys_arrived = num_monkeys_arrived + 1
+          if i == 10 then
+            monkey_entity:remove()
+          end
           if num_monkeys_arrived == 9 then
                 sol.timer.start(monkey, 9000, function()
                   bridge:set_enabled(true)
