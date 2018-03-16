@@ -641,7 +641,6 @@ npc{
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#maps.houses.phone_booth.0",
 }
 
 destructible{
