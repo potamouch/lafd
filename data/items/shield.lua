@@ -129,6 +129,7 @@ function item:create_shield()
   -- Create sprites.
   local variant = item:get_variant()
   local sprite_shield = shield:create_sprite("hero/shield"..variant)
+  sprite_shield:set_direction(hdir)
   
   -- Redefine functions to draw "shield".
   shield:set_drawn_in_y_order(true)

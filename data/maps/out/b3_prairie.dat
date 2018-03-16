@@ -19278,7 +19278,7 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/statue_small_key_dungeon_3",
-  model = "mr_write",
+  model = "obstacle",
 }
 
 custom_entity{

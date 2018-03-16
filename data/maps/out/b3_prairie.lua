@@ -51,7 +51,6 @@ end
 
 function dungeon_3_lock:on_interaction()
 
-print(game:get_value("main_quest_step") )
       if game:get_value("main_quest_step") < 16 then
           game:start_dialog("maps.out.prairie.dungeon_3_lock")
       elseif game:get_value("main_quest_step") == 16 then

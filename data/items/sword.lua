@@ -5,8 +5,10 @@ local game = item:get_game()
 function item:on_created()
 
   self:set_savegame_variable("possession_sword")
-  item:set_brandish_when_picked(false)
+  self:set_brandish_when_picked(false)
   self:set_sound_when_brandished("treasure_sword")
+  self:set_shadow(nil)
+  
 
 end
 

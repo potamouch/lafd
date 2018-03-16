@@ -65,6 +65,7 @@ function map:talk_to_small_bowwow_2()
         if answer == 1 then
             sol.audio.play_sound("bowwow")
             game:start_dialog("maps.houses.mabe_village.meow_meow_house.small_bowwow_2_4", function()
+              small_bowwow_2:get_sprite():set_animation("ruban")
               hero:start_treasure("magnifying_lens", 3, "magnifying_lens_3")
               end)
         else
@@ -92,6 +93,7 @@ end
 function map:set_animation_small_bowwow(entity)
 
   -- Random diagonal direction.
+  local item = game:get_item("magnifying_lens")
   local sprite = entity:get_sprite()
   local rand4 = math.random(4)
   local direction8 = rand4 * 2 - 1
@@ -103,21 +105,25 @@ function map:set_animation_small_bowwow(entity)
   m:start(entity)
   sprite:set_direction(rand4 - 1)
   sol.timer.stop_all(entity)
-  sol.timer.start(entity, 300 + math.random(1500), function()
-  end)
-
 end
 
 -- Events
 
 function map:on_started(destination)
 
+   local item = game:get_item("magnifying_lens")
   -- Digging
   map:set_digging_allowed(true)
-
   map:set_music()
   map:launch_small_bowwow()
   map:repeat_meow_meow_direction_check()
+  if game:get_value("main_quest_step") == 8 or game:get_value("main_quest_step") == 9 then
+    meow_meow:get_sprite():set_animation("panicked")
+  end
+  if item:get_variant() > 2 then
+    small_bowwow_2:get_sprite():set_animation("ruban")
+  end
+
 
 end
 

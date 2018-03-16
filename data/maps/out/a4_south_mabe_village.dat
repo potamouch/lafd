@@ -10097,7 +10097,7 @@ sensor{
   name = "owl_1_sensor",
   layer = 0,
   x = 576,
-  y = 701,
+  y = 717,
   width = 64,
   height = 48,
 }
@@ -10106,7 +10106,7 @@ pickable{
   name = "sword",
   layer = 0,
   x = 600,
-  y = 733,
+  y = 749,
   treasure_name = "sword",
   treasure_savegame_variable = "step_2_link_found_sword",
 }
@@ -12713,8 +12713,8 @@ custom_entity{
 sensor{
   name = "owl_1_position",
   layer = 2,
-  x = 696,
-  y = 509,
+  x = 592,
+  y = 445,
   width = 16,
   height = 16,
 }
@@ -12722,8 +12722,8 @@ sensor{
 npc{
   name = "owl_1",
   layer = 2,
-  x = 696,
-  y = 509,
+  x = 592,
+  y = 445,
   direction = 3,
   subtype = 0,
   sprite = "npc/owl",

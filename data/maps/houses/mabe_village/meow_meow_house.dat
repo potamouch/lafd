@@ -318,16 +318,16 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
+  x = 152,
   y = 72,
-  width = 48,
+  width = 32,
   height = 8,
   pattern = "table.2",
 }
 
 tile{
   layer = 0,
-  x = 192,
+  x = 184,
   y = 80,
   width = 8,
   height = 16,
@@ -336,7 +336,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
+  x = 184,
   y = 72,
   width = 8,
   height = 8,
@@ -345,9 +345,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
+  x = 152,
   y = 96,
-  width = 48,
+  width = 32,
   height = 8,
   pattern = "table.8",
 }
@@ -363,7 +363,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 152,
   y = 80,
   width = 32,
   height = 16,
@@ -372,38 +372,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
+  x = 184,
   y = 96,
   width = 8,
   height = 8,
   pattern = "table.9",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 104,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 104,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 80,
-  width = 32,
-  height = 16,
-  pattern = "table.5",
 }
 
 tile{
@@ -518,15 +491,6 @@ tile{
   layer = 0,
   x = 96,
   y = 168,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 80,
   width = 16,
   height = 16,
   pattern = "seat.1",
@@ -685,13 +649,40 @@ tile{
   pattern = "floor_low.5-1",
 }
 
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
 npc{
   name = "small_bowwow_2",
   layer = 0,
   x = 352,
-  y = 157,
-  direction = 3,
-  subtype = 1,
+  y = 141,
+  direction = -1,
+  subtype = 0,
   sprite = "npc/small_bowwow",
 }
 
@@ -746,7 +737,7 @@ destination{
 npc{
   name = "meow_meow",
   layer = 0,
-  x = 112,
+  x = 104,
   y = 101,
   direction = 3,
   subtype = 1,
