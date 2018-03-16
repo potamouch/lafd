@@ -343,6 +343,9 @@ function marine_sensor_2:on_activated()
     if notes ~= nil then
       notes:remove()
     end
+    if notes2 ~= nil then
+      notes2:remove()
+    end
 
 end
 
