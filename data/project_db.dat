@@ -120,11 +120,11 @@ tileset{ id = "dungeons/light_yellow", description = "Light yellow" }
 tileset{ id = "dungeons/pink", description = "Pink" }
 tileset{ id = "dungeons/purple", description = "Purple" }
 tileset{ id = "dungeons/purple_blue", description = "Purple blue" }
-tileset{ id = "dungeons/sideview", description = "Sideview" }
 tileset{ id = "dungeons/yellow", description = "Yellow" }
 tileset{ id = "movies/beach", description = "Beach" }
 tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
 tileset{ id = "out/outside", description = "Outside" }
+tileset{ id = "sideview/sideview", description = "Side view tileset" }
 
 sprite{ id = "enemies/arm_mimic", description = "Arm mimic" }
 sprite{ id = "enemies/arrow", description = "Arrow" }
