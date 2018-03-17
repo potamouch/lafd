@@ -15,21 +15,22 @@ function entity:on_created()
       local stones = map:create_custom_entity({
         name = "statue_pig_destroyed",
         sprite = "entities/statue_pig_destroyed",
-        x = x,
-        y = y,
-        width = 48,
-        height = 48,
+        x = x - 16,
+        y = y - 16,
+        width = 80,
+        height = 80,
         layer = layer,
         direction = 0
       })
       local sprites_stones = stones:get_sprite()
       function sprites_stones:on_animation_finished(animation)
         if animation == "destroyed" then
-          stones:get_sprite():set_animation("stopped")
+          print("ok")
+          entity:remove()
+          stones:remove()
           game:set_value("statue_pig_exploded", true)
         end
       end
-      self:remove()
     end
 
   end)

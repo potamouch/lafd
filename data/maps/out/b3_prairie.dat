@@ -18991,6 +18991,17 @@ tile{
   pattern = "1201",
 }
 
+custom_entity{
+  name = "statue_pig_destroyed",
+  layer = 0,
+  x = 784,
+  y = 237,
+  width = 80,
+  height = 80,
+  direction = 0,
+  sprite = "entities/statue_pig_destroyed",
+}
+
 destructible{
   layer = 0,
   x = 264,
