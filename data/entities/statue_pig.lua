@@ -22,12 +22,14 @@ function entity:on_created()
         layer = layer,
         direction = 0
       })
-      stones:get_sprite():on_animation_finished(animation)
+      local sprites_stones = stones:get_sprite()
+      function sprites_stones:on_animation_finished(animation)
         if animation == "destroyed" then
           stones:get_sprite():set_animation("stopped")
           game:set_value("statue_pig_exploded", true)
         end
-        self:remove()
+      end
+      self:remove()
     end
 
   end)
