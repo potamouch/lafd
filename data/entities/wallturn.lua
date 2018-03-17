@@ -38,14 +38,11 @@ function entity:on_created()
           local movement = sol.movement.create("path")
           movement:set_path{2,2,2,2,2,2,2,2}
           movement:set_ignore_obstacles(true)
-          movement:start(hero)
-          function movement:on_finished()
+          movement:start(hero, function()
             movement:stop()
             entity:set_traversable_by(false)
-            hero:freeze()
-            hero:unfreeze()
             animation_launch = false
-          end
+          end)
         end
         end
     end

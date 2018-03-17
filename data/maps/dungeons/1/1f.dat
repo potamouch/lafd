@@ -13491,7 +13491,7 @@ enemy{
 enemy{
   name = "enemy_group_9_1",
   layer = 0,
-  x = 1488,
+  x = 1544,
   y = 1229,
   direction = 0,
   breed = "keese",
@@ -13501,8 +13501,8 @@ enemy{
 enemy{
   name = "enemy_group_9_3",
   layer = 0,
-  x = 1464,
-  y = 1181,
+  x = 1496,
+  y = 1141,
   direction = 3,
   breed = "stalfos_red",
   treasure_name = "random",
@@ -13945,18 +13945,6 @@ sensor{
 door{
   name = "door_group_6_1",
   layer = 0,
-  x = 1472,
-  y = 1384,
-  direction = 3,
-  sprite = "entities/doors/door_normal",
-  opening_condition = "dungeon_1_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "Oups",
-}
-
-door{
-  name = "door_group_6_2",
-  layer = 0,
   x = 1432,
   y = 1240,
   direction = 1,
@@ -14074,7 +14062,7 @@ pickable{
 
 wall{
   layer = 0,
-  x = 1400,
+  x = 1432,
   y = 1240,
   width = 16,
   height = 80,
@@ -14256,15 +14244,6 @@ destination{
   x = 1440,
   y = 1293,
   direction = 1,
-}
-
-custom_entity{
-  layer = 0,
-  x = 1352,
-  y = 1173,
-  width = 16,
-  height = 16,
-  direction = 0,
 }
 
 tile{
