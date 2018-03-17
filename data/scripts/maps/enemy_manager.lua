@@ -51,22 +51,31 @@ function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
       local placeholder_teletransporter_B = map:get_entity("teletransporter_B")
       local teletransporter_A_x,  teletransporter_A_y,  teletransporter_A_layer = placeholder_teletransporter_A:get_position()
       local teletransporter_B_x,  teletransporter_B_y,  teletransporter_B_layer = placeholder_teletransporter_B:get_position()
-      local teletransporter_A = map:create_teletransporter{
+      local teletransporter_A = map:create_custom_entity{
         x = teletransporter_A_x - 8,
         y = teletransporter_A_y - 16,
         width = 16,
         height = 16,
+        direction = 0,
         sprite = "entities/teletransporter_dungeon",
         layer = teletransporter_A_layer,
         destination = "teletransporter_destination_B",
         destination_map = map:get_id(),
         sound = "teletransporter"
       }
-      local teletransporter_B = map:create_teletransporter{
+      teletransporter_A:add_collision_test("overlapping", function(teletransporter, hero)
+        print(hero:get_type() )
+        if hero:get_type() == "hero" then
+          hero:freeze()
+          hero:set_animation("teleporting")
+        end
+      end)
+      local teletransporter_B = map:create_custom_entity{
         x = teletransporter_B_x - 8 ,
         y = teletransporter_B_y - 16,
         width = 16,
         height = 16,
+        direction = 0,
         sprite = "entities/teletransporter_dungeon",
         layer = teletransporter_B_layer,
         destination = "teletransporter_destination_A",
