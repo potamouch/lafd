@@ -1,0 +1,40 @@
+animation{
+  name = "shop_sign",
+  src_image = "entities/signs.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "crane_sign",
+  src_image = "entities/signs.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "photographer_sign",
+  src_image = "entities/signs.png",
+  directions = {
+    { x = 0, y = 32, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "raft_sign",
+  src_image = "entities/signs.png",
+  directions = {
+    { x = 0, y = 48, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

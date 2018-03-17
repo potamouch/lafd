@@ -288,6 +288,7 @@ sprite{ id = "entities/shop_board", description = "Shop board" }
 sprite{ id = "entities/shop_office", description = "Shop office" }
 sprite{ id = "entities/shovel", description = "Shovel" }
 sprite{ id = "entities/sign", description = "Sign" }
+sprite{ id = "entities/signs", description = "Signs" }
 sprite{ id = "entities/skull_brown", description = "Skull brown" }
 sprite{ id = "entities/skull_green", description = "Skull green" }
 sprite{ id = "entities/skull_white", description = "Skull white" }
