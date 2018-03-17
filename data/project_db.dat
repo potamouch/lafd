@@ -208,6 +208,7 @@ sprite{ id = "entities/conveyor_belt1", description = "Conveyor belt 1" }
 sprite{ id = "entities/conveyor_belt2", description = "Conveyor belt 2" }
 sprite{ id = "entities/conveyor_belt3", description = "Conveyor belt 3" }
 sprite{ id = "entities/conveyor_belt4", description = "Conveyor belt 4" }
+sprite{ id = "entities/crane_game", description = "Crane game" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination of teletransporter" }
