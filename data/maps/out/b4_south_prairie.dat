@@ -2318,7 +2318,7 @@ tile{
   layer = 0,
   x = 632,
   y = 512,
-  width = 48,
+  width = 88,
   height = 16,
   pattern = "12842",
 }
@@ -19489,6 +19489,56 @@ teletransporter{
   height = 16,
   destination_map = "caves/south_prairie/cave_2",
   destination = "entrance",
+}
+
+destination{
+  name = "stair_magic_powder_upgrade",
+  layer = 0,
+  x = 664,
+  y = 493,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 656,
+  y = 480,
+  width = 16,
+  height = 16,
+  destination_map = "caves/south_prairie/cave_3",
+  destination = "stair",
+}
+
+stairs{
+  layer = 0,
+  x = 656,
+  y = 480,
+  direction = 1,
+  subtype = 3,
+}
+
+destructible{
+  layer = 0,
+  x = 680,
+  y = 509,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 696,
+  y = 509,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
 }
 
 tile{

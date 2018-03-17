@@ -15,6 +15,7 @@ map{ id = "caves/prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
 map{ id = "caves/south_prairie/cave_1", description = "Cave 1" }
 map{ id = "caves/south_prairie/cave_2", description = "Cave 2" }
+map{ id = "caves/south_prairie/cave_3", description = "Cave 3 - Magic Powder Upgrade" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1_bis", description = "Dungeon 1 B1" }
