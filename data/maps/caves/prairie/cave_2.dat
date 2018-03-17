@@ -885,7 +885,7 @@ custom_entity{
   y = 149,
   width = 16,
   height = 16,
-  direction = 0,
+  direction = 1,
   sprite = "entities/cave_rock",
 }
 
@@ -896,7 +896,7 @@ custom_entity{
   y = 85,
   width = 16,
   height = 16,
-  direction = 0,
+  direction = 1,
   sprite = "entities/cave_rock",
 }
 
