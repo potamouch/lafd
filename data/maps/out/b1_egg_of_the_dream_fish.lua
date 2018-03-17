@@ -11,14 +11,15 @@ local companion_manager = require("scripts/maps/companion_manager")
 
 -- Events
 
-function map:on_started()
+function map:on_started(destination)
 
-
+  -- Remove the big stone if you come from the secret cave
+  if destination == stair_arrows_upgrade then secret_stone:set_enabled(false) end
   -- Signs
- photographer_sign:get_sprite():set_animation("photographer_sign")
- map:set_music()
- companion_manager:init_map(map)
-
+  photographer_sign:get_sprite():set_animation("photographer_sign")
+  map:set_music()
+  companion_manager:init_map(map)
+  
 end
 
 function map:get_music_mountains()

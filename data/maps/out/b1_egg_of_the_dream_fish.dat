@@ -2046,15 +2046,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 160,
-  y = 80,
-  width = 8,
-  height = 16,
-  pattern = "1566",
-}
-
-tile{
-  layer = -1,
   x = 400,
   y = 80,
   width = 8,
@@ -8690,15 +8681,6 @@ tile{
   layer = 0,
   x = 296,
   y = 184,
-  width = 8,
-  height = 8,
-  pattern = "12455",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 96,
   width = 8,
   height = 8,
   pattern = "12455",
@@ -16858,6 +16840,51 @@ tile{
   pattern = "84",
 }
 
+tile{
+  layer = 0,
+  x = 136,
+  y = 80,
+  width = 32,
+  height = 8,
+  pattern = "1892",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "1895",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "1893",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "1896",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "1894",
+}
+
 teletransporter{
   name = "to_b2",
   layer = 0,
@@ -16926,16 +16953,6 @@ destructible{
   layer = 0,
   x = 248,
   y = 93,
-  sprite = "entities/stone_small_white",
-  destruction_sound = "stone",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 152,
-  y = 117,
   sprite = "entities/stone_small_white",
   destruction_sound = "stone",
   weight = 1,
@@ -17598,6 +17615,54 @@ stairs{
   y = 96,
   direction = 3,
   subtype = 3,
+}
+
+chest{
+  layer = 0,
+  x = 120,
+  y = 69,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "b1_egg_of_the_dream_fish_chest_1",
+  sprite = "entities/chest",
+}
+
+destination{
+  name = "stair_arrows_upgrade",
+  layer = 0,
+  x = 152,
+  y = 109,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 144,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "caves/egg_of_the_dream_fish/cave_4",
+  destination = "stair",
+}
+
+stairs{
+  layer = 0,
+  x = 144,
+  y = 96,
+  direction = 1,
+  subtype = 3,
+}
+
+custom_entity{
+  name = "secret_stone",
+  layer = 0,
+  x = 144,
+  y = 93,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/stone_large_white",
+  model = "heavy_object",
 }
 
 tile{
