@@ -408,6 +408,18 @@ animation{
   },
 }
 animation{
+  name = "teleporting",
+  src_image = "hero/teleporting.png",
+  frame_delay = 120,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 8 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 8 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 8 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 8 },
+  },
+}
+animation{
   name = "victory",
   src_image = "hero/victory.tunic.png",
   frame_delay = 50,
