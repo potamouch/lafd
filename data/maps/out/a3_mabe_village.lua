@@ -257,7 +257,6 @@ function map:on_started(destination)
   end
 
 if map:get_game():get_value("main_quest_step") == 8 or map:get_game():get_value("main_quest_step") == 9 then
-    sol.audio.play_music("maps/out/moblins_and_bow_wow")
     sol.timer.start(map, 500, function()
         if  hero:get_distance(kids_alert_position_center) < 160 then
           sol.audio.play_music("maps/out/moblins_and_bow_wow")

@@ -10,7 +10,18 @@ function entity:on_created()
   self:add_collision_test("overlapping", function(pig, explosion)
 
     if explosion:get_type() == "explosion" then
-      -- todo add destroy animation
+      -- todo animation
+      local x,y,layer = self:get_position()
+      local stones = map:create_custom_entity({
+        name = "statue_pig_destroyed",
+        sprite = "entities/statue_pig_destroyed",
+        x = x,
+        y = y,
+        width = 48,
+        height = 48,
+        layer = layer,
+        direction = 0
+      })
       self:remove()
       game:set_value("statue_pig_exploded", true)
     end
