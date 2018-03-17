@@ -13,6 +13,9 @@ local companion_manager = require("scripts/maps/companion_manager")
 
 function map:on_started()
 
+
+  -- Signs
+ photographer_sign:get_sprite():set_animation("photographer_sign")
  map:set_music()
  companion_manager:init_map(map)
 

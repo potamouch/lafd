@@ -215,6 +215,8 @@ end
 
 function map:on_started(destination)
 
+  -- Signs
+  shop_sign_2:get_sprite():set_animation("crane_sign")
   -- Digging
   map:set_digging_allowed(true)
    -- Sword quest

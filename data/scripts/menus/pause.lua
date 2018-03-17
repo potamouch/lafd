@@ -62,7 +62,9 @@ local function initialize_pause_features(game)
     sol.audio.play_sound("pause_closed")
 
     game.pause_submenus = {}
-
+    -- Restore opacity
+    game:get_hud():set_item_icon_opacity(1, 255)
+    game:get_hud():set_item_icon_opacity(2, 255)
     -- Restore the built-in effect of action and attack commands.
     if game.set_custom_command_effect ~= nil then
       game:set_custom_command_effect("action", nil)
