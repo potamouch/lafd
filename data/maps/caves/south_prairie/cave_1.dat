@@ -1207,6 +1207,17 @@ tile{
   pattern = "door_stairs.spiral_up.1",
 }
 
+custom_entity{
+  name = "cave_rock_8",
+  layer = 0,
+  x = 96,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
 block{
   name = "auto_block_1",
   layer = 0,
@@ -1306,6 +1317,83 @@ stairs{
   y = 48,
   direction = 1,
   subtype = 0,
+}
+
+custom_entity{
+  name = "cave_rock_1",
+  layer = 0,
+  x = 240,
+  y = 421,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_2",
+  layer = 0,
+  x = 240,
+  y = 437,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_3",
+  layer = 0,
+  x = 224,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_4",
+  layer = 0,
+  x = 240,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_5",
+  layer = 0,
+  x = 208,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_6",
+  layer = 0,
+  x = 208,
+  y = 285,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_7",
+  layer = 0,
+  x = 208,
+  y = 317,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
 }
 
 tile{
@@ -2035,14 +2123,5 @@ tile{
   width = 112,
   height = 128,
   pattern = "ceiling.2",
-}
-
-separator{
-  name = "auto_separator_1",
-  layer = 2,
-  x = 0,
-  y = 248,
-  width = 320,
-  height = 16,
 }
 
