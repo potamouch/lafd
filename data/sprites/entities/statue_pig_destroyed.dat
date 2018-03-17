@@ -1,4 +1,15 @@
 animation{
+  name = "destroyed",
+  src_image = "entities/pig_statue.png",
+  frame_delay = 60,
+  directions = {
+    { x = 0, y = 48, frame_width = 80, frame_height = 80, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 48, frame_width = 80, frame_height = 80, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 48, frame_width = 80, frame_height = 80, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 48, frame_width = 80, frame_height = 80, origin_x = 8, origin_y = 13, num_frames = 7 },
+  },
+}
+animation{
   name = "stopped",
   src_image = "entities/statue_pig_destroyed.png",
   directions = {
@@ -6,13 +17,5 @@ animation{
     { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
     { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
     { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "explode",
-  src_image = "entities/pig_statue.png",
-  frame_delay = 60,
-  directions = {
-    { x = 0, y = 48, frame_width = 80, frame_height = 80, origin_x = 8, origin_y = 13, num_frames = 7 },
   },
 }
