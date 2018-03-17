@@ -12,17 +12,17 @@ properties{
 
 tile{
   layer = 0,
-  x = 112,
-  y = 144,
-  width = 96,
-  height = 64,
+  x = 120,
+  y = 128,
+  width = 80,
+  height = 80,
   pattern = "floor_low.1-1",
 }
 
 tile{
   layer = 0,
   x = 88,
-  y = 128,
+  y = 120,
   width = 24,
   height = 96,
   pattern = "wall.3-1",
@@ -40,7 +40,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 136,
+  y = 120,
   width = 96,
   height = 8,
   pattern = "wall_border.1-1",
@@ -49,18 +49,18 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 144,
+  y = 128,
   width = 8,
-  height = 64,
+  height = 80,
   pattern = "wall_border.3-1",
 }
 
 tile{
   layer = 0,
   x = 200,
-  y = 144,
+  y = 128,
   width = 8,
-  height = 64,
+  height = 80,
   pattern = "wall_border.4-1",
 }
 
@@ -157,7 +157,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 128,
+  y = 120,
   width = 24,
   height = 112,
   pattern = "wall.4-1",
@@ -175,7 +175,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 112,
+  y = 96,
   width = 24,
   height = 24,
   pattern = "wall.corner.2-1",
@@ -184,7 +184,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 112,
+  y = 96,
   width = 112,
   height = 24,
   pattern = "wall.1-1",
@@ -193,7 +193,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 112,
+  y = 96,
   width = 24,
   height = 24,
   pattern = "wall.corner.1-1",
@@ -202,7 +202,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 136,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.1-1",
@@ -211,7 +211,7 @@ tile{
 tile{
   layer = 0,
   x = 200,
-  y = 136,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.2-1",
@@ -220,7 +220,7 @@ tile{
 tile{
   layer = 0,
   x = 192,
-  y = 168,
+  y = 160,
   width = 8,
   height = 8,
   pattern = "table.6",
@@ -229,7 +229,7 @@ tile{
 tile{
   layer = 0,
   x = 168,
-  y = 168,
+  y = 160,
   width = 8,
   height = 8,
   pattern = "table.4",
@@ -238,7 +238,7 @@ tile{
 tile{
   layer = 0,
   x = 168,
-  y = 160,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "table.1",
@@ -247,7 +247,7 @@ tile{
 tile{
   layer = 0,
   x = 176,
-  y = 168,
+  y = 160,
   width = 16,
   height = 8,
   pattern = "table.5",
@@ -256,7 +256,7 @@ tile{
 tile{
   layer = 0,
   x = 176,
-  y = 160,
+  y = 152,
   width = 16,
   height = 8,
   pattern = "table.2",
@@ -265,7 +265,7 @@ tile{
 tile{
   layer = 0,
   x = 192,
-  y = 160,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "table.3",
@@ -274,7 +274,7 @@ tile{
 tile{
   layer = 0,
   x = 176,
-  y = 176,
+  y = 168,
   width = 16,
   height = 8,
   pattern = "table.8",
@@ -283,7 +283,7 @@ tile{
 tile{
   layer = 0,
   x = 168,
-  y = 176,
+  y = 168,
   width = 8,
   height = 8,
   pattern = "table.7",
@@ -292,7 +292,7 @@ tile{
 tile{
   layer = 0,
   x = 192,
-  y = 176,
+  y = 168,
   width = 8,
   height = 8,
   pattern = "table.9",
@@ -301,7 +301,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 128,
+  y = 112,
   width = 24,
   height = 24,
   pattern = "dresser.4a",
@@ -310,7 +310,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 104,
+  y = 88,
   width = 24,
   height = 24,
   pattern = "287",
@@ -319,7 +319,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 128,
+  y = 112,
   width = 24,
   height = 24,
   pattern = "dresser.4a",
@@ -328,7 +328,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 104,
+  y = 88,
   width = 24,
   height = 24,
   pattern = "287",
@@ -338,7 +338,7 @@ npc{
   name = "phone",
   layer = 0,
   x = 184,
-  y = 173,
+  y = 165,
   direction = 3,
   subtype = 1,
   sprite = "npc/phone",
@@ -367,7 +367,7 @@ npc{
   name = "phone_interaction",
   layer = 0,
   x = 184,
-  y = 181,
+  y = 173,
   direction = 3,
   subtype = 1,
 }
@@ -376,7 +376,7 @@ npc{
   name = "wardrobe_1",
   layer = 0,
   x = 144,
-  y = 149,
+  y = 133,
   direction = 3,
   subtype = 1,
 }
@@ -385,7 +385,7 @@ npc{
   name = "wardrobe_2",
   layer = 0,
   x = 128,
-  y = 149,
+  y = 133,
   direction = 3,
   subtype = 1,
 }
@@ -394,7 +394,7 @@ npc{
   name = "wardrobe_3",
   layer = 0,
   x = 160,
-  y = 149,
+  y = 133,
   direction = 3,
   subtype = 1,
 }
@@ -428,10 +428,10 @@ tile{
 
 tile{
   layer = 2,
-  x = 72,
+  x = 88,
   y = 0,
-  width = 176,
-  height = 112,
+  width = 144,
+  height = 96,
   pattern = "ceiling.2",
 }
 

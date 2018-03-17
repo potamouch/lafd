@@ -2,6 +2,7 @@
 -- To be used with the scripted hookshot item.
 local entity = ...
 local game = entity:get_game()
+local map = game:get_map()
 
 entity:set_traversable_by(false)
 
