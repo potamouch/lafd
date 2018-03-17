@@ -17,7 +17,8 @@ function map:on_started()
  map:set_music()
  map:set_digging_allowed(true)
  companion_manager:init_map(map)
- travel_manager:init(map, 2)
+  -- Travel
+  travel_transporter:set_enabled(false)
 
 end
 
@@ -44,7 +45,7 @@ end
 
 function travel_sensor:on_activated()
 
-  travel_manager:launch_step_1(map)
+    travel_manager:init(map, 2)
 
 end
 

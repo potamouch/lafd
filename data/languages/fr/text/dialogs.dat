@@ -4000,6 +4000,13 @@ Coeurs !
 }
 
 dialog{
+  id = "scripts.meta.map.owl_0",
+  text = [[
+Hou hou
+]],
+}
+
+dialog{
   id = "scripts.meta.map.owl_1",
   text = [[
 Hou hou ! Cette épée      

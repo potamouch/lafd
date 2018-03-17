@@ -656,6 +656,7 @@ sound{ id = "treasure_2", description = "Get treasure 2" }
 sound{ id = "treasure_sword", description = "Get treasure sword" }
 sound{ id = "walk_on_grass", description = "Walk on grass" }
 sound{ id = "walk_on_water", description = "Walk on water" }
+sound{ id = "wallturn", description = "Wallturn" }
 sound{ id = "water_fill", description = "Water fill" }
 sound{ id = "wrong", description = "Wrong" }
 sound{ id = "zonzifleur/solarus_team_logo", description = "Solarus Team logo" }

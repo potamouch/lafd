@@ -10724,3 +10724,13 @@ custom_entity{
   sprite = "entities/palm",
 }
 
+npc{
+  name = "travel_transporter",
+  layer = 2,
+  x = 520,
+  y = 509,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/owl",
+}
+

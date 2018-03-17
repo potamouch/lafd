@@ -13845,7 +13845,7 @@ destination{
   name = "teletransporter_destination_A",
   layer = 0,
   x = 2080,
-  y = 1149,
+  y = 1133,
   direction = 1,
 }
 
@@ -13863,7 +13863,7 @@ destination{
   name = "teletransporter_destination_B",
   layer = 0,
   x = 1120,
-  y = 1661,
+  y = 1645,
   direction = 1,
 }
 

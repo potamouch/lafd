@@ -40,45 +40,12 @@ function travel_manager:init(map, from_id)
     end
   end
   to_id = i
-  if from_id == to_id then
-    travel_manager:launch_step_explain(map)
-  else
+  if from_id ~= to_id then
     travel_manager:launch_step_1(map, from_id, to_id)
   end
 
 end
 
-function travel_manager:launch_step_explain(map)
-
-  local game = map:get_game()
-  local hero = map:get_hero()
-  local x_hero,y_hero = hero:get_position()
-  local transporter = map:get_entity('travel_transporter')
-  y_hero = y_hero - 16
-  local x_transporter,y_transporter = transporter:get_position()
-  transporter.xy = { x = x_transporter, y = y_transporter + 64 }
-  local direction4 = transporter:get_direction4_to(hero)
-  local transporter_sprite = transporter:get_sprite()
-  transporter:set_enabled(true)
-  game:set_pause_allowed(false)
-  game:set_suspended(true)
-  hero:get_sprite():set_direction(3)
-  hero:freeze()
-  transporter_sprite:set_animation("walking")
-  transporter_sprite:set_direction(direction4)
-  transporter_sprite:set_ignore_suspend(true)
-  local movement = sol.movement.create("target")
-  function movement:on_position_changed(coord_x, coord_y)
-    transporter:set_position(coord_x, coord_y)
-  end
-  movement:set_speed(150)
-  movement:set_ignore_obstacles(true)
-  movement:set_target(x_hero, y_hero)
-  movement:start(transporter.xy, function() 
-        movement:stop()
-        game:set_suspended(false)
-  end)
-end
 
 function travel_manager:launch_step_1(map, from_id, to_id)
 
@@ -141,6 +108,7 @@ function travel_manager:launch_step_2(map, from_id, to_id)
  movement:set_speed(30)
  movement:set_angle(math.pi / 2)
  movement:set_max_distance(128)
+ movement:set_ignore_obstacles(true)
  movement:start(transporter, function()
     travel_manager:launch_step_3(map, from_id, to_id)
  end)
@@ -157,11 +125,18 @@ function travel_manager:launch_step_3(map, from_id, to_id)
   local hero = map:get_hero()
   local map_id = positions_info[to_id]['map_id']
   local destination_name = positions_info[to_id]['destination_name']
-  hero:teleport(map_id, destination_name)
+  travel_manager:launch_step_4(map, from_id, to_id)
 
 end
 
-function travel_manager:launch_step_4(map)
+function travel_manager:launch_step_4(map, from_id, to_id)
+
+  local game = map:get_game()
+  local hero = map:get_hero()
+  local map_id = positions_info[to_id]['map_id']
+  local destination_name = positions_info[to_id]['destination_name']
+  hero:teleport(map_id, destination_name)
+  hero:set_enabled(true)
 
 end
 

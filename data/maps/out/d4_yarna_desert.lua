@@ -15,6 +15,8 @@ function map:on_started()
 
   map:set_digging_allowed(true)
   companion_manager:init_map(map)
+  -- Travel
+  travel_transporter:set_enabled(false)
 
 end
 
@@ -32,8 +34,7 @@ end
 
 function travel_sensor:on_activated()
 
-  travel_manager:init(map, 4)
-  travel_manager:launch_step_1(map)
+    travel_manager:init(map, 4)
 
 end
 
