@@ -30,6 +30,7 @@ function fairy_manager:create_hearts(map, index, fairy_name, hearts, music_name)
 
         local hero = map:get_hero()
         local x, y, layer = hero:get_position()
+        x = x +4
         local radius = 40
         sol.timer.start(map, 150, function()
             if (index < 8) then
@@ -115,7 +116,7 @@ function fairy_manager:animate_hearts(map, fairy_name, hearts, music_name)
       angle = 315
     end
     local m = sol.movement.create("circle")
-    m:set_center(hero)
+    m:set_center(hero, 4, 0)
     m:set_radius(radius)
     m:set_radius_speed(50)
     m:set_max_rotations(4)

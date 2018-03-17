@@ -13533,8 +13533,8 @@ separator{
 sensor{
   name = "owl_3_position",
   layer = 2,
-  x = 200,
-  y = -3,
+  x = 344,
+  y = -43,
   width = 16,
   height = 16,
 }
@@ -13542,8 +13542,8 @@ sensor{
 npc{
   name = "owl_3",
   layer = 2,
-  x = 200,
-  y = -3,
+  x = 344,
+  y = -43,
   direction = 3,
   subtype = 0,
   sprite = "npc/owl",
