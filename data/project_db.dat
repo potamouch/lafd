@@ -103,6 +103,7 @@ map{ id = "out/d1_east_mt_tamaranch", description = "D1 - East Mt Tamaranch" }
 map{ id = "out/d2_rafting", description = "D2 - Rafting" }
 map{ id = "out/d3_mask_shrine", description = "D3 - Mask shrine" }
 map{ id = "out/d4_yarna_desert", description = "D4 - Yarna desert" }
+map{ id = "sideviews/kanalet_castle/sideview_1", description = "Sideview 1" }
 map{ id = "sideviews/martha_bay/sideview_1", description = "Sideview 1" }
 
 tileset{ id = "dungeons/blue", description = "Blue" }
