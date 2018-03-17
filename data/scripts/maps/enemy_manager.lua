@@ -43,6 +43,7 @@ end
 
 function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
 
+    local is_transported = false
     local game = map:get_game()
     local dungeon = game:get_dungeon_index()
     local savegame = "dungeon_" .. dungeon .. "_small_boss"
@@ -59,15 +60,17 @@ function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
         direction = 0,
         sprite = "entities/teletransporter_dungeon",
         layer = teletransporter_A_layer,
-        destination = "teletransporter_destination_B",
-        destination_map = map:get_id(),
-        sound = "teletransporter"
       }
       teletransporter_A:add_collision_test("overlapping", function(teletransporter, hero)
-        print(hero:get_type() )
-        if hero:get_type() == "hero" then
-          hero:freeze()
+        if is_transported == false and hero:get_type() == "hero" then
+          is_transported = true
+          game:set_suspended(false)
+          game:set_pause_allowed(false)
           hero:set_animation("teleporting")
+          sol.timer.start(map, 2000, function()
+            hero:teleport(map:get_id(), "teletransporter_destination_B")
+            is_transported = false
+          end)
         end
       end)
       local teletransporter_B = map:create_custom_entity{
@@ -78,10 +81,20 @@ function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
         direction = 0,
         sprite = "entities/teletransporter_dungeon",
         layer = teletransporter_B_layer,
-        destination = "teletransporter_destination_A",
-        destination_map = map:get_id(),
         sound = "teletransporter"
       }
+      teletransporter_B:add_collision_test("overlapping", function(teletransporter, hero)
+        if is_transported == false and hero:get_type() == "hero" then
+          is_transported = true
+          game:set_suspended(false)
+          game:set_pause_allowed(false)
+          hero:set_animation("teleporting")
+          sol.timer.start(map, 2000, function()
+            hero:teleport(map:get_id(), "teletransporter_destination_A")
+            is_transported = false
+          end)
+        end
+      end)
       if sound ~= nil and sound ~= false then
         sol.audio.play_sound("teletransporter_appear")
       end

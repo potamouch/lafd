@@ -31,7 +31,6 @@ function map:on_started(destination)
   map:set_music()
   map:set_digging_allowed(true)
   companion_manager:init_map(map)
-  travel_manager:init(map, 1)
   -- Statue pig
   if game:get_value("statue_pig_exploded") then
     statue_pig:remove()
@@ -45,7 +44,7 @@ end
 
 function travel_sensor:on_activated()
 
-  travel_manager:launch_step_1(map)
+    travel_manager:init(map, 1)
 
 end
 

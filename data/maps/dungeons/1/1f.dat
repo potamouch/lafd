@@ -16283,15 +16283,6 @@ tile{
   pattern = "ceiling.1",
 }
 
-tile{
-  layer = 2,
-  x = 1120,
-  y = 1664,
-  width = 8,
-  height = 16,
-  pattern = "24",
-}
-
 separator{
   name = "auto_separator_8",
   layer = 2,
