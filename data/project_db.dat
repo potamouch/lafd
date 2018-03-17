@@ -324,7 +324,7 @@ sprite{ id = "entities/teletransporter_dungeon", description = "Teletransporter 
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/vacuum_cleaner", description = "Vacuum cleaner" }
 sprite{ id = "entities/vacuum_cleaner_ground", description = "Vacuum cleaner ground" }
-sprite{ id = "entities/wallturn_prototype", description = "Wallturn prototype" }
+sprite{ id = "entities/wallturn", description = "Wallturn" }
 sprite{ id = "entities/water_tree", description = "Water tree" }
 sprite{ id = "entities/water_tree_junction", description = "Water tree junction" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
@@ -791,6 +791,7 @@ entity{ id = "seagull", description = "Seagull" }
 entity{ id = "statue_pig", description = "Statue pig" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "vacuum_cleaner", description = "Vacuum cleaner" }
+entity{ id = "wallturn", description = "Wallturn" }
 
 language{ id = "fr", description = "Français" }
 
