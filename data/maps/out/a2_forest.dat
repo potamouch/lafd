@@ -9306,17 +9306,6 @@ npc{
   sprite = "npc/tarin",
 }
 
-custom_entity{
-  layer = 0,
-  x = 640,
-  y = 245,
-  width = 32,
-  height = 32,
-  direction = 0,
-  sprite = "entities/stone_large_white",
-  model = "heavy_object",
-}
-
 destructible{
   layer = 0,
   x = 712,
@@ -11754,6 +11743,44 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "stair_bombs_upgrade",
+  layer = 0,
+  x = 648,
+  y = 261,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 640,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "caves/forest/cave_3",
+  destination = "stair",
+}
+
+stairs{
+  layer = 0,
+  x = 640,
+  y = 248,
+  direction = 1,
+  subtype = 3,
+}
+
+custom_entity{
+  name = "secret_stone",
+  layer = 0,
+  x = 640,
+  y = 245,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/stone_large_white",
+  model = "heavy_object",
 }
 
 tile{

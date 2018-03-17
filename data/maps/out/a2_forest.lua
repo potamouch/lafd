@@ -80,6 +80,8 @@ end
 
 function map:on_started(destination)
 
+  -- Remove the big stone if you come from the secret cave
+  if destination == stair_bombs_upgrade then secret_stone:set_enabled(false) end
   -- Tail key chest
   if game:get_value("forest_chest_1")  then
     forest_chest_1:set_open(true)

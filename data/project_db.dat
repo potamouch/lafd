@@ -5,6 +5,7 @@ map{ id = "caves/egg_of_the_dream_fish/cave_3", description = "Cave 3" }
 map{ id = "caves/egg_of_the_dream_fish/moblins_cave", description = "Moblins's house" }
 map{ id = "caves/forest/cave_1", description = "Cave 1" }
 map{ id = "caves/forest/cave_2", description = "Cave 2" }
+map{ id = "caves/forest/cave_3", description = "Cave 3 - Bombs Upgrade" }
 map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
