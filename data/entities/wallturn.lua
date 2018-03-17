@@ -39,7 +39,8 @@ function entity:on_created()
           movement:set_path{2,2,2,2,2,2,2,2}
           movement:set_ignore_obstacles(true)
           movement:start(hero, function()
-            movement:stop()
+            hero:freeze()
+            hero:unfreeze()
             entity:set_traversable_by(false)
             animation_launch = false
           end)
