@@ -22,6 +22,8 @@ local owl_manager = require("scripts/maps/owl_manager")
 
 function map:on_started()
 
+ local hero = map:get_hero()
+  print(hero:get_tunic_sprite_id())
   -- Init music
   game:play_dungeon_music()
   treasure_manager:disappear_pickable(map, "pickable_small_key_1")

@@ -9,10 +9,9 @@ animation{
   },
 }
 animation{
-  name = "turning",
+  name = "revolving_tunic_1",
   src_image = "entities/wallturn_prototype.png",
   frame_delay = 120,
-  frame_to_loop_on = 0,
   directions = {
     { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 11 },
     { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 11 },
