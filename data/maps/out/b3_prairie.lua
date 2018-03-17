@@ -34,17 +34,6 @@ function map:on_started(destination)
   travel_manager:init(map, 1)
   -- Statue pig
   if game:get_value("statue_pig_exploded") then
-      local x,y,layer = statue_pig :get_position()
-      local stones = map:create_custom_entity({
-        name = "statue_pig_destroyed",
-        sprite = "entities/statue_pig_destroyed",
-        x = x,
-        y = y,
-        width = 48,
-        height = 48,
-        layer = layer,
-        direction = 0
-      })
     statue_pig:remove()
   end
   dungeon_3_entrance:set_can_traverse("hero", false)
