@@ -189,7 +189,6 @@ function map:get_alert_moblins()
 
   local hero = map:get_hero()
   hero:freeze()
-  sol.audio.play_music("maps/out/moblins_and_bow_wow")
   game:start_dialog("maps.out.mabe_village.kids_alert_moblins", function()
       self:get_game():set_value("main_quest_step", 9)
       hero:unfreeze()
@@ -198,6 +197,19 @@ function map:get_alert_moblins()
 end
 
 -- Events
+
+function map:repeat_kids_scared_direction_check()
+
+  local directionkid1 = kid_1:get_direction4_to(hero)
+  local directionkid2 = kid_2:get_direction4_to(hero)
+  kid_1:get_sprite():set_direction(directionkid1)
+  kid_2:get_sprite():set_direction(directionkid2)
+
+  -- Rappeler cette fonction dans 0.1 seconde.
+  sol.timer.start(map, 100, function() 
+    map:repeat_kids_scared_direction_check()
+  end)
+end
 
 function map:on_started(destination)
 
@@ -223,6 +235,9 @@ function map:on_started(destination)
   else
     kid_1:get_sprite():set_animation("scared")
     kid_2:get_sprite():set_animation("scared")
+    kid_1:get_sprite():set_ignore_suspend(true)
+    kid_2:get_sprite():set_ignore_suspend(true)
+    map:repeat_kids_scared_direction_check()
   end
 
   -- Thief detect
@@ -240,32 +255,36 @@ function map:on_started(destination)
       weathercook_statue_1:set_position(616,232)
       weathercook_statue_2:set_position(616,248)
   end
+
+if map:get_game():get_value("main_quest_step") == 8 or map:get_game():get_value("main_quest_step") == 9 then
+    sol.audio.play_music("maps/out/moblins_and_bow_wow")
+    sol.timer.start(map, 500, function()
+        if  hero:get_distance(kids_alert_position_center) < 160 then
+          sol.audio.play_music("maps/out/moblins_and_bow_wow")
+        else
+          map:set_music()
+        end
+        if  hero:get_distance(kids_alert_position_center) < 60 then
+          if not hero_is_alerted then
+            hero:get_sprite():set_direction(3)
+            hero_is_alerted = true
+            map:get_alert_moblins()
+          end
+        else
+          if hero_is_alerted then
+            hero_is_alerted = false
+          end
+        end
+        return true
+     end)
+  end
   
 
 end
 
 function map:on_opening_transition_finished(destination)
 
- if map:get_game():get_value("main_quest_step") == 8 or map:get_game():get_value("main_quest_step") == 9 then
-    if  hero:get_distance(kids_alert_position_center) < 64 then
-      hero_is_alerted = true
-      map:get_alert_moblins()
-   end
-   sol.timer.start(map, 500, function()
-    if  hero:get_distance(kids_alert_position_center) < 64 then
-      if not hero_is_alerted then
-        hero_is_alerted = true
-        map:get_alert_moblins()
-      end
-    else
-      if hero_is_alerted then
-        hero_is_alerted = false
-        map:set_music()
-      end
-    end
-    return true
-   end)
-  end
+ 
 
 end
 
