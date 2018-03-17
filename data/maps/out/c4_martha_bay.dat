@@ -7887,9 +7887,9 @@ tile{
 tile{
   layer = 0,
   x = 400,
-  y = 664,
+  y = 680,
   width = 32,
-  height = 48,
+  height = 32,
   pattern = "1111",
 }
 
@@ -10677,17 +10677,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 408,
-  y = 677,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
   x = 424,
   y = 709,
   treasure_name = "random",
@@ -10701,17 +10690,6 @@ destructible{
   layer = 0,
   x = 424,
   y = 693,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 424,
-  y = 677,
   treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
@@ -10781,6 +10759,32 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/entrance_dungeon_5",
+}
+
+destination{
+  name = "stair_cave_to_upgrade",
+  layer = 0,
+  x = 416,
+  y = 661,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 408,
+  y = 648,
+  width = 16,
+  height = 16,
+  destination_map = "caves/martha_bay/cave_1",
+  destination = "stair_east",
+}
+
+stairs{
+  layer = 0,
+  x = 408,
+  y = 648,
+  direction = 1,
+  subtype = 3,
 }
 
 tile{
