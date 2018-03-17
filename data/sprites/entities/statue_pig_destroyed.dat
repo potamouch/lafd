@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "entities/statue_pig_destroyed.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13 },
+  },
+}

@@ -279,6 +279,7 @@ sprite{ id = "entities/pillar", description = "Pillar" }
 sprite{ id = "entities/pillar_base", description = "Pillar base" }
 sprite{ id = "entities/pot", description = "Pot" }
 sprite{ id = "entities/rain", description = "Rain" }
+sprite{ id = "entities/rooster_dead", description = "Rooster_dead" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/shield", description = "Shield" }
@@ -307,6 +308,7 @@ sprite{ id = "entities/statue_dungeon_6_head", description = "Statue dungeon 6 h
 sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
 sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
 sprite{ id = "entities/statue_pig", description = "Statue pig" }
+sprite{ id = "entities/statue_pig_destroyed", description = "Statue pig destroyed" }
 sprite{ id = "entities/statue_small", description = "Statue small" }
 sprite{ id = "entities/statue_small_dungeon_3", description = "Statue small dungeon 3" }
 sprite{ id = "entities/statue_small_key_dungeon_3", description = "Statue small key dungeon 3" }
