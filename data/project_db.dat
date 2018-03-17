@@ -178,6 +178,7 @@ sprite{ id = "enemies/zol_green", description = "Zol green" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/ball", description = "Ball" }
 sprite{ id = "entities/ball_shadow", description = "Ball shadow" }
+sprite{ id = "entities/bananas", description = "Bananas" }
 sprite{ id = "entities/beach_debris_1", description = "Beach debris 1" }
 sprite{ id = "entities/beach_debris_2", description = "Beach debris 2" }
 sprite{ id = "entities/beach_debris_3", description = "Beach debris 3" }
@@ -279,7 +280,7 @@ sprite{ id = "entities/pillar", description = "Pillar" }
 sprite{ id = "entities/pillar_base", description = "Pillar base" }
 sprite{ id = "entities/pot", description = "Pot" }
 sprite{ id = "entities/rain", description = "Rain" }
-sprite{ id = "entities/rooster_dead", description = "Rooster_dead" }
+sprite{ id = "entities/rooster_dead", description = "Rooster dead" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/shield", description = "Shield" }

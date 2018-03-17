@@ -36,7 +36,7 @@ function map:talk_to_alligator()
                     name = "food",
                     sprite = "entities/items",
                     x = x_hero,
-                    y = y_hero,
+                    y = y_hero - 8,
                     width = 16,
                     height = 16,
                     layer = 1,
@@ -44,13 +44,19 @@ function map:talk_to_alligator()
                   })
                   food:get_sprite():set_animation("magnifying_lens")
                   food:get_sprite():set_direction(2)
-                  local m2 = sol.movement.create("target")
+                  --local m2 = sol.movement.create("target")
+                  --m2:set_speed(120)
+                  --m2:set_target(alligator)
+                  --m2:start(food)
+                  local m2 = sol.movement.create("jump")
+                  m2:set_direction8(0)
+                  m2:set_distance(56)
                   m2:set_speed(120)
-                  m2:set_target(alligator)
                   m2:start(food)
                   sol.audio.play_sound("jump")
-                  sprite:set_animation("eating")
+                  sprite:set_animation("begin_eating")
                   function m2:on_finished()
+                      sprite:set_animation("eating")
                       food:remove()
                       sol.timer.start(hero, 2000, function()
                         hero:set_animation("walking")

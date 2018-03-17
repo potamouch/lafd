@@ -614,13 +614,15 @@ npc{
   subtype = 1,
 }
 
-pickable{
+custom_entity{
   name = "bananas",
   layer = 0,
   x = 224,
   y = 173,
-  treasure_name = "magnifying_lens",
-  treasure_variant = 4,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/bananas",
 }
 
 tile{

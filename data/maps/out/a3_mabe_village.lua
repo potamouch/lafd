@@ -18,6 +18,8 @@ function map:set_music()
   
   if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
+  elseif  hero:get_distance(kids_alert_position_center) < 160 then
+    sol.audio.play_music("maps/out/moblins_and_bow_wow")
   else
     if marine_song then
       sol.audio.play_music("maps/out/song_of_marine")
@@ -258,11 +260,7 @@ function map:on_started(destination)
 
 if map:get_game():get_value("main_quest_step") == 8 or map:get_game():get_value("main_quest_step") == 9 then
     sol.timer.start(map, 500, function()
-        if  hero:get_distance(kids_alert_position_center) < 160 then
-          sol.audio.play_music("maps/out/moblins_and_bow_wow")
-        else
-          map:set_music()
-        end
+        map:set_music()
         if  hero:get_distance(kids_alert_position_center) < 60 then
           if not hero_is_alerted then
             hero:get_sprite():set_direction(3)
