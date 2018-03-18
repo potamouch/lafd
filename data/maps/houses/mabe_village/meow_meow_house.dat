@@ -676,6 +676,15 @@ tile{
   pattern = "seat.2",
 }
 
+tile{
+  layer = 0,
+  x = 352,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.12-2",
+}
+
 npc{
   name = "small_bowwow_2",
   layer = 0,
@@ -916,6 +925,7 @@ npc{
 }
 
 pickable{
+  name = "auto_shovel_seashell",
   layer = 0,
   x = 392,
   y = 141,
@@ -2109,6 +2119,301 @@ custom_entity{
   direction = 0,
   sprite = "entities/non_diggable",
   model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 360,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 392,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 408,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 424,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 424,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 408,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 392,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 360,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+pickable{
+  name = "auto_shovel_2",
+  layer = 0,
+  x = 360,
+  y = 157,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_43",
 }
 
 tile{

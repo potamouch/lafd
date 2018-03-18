@@ -135,6 +135,7 @@ function travel_manager:launch_step_4(map, from_id, to_id)
   local hero = map:get_hero()
   local map_id = positions_info[to_id]['map_id']
   local destination_name = positions_info[to_id]['destination_name']
+  game:set_pause_allowed(true)
   hero:teleport(map_id, destination_name)
   hero:set_enabled(true)
 

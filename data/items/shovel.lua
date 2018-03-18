@@ -44,20 +44,40 @@ function item:on_using()
     local layer = hero:get_layer()
 
     sol.timer.start(map, 150, function()
-      map:create_dynamic_tile{
-        x = x,
-        y = y,
+      --map:create_dynamic_tile{
+      --  x = x,
+       -- y = y,
+       -- layer = layer,
+       -- width = 16,
+       -- height = 16,
+        --pattern = "728",
+       -- enabled_at_start = true
+      --}
+      map:create_custom_entity{
+        name = "ground_dug",
+        sprite = "entities/ground_dug",
+        direction = 0,
+        x = x + 8,
+        y = y + 13,
         layer = layer,
         width = 16,
-        height = 16,
-        pattern = "728",
-        enabled_at_start = true
-      }
+        height = 16
+       }
 
---[[ TODO
-      if map.shovel_treasures[index] ~= nil then
-        map.shovel_treasures[index]:bring_to_front()
-        map.shovel_treasures[index]:set_enabled(true)
+
+      -- Detect treasures
+      local treasure_found = false
+      for pickable in map:get_entities("auto_shovel") do
+        local x_pickable, y_pickable, layer_pickable = pickable:get_position()
+      print(x .. '|' .. x_pickable)
+      print(y .. '|' .. y_pickable)
+        if x == x_pickable and y == y_pickable then
+          treasure_found = pickable
+        end
+      end
+      if treasure_found then
+        treasure_found:bring_to_front()
+        treasure_found:set_enabled(true)
       else
         map:create_pickable{
           layer = layer,
@@ -67,7 +87,6 @@ function item:on_using()
           treasure_variant = 1,
         }
       end
---]]
     end)
   end
 
@@ -221,10 +240,9 @@ function map_meta:set_digging_allowed_square(square_index, diggable)
 end
 
 game:register_event("on_map_changed", function(game, map)
-
+  
   for pickable in map:get_entities("auto_shovel") do
-    local index = map:get_entity_position_index(pickable)
-    map.shovel_treasures[index] = pickable
+    local x_pickable, y_pickable, layer_pickable = pickable:get_position()
     pickable:set_enabled(false)
   end
 
