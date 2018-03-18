@@ -3,6 +3,7 @@ map{ id = "caves/egg_of_the_dream_fish/cave_1", description = "Cave 1" }
 map{ id = "caves/egg_of_the_dream_fish/cave_2", description = "Cave 2" }
 map{ id = "caves/egg_of_the_dream_fish/cave_3", description = "Cave 3" }
 map{ id = "caves/egg_of_the_dream_fish/cave_4", description = "Cave 4 - Arrows Upgrade" }
+map{ id = "caves/egg_of_the_dream_fish/cave_5", description = "Cave 5 - Path to West Mt Tamaranch" }
 map{ id = "caves/egg_of_the_dream_fish/moblins_cave", description = "Moblins's house" }
 map{ id = "caves/forest/cave_1", description = "Cave 1" }
 map{ id = "caves/forest/cave_2", description = "Cave 2" }
