@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/palm.png",
+  directions = {
+    { x = 120, y = 16, frame_width = 8, frame_height = 40, origin_x = 8, origin_y = 12 },
+    { x = 64, y = 0, frame_width = 64, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 16, frame_width = 8, frame_height = 40, origin_x = 8, origin_y = 12 },
+    { x = 72, y = 16, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 12 },
+  },
+}
