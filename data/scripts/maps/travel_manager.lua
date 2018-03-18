@@ -1,4 +1,5 @@
 local travel_manager = {}
+local mode_7_manager = require("scripts/mode_7")
 local positions_info = {
   [1] = {
         map_id = "out/b3_prairie",
@@ -123,9 +124,12 @@ end
 function travel_manager:launch_step_3(map, from_id, to_id)
 
   local hero = map:get_hero()
+  local game = map:get_game()
   local map_id = positions_info[to_id]['map_id']
   local destination_name = positions_info[to_id]['destination_name']
-  travel_manager:launch_step_4(map, from_id, to_id)
+  local entity = map:get_entity("travel_sensor")
+  mode_7_manager:teleport(game, entity, map_id, destination_name)
+  --travel_manager:launch_step_4(map, from_id, to_id)
 
 end
 
