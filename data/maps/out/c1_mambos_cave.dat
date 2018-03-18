@@ -12664,15 +12664,6 @@ tile{
   pattern = "3981",
 }
 
-tile{
-  layer = 0,
-  x = 168,
-  y = 208,
-  width = 16,
-  height = 48,
-  pattern = "3970",
-}
-
 teletransporter{
   name = "to_b1",
   layer = 0,
@@ -14075,6 +14066,39 @@ chest{
   treasure_variant = 4,
   treasure_savegame_variable = "c1_mambos_cave_chest_1",
   sprite = "entities/chest",
+}
+
+custom_entity{
+  layer = 0,
+  x = 176,
+  y = 221,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/rock_block",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 176,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/rock_block",
+  model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 176,
+  y = 253,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/rock_block",
+  model = "obstacle",
 }
 
 tile{
