@@ -53,7 +53,7 @@ function item:on_using()
         --pattern = "728",
        -- enabled_at_start = true
       --}
-      map:create_custom_entity{
+      local dug_entity = map:create_custom_entity{
         name = "ground_dug",
         sprite = "entities/ground_dug",
         direction = 0,
@@ -63,15 +63,31 @@ function item:on_using()
         width = 16,
         height = 16
        }
+       dug_entity:bring_to_front()
 
 
       -- Detect treasures
+      local x1, y1 = item:get_position_from_index(dig_indexes[1])
+      local x2, y2 = item:get_position_from_index(dig_indexes[2])
+      local x3, y3 = item:get_position_from_index(dig_indexes[3])
+      local x4, y4 = item:get_position_from_index(dig_indexes[4])
       local treasure_found = false
       for pickable in map:get_entities("auto_shovel") do
         local x_pickable, y_pickable, layer_pickable = pickable:get_position()
-      print(x .. '|' .. x_pickable)
-      print(y .. '|' .. y_pickable)
-        if x == x_pickable and y == y_pickable then
+        local sprite = pickable:get_sprite()
+        local origin_x, origin_y = sprite:get_origin()
+        x_pickable = x_pickable - origin_x
+        y_pickable = y_pickable - origin_y
+        if x == x_pickable and y == y_pickable 
+          or x == x_pickable + 8 and y == y_pickable + 8 
+          or x == x_pickable - 8 and y2 == y_pickable + 8 
+          or x == x_pickable + 8 and y2 == y_pickable - 8 
+          or x == x_pickable - 8 and y2 == y_pickable - 8 
+          or x == x_pickable and y2 == y_pickable - 8 
+          or x == x_pickable and y2 == y_pickable + 8
+          or x == x_pickable - 8 and y2 == y_pickable
+          or x == x_pickable + 8 and y2 == y_pickable
+          then
           treasure_found = pickable
         end
       end

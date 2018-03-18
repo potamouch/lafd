@@ -682,7 +682,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = "floor_low.12-2",
+  pattern = "floor_low.18-2",
 }
 
 npc{
