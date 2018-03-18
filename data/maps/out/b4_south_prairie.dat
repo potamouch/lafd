@@ -5882,7 +5882,7 @@ tile{
   layer = 0,
   x = 0,
   y = 640,
-  width = 48,
+  width = 16,
   height = 16,
   pattern = "957",
 }
@@ -13978,6 +13978,42 @@ tile{
   pattern = "1128",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 640,
+  width = 8,
+  height = 16,
+  pattern = "1060",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 640,
+  width = 8,
+  height = 16,
+  pattern = "1061",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 640,
+  width = 16,
+  height = 8,
+  pattern = "1201",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 648,
+  width = 16,
+  height = 8,
+  pattern = "1202",
+}
+
 destructible{
   layer = 0,
   x = 344,
@@ -19565,6 +19601,70 @@ stairs{
   y = 440,
   direction = 3,
   subtype = 3,
+}
+
+destination{
+  name = "cave_b4_cave_4",
+  layer = 0,
+  x = 32,
+  y = 669,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 24,
+  y = 640,
+  width = 16,
+  height = 16,
+  destination_map = "caves/south_prairie/cave_4",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 24,
+  y = 632,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_2",
+  layer = 0,
+  x = 16,
+  y = 632,
+  pattern = "1062",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed",
+  layer = 0,
+  x = 16,
+  y = 640,
+  pattern = "957",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_door_1",
+  layer = 0,
+  x = 24,
+  y = 640,
+  direction = 0,
+  sprite = "entities/doors/door_weak_wall_out",
+  savegame_variable = "b4_south_prairie_weak_1",
+  opening_method = "explosion",
 }
 
 tile{

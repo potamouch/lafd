@@ -10278,6 +10278,51 @@ tile{
   pattern = "1039",
 }
 
+tile{
+  layer = 0,
+  x = 472,
+  y = 360,
+  width = 8,
+  height = 32,
+  pattern = "1124",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 384,
+  width = 16,
+  height = 8,
+  pattern = "1126",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "1125",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 360,
+  width = 16,
+  height = 8,
+  pattern = "1123",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 360,
+  width = 8,
+  height = 32,
+  pattern = "1122",
+}
+
 teletransporter{
   name = "to_c3",
   layer = 0,
@@ -10783,6 +10828,32 @@ stairs{
   layer = 0,
   x = 408,
   y = 648,
+  direction = 1,
+  subtype = 3,
+}
+
+destination{
+  name = "stair_lens_cave",
+  layer = 0,
+  x = 464,
+  y = 389,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 456,
+  y = 376,
+  width = 16,
+  height = 16,
+  destination_map = "caves/martha_bay/cave_2",
+  destination = "stair",
+}
+
+stairs{
+  layer = 0,
+  x = 456,
+  y = 376,
   direction = 1,
   subtype = 3,
 }
