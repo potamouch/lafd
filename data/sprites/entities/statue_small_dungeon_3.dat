@@ -2,9 +2,9 @@ animation{
   name = "normal",
   src_image = "entities/statues_out.png",
   directions = {
-    { x = 72, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
-    { x = 72, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
-    { x = 72, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
-    { x = 72, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
+    { x = 72, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 24 },
+    { x = 72, y = 0, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 24 },
+    { x = 72, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 24 },
+    { x = 72, y = 0, frame_width = 32, frame_height = 48, origin_x = 8, origin_y = 24 },
   },
 }

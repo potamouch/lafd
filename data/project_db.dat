@@ -232,6 +232,7 @@ sprite{ id = "entities/egg", description = "Egg" }
 sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
 sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
 sprite{ id = "entities/entrance_dungeon_2", description = "Entrance dungeon 2" }
+sprite{ id = "entities/entrance_dungeon_3", description = "Entrance dungeon 3" }
 sprite{ id = "entities/entrance_dungeon_4", description = "Entrance dungeon 4" }
 sprite{ id = "entities/entrance_dungeon_5", description = "Entrance dungeon 5" }
 sprite{ id = "entities/entrance_dungeon_6", description = "Entrance dungeon 6" }
@@ -311,7 +312,6 @@ sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 ke
 sprite{ id = "entities/statue_dungeon_2", description = "Statue dungeon 2" }
 sprite{ id = "entities/statue_dungeon_2_head", description = "Statue dungeon 2 head" }
 sprite{ id = "entities/statue_dungeon_3", description = "Statue dungeon 3" }
-sprite{ id = "entities/statue_dungeon_3_block", description = "Statue dungeon 3 block" }
 sprite{ id = "entities/statue_dungeon_3_key", description = "Statue dungeon 3 key" }
 sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
 sprite{ id = "entities/statue_dungeon_6_head", description = "Statue dungeon 6 head" }
