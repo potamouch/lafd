@@ -14027,7 +14027,7 @@ destructible{
 }
 
 pickable{
-  name = "auto_shovel",
+  name = "auto_shovel_hole_key",
   layer = 0,
   x = 696,
   y = 61,
