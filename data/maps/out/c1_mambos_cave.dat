@@ -14101,6 +14101,68 @@ custom_entity{
   model = "obstacle",
 }
 
+destination{
+  name = "cave_c1_cave_2",
+  layer = 0,
+  x = 456,
+  y = 149,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 400,
+  y = 232,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mambos_cave/cave_1",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 400,
+  y = 224,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_c1_cave_1",
+  layer = 0,
+  x = 408,
+  y = 261,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 448,
+  y = 120,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mambos_cave/cave_2",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 112,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 tile{
   layer = 1,
   x = 408,

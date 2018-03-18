@@ -11,6 +11,8 @@ map{ id = "caves/forest/cave_2", description = "Cave 2" }
 map{ id = "caves/forest/cave_3", description = "Cave 3 - Bombs Upgrade" }
 map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
+map{ id = "caves/mambos_cave/cave_1", description = "Cave 1 - Vers randonneur 1" }
+map{ id = "caves/mambos_cave/cave_2", description = "Cave 2 - Vers randonneur 2" }
 map{ id = "caves/martha_bay/cave_1", description = "Cave 1 - Chemin vers l'upgrade de poudre magique" }
 map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/prairie/cave_1", description = "Cave 1" }
