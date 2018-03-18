@@ -155,6 +155,11 @@ function item:create_shield()
       local x, y = tunic_sprite:get_xy()
       s:set_xy(x, y) -- Necessary for shifts during custom jump.
     end
+  -- Disable shield on jumpers.
+   if hero:get_state() == "jumping" then
+    self:finish_using()
+   return
+    end
     return true
   end)
   -- Define collision test to detect enemies with shield.
