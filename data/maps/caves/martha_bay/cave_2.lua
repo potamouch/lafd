@@ -19,17 +19,22 @@ function map:on_started()
   companion_manager:init_map(map)
 
   --Invisible things: only visible with the Lens
-  if game:get_value("get_lens") then
-    map:set_entities_enabled("invisible_entity",true)
-  else
-    map:set_entities_enabled("invisible_entity",false)
+  for entity in map:get_entities("invisible_entity") do
+    if game:get_value("get_lens") then
+      entity:set_visible(true)
+    else
+      entity:set_visible(false)
+    end
   end
+
 
 end
 
 --Invisible things: only visible with the Lens
 function map:on_obtained_treasure(item, variant, treasure_savegame_variable)
   if item:get_name() == "magnifying_lens" and item:get_variant() == 14 then
-    map:set_entities_enabled("invisible_entity",true)
+    for entity in map:get_entities("invisible_entity") do
+			entity:set_visible(false)
+		end
   end
 end

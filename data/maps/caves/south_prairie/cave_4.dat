@@ -986,6 +986,50 @@ npc{
   sprite = "enemies/moblin",
 }
 
+custom_entity{
+  name = "cave_rock_6",
+  layer = 0,
+  x = 240,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_7",
+  layer = 0,
+  x = 112,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_8",
+  layer = 0,
+  x = 128,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_9",
+  layer = 0,
+  x = 208,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
 tile{
   layer = 1,
   x = 288,
