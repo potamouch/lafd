@@ -676,15 +676,6 @@ tile{
   pattern = "seat.2",
 }
 
-tile{
-  layer = 0,
-  x = 352,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "floor_low.18-2",
-}
-
 npc{
   name = "small_bowwow_2",
   layer = 0,
@@ -2405,15 +2396,6 @@ custom_entity{
   direction = 0,
   sprite = "entities/non_diggable",
   model = "non_diggable",
-}
-
-pickable{
-  name = "auto_shovel_2",
-  layer = 0,
-  x = 360,
-  y = 157,
-  treasure_name = "seashell",
-  treasure_savegame_variable = "seashell_43",
 }
 
 tile{
