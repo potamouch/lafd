@@ -818,6 +818,7 @@ font{ id = "small_white_digits", description = "Small white digits" }
 font{ id = "white_digits", description = "White digits" }
 
 shader{ id = "6xbrz", description = "6xbrz" }
+shader{ id = "mode_7", description = "Mode 7" }
 shader{ id = "sepia", description = "Sepia" }
 shader{ id = "toon", description = "Toon" }
 shader{ id = "xBR-v3.8c", description = "xBR-v3.8c" }

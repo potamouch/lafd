@@ -1,0 +1,103 @@
+-- Mode 7 shader.
+-- Shows a texture in a perspective view.
+-- Inspired from https://www.shadertoy.com/view/ltsGWn
+
+shader{
+
+    vertex_source = [[
+
+    #version 120
+
+    varying out vec4 vertex_position;
+
+    void main() {
+
+      vertex_position = gl_ModelViewMatrix * gl_Vertex;
+      gl_Position = vertex_position;
+      gl_TexCoord[0] = gl_MultiTexCoord0;
+    }
+]],
+
+    fragment_source = [[
+
+    #version 120
+
+    uniform sampler2D sol_texture;
+    uniform vec2 sol_input_size;
+    uniform vec2 sol_output_size;
+    uniform int sol_time;
+
+    uniform sampler2D mode_7_texture;
+    uniform sampler2D overlay_texture;
+    uniform vec3 character_position;
+    uniform float angle;
+    uniform float horizon;
+    uniform bool repeat_texture;
+
+    varying in vec4 vertex_position;
+
+    // Alpha-blends c1 onto c2.
+    vec4 alpha_blend(vec4 c1, vec4 c2) {
+
+      float alpha = c1.a + c2.a * (1.0 - c1.a);
+      vec3 rgb = (c1.rgb * c1.a) + (c2.rgb * c2.a) * (1.0 - c1.a) / alpha;
+      return vec4(rgb, alpha);
+    }
+
+    // Mode 7 transformation.
+    vec4 make_mode_7(vec2 uv) {
+
+      // Create a 3D point
+   //   float h = 0.25;
+      float h = horizon;
+      vec3 p = vec3(uv.x, uv.y - h - 1.0, uv.y - h);
+
+      // Projecting back to 2D space
+      vec2 uvm7 = p.xy / p.z;
+
+      // Texture scaling if you need
+  //    float scale = 0.4;
+      float scale = max(0.01, character_position.z);
+      uvm7 *= scale;
+
+      // Rotations if needed
+//      float a = (sol_time / 1000.0) * 0.25;
+      float a = radians(180.0) + angle;
+      mat2 rotation = mat2(cos(a), -sin(a), sin(a), cos(a));
+      uvm7 *= rotation;
+
+      // Initial position
+      uvm7 += character_position.xy;
+
+      // Translation
+//      float dy = 0.0;
+//      float translation_distance = -(sol_time / 1000.0) * 0.03;
+//      vec2 translation = vec2(translation_distance * sin(a), -translation_distance * cos(a));
+//      uvm7 += translation;
+
+      // Repeat
+      if (repeat_texture) {
+      //  uvm7 = fract(uvm7);  // Unnecessary if GL_REPEAT is set on the texture.
+      }
+
+      // Read background texture
+      vec4 mode_7_color = vec4(texture2D(mode_7_texture, uvm7).xyz, 1.0);
+
+      // Darkness based on the horizon
+//      mode_7_color *= -(uv.y - h - 0.50);
+
+      vec4 overlay_color = texture2D(overlay_texture, gl_TexCoord[0].xy);
+
+      // Alpha-blend the overlay texture.
+      vec4 col = alpha_blend(overlay_color, mode_7_color);
+
+      // Output the color
+      return col;
+  }
+
+    void main() {
+      gl_FragColor = make_mode_7(vertex_position.xy);
+    }
+]],
+
+}
