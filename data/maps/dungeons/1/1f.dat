@@ -125,7 +125,7 @@ teletransporter{
   width = 224,
   height = 160,
   destination_map = "dungeons/1/sideview_2",
-  destination = "wall_destination",
+  destination = "boss",
 }
 
 tile{
@@ -13587,17 +13587,17 @@ teletransporter{
   name = "stairs_5_A",
   layer = 0,
   x = 2104,
-  y = 856,
+  y = 848,
   width = 16,
   height = 16,
-  destination_map = "dungeons/1/b1_bis",
-  destination = "stairs_6_B",
+  destination_map = "dungeons/1/sideview_2",
+  destination = "stairs_5_B",
 }
 
 stairs{
   layer = 0,
   x = 152,
-  y = 1400,
+  y = 1392,
   direction = 3,
   subtype = 3,
 }
@@ -13606,7 +13606,7 @@ teletransporter{
   name = "stairs_3_A",
   layer = 0,
   x = 152,
-  y = 1400,
+  y = 1392,
   width = 16,
   height = 16,
   destination_map = "dungeons/1/sideview_1",
@@ -13616,7 +13616,7 @@ teletransporter{
 stairs{
   layer = 0,
   x = 2104,
-  y = 856,
+  y = 848,
   direction = 3,
   subtype = 3,
 }
@@ -13768,7 +13768,7 @@ destination{
   name = "stairs_3_B",
   layer = 0,
   x = 160,
-  y = 1389,
+  y = 1381,
   direction = 1,
 }
 

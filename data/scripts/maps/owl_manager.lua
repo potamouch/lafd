@@ -14,7 +14,7 @@ function owl_manager:appear(map, step, callback)
     owl:get_sprite():set_direction(3)
     owl:get_sprite():set_ignore_suspend(true)
     local m = sol.movement.create("target")
-    local xy = { x = x_owl, y = y_owl }
+    owl.xy = { x = x_owl, y = y_owl }
     function m:on_position_changed(coord_x, coord_y)
       owl:set_position(coord_x, coord_y)
     end
@@ -26,7 +26,7 @@ function owl_manager:appear(map, step, callback)
     game:set_value("owl_"..step, true)
     hero:set_direction(1)
     hero:freeze()
-    m:start(xy, function() 
+    m:start(owl.xy, function() 
       owl:get_sprite():set_animation("talking")
       game:start_dialog("scripts.meta.map.owl_"..step, function()
         owl:get_sprite():set_animation("walking")
@@ -34,7 +34,7 @@ function owl_manager:appear(map, step, callback)
         m:stop()
         local m2 = sol.movement.create("target")
         local x_owl,y_owl = owl:get_position()
-        local xy = { x = x_owl, y = y_owl }
+        owl.xy = { x = x_owl, y = y_owl }
         function m2:on_position_changed(coord_x, coord_y)
           owl:set_position(coord_x, coord_y)
         end
@@ -42,7 +42,7 @@ function owl_manager:appear(map, step, callback)
         m2:set_target(position)
         m2:set_speed(100)
         m2:set_ignore_obstacles(true)
-        m2:start(xy, function()
+        m2:start(owl.xy, function()
           owl:set_enabled(false)
           if callback ~= nil then
             callback()

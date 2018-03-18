@@ -1,4 +1,4 @@
--- Lua script of map dungeons/1/b1.
+-- Lua script of map dungeons/1/sideview_2.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

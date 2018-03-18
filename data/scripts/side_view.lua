@@ -70,6 +70,9 @@ function map_meta:launch_side_view()
             end
           end)
           hero:set_animation(state)
+          if self:get_ground(x, y, l) == "ladder" then
+            hero:set_direction(1)
+          end
         end
         if state ~= "jumping" then 
           for entity in self:get_entities("g_") do

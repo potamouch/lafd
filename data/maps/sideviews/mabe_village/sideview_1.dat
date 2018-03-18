@@ -10,6 +10,15 @@ properties{
 
 tile{
   layer = 0,
+  x = 232,
+  y = 96,
+  width = 8,
+  height = 48,
+  pattern = "119",
+}
+
+tile{
+  layer = 0,
   x = 0,
   y = 0,
   width = 320,

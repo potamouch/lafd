@@ -20,9 +20,7 @@ map{ id = "caves/south_prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/south_prairie/cave_3", description = "Cave 3 - Magic Powder Upgrade" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
-map{ id = "dungeons/1/b1_bis", description = "Dungeon 1 B1" }
 map{ id = "dungeons/1/sideview_1", description = "Sideview 1" }
-map{ id = "dungeons/1/sideview_1_old", description = "Sideview 1" }
 map{ id = "dungeons/1/sideview_2", description = "Sideview 2" }
 map{ id = "dungeons/10/1f", description = "Dungeon 10 1F" }
 map{ id = "dungeons/10/sideview_1", description = "Sideview 1" }
