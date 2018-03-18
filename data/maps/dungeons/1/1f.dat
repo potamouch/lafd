@@ -14246,16 +14246,6 @@ destination{
   direction = 1,
 }
 
-teletransporter{
-  layer = 0,
-  x = 1112,
-  y = 1696,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/1/sideview_1",
-  destination = "stairs_2_B",
-}
-
 tile{
   layer = 1,
   x = 1008,

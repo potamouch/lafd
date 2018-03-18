@@ -2946,8 +2946,8 @@ custom_entity{
   layer = 0,
   x = 416,
   y = 85,
-  width = 16,
-  height = 16,
+  width = 144,
+  height = 112,
   direction = 0,
   sprite = "entities/moblin_carpet",
 }

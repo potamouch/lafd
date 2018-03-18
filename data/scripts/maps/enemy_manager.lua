@@ -1,5 +1,6 @@
 local enemy_manager = {}
 
+enemy_manager.is_transported = false
 
 function enemy_manager:execute_when_vegas_dead(map, enemy_prefix)
 
@@ -43,7 +44,6 @@ end
 
 function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
 
-    local is_transported = false
     local game = map:get_game()
     local dungeon = game:get_dungeon_index()
     local savegame = "dungeon_" .. dungeon .. "_small_boss"
@@ -55,60 +55,64 @@ function enemy_manager:create_teletransporter_if_small_boss_dead(map, sound)
       local teletransporter_A = map:create_custom_entity{
         x = teletransporter_A_x - 8,
         y = teletransporter_A_y - 16,
-        width = 16,
-        height = 16,
+        width = 24,
+        height = 24,
         direction = 0,
         sprite = "entities/teletransporter_dungeon",
         layer = teletransporter_A_layer,
       }
-      teletransporter_A:add_collision_test("overlapping", function(teletransporter, hero)
-        if is_transported == false and hero:get_type() == "hero" then
-          is_transported = true
-          local timer = sol.timer.start(map, 1000, function()
-            game:set_suspended(false)
-            game:set_pause_allowed(true)
-            teletransporter_A:get_sprite():set_ignore_suspend(false)
-            hero:get_sprite():set_ignore_suspend(false)
-            hero:teleport(map:get_id(), "teletransporter_destination_B")
-            is_transported = false
-          end)
-          timer:set_suspended_with_map(false)
-          game:set_suspended(true)
-          game:set_pause_allowed(false)
-          teletransporter_A:get_sprite():set_ignore_suspend(true)
-          hero:get_sprite():set_ignore_suspend(true)
-          hero:set_animation("teleporting")
-          sol.audio.play_sound("teletransporter")
-        end
-      end)
       local teletransporter_B = map:create_custom_entity{
         x = teletransporter_B_x - 8 ,
         y = teletransporter_B_y - 16,
-        width = 16,
-        height = 16,
+        width = 24,
+        height = 24,
         direction = 0,
         sprite = "entities/teletransporter_dungeon",
         layer = teletransporter_B_layer,
         sound = "teletransporter"
       }
+      teletransporter_A:add_collision_test("overlapping", function(teletransporter, hero)
+        local hero_sprite = hero:get_sprite()
+        if enemy_manager.is_transported  == false and hero:get_type() == "hero" then
+          enemy_manager.is_transported  = true
+          game:set_suspended(true)
+          game:set_pause_allowed(false)
+          teletransporter_A:get_sprite():set_ignore_suspend(true)
+          hero_sprite:set_ignore_suspend(true)
+          hero_sprite:set_animation("teleporting")
+          sol.audio.play_sound("teletransporter")
+          function hero_sprite:on_animation_finished(animation)
+            if animation == "teleporting" then
+              game:set_suspended(false)
+              game:set_pause_allowed(true)
+              teletransporter_B:get_sprite():set_ignore_suspend(false)
+              hero_sprite:set_ignore_suspend(false)
+              hero:teleport(map:get_id(), "teletransporter_destination_B")
+              enemy_manager.is_transported  = false
+            end
+          end
+        end
+      end)
       teletransporter_B:add_collision_test("overlapping", function(teletransporter, hero)
-        if is_transported == false and hero:get_type() == "hero" then
-          is_transported = true
-          local timer = sol.timer.start(map, 1000, function()
-            game:set_suspended(false)
-            game:set_pause_allowed(true)
-            teletransporter_B:get_sprite():set_ignore_suspend(false)
-            hero:get_sprite():set_ignore_suspend(false)
-            hero:teleport(map:get_id(), "teletransporter_destination_A")
-            is_transported = false
-          end)
-          timer:set_suspended_with_map(false)
+        local hero_sprite = hero:get_sprite()
+        if enemy_manager.is_transported  == false and hero:get_type() == "hero" then
+          enemy_manager.is_transported  = true
           game:set_suspended(true)
           game:set_pause_allowed(false)
           teletransporter_B:get_sprite():set_ignore_suspend(true)
-          hero:get_sprite():set_ignore_suspend(true)
-          hero:set_animation("teleporting")
+          hero_sprite:set_ignore_suspend(true)
+          hero_sprite:set_animation("teleporting")
           sol.audio.play_sound("teletransporter")
+          function hero_sprite:on_animation_finished(animation)
+            if animation == "teleporting" then
+              game:set_suspended(false)
+              game:set_pause_allowed(true)
+              teletransporter_B:get_sprite():set_ignore_suspend(false)
+              hero_sprite:set_ignore_suspend(false)
+              hero:teleport(map:get_id(), "teletransporter_destination_A")
+              enemy_manager.is_transported  = false
+            end
+          end
         end
       end)
       if sound ~= nil and sound ~= false then
