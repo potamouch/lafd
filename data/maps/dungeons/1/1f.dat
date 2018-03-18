@@ -13609,7 +13609,7 @@ teletransporter{
   y = 1400,
   width = 16,
   height = 16,
-  destination_map = "dungeons/1/b1_bis",
+  destination_map = "dungeons/1/sideview_1",
   destination = "stairs_4_B",
 }
 
@@ -13628,7 +13628,7 @@ teletransporter{
   y = 536,
   width = 16,
   height = 16,
-  destination_map = "dungeons/1/b1_bis",
+  destination_map = "dungeons/1/sideview_1",
   destination = "stairs_2_B",
 }
 
@@ -14244,6 +14244,16 @@ destination{
   x = 1440,
   y = 1293,
   direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1696,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/sideview_1",
+  destination = "stairs_2_B",
 }
 
 tile{

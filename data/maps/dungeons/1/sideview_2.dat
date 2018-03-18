@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_1",
-  tileset = "dungeons/sideview",
+  tileset = "sideview/sideview",
   music = "maps/dungeons/passageways",
 }
 

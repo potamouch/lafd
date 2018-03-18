@@ -11217,9 +11217,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 352,
+  x = 344,
   y = 352,
-  width = 8,
+  width = 16,
   height = 8,
   pattern = "119",
 }
