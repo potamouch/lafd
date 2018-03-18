@@ -281,6 +281,7 @@ sprite{ id = "entities/owl_blue", description = "Owl blue" }
 sprite{ id = "entities/owl_out", description = "Owl out" }
 sprite{ id = "entities/painting", description = "Painting" }
 sprite{ id = "entities/palm", description = "Palm" }
+sprite{ id = "entities/palm_banana", description = "Palm banana" }
 sprite{ id = "entities/palm_footer_brown", description = "Palm footer brown" }
 sprite{ id = "entities/palm_footer_green", description = "Palm footer green" }
 sprite{ id = "entities/palm_footer_yellow", description = "Palm footer yellow" }

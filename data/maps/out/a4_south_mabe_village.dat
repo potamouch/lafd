@@ -12377,7 +12377,7 @@ custom_entity{
   width = 8,
   height = 40,
   direction = 0,
-  sprite = "entities/palm",
+  sprite = "entities/palm_banana",
 }
 
 custom_entity{
@@ -12387,7 +12387,7 @@ custom_entity{
   width = 48,
   height = 40,
   direction = 3,
-  sprite = "entities/palm",
+  sprite = "entities/palm_banana",
 }
 
 custom_entity{
@@ -12447,7 +12447,7 @@ custom_entity{
   width = 48,
   height = 40,
   direction = 3,
-  sprite = "entities/palm",
+  sprite = "entities/palm_banana",
 }
 
 custom_entity{
@@ -12477,7 +12477,7 @@ custom_entity{
   width = 48,
   height = 40,
   direction = 3,
-  sprite = "entities/palm",
+  sprite = "entities/palm_banana",
 }
 
 custom_entity{
@@ -12697,7 +12697,7 @@ custom_entity{
   width = 8,
   height = 40,
   direction = 2,
-  sprite = "entities/palm",
+  sprite = "entities/palm_banana",
 }
 
 custom_entity{
@@ -12707,7 +12707,7 @@ custom_entity{
   width = 48,
   height = 40,
   direction = 3,
-  sprite = "entities/palm",
+  sprite = "entities/palm_banana",
 }
 
 sensor{
