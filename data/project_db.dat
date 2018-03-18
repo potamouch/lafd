@@ -106,6 +106,7 @@ map{ id = "out/d4_yarna_desert", description = "D4 - Yarna desert" }
 map{ id = "sideviews/kanalet_castle/sideview_1", description = "Sideview 1" }
 map{ id = "sideviews/mabe_village/sideview_1", description = "Sideview 1" }
 map{ id = "sideviews/martha_bay/sideview_1", description = "Sideview 1" }
+map{ id = "sideviews/martha_bay/sideview_2", description = "Sideview 2" }
 
 tileset{ id = "dungeons/blue", description = "Blue" }
 tileset{ id = "dungeons/brown", description = "Brown" }
