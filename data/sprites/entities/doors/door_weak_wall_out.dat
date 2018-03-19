@@ -1,7 +1,7 @@
 animation{
   name = "closed",
-  src_image = "tileset",
+  src_image = "entities/door_weak_wall_out.png",
   directions = {
-    { x = 304, y = 104, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 16 },
   },
 }
