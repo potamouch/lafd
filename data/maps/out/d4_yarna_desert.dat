@@ -21,6 +21,33 @@ tile{
 
 tile{
   layer = 0,
+  x = 424,
+  y = 48,
+  width = 40,
+  height = 8,
+  pattern = "129",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "3983",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "372",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 8,
   width = 448,
@@ -418,7 +445,7 @@ tile{
 tile{
   layer = 0,
   x = 416,
-  y = 48,
+  y = 56,
   width = 64,
   height = 64,
   pattern = "907",
@@ -464,7 +491,7 @@ tile{
   layer = 0,
   x = 16,
   y = 40,
-  width = 448,
+  width = 416,
   height = 16,
   pattern = "957",
 }
@@ -1263,15 +1290,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 912,
-  y = -32,
-  width = 8,
-  height = 8,
-  pattern = "994",
-}
-
-tile{
-  layer = 0,
   x = 896,
   y = 248,
   width = 32,
@@ -1979,42 +1997,6 @@ tile{
   width = 8,
   height = 240,
   pattern = "1110",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 48,
-  width = 32,
-  height = 8,
-  pattern = "129",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 32,
-  width = 16,
-  height = 24,
-  pattern = "992",
-}
-
-tile{
-  layer = 0,
-  x = 456,
-  y = 32,
-  width = 8,
-  height = 24,
-  pattern = "990",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 32,
-  width = 8,
-  height = 24,
-  pattern = "989",
 }
 
 tile{
@@ -5142,15 +5124,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 432,
-  y = 56,
-  width = 8,
-  height = 8,
-  pattern = "126",
-}
-
-tile{
-  layer = 0,
   x = 448,
   y = 64,
   width = 8,
@@ -5727,15 +5700,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 912,
-  y = -24,
-  width = 16,
-  height = 16,
-  pattern = "1016",
-}
-
-tile{
-  layer = 0,
   x = 560,
   y = -16,
   width = 160,
@@ -5764,9 +5728,9 @@ tile{
 tile{
   layer = 0,
   x = 896,
-  y = 24,
+  y = 40,
   width = 16,
-  height = 112,
+  height = 96,
   pattern = "975",
 }
 
@@ -6314,7 +6278,7 @@ tile{
   layer = 0,
   x = 736,
   y = -16,
-  width = 16,
+  width = 176,
   height = 8,
   pattern = "1007",
 }
@@ -6323,7 +6287,7 @@ tile{
   layer = 0,
   x = 736,
   y = 0,
-  width = 16,
+  width = 176,
   height = 8,
   pattern = "959",
 }
@@ -6332,7 +6296,7 @@ tile{
   layer = 0,
   x = 736,
   y = 8,
-  width = 16,
+  width = 160,
   height = 16,
   pattern = "958",
 }
@@ -6341,7 +6305,7 @@ tile{
   layer = 0,
   x = 736,
   y = 24,
-  width = 16,
+  width = 112,
   height = 16,
   pattern = "957",
 }
@@ -6350,79 +6314,7 @@ tile{
   layer = 0,
   x = 736,
   y = -8,
-  width = 16,
-  height = 8,
-  pattern = "1008",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "961",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = -8,
-  width = 16,
-  height = 16,
-  pattern = "956",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = -24,
-  width = 16,
-  height = 16,
-  pattern = "1015",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "962",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = -32,
-  width = 144,
-  height = 8,
-  pattern = "1007",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = -16,
-  width = 144,
-  height = 8,
-  pattern = "959",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = 8,
-  width = 128,
-  height = 16,
-  pattern = "957",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = -24,
-  width = 144,
+  width = 176,
   height = 8,
   pattern = "1008",
 }
@@ -6430,19 +6322,10 @@ tile{
 tile{
   layer = 0,
   x = 896,
-  y = -8,
+  y = 8,
   width = 16,
   height = 32,
   pattern = "1047",
-}
-
-tile{
-  layer = 0,
-  x = 760,
-  y = -24,
-  width = 8,
-  height = 8,
-  pattern = "14796",
 }
 
 tile{
@@ -6645,24 +6528,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
-  y = -32,
-  width = 8,
-  height = 8,
-  pattern = "14796",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = -8,
-  width = 128,
-  height = 16,
-  pattern = "958",
-}
-
-tile{
-  layer = 0,
   x = 400,
   y = 376,
   width = 8,
@@ -6704,6 +6569,78 @@ tile{
   width = 288,
   height = 8,
   pattern = "1007",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 16,
+  width = 16,
+  height = 24,
+  pattern = "992",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 16,
+  width = 8,
+  height = 24,
+  pattern = "990",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 16,
+  width = 8,
+  height = 24,
+  pattern = "989",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "957",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 40,
+  width = 8,
+  height = 16,
+  pattern = "1060",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "1202",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 40,
+  width = 8,
+  height = 16,
+  pattern = "1061",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "1201",
 }
 
 destination{
@@ -9132,6 +9069,101 @@ sensor{
   height = 16,
 }
 
+wall{
+  layer = 0,
+  x = 440,
+  y = 32,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d4_1",
+  layer = 0,
+  x = 448,
+  y = 69,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 440,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "caves/yarna_desert/cave_1",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 856,
+  y = 8,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d4_2",
+  layer = 0,
+  x = 864,
+  y = 45,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 856,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "caves/yarna_desert/cave_2",
+  destination = "entrance",
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_1",
+  layer = 0,
+  x = 432,
+  y = 32,
+  pattern = "1062",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed",
+  layer = 0,
+  x = 432,
+  y = 40,
+  pattern = "957",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_door_1",
+  layer = 0,
+  x = 440,
+  y = 40,
+  direction = 0,
+  sprite = "entities/doors/door_weak_wall_out",
+  savegame_variable = "d4_yarna_desert_weak_1",
+  opening_method = "explosion",
+}
+
 tile{
   layer = 1,
   x = 400,
@@ -9661,15 +9693,6 @@ tile{
   width = 32,
   height = 16,
   pattern = "6071",
-}
-
-tile{
-  layer = 1,
-  x = 432,
-  y = 24,
-  width = 32,
-  height = 8,
-  pattern = "991",
 }
 
 tile{
@@ -10642,6 +10665,15 @@ tile{
   width = 48,
   height = 8,
   pattern = "1453",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 8,
+  width = 32,
+  height = 8,
+  pattern = "991",
 }
 
 custom_entity{

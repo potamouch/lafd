@@ -3279,42 +3279,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 672,
-  y = 464,
-  width = 8,
-  height = 32,
-  pattern = "1122",
-}
-
-tile{
-  layer = 0,
-  x = 696,
-  y = 464,
-  width = 8,
-  height = 32,
-  pattern = "1124",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 488,
-  width = 16,
-  height = 8,
-  pattern = "1126",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 472,
-  width = 16,
-  height = 16,
-  pattern = "1125",
-}
-
-tile{
-  layer = 0,
   x = 896,
   y = 448,
   width = 8,
@@ -9660,15 +9624,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 680,
-  y = 464,
-  width = 16,
-  height = 8,
-  pattern = "1123",
-}
-
-tile{
-  layer = 0,
   x = 944,
   y = 240,
   width = 16,
@@ -10331,6 +10286,51 @@ tile{
   width = 16,
   height = 24,
   pattern = "992",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 488,
+  width = 16,
+  height = 8,
+  pattern = "1130",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 472,
+  width = 16,
+  height = 16,
+  pattern = "1128",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "1129",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "1131",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "1127",
 }
 
 npc{
@@ -11308,6 +11308,58 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+destination{
+  name = "cave_c3_1_west",
+  layer = 0,
+  x = 688,
+  y = 477,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 680,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_prairie/cave_1",
+  destination = "stair_west",
+}
+
+stairs{
+  layer = 0,
+  x = 680,
+  y = 464,
+  direction = 3,
+  subtype = 3,
+}
+
+destination{
+  name = "cave_c3_1_east",
+  layer = 0,
+  x = 912,
+  y = 477,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 904,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_prairie/cave_1",
+  destination = "stair_east",
+}
+
+stairs{
+  layer = 0,
+  x = 904,
+  y = 464,
+  direction = 1,
+  subtype = 3,
 }
 
 tile{

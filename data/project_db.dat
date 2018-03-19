@@ -1,5 +1,6 @@
 map{ id = "caves/cave", description = "Cave" }
 map{ id = "caves/east_mt_tamaranch/fairy_fountain", description = "Fairy's fountain" }
+map{ id = "caves/east_prairie/cave_1", description = "Cave 1 - Road to Animals Village" }
 map{ id = "caves/egg_of_the_dream_fish/cave_1", description = "Cave 1" }
 map{ id = "caves/egg_of_the_dream_fish/cave_2", description = "Cave 2" }
 map{ id = "caves/egg_of_the_dream_fish/cave_3", description = "Cave 3" }
@@ -25,6 +26,8 @@ map{ id = "caves/south_prairie/cave_3", description = "Cave 3 - Magic Powder Upg
 map{ id = "caves/south_prairie/cave_4", description = "Cave 4 - Boomerang Cave" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "caves/west_mt_tamaranch/cave_2", description = "Cave 2 - To Turtle Rock" }
+map{ id = "caves/yarna_desert/cave_1", description = "Cave 1 - Heart Piece Cave" }
+map{ id = "caves/yarna_desert/cave_2", description = "Cave 2 - Yarna Cave" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/sideview_1", description = "Sideview 1" }
 map{ id = "dungeons/1/sideview_2", description = "Sideview 2" }

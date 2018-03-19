@@ -1,0 +1,123 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 512,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "dungeons/dark_brown",
+  music = "maps/caves/cave",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "floor.16-2",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.2",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 536,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "out/d4_yarna_desert",
+  destination = "cave_d4_1",
+}
+
+destination{
+  name = "entrance",
+  layer = 0,
+  x = 544,
+  y = 445,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 536,
+  y = 448,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 512,
+  y = 464,
+  width = 64,
+  height = 8,
+  pattern = "door_cache_low.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 528,
+  y = 464,
+  width = 32,
+  height = 8,
+  pattern = "door_top.low.2-3",
+}
+
