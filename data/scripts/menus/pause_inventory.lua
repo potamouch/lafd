@@ -35,6 +35,11 @@ function inventory_submenu:on_started()
   else
     item_names_assignable[2] = "mushroom"
   end
+  if self.game:get_value("get_boomerang") then
+    item_names_assignable[8] = "boomerang"
+  else
+    item_names_assignable[8] = "shovel"
+  end
 
   -- Initialize the cursor
   local index = self.game:get_value("pause_inventory_last_item_index") or 0

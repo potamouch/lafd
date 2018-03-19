@@ -1030,6 +1030,24 @@ custom_entity{
   sprite = "entities/cave_rock",
 }
 
+npc{
+  name = "trader_2",
+  layer = 0,
+  x = 152,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "trader_3",
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 288,

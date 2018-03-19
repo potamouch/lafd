@@ -42,7 +42,17 @@ function map:open_book(book)
           local entity = map:get_entity("book_"..book)
           local sprite = entity:get_sprite()
           sprite:set_animation("reading")
-          if book ~= 7 then
+          if book == 8 then
+            if game:get_value("get_lens") then
+              game:start_dialog("maps.houses.mabe_village.library.book_"..book..".true_content", function()
+                sprite:set_animation("normal")
+              end)
+            else
+              game:start_dialog("maps.houses.mabe_village.library.book_"..book..".content", function()
+                sprite:set_animation("normal")
+              end)
+            end
+          elseif book ~= 7 then
             game:start_dialog("maps.houses.mabe_village.library.book_"..book..".content", function()
               sprite:set_animation("normal")
             end)

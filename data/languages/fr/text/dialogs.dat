@@ -251,16 +251,9 @@ dialog{
   id = "_treasure.boomerang.1",
   icon = "4",
   text = [[
-Tu as trouvé le
-Boomerang !$0 Tu peux
-immobiliser les
-ennemis ou attraper
-des objets à
-distance.
-Il y a plusieurs
-techniques pour le
-manipuler, à toi
-de les découvrir !
+Tu as échangé
+ton objet contre
+le Boomerang.
 ]],
 }
 
@@ -1760,6 +1753,18 @@ Non
 }
 
 dialog{
+  id = "maps.houses.mabe_village.library.book_8.true_content",
+  text = [[
+Dans l'Oeuf,
+on tourne tourne
+tourne...
+G G H D D H G H
+Hum! C'est très
+énigmatique.
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.marine_house.marine_1",
   skip = "all",
   text = [[
@@ -2620,6 +2625,43 @@ dialog{
   id = "maps.houses.south_mabe_village.sales_house_o_bananas.alligator_6",
   text = [[
 Encore merci !
+]],
+}
+
+dialog{
+  id = "maps.houses.south_prairie.boomerang_cave.boomerang_question",
+  question = "1",
+  text = [[
+Sur la plage,
+j'ai ramassé
+une merveille.
+Je te l'échange
+contre ta Pelle.
+
+Ca te tente?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.south_prairie.boomerang_cave.no",
+  text = [[
+Ah bon...
+Dans ce cas...
+]],
+}
+
+dialog{
+  id = "maps.houses.south_prairie.boomerang_cave.recover_item_before_question",
+  question = "1",
+  text = [[
+Rends-moi
+le Boomerang
+et je te rendrai
+ta Pelle!
+Oui
+Non
 ]],
 }
 
