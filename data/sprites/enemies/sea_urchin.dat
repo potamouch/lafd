@@ -27,6 +27,9 @@ animation{
   src_image = "enemies/sea_urchin.png",
   directions = {
     { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
 animation{
@@ -35,6 +38,9 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
     { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }

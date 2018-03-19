@@ -1,5 +1,5 @@
 animation{
-  name = "waiting",
+  name = "walking",
   src_image = "enemies/monkey.png",
   frame_delay = 250,
   frame_to_loop_on = 0,
@@ -17,12 +17,18 @@ animation{
   frame_to_loop_on = 0,
   directions = {
     { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
   },
 }
 animation{
   name = "immobilized",
   src_image = "enemies/monkey.png",
   directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
     { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
@@ -32,6 +38,9 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
     { x = 144, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
   },
 }
