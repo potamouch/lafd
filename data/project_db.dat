@@ -175,6 +175,7 @@ sprite{ id = "enemies/hooded_stalfos", description = "Hooded stalfos" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
+sprite{ id = "enemies/monkey", description = "Monkey" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
@@ -773,6 +774,7 @@ enemy{ id = "hooded_stalfos", description = "Hooded stalfos" }
 enemy{ id = "keese", description = "Keese" }
 enemy{ id = "maskass", description = "Maskass" }
 enemy{ id = "moblin", description = "Moblin" }
+enemy{ id = "monkey", description = "Monkey" }
 enemy{ id = "octorok", description = "Octorok" }
 enemy{ id = "octorok_stone", description = "Octorok stone" }
 enemy{ id = "pike_auto", description = "Pike auto" }

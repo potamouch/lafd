@@ -21690,6 +21690,16 @@ custom_entity{
   sprite = "entities/palm",
 }
 
+enemy{
+  name = "enemy_group_9_4",
+  layer = 1,
+  x = 120,
+  y = 421,
+  direction = 3,
+  breed = "monkey",
+  treasure_name = "random",
+}
+
 custom_entity{
   name = "butterfly_30",
   layer = 2,
