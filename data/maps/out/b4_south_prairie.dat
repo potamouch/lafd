@@ -19667,6 +19667,16 @@ door{
   opening_method = "explosion",
 }
 
+enemy{
+  name = "enemy_group_9_3",
+  layer = 0,
+  x = 136,
+  y = 685,
+  direction = 3,
+  breed = "crab",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 632,
