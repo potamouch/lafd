@@ -1,5 +1,7 @@
 local bowwow = ...
 
+
+local chain_manager = require("scripts/maps/chain_manager")
 local game = bowwow:get_game()
 local map = bowwow:get_map()
 local sprite = bowwow:get_sprite()
@@ -16,6 +18,7 @@ bowwow:set_can_traverse("sensor", true)
 bowwow:set_can_traverse("separator", true)
 bowwow:set_can_traverse("stairs", true)
 bowwow:set_can_traverse("teletransporter", true)
+chain_manager:init_map(map, bowwow, hero)
 
 -- TODO make this available to other scripts.
 local function follow_hero()

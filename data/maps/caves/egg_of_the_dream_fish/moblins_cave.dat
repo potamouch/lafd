@@ -2572,6 +2572,7 @@ wall{
 }
 
 block{
+  name = "chain_source",
   layer = 0,
   x = 904,
   y = 125,
