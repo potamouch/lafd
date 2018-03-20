@@ -9134,7 +9134,7 @@ enemy{
   y = 669,
   direction = 3,
   breed = "zol_green",
-  treasure_name = "quiver",
+  treasure_name = "random",
 }
 
 enemy{
@@ -9143,7 +9143,7 @@ enemy{
   y = 709,
   direction = 3,
   breed = "zol_green",
-  treasure_name = "quiver",
+  treasure_name = "random",
 }
 
 enemy{

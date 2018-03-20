@@ -10434,15 +10434,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
-  y = 472,
-  width = 8,
-  height = 16,
-  pattern = "1108",
-}
-
-tile{
-  layer = 0,
   x = 744,
   y = 56,
   width = 8,
@@ -14393,7 +14384,7 @@ custom_entity{
   name = "bowwow",
   layer = 0,
   x = 392,
-  y = 517,
+  y = 501,
   width = 16,
   height = 16,
   direction = 3,
@@ -21305,6 +21296,17 @@ sensor{
   y = 325,
   width = 48,
   height = 16,
+}
+
+dynamic_tile{
+  name = "chain_source",
+  layer = 0,
+  x = 376,
+  y = 472,
+  pattern = "1108",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
 }
 
 tile{
