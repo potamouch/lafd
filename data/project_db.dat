@@ -484,6 +484,7 @@ sprite{ id = "npc/kid_1", description = "Kid 1" }
 sprite{ id = "npc/kid_2", description = "Kid 2" }
 sprite{ id = "npc/kid_3", description = "Kid 3" }
 sprite{ id = "npc/kid_4", description = "Kid 4" }
+sprite{ id = "npc/mad_bat", description = "Mad bat" }
 sprite{ id = "npc/manbo", description = "Manbo" }
 sprite{ id = "npc/manbopals_blue", description = "Manbopals blue" }
 sprite{ id = "npc/manbopals_emerald", description = "Manbopals emerald" }
