@@ -237,6 +237,7 @@ sprite{ id = "entities/doors/door_normal", description = "Door" }
 sprite{ id = "entities/doors/door_normal_cave", description = "Door cave" }
 sprite{ id = "entities/doors/door_small_key", description = "Door small key" }
 sprite{ id = "entities/doors/door_very_weak_wall", description = "Door very weak wall" }
+sprite{ id = "entities/doors/door_weak_block_cave", description = "Door weak block cave" }
 sprite{ id = "entities/doors/door_weak_wall", description = "Door_weak_wall" }
 sprite{ id = "entities/doors/door_weak_wall_cave", description = "Door weak wall cave" }
 sprite{ id = "entities/doors/door_weak_wall_out", description = "Door weak wall out" }
