@@ -83,3 +83,5 @@ end
 
 --Weak doors play secret sound on opened
 function weak_door_1:on_opened() sol.audio.play_sound("secret_1") end
+function weak_door_2:on_opened() sol.audio.play_sound("secret_1") end
+

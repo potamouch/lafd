@@ -18804,33 +18804,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 760,
-  y = 8,
-  width = 16,
-  height = 24,
-  pattern = "992",
-}
-
-tile{
-  layer = 0,
-  x = 776,
-  y = 8,
-  width = 8,
-  height = 24,
-  pattern = "990",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 8,
-  width = 8,
-  height = 24,
-  pattern = "989",
-}
-
-tile{
-  layer = 0,
   x = 488,
   y = 88,
   width = 16,
@@ -18986,6 +18959,42 @@ tile{
   layer = 0,
   x = 488,
   y = 80,
+  width = 16,
+  height = 8,
+  pattern = "1201",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "1202",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 16,
+  width = 8,
+  height = 16,
+  pattern = "1060",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 16,
+  width = 8,
+  height = 16,
+  pattern = "1061",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 16,
   width = 16,
   height = 8,
   pattern = "1201",
@@ -23454,7 +23463,7 @@ destination{
   name = "fairy_fountain_2_A",
   layer = 0,
   x = 768,
-  y = 37,
+  y = 45,
   direction = 3,
 }
 
@@ -23462,24 +23471,11 @@ teletransporter{
   name = "fairy_fountain_1_A",
   layer = 0,
   x = 760,
-  y = 8,
+  y = 16,
   width = 16,
   height = 16,
   destination_map = "caves/prairie/fairy_fountain",
   destination = "fairy_fountain_1_B",
-}
-
-wall{
-  layer = 0,
-  x = 760,
-  y = 0,
-  width = 16,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 destination{
@@ -23541,6 +23537,39 @@ custom_entity{
   direction = 0,
   sprite = "entities/statue_big_dungeon_3",
   model = "obstacle",
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_2",
+  layer = 0,
+  x = 752,
+  y = 8,
+  pattern = "1062",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed_2",
+  layer = 0,
+  x = 752,
+  y = 16,
+  pattern = "957",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_door_2",
+  layer = 0,
+  x = 760,
+  y = 16,
+  direction = 0,
+  sprite = "entities/doors/door_weak_wall_out",
+  savegame_variable = "b3_prairie_weak_2",
+  opening_method = "explosion",
 }
 
 tile{
@@ -25836,15 +25865,6 @@ tile{
   width = 48,
   height = 8,
   pattern = "1451",
-}
-
-tile{
-  layer = 1,
-  x = 752,
-  y = 0,
-  width = 32,
-  height = 8,
-  pattern = "991",
 }
 
 pickable{
