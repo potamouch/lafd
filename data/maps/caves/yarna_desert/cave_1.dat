@@ -2890,6 +2890,51 @@ tile{
   pattern = "door_blast.1.support.2-2",
 }
 
+door{
+  name = "weak_door_1_2",
+  layer = 0,
+  x = 504,
+  y = 192,
+  direction = 3,
+  sprite = "entities/doors/door_weak_wall_cave",
+  savegame_variable = "yarna_desert_cave_2_weak_1",
+  opening_method = "explosion",
+}
+
+wall{
+  layer = 0,
+  x = 504,
+  y = 192,
+  width = 16,
+  height = 128,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed_2",
+  layer = 0,
+  x = 496,
+  y = 192,
+  pattern = "wall_low.2-2",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_door_1",
+  layer = 0,
+  x = 504,
+  y = 304,
+  direction = 1,
+  sprite = "entities/doors/door_weak_wall_cave",
+  savegame_variable = "yarna_desert_cave_2_weak_1",
+  opening_method = "explosion",
+}
+
 teletransporter{
   layer = 0,
   x = 512,
@@ -3002,18 +3047,6 @@ block{
 
 wall{
   layer = 0,
-  x = 504,
-  y = 192,
-  width = 16,
-  height = 128,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
   x = 224,
   y = 192,
   width = 16,
@@ -3044,17 +3077,6 @@ dynamic_tile{
   width = 32,
   height = 24,
   enabled_at_start = true,
-}
-
-door{
-  name = "weak_door_1",
-  layer = 0,
-  x = 504,
-  y = 304,
-  direction = 1,
-  sprite = "entities/doors/door_weak_wall_cave",
-  savegame_variable = "yarna_desert_cave_2_weak_1",
-  opening_method = "explosion",
 }
 
 enemy{
@@ -3969,24 +3991,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 480,
-  y = 208,
-  width = 64,
-  height = 8,
-  pattern = "door_cache_low.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 496,
-  y = 208,
-  width = 32,
-  height = 8,
-  pattern = "door_top.low.2-3",
-}
-
-tile{
-  layer = 1,
   x = 200,
   y = 296,
   width = 64,
@@ -4177,6 +4181,28 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/cave_rock",
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_4",
+  layer = 1,
+  x = 480,
+  y = 208,
+  pattern = "door_cache_low.2-2",
+  width = 64,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_3",
+  layer = 1,
+  x = 496,
+  y = 208,
+  pattern = "door_top.low.2-3",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{
