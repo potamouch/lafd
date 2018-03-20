@@ -19667,6 +19667,89 @@ door{
   opening_method = "explosion",
 }
 
+dynamic_tile{
+  name = "wart_cave_3",
+  layer = 0,
+  x = 216,
+  y = 232,
+  pattern = "1124",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "wart_cave_4",
+  layer = 0,
+  x = 200,
+  y = 240,
+  pattern = "1125",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "wart_cave_2",
+  layer = 0,
+  x = 192,
+  y = 232,
+  pattern = "1122",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "wart_cave_1",
+  layer = 0,
+  x = 200,
+  y = 232,
+  pattern = "1123",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "wart_cave_5",
+  layer = 0,
+  x = 200,
+  y = 256,
+  pattern = "1126",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+destination{
+  name = "wart_cave_stair",
+  layer = 0,
+  x = 208,
+  y = 261,
+  direction = 3,
+}
+
+teletransporter{
+  name = "wart_cave_stair_2",
+  layer = 0,
+  x = 200,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "caves/south_prairie/cave_5",
+  destination = "stair",
+}
+
+stairs{
+  name = "wart_cave_stair_3",
+  layer = 0,
+  x = 200,
+  y = 248,
+  direction = 1,
+  subtype = 3,
+}
+
 tile{
   layer = 1,
   x = 632,

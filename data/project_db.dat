@@ -24,6 +24,7 @@ map{ id = "caves/south_prairie/cave_1", description = "Cave 1" }
 map{ id = "caves/south_prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/south_prairie/cave_3", description = "Cave 3 - Magic Powder Upgrade" }
 map{ id = "caves/south_prairie/cave_4", description = "Cave 4 - Boomerang Cave" }
+map{ id = "caves/south_prairie/cave_5", description = "Cave 5 - Wart Cave" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }
 map{ id = "caves/west_mt_tamaranch/cave_2", description = "Cave 2 - To Turtle Rock" }
 map{ id = "caves/yarna_desert/cave_1", description = "Cave 1 - Heart Piece Cave" }
