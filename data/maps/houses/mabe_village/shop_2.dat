@@ -397,7 +397,7 @@ chest{
   layer = 0,
   x = 120,
   y = 157,
-  treasure_name = "shovel",
+  treasure_name = "power_bracelet",
   sprite = "entities/chest",
 }
 
