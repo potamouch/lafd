@@ -589,8 +589,8 @@ custom_entity{
 destructible{
   name = "auto_destructible_1",
   layer = 0,
-  x = 240,
-  y = 117,
+  x = 224,
+  y = 101,
   sprite = "entities/skull_white",
   destruction_sound = "stone",
   weight = 1,
@@ -1035,6 +1035,24 @@ tile{
   pattern = "door_top.stairs_up.2-1",
 }
 
+tile{
+  layer = 1,
+  x = 136,
+  y = 48,
+  width = 32,
+  height = 32,
+  pattern = "four_sword_palace_skull.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-5",
+}
+
 jumper{
   layer = 1,
   x = 112,
@@ -1101,7 +1119,7 @@ custom_entity{
   name = "mad_batter",
   layer = 1,
   x = 144,
-  y = 77,
+  y = 101,
   width = 32,
   height = 16,
   direction = 0,
@@ -1113,7 +1131,7 @@ custom_entity{
   name = "mad_batter_2",
   layer = 1,
   x = 128,
-  y = 61,
+  y = 69,
   width = 16,
   height = 48,
   direction = 1,
@@ -1125,7 +1143,7 @@ custom_entity{
   name = "mad_batter_3",
   layer = 1,
   x = 176,
-  y = 61,
+  y = 69,
   width = 16,
   height = 48,
   direction = 1,
