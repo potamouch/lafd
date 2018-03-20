@@ -11,6 +11,18 @@ animation{
   },
 }
 animation{
+  name = "awakening",
+  src_image = "npc/mad_bat.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}
+animation{
   name = "cursing",
   src_image = "npc/mad_bat.png",
   frame_delay = 60,
