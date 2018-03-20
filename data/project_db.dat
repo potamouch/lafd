@@ -173,6 +173,7 @@ sprite{ id = "enemies/hardhat_beetle_blue", description = "Hardhat beetle blue" 
 sprite{ id = "enemies/hardhat_beetle_red", description = "Hardhat beetle red" }
 sprite{ id = "enemies/hooded_stalfos", description = "Hooded stalfos" }
 sprite{ id = "enemies/keese", description = "Keese" }
+sprite{ id = "enemies/leever", description = "Leever" }
 sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
 sprite{ id = "enemies/monkey", description = "Monkey" }
