@@ -1700,6 +1700,33 @@ tile{
   pattern = "wall_low.corner_reverse.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 216,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_down.2",
+}
+
 wall{
   layer = 0,
   x = 280,
@@ -2026,6 +2053,32 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "stair_6",
+  layer = 0,
+  x = 208,
+  y = 469,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 200,
+  y = 456,
+  width = 16,
+  height = 16,
+  destination_map = "out/a3_mabe_village",
+  destination = "stair_weathercok",
+}
+
+stairs{
+  layer = 0,
+  x = 200,
+  y = 456,
+  direction = 3,
+  subtype = 3,
 }
 
 tile{
@@ -2818,6 +2871,33 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner_reverse.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 472,
+  width = 64,
+  height = 8,
+  pattern = "door_cache_low.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 472,
+  width = 32,
+  height = 8,
+  pattern = "door_top.low.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 472,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_down.2-1",
 }
 
 tile{
