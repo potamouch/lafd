@@ -9,7 +9,7 @@ map{ id = "caves/egg_of_the_dream_fish/cave_5", description = "Cave 5 - Path to 
 map{ id = "caves/egg_of_the_dream_fish/moblins_cave", description = "Moblins's house" }
 map{ id = "caves/forest/cave_1", description = "Cave 1" }
 map{ id = "caves/forest/cave_2", description = "Cave 2" }
-map{ id = "caves/forest/cave_3", description = "Cave 3 - Bombs Upgrade" }
+map{ id = "caves/forest/cave_3", description = "Cave 3 - Magic powder Upgrade" }
 map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "caves/mambos_cave/cave_1", description = "Cave 1 - Vers randonneur 1" }
@@ -634,7 +634,9 @@ sound{ id = "items/ocarina_3", description = "items/ocarina_3" }
 sound{ id = "items/ocarina_3_revive_1", description = "items/ocarina_3_revive_1" }
 sound{ id = "items/ocarina_3_revive_2", description = "items/ocarina_3_revive_2" }
 sound{ id = "jump", description = "Jump" }
+sound{ id = "laser", description = "Laser" }
 sound{ id = "lift", description = "Lift" }
+sound{ id = "mad_bat_appear", description = "Mad bat appear" }
 sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "message_end", description = "Message end" }
 sound{ id = "message_letter", description = "Message letter" }

@@ -11,6 +11,7 @@ end
 
 function item:on_obtaining(variant, savegame_variable)
 
+  self:set_max_amount(20)
   self:set_amount(20)
   --local item = game:get_item("mushroom")
   --item:set_savegame_variable(nil)
@@ -59,7 +60,7 @@ function item:create_fire()
   end
 
   local x, y, layer = hero:get_position()
-  map:create_custom_entity{
+  local fire = map:create_custom_entity{
     model = "fire",
     x = x + dx,
     y = y + dy,
@@ -68,4 +69,6 @@ function item:create_fire()
     height = 16,
     direction = 0,
   }
+  local fire_sprite = fire:get_sprite()
+  fire_sprite:set_ignore_suspend(true)
 end

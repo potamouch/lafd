@@ -69,7 +69,6 @@ end
 
 function dungeon_1_lock:on_interaction()
 
-  print("ok")
       if game:get_value("main_quest_step") < 6 then
           game:start_dialog("maps.out.south_mabe_village.dungeon_1_lock")
       elseif game:get_value("main_quest_step") == 6 then

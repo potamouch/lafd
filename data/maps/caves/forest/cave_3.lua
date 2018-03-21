@@ -9,13 +9,12 @@
 
 local map = ...
 local game = map:get_game()
-local separator_manager = require("scripts/maps/separator_manager")
 local companion_manager = require("scripts/maps/companion_manager")
-
-separator_manager:manage_map(map)
+local mad_bat_manager = require("scripts/maps/mad_bat_manager")
 
 function map:on_started()
 
   companion_manager:init_map(map)
+  mad_bat_manager:init_map(map, "mad_bat", "mad_bat")
 
 end

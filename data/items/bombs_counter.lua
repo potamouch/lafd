@@ -10,9 +10,8 @@ end
 
 function item:on_obtaining(variant, savegame_variable)
 
+  self:set_max_amount(20)
   self:set_amount(20)
-  --local item = game:get_item("mushroom")
-  --item:set_savegame_variable(nil)
 
 end
 

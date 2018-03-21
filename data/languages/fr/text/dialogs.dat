@@ -4042,6 +4042,71 @@ Coeurs !
 }
 
 dialog{
+  id = "scripts.meta.map.mad_bat_1",
+  text = [[
+Dis donc toi !   
+Merci de m'avoir
+dérangé pendant 
+ma sieste !      
+Tiens, j'ai un  
+cadeau pour toi.
+Tu es prêt ? 
+]],
+}
+
+dialog{
+  id = "scripts.meta.map.mad_bat_2_arrows",
+  question = "1",
+  text = [[
+Tu veux plus de 
+Flèches ?  
+      
+Tu es prêt ? 
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "scripts.meta.map.mad_bat_2_bombs",
+  question = "1",
+  text = [[
+Tu veux plus de 
+Bombes ?      
+   
+Tu es prêt ?     
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "scripts.meta.map.mad_bat_2_magic_powder",
+  question = "1",
+  text = [[
+Tu veux plus de 
+Poudre Magique ? 
+
+Tu es prêt ?     
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "scripts.meta.map.mad_bat_3",
+  text = [[
+Hi hi hi !       
+C'est bien fait 
+pour toi !       
+Tu as vu tout   
+ce que tu dois  
+porter !!!       
+Allez, salut !
+]],
+}
+
+dialog{
   id = "scripts.meta.map.owl_0",
   text = [[
 Hou hou
