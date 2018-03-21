@@ -38,3 +38,13 @@ animation{
     { x = 0, y = 48, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
+animation{
+  name = "shop_angry_sign",
+  src_image = "entities/signs.png",
+  directions = {
+    { x = 0, y = 64, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 64, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 64, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 64, frame_width = 48, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
