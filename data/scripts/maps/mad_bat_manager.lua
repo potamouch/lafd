@@ -93,7 +93,7 @@ function mad_bat_manager:launch_dialog_item(map, mad_bat_name, savegame)
   local nb_total= 0
   for key,value in pairs(mad_bat_manager.items) do
      nb_total = nb_total + 1
-    if game:get_value(savegame .. '_item_' .. key) then
+    if game:get_value('mad_bat_item_' .. key) then
       nb = nb + 1
     end
   end
@@ -103,7 +103,7 @@ function mad_bat_manager:launch_dialog_item(map, mad_bat_name, savegame)
         if item_id > 3 then
           item_id = 1
         end
-       if item_id ~= item_current and game:get_value(savegame .. '_item_' .. item_id) == nil then
+       if item_id ~= item_current and game:get_value('mad_bat_item_' .. item_id) == nil then
           item_found = item_id
        end
      end
@@ -134,7 +134,7 @@ function mad_bat_manager:launch_laser(map, mad_bat_name, savegame)
       game:set_pause_allowed(true)
       game:set_suspended(false)
       is_awake = false
-      game:set_value(savegame .. '_item_' .. mad_bat_manager.item_id, true)
+      game:set_value( 'mad_bat_item_' .. mad_bat_manager.item_id, true)
       game:set_value(savegame, true)
       if item_name == "magic_powder" then
         local item = game:get_item("magic_powders_counter")

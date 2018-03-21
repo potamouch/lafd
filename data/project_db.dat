@@ -6,12 +6,12 @@ map{ id = "caves/east_prairie/cave_3", description = "Cave 3 - Prairie Hill 2" }
 map{ id = "caves/egg_of_the_dream_fish/cave_1", description = "Cave 1" }
 map{ id = "caves/egg_of_the_dream_fish/cave_2", description = "Cave 2" }
 map{ id = "caves/egg_of_the_dream_fish/cave_3", description = "Cave 3" }
-map{ id = "caves/egg_of_the_dream_fish/cave_4", description = "Cave 4 - Arrows Upgrade" }
+map{ id = "caves/egg_of_the_dream_fish/cave_4", description = "Cave 4 - Mad bat cavern" }
 map{ id = "caves/egg_of_the_dream_fish/cave_5", description = "Cave 5 - Path to West Mt Tamaranch" }
 map{ id = "caves/egg_of_the_dream_fish/moblins_cave", description = "Moblins's house" }
 map{ id = "caves/forest/cave_1", description = "Cave 1" }
 map{ id = "caves/forest/cave_2", description = "Cave 2" }
-map{ id = "caves/forest/cave_3", description = "Cave 3 - Magic powder Upgrade" }
+map{ id = "caves/forest/cave_3", description = "Cave 3 - Mad Bat cavern" }
 map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "caves/mambos_cave/cave_1", description = "Cave 1 - Vers randonneur 1" }
@@ -24,7 +24,7 @@ map{ id = "caves/prairie/cave_2", description = "Cave 2" }
 map{ id = "caves/prairie/fairy_fountain", description = "Fairy fountain" }
 map{ id = "caves/south_prairie/cave_1", description = "Cave 1" }
 map{ id = "caves/south_prairie/cave_2", description = "Cave 2" }
-map{ id = "caves/south_prairie/cave_3", description = "Cave 3 - Magic Powder Upgrade" }
+map{ id = "caves/south_prairie/cave_3", description = "Cave 3 - Mad bat cavern" }
 map{ id = "caves/south_prairie/cave_4", description = "Cave 4 - Boomerang Cave" }
 map{ id = "caves/south_prairie/cave_5", description = "Cave 5 - Wart Cave" }
 map{ id = "caves/west_mt_tamaranch/cave_1", description = "Cave 1" }

@@ -1236,3 +1236,39 @@ tile{
   pattern = "ceiling.2",
 }
 
+tile{
+  layer = 2,
+  x = -16,
+  y = -16,
+  width = 352,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = -16,
+  y = 256,
+  width = 352,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 0,
+  width = 16,
+  height = 256,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 256,
+  pattern = "ceiling.2",
+}
+
