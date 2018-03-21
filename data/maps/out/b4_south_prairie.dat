@@ -19750,6 +19750,15 @@ stairs{
   subtype = 3,
 }
 
+enemy{
+  layer = 0,
+  x = 152,
+  y = 669,
+  direction = 0,
+  breed = "sand_crab",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 632,
@@ -21789,42 +21798,6 @@ custom_entity{
   layer = 2,
   x = 264,
   y = 477,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/seagull",
-  model = "seagull",
-}
-
-custom_entity{
-  name = "butterfly_32",
-  layer = 2,
-  x = 112,
-  y = 709,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/seagull",
-  model = "seagull",
-}
-
-custom_entity{
-  name = "butterfly_33",
-  layer = 2,
-  x = 88,
-  y = 597,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "npc/seagull",
-  model = "seagull",
-}
-
-custom_entity{
-  name = "butterfly_34",
-  layer = 2,
-  x = 176,
-  y = 605,
   width = 16,
   height = 16,
   direction = 3,
