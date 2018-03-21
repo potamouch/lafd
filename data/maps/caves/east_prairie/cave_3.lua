@@ -19,3 +19,4 @@ function map:on_started()
   companion_manager:init_map(map)
 
 end
+
