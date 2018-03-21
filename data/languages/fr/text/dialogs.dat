@@ -1765,6 +1765,39 @@ Hum! C'est très
 }
 
 dialog{
+  id = "maps.houses.mabe_village.library.book_9.content",
+  text = [[
+Un monde de     
+couleur sous 5  
+pierres tombales             
+   3^  4>  5^   
+   2<  1v       
+Teste ton       
+courage. Ouvre  
+un nouveau      
+chemin!         
+Le valeureux    
+aura le pouvoir 
+des couleurs.   
+Quel est le mon-
+de de couleur ?
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.library.book_9.question",
+  question = "1",
+  text = [[
+Voulez-vous lire
+ce livre ?       
+
+
+Lire
+Non
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.marine_house.marine_1",
   skip = "all",
   text = [[
