@@ -1697,7 +1697,7 @@ tile{
   layer = 0,
   x = 64,
   y = 416,
-  width = 816,
+  width = 560,
   height = 16,
   pattern = "918",
 }
@@ -6643,6 +6643,78 @@ tile{
   pattern = "14667",
 }
 
+tile{
+  layer = 0,
+  x = 632,
+  y = 408,
+  width = 32,
+  height = 8,
+  pattern = "113",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 392,
+  width = 8,
+  height = 24,
+  pattern = "1708",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 392,
+  width = 8,
+  height = 24,
+  pattern = "1709",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 392,
+  width = 16,
+  height = 24,
+  pattern = "1710",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 384,
+  width = 32,
+  height = 8,
+  pattern = "1711",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "925",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "923",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 416,
+  width = 208,
+  height = 16,
+  pattern = "918",
+}
+
 teletransporter{
   name = "to_d2",
   layer = 0,
@@ -6877,6 +6949,47 @@ chest{
   treasure_name = "seashell",
   treasure_savegame_variable = "seashell_20",
   sprite = "entities/chest",
+}
+
+teletransporter{
+  layer = 0,
+  x = 640,
+  y = 392,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_1",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 640,
+  y = 384,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_underwater",
+  layer = 0,
+  x = 648,
+  y = 421,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 640,
+  y = 272,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_1",
+  destination = "hole",
 }
 
 npc{

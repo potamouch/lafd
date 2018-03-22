@@ -1,4 +1,5 @@
 map{ id = "caves/cave", description = "Cave" }
+map{ id = "caves/east_mt_tamaranch/cave_1", description = "Cave 1 - Underwater Cave" }
 map{ id = "caves/east_mt_tamaranch/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/east_prairie/cave_1", description = "Cave 1 - Road to Animals Village" }
 map{ id = "caves/east_prairie/cave_2", description = "Cave 2 - Prairie Hill 1" }
