@@ -4205,6 +4205,15 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+pickable{
+  name = "piece_of_heart_1",
+  layer = 1,
+  x = 136,
+  y = 61,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_10",
+}
+
 tile{
   layer = 2,
   x = 0,
@@ -4338,15 +4347,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "ceiling.2",
-}
-
-tile{
-  layer = 2,
-  x = 128,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "464",
 }
 
 separator{

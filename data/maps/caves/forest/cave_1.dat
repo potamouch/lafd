@@ -2488,12 +2488,12 @@ block{
 }
 
 pickable{
-  name = "piece_of_heart_3",
+  name = "piece_of_heart_4",
   layer = 0,
   x = 144,
   y = 133,
   treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "piece_of_heart_3",
+  treasure_savegame_variable = "piece_of_heart_4",
 }
 
 destructible{

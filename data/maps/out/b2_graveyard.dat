@@ -18019,6 +18019,51 @@ tile{
   pattern = "114",
 }
 
+tile{
+  layer = 0,
+  x = 320,
+  y = 656,
+  width = 16,
+  height = 8,
+  pattern = "1126",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 632,
+  width = 16,
+  height = 8,
+  pattern = "1123",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 632,
+  width = 8,
+  height = 32,
+  pattern = "1122",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1125",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 632,
+  width = 8,
+  height = 32,
+  pattern = "1124",
+}
+
 destructible{
   layer = 0,
   x = 704,
@@ -21324,12 +21369,12 @@ destructible{
 }
 
 pickable{
-  name = "piece_of_heart_2",
+  name = "piece_of_heart_3",
   layer = 0,
   x = 120,
   y = 85,
   treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "piece_of_heart_2",
+  treasure_savegame_variable = "piece_of_heart_3",
 }
 
 custom_entity{

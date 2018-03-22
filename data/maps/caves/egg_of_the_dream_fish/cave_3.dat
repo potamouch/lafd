@@ -4707,12 +4707,12 @@ dynamic_tile{
 }
 
 pickable{
-  name = "piece_of_heart_3",
+  name = "piece_of_heart_11",
   layer = 0,
   x = 768,
   y = 381,
   treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "piece_of_heart_3",
+  treasure_savegame_variable = "piece_of_heart_11",
 }
 
 custom_entity{
