@@ -6719,16 +6719,6 @@ destructible{
   damage_on_enemies = 2,
 }
 
-destructible{
-  layer = 0,
-  x = 872,
-  y = 669,
-  sprite = "entities/stone_small_white",
-  destruction_sound = "stone",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
 separator{
   name = "separator_1",
   layer = 0,
@@ -9099,6 +9089,25 @@ door{
   sprite = "entities/doors/door_weak_wall_out",
   savegame_variable = "d4_yarna_desert_weak_1",
   opening_method = "explosion",
+}
+
+pickable{
+  name = "seashell_12",
+  layer = 0,
+  x = 872,
+  y = 669,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_12",
+}
+
+destructible{
+  layer = 0,
+  x = 872,
+  y = 669,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{

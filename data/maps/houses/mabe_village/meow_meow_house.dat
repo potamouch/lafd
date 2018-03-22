@@ -916,7 +916,7 @@ npc{
 }
 
 pickable{
-  name = "auto_shovel_seashell",
+  name = "auto_shovel_seashell_2",
   layer = 0,
   x = 392,
   y = 141,

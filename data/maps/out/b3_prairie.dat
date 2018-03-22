@@ -7464,42 +7464,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 488,
-  width = 8,
-  height = 8,
-  pattern = "84",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 496,
-  width = 8,
-  height = 8,
-  pattern = "84",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 488,
-  width = 8,
-  height = 8,
-  pattern = "101",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 496,
-  width = 8,
-  height = 8,
-  pattern = "100",
-}
-
-tile{
-  layer = 0,
   x = 448,
   y = 448,
   width = 8,
@@ -23611,6 +23575,27 @@ destructible{
   x = 248,
   y = 237,
   treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+pickable{
+  name = "auto_shovel_seashell",
+  layer = 0,
+  x = 376,
+  y = 501,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_6",
+}
+
+destructible{
+  layer = 0,
+  x = 664,
+  y = 501,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_17",
   sprite = "entities/bush",
   destruction_sound = "bush",
   weight = 1,

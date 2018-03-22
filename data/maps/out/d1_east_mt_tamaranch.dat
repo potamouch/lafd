@@ -6748,16 +6748,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 216,
-  y = 53,
-  sprite = "entities/stone_small_white",
-  destruction_sound = "stone",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
   x = 184,
   y = 69,
   sprite = "entities/stone_small_white",
@@ -6859,6 +6849,34 @@ custom_entity{
   height = 16,
   direction = 3,
   sprite = "entities/house_dungeon_7",
+}
+
+pickable{
+  name = "seashell_19",
+  layer = 0,
+  x = 216,
+  y = 53,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_19",
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 53,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+chest{
+  layer = 0,
+  x = 376,
+  y = 197,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_20",
+  sprite = "entities/chest",
 }
 
 npc{

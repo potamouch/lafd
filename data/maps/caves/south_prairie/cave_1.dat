@@ -1234,6 +1234,7 @@ chest{
   x = 88,
   y = 93,
   treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_11",
   sprite = "entities/chest",
 }
 

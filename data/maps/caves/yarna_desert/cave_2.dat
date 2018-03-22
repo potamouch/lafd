@@ -2569,6 +2569,15 @@ custom_entity{
   sprite = "entities/cave_rock",
 }
 
+pickable{
+  name = "piece_of_heart_6",
+  layer = 0,
+  x = 144,
+  y = 85,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_6",
+}
+
 tile{
   layer = 1,
   x = 288,
@@ -3957,15 +3966,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "ceiling.2",
-}
-
-tile{
-  layer = 2,
-  x = 136,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "464",
 }
 
 separator{

@@ -11775,15 +11775,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
-  y = 648,
-  width = 16,
-  height = 16,
-  pattern = "1111",
-}
-
-tile{
-  layer = 0,
   x = 944,
   y = 48,
   width = 8,
@@ -18122,18 +18113,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 152,
-  y = 661,
-  treasure_name = "seashell",
-  treasure_savegame_variable = "seashell_4",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
   x = 304,
   y = 645,
   sprite = "entities/stone_small_white",
@@ -21877,6 +21856,27 @@ custom_entity{
   height = 8,
   direction = 0,
   sprite = "entities/graveyard_tree",
+}
+
+pickable{
+  name = "auto_shovel_seashell",
+  layer = 0,
+  x = 152,
+  y = 661,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_4",
+}
+
+destructible{
+  layer = 0,
+  x = 152,
+  y = 661,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_4",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
 }
 
 tile{
