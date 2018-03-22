@@ -5080,7 +5080,7 @@ tile{
 tile{
   layer = 0,
   x = 312,
-  y = 616,
+  y = 600,
   width = 32,
   height = 16,
   pattern = "728",
@@ -8590,18 +8590,18 @@ tile{
 tile{
   layer = 0,
   x = 296,
-  y = 632,
+  y = 616,
   width = 16,
-  height = 32,
+  height = 48,
   pattern = "728",
 }
 
 tile{
   layer = 0,
   x = 344,
-  y = 632,
+  y = 616,
   width = 16,
-  height = 32,
+  height = 48,
   pattern = "728",
 }
 
@@ -18012,29 +18012,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
-  y = 656,
-  width = 16,
-  height = 8,
-  pattern = "1126",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 632,
-  width = 16,
-  height = 8,
-  pattern = "1123",
-}
-
-tile{
-  layer = 0,
   x = 312,
   y = 632,
   width = 8,
   height = 32,
-  pattern = "1122",
+  pattern = "1129",
 }
 
 tile{
@@ -18043,7 +18025,7 @@ tile{
   y = 640,
   width = 16,
   height = 16,
-  pattern = "1125",
+  pattern = "1128",
 }
 
 tile{
@@ -18052,7 +18034,25 @@ tile{
   y = 632,
   width = 8,
   height = 32,
-  pattern = "1124",
+  pattern = "1131",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 656,
+  width = 16,
+  height = 8,
+  pattern = "1130",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 632,
+  width = 16,
+  height = 8,
+  pattern = "1127",
 }
 
 destructible{
@@ -18114,7 +18114,7 @@ destructible{
 destructible{
   layer = 0,
   x = 304,
-  y = 645,
+  y = 629,
   sprite = "entities/stone_small_white",
   destruction_sound = "stone",
   weight = 1,
@@ -18124,7 +18124,7 @@ destructible{
 destructible{
   layer = 0,
   x = 352,
-  y = 645,
+  y = 629,
   sprite = "entities/stone_small_white",
   destruction_sound = "stone",
   weight = 1,
@@ -18144,7 +18144,7 @@ destructible{
 destructible{
   layer = 0,
   x = 336,
-  y = 629,
+  y = 613,
   sprite = "entities/stone_small_white",
   destruction_sound = "stone",
   weight = 1,
@@ -18164,7 +18164,7 @@ destructible{
 destructible{
   layer = 0,
   x = 320,
-  y = 629,
+  y = 613,
   sprite = "entities/stone_small_white",
   destruction_sound = "stone",
   weight = 1,
@@ -21877,6 +21877,60 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+destination{
+  name = "stair_cave_heart_piece_west",
+  layer = 0,
+  x = 328,
+  y = 645,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 632,
+  width = 16,
+  height = 16,
+  destination_map = "caves/graveyard/cave_1",
+  destination = "stair_west",
+}
+
+stairs{
+  layer = 0,
+  x = 320,
+  y = 632,
+  direction = 3,
+  subtype = 3,
+}
+
+destination{
+  name = "stair_cave_heart_piece_east",
+  layer = 0,
+  x = 648,
+  y = 685,
+  direction = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 304,
+  y = 645,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 352,
+  y = 645,
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{
