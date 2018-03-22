@@ -23602,6 +23602,25 @@ destructible{
   can_be_cut = true,
 }
 
+custom_entity{
+  name = "collision_seashell",
+  layer = 0,
+  x = 200,
+  y = 429,
+  width = 48,
+  height = 64,
+  direction = 0,
+}
+
+pickable{
+  name = "seashell_13",
+  layer = 0,
+  x = 216,
+  y = 437,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_13",
+}
+
 tile{
   layer = 1,
   x = 696,

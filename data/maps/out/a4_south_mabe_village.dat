@@ -11339,6 +11339,25 @@ enemy{
   treasure_name = "random",
 }
 
+custom_entity{
+  name = "collision_seashell",
+  layer = 0,
+  x = 592,
+  y = 293,
+  width = 48,
+  height = 64,
+  direction = 0,
+}
+
+pickable{
+  name = "seashell_14",
+  layer = 0,
+  x = 608,
+  y = 301,
+  treasure_name = "seashell",
+  treasure_savegame_variable = "seashell_14",
+}
+
 tile{
   layer = 1,
   x = 488,

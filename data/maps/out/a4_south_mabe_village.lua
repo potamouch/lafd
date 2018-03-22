@@ -42,6 +42,23 @@ function map:on_started(destination)
     map:open_dungeon_1()
   end
 
+  -- Seashell's tree
+  local seashell_tree_found = false
+  collision_seashell:add_collision_test("facing", function(entity, other, entity_sprite, other_sprite)
+    if other:get_type() == 'hero' and hero:get_state() == "running" and seashell_tree_found == false and game:get_value("seashell_14") == nil then
+      sol.timer.start(map, 250, function()
+        movement = sol.movement.create("jump")
+        movement:set_speed(100)
+        movement:set_distance(64)
+        movement:set_direction8(0)
+        movement:set_ignore_obstacles(true)
+        movement:start(seashell_14, function()
+          seashell_tree_found = true 
+        end)
+      end)
+    end
+  end)
+
 end
 
 function owl_1_sensor:on_activated()
