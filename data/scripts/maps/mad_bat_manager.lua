@@ -125,35 +125,42 @@ function mad_bat_manager:launch_laser(map, mad_bat_name, savegame)
   local game = map:get_game()
   local npc = map:get_entity(mad_bat_name .. "_npc")
   local npc_sprite = npc:get_sprite()
-  npc_sprite:set_animation("walking")
-  local hero = map:get_hero()
-  laser_manager:init_map(map, hero, npc, function()
-    game:start_dialog("scripts.meta.map.mad_bat_3", function()
-      npc:remove()
-      sol.audio.play_sound(mad_bat_name .. "_disappear")
-      game:set_pause_allowed(true)
-      game:set_suspended(false)
-      is_awake = false
-      game:set_value( 'mad_bat_item_' .. mad_bat_manager.item_id, true)
-      game:set_value(savegame, true)
-      if item_name == "magic_powder" then
-        local item = game:get_item("magic_powders_counter")
-        item:set_max_amount(40)
-        item:set_amount(40)
-      end
-      if item_name == "arrows" then
-        local item = game:get_item("arrow")
-        --item:set_max_amount(40)
-        --item:set_amount(40)
-        -- todo
-      end
-      if item_name == "bombs" then
-        local item = game:get_item("bombs_counter")
-        item:set_max_amount(40)
-        item:set_amount(40)
-      end
-    end)
-  end)
+  npc_sprite:set_animation("cursing")
+  function npc_sprite:on_animation_finished(animation)
+    if animation == "cursing" then
+      npc_sprite:set_animation("walking")
+    --npc_sprite:set_animation("walking")
+      local hero = map:get_hero()
+      laser_manager:init_map(map, hero, npc, function()
+        game:start_dialog("scripts.meta.map.mad_bat_3", function()
+          npc:remove()
+          sol.audio.play_sound(mad_bat_name .. "_disappear")
+          game:set_pause_allowed(true)
+          game:set_suspended(false)
+          is_awake = false
+          game:set_value( 'mad_bat_item_' .. mad_bat_manager.item_id, true)
+          game:set_value(savegame, true)
+          local item_name = mad_bat_manager.items[mad_bat_manager.item_id]
+          if item_name == "magic_powder" then
+            local item = game:get_item("magic_powders_counter")
+            item:set_max_amount(40)
+            item:set_amount(40)
+          end
+          if item_name == "arrows" then
+            local item = game:get_item("arrow")
+            --item:set_max_amount(40)
+            --item:set_amount(40)
+            -- todo
+          end
+          if item_name == "bombs" then
+            local item = game:get_item("bombs_counter")
+            item:set_max_amount(40)
+            item:set_amount(40)
+          end
+        end)
+      end)
+    end
+  end
 
 end
 

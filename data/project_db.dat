@@ -639,6 +639,7 @@ sound{ id = "jump", description = "Jump" }
 sound{ id = "laser", description = "Laser" }
 sound{ id = "lift", description = "Lift" }
 sound{ id = "mad_bat_appear", description = "Mad bat appear" }
+sound{ id = "mad_bat_disappear", description = "Mad bat disappear" }
 sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "message_end", description = "Message end" }
 sound{ id = "message_letter", description = "Message letter" }

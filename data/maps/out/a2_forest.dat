@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "out/light_world_legacy",
-  music = "same",
+  music = "maps/out/mysterious_forest",
 }
 
 tile{
