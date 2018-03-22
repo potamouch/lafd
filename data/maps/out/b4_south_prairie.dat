@@ -14050,7 +14050,7 @@ destructible{
 npc{
   name = "sign_1",
   layer = 0,
-  x = 120,
+  x = 136,
   y = 189,
   direction = 3,
   subtype = 0,
