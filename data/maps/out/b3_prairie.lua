@@ -81,6 +81,13 @@ function dungeon_3_lock:on_interaction()
 
 end
 
+function sign_start:on_interaction()
+
+  game:start_dialog("maps.out.south_mabe_village.surprise_3")
+  game:set_value("wart_cave_start", true)
+
+end
+
 --Weak doors play secret sound on opened
 function weak_door_1:on_opened() sol.audio.play_sound("secret_1") end
 function weak_door_2:on_opened() sol.audio.play_sound("secret_1") end

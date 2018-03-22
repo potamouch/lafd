@@ -3366,6 +3366,59 @@ bouclier !
 }
 
 dialog{
+  id = "maps.out.south_mabe_village.surprise_0",
+  text = [[
+> Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.surprise_1",
+  text = [[
+^ Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.surprise_2",
+  text = [[
+< Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.surprise_3",
+  text = [[
+v Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.surprise_error",
+  text = [[
+RETOUR A LA     
+CASE DEPART !
+]],
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.surprise_finished",
+  text = [[
+EN TOURNEE      
+Signé : WART
+]],
+}
+
+dialog{
+  id = "maps.out.south_mabe_village.surprise_success",
+  text = [[
+TU AS REUSS I!   
+PAR ICI >       
+SURPRISE !!
+]],
+}
+
+dialog{
   id = "maps.out.south_prairie.owl_statue_1",
   text = [[
 SOUS TES PIEDS, DORT 

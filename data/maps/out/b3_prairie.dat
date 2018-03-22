@@ -19130,6 +19130,7 @@ teletransporter{
 }
 
 npc{
+  name = "sign_start",
   layer = 0,
   x = 136,
   y = 701,
@@ -23570,6 +23571,50 @@ door{
   sprite = "entities/doors/door_weak_wall_out",
   savegame_variable = "b3_prairie_weak_2",
   opening_method = "explosion",
+}
+
+destructible{
+  layer = 0,
+  x = 616,
+  y = 45,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 632,
+  y = 45,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 648,
+  y = 45,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 237,
+  treasure_name = "random",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
 }
 
 tile{
