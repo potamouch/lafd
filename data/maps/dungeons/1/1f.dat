@@ -14231,19 +14231,29 @@ custom_entity{
 }
 
 destination{
-  name = "destination",
-  layer = 0,
-  x = 2088,
-  y = 453,
-  direction = 1,
-}
-
-destination{
   name = "wallturn_teletransporter",
   layer = 0,
   x = 1440,
   y = 1293,
   direction = 1,
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 2000,
+  y = 1157,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1688,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "destination_2",
 }
 
 tile{
