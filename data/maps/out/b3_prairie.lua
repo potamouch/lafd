@@ -99,7 +99,7 @@ end
 
 function sign_start:on_interaction()
 
-  game:start_dialog("maps.out.south_mabe_village.surprise_3")
+  game:start_dialog("maps.out.south_prairie.surprise_3")
   game:set_value("wart_cave_start", true)
 
 end

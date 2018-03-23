@@ -625,6 +625,16 @@ custom_entity{
   sprite = "entities/bananas",
 }
 
+npc{
+  layer = 0,
+  x = 136,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/sign",
+  behavior = "dialog#test",
+}
+
 tile{
   layer = 1,
   x = 144,

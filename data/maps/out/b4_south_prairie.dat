@@ -3543,7 +3543,7 @@ tile{
   x = 48,
   y = 328,
   width = 16,
-  height = 16,
+  height = 32,
   pattern = "728",
 }
 

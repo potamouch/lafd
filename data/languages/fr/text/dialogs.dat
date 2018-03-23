@@ -738,8 +738,8 @@ dialog{
   icon = "101",
   text = [[
 Tu échanges ton 
-Yoshi contre ce     
-Ruban.       
+¢ contre ce £.      
+ 
 Peut-être le    
 troqueras-tu    
 par la suite...
@@ -3059,7 +3059,7 @@ dialog{
   id = "maps.out.mabe_village.grand_ma_1",
   skip = "all",
   text = [[
-YOUPI! J'ai la  
+YOUPI ! J'ai la  
 pêche ! Et toi ? 
 ]],
 }
@@ -3321,8 +3321,8 @@ dialog{
   id = "maps.out.prairie.sign_1",
   skip = "all",
   text = [[
-Est : Prairie   
-Plus à l'Est :  
+Est > Prairie   
+Plus à l'Est
 Village des Animaux
 ]],
 }
@@ -3366,59 +3366,6 @@ bouclier !
 }
 
 dialog{
-  id = "maps.out.south_mabe_village.surprise_0",
-  text = [[
-> Par ici !
-]],
-}
-
-dialog{
-  id = "maps.out.south_mabe_village.surprise_1",
-  text = [[
-^ Par ici !
-]],
-}
-
-dialog{
-  id = "maps.out.south_mabe_village.surprise_2",
-  text = [[
-< Par ici !
-]],
-}
-
-dialog{
-  id = "maps.out.south_mabe_village.surprise_3",
-  text = [[
-v Par ici !
-]],
-}
-
-dialog{
-  id = "maps.out.south_mabe_village.surprise_error",
-  text = [[
-RETOUR A LA     
-CASE DEPART !
-]],
-}
-
-dialog{
-  id = "maps.out.south_mabe_village.surprise_finished",
-  text = [[
-EN TOURNEE      
-Signé : WART
-]],
-}
-
-dialog{
-  id = "maps.out.south_mabe_village.surprise_success",
-  text = [[
-TU AS REUSS I!   
-PAR ICI >       
-SURPRISE !!
-]],
-}
-
-dialog{
   id = "maps.out.south_prairie.owl_statue_1",
   text = [[
 SOUS TES PIEDS, DORT 
@@ -3438,6 +3385,59 @@ dialog{
   text = [[
 Château Canulet 
 10 min. Est, puis Nord
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_0",
+  text = [[
+> Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_1",
+  text = [[
+^ Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_2",
+  text = [[
+< Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_3",
+  text = [[
+_ Par ici !
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_error",
+  text = [[
+RETOUR A LA     
+CASE DEPART !
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_finished",
+  text = [[
+EN TOURNEE      
+Signé : WART
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.surprise_success",
+  text = [[
+TU AS REUSS I!   
+PAR ICI >       
+SURPRISE !!
 ]],
 }
 
