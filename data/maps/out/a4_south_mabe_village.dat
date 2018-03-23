@@ -840,15 +840,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "907",
-}
-
-tile{
-  layer = 0,
   x = 384,
   y = 272,
   width = 16,
@@ -4665,33 +4656,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
-  y = -8,
-  width = 32,
-  height = 48,
-  pattern = "907",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "118",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "115",
-}
-
-tile{
-  layer = 0,
   x = 112,
   y = 56,
   width = 8,
@@ -4728,15 +4692,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "122",
-}
-
-tile{
-  layer = 0,
   x = 144,
   y = 48,
   width = 8,
@@ -4760,15 +4715,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "117",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "907",
 }
 
 tile{
@@ -7635,24 +7581,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 0,
-  width = 8,
-  height = 40,
-  pattern = "125",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 0,
-  width = 8,
-  height = 40,
-  pattern = "121",
-}
-
-tile{
-  layer = 0,
   x = 184,
   y = 264,
   width = 8,
@@ -9793,6 +9721,96 @@ tile{
   pattern = "126",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "123",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "122",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 40,
+  width = 24,
+  height = 8,
+  pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "117",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "116",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "122",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "117",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 32,
+  width = 8,
+  height = 16,
+  pattern = "125",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = -16,
+  width = 16,
+  height = 40,
+  pattern = "6161",
+}
+
 teletransporter{
   name = "to_a3",
   layer = 0,
@@ -11356,6 +11374,28 @@ pickable{
   y = 301,
   treasure_name = "seashell",
   treasure_savegame_variable = "seashell_14",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 21,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 5,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/non_diggable",
+  model = "non_diggable",
 }
 
 tile{
