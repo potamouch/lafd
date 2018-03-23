@@ -1,23 +1,25 @@
 animation{
   name = "immobilized",
   src_image = "enemies/boss/rolling_bones.png",
-  frame_delay = 200,
+  frame_delay = 80,
+  frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 5 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
   },
 }
 animation{
   name = "hurt",
   src_image = "enemies/boss/rolling_bones.png",
-  frame_delay = 200,
+  frame_delay = 50,
+  frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 240, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 240, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
   },
 }
 animation{
@@ -25,21 +27,32 @@ animation{
   src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 200,
   directions = {
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+  },
+}
+animation{
+  name = "punching",
+  src_image = "enemies/boss/rolling_bones.png",
+  frame_delay = 80,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
   },
 }
 animation{
   name = "walking",
   src_image = "enemies/boss/rolling_bones.png",
-  frame_delay = 200,
+  frame_delay = 80,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 2 },
-    { x = 0, y = 64, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 2 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 2 },
-    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
   },
 }
