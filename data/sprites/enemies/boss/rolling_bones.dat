@@ -5,7 +5,7 @@ animation{
   frame_to_loop_on = 0,
   directions = {
     { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
     { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
     { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 6 },
   },
@@ -17,9 +17,9 @@ animation{
   frame_to_loop_on = 0,
   directions = {
     { x = 240, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 240, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
     { x = 240, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 240, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
   },
 }
 animation{
@@ -27,8 +27,8 @@ animation{
   src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 200,
   directions = {
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
     { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
     { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
   },
@@ -38,9 +38,9 @@ animation{
   src_image = "enemies/boss/rolling_bones.png",
   frame_delay = 80,
   directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
     { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
     { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 8, origin_y = 13, num_frames = 7 },
   },
 }
@@ -51,7 +51,7 @@ animation{
   frame_to_loop_on = 0,
   directions = {
     { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
     { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
     { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 13, num_frames = 6 },
   },
