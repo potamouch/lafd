@@ -44,12 +44,19 @@ function enemy:on_created()
   sprite_spike:set_animation("stopped")
   function sprite:on_animation_finished(animation)
     if animation == "punching" then
+      sol.audio.play_sound("boss_1_explode_part")
       sprite:set_animation("walking")
       enemy:go_spike()
       enemy:go_on_the_other_side()
     end
-
   end
+  -- Sound
+  sol.timer.start(spike, 150, function()
+    if spike_move then
+      sol.audio.play_sound("rolling_spike")
+    end
+    return true
+  end)
  enemy:change_angle()
  enemy:go_to_spike()
 
@@ -61,9 +68,9 @@ function enemy:go_to_spike()
   local spike_x, spike_y = spike:get_position()
   local direction = sprite:get_direction()
   if direction == 0 then
-    spike_x = spike_x - 32
+    spike_x = spike_x - 24
   else
-    spike_x = spike_x + 32
+    spike_x = spike_x + 24
   end
   movement = sol.movement.create("target")
   movement:set_target(spike_x, spike_y + 73)
@@ -80,8 +87,10 @@ end
 function enemy:push_spike()
 
     enemy_step = 2
-    sol.audio.play_sound("bounce")
-    sprite:set_animation("punching")
+   sol.timer.start(enemy, 250, function()
+      sol.audio.play_sound("boss_1_explode_part")
+   end)
+   sprite:set_animation("punching")
 
 end
 
@@ -172,9 +181,11 @@ function enemy:change_angle()
 
 end
 
-function enemy:on_dead()
+function enemy:on_hurt(attack)
 
-  spike:remove()
+  if enemy:get_life() <= 0 then
+    spike:remove()
+  end
 
 end
 
