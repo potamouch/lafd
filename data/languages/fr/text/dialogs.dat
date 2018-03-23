@@ -2846,7 +2846,7 @@ dialog{
   id = "maps.out.east_prairie.sign_1",
   text = [[
 Château Canulet 
-50 pas vers le Nord
+50 pas ^
 ]],
 }
 
@@ -2854,14 +2854,15 @@ dialog{
   id = "maps.out.east_prairie.sign_2",
   text = [[
 Château Canulet 
-5 min. vers l'Est
+5 min. >
 ]],
 }
 
 dialog{
   id = "maps.out.east_prairie.sign_3",
   text = [[
-Est : Village des Animaux
+> Village des Animaux       
+_ Baie de Martha
 ]],
 }
 
@@ -2886,8 +2887,8 @@ pas loin.
 dialog{
   id = "maps.out.egg_of_the_dream_fish.sign_2",
   text = [[
-Est : Mt Tamaranch  
-Ouest : Mrs Anémones
+> Mt Tamaranch  
+< Mrs Anémones
 ]],
 }
 
@@ -2953,8 +2954,8 @@ d'rentrer.
 dialog{
   id = "maps.out.graveyard.sign_1",
   text = [[
-Est : Chez Monique  
-Sud : Mare Bobo
+> Chez Monique  
+_ Mare Bobo
 ]],
 }
 
@@ -2962,7 +2963,7 @@ dialog{
   id = "maps.out.graveyard.sign_2",
   text = [[
 > Cimetière     
-v La Prairie
+_ La Prairie
 ]],
 }
 
@@ -3322,7 +3323,7 @@ dialog{
   skip = "all",
   text = [[
 Est > Prairie   
-Plus à l'Est
+Plus à l'Est    
 Village des Animaux
 ]],
 }
@@ -3332,8 +3333,7 @@ dialog{
   skip = "all",
   text = [[
 Château Canulet 
-10 min. Vers l'Est,
-puis vers le Nord.
+10 min. > ^
 ]],
 }
 
@@ -3350,8 +3350,8 @@ dialog{
   id = "maps.out.south_mabe_village.sign_1",
   skip = "all",
   text = [[
-Est : Cave Flagello 
-Sud : Plage Coco
+> Cave Flagello 
+_ Plage Coco
 ]],
 }
 
@@ -3384,7 +3384,7 @@ dialog{
   id = "maps.out.south_prairie.sign_2",
   text = [[
 Château Canulet 
-10 min. Est, puis Nord
+10 min. > ^
 ]],
 }
 
@@ -3460,16 +3460,16 @@ Accès interdit!
 dialog{
   id = "maps.out.west_mt_tamaranch.sign_2",
   text = [[
-Est : Mrs Anémones  
-Sud : Forêt Enchantée
+> Mrs Anémones  
+_ Forêt Enchantée
 ]],
 }
 
 dialog{
   id = "maps.out.yarna_desert.sign_1",
   text = [[
-Est : Enfin !
-Vill. des Animaux
+> Enfin ! Vill.  
+des Animaux
 ]],
 }
 
