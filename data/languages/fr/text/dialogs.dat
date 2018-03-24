@@ -2074,6 +2074,41 @@ je m'y perds...
 }
 
 dialog{
+  id = "maps.houses.mabe_village.shop_1.merchant_1",
+  question = "1",
+  text = [[
+JEU DE HASARD 
+La partie : 10r 
+
+
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_1.merchant_2",
+  text = [[
+Désolé petit!   
+Tu n'as pas     
+assez de rubis. 
+Reviens donc    
+plus tard.
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.shop_1.merchant_3",
+  text = [[
+A & B déplacent la grue. 
+Après, tu dois calculer
+ton timing...   
+Dirige-toi vers les boutons.    
+Bonne chance !
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.shop_2.merchant_1",
   text = [[
 Bienvenue !      
