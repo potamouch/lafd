@@ -815,6 +815,7 @@ entity{ id = "bowwow", description = "Bowwow" }
 entity{ id = "bowwow_follow", description = "Bowwow follow" }
 entity{ id = "butterfly", description = "Butterfly" }
 entity{ id = "collapsing_soil", description = "Collapsing soil" }
+entity{ id = "conveyor_belt", description = "Conveyor belt" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "frog", description = "Frog" }
 entity{ id = "green_crystal", description = "Green crystal" }

@@ -12737,6 +12737,15 @@ tile{
   pattern = "door_main.2.pillar.1-2",
 }
 
+tile{
+  layer = 0,
+  x = 2168,
+  y = 704,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
 wall{
   layer = 0,
   x = 600,
