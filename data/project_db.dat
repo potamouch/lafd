@@ -231,6 +231,9 @@ sprite{ id = "entities/cave_hole", description = "Cave hole" }
 sprite{ id = "entities/cave_rock", description = "Cave rock" }
 sprite{ id = "entities/chain", description = "Chain" }
 sprite{ id = "entities/chest", description = "Chest (normal)" }
+sprite{ id = "entities/claw_chain", description = "Claw chain" }
+sprite{ id = "entities/claw_crane", description = "Claw crane" }
+sprite{ id = "entities/claw_up", description = "Claw up" }
 sprite{ id = "entities/conveyor_belt1", description = "Conveyor belt 1" }
 sprite{ id = "entities/conveyor_belt2", description = "Conveyor belt 2" }
 sprite{ id = "entities/conveyor_belt3", description = "Conveyor belt 3" }

@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/claw_crane_game.png",
+  directions = {
+    { x = 0, y = 48, frame_width = 24, frame_height = 8, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 8, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 8, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 8, origin_x = 8, origin_y = 13 },
+  },
+}
