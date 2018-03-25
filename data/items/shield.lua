@@ -57,6 +57,8 @@ local normal_sound_id, block_sound_id = "shield_push", "shield2"
 function item:on_created()
   self:set_savegame_variable("possession_shield")
   self:set_assignable(true)
+  local variant = self:get_variant() or 0
+  if variant == 0 then self:set_variant(1) end
 end
 
 function item:on_variant_changed(variant)
@@ -87,7 +89,6 @@ function item:on_using()
   if hero:get_state() ~= "frozen" then
     hero:freeze() -- Freeze hero if necessary.
   end
- 
   shield_command_released = false
   -- Remove fixed animations (used if jumping).
   hero:set_fixed_animations(nil, nil)
@@ -158,7 +159,7 @@ function item:on_using()
     -- Prevent bug: if frame delay is nil (which happens with 1 frame) stop using shield.
     if not frame_delay then self:finish_using() return end  
     local anim_duration = frame_delay * num_frames
-    sol.timer.start(item, anim_duration, function()  
+    sol.timer.start(map, anim_duration, function()
       start_using_shield_state()
     end)
   else
@@ -216,7 +217,7 @@ function item:create_shield()
   local shield_below_path = "hero/shield_"..variant.."_below"
   local shield_above_path = "hero/shield_"..variant.."_above"
   local sprite_shield, sprite_shield_below
-  if sol.file.exists("sprites/"..shield_below_path) then
+  if sol.file.exists("sprites/"..shield_below_path..".dat") then
     sprite_shield_below = shield_below:create_sprite(shield_below_path)
     sprite_shield_below:set_direction(hdir)
   else
