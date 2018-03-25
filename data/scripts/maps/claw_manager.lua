@@ -145,7 +145,13 @@ function claw_manager:launch_step_4(map)
   claw_up_sprite:set_animation("claw_down_crane")
   claw_crane_sprite:set_animation("opening")
   function claw_crane_sprite:on_animation_finished(animation)
-    if animation == "closing" 
+    if animation == "opening" then
+      claw_crane_sprite:set_animation("opened")
+      sol.timer.start(claw_up, 1000, function()
+        claw_crane_sprite:set_animation("closing")
+      end)
+    elseif animation == "closing"  then
+      claw_crane_sprite:set_animation("closed")
       claw_crane:add_collision_test("sprite", function(claw_crane, item, claw_crane_sprite, item_sprite)
         if item:get_type() == "pickable" and claw_step == 4 then
           claw_step = 5
@@ -153,18 +159,13 @@ function claw_manager:launch_step_4(map)
         end
       end)
     end
-    if animation == "opening" then
-      claw_crane_sprite:set_animation("opened")
-      sol.timer.start(claw_up, 1000, function()
-        claw_crane_sprite:set_animation("closing")
-      end)
-    end
   end
 
 end
 
 -- Step  - Claw vertical movement
-function claw_manager:launch_step_4(map)
+function claw_manager:launch_step_5(map)
 
+end
 
 return claw_manager

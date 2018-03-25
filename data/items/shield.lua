@@ -55,7 +55,7 @@ local collision_mask_visible = false -- Change this to debug.
 local normal_sound_id, block_sound_id = "shield_push", "shield2"
 
 function item:on_created()
-  self:set_savegame_variable("shield_possession")
+  self:set_savegame_variable("possession_shield")
   self:set_assignable(true)
 end
 
