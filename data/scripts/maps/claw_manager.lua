@@ -2,6 +2,8 @@ local claw_manager = {}
 local claw_step  = 1
 local claw_movement
 local claw_step = 1
+local claw_up_start_x = nil
+local claw_up_start_y = nil
 
 function claw_manager:init_map(map)
   
@@ -9,6 +11,7 @@ function claw_manager:init_map(map)
   local hero = map:get_hero()
   local claw_up = map:get_entity("claw_up")
   local claw_up_sprite = claw_up:get_sprite()
+  claw_up_start_x, claw_up_start_y = claw_up:get_position()
   claw_up_sprite:set_animation("claw_on")
   hero:freeze()
   claw_manager:launch_step_1(map)
@@ -154,8 +157,7 @@ function claw_manager:launch_step_4(map)
       claw_crane_sprite:set_animation("closed")
       claw_crane:add_collision_test("sprite", function(claw_crane, item, claw_crane_sprite, item_sprite)
         if item:get_type() == "pickable" and claw_step == 4 then
-          claw_step = 5
-          hero:unfreeze()
+          claw_manager:launch_step_5(map)
         end
       end)
     end
@@ -165,6 +167,25 @@ end
 
 -- Step  - Claw vertical movement
 function claw_manager:launch_step_5(map)
+
+  local game = map:get_game()
+  local claw_up = map:get_entity("claw_up")
+  local claw_crane = map:get_entity("claw_crane")
+  local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
+  local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
+  local interval_y = claw_crane_y - claw_up_y
+  print(interval_y)
+  claw_step = 5
+  claw_movement = sol.movement.create("target")
+  claw_movement:set_target(claw_up_start_x, claw_up_start_y)
+  claw_movement:set_speed(30)
+  claw_movement:set_ignore_obstacles(true)
+  claw_movement:start(claw_up)
+  function claw_movement:on_position_changed()
+    local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
+    local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
+    claw_crane:set_position(claw_up_x, claw_up_y + interval_y)
+  end
 
 end
 
