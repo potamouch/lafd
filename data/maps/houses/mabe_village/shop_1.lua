@@ -56,8 +56,8 @@ end
 
 function console:on_interaction()
 
-  if is_game_available then
+  --if is_game_available then
     clow_manager:init_map(map)
-  end
+  --end
 
 end

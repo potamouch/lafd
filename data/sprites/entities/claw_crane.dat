@@ -1,5 +1,5 @@
 animation{
-  name = "stopped_closed",
+  name = "closed",
   src_image = "entities/claw_crane_game.png",
   directions = {
     { x = 48, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
@@ -20,6 +20,16 @@ animation{
   },
 }
 animation{
+  name = "opened",
+  src_image = "entities/claw_crane_game.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
+  },
+}
+animation{
   name = "opening",
   src_image = "entities/claw_crane_game.png",
   frame_delay = 350,
@@ -28,15 +38,5 @@ animation{
     { x = 0, y = 32, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
     { x = 0, y = 32, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
     { x = 0, y = 32, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
-  },
-}
-animation{
-  name = "stopped_open",
-  src_image = "entities/claw_crane_game.png",
-  directions = {
-    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
-    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
-    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
-    { x = 0, y = 16, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13 },
   },
 }
