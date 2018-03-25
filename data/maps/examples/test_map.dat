@@ -44,8 +44,8 @@ enemy{
 destination{
   name = "destination",
   layer = 0,
-  x = 168,
-  y = 101,
+  x = 32,
+  y = 253,
   direction = 1,
 }
 
@@ -98,11 +98,12 @@ destructible{
 
 teletransporter{
   layer = 0,
-  x = 176,
-  y = 88,
+  x = 8,
+  y = 240,
   width = 16,
   height = 16,
   destination_map = "out/a3_mabe_village",
+  sprite = "entities/outside_door",
 }
 
 chest{
@@ -110,6 +111,14 @@ chest{
   x = 96,
   y = 173,
   treasure_name = "magic_powder",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 128,
+  y = 173,
+  treasure_name = "shield",
   sprite = "entities/chest",
 }
 

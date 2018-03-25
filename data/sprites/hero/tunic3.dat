@@ -295,6 +295,28 @@ animation{
   },
 }
 animation{
+  name = "shield_stopped",
+  src_image = "hero/stopped.tunic.png",
+  directions = {
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 24, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 72, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+  },
+}
+animation{
+  name = "shield_walking",
+  src_image = "hero/walking.tunic.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 320, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 352, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 416, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 448, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 8 },
+  },
+}
+animation{
   name = "spin_attack",
   src_image = "hero/spin_attack.tunic3.png",
   frame_delay = 30,
