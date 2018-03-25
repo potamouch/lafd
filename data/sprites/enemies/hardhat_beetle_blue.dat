@@ -11,6 +11,17 @@ animation{
   },
 }
 animation{
+  name = "falling",
+  src_image = "enemies/hardhat_beetle.png",
+  frame_delay = 50,
+  directions = {
+    { x = 0, y = 48, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 48, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 48, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 48, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 5 },
+  },
+}
+animation{
   name = "hurt",
   src_image = "enemies/hardhat_beetle.png",
   frame_delay = 50,
