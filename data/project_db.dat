@@ -164,8 +164,10 @@ sprite{ id = "enemies/boss/moldorm/moldorm_head", description = "Moldorm 1 head"
 sprite{ id = "enemies/boss/rolling_bones", description = "Rolling bones" }
 sprite{ id = "enemies/boss/rolling_bones/rolling_bones_spike", description = "Rolling bones spike" }
 sprite{ id = "enemies/bubble", description = "Bubble" }
+sprite{ id = "enemies/buzz_blob", description = "Buzz blob" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
+sprite{ id = "enemies/cukeman", description = "Cukeman" }
 sprite{ id = "enemies/death_ball", description = "Death ball" }
 sprite{ id = "enemies/dog", description = "Dog" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
@@ -194,6 +196,7 @@ sprite{ id = "enemies/sand_crab", description = "Crab" }
 sprite{ id = "enemies/sea_urchin", description = "Sea urchin" }
 sprite{ id = "enemies/slime_green", description = "Slime green" }
 sprite{ id = "enemies/spike", description = "Spike" }
+sprite{ id = "enemies/spiny_beetle", description = "Spiny beetle" }
 sprite{ id = "enemies/stalfos_blue", description = "Stalfos blue" }
 sprite{ id = "enemies/stalfos_grey", description = "Stalfos grey" }
 sprite{ id = "enemies/stalfos_red", description = "Stalfos red" }
