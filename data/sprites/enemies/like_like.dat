@@ -17,6 +17,9 @@ animation{
   frame_to_loop_on = 0,
   directions = {
     { x = 48, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 3 },
   },
 }
 animation{
@@ -35,6 +38,9 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
+    { x = 96, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
     { x = 96, y = 0, frame_width = 24, frame_height = 16, origin_x = 12, origin_y = 13, num_frames = 2 },
   },
 }

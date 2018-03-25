@@ -46,15 +46,16 @@ function claw_manager:launch_step_1(map)
 
 end
 
--- Step 1 - Claw vertical movement
+-- Step 2 - Claw vertical movement
 function claw_manager:launch_step_2(map)
 
   local game = map:get_game()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
+  local is_stopped = false
   claw_step = 2
   function game:on_command_pressed(button)
-    if claw_step == 2 and button == "item_2" then
+    if claw_step == 2 and button == "item_2" and is_stopped == false then
       claw_movement = sol.movement.create("straight")
       claw_movement:set_angle(3 * math.pi / 2)
       claw_movement:set_speed(30)
@@ -69,7 +70,8 @@ function claw_manager:launch_step_2(map)
     end
   end
   function game:on_command_released(button)
-      if button == "item_2" then
+      if button == "item_2" and is_stopped == false then
+        is_stopped = true
         claw_movement:stop()
         sol.timer.start(claw_up, 1000, function()
           claw_manager:launch_step_3(map)
@@ -130,24 +132,39 @@ function claw_manager:launch_step_3(map)
   end
 end
 
--- Step 3 - Claw vertical movement
+-- Step 4 - Claw vertical movement
 function claw_manager:launch_step_4(map)
 
   local game = map:get_game()
+  local hero = map:get_hero()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
   local claw_up_sprite = claw_up:get_sprite()
   local claw_crane_sprite = claw_crane:get_sprite()
-  claw_step = 1
+  claw_step = 4
   claw_up_sprite:set_animation("claw_down_crane")
   claw_crane_sprite:set_animation("opening")
   function claw_crane_sprite:on_animation_finished(animation)
+    if animation == "closing" 
+      claw_crane:add_collision_test("sprite", function(claw_crane, item, claw_crane_sprite, item_sprite)
+        if item:get_type() == "pickable" and claw_step == 4 then
+          claw_step = 5
+          hero:unfreeze()
+        end
+      end)
+    end
     if animation == "opening" then
       claw_crane_sprite:set_animation("opened")
+      sol.timer.start(claw_up, 1000, function()
+        claw_crane_sprite:set_animation("closing")
+      end)
     end
   end
 
 end
+
+-- Step  - Claw vertical movement
+function claw_manager:launch_step_4(map)
 
 
 return claw_manager
