@@ -15655,7 +15655,7 @@ enemy{
   x = 1064,
   y = 1637,
   direction = 3,
-  breed = "stalfos_red",
+  breed = "maskass",
 }
 
 crystal{
@@ -15667,19 +15667,19 @@ crystal{
 enemy{
   name = "enemy_group_5_2",
   layer = 0,
-  x = 1776,
-  y = 1405,
+  x = 1784,
+  y = 1381,
   direction = 3,
-  breed = "stalfos_grey",
+  breed = "maskass",
 }
 
 enemy{
   name = "enemy_group_5_1",
   layer = 0,
-  x = 1744,
-  y = 1405,
+  x = 1760,
+  y = 1381,
   direction = 3,
-  breed = "stalfos_red",
+  breed = "maskass",
 }
 
 enemy{
