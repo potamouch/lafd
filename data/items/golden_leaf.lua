@@ -2,7 +2,6 @@ local item = ...
 
 function item:on_created()
 
-  self:set_sound_when_brandished("treasure_2")
   self:set_brandish_when_picked(false)
 
 end
@@ -42,7 +41,6 @@ function item:on_obtained(variant, savegame_variable)
         map:remove_entities("brandish")
         hero:unfreeze()
   end)
-
 
 end
 

@@ -14128,7 +14128,6 @@ enemy{
 }
 
 enemy{
-  name = "Breed_3",
   layer = 0,
   x = 804,
   y = 381,
@@ -14366,7 +14365,7 @@ npc{
   x = 560,
   y = 285,
   direction = 3,
-  subtype = 0,
+  subtype = 1,
   sprite = "npc/marine",
 }
 
@@ -20383,7 +20382,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 568,
+  x = 584,
   y = 285,
   width = 16,
   height = 16,
@@ -20394,7 +20393,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 584,
+  x = 568,
   y = 285,
   width = 16,
   height = 16,
@@ -20747,7 +20746,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 568,
-  y = 333,
+  y = 365,
   width = 16,
   height = 16,
   direction = 0,
@@ -20868,7 +20867,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 568,
-  y = 349,
+  y = 333,
   width = 16,
   height = 16,
   direction = 0,
@@ -20989,7 +20988,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 568,
-  y = 365,
+  y = 349,
   width = 16,
   height = 16,
   direction = 0,
@@ -24630,7 +24629,7 @@ custom_entity{
 custom_entity{
   name = "butterfly_12",
   layer = 1,
-  x = 568,
+  x = 592,
   y = 349,
   width = 16,
   height = 16,

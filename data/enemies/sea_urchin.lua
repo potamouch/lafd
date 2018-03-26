@@ -12,7 +12,7 @@ function enemy:on_created()
   self:set_hurt_style("normal")
   self:set_attacking_collision_mode("touching")
   self:set_default_behavior_on_hero_shield("block_push")
-  self:set_pushed_by_shield_property("sound_id", "urchin1")
+  self:set_pushed_by_shield_property("sound_id", "urchin2")
 end
 
 function sprite:on_animation_finished(animation)

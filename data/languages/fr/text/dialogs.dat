@@ -3364,12 +3364,39 @@ dialog{
   text = [[
 Alors,comment tu la 
 trouves ?  
-N'est-elle pas  
-émouvante ?      
-Sauras-tu t'en  
-souvenir ?       
+N'est-elle pas émouvante ?      
+Sauras-tu t'en souvenir ?       
 Oui
 Non
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.marine_6",
+  text = [[
+Je t'en prie ! Apprends-la.    
+C'est ma chanson préférée !!
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.marine_7",
+  text = [[
+Tu fredonneras cette chanson   
+de temps à autre pour ne
+pas l'oublier !
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.marine_8",
+  text = [[
+On dit que la Ballade      
+du Poisson-Rêve 
+est la Chanson d'Eveil. 
+Si le Poisson-Rêve se 
+réveille, exaucera-t'il 
+mon voeu ?
 ]],
 }
 

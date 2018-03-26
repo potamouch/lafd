@@ -47,26 +47,43 @@ function map:marine_and_hero_sing()
   marine_and_link_song = true
   local hero = map:get_hero()
   hero:freeze()
+  game:set_pause_allowed(false)
   map:marine_sing_start()
-  sol.timer.start(marine, 7500, function()
+  local timer1 = sol.timer.start(marine, 7500, function()
+    hero:set_direction(3)
     map:marine_sing_stop()
     map:hero_sing_start()
-    sol.timer.start(marine, 8000, function()
+    local timer2 = sol.timer.start(marine, 8000, function()
       map:marine_sing_start()
-      sol.timer.start(marine, 17500, function()
+      local timer3 = sol.timer.start(marine, 17500, function()
         map:marine_sing_stop()
         map:hero_sing_stop()
+        sol.audio.stop_music()
+        local direction4 = hero:get_direction4_to(marine)
+        hero:set_direction(direction4)
         game:start_dialog("maps.out.mabe_village.marine_5", function(answer)
           if answer == 1 then
+            local timer4 = sol.timer.start(marine, 500, function()
+              marine_and_link_song = false
+              map:set_music()
+            end)
+            local item_melody = game:get_item("melody_1")
+            item_melody:set_variant(1)
+            item_melody:brandish(function()
+              game:set_value("main_quest_step", 19) 
+              game:set_pause_allowed(true)
+              game:start_dialog("maps.out.mabe_village.marine_7")
+            end)
           else
-            map:marine_and_hero_sing()
+            game:start_dialog("maps.out.mabe_village.marine_6", function()
+              map:marine_and_hero_sing()
+            end)
           end
         end)
       end)
     end)
   end)
   map:set_music()
-
 
 end
 
@@ -82,7 +99,7 @@ function map:marine_sing_start()
     direction = 0,
     sprite = "entities/notes"
   }
-  marine_notes2 = map:create_custom_entity{
+  marine_notes_2 = map:create_custom_entity{
     x = x,
     y = y - 16,
     layer = layer + 1,
@@ -111,7 +128,6 @@ function map:hero_sing_start()
 
   local hero = map:get_hero()
   local x ,y ,layer = hero:get_position()
-  hero:set_direction(3)
   hero_notes = map:create_custom_entity{
     x = x,
     y = y - 16,
@@ -251,6 +267,8 @@ function map:talk_to_marine()
     game:start_dialog("maps.out.mabe_village.marine_4", function()
       map:marine_and_hero_sing()
     end)
+  elseif game:get_value("main_quest_step") > 18 then
+    game:start_dialog("maps.out.mabe_village.marine_8")
   else
     game:start_dialog("maps.out.mabe_village.marine_3", game:get_player_name(), function()
       map:marine_sing()
@@ -439,7 +457,7 @@ function marine_sensor_1:on_activated()
 
     marine_song = false
     map:set_music()
-    marine_sing_stop()
+    map:marine_sing_stop()
 
 end
 
