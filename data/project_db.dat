@@ -194,6 +194,7 @@ sprite{ id = "enemies/hooded_stalfos", description = "Hooded stalfos" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/leever", description = "Leever" }
 sprite{ id = "enemies/like_like", description = "Like like" }
+sprite{ id = "enemies/mad_bomber", description = "Mad bomber" }
 sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
 sprite{ id = "enemies/monkey", description = "Monkey" }
