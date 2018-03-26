@@ -5583,15 +5583,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 768,
-  y = 272,
-  width = 32,
-  height = 16,
-  pattern = "1706",
-}
-
-tile{
-  layer = 0,
   x = 800,
   y = 272,
   width = 16,
@@ -5885,51 +5876,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1704",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = 280,
-  width = 32,
-  height = 8,
-  pattern = "1682",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 264,
-  width = 8,
-  height = 24,
-  pattern = "1708",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = 264,
-  width = 8,
-  height = 24,
-  pattern = "1709",
-}
-
-tile{
-  layer = 0,
-  x = 776,
-  y = 264,
-  width = 16,
-  height = 24,
-  pattern = "1710",
-}
-
-tile{
-  layer = 0,
-  x = 768,
-  y = 256,
-  width = 32,
-  height = 8,
-  pattern = "1711",
 }
 
 tile{
@@ -6715,6 +6661,51 @@ tile{
   pattern = "918",
 }
 
+tile{
+  layer = 0,
+  x = 768,
+  y = 280,
+  width = 32,
+  height = 8,
+  pattern = "1682",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "1802",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "1803",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "1801",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 256,
+  width = 32,
+  height = 16,
+  pattern = "1697",
+}
+
 teletransporter{
   name = "to_d2",
   layer = 0,
@@ -6990,6 +6981,349 @@ teletransporter{
   height = 16,
   destination_map = "caves/east_mt_tamaranch/cave_1",
   destination = "hole",
+}
+
+destination{
+  name = "cave_d1_to_east_mt_tamaranch_west",
+  layer = 0,
+  x = 288,
+  y = 245,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 280,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_2",
+  destination = "entrance_west",
+}
+
+wall{
+  layer = 0,
+  x = 280,
+  y = 208,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_to_east_mt_tamaranch_east",
+  layer = 0,
+  x = 424,
+  y = 277,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 416,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_2",
+  destination = "entrance_east",
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 240,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_to_east_mt_tamaranch_2",
+  layer = 0,
+  x = 312,
+  y = 165,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 304,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_3",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 304,
+  y = 128,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_tower_mountain_cave_1_west",
+  layer = 0,
+  x = 608,
+  y = 181,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 600,
+  y = 152,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_4",
+  destination = "entrance_west",
+}
+
+wall{
+  layer = 0,
+  x = 600,
+  y = 144,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_tower_mountain_cave_1_east",
+  layer = 0,
+  x = 760,
+  y = 181,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 752,
+  y = 152,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_4",
+  destination = "entrance_east",
+}
+
+wall{
+  layer = 0,
+  x = 752,
+  y = 144,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_tower_mountain_cave_1_middle",
+  layer = 0,
+  x = 680,
+  y = 181,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 672,
+  y = 152,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_4",
+  destination = "entrance_middle",
+}
+
+wall{
+  layer = 0,
+  x = 672,
+  y = 144,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_fairy_fountain",
+  layer = 0,
+  x = 784,
+  y = 301,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 776,
+  y = 272,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/fairy_fountain",
+  destination = "fairy_fountain_1_B",
+}
+
+destination{
+  name = "cave_d1_tower_mountain_cave_2",
+  layer = 0,
+  x = 832,
+  y = 261,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 824,
+  y = 232,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_5",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 824,
+  y = 224,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_to_eagle_tower_1",
+  layer = 0,
+  x = 896,
+  y = 181,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 888,
+  y = 152,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_6",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 888,
+  y = 144,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d1_to_eagle_tower_2",
+  layer = 0,
+  x = 816,
+  y = 109,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 808,
+  y = 80,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_7",
+  destination = "entrance",
+}
+
+wall{
+  layer = 0,
+  x = 808,
+  y = 72,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_1",
+  layer = 0,
+  x = 768,
+  y = 264,
+  pattern = "1800",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed",
+  layer = 0,
+  x = 768,
+  y = 272,
+  pattern = "1706",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_door_1",
+  layer = 0,
+  x = 776,
+  y = 272,
+  direction = 0,
+  sprite = "entities/doors/door_weak_wall_out",
+  savegame_variable = "d1_east_mt_tamaranch_weak_1",
+  opening_method = "explosion",
+}
+
+wall{
+  layer = 0,
+  x = 776,
+  y = 264,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 npc{

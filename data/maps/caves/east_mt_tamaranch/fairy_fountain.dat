@@ -731,8 +731,8 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "out/b3_prairie",
-  destination = "fairy_fountain_2_A",
+  destination_map = "out/d1_east_mt_tamaranch",
+  destination = "cave_d1_fairy_fountain",
 }
 
 destination{

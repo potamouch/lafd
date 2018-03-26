@@ -1,0 +1,131 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 512,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "dungeons/dark_brown",
+  music = "maps/caves/cave",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "floor.16-2",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 392,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 392,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 424,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 784,
+  y = 408,
+  width = 16,
+  height = 16,
+  destination_map = "out/c1_mambos_cave",
+  destination = "cave_c1_bird_cave_key",
+}
+
+destination{
+  name = "entrance",
+  layer = 0,
+  x = 792,
+  y = 389,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 784,
+  y = 392,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 101,
+  treasure_name = "bird_key",
+  treasure_savegame_variable = "get_bird_key",
+}
+
+tile{
+  layer = 1,
+  x = 760,
+  y = 408,
+  width = 64,
+  height = 8,
+  pattern = "door_cache_low.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 776,
+  y = 408,
+  width = 32,
+  height = 8,
+  pattern = "door_top.low.2-3",
+}
+

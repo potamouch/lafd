@@ -1,0 +1,203 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 512,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "dungeons/dark_brown",
+  music = "maps/caves/cave",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "floor.16-2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "door.2.low_support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 8,
+  height = 16,
+  pattern = "door.1.low_support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 40,
+  width = 8,
+  height = 16,
+  pattern = "door.1.low_support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.spiral_down.1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 136,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "out/d1_east_mt_tamaranch",
+  destination = "cave_d1_to_east_mt_tamaranch_2",
+}
+
+destination{
+  name = "entrance",
+  layer = 0,
+  x = 144,
+  y = 445,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 136,
+  y = 448,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "stair",
+  layer = 0,
+  x = 144,
+  y = 53,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_2",
+  destination = "stair",
+}
+
+stairs{
+  layer = 0,
+  x = 136,
+  y = 40,
+  direction = 1,
+  subtype = 1,
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 464,
+  width = 64,
+  height = 8,
+  pattern = "door_cache_low.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 464,
+  width = 32,
+  height = 8,
+  pattern = "door_top.low.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 32,
+  width = 64,
+  height = 8,
+  pattern = "door_cache_low.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 32,
+  width = 32,
+  height = 8,
+  pattern = "door_top.low.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_down.1-1",
+}
+

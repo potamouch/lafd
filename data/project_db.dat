@@ -1,5 +1,11 @@
 map{ id = "caves/cave", description = "Cave" }
 map{ id = "caves/east_mt_tamaranch/cave_1", description = "Cave 1 - Underwater Cave" }
+map{ id = "caves/east_mt_tamaranch/cave_2", description = "Cave 2 - Path to East Mt Tamaranch 1" }
+map{ id = "caves/east_mt_tamaranch/cave_3", description = "Cave 3 - Path to East Mt Tamaranch 2" }
+map{ id = "caves/east_mt_tamaranch/cave_4", description = "Cave 4 - Tower Mountain Cave 1" }
+map{ id = "caves/east_mt_tamaranch/cave_5", description = "Cave 5 - Tower Mountain Cave 2" }
+map{ id = "caves/east_mt_tamaranch/cave_6", description = "Cave 6 - Path to Eagle Tower 1" }
+map{ id = "caves/east_mt_tamaranch/cave_7", description = "Cave 7 - Path to Eagle Tower 2" }
 map{ id = "caves/east_mt_tamaranch/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/east_prairie/cave_1", description = "Cave 1 - Road to Animals Village" }
 map{ id = "caves/east_prairie/cave_2", description = "Cave 2 - Prairie Hill 1" }
@@ -19,6 +25,7 @@ map{ id = "caves/mabe_village/cave_1", description = "Cave 1" }
 map{ id = "caves/mabe_village/weathercock", description = "Weathercock" }
 map{ id = "caves/mambos_cave/cave_1", description = "Cave 1 - Vers randonneur 1" }
 map{ id = "caves/mambos_cave/cave_2", description = "Cave 2 - Vers randonneur 2" }
+map{ id = "caves/mambos_cave/cave_3", description = "Cave 3 - Bird Key Cave" }
 map{ id = "caves/martha_bay/cave_1", description = "Cave 1 - Chemin vers l'upgrade de poudre magique" }
 map{ id = "caves/martha_bay/cave_2", description = "Cave 2 - Lens Cave" }
 map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
