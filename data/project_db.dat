@@ -170,6 +170,7 @@ sprite{ id = "enemies/buzz_blob", description = "Buzz blob" }
 sprite{ id = "enemies/chicken", description = "Chicken" }
 sprite{ id = "enemies/chicken_mortal", description = "Chicken mortal" }
 sprite{ id = "enemies/cukeman", description = "Cukeman" }
+sprite{ id = "enemies/darknut_sword", description = "Darknut sword" }
 sprite{ id = "enemies/death_ball", description = "Death ball" }
 sprite{ id = "enemies/dog", description = "Dog" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
