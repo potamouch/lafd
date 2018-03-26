@@ -7,6 +7,7 @@ properties{
   max_layer = 2,
   world = "Sideview",
   tileset = "sideview/sideview",
+  music = "maps/caves/cave",
 }
 
 tile{
@@ -951,5 +952,76 @@ separator{
   y = 0,
   width = 16,
   height = 256,
+}
+
+dynamic_tile{
+  name = "invisible_tile_3",
+  layer = 0,
+  x = 24,
+  y = 48,
+  pattern = "40",
+  width = 16,
+  height = 128,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 488,
+  y = 48,
+  pattern = "40",
+  width = 16,
+  height = 64,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 424,
+  y = 112,
+  pattern = "40",
+  width = 16,
+  height = 64,
+  enabled_at_start = true,
+}
+
+destination{
+  name = "kanalet_castle_underground_2_A",
+  layer = 0,
+  x = 496,
+  y = 77,
+  direction = 3,
+}
+
+teletransporter{
+  name = "kanalet_castle_underground_1_A",
+  layer = 0,
+  x = 488,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "out/c2_kanalet_castle",
+  destination = "kanalet_castle_underground_2_A",
+}
+
+destination{
+  name = "kanalet_castle_underground_2_B",
+  layer = 0,
+  x = 32,
+  y = 77,
+  direction = 3,
+}
+
+teletransporter{
+  name = "kanalet_castle_underground_1_B",
+  layer = 0,
+  x = 24,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "out/c2_kanalet_castle",
+  destination = "kanalet_castle_underground_2_B",
 }
 

@@ -152,6 +152,9 @@ function map:on_started()
   local item = game:get_item("magnifying_lens")
   local variant = item:get_variant()
   companion_manager:init_map(map)
+  if game:get_value("castle_door_is_open") then
+    castle_door:set_enabled(false)
+  end
   if game:get_value("main_quest_step") < 14 then
     baton:set_enabled(false)
     bridge:set_enabled(false)

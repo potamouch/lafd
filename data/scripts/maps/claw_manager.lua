@@ -4,6 +4,9 @@ local claw_movement
 local claw_step = 1
 local claw_up_start_x = nil
 local claw_up_start_y = nil
+local claw_is_sound_activated
+local claw_entity_found = nil
+local claw_timer
 
 function claw_manager:init_map(map)
   
@@ -15,15 +18,22 @@ function claw_manager:init_map(map)
   claw_up_sprite:set_animation("claw_on")
   hero:freeze()
   claw_manager:launch_step_1(map)
+  claw_timer = sol.timer.start(claw_up, 60, function()
+    if claw_is_sound_activated then
+      sol.audio.play_sound("trendy_game_lever")
+    end
+    return true
+  end)
   
 end
 
 -- Step 1 - Claw horizontal movement
 function claw_manager:launch_step_1(map)
-
+  print(1)
   local game = map:get_game()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
+  local claw_shadow= map:get_entity("claw_shadow")
   claw_step = 1
   function game:on_command_pressed(button)
     if claw_step == 1 and button == "item_1" then
@@ -33,15 +43,19 @@ function claw_manager:launch_step_1(map)
       claw_movement:set_max_distance(160)
       claw_movement:set_ignore_obstacles(true)
       claw_movement:start(claw_up)
+      claw_is_sound_activated = true
       function claw_movement:on_position_changed()
         local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
         local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
+        local claw_shadow_x, claw_shadow_y, claw_crane_layer = claw_shadow:get_position()
         claw_crane:set_position(claw_up_x, claw_crane_y)
+        claw_shadow:set_position(claw_up_x, claw_shadow_y)
       end
     end
   end
   function game:on_command_released(button)
       if button == "item_1" then
+        claw_is_sound_activated = false
         claw_movement:stop()
         claw_manager:launch_step_2(map)
      end
@@ -51,10 +65,11 @@ end
 
 -- Step 2 - Claw vertical movement
 function claw_manager:launch_step_2(map)
-
+  print(2)
   local game = map:get_game()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
+  local claw_shadow= map:get_entity("claw_shadow")
   local is_stopped = false
   claw_step = 2
   function game:on_command_pressed(button)
@@ -65,10 +80,13 @@ function claw_manager:launch_step_2(map)
       claw_movement:set_max_distance(128)
       claw_movement:set_ignore_obstacles(true)
       claw_movement:start(claw_up)
+      claw_is_sound_activated = true
       function claw_movement:on_position_changed()
         local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
         local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
+        local claw_shadow_x, claw_shadow_y, claw_shadow_layer = claw_shadow:get_position()
         claw_crane:set_position(claw_crane_x, claw_up_y + 16)
+        claw_shadow:set_position(claw_crane_x, claw_up_y + 40)
       end
     end
   end
@@ -76,6 +94,7 @@ function claw_manager:launch_step_2(map)
       if button == "item_2" and is_stopped == false then
         is_stopped = true
         claw_movement:stop()
+         claw_is_sound_activated = false
         sol.timer.start(claw_up, 1000, function()
           claw_manager:launch_step_3(map)
         end)
@@ -86,6 +105,7 @@ end
 
 -- Step 3
 function claw_manager:launch_step_3(map)
+  print(3)
   local game = map:get_game()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
@@ -135,13 +155,15 @@ function claw_manager:launch_step_3(map)
   end
 end
 
--- Step 4 - Claw vertical movement
+-- Step 4
 function claw_manager:launch_step_4(map)
-
+  print(4)
   local game = map:get_game()
   local hero = map:get_hero()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
+  local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
+  local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
   local claw_up_sprite = claw_up:get_sprite()
   local claw_crane_sprite = claw_crane:get_sprite()
   claw_step = 4
@@ -155,38 +177,121 @@ function claw_manager:launch_step_4(map)
       end)
     elseif animation == "closing"  then
       claw_crane_sprite:set_animation("closed")
-      claw_crane:add_collision_test("sprite", function(claw_crane, item, claw_crane_sprite, item_sprite)
-        if item:get_type() == "pickable" and claw_step == 4 then
-          claw_manager:launch_step_5(map)
+      sol.timer.start(claw_up, 1000, function()
+        for pickable in map:get_entities("game_item") do
+          if claw_entity_found == nil and claw_crane:overlaps(pickable, "sprite") then
+            claw_entity_found = pickable
+            sol.audio.play_sound("trendy_game_win")
+            claw_entity_found:set_position(claw_crane_x, claw_crane_y + 8)
+          end
         end
+        claw_manager:launch_step_5(map)
       end)
     end
   end
 
 end
 
--- Step  - Claw vertical movement
+-- Step 5
 function claw_manager:launch_step_5(map)
-
+  print(5)
   local game = map:get_game()
   local claw_up = map:get_entity("claw_up")
   local claw_crane = map:get_entity("claw_crane")
   local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
   local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
-  local interval_y = claw_crane_y - claw_up_y
-  print(interval_y)
   claw_step = 5
+  claw_movement = sol.movement.create("target")
+  claw_movement:set_target(claw_up_x, claw_up_y + 16)
+  claw_movement:set_speed(30)
+  claw_movement:set_ignore_obstacles(true)
+  claw_movement:start(claw_crane)
+  claw_is_sound_activated = true
+  function claw_movement:on_position_changed()
+    local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
+    local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
+    if claw_entity_found ~= nil then
+      claw_entity_found:set_position(claw_crane_x, claw_crane_y + 8)
+    end
+  end
+  function claw_movement:on_finished()
+      claw_movement:stop()
+      claw_is_sound_activated = false
+      claw_manager:launch_step_6(map)
+  end
+
+end
+
+-- Step 6
+function claw_manager:launch_step_6(map)
+
+  print(6)
+  local game = map:get_game()
+  local claw_up = map:get_entity("claw_up")
+  local claw_crane = map:get_entity("claw_crane")
+  local claw_shadow= map:get_entity("claw_shadow")
+  local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
+  local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
+  claw_step = 6
   claw_movement = sol.movement.create("target")
   claw_movement:set_target(claw_up_start_x, claw_up_start_y)
   claw_movement:set_speed(30)
   claw_movement:set_ignore_obstacles(true)
   claw_movement:start(claw_up)
+  claw_is_sound_activated = true
   function claw_movement:on_position_changed()
     local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
     local claw_crane_x, claw_crane_y, claw_crane_layer = claw_crane:get_position()
-    claw_crane:set_position(claw_up_x, claw_up_y + interval_y)
+    local claw_shadow_x, claw_shadow_y, claw_shadow_layer = claw_shadow:get_position()
+    claw_crane:set_position(claw_up_x, claw_up_y + 16)
+    claw_shadow:set_position(claw_up_x, claw_up_y + 40)
+    if claw_entity_found ~= nil then
+      claw_entity_found:set_position(claw_crane_x, claw_crane_y + 8)
+    end
+  end
+  function claw_movement:on_finished()
+      claw_movement:stop()
+      claw_is_sound_activated = false
+      sol.timer.start(claw_up, 1000, function()
+        claw_manager:launch_step_7(map)
+      end)
   end
 
 end
+
+-- Step 7
+function claw_manager:launch_step_7(map)
+  print(7)
+  local game = map:get_game()
+  local hero = map:get_hero()
+  local claw_up = map:get_entity("claw_up")
+  local claw_crane = map:get_entity("claw_crane")
+  local claw_up_sprite = claw_up:get_sprite()
+  local claw_crane_sprite = claw_crane:get_sprite()
+  local claw_up_x, claw_up_y, claw_up_layer = claw_up:get_position()
+  claw_step = 7
+  claw_crane_sprite:set_animation("opening")
+  function claw_crane_sprite:on_animation_finished(animation)
+      if animation == "opening" then
+        claw_crane_sprite:set_animation("opened")
+        sol.timer.start(claw_up, 1000, function()
+          if claw_entity_found ~= nil then
+            claw_entity_found:set_position(claw_up_x, claw_up_y + 32)
+          end
+          claw_crane_sprite:set_animation("closing")
+        end)
+      elseif animation == "closing"  then
+        claw_up_sprite:set_animation("claw_off")
+        claw_crane_sprite:set_animation("closed")
+        claw_step = 1
+        hero:unfreeze()
+        claw_timer:stop()
+        claw_entity_found = nil
+        claw_crane:clear_collision_tests()
+      end
+    end
+
+end
+
 
 return claw_manager

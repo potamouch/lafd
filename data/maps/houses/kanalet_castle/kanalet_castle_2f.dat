@@ -1467,6 +1467,22 @@ wall{
   stops_projectiles = true,
 }
 
+pickable{
+  layer = 0,
+  x = 136,
+  y = 189,
+  treasure_name = "golden_leaf",
+  treasure_savegame_variable = "golden_leaf_4",
+}
+
+pickable{
+  layer = 0,
+  x = 472,
+  y = 93,
+  treasure_name = "golden_leaf",
+  treasure_savegame_variable = "golden_leaf_5",
+}
+
 tile{
   layer = 1,
   x = 144,

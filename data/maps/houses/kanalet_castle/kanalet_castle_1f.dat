@@ -13,6 +13,15 @@ properties{
 
 tile{
   layer = 0,
+  x = 208,
+  y = 128,
+  width = 240,
+  height = 32,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 0,
   x = 96,
   y = 160,
   width = 496,
@@ -958,15 +967,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 128,
-  width = 240,
-  height = 32,
-  pattern = "floor.8-1",
-}
-
-tile{
-  layer = 0,
   x = 368,
   y = 448,
   width = 16,
@@ -1232,6 +1232,26 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 349,
+  treasure_name = "golden_leaf",
+  treasure_savegame_variable = "golden_leaf_3",
+}
+
+switch{
+  name = "switch_1",
+  layer = 0,
+  x = 576,
+  y = 192,
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
 }
 
 tile{
@@ -1979,6 +1999,15 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_down.2-2",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 0,
+  width = 16,
+  height = 512,
+  pattern = "ceiling.1",
 }
 
 separator{

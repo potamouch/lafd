@@ -1495,6 +1495,17 @@ Veux-tu la tester ici ?
 }
 
 dialog{
+  id = "maps.houses.kanalet_castle.door",
+  text = [[
+La porte semble 
+être ouverte.   
+Tu pourras donc 
+sortir sans     
+aucun problème.
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.grandpa_house.grandpa_1",
   skip = "all",
   text = [[

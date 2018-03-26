@@ -12,6 +12,33 @@ properties{
 
 tile{
   layer = 0,
+  x = 48,
+  y = 568,
+  width = 832,
+  height = 56,
+  pattern = "112",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 528,
+  width = 64,
+  height = 48,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 528,
+  width = 80,
+  height = 48,
+  pattern = "6160",
+}
+
+tile{
+  layer = 0,
   x = 856,
   y = 624,
   width = 40,
@@ -34,15 +61,6 @@ tile{
   y = 624,
   width = 672,
   height = 40,
-  pattern = "112",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 568,
-  width = 832,
-  height = 56,
   pattern = "112",
 }
 
@@ -1551,15 +1569,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 424,
-  width = 32,
-  height = 128,
-  pattern = "6161",
-}
-
-tile{
-  layer = 0,
   x = 0,
   y = 64,
   width = 16,
@@ -1911,15 +1920,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 312,
-  y = 528,
-  width = 64,
-  height = 24,
-  pattern = "7704",
-}
-
-tile{
-  layer = 0,
   x = 296,
   y = 528,
   width = 16,
@@ -2132,24 +2132,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "14794",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 520,
-  width = 96,
-  height = 8,
-  pattern = "12596",
-}
-
-tile{
-  layer = 0,
-  x = 312,
-  y = 528,
-  width = 64,
-  height = 8,
-  pattern = "12598",
 }
 
 tile{
@@ -8299,6 +8281,15 @@ tile{
   pattern = "2205",
 }
 
+tile{
+  layer = 0,
+  x = 328,
+  y = 424,
+  width = 32,
+  height = 128,
+  pattern = "6161",
+}
+
 custom_entity{
   layer = 0,
   x = 592,
@@ -8322,6 +8313,7 @@ teletransporter{
 }
 
 dynamic_tile{
+  name = "castle_door",
   layer = 0,
   x = 312,
   y = 552,
@@ -9116,6 +9108,76 @@ stairs{
   y = 712,
   direction = 1,
   subtype = 3,
+}
+
+destination{
+  name = "kanalet_castle_underground_2_A",
+  layer = 0,
+  x = 608,
+  y = 77,
+  direction = 3,
+}
+
+teletransporter{
+  name = "kanalet_castle_underground_1_A",
+  layer = 0,
+  x = 600,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "sideviews/kanalet_castle/sideview_1",
+  destination = "kanalet_castle_underground_2_A",
+}
+
+stairs{
+  layer = 0,
+  x = 600,
+  y = 48,
+  direction = 1,
+  subtype = 3,
+}
+
+destination{
+  name = "kanalet_castle_underground_2_B",
+  layer = 0,
+  x = 344,
+  y = 45,
+  direction = 1,
+}
+
+teletransporter{
+  name = "kanalet_castle_underground_1_B",
+  layer = 0,
+  x = 336,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "sideviews/kanalet_castle/sideview_1",
+  destination = "kanalet_castle_underground_2_B",
+}
+
+stairs{
+  layer = 0,
+  x = 336,
+  y = 48,
+  direction = 3,
+  subtype = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 568,
+  y = 221,
+  treasure_name = "golden_leaf",
+  treasure_savegame_variable = "golden_leaf_1",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 189,
+  treasure_name = "golden_leaf",
+  treasure_savegame_variable = "golden_leaf_2",
 }
 
 tile{
@@ -10331,6 +10393,33 @@ tile{
   width = 8,
   height = 48,
   pattern = "1444",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 528,
+  width = 64,
+  height = 24,
+  pattern = "7704",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 528,
+  width = 64,
+  height = 8,
+  pattern = "12598",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 520,
+  width = 96,
+  height = 8,
+  pattern = "12596",
 }
 
 destination{

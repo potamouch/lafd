@@ -1,6 +1,8 @@
 --Sea urchin
 local enemy = ...
 local sprite = enemy:create_sprite("enemies/sea_urchin")
+local game = enemy:get_game()
+local map = game:get_map()
 
 function enemy:on_created()
 
@@ -10,6 +12,7 @@ function enemy:on_created()
   self:set_hurt_style("normal")
   self:set_attacking_collision_mode("touching")
   self:set_default_behavior_on_hero_shield("block_push")
+  self:set_pushed_by_shield_property("sound_id", "urchin1")
 end
 
 function sprite:on_animation_finished(animation)

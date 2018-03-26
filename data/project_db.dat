@@ -603,6 +603,7 @@ sound{ id = "bounce", description = "Bounce" }
 sound{ id = "bow", description = "Bow" }
 sound{ id = "bowwow", description = "bowwow" }
 sound{ id = "bush", description = "Bush" }
+sound{ id = "castle_door", description = "Castle door" }
 sound{ id = "chest_open", description = "Chest open" }
 sound{ id = "compass_signal", description = "Compass signal" }
 sound{ id = "cursor", description = "Cursor" }
@@ -698,6 +699,10 @@ sound{ id = "thunder", description = "Thunder" }
 sound{ id = "treasure", description = "Get treasure" }
 sound{ id = "treasure_2", description = "Get treasure 2" }
 sound{ id = "treasure_sword", description = "Get treasure sword" }
+sound{ id = "trendy_game_lever", description = "Trendy game lever" }
+sound{ id = "trendy_game_win", description = "Trendy game win" }
+sound{ id = "urchin1", description = "Urchin 1" }
+sound{ id = "urchin2", description = "Urchin 2" }
 sound{ id = "walk_on_grass", description = "Walk on grass" }
 sound{ id = "walk_on_water", description = "Walk on water" }
 sound{ id = "wallturn", description = "Wallturn" }

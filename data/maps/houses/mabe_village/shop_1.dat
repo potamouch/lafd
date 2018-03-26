@@ -327,13 +327,6 @@ npc{
   sprite = "npc/game_man",
 }
 
-pickable{
-  layer = 0,
-  x = 176,
-  y = 133,
-  treasure_name = "magnifying_lens",
-}
-
 custom_entity{
   layer = 0,
   x = 160,
@@ -552,42 +545,6 @@ custom_entity{
   direction = 3,
   sprite = "entities/conveyor_belt3",
   model = "conveyor_belt",
-}
-
-pickable{
-  layer = 0,
-  x = 128,
-  y = 165,
-  treasure_name = "shield",
-}
-
-pickable{
-  layer = 0,
-  x = 160,
-  y = 101,
-  treasure_name = "magic_powder",
-}
-
-pickable{
-  layer = 0,
-  x = 200,
-  y = -27,
-  treasure_name = "rupee",
-}
-
-pickable{
-  layer = 0,
-  x = 224,
-  y = 165,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-}
-
-pickable{
-  layer = 0,
-  x = 104,
-  y = -19,
-  treasure_name = "heart",
 }
 
 custom_entity{
@@ -645,20 +602,6 @@ custom_entity{
   model = "conveyor_belt",
 }
 
-pickable{
-  layer = 0,
-  x = 128,
-  y = 117,
-  treasure_name = "rupee",
-}
-
-pickable{
-  layer = 0,
-  x = 224,
-  y = 117,
-  treasure_name = "heart",
-}
-
 custom_entity{
   name = "claw_up",
   layer = 0,
@@ -689,6 +632,66 @@ npc{
   direction = -1,
   subtype = 0,
   sprite = "entities/block",
+}
+
+custom_entity{
+  name = "claw_shadow",
+  layer = 0,
+  x = 80,
+  y = 101,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "shadows/shadow_big",
+}
+
+pickable{
+  name = "game_item_6",
+  layer = 0,
+  x = 176,
+  y = 133,
+  treasure_name = "magnifying_lens",
+}
+
+pickable{
+  name = "game_item_3",
+  layer = 0,
+  x = 128,
+  y = 165,
+  treasure_name = "shield",
+}
+
+pickable{
+  name = "game_item_1",
+  layer = 0,
+  x = 160,
+  y = 101,
+  treasure_name = "magic_powder",
+}
+
+pickable{
+  name = "game_item_4",
+  layer = 0,
+  x = 224,
+  y = 165,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+}
+
+pickable{
+  name = "game_item_2",
+  layer = 0,
+  x = 128,
+  y = 117,
+  treasure_name = "rupee",
+}
+
+pickable{
+  name = "game_item_5",
+  layer = 0,
+  x = 224,
+  y = 117,
+  treasure_name = "heart",
 }
 
 tile{
