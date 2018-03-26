@@ -48,14 +48,20 @@ function map:marine_and_hero_sing()
   local hero = map:get_hero()
   hero:freeze()
   map:marine_sing_start()
-  sol.timer.start(marine, 7000, function()
+  sol.timer.start(marine, 7500, function()
     map:marine_sing_stop()
     map:hero_sing_start()
-    sol.timer.start(marine, 7000, function()
+    sol.timer.start(marine, 8000, function()
       map:marine_sing_start()
-      sol.timer.start(marine, 10000, function()
+      sol.timer.start(marine, 17500, function()
         map:marine_sing_stop()
         map:hero_sing_stop()
+        game:start_dialog("maps.out.mabe_village.marine_5", function(answer)
+          if answer == 1 then
+          else
+            map:marine_and_hero_sing()
+          end
+        end)
       end)
     end)
   end)
@@ -134,8 +140,8 @@ function map:hero_sing_stop()
     if hero_notes ~= nil then
       hero_notes:remove()
     end
-    if heror_notes_2 ~= nil then
-      heror_notes_2:remove()
+    if hero_notes_2 ~= nil then
+      hero_notes_2:remove()
     end
 
 end

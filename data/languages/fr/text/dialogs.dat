@@ -3359,6 +3359,21 @@ que je chante ?
 }
 
 dialog{
+  id = "maps.out.mabe_village.marine_5",
+  question = "1",
+  text = [[
+Alors,comment tu la 
+trouves ?  
+N'est-elle pas  
+émouvante ?      
+Sauras-tu t'en  
+souvenir ?       
+Oui
+Non
+]],
+}
+
+dialog{
   id = "maps.out.mabe_village.sign_1",
   skip = "all",
   text = [[
