@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_2",
+  floor = 0,
   tileset = "sideview/sideview",
   music = "maps/dungeons/passageways",
 }
@@ -16,7 +17,7 @@ tile{
   y = 0,
   width = 640,
   height = 256,
-  pattern = "95",
+  pattern = "20",
 }
 
 tile{
@@ -1493,6 +1494,33 @@ tile{
   width = 16,
   height = 16,
   pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "7",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "7",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "7",
 }
 
 separator{

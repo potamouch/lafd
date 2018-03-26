@@ -9,6 +9,6 @@ end
 
 function item:on_obtaining(variant, savegame_variable)
 
-    --self:get_game():set_value("main_quest_step", 8)
+    self:get_game():set_value("main_quest_step", 18)
 
 end

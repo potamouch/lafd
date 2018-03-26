@@ -45,6 +45,8 @@ map{ id = "dungeons/11/b2", description = "Dungeon 11 B2" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
 map{ id = "dungeons/2/sideview_1", description = "Sideview 1" }
+map{ id = "dungeons/2/sideview_2", description = "Sideview 2" }
+map{ id = "dungeons/2/sideview_3", description = "Sideview 3" }
 map{ id = "dungeons/3/1f", description = "Dungeon 3 1F" }
 map{ id = "dungeons/3/b1", description = "Dungeon 3 B1" }
 map{ id = "dungeons/4/1f", description = "Dungeon 4 1F" }
@@ -582,6 +584,7 @@ music{ id = "maps/out/mt_tamaranch_marine", description = "Mt Tamaranch Marine" 
 music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
 music{ id = "maps/out/song_of_marine", description = "Song of Marine" }
+music{ id = "maps/out/song_of_marine_and_link", description = "Song of Marine and Link" }
 music{ id = "maps/out/sword_search", description = "Sword search" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
 music{ id = "scripts/menus/introduction", description = "Introduction" }

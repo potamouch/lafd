@@ -28,29 +28,35 @@ end
 
 function map:talk_to_mother() 
 
-    local item = game:get_item("magnifying_lens")
-    local variant = item:get_variant()
-    if variant == 1 then
-      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_2", function(answer)
-        if answer == 1 then
-            game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_4", function()
-              hero:start_treasure("magnifying_lens", 2, "magnifying_lens_2")
+    if game:get_value("main_quest_step") < 18 then
+      local item = game:get_item("magnifying_lens")
+      local variant = item:get_variant()
+      if variant == 1 then
+        game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_2", function(answer)
+          if answer == 1 then
+              game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_4", function()
+                hero:start_treasure("magnifying_lens", 2, "magnifying_lens_2")
+                mother:get_sprite():set_direction(3)
+                end)
+          else
+            game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_3", function()
               mother:get_sprite():set_direction(3)
-              end)
-        else
-          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_3", function()
-            mother:get_sprite():set_direction(3)
-          end)
-        end
-      end)
-    elseif variant > 1 then
-          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_5", function()
-            mother:get_sprite():set_direction(3)
-          end)
+            end)
+          end
+        end)
+      elseif variant > 1 then
+            game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_5", function()
+              mother:get_sprite():set_direction(3)
+            end)
+      else
+            game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_1", function()
+              mother:get_sprite():set_direction(3)
+            end)
+      end
     else
-          game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_1", function()
-            mother:get_sprite():set_direction(3)
-          end)
+      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_6", function()
+        mother:get_sprite():set_direction(3)
+      end)
     end
 
 end
@@ -62,6 +68,9 @@ function map:on_started(destination)
 
   map:set_music()
   companion_manager:init_map(map)
+  if game:get_value("main_quest_step") >= 18 then
+    father:set_enabled(false)
+  end
 
 end
 

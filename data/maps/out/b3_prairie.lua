@@ -4,6 +4,7 @@
 local map = ...
 local game = map:get_game()
 local companion_manager = require("scripts/maps/companion_manager")
+local owl_manager = require("scripts/maps/owl_manager")
 local travel_manager = require("scripts/maps/travel_manager")
 -- Methods - Functions
 
@@ -30,6 +31,7 @@ function map:on_started(destination)
 
   map:set_music()
   map:set_digging_allowed(true)
+  owl_7:set_enabled(false)
   companion_manager:init_map(map)
   -- Travel
   travel_transporter:set_enabled(false)
@@ -40,6 +42,10 @@ function map:on_started(destination)
   dungeon_3_entrance:set_can_traverse("hero", false)
   if game:get_value("main_quest_step") > 16 then
     map:open_dungeon_3()
+  end
+  -- Tarin
+  if game:get_value("main_quest_step") < 18 then
+    tarin:set_enabled(false)
   end
   -- Seashell's tree
   local seashell_tree_found = false
@@ -101,6 +107,16 @@ function sign_start:on_interaction()
 
   game:start_dialog("maps.out.south_prairie.surprise_3")
   game:set_value("wart_cave_start", true)
+
+end
+
+function owl_7_sensor:on_activated()
+
+  if game:get_value("main_quest_step") == 18  and game:get_value("owl_7") ~= true then
+    owl_manager:appear(map, 7, function()
+    map:set_music()
+    end)
+  end
 
 end
 

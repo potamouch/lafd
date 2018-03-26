@@ -4,14 +4,16 @@
 local map = ...
 local game = map:get_game()
 local marine_song = false
+local marine_and_link_song = false
 local ball
 local ball_shadow
 local ball_is_launch = false
 local companion_manager = require("scripts/maps/companion_manager")
 local hero_is_alerted = false
-local notes = nil
-local notes2 = nil
-
+local marine_notes = nil
+local marine_notes_2 = nil
+local hero_notes = nil
+local hero_notes_2 = nil
 -- Methods - Functions
 
 function map:set_music()
@@ -23,6 +25,8 @@ function map:set_music()
   else
     if marine_song then
       sol.audio.play_music("maps/out/song_of_marine")
+    elseif marine_and_link_song then
+      sol.audio.play_music("maps/out/song_of_marine_and_link")
     else
       sol.audio.play_music("maps/out/mabe_village")
     end
@@ -30,10 +34,40 @@ function map:set_music()
 
 end
 
-function map:marine_sing()
+function map:marine_only_sing()
+
+  marine_song = true
+  map:marine_sing_start()
+  map:set_music()
+
+end
+
+function map:marine_and_hero_sing()
+
+  marine_and_link_song = true
+  local hero = map:get_hero()
+  hero:freeze()
+  map:marine_sing_start()
+  sol.timer.start(marine, 7000, function()
+    map:marine_sing_stop()
+    map:hero_sing_start()
+    sol.timer.start(marine, 7000, function()
+      map:marine_sing_start()
+      sol.timer.start(marine, 10000, function()
+        map:marine_sing_stop()
+        map:hero_sing_stop()
+      end)
+    end)
+  end)
+  map:set_music()
+
+
+end
+
+function map:marine_sing_start()
 
   local x,y,layer = marine:get_position()
-  notes = map:create_custom_entity{
+  marine_notes = map:create_custom_entity{
     x = x,
     y = y - 16,
     layer = layer + 1,
@@ -42,7 +76,7 @@ function map:marine_sing()
     direction = 0,
     sprite = "entities/notes"
   }
-  notes2 = map:create_custom_entity{
+  marine_notes2 = map:create_custom_entity{
     x = x,
     y = y - 16,
     layer = layer + 1,
@@ -52,10 +86,60 @@ function map:marine_sing()
     sprite = "entities/notes"
   }
   marine:get_sprite():set_animation("singing")
-  marine_song = true
-  map:set_music()
 
 end
+
+function map:marine_sing_stop()
+
+    marine:get_sprite():set_animation("waiting")
+    if marine_notes ~= nil then
+      marine_notes:remove()
+    end
+    if marine_notes_2 ~= nil then
+      marine_notes_2:remove()
+    end
+
+end
+
+function map:hero_sing_start()
+
+  local hero = map:get_hero()
+  local x ,y ,layer = hero:get_position()
+  hero:set_direction(3)
+  hero_notes = map:create_custom_entity{
+    x = x,
+    y = y - 16,
+    layer = layer + 1,
+    width = 24,
+    height = 32,
+    direction = 0,
+    sprite = "entities/notes"
+  }
+  hero_notes_2 = map:create_custom_entity{
+    x = x,
+    y = y - 16,
+    layer = layer + 1,
+    width = 24,
+    height = 32,
+    direction = 2,
+    sprite = "entities/notes"
+  }
+  hero:set_animation("playing_ocarina")
+
+end
+
+function map:hero_sing_stop()
+
+    hero:set_animation("stopped")
+    if hero_notes ~= nil then
+      hero_notes:remove()
+    end
+    if heror_notes_2 ~= nil then
+      heror_notes_2:remove()
+    end
+
+end
+
 
 function map:init_marine()
  
@@ -147,6 +231,8 @@ end
 
 function map:talk_to_marine() 
 
+  local item_ocarina = game:get_item("ocarina")
+  local variant_ocarina = item_ocarina:get_variant()
   if game:get_value("main_quest_step") <= 4 then
     game:start_dialog("maps.out.mabe_village.marine_1", game:get_player_name(), function()
       map:marine_sing()
@@ -154,6 +240,10 @@ function map:talk_to_marine()
   elseif game:get_value("main_quest_step") < 11 then
     game:start_dialog("maps.out.mabe_village.marine_2", game:get_player_name(), function()
       map:marine_sing()
+    end)
+  elseif game:get_value("main_quest_step") == 18 and variant_ocarina == 1 then
+    game:start_dialog("maps.out.mabe_village.marine_4", function()
+      map:marine_and_hero_sing()
     end)
   else
     game:start_dialog("maps.out.mabe_village.marine_3", game:get_player_name(), function()
@@ -342,28 +432,16 @@ end
 function marine_sensor_1:on_activated()
 
     marine_song = false
-    marine:get_sprite():set_animation("waiting")
     map:set_music()
-    if notes ~= nil then
-      notes:remove()
-    end
-    if notes2 ~= nil then
-      notes2:remove()
-    end
+    marine_sing_stop()
 
 end
 
 function marine_sensor_2:on_activated()
 
     marine_song = false
-    marine:get_sprite():set_animation("waiting")
     map:set_music()
-    if notes ~= nil then
-      notes:remove()
-    end
-    if notes2 ~= nil then
-      notes2:remove()
-    end
+    map:marine_sing_stop()
 
 end
 

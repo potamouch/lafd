@@ -2085,6 +2085,15 @@ je m'y perds...
 }
 
 dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.mother_6",
+  text = [[
+Mon mari est perdu dans les
+bois !
+Va le sauver !
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.shop_1.merchant_1",
   question = "1",
   text = [[
@@ -2837,6 +2846,15 @@ Une surprise t'attend !
 }
 
 dialog{
+  id = "maps.houses.south_prairie.richard_villa.richard_8",
+  text = [[
+Grâce à toi, j'ai
+mes Feuilles !   
+Je te suis reconnaissant.
+]],
+}
+
+dialog{
   id = "maps.houses.wardrobe_1",
   text = [[
 $v a inspecté la
@@ -3326,6 +3344,17 @@ dialog{
 J'adore chanter!
 Et toi $v , qu'est-ce 
 que tu aimes ?
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.marine_4",
+  skip = "all",
+  text = [[
+Mais c'est un Ocarina         
+que tu as là !   
+Veux-tu en jouer pendant   
+que je chante ?
 ]],
 }
 

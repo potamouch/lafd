@@ -23621,6 +23621,25 @@ pickable{
   treasure_savegame_variable = "seashell_13",
 }
 
+sensor{
+  name = "owl_7_sensor",
+  layer = 0,
+  x = 512,
+  y = 621,
+  width = 16,
+  height = 144,
+}
+
+npc{
+  name = "tarin",
+  layer = 0,
+  x = 856,
+  y = 149,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/tarin",
+}
+
 tile{
   layer = 1,
   x = 696,
@@ -25927,8 +25946,8 @@ pickable{
 custom_entity{
   name = "butterfly_7",
   layer = 1,
-  x = 808,
-  y = 141,
+  x = 832,
+  y = 101,
   width = 16,
   height = 16,
   direction = 3,
@@ -25939,8 +25958,8 @@ custom_entity{
 custom_entity{
   name = "butterfly_8",
   layer = 1,
-  x = 848,
-  y = 141,
+  x = 800,
+  y = 101,
   width = 16,
   height = 16,
   direction = 3,
@@ -26033,5 +26052,24 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "npc/owl",
+}
+
+npc{
+  name = "owl_7",
+  layer = 2,
+  x = 552,
+  y = 453,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/owl",
+}
+
+sensor{
+  name = "owl_7_position",
+  layer = 2,
+  x = 552,
+  y = 453,
+  width = 16,
+  height = 16,
 }
 

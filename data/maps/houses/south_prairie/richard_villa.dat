@@ -737,6 +737,7 @@ wall{
 }
 
 block{
+  name = "box",
   layer = 0,
   x = 240,
   y = 93,
@@ -794,6 +795,26 @@ stairs{
   y = 64,
   direction = 1,
   subtype = 3,
+}
+
+custom_entity{
+  name = "richard_place",
+  layer = 0,
+  x = 200,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "box_place",
+  layer = 0,
+  x = 256,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{
