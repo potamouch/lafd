@@ -7307,7 +7307,7 @@ door{
   layer = 0,
   x = 776,
   y = 272,
-  direction = 0,
+  direction = 1,
   sprite = "entities/doors/door_weak_wall_out",
   savegame_variable = "d1_east_mt_tamaranch_weak_1",
   opening_method = "explosion",
