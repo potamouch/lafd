@@ -34,7 +34,7 @@ function map:set_music()
 
 end
 
-function map:marine_only_sing()
+function map:marine_alone_sing()
 
   marine_song = true
   map:marine_sing_start()
@@ -257,11 +257,11 @@ function map:talk_to_marine()
   local variant_ocarina = item_ocarina:get_variant()
   if game:get_value("main_quest_step") <= 4 then
     game:start_dialog("maps.out.mabe_village.marine_1", game:get_player_name(), function()
-      map:marine_sing()
+      map:marine_alone_sing()
     end)
   elseif game:get_value("main_quest_step") < 11 then
     game:start_dialog("maps.out.mabe_village.marine_2", game:get_player_name(), function()
-      map:marine_sing()
+      map:marine_alone_sing()
     end)
   elseif game:get_value("main_quest_step") == 18 and variant_ocarina == 1 then
     game:start_dialog("maps.out.mabe_village.marine_4", function()
@@ -271,7 +271,7 @@ function map:talk_to_marine()
     game:start_dialog("maps.out.mabe_village.marine_8")
   else
     game:start_dialog("maps.out.mabe_village.marine_3", game:get_player_name(), function()
-      map:marine_sing()
+      map:marine_alone_sing()
     end)
   end
 
