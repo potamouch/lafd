@@ -13,6 +13,10 @@ function companion_manager:init_map(map)
     companion = true
     sprite = "npc/bowwow"
     model = "bowwow_follow"
+  elseif step == 23 then
+    companion = true
+    sprite = "npc/marin"
+    model = "marin_follow"
   end
   if companion then
     map:create_custom_entity({

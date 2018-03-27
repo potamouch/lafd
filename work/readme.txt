@@ -22,8 +22,8 @@ MAIN_QUEST_STEP
 19 - Tarin is afraid of bees
 20 - Honey recovered
 21 - Ananas recovered
-22 - Link seeks Marine
-23 - Marine is with Link
+22 - Link seeks Marin
+23 - Marin is with Link
 24 - Walrus is awake
 25 - The Sand Snake is killed
 26 - Dungeon 4 key is retrieved

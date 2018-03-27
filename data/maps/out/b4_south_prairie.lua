@@ -15,7 +15,7 @@ function map:set_music()
   if game:get_value("main_quest_step") == 3  then
     sol.audio.play_music("maps/out/sword_search")
   else
-    if marine_song then
+    if marin_song then
       sol.audio.stop_music()
       sol.audio.play_sound("marin_on_beach")
     else
@@ -32,37 +32,46 @@ function map:on_started()
   map:set_digging_allowed(true)
   -- Marine
   if game:get_value("main_quest_step") ~= 21  then
-    marine:set_enabled(false)
+    marin:set_enabled(false)
   end
  
 end
 
-function map:talk_to_marine() 
+function map:on_opening_transition_finished(destination)
 
-  game:start_dialog("maps.out.south_prairie.marine_1", game:get_player_name(), function(answer)
+  if destination ==  marin_destination then
+    marin:set_enabled(false)
+  end
+
+end
+
+
+function map:talk_to_marin() 
+
+  game:start_dialog("maps.out.south_prairie.marin_1", game:get_player_name(), function(answer)
     if answer == 1 then
-      hero:teleport("movies/link_and_marine")
+      hero:teleport("movies/link_and_marin")
     else
-      game:start_dialog("maps.out.south_prairie.marine_2")
+      game:start_dialog("maps.out.south_prairie.marin_2")
     end
   end)
 
 end
 
-function marine:on_interaction()
+function marin:on_interaction()
 
-  map:talk_to_marine()
+  map:talk_to_marin()
 
 end
 
-function marine_sensor:on_activated()
+function marin_sensor:on_activated()
 
   local hero = game:get_hero()
   if hero:get_direction() == 1 then
-    marine_song = false
+    marin_song = false
     map:set_music()
   else
-    marine_song = true
+    marin_song = true
     map:set_music()
   end
 end

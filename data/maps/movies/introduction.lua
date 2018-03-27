@@ -89,8 +89,8 @@ function map:move_camera_down_to_the_beach()
 
   -- Max y for the camera movement is Marine's Y
   local camera = map:get_camera()
-  local marine_camera_x, marine_camera_y = camera:get_position_to_track(marine)
-  movement:set_max_distance(marine_camera_y)
+  local marin_camera_x, marin_camera_y = camera:get_position_to_track(marin)
+  movement:set_max_distance(marin_camera_y)
 
   -- Marine begins to enter when the camera reach the y 162.
   function movement:on_position_changed()
@@ -101,7 +101,7 @@ function map:move_camera_down_to_the_beach()
      end)
      map:make_seagull_move(seagull_2, 40)
    elseif y == 162 then
-     map:make_marine_enter_beach()
+     map:make_marin_enter_beach()
    end
   end
 
@@ -118,81 +118,81 @@ function map:move_camera_down_to_the_beach()
 end
 
 -- Move Marine from outside the map to the East of the beach.
-function map:make_marine_enter_beach()
-  marine:get_sprite():set_animation("walking")
-  local marine_x, marine_y = marine:get_position()
+function map:make_marin_enter_beach()
+  marin:get_sprite():set_animation("walking")
+  local marin_x, marin_y = marin:get_position()
   local movement = sol.movement.create("target")
   movement:set_speed(30)
   movement:set_smooth(true)
-  movement:set_target(576, marine_y)
+  movement:set_target(576, marin_y)
   movement:set_ignore_obstacles(true)
-  movement:start(marine, function()
-    map:make_marine_go_to_wood_piece()
+  movement:start(marin, function()
+    map:make_marin_go_to_wood_piece()
   end)
 
 end
 
 -- Move Marine to the floating wood piece.
-function map:make_marine_go_to_wood_piece()
+function map:make_marin_go_to_wood_piece()
 
-  local marine_x, marine_y = marine:get_position()
-  local marine_sprite = marine:get_sprite()
-  marine_sprite:set_animation("walking")
+  local marin_x, marin_y = marin:get_position()
+  local marin_sprite = marin:get_sprite()
+  marin_sprite:set_animation("walking")
 
   local movement = sol.movement.create("target")
   movement:set_speed(30)
   movement:set_smooth(true)
-  movement:set_target(marine_x, marine_y + 16)
+  movement:set_target(marin_x, marin_y + 16)
   movement:set_ignore_obstacles(true)
-  movement:start(marine, function()
-    marine_sprite:set_animation("stopped")
-    marine_sprite:set_paused(true)
+  movement:start(marin, function()
+    marin_sprite:set_animation("stopped")
+    marin_sprite:set_paused(true)
     -- Marine is watching the wooden piece.
     sol.timer.start(map, 1000, function()
       local dialog_box = game:get_dialog_box()
       dialog_box:set_position("bottom")
-      game:start_dialog("movies.introduction.marine_wondering")
-      map:make_marine_come_back_from_wood_piece()
+      game:start_dialog("movies.introduction.marin_wondering")
+      map:make_marin_come_back_from_wood_piece()
     end)
   end)
 
 end
 
 -- Move Marine back to beach.
-function map:make_marine_come_back_from_wood_piece()
+function map:make_marin_come_back_from_wood_piece()
 
-  local marine_x, marine_y = marine:get_position()
-  local marine_sprite = marine:get_sprite()
-  marine_sprite:set_animation("walking")
-  marine_sprite:set_paused(false)
+  local marin_x, marin_y = marin:get_position()
+  local marin_sprite = marin:get_sprite()
+  marin_sprite:set_animation("walking")
+  marin_sprite:set_paused(false)
 
   local movement = sol.movement.create("target")
   movement:set_speed(30)
   movement:set_smooth(true)
-  movement:set_target(marine_x, marine_y - 16)
+  movement:set_target(marin_x, marin_y - 16)
   movement:set_ignore_obstacles(true)
-  movement:start(marine, function()
+  movement:start(marin, function()
     -- Continue Marine's balade on the beach.
-    map:make_marine_go_to_wreck()
+    map:make_marin_go_to_wreck()
   end)
 
 end
 
 -- Move Marine to the ship wreck.
-function map:make_marine_go_to_wreck()
+function map:make_marin_go_to_wreck()
 
   local wreck_x, wreck_y = ship_wreck:get_position()
-  local marine_x, marine_y = marine:get_position()
-  marine:get_sprite():set_animation("walking")
+  local marin_x, marin_y = marin:get_position()
+  marin:get_sprite():set_animation("walking")
 
   -- Once the free movement of the camera is done,
   -- the camera is locked on Marine.
-  map:get_camera():start_tracking(marine)
+  map:get_camera():start_tracking(marin)
 
   local movement = sol.movement.create("target")
   movement:set_speed(30)
   movement:set_smooth(true)
-  movement:set_target(wreck_x + 96, marine_y)
+  movement:set_target(wreck_x + 96, marin_y)
   movement:set_ignore_obstacles(true)
 
   local seagull_3_x, seagull_3_y = seagull_3:get_position()
@@ -216,42 +216,42 @@ function map:make_marine_go_to_wreck()
    end
   end
 
-  movement:start(marine, function()
+  movement:start(marin, function()
     -- Mark a little stop: Marine is seeing the hero far away.
-    local marine_sprite = marine:get_sprite()
-    marine_sprite:set_animation("stopped")
-    marine_sprite:set_paused(true)
+    local marin_sprite = marin:get_sprite()
+    marin_sprite:set_animation("stopped")
+    marin_sprite:set_paused(true)
 
     sol.timer.start(map, 1000, function()
-      game:start_dialog("movies.introduction.marine_exclaming")
+      game:start_dialog("movies.introduction.marin_exclaming")
       -- Then she runs to the hero.
-      map:make_marine_go_to_link()
+      map:make_marin_go_to_link()
     end)
   end)
 
 end
 
 -- Move Marine to the hero lying on the beach.
-function map:make_marine_go_to_link()
+function map:make_marin_go_to_link()
 
-  local marine_sprite = marine:get_sprite()
-  marine_sprite:set_animation("walking")
-  marine_sprite:set_frame_delay(marine_sprite:get_frame_delay() / 4)
-  marine_sprite:set_paused(false)
+  local marin_sprite = marin:get_sprite()
+  marin_sprite:set_animation("walking")
+  marin_sprite:set_frame_delay(marin_sprite:get_frame_delay() / 4)
+  marin_sprite:set_paused(false)
 
   local movement = sol.movement.create("target")
   movement:set_speed(120)
   movement:set_smooth(true)
   movement:set_target(castaway_hero, 24, 0)
   movement:set_ignore_obstacles(true)
-  movement:start(marine, function()
-    marine:get_sprite():set_animation("stopped")
-    marine:get_sprite():set_paused(true)
+  movement:start(marin, function()
+    marin:get_sprite():set_animation("stopped")
+    marin:get_sprite():set_paused(true)
     local dialog_box = game:get_dialog_box()
     dialog_box:set_position("bottom")
     local player_name = game:get_player_name()
-    game:start_dialog("movies.introduction.marine_waking_up", player_name, function()
-      game:start_dialog("movies.introduction.marine_to_zelda", function()
+    game:start_dialog("movies.introduction.marin_waking_up", player_name, function()
+      game:start_dialog("movies.introduction.marin_to_zelda", function()
           map:start_fadeout_to_white(500)
       end)
     end)
@@ -351,5 +351,5 @@ end
 -- End the dream and go to Link's house.
 function map:end_dreaming()
   local hero = map:get_hero()
-  hero:teleport("houses/mabe_village/marine_house", "start_position", "immediate")
+  hero:teleport("houses/mabe_village/marin_house", "start_position", "immediate")
 end

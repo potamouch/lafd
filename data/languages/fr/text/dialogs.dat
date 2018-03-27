@@ -1809,7 +1809,7 @@ Non
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.letter",
+  id = "maps.houses.mabe_village.marin_house.letter",
   text = [[
 Sur la plage... 
 "Marine" ®
@@ -1817,7 +1817,7 @@ Sur la plage...
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.marine_1",
+  id = "maps.houses.mabe_village.marin_house.marin_1",
   skip = "all",
   text = [[
 Suis la route du Sud,
@@ -1831,7 +1831,7 @@ Sois prudent...
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.marine_2",
+  id = "maps.houses.mabe_village.marin_house.marin_2",
   text = [[
 Ah! Enfin...    
 J'ai cru que tu n'allais
@@ -1847,7 +1847,7 @@ Cocolint !
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.tarin_1",
+  id = "maps.houses.mabe_village.marin_house.tarin_1",
   text = [[
 Salut $v ! T'es 
 réveillé...
@@ -1864,7 +1864,7 @@ J'te l'donne !
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.tarin_2",
+  id = "maps.houses.mabe_village.marin_house.tarin_2",
   skip = "all",
   text = [[
 Salut $v !    
@@ -1881,7 +1881,7 @@ y'en a partout !
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.tarin_3",
+  id = "maps.houses.mabe_village.marin_house.tarin_3",
   skip = "all",
   text = [[
 Hé mon gars,    
@@ -1892,7 +1892,7 @@ dire !
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.tarin_4",
+  id = "maps.houses.mabe_village.marin_house.tarin_4",
   skip = "all",
   text = [[
 Je suis éreinté !
@@ -1903,7 +1903,7 @@ ZZZ...ZZZ...
 }
 
 dialog{
-  id = "maps.houses.mabe_village.marine_house.tarin_5",
+  id = "maps.houses.mabe_village.marin_house.tarin_5",
   skip = "all",
   text = [[
 J'avais la dalle alors 
@@ -3423,7 +3423,7 @@ s'est passé !
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_1",
+  id = "maps.out.mabe_village.marin_1",
   skip = "all",
   text = [[
 Bonjour $v !  
@@ -3437,7 +3437,7 @@ Ballade du Poisson-Rêve.
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_2",
+  id = "maps.out.mabe_village.marin_2",
   skip = "all",
   text = [[
 $v, Tarkin   
@@ -3450,7 +3450,7 @@ Poisson-Rêve ?
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_3",
+  id = "maps.out.mabe_village.marin_3",
   skip = "all",
   text = [[
 J'adore chanter!
@@ -3460,7 +3460,7 @@ que tu aimes ?
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_4",
+  id = "maps.out.mabe_village.marin_4",
   skip = "all",
   text = [[
 Mais c'est un Ocarina         
@@ -3471,7 +3471,7 @@ que je chante ?
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_5",
+  id = "maps.out.mabe_village.marin_5",
   question = "1",
   text = [[
 Alors,comment tu la 
@@ -3484,7 +3484,7 @@ Non
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_6",
+  id = "maps.out.mabe_village.marin_6",
   text = [[
 Je t'en prie ! Apprends-la.    
 C'est ma chanson préférée !!
@@ -3492,7 +3492,7 @@ C'est ma chanson préférée !!
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_7",
+  id = "maps.out.mabe_village.marin_7",
   text = [[
 Tu fredonneras cette chanson   
 de temps à autre pour ne
@@ -3501,7 +3501,7 @@ pas l'oublier !
 }
 
 dialog{
-  id = "maps.out.mabe_village.marine_8",
+  id = "maps.out.mabe_village.marin_8",
   text = [[
 On dit que la Ballade      
 du Poisson-Rêve 
@@ -3615,7 +3615,7 @@ bouclier !
 }
 
 dialog{
-  id = "maps.out.south_prairie.marine_1",
+  id = "maps.out.south_prairie.marin_1",
   question = "1",
   text = [[
 Oh $v, tu savais où    
@@ -3628,7 +3628,7 @@ Non
 }
 
 dialog{
-  id = "maps.out.south_prairie.marine_2",
+  id = "maps.out.south_prairie.marin_2",
   text = [[
 Peuh ! Je regarderai
 la mer alors !
@@ -3796,7 +3796,7 @@ ZZZ ZZZ ZZZ ZZZ
 }
 
 dialog{
-  id = "movies.introduction.marine_exclaming",
+  id = "movies.introduction.marin_exclaming",
   text = [[
 ...
 Oh !
@@ -3804,7 +3804,7 @@ Oh !
 }
 
 dialog{
-  id = "movies.introduction.marine_to_zelda",
+  id = "movies.introduction.marin_to_zelda",
   text = [[
 DEBOUT !
 $0$0$0$0
@@ -3812,7 +3812,7 @@ $0$0$0$0
 }
 
 dialog{
-  id = "movies.introduction.marine_waking_up",
+  id = "movies.introduction.marin_waking_up",
   text = [[
 $v ?
 Es-tu vivant ?
@@ -3827,7 +3827,7 @@ DEBOUT FEIGNASSE !
 }
 
 dialog{
-  id = "movies.introduction.marine_wondering",
+  id = "movies.introduction.marin_wondering",
   text = [[
 ???
 
@@ -3836,6 +3836,77 @@ Qu'est-ce que c'est
 que ça ?
 D'où ça vient ?
 Un naufrage ?
+]],
+}
+
+dialog{
+  id = "movies.link_and_marin.marin_1",
+  text = [[
+D'où vient cette noix de 
+coco ? Tarkin me dit qu'il 
+n'y a rien par-delà la mer.
+Moi, je suis persuadée       
+du contraire !   
+Tu sais Link, quand je t'ai 
+vu mon coeur s'est mis
+à battre la chamade...   
+Je suis sûre que tu es le        
+messager que j'attendais !
+]],
+}
+
+dialog{
+  id = "movies.link_and_marin.marin_2",
+  text = [[
+... ... ... ... 
+... ... ... ... 
+Si j'étais une mouette,    
+je m'envolerais loin,
+très loin ! Je visiterais 
+des pays et chanterais 
+pour tous ! Si j'exprime un 
+voeu au Poisson-Rêve,
+l'exaucera-t'il ?
+]],
+}
+
+dialog{
+  id = "movies.link_and_marin.marin_3",
+  question = "1",
+  text = [[
+Hé, tu écoutes ? 
+Link , es-tu sûr que tu      
+m'écoutes ?
+
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "movies.link_and_marin.marin_4",
+  text = [[
+J'aimerais tant connaître  
+ton pays,Link ! 
+Un jour mmm...
+]],
+}
+
+dialog{
+  id = "movies.link_and_marin.marin_5",
+  text = [[
+Comment ?        
+Le Morse ?       
+D'accord,,je t'accompagne.
+]],
+}
+
+dialog{
+  id = "movies.link_and_marin.marin_6",
+  text = [[
+Ho, tu descends de ton
+nuage ? Tu pourrais
+au moins m'écouter !
 ]],
 }
 

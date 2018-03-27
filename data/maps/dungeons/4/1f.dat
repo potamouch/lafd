@@ -10323,8 +10323,8 @@ teletransporter{
   y = 1704,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/marine_house",
-  destination = "marine_house_1_B",
+  destination_map = "houses/mabe_village/marin_house",
+  destination = "marin_house_1_B",
 }
 
 tile{

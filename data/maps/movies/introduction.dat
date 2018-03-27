@@ -377,13 +377,13 @@ custom_entity{
 }
 
 npc{
-  name = "marine",
+  name = "marin",
   layer = 1,
   x = 664,
   y = 413,
   direction = 2,
   subtype = 1,
-  sprite = "npc/marine",
+  sprite = "npc/marin",
 }
 
 npc{

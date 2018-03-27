@@ -87,7 +87,7 @@ map{ id = "houses/mabe_village/dream_shine_lower_level", description = "Dream sh
 map{ id = "houses/mabe_village/dream_shine_upper_level", description = "Dream shine upper level" }
 map{ id = "houses/mabe_village/grand_pa_house", description = "Grandpa house" }
 map{ id = "houses/mabe_village/library", description = "Library" }
-map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
+map{ id = "houses/mabe_village/marin_house", description = "Marine house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
 map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets house" }
 map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
@@ -111,7 +111,7 @@ map{ id = "houses/yarna_desert/empty_house", description = "Empty house" }
 map{ id = "houses/yarna_desert/painter_house", description = "Painter's house" }
 map{ id = "houses/yarna_desert/rabbits_house", description = "Rabbits house" }
 map{ id = "movies/introduction", description = "Introduction" }
-map{ id = "movies/link_and_marine", description = "Link and Marine" }
+map{ id = "movies/link_and_marin", description = "Link and Marin" }
 map{ id = "out/a1_west_mt_tamaranch", description = "A1 - West Mt Tamaranch" }
 map{ id = "out/a2_forest", description = "A2 - Forest" }
 map{ id = "out/a3_mabe_village", description = "A3 - Mabe village" }
@@ -528,7 +528,7 @@ sprite{ id = "npc/manbopals_grey", description = "Manbopals grey" }
 sprite{ id = "npc/manbopals_pink", description = "Manbopals pink" }
 sprite{ id = "npc/manbopals_red", description = "Manbopals red" }
 sprite{ id = "npc/manbopals_yellow", description = "Manbopals yellow" }
-sprite{ id = "npc/marine", description = "Marine" }
+sprite{ id = "npc/marin", description = "Marine" }
 sprite{ id = "npc/meow_meow", description = "Meow meow" }
 sprite{ id = "npc/merchant", description = "Merchant" }
 sprite{ id = "npc/mermaid", description = "Mermaid" }
@@ -595,11 +595,11 @@ music{ id = "maps/out/let_the_journey_begin", description = "Let the journey beg
 music{ id = "maps/out/mabe_village", description = "Mabe village" }
 music{ id = "maps/out/moblins_and_bow_wow", description = "Moblins and bow wow" }
 music{ id = "maps/out/mt_tamaranch", description = "Mt Tamaranch" }
-music{ id = "maps/out/mt_tamaranch_marine", description = "Mt Tamaranch Marine" }
+music{ id = "maps/out/mt_tamaranch_marin", description = "Mt Tamaranch Marine" }
 music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
-music{ id = "maps/out/song_of_marine", description = "Song of Marine" }
-music{ id = "maps/out/song_of_marine_and_link", description = "Song of Marine and Link" }
+music{ id = "maps/out/song_of_marin", description = "Song of Marine" }
+music{ id = "maps/out/song_of_marin_and_link", description = "Song of Marine and Link" }
 music{ id = "maps/out/sword_search", description = "Sword search" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
 music{ id = "scripts/menus/introduction", description = "Introduction" }
@@ -860,7 +860,7 @@ entity{ id = "heavy_object", description = "Heavy object" }
 entity{ id = "heavy_statue", description = "Heavy statue" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
-entity{ id = "marine", description = "Marine" }
+entity{ id = "marin_follow", description = "Marin follow" }
 entity{ id = "mouse", description = "Mouse" }
 entity{ id = "mr_write_and_christine", description = "Mr Write and Christine" }
 entity{ id = "non_diggable", description = "Non diggable" }

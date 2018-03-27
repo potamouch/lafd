@@ -14011,7 +14011,7 @@ jumper{
 }
 
 destination{
-  name = "marine_house_2_A",
+  name = "marin_house_2_A",
   layer = 0,
   x = 616,
   y = 525,
@@ -14019,14 +14019,14 @@ destination{
 }
 
 teletransporter{
-  name = "marine_house_1_A",
+  name = "marin_house_1_A",
   layer = 0,
   x = 608,
   y = 496,
   width = 16,
   height = 16,
-  destination_map = "houses/mabe_village/marine_house",
-  destination = "marine_house_1_B",
+  destination_map = "houses/mabe_village/marin_house",
+  destination = "marin_house_1_B",
 }
 
 jumper{
@@ -14360,13 +14360,13 @@ teletransporter{
 }
 
 npc{
-  name = "marine",
+  name = "marin",
   layer = 0,
   x = 560,
   y = 285,
   direction = 3,
   subtype = 1,
-  sprite = "npc/marine",
+  sprite = "npc/marin",
 }
 
 npc{
@@ -15549,7 +15549,7 @@ destructible{
 }
 
 sensor{
-  name = "marine_sensor_1",
+  name = "marin_sensor_1",
   layer = 0,
   x = 528,
   y = 413,
@@ -19126,7 +19126,7 @@ custom_entity{
 }
 
 sensor{
-  name = "marine_sensor_2",
+  name = "marin_sensor_2",
   layer = 0,
   x = 760,
   y = 221,

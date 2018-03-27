@@ -19,14 +19,14 @@ function map:set_music()
 
 end
 
-function map:repeat_marine_direction_check()
+function map:repeat_marin_direction_check()
 
-  local direction4 = marine:get_direction4_to(hero)
-  marine:get_sprite():set_direction(direction4)
+  local direction4 = marin:get_direction4_to(hero)
+  marin:get_sprite():set_direction(direction4)
 
   -- Rappeler cette fonction dans 0.1 seconde.
   sol.timer.start(map, 100, function() 
-    map:repeat_marine_direction_check()
+    map:repeat_marin_direction_check()
   end)
 end
 
@@ -47,7 +47,7 @@ function map:jump_from_bed()
   hero:start_jumping(7, 24, true)
   game:set_pause_allowed(true)
   bed:get_sprite():set_animation("empty_open")
-  game:set_starting_location("houses/mabe_village/marine_house", "marine_house_1_B")
+  game:set_starting_location("houses/mabe_village/marin_house", "marin_house_1_B")
   sol.audio.play_sound("hero_lands")
   game:set_value("main_quest_step", 1)
 
@@ -58,7 +58,7 @@ function map:wake_up()
   snores:remove()
   bed:get_sprite():set_animation("hero_waking")
   sol.timer.start(1000, function() 
-    game:start_dialog("maps.houses.mabe_village.marine_house.marine_2", function()
+    game:start_dialog("maps.houses.mabe_village.marin_house.marin_2", function()
       sol.timer.start(500, function()
         map:jump_from_bed()
       end)
@@ -107,39 +107,39 @@ end
 function  map:talk_to_tarin() 
 
    if game:get_value("main_quest_step") > 10 then
-    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_5")
+    game:start_dialog("maps.houses.mabe_village.marin_house.tarin_5")
    elseif game:get_value("main_quest_step") > 4 then
-    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_4")
+    game:start_dialog("maps.houses.mabe_village.marin_house.tarin_4")
    else
       if game:has_item("shield") == false then
         local item = game:get_item("shield")
-        game:start_dialog("maps.houses.mabe_village.marine_house.tarin_1", game:get_player_name(), function()
+        game:start_dialog("maps.houses.mabe_village.marin_house.tarin_1", game:get_player_name(), function()
           hero:start_treasure("shield", 1, "schield")
           game:set_item_assigned(1, item)
           game:set_value("main_quest_step", 2)
         end)
       else
-          game:start_dialog("maps.houses.mabe_village.marine_house.tarin_2", game:get_player_name())
+          game:start_dialog("maps.houses.mabe_village.marin_house.tarin_2", game:get_player_name())
       end
   end
 
 end
 
-function map:init_marine()
+function map:init_marin()
  
   if game:get_value("main_quest_step") > 3  then
-    marine:remove()
+    marin:remove()
   else
-    marine:get_sprite():set_animation("waiting")
-    map:repeat_marine_direction_check()
+    marin:get_sprite():set_animation("waiting")
+    map:repeat_marin_direction_check()
   end
 
 end
 
 
-function map:talk_to_marine() 
+function map:talk_to_marin() 
 
-  game:start_dialog("maps.houses.mabe_village.marine_house.marine_1")
+  game:start_dialog("maps.houses.mabe_village.marin_house.marin_1")
 
 end
 
@@ -148,7 +148,7 @@ end
 function map:on_started(destination)
 
   map:set_music()
-  map:init_marine()
+  map:init_marin()
   map:init_tarin()
   companion_manager:init_map(map)
   -- Letter
@@ -183,7 +183,7 @@ end
 function exit_sensor:on_activated()
 
   if game:has_item("shield") == false then
-    game:start_dialog("maps.houses.mabe_village.marine_house.tarin_3", function()
+    game:start_dialog("maps.houses.mabe_village.marin_house.tarin_3", function()
      hero:set_direction(2)
      hero:walk("2222")
    end)
@@ -204,9 +204,9 @@ function tarin_npc:on_interaction()
 
 end
 
-function marine:on_interaction()
+function marin:on_interaction()
 
-      map:talk_to_marine()
+      map:talk_to_marin()
 
 end
 

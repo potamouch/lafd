@@ -10,8 +10,6 @@
 local map = ...
 local game = map:get_game()
 local player_name = game:get_player_name()
-local timer_sound = nil
-
 local language_manager = require("scripts/language_manager")
 
 -- Sunset effect
@@ -44,7 +42,7 @@ function map:on_started()
   dialog_box:set_position("top")
 
   -- Let the sprite animation running.
-  marine:get_sprite():set_ignore_suspend(true)
+  marin:get_sprite():set_ignore_suspend(true)
   hero:get_sprite():set_ignore_suspend(true)
   -- Let the swell animation running.
   for i = 1, 10 do
@@ -120,5 +118,37 @@ function map:start_cinematic()
    movement:set_angle(3 * math.pi / 2)
    movement:set_max_distance(256)
    movement:set_ignore_obstacles(true)
-   movement:start(camera)
+   movement:start(camera, function()
+    map:start_dialog()
+   end)
+
+end
+
+function map:start_dialog()
+
+  game:start_dialog("movies.link_and_marin.marin_1", function()
+    sol.timer.start(marin, 1000, function()
+      game:start_dialog("movies.link_and_marin.marin_2", function()
+        sol.timer.start(marin, 1000, function()
+          game:start_dialog("movies.link_and_marin.marin_3", function(answer)
+            if answer == 1 then
+              game:start_dialog("movies.link_and_marin.marin_4", function()
+                game:start_dialog("movies.link_and_marin.marin_5", function()
+                  game:set_value("main_quest_step", 23) 
+                  game:set_hud_enabled(true)
+                  game:set_pause_allowed(true)
+                  hero:teleport("out/b4_south_prairie", "marin_destination")
+                end)
+              end)
+            else
+              game:start_dialog("movies.link_and_marin.marin_6", function()
+                map:start_dialog()
+              end)
+            end
+          end)
+        end)
+      end)
+    end)
+  end)
+
 end

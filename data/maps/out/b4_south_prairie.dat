@@ -11613,7 +11613,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 672,
+  x = 656,
   y = 720,
   width = 8,
   height = 8,
@@ -19723,22 +19723,102 @@ npc{
 }
 
 npc{
-  name = "marine",
+  name = "marin",
   layer = 0,
   x = 360,
   y = 701,
   direction = 3,
   subtype = 1,
-  sprite = "npc/marine",
+  sprite = "npc/marin",
 }
 
 sensor{
-  name = "marine_sensor",
+  name = "marin_sensor",
   layer = 0,
   x = 328,
   y = 621,
   width = 128,
   height = 16,
+}
+
+destination{
+  name = "marin_destination",
+  layer = 0,
+  x = 360,
+  y = 669,
+  direction = 3,
+}
+
+destructible{
+  layer = 0,
+  x = 648,
+  y = 733,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 680,
+  y = 717,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 680,
+  y = 701,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 680,
+  y = 685,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 696,
+  y = 685,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 680,
+  y = 669,
+  treasure_name = "random",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
 }
 
 tile{
