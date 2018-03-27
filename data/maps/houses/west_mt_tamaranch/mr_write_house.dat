@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
-  music = "maps/houses/mr_write_and_christine",
+  music = "maps/houses/mr_write",
 }
 
 tile{
@@ -348,7 +348,7 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "npc/mr_write",
-  model = "mr_write",
+  model = "mr_write_and_christine",
 }
 
 custom_entity{

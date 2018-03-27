@@ -19,12 +19,16 @@ MAIN_QUEST_STEP
 16 - Dungeon 3 key is retrieved
 17 - Dungeon 3 is opened
 18 - Dungeon 3 is resolved
-19 - Dream fish ballad is learned
-20 - The walrus is revealed
-21 - The Sand Snake is killed
-22 - Dungeon 4 key is retrieved
-23 - Dungeon 4 is opened
-24 - Dungeon 4 is resolved
+19 - Tarin is afraid of bees
+20 - Honey recovered
+21 - Ananas recovered
+22 - Link seeks Marine
+23 - Marine is with Link
+24 - Walrus is awake
+25 - The Sand Snake is killed
+26 - Dungeon 4 key is retrieved
+27 - Dungeon 4 is opened
+28 - Dungeon 4 is resolved
 
 
 
@@ -84,6 +88,10 @@ Bonus - Cucco's house
 Bonus - Mr write's house
 Bonus - Sidescrolling
 
+
+Caractèrs des icones de dialogue
+
+¢£¤¥¦§¨©ª¬®¯
 
 
 

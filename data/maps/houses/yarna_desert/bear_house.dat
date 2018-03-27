@@ -255,7 +255,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 240,
+  x = 232,
   y = 144,
   width = 16,
   height = 16,
@@ -264,70 +264,232 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
+  x = 208,
   y = 144,
   width = 16,
   height = 16,
   pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
 }
 
 tile{
   layer = 0,
   x = 192,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 104,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 104,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
-}
-
-tile{
-  layer = 0,
-  x = 248,
   y = 128,
   width = 8,
   height = 8,
@@ -336,25 +498,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
-  y = 120,
-  width = 8,
-  height = 8,
-  pattern = "table.1",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 136,
-  width = 8,
-  height = 8,
-  pattern = "table.7",
-}
-
-tile{
-  layer = 0,
-  x = 248,
+  x = 192,
   y = 120,
   width = 8,
   height = 8,
@@ -363,43 +507,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
-  y = 120,
-  width = 80,
-  height = 8,
-  pattern = "table.2",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 136,
-  width = 80,
-  height = 8,
-  pattern = "table.8",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 128,
-  width = 8,
-  height = 8,
-  pattern = "table.4",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 128,
-  width = 80,
-  height = 8,
-  pattern = "table.5",
-}
-
-tile{
-  layer = 0,
-  x = 248,
+  x = 192,
   y = 136,
   width = 8,
   height = 8,
@@ -408,16 +516,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
-  y = 128,
-  width = 8,
-  height = 8,
-  pattern = "table.6",
-}
-
-tile{
-  layer = 0,
-  x = 64,
+  x = 200,
   y = 120,
   width = 8,
   height = 8,
@@ -426,7 +525,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 200,
   y = 136,
   width = 8,
   height = 8,
@@ -435,16 +534,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
-  y = 120,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
-}
-
-tile{
-  layer = 0,
-  x = 72,
+  x = 208,
   y = 120,
   width = 32,
   height = 8,
@@ -453,7 +543,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 208,
   y = 136,
   width = 32,
   height = 8,
@@ -462,7 +552,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 200,
   y = 128,
   width = 8,
   height = 8,
@@ -471,7 +561,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
+  x = 208,
   y = 128,
   width = 32,
   height = 8,
@@ -480,11 +570,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
-  y = 136,
-  width = 8,
-  height = 8,
-  pattern = "table.9",
+  x = 184,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "bug_cage",
 }
 
 destination{
@@ -534,12 +624,62 @@ destructible{
 }
 
 npc{
+  name = "bear",
+  layer = 0,
+  x = 184,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bear",
+}
+
+npc{
+  name = "wardrobe_1",
+  layer = 0,
+  x = 144,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_2",
+  layer = 0,
+  x = 160,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "wardrobe_3",
+  layer = 0,
+  x = 176,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 96,
+  width = 32,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+npc{
+  name = "bear_invisible",
   layer = 0,
   x = 176,
   y = 117,
   direction = 3,
   subtype = 1,
-  sprite = "npc/bear",
 }
 
 tile{
@@ -567,6 +707,15 @@ tile{
   width = 24,
   height = 24,
   pattern = "287",
+}
+
+pickable{
+  name = "ananas",
+  layer = 1,
+  x = 208,
+  y = 117,
+  treasure_name = "magnifying_lens",
+  treasure_variant = 7,
 }
 
 tile{

@@ -21308,6 +21308,16 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+npc{
+  name = "kid_5",
+  layer = 0,
+  x = 688,
+  y = 341,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/kid_3",
+}
+
 tile{
   layer = 1,
   x = 792,

@@ -2828,7 +2828,7 @@ custom_entity{
   height = 32,
   direction = 3,
   sprite = "entities/dog_statue",
-  model = "mr_write",
+  model = "mr_write_and_christine",
 }
 
 custom_entity{

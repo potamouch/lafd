@@ -151,8 +151,12 @@ function map:on_started(destination)
   map:init_marine()
   map:init_tarin()
   companion_manager:init_map(map)
+  -- Letter
+  if game:get_value("main_quest_step") ~= 21  then
+    letter:set_enabled(false)
+  end
+  -- Start position
   if destination:get_name() == "start_position"  then
-    -- the intro scene is playing
     game:set_hud_enabled(true)
     game:set_pause_allowed(false)
     snores:get_sprite():set_ignore_suspend(true)

@@ -751,8 +751,8 @@ dialog{
   icon = "103",
   text = [[
 Tu as échangé   
-le ruban contre     
-la pâtée !
+le £ contre     
+la ¤ !
 ]],
 }
 
@@ -761,8 +761,8 @@ dialog{
   icon = "102",
   text = [[
 Tu lui as donné 
-une patée en
-échange de bananes.
+une ¤ en
+échange de bananes ¥.
 ]],
 }
 
@@ -781,8 +781,8 @@ dialog{
   icon = "105",
   text = [[
 Tu as échangé   
-le ä contre     
-le Miel å .     
+le ¦ contre     
+le Miel §.     
 Pour quoi faire,
 tu verras bien !
 ]],
@@ -793,8 +793,8 @@ dialog{
   icon = "106",
   text = [[
 Tu as échangé   
-le å contre     
-l'Ananas æ .    
+le § contre     
+l'Ananas ¨.    
 Il est juteux !
 ]],
 }
@@ -1805,6 +1805,14 @@ ce livre ?
 
 Lire
 Non
+]],
+}
+
+dialog{
+  id = "maps.houses.mabe_village.marine_house.letter",
+  text = [[
+Sur la plage... 
+"Marine" ®
 ]],
 }
 
@@ -2899,6 +2907,99 @@ photo !
 }
 
 dialog{
+  id = "maps.houses.yarna_desert.bear_house.bear_1",
+  text = [[
+Il me manque des 
+ingrédients. C'est embêtant.
+Si j'avais du Miel, 
+ce serait parfait !
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.bear_house.bear_2",
+  question = "1",
+  text = [[
+C'est du § que tu as là!   
+J'en ai besoin ! 
+Tu ne veux pas d'Ananas        
+à la place ?     
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.bear_house.bear_3",
+  text = [[
+Flûte alors !    
+Tu regretteras de ne pas       
+avoir goûté à ce délice !
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.bear_house.bear_4",
+  text = [[
+Ho oui !
+Je connais bien les
+Dunes de Yarna. 
+Mais leur entrée située au       
+Sud du Village est bloquée 
+par une drôle de créature.    
+Et quand celle-ci dort,  
+pas moyen de la réveiller.
+J'ai une idée : amène Marine    
+avec toi et fais-la chanter 
+pour réveiller cet animal !
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.christine_house.christine_1",
+  text = [[
+Tu ne connais pas 
+l'étiquette quand tu rends 
+visite à une dame ??      
+Si tu m'avais apporté         
+des fleurs, j'aurais été    
+plus loquace.   
+Personnellement,
+j'adore les hibiscus...
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.painter_house.hippo_1",
+  text = [[
+Va-t'en !
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.painter_house.painter_1",
+  text = [[
+Ya, je zuis Sven Donavitch !
+La ztatue de la zirène 
+près de la baie est mon 
+chef-d'oeuvre inachevé...     
+L'art... Z'est dur, hein?
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.rabbits_house.rabbit_1",
+  text = [[
+Les Dunes de Yarna ?       
+Leur entrée est au Sud,     
+mais tu ne peux pas 
+y aller;
+une bestiole est affalée de  
+tout son long !
+]],
+}
+
+dialog{
   id = "maps.out.east_mt_tamaranch.owl_statue_1",
   text = [[
 Tu es proche de la Tour.
@@ -3054,7 +3155,7 @@ dialog{
   id = "maps.out.kanalet_castle.monkey_3",
   question = "1",
   text = [[
-Bananes, bananes ...    
+¥, ¥ ...    
 Miam Miam !      
 
 Pour Kiki ?      
@@ -3140,6 +3241,17 @@ voisine d'en
 face ! Que faire ?
 Moi, je ne sais 
 que balayer !!
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.kid_5_1",
+  text = [[
+Souvent, Marine 
+va toute seule regarder la 
+mer. Pourquoi ? Je ne 
+sais pas moi, je ne suis      
+qu'un gosse !
 ]],
 }
 
@@ -3455,6 +3567,26 @@ Château Canulet
 }
 
 dialog{
+  id = "maps.out.prairie.tarin_1",
+  question = "1",
+  text = [[
+$v ! 
+Ton truc me plaît.  
+J'te donne du Miel pour       
+c'Bâton. Alors ? 
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.out.prairie.tarin_2",
+  text = [[
+$v, t'es qu'un radin !
+]],
+}
+
+dialog{
   id = "maps.out.south_mabe_village.dungeon_1_lock",
   text = [[
 Une serrure ici ?
@@ -3583,10 +3715,62 @@ _ Forêt Enchantée
 }
 
 dialog{
+  id = "maps.out.yarna_desert.rabbit_1_1",
+  text = [[
+Une chanson de Marine 
+par un si beau jour,
+ce serait le pied !
+]],
+}
+
+dialog{
+  id = "maps.out.yarna_desert.rabbit_2_1",
+  text = [[
+Savais-tu que les Villages    
+des Animaux et des 
+Mouettes étaient des villes
+jumelées ? Des villes, c'est un
+bien grand mot...    
+Villages jumeaux serait
+mieux !   
+D'après une source sûre,    
+à l'intérieur du Gîte des
+Rêves, il y a un...    
+Crois-tu que c'est vrai ?
+]],
+}
+
+dialog{
+  id = "maps.out.yarna_desert.rabbit_3_1",
+  text = [[
+Je ne peux aller au Village. 
+Les monstres sont si
+nombreux !
+Marine est-elle en vie?
+]],
+}
+
+dialog{
   id = "maps.out.yarna_desert.sign_1",
   text = [[
 > Enfin ! Vill.  
 des Animaux
+]],
+}
+
+dialog{
+  id = "maps.out.yarna_desert.sign_2",
+  text = [[
+> Entrée des    
+Dunes de Yarna
+]],
+}
+
+dialog{
+  id = "maps.out.yarna_desert.walrus_1",
+  text = [[
+ZZZ ZZZ ZZZ ZZZ 
+ ... ® ... ® ...
 ]],
 }
 

@@ -17,8 +17,28 @@ function map:on_started()
   companion_manager:init_map(map)
 
 end
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+
+function map:talk_to_christine() 
+
+      game:start_dialog("maps.houses.yarna_desert.christine_house.christine_1")
+
+end
+
+
+function christine:on_collision_fire()
+
+      return false
+
+end
+
+function christine:on_interaction()
+
+      map:talk_to_christine()
+
+end
+
+function christine_invisible:on_interaction()
+
+      map:talk_to_christine()
 
 end

@@ -510,6 +510,7 @@ sprite{ id = "npc/game_man", description = "Game man" }
 sprite{ id = "npc/ghost", description = "Ghost" }
 sprite{ id = "npc/grand_ma", description = "Grand-mother" }
 sprite{ id = "npc/grand_pa", description = "Grand pa" }
+sprite{ id = "npc/hippo", description = "Hippo" }
 sprite{ id = "npc/kid_1", description = "Kid 1" }
 sprite{ id = "npc/kid_2", description = "Kid 2" }
 sprite{ id = "npc/kid_3", description = "Kid 3" }
@@ -545,7 +546,6 @@ sprite{ id = "npc/seagull", description = "Seagull" }
 sprite{ id = "npc/small_bowwow", description = "Small bowwow" }
 sprite{ id = "npc/tarin", description = "Tarin" }
 sprite{ id = "npc/village_bird", description = "Village bird" }
-sprite{ id = "npc/village_hippo", description = "Village hippo" }
 sprite{ id = "npc/village_teddy", description = "Village teddy" }
 sprite{ id = "npc/walrus", description = "Walrus" }
 sprite{ id = "npc/wart", description = "Wart" }
@@ -570,6 +570,7 @@ music{ id = "maps/dungeons/boss", description = "Boss" }
 music{ id = "maps/dungeons/instruments", description = "Instruments" }
 music{ id = "maps/dungeons/passageways", description = "Passageways" }
 music{ id = "maps/dungeons/small_boss", description = "Small boss" }
+music{ id = "maps/houses/christine", description = "Christine" }
 music{ id = "maps/houses/cucco_house", description = "Cucco's House" }
 music{ id = "maps/houses/dream_shine_in_the_bed", description = "Dream shine in the bed" }
 music{ id = "maps/houses/dream_shine_lower_level", description = "Dream shine lower level" }
@@ -578,7 +579,7 @@ music{ id = "maps/houses/ghost_house", description = "Ghost's house" }
 music{ id = "maps/houses/inside", description = "Inside" }
 music{ id = "maps/houses/kanalet_castle", description = "Kanalet castle" }
 music{ id = "maps/houses/links_awake", description = "Link wakes up" }
-music{ id = "maps/houses/mr_write_and_christine", description = "Mr Write and Christine" }
+music{ id = "maps/houses/mr_write", description = "Mr Write" }
 music{ id = "maps/houses/richards_villa", description = "Richard villa" }
 music{ id = "maps/houses/shop", description = "Shop" }
 music{ id = "maps/houses/shop_high", description = "Shop high" }
@@ -855,7 +856,7 @@ entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "marine", description = "Marine" }
 entity{ id = "mouse", description = "Mouse" }
-entity{ id = "mr_write", description = "Mr Write" }
+entity{ id = "mr_write_and_christine", description = "Mr Write and Christine" }
 entity{ id = "non_diggable", description = "Non diggable" }
 entity{ id = "obstacle", description = "Obstacle" }
 entity{ id = "seagull", description = "Seagull" }

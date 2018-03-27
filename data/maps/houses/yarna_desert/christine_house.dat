@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeons/light_brown",
-  music = "maps/houses/mr_write_and_christine",
+  music = "maps/houses/christine",
 }
 
 tile{
@@ -327,7 +327,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 248,
+  x = 240,
   y = 152,
   width = 8,
   height = 8,
@@ -336,7 +336,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
+  x = 216,
   y = 144,
   width = 8,
   height = 8,
@@ -345,7 +345,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
+  x = 216,
   y = 160,
   width = 8,
   height = 8,
@@ -354,7 +354,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 248,
+  x = 240,
   y = 144,
   width = 8,
   height = 8,
@@ -363,7 +363,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
+  x = 224,
   y = 144,
   width = 16,
   height = 8,
@@ -372,7 +372,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
+  x = 224,
   y = 160,
   width = 16,
   height = 8,
@@ -381,7 +381,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
+  x = 216,
   y = 152,
   width = 8,
   height = 8,
@@ -390,7 +390,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
+  x = 224,
   y = 152,
   width = 16,
   height = 8,
@@ -399,7 +399,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 248,
+  x = 240,
   y = 160,
   width = 8,
   height = 8,
@@ -408,7 +408,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
+  x = 208,
   y = 152,
   width = 8,
   height = 8,
@@ -417,16 +417,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.1",
-}
-
-tile{
-  layer = 0,
-  x = 176,
+  x = 168,
   y = 160,
   width = 8,
   height = 8,
@@ -435,25 +426,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 144,
-  width = 32,
-  height = 8,
-  pattern = "table.2",
-}
-
-tile{
-  layer = 0,
-  x = 184,
+  x = 176,
   y = 160,
   width = 32,
   height = 8,
@@ -462,7 +435,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
+  x = 168,
   y = 152,
   width = 8,
   height = 8,
@@ -471,7 +444,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
+  x = 176,
   y = 152,
   width = 32,
   height = 8,
@@ -480,7 +453,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
+  x = 208,
   y = 160,
   width = 8,
   height = 8,
@@ -650,6 +623,51 @@ destructible{
   damage_on_enemies = 2,
 }
 
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "npc/bird",
+  model = "bird",
+}
+
+custom_entity{
+  name = "christine",
+  layer = 0,
+  x = 192,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/christine",
+  model = "mr_write_and_christine",
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 144,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+npc{
+  name = "christine_invisible",
+  layer = 0,
+  x = 192,
+  y = 165,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -657,6 +675,33 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 144,
+  width = 32,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
 }
 
 tile{

@@ -635,6 +635,16 @@ npc{
   behavior = "dialog#test",
 }
 
+npc{
+  layer = 0,
+  x = 224,
+  y = 173,
+  direction = -1,
+  subtype = 0,
+  sprite = "entities/book_red",
+  behavior = "dialog#maps.houses.mabe_village.marine_house.letter",
+}
+
 tile{
   layer = 1,
   x = 144,

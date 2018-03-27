@@ -25936,6 +25936,7 @@ tile{
 }
 
 pickable{
+  name = "honey",
   layer = 1,
   x = 816,
   y = 109,
@@ -25944,10 +25945,10 @@ pickable{
 }
 
 custom_entity{
-  name = "butterfly_7",
+  name = "bee_2",
   layer = 1,
   x = 832,
-  y = 101,
+  y = 149,
   width = 16,
   height = 16,
   direction = 3,
@@ -25956,10 +25957,10 @@ custom_entity{
 }
 
 custom_entity{
-  name = "butterfly_8",
+  name = "bee_1",
   layer = 1,
   x = 800,
-  y = 101,
+  y = 157,
   width = 16,
   height = 16,
   direction = 3,
@@ -26042,6 +26043,30 @@ custom_entity{
   height = 8,
   direction = 1,
   sprite = "entities/statue_small_key_dungeon_3",
+}
+
+custom_entity{
+  name = "bee_3",
+  layer = 1,
+  x = 768,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/bee",
+  model = "bee",
+}
+
+custom_entity{
+  name = "bee_4",
+  layer = 1,
+  x = 856,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/bee",
+  model = "bee",
 }
 
 npc{

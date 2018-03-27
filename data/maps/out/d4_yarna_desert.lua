@@ -20,8 +20,6 @@ function map:on_started()
 
 end
 
-
-
 function map:set_music()
   
   if game:get_value("main_quest_step") == 3  then
@@ -29,6 +27,30 @@ function map:set_music()
   else
       sol.audio.play_music("maps/out/overworld")
   end
+
+end
+
+function map:talk_to_rabbit_1()
+
+      game:start_dialog("maps.out.yarna_desert.rabbit_1_1")
+
+end
+
+function map:talk_to_rabbit_2()
+
+      game:start_dialog("maps.out.yarna_desert.rabbit_2_1")
+
+end
+
+function map:talk_to_rabbit_3()
+
+      game:start_dialog("maps.out.yarna_desert.rabbit_3_1")
+
+end
+
+function map:talk_to_walrus()
+
+      game:start_dialog("maps.out.yarna_desert.walrus_1")
 
 end
 
@@ -49,5 +71,31 @@ separator_1:register_event("on_activating", function(separator, direction4)
 
 end)
 
+function rabbit_1:on_interaction()
+
+  map:talk_to_rabbit_1()
+
+end
+
+function rabbit_2:on_interaction()
+
+  map:talk_to_rabbit_2()
+
+end
+
+function rabbit_3:on_interaction()
+
+  map:talk_to_rabbit_3()
+
+end
+
+function walrus_invisible:on_interaction()
+
+  map:talk_to_walrus()
+
+end
+
 --Weak doors play secret sound on opened
-function weak_door_1:on_opened() sol.audio.play_sound("secret_1") end
+function weak_door_1:on_opened()
+  sol.audio.play_sound("secret_1")
+end

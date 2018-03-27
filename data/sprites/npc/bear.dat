@@ -11,7 +11,7 @@ animation{
   },
 }
 animation{
-  name = "stopping",
+  name = "stopped",
   src_image = "npc/bear.png",
   directions = {
     { x = 0, y = 128, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61 },

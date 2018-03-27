@@ -70,7 +70,7 @@ function map:marine_and_hero_sing()
             local item_melody = game:get_item("melody_1")
             item_melody:set_variant(1)
             item_melody:brandish(function()
-              game:set_value("main_quest_step", 19) 
+              --game:set_value("main_quest_step", 19) 
               game:set_pause_allowed(true)
               game:start_dialog("maps.out.mabe_village.marine_7")
             end)
@@ -163,16 +163,6 @@ function map:hero_sing_stop()
 end
 
 
-function map:init_marine()
- 
-  if game:get_value("main_quest_step") < 4  then
-    marine:set_enabled(false)
-  else
-    marine:get_sprite():set_animation("waiting")
-  end
-
-end
-
 function map:init_bowwow()
  
   if game:get_value("main_quest_step") > 7 and game:get_value("main_quest_step") < 12  then
@@ -254,7 +244,10 @@ end
 function map:talk_to_marine() 
 
   local item_ocarina = game:get_item("ocarina")
+  local item_melody_1 = game:get_item("melody_1")
   local variant_ocarina = item_ocarina:get_variant()
+  local variant_melody_1 = item_melody_1:get_variant()
+print(game:get_value("main_quest_step"))
   if game:get_value("main_quest_step") <= 4 then
     game:start_dialog("maps.out.mabe_village.marine_1", game:get_player_name(), function()
       map:marine_alone_sing()
@@ -263,7 +256,7 @@ function map:talk_to_marine()
     game:start_dialog("maps.out.mabe_village.marine_2", game:get_player_name(), function()
       map:marine_alone_sing()
     end)
-  elseif game:get_value("main_quest_step") == 18 and variant_ocarina == 1 then
+  elseif variant_ocarina == 1 and variant_melody_1 == 0 then
     game:start_dialog("maps.out.mabe_village.marine_4", function()
       map:marine_and_hero_sing()
     end)
@@ -298,6 +291,12 @@ function  map:talk_to_kids()
 
   local rand = math.random(4)
   game:start_dialog("maps.out.mabe_village.kids_" .. rand)
+
+end
+
+function map:talk_to_kid_5() 
+
+  game:start_dialog("maps.out.mabe_village.kid_5_1")
 
 end
 
@@ -339,7 +338,16 @@ function map:on_started(destination)
   end
   map:set_music()
   companion_manager:init_map(map)
-  map:init_marine()
+  -- Marine
+  if game:get_value("main_quest_step") < 4 or game:get_value("main_quest_step") > 20  then
+    marine:set_enabled(false)
+  else
+    marine:get_sprite():set_animation("waiting")
+  end
+  -- Kid 5
+  if game:get_value("main_quest_step") ~= 21  then
+    kid_5:set_enabled(false)
+  end
   map:init_bowwow()
   
  -- Grand ma
@@ -436,6 +444,12 @@ function kid_4:on_interaction()
     else
       map:talk_to_kids()
     end
+
+end
+
+function kid_5:on_interaction()
+
+  map:talk_to_kid_5()
 
 end
 

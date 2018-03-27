@@ -1776,27 +1776,3 @@ chest{
   sprite = "entities/chest",
 }
 
-chest{
-  layer = 2,
-  x = 208,
-  y = 221,
-  treasure_name = "melody_1",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 2,
-  x = 224,
-  y = 221,
-  treasure_name = "melody_2",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 2,
-  x = 240,
-  y = 221,
-  treasure_name = "melody_3",
-  sprite = "entities/chest",
-}
-

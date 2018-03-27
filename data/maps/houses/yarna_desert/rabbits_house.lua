@@ -17,8 +17,15 @@ function map:on_started()
   companion_manager:init_map(map)
 
 end
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+
+function map:talk_to_rabbit()
+
+      game:start_dialog("maps.houses.yarna_desert.rabbits_house.rabbit_1")
+
+end
+
+function rabbit:on_interaction()
+
+  map:talk_to_rabbit()
 
 end

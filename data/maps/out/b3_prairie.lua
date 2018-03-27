@@ -27,6 +27,29 @@ end
 
 -- Events
 
+function  map:talk_to_tarin() 
+
+  game:start_dialog("maps.out.prairie.tarin_1", game:get_player_name(), function(answer)
+    if answer == 1 then
+      map:tarin_search_honey()
+    else
+      game:start_dialog("maps.out.prairie.tarin_2", game:get_player_name())
+    end
+  end)
+
+end
+
+
+function map:tarin_search_honey()
+  local movement = sol.movement.create("jump")
+  movement:set_speed(100)
+  movement:set_distance(32)
+  movement:set_direction8(6)
+  movement:set_ignore_obstacles(true)
+  movement:start(honey)
+  game:set_value("main_quest_step", 19)
+end
+
 function map:on_started(destination)
 
   map:set_music()
@@ -44,8 +67,11 @@ function map:on_started(destination)
     map:open_dungeon_3()
   end
   -- Tarin
-  if game:get_value("main_quest_step") < 18 then
+  if game:get_value("main_quest_step") ~= 18 then
     tarin:set_enabled(false)
+  end
+  if game:get_value("main_quest_step") > 19 then
+    honey:set_enabled(false)
   end
   -- Seashell's tree
   local seashell_tree_found = false
@@ -107,6 +133,12 @@ function sign_start:on_interaction()
 
   game:start_dialog("maps.out.south_prairie.surprise_3")
   game:set_value("wart_cave_start", true)
+
+end
+
+function tarin:on_interaction()
+
+      map:talk_to_tarin()
 
 end
 
