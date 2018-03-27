@@ -148,6 +148,36 @@ custom_entity{
   sprite = "entities/swell",
 }
 
+custom_entity{
+  name = "seagull_1_destination",
+  layer = -1,
+  x = 344,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "seagull_2_destination",
+  layer = -1,
+  x = -24,
+  y = 213,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "seagull_3_destination",
+  layer = -1,
+  x = 344,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
 tile{
   layer = 0,
   x = 0,
@@ -445,6 +475,30 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "seagull_4",
+  layer = 2,
+  x = 56,
+  y = 493,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "npc/seagull",
+  model = "seagull",
+}
+
+custom_entity{
+  name = "seagull_5",
+  layer = 2,
+  x = 280,
+  y = 477,
+  width = 16,
+  height = 16,
+  direction = 2,
   sprite = "npc/seagull",
   model = "seagull",
 }

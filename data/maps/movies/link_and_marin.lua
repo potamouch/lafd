@@ -44,6 +44,9 @@ function map:on_started()
   -- Let the sprite animation running.
   marin:get_sprite():set_ignore_suspend(true)
   hero:get_sprite():set_ignore_suspend(true)
+  seagull_1:get_sprite():set_ignore_suspend(true)
+  seagull_2:get_sprite():set_ignore_suspend(true)
+  seagull_3:get_sprite():set_ignore_suspend(true)
   -- Let the swell animation running.
   for i = 1, 10 do
     local swell_name = "swell_" .. i
@@ -70,12 +73,6 @@ end
 -- Draw sunset then black stripes.
 function map:on_draw(dst_surface)
 
-  -- Sunset.
-  --sunset_effect:draw(dst_surface)
-  
-  -- Black stripes.
-  map:draw_cinematic_stripes(dst_surface)
-
   -- Fade.
   if fade_sprite ~= nil then
     fade_sprite:draw(dst_surface, fade_x, fade_y)
@@ -93,22 +90,6 @@ function map:on_draw(dst_surface)
   end
 end
 
-
--- Draw the cinematic black stripes.
-function map:draw_cinematic_stripes(dst_surface)
-
-  -- Lazy creation of the black stripes.
-  if black_stripe == nil then
-    local quest_w, quest_h = sol.video.get_quest_size()
-    black_stripe = sol.surface.create(quest_w, 24)
-    black_stripe:fill_color({0, 0, 0})
-  end
-  
-  -- Draw them.
-  black_stripe:draw(dst_surface, 0, 0)
-  black_stripe:draw(dst_surface, 0, 232)
-end
-
 -- Final cinematic.
 function map:start_cinematic()
 
@@ -121,8 +102,38 @@ function map:start_cinematic()
    movement:start(camera, function()
     map:start_dialog()
    end)
+  sol.timer.start(seagull_1, 200, function()
+     sol.audio.play_sound("seagull")
+     seagull_1:get_sprite():set_animation("walking")
+     local movement_seagull_1 = sol.movement.create("target")
+     movement_seagull_1:set_speed(100)
+     movement_seagull_1:set_ignore_obstacles(true)
+     movement_seagull_1:set_target(seagull_1_destination)
+     movement_seagull_1:start(seagull_1)
+  end)
+  sol.timer.start(seagull_2, 1000, function()
+     sol.audio.play_sound("seagull")
+     seagull_2:get_sprite():set_animation("walking")
+     local movement_seagull_2 = sol.movement.create("target")
+     movement_seagull_2:set_speed(100)
+     movement_seagull_2:set_ignore_obstacles(true)
+     movement_seagull_2:set_target(seagull_2_destination)
+     movement_seagull_2:start(seagull_2)
+  end)
+
+  sol.timer.start(seagull_3, 8000, function()
+     sol.audio.play_sound("seagull")
+     seagull_3:get_sprite():set_animation("walking")
+     local movement_seagull_3 = sol.movement.create("target")
+     movement_seagull_3:set_speed(100)
+     movement_seagull_3:set_ignore_obstacles(true)
+     movement_seagull_3:set_target(seagull_3_destination)
+     movement_seagull_3:start(seagull_3)
+  end)
+
 
 end
+
 
 function map:start_dialog()
 
