@@ -9,13 +9,25 @@ local directions = {
   0, 3, 2, 1, 0, 3, 0, 1, 2, 3, 0, 3, 2
 }
 
--- Methods - Functions
 
+function map:set_music()
+  
+  if game:get_value("main_quest_step") == 3  then
+    sol.audio.play_music("maps/out/sword_search")
+  else
+    if marine_song then
+      sol.audio.stop_music()
+      sol.audio.play_sound("maps/out/marin_on_beach")
+    else
+      sol.audio.play_music("maps/out/overworld")
+    end
+  end
 
--- Events
+end
 
 function map:on_started()
 
+  map:set_music()
   companion_manager:init_map(map)
   map:set_digging_allowed(true)
   -- Marine
@@ -29,7 +41,7 @@ function map:talk_to_marine()
 
   game:start_dialog("maps.out.south_prairie.marine_1", game:get_player_name(), function(answer)
     if answer == 1 then
-
+      hero:teleport("movies/link_and_marine")
     else
       game:start_dialog("maps.out.south_prairie.marine_2")
     end
@@ -41,6 +53,18 @@ function marine:on_interaction()
 
   map:talk_to_marine()
 
+end
+
+function marine_sensor:on_activated()
+
+  local hero = game:get_hero()
+  if hero:get_direction() == 1 then
+    marine_song = false
+    map:set_music()
+  else
+    marine_song = true
+    map:set_music()
+  end
 end
 
 --Weak doors play secret sound on opened

@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "out/outside",
-  music = "maps/out/overworld",
+  music = "same",
 }
 
 tile{
@@ -19730,6 +19730,15 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/marine",
+}
+
+sensor{
+  name = "marine_sensor",
+  layer = 0,
+  x = 328,
+  y = 621,
+  width = 128,
+  height = 16,
 }
 
 tile{
