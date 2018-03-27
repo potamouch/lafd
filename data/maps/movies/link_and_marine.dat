@@ -2,10 +2,20 @@ properties{
   x = 0,
   y = 0,
   width = 320,
-  height = 256,
+  height = 512,
   min_layer = -1,
   max_layer = 2,
   tileset = "movies/beach_sunset",
+  music = "scripts/movies/marin_on_beach",
+}
+
+tile{
+  layer = -1,
+  x = 0,
+  y = 256,
+  width = 320,
+  height = 128,
+  pattern = "3",
 }
 
 tile{
@@ -13,15 +23,15 @@ tile{
   x = 0,
   y = 0,
   width = 320,
-  height = 128,
-  pattern = "3",
+  height = 256,
+  pattern = "16",
 }
 
 custom_entity{
   name = "sun",
   layer = -1,
   x = 160,
-  y = 133,
+  y = 389,
   width = 16,
   height = 16,
   direction = 0,
@@ -32,7 +42,7 @@ custom_entity{
   name = "swell_1",
   layer = -1,
   x = 8,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -43,7 +53,7 @@ custom_entity{
   name = "swell_2",
   layer = -1,
   x = 40,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -54,7 +64,7 @@ custom_entity{
   name = "swell_3",
   layer = -1,
   x = 72,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -65,7 +75,7 @@ custom_entity{
   name = "swell_4",
   layer = -1,
   x = 104,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -76,7 +86,7 @@ custom_entity{
   name = "swell_5",
   layer = -1,
   x = 136,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -87,7 +97,7 @@ custom_entity{
   name = "swell_6",
   layer = -1,
   x = 168,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -98,7 +108,7 @@ custom_entity{
   name = "swell_7",
   layer = -1,
   x = 200,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -109,7 +119,7 @@ custom_entity{
   name = "swell_8",
   layer = -1,
   x = 232,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -120,7 +130,7 @@ custom_entity{
   name = "swell_9",
   layer = -1,
   x = 264,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -131,7 +141,7 @@ custom_entity{
   name = "swell_10",
   layer = -1,
   x = 296,
-  y = 165,
+  y = 421,
   width = 16,
   height = 16,
   direction = 0,
@@ -141,7 +151,7 @@ custom_entity{
 tile{
   layer = 0,
   x = 0,
-  y = 136,
+  y = 392,
   width = 320,
   height = 24,
   pattern = "14",
@@ -150,7 +160,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 128,
+  y = 384,
   width = 320,
   height = 8,
   pattern = "13",
@@ -159,7 +169,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 136,
+  y = 392,
   width = 16,
   height = 8,
   pattern = "17",
@@ -168,7 +178,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 144,
+  y = 400,
   width = 16,
   height = 8,
   pattern = "17",
@@ -177,7 +187,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 128,
+  y = 384,
   width = 8,
   height = 8,
   pattern = "18",
@@ -186,7 +196,7 @@ tile{
 tile{
   layer = 0,
   x = 184,
-  y = 128,
+  y = 384,
   width = 8,
   height = 8,
   pattern = "18",
@@ -195,7 +205,7 @@ tile{
 tile{
   layer = 0,
   x = 272,
-  y = 128,
+  y = 384,
   width = 8,
   height = 8,
   pattern = "18",
@@ -204,7 +214,7 @@ tile{
 tile{
   layer = 0,
   x = 296,
-  y = 136,
+  y = 392,
   width = 16,
   height = 8,
   pattern = "17",
@@ -213,7 +223,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 136,
+  y = 392,
   width = 8,
   height = 8,
   pattern = "18",
@@ -222,7 +232,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 216,
+  y = 472,
   width = 320,
   height = 40,
   pattern = "10",
@@ -231,7 +241,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 208,
+  y = 464,
   width = 320,
   height = 8,
   pattern = "12",
@@ -240,7 +250,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 200,
+  y = 456,
   width = 320,
   height = 8,
   pattern = "11",
@@ -249,7 +259,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 168,
+  y = 424,
   width = 320,
   height = 32,
   pattern = "9",
@@ -258,7 +268,7 @@ tile{
 tile{
   layer = 0,
   x = 296,
-  y = 176,
+  y = 432,
   width = 16,
   height = 24,
   pattern = "7",
@@ -267,7 +277,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 160,
+  y = 416,
   width = 16,
   height = 24,
   pattern = "5",
@@ -276,7 +286,7 @@ tile{
 tile{
   layer = 0,
   x = 24,
-  y = 104,
+  y = 360,
   width = 96,
   height = 120,
   pattern = "1",
@@ -285,7 +295,7 @@ tile{
 tile{
   layer = 0,
   x = 200,
-  y = 104,
+  y = 360,
   width = 96,
   height = 120,
   pattern = "2",
@@ -294,7 +304,7 @@ tile{
 tile{
   layer = 0,
   x = 232,
-  y = 192,
+  y = 448,
   width = 16,
   height = 24,
   pattern = "6",
@@ -303,7 +313,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 128,
+  y = 384,
   width = 32,
   height = 24,
   pattern = "21",
@@ -312,7 +322,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 200,
+  y = 456,
   width = 64,
   height = 24,
   pattern = "22",
@@ -321,7 +331,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 176,
+  y = 432,
   width = 64,
   height = 24,
   pattern = "4",
@@ -331,7 +341,7 @@ destination{
   name = "from_beach",
   layer = 0,
   x = 168,
-  y = 189,
+  y = 445,
   direction = 1,
   starting_location_mode = "no",
 }
@@ -339,7 +349,7 @@ destination{
 wall{
   layer = 0,
   x = 128,
-  y = 184,
+  y = 440,
   width = 64,
   height = 16,
   stops_hero = true,
@@ -349,21 +359,10 @@ wall{
   stops_projectiles = true,
 }
 
-custom_entity{
-  name = "grump_and_zelda",
-  layer = 0,
-  x = 160,
-  y = 197,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/beach_sunset/mr_grump_and_zelda",
-}
-
 wall{
   layer = 0,
   x = 64,
-  y = 160,
+  y = 416,
   width = 16,
   height = 24,
   stops_hero = true,
@@ -376,7 +375,7 @@ wall{
 wall{
   layer = 0,
   x = 240,
-  y = 160,
+  y = 416,
   width = 16,
   height = 24,
   stops_hero = true,
@@ -390,36 +389,16 @@ npc{
   name = "marine",
   layer = 0,
   x = 152,
-  y = 189,
+  y = 445,
   direction = 1,
   subtype = 1,
   sprite = "npc/marine",
 }
 
-custom_entity{
-  name = "cocktails",
-  layer = 1,
-  x = -16,
-  y = 181,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/cocktails",
-}
-
 tile{
   layer = 2,
   x = 0,
-  y = 0,
-  width = 320,
-  height = 24,
-  pattern = "16",
-}
-
-tile{
-  layer = 2,
-  x = 0,
-  y = 88,
+  y = 344,
   width = 64,
   height = 40,
   pattern = "19",
@@ -428,7 +407,7 @@ tile{
 tile{
   layer = 2,
   x = 256,
-  y = 88,
+  y = 344,
   width = 64,
   height = 40,
   pattern = "20",
