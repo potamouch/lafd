@@ -19722,6 +19722,16 @@ npc{
   sprite = "entities/sign",
 }
 
+npc{
+  name = "marine",
+  layer = 0,
+  x = 360,
+  y = 701,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/marine",
+}
+
 tile{
   layer = 1,
   x = 632,

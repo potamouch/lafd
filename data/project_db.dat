@@ -111,6 +111,7 @@ map{ id = "houses/yarna_desert/empty_house", description = "Empty house" }
 map{ id = "houses/yarna_desert/painter_house", description = "Painter's house" }
 map{ id = "houses/yarna_desert/rabbits_house", description = "Rabbits house" }
 map{ id = "movies/introduction", description = "Introduction" }
+map{ id = "movies/link_and_marine", description = "Link and Marine" }
 map{ id = "out/a1_west_mt_tamaranch", description = "A1 - West Mt Tamaranch" }
 map{ id = "out/a2_forest", description = "A2 - Forest" }
 map{ id = "out/a3_mabe_village", description = "A3 - Mabe village" }
@@ -152,6 +153,7 @@ tileset{ id = "dungeons/purple", description = "Purple" }
 tileset{ id = "dungeons/purple_blue", description = "Purple blue" }
 tileset{ id = "dungeons/yellow", description = "Yellow" }
 tileset{ id = "movies/beach", description = "Beach" }
+tileset{ id = "movies/beach_sunset", description = "Beach sunset" }
 tileset{ id = "out/light_world_legacy", description = "Light world legacy" }
 tileset{ id = "out/outside", description = "Outside" }
 tileset{ id = "sideview/sideview", description = "Side view tileset" }
@@ -374,6 +376,8 @@ sprite{ id = "entities/stone_large_white", description = "Large white stone" }
 sprite{ id = "entities/stone_small_black", description = "Small black stone" }
 sprite{ id = "entities/stone_small_brown", description = "Stone small brown" }
 sprite{ id = "entities/stone_small_white", description = "Small white stone" }
+sprite{ id = "entities/sun", description = "Sun" }
+sprite{ id = "entities/swell", description = "Swell" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/teletransporter_dungeon", description = "Teletransporter dungeon" }

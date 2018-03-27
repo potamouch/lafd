@@ -3615,6 +3615,27 @@ bouclier !
 }
 
 dialog{
+  id = "maps.out.south_prairie.marine_1",
+  question = "1",
+  text = [[
+Oh $v, tu savais où    
+me trouver !     
+Veux-tu qu'on parle
+un peu ?   
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.out.south_prairie.marine_2",
+  text = [[
+Peuh ! Je regarderai
+la mer alors !
+]],
+}
+
+dialog{
   id = "maps.out.south_prairie.owl_statue_1",
   text = [[
 SOUS TES PIEDS, DORT 

@@ -25,6 +25,28 @@ function map:on_started()
   else
     weak_door_1:set_enabled(false)
   end
+  -- Marine
+  if game:get_value("main_quest_step") ~= 21  then
+    marine:set_enabled(false)
+  end
+ 
+end
+
+function map:talk_to_marine() 
+
+  game:start_dialog("maps.out.south_prairie.marine_1", game:get_player_name(), function(answer)
+    if answer == 1 then
+
+    else
+      game:start_dialog("maps.out.south_prairie.marine_2")
+    end
+  end)
+
+end
+
+function marine:on_interaction()
+
+  map:talk_to_marine()
 
 end
 
