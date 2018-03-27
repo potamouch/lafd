@@ -610,6 +610,7 @@ music{ id = "scripts/menus/title_screen", description = "Title screen" }
 music{ id = "scripts/menus/title_screen_no_intro", description = "Title screen no intro" }
 music{ id = "scripts/meta/map/fairy_fountain", description = "Fairy fountain" }
 music{ id = "scripts/meta/map/the_wise_owl", description = "The wise owl" }
+music{ id = "scripts/movies/marin_on_beach", description = "Marin on beach" }
 
 sound{ id = "arrow_hit", description = "Arrow hit" }
 sound{ id = "bomb", description = "Bomb" }

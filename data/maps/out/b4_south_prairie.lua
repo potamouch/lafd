@@ -17,7 +17,7 @@ function map:set_music()
   else
     if marine_song then
       sol.audio.stop_music()
-      sol.audio.play_sound("maps/out/marin_on_beach")
+      sol.audio.play_sound("marin_on_beach")
     else
       sol.audio.play_music("maps/out/overworld")
     end
