@@ -11,6 +11,28 @@ animation{
   },
 }
 animation{
+  name = "baton",
+  src_image = "npc/tarin.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+  },
+}
+animation{
+  name = "get_item",
+  src_image = "npc/tarin.png",
+  directions = {
+    { x = 192, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
+animation{
   name = "laugh_raccoon",
   src_image = "npc/tarin.png",
   frame_delay = 200,
@@ -20,6 +42,18 @@ animation{
     { x = 104, y = 136, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
     { x = 104, y = 136, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
     { x = 104, y = 136, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+  },
+}
+animation{
+  name = "run_bee",
+  src_image = "npc/tarin.png",
+  frame_delay = 70,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 288, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 288, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 288, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 288, y = 160, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
   },
 }
 animation{
@@ -37,20 +71,22 @@ animation{
 animation{
   name = "sleeping",
   src_image = "npc/tarin.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
   directions = {
-    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 4 },
+    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 4 },
+    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 4 },
+    { x = 96, y = 80, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 4 },
   },
 }
 animation{
   name = "stopped",
   src_image = "npc/tarin.png",
   directions = {
-    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
-    { x = 0, y = 72, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
     { x = 48, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 72, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }
