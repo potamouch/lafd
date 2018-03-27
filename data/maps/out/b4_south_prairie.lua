@@ -18,13 +18,6 @@ function map:on_started()
 
   companion_manager:init_map(map)
   map:set_digging_allowed(true)
-
-  --Invisible things: only visible with the Lens
-  if game:get_value("get_lens") then
-    weak_door_1:set_enabled(true)
-  else
-    weak_door_1:set_enabled(false)
-  end
   -- Marine
   if game:get_value("main_quest_step") ~= 21  then
     marine:set_enabled(false)

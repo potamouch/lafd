@@ -16,6 +16,13 @@ separator_manager:manage_map(map)
 
 function map:on_started()
 
+  --Invisible things: only visible with the Lens
+  if game:get_value("get_lens") then
+    map:set_entities_enabled("trader",true)
+  else
+    map:set_entities_enabled("trader",false)
+  end
+
   companion_manager:init_map(map)
 
 end
