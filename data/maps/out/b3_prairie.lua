@@ -21,7 +21,7 @@ end
 function map:open_dungeon_3()
 
   dungeon_3_entrance:get_sprite():set_animation("opened")
-  dungeon_3_entrance:set_can_traverse("hero", true)
+  dungeon_3_entrance:set_traversable_by(true)
 
 end
 
@@ -62,7 +62,7 @@ function map:on_started(destination)
   if game:get_value("statue_pig_exploded") then
     statue_pig:remove()
   end
-  dungeon_3_entrance:set_can_traverse("hero", false)
+  dungeon_3_entrance:set_traversable_by(false)
   if game:get_value("main_quest_step") > 16 then
     map:open_dungeon_3()
   end
@@ -70,8 +70,13 @@ function map:on_started(destination)
   if game:get_value("main_quest_step") ~= 18 then
     tarin:set_enabled(false)
   end
+  -- Honey and bees
   if game:get_value("main_quest_step") > 19 then
     honey:set_enabled(false)
+    for bee in map:get_entities("bee") do
+        bee:set_enabled(false)
+    end
+
   end
   -- Seashell's tree
   local seashell_tree_found = false

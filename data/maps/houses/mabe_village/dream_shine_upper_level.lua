@@ -8,6 +8,8 @@ function map:go_to_bed()
 
   local x, y, layer = placeholder_link_sleep:get_position()
   bed:get_sprite():set_animation("empty_open")
+    game:set_hud_enabled(false)
+    game:set_pause_allowed(false)
     hero:freeze()
     sol.audio.play_music("maps/houses/dream_shine_in_the_bed")
     sol.timer.start(map, 6000, function()

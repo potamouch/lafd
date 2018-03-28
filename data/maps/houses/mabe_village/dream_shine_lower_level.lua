@@ -26,7 +26,11 @@ end
 
 function map:on_started(destination)
 
-  hero:set_enabled(true)
+ sol.timer.start(map, 2000, function()
+  game:set_hud_enabled(true)
+  game:set_pause_allowed(true)
+ end)
+ hero:set_enabled(true)
  local white_surface =  sol.surface.create(320, 256)
   local opacity = 255
   white_surface:fill_color({255, 255, 255})
@@ -35,7 +39,7 @@ function map:on_started(destination)
     white_surface:draw(dst_surface)
     opacity = opacity -1
     if opacity < 0 then
-      opacity = 0
+      opacity = 1
     end
   end
 

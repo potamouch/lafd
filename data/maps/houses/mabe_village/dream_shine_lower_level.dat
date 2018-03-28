@@ -12,6 +12,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 40,
+  y = 472,
+  width = 560,
+  height = 24,
+  pattern = "wall.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 488,
+  width = 16,
+  height = 32,
+  pattern = "1007",
+}
+
+tile{
+  layer = 0,
   x = 64,
   y = 448,
   width = 512,
@@ -80,15 +98,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 472,
-  width = 560,
-  height = 24,
-  pattern = "wall.2-6",
 }
 
 tile{
@@ -514,6 +523,24 @@ tile{
   pattern = "wall_border.corner_reverse.2-6",
 }
 
+tile{
+  layer = 0,
+  x = 160,
+  y = 488,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 488,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
 custom_entity{
   layer = 0,
   x = 360,
@@ -848,7 +875,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 184,
+  x = 192,
   y = 408,
   width = 8,
   height = 8,
@@ -857,9 +884,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 192,
+  x = 200,
   y = 408,
-  width = 48,
+  width = 40,
   height = 8,
   pattern = "barrier.1-1",
 }
@@ -904,14 +931,14 @@ tile{
   layer = 1,
   x = 104,
   y = 408,
-  width = 40,
+  width = 48,
   height = 8,
   pattern = "barrier.1-1",
 }
 
 tile{
   layer = 1,
-  x = 144,
+  x = 152,
   y = 408,
   width = 8,
   height = 8,
@@ -1420,7 +1447,7 @@ wall{
 
 jumper{
   layer = 1,
-  x = 152,
+  x = 160,
   y = 416,
   width = 32,
   height = 8,

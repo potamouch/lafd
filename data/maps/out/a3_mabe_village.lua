@@ -229,12 +229,22 @@ end
 
 function map:talk_to_fishman() 
 
+  local fishman_sprite = fishman:get_sprite()
+  local direction4 = fishman:get_direction4_to(hero)
+  fishman_sprite:set_animation("stopped")
+  fishman_sprite:set_direction(direction4)
   game:start_dialog("maps.out.mabe_village.fishman_1", function(answer)
     if answer == 1 then
-      game:start_dialog("maps.out.mabe_village.fishman_2")
+      game:start_dialog("maps.out.mabe_village.fishman_2", function()
+        fishman_sprite:set_animation("walking")
+        fishman_sprite:set_direction(2)
+      end)
       --TODO - CODING FISHING GAME
     else
-      game:start_dialog("maps.out.mabe_village.fishman_3")
+      game:start_dialog("maps.out.mabe_village.fishman_3", function()
+        fishman_sprite:set_animation("walking")
+        fishman_sprite:set_direction(2)
+      end)
     end
   end)
 

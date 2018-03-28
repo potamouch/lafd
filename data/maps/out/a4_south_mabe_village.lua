@@ -21,7 +21,7 @@ end
 function map:open_dungeon_1()
 
   dungeon_1_entrance:get_sprite():set_animation("opened")
-  dungeon_1_entrance:set_traversable_by("hero", true)
+  dungeon_1_entrance:set_traversable_by(true)
 
 end
 
@@ -37,7 +37,7 @@ function map:on_started(destination)
   if sword ~= nil then
     sword:get_sprite():set_direction(4)
   end
-  dungeon_1_entrance:set_traversable_by("hero", false)
+  dungeon_1_entrance:set_traversable_by(false)
   if game:get_value("main_quest_step") > 6 then
     map:open_dungeon_1()
   end

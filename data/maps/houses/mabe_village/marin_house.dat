@@ -626,16 +626,6 @@ custom_entity{
 }
 
 npc{
-  layer = 0,
-  x = 136,
-  y = 157,
-  direction = 3,
-  subtype = 1,
-  sprite = "entities/sign",
-  behavior = "dialog#test",
-}
-
-npc{
   name = "letter",
   layer = 0,
   x = 224,

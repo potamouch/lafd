@@ -1281,8 +1281,8 @@ dialog{
   id = "maps.dungeons.1.welcome",
   skip = "current",
   text = [[
-        Niveau 1       
-     Cave Flagello
+          Niveau 1       
+       Cave Flagello
 ]],
 }
 
@@ -1337,8 +1337,9 @@ dialog{
   id = "maps.dungeons.2.welcome",
   skip = "current",
   text = [[
-        Niveau 2       
-    Grotte du génie    
+          Niveau 2       
+      Grotte du génie    
+
 ]],
 }
 
@@ -1355,8 +1356,8 @@ dialog{
   id = "maps.dungeons.3.welcome",
   skip = "current",
   text = [[
-        Niveau 3       
-     Cave aux clés
+          Niveau 3       
+       Cave aux clés
 ]],
 }
 
@@ -1372,8 +1373,10 @@ par la baie.
 dialog{
   id = "maps.dungeons.4.welcome",
   text = [[
-        Niveau 4       
-   Abîme du poisson
+          Niveau 4    
+  Abîme du poisson
+
+
 ]],
 }
 
@@ -1389,8 +1392,9 @@ secret de l'île.
 dialog{
   id = "maps.dungeons.5.welcome",
   text = [[
-        Niveau 5       
-    Poisson-chat
+          Niveau 5    
+      Poisson-chat
+
 ]],
 }
 
@@ -1405,8 +1409,10 @@ Elle t'appelle.
 dialog{
   id = "maps.dungeons.6.welcome",
   text = [[
-        Niveau 6       
-    Temple du masque
+          Niveau 6    
+  Temple du masque
+
+
 ]],
 }
 
@@ -1422,8 +1428,8 @@ te guidera.
 dialog{
   id = "maps.dungeons.7.welcome",
   text = [[
-        Niveau 7       
-  Tour du vautour
+          Niveau 7   
+   Tour du vautour
 ]],
 }
 
@@ -1439,16 +1445,16 @@ te réclame.
 dialog{
   id = "maps.dungeons.8.welcome",
   text = [[
-        Niveau 8      
-   Roc de la tortue
+          Niveau 8   
+    Roc de la tortue
 ]],
 }
 
 dialog{
   id = "maps.dungeons.9.welcome",
   text = [[
-        Niveau secret       
-  Temple des couleurs
+          Niveau 9 
+    Donjon des couleurs
 ]],
 }
 
@@ -3875,7 +3881,7 @@ dialog{
   question = "1",
   text = [[
 Hé, tu écoutes ? 
-Link , es-tu sûr que tu      
+Link, es-tu sûr que tu      
 m'écoutes ?
 
 Oui
@@ -3887,7 +3893,7 @@ dialog{
   id = "movies.link_and_marin.marin_4",
   text = [[
 J'aimerais tant connaître  
-ton pays,Link ! 
+ton pays, Link ! 
 Un jour mmm...
 ]],
 }
@@ -3897,7 +3903,7 @@ dialog{
   text = [[
 Comment ?        
 Le Morse ?       
-D'accord,,je t'accompagne.
+D'accord, je t'accompagne.
 ]],
 }
 
@@ -4841,24 +4847,18 @@ Hou! !
 dialog{
   id = "scripts.meta.map.owl_7",
   text = [[
-Hou! Combien    
-d'Instruments   
+Hou ! Combien d'Instruments   
 as-tu collectés ?
-Quand tu joueras
-des Instruments 
-face à l'Oeuf,  
-le Poisson-Rêve 
-se réveillera   
-et tu pourras   
-quitter l'île.  
+Quand tu joueras des 
+Instruments face à l'Oeuf, 
+le Poisson-Rêve se 
+réveillera et tu pourras 
+quitter l'île.
 Va vite vers les
 Dunes de Yarna ! 
-L'horrible      
-monstre noir    
-des sables      
-t'indiquera     
-le chemin !      
-Hou hou !
+L'horrible monstre noir    
+des sables t'indiquera     
+le chemin ! Hou hou !
 ]],
 }
 
@@ -4891,6 +4891,13 @@ parlent
 du Poisson-Rêve.
 Tu en sauras    
 sûrement plus...
+]],
+}
+
+dialog{
+  id = "test",
+  text = [[
+Ç
 ]],
 }
 

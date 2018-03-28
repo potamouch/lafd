@@ -87,7 +87,7 @@ map{ id = "houses/mabe_village/dream_shine_lower_level", description = "Dream sh
 map{ id = "houses/mabe_village/dream_shine_upper_level", description = "Dream shine upper level" }
 map{ id = "houses/mabe_village/grand_pa_house", description = "Grandpa house" }
 map{ id = "houses/mabe_village/library", description = "Library" }
-map{ id = "houses/mabe_village/marin_house", description = "Marine house" }
+map{ id = "houses/mabe_village/marin_house", description = "Marin house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
 map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets house" }
 map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
@@ -274,14 +274,14 @@ sprite{ id = "entities/doors/door_weak_wall_cave", description = "Door weak wall
 sprite{ id = "entities/doors/door_weak_wall_out", description = "Door weak wall out" }
 sprite{ id = "entities/egg", description = "Egg" }
 sprite{ id = "entities/entrance_dungeon_1", description = "Entrance dungeon 1" }
-sprite{ id = "entities/entrance_dungeon_1_door", description = "Entrance dungeon 1 door" }
 sprite{ id = "entities/entrance_dungeon_2", description = "Entrance dungeon 2" }
-sprite{ id = "entities/entrance_dungeon_3", description = "entities/entrance_dungeon_3" }
+sprite{ id = "entities/entrance_dungeon_3", description = "Entrance dungeon 3" }
 sprite{ id = "entities/entrance_dungeon_4", description = "Entrance dungeon 4" }
 sprite{ id = "entities/entrance_dungeon_5", description = "Entrance dungeon 5" }
 sprite{ id = "entities/entrance_dungeon_6", description = "Entrance dungeon 6" }
 sprite{ id = "entities/entrance_dungeon_7", description = "Entrance dungeon 7" }
 sprite{ id = "entities/entrance_dungeon_7_door", description = "Entrance dungeon 7 door" }
+sprite{ id = "entities/entrance_dungeon_door", description = "Entrance dungeon door" }
 sprite{ id = "entities/entrance_moblin_cave", description = "Entrance moblin cave" }
 sprite{ id = "entities/entrance_southern_face_shrine", description = "Entrance southern face shrine" }
 sprite{ id = "entities/explosion", description = "Explosion" }
@@ -686,7 +686,6 @@ sound{ id = "pause_open", description = "Pause open" }
 sound{ id = "picked_item", description = "Picked item" }
 sound{ id = "picked_rupee", description = "Picked rupee" }
 sound{ id = "picked_small_key", description = "Picked small key" }
-sound{ id = "piece_of_heart", description = "get heart container" }
 sound{ id = "rolling_spike", description = "Rolling spike" }
 sound{ id = "running", description = "Running" }
 sound{ id = "running_obstacle", description = "Running obstacle" }

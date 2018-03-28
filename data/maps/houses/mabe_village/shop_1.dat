@@ -12,6 +12,42 @@ properties{
 
 tile{
   layer = 0,
+  x = 64,
+  y = 216,
+  width = 192,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 32,
+  pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 232,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 232,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
   x = 72,
   y = 80,
   width = 176,
@@ -80,15 +116,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner.4-1",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 216,
-  width = 192,
-  height = 24,
-  pattern = "wall.2-1",
 }
 
 tile{
@@ -192,33 +219,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "floor_low.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 240,
-  width = 8,
-  height = 16,
-  pattern = "barrier.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 240,
-  width = 8,
-  height = 16,
-  pattern = "barrier.2-1",
-}
-
-tile{
-  layer = 0,
   x = 88,
   y = 176,
   width = 8,
@@ -302,7 +302,7 @@ destination{
   name = "shop_1_1_B",
   layer = 0,
   x = 160,
-  y = 229,
+  y = 237,
   direction = 1,
 }
 
@@ -330,7 +330,7 @@ npc{
 custom_entity{
   layer = 0,
   x = 160,
-  y = 165,
+  y = 149,
   width = 16,
   height = 16,
   direction = 0,
@@ -341,7 +341,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 192,
-  y = 165,
+  y = 149,
   width = 16,
   height = 16,
   direction = 0,
@@ -352,7 +352,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 176,
-  y = 165,
+  y = 149,
   width = 16,
   height = 16,
   direction = 0,
@@ -363,7 +363,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 144,
-  y = 165,
+  y = 149,
   width = 16,
   height = 16,
   direction = 0,
@@ -374,7 +374,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 128,
-  y = 165,
+  y = 149,
   width = 16,
   height = 16,
   direction = 0,
@@ -385,7 +385,7 @@ custom_entity{
 custom_entity{
   layer = 0,
   x = 208,
-  y = 165,
+  y = 149,
   width = 16,
   height = 16,
   direction = 0,
@@ -397,17 +397,6 @@ custom_entity{
   layer = 0,
   x = 224,
   y = 149,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/conveyor_belt3",
-  model = "conveyor_belt",
-}
-
-custom_entity{
-  layer = 0,
-  x = 224,
-  y = 165,
   width = 16,
   height = 16,
   direction = 1,
@@ -529,17 +518,6 @@ custom_entity{
   layer = 0,
   x = 128,
   y = 133,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "entities/conveyor_belt3",
-  model = "conveyor_belt",
-}
-
-custom_entity{
-  layer = 0,
-  x = 128,
-  y = 149,
   width = 16,
   height = 16,
   direction = 3,
@@ -651,13 +629,14 @@ pickable{
   x = 176,
   y = 133,
   treasure_name = "magnifying_lens",
+  treasure_savegame_variable = "magnifying_lens_1",
 }
 
 pickable{
   name = "game_item_3",
   layer = 0,
   x = 128,
-  y = 165,
+  y = 149,
   treasure_name = "shield",
 }
 
@@ -673,7 +652,7 @@ pickable{
   name = "game_item_4",
   layer = 0,
   x = 224,
-  y = 165,
+  y = 149,
   treasure_name = "rupee",
   treasure_variant = 2,
 }
