@@ -11,19 +11,7 @@ animation{
   },
 }
 animation{
-  name = "baton",
-  src_image = "npc/tarin.png",
-  frame_delay = 250,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
-    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
-    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
-    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
-  },
-}
-animation{
-  name = "get_item",
+  name = "brandish",
   src_image = "npc/tarin.png",
   directions = {
     { x = 192, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
@@ -50,10 +38,22 @@ animation{
   frame_delay = 70,
   frame_to_loop_on = 0,
   directions = {
-    { x = 288, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
     { x = 288, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
-    { x = 288, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
     { x = 288, y = 160, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 288, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 288, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+animation{
+  name = "searching_honey",
+  src_image = "npc/tarin.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
+    { x = 216, y = 64, frame_width = 32, frame_height = 32, origin_x = 19, origin_y = 29, num_frames = 2 },
   },
 }
 animation{

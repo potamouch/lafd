@@ -4,6 +4,7 @@
 local map = ...
 local game = map:get_game()
 local hero = map:get_hero()
+local owl_manager = require("scripts/maps/owl_manager")
 local companion_manager = require("scripts/maps/companion_manager")
 
 -- Methods - Functions
@@ -13,6 +14,8 @@ local companion_manager = require("scripts/maps/companion_manager")
 
 function map:on_started(destination)
 
+  -- Owl
+  owl_6:set_enabled(false)
   -- Remove the big stone if you come from the secret cave
   if destination == stair_arrows_upgrade then secret_stone:set_enabled(false) end
   -- Signs
@@ -56,3 +59,13 @@ auto_separator_1:register_event("on_activating", function(separator, direction4)
   end
 
 end)
+
+function owl_6_sensor:on_activated()
+
+  if game:get_value("owl_6") ~= true then
+    owl_manager:appear(map, 6, function()
+      map:set_music()
+    end)
+  end
+
+end

@@ -17683,6 +17683,15 @@ teletransporter{
   destination = "entrance",
 }
 
+sensor{
+  name = "owl_6_sensor",
+  layer = 0,
+  x = 576,
+  y = 341,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 704,
@@ -18646,5 +18655,24 @@ custom_entity{
   height = 16,
   direction = 3,
   sprite = "entities/signs",
+}
+
+sensor{
+  name = "owl_6_position",
+  layer = 2,
+  x = 584,
+  y = -3,
+  width = 16,
+  height = 16,
+}
+
+npc{
+  name = "owl_6",
+  layer = 2,
+  x = 584,
+  y = -3,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/owl",
 }
 

@@ -16,7 +16,7 @@ function item:on_using()
   local x_hero,y_hero, layer_hero = hero:get_position()
   hero:set_animation("brandish")
   local mushroom_entity = map:create_custom_entity({
-    name = "brandish_sword",
+    name = "brandish_mushroom",
     sprite = "entities/items",
     x = x_hero,
     y = y_hero - 24,
@@ -27,11 +27,11 @@ function item:on_using()
   })
   mushroom_entity:get_sprite():set_animation("mushroom")
   mushroom_entity:get_sprite():set_direction(0)
-    self:get_game():start_dialog("items.mushroom.1", function()
-          hero:set_animation("stopped")
-          map:remove_entities("brandish")
-          hero:unfreeze()
-    end)
+  self:get_game():start_dialog("items.mushroom.1", function()
+        hero:set_animation("stopped")
+        map:remove_entities("brandish")
+        hero:unfreeze()
+  end)
 
 end
 

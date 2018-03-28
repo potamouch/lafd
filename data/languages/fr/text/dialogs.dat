@@ -1193,7 +1193,7 @@ dialog{
   id = "items.mushroom.1",
   skip = "all",
   text = [[
-C'est le champignon que 
+C'est le champignon que
 vous avez trouvé
 dans les bois.
 Quel est-il?$0
@@ -4828,17 +4828,14 @@ dialog{
   id = "scripts.meta.map.owl_6",
   text = [[
 Hou !            
-Le Poisson-Rêve 
-sommeille dans  
-l'Oeuf, là haut.
+Le Poisson-Rêve sommeille
+dans l'Oeuf, là haut.
 Il rêve, rêve !  
-Il se réveillera
-si tu te tiens  
-face à I'Oeuf et
-que tu joues des
-8 Instruments.  
-Ainsi seulement,
-pourras-tu      
+Il se réveillera si tu te 
+tiens face à I'Oeuf et 
+que tu joues des 8 
+Instruments.  
+Ainsi seulement, pourras-tu      
 quitter l'île...
 Hou! !
 ]],
@@ -4891,13 +4888,6 @@ parlent
 du Poisson-Rêve.
 Tu en sauras    
 sûrement plus...
-]],
-}
-
-dialog{
-  id = "test",
-  text = [[
-Ç
 ]],
 }
 

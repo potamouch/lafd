@@ -596,11 +596,13 @@ music{ id = "maps/out/mabe_village", description = "Mabe village" }
 music{ id = "maps/out/moblins_and_bow_wow", description = "Moblins and bow wow" }
 music{ id = "maps/out/mt_tamaranch", description = "Mt Tamaranch" }
 music{ id = "maps/out/mt_tamaranch_marin", description = "Mt Tamaranch Marine" }
+music{ id = "maps/out/mt_tamaranch_marine", description = "Mt Tamaranch Marine" }
 music{ id = "maps/out/mysterious_forest", description = "Mysterious forest" }
 music{ id = "maps/out/overworld", description = "Overworld" }
 music{ id = "maps/out/song_of_marin", description = "Song of Marine" }
 music{ id = "maps/out/song_of_marin_and_link", description = "Song of Marine and Link" }
 music{ id = "maps/out/sword_search", description = "Sword search" }
+music{ id = "maps/out/tarin_chased_by_bees", description = "Tarin chased by bees" }
 music{ id = "scripts/menus/game_over", description = "Game over" }
 music{ id = "scripts/menus/introduction", description = "Introduction" }
 music{ id = "scripts/menus/player_select", description = "Player select" }
@@ -613,6 +615,9 @@ music{ id = "scripts/meta/map/the_wise_owl", description = "The wise owl" }
 music{ id = "scripts/movies/marin_on_beach", description = "Marin on beach" }
 
 sound{ id = "arrow_hit", description = "Arrow hit" }
+sound{ id = "beehive_bees", description = "Beehive bees" }
+sound{ id = "beehive_fall", description = "Beehive fall" }
+sound{ id = "beehive_poke", description = "Beehive poke" }
 sound{ id = "bomb", description = "Bomb" }
 sound{ id = "boomerang", description = "Boomerang" }
 sound{ id = "boss_1_explode_part", description = "Boss 1 explode" }
