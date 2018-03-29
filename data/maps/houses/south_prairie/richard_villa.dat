@@ -741,7 +741,7 @@ block{
   layer = 0,
   x = 240,
   y = 93,
-  sprite = "entities/block",
+  sprite = "entities/blocks/richard_block",
   pushable = true,
   pullable = false,
   maximum_moves = 1,
