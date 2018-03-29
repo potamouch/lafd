@@ -668,6 +668,18 @@ npc{
   subtype = 1,
 }
 
+custom_entity{
+  name = "hibiscus",
+  layer = 0,
+  x = 232,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/items",
+  model = "obstacle",
+}
+
 tile{
   layer = 1,
   x = 144,

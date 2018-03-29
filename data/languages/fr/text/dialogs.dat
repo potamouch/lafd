@@ -2977,6 +2977,51 @@ j'adore les hibiscus...
 }
 
 dialog{
+  id = "maps.houses.yarna_desert.christine_house.christine_2",
+  question = "1",
+  text = [[
+Oh, tu m'as apporté un © ! 
+Comme c'est gentil !   
+J'ai une faveur à te 
+demander. Je peux ?        
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.christine_house.christine_3",
+  text = [[
+Ah bon...       
+Et dire que je te prenais
+pour un gentilhomme ! 
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.christine_house.christine_4",
+  text = [[
+J'aimerais te confier      
+une lettre pour 
+Mr Wright, qui habite      
+dans la Forêt.  
+Merci d'avance ! 
+]],
+}
+
+dialog{
+  id = "maps.houses.yarna_desert.christine_house.christine_5",
+  text = [[
+Je ne peux pas 
+m'empêcher de grignoter 
+du papier. Quel délice !    
+... Même les lettres de
+mon cher Mr Wright ! 
+... J'ai honte !!
+]],
+}
+
+dialog{
   id = "maps.houses.yarna_desert.painter_house.hippo_1",
   text = [[
 Va-t'en !
