@@ -14194,6 +14194,28 @@ wall{
   stops_projectiles = true,
 }
 
+npc{
+  name = "father",
+  layer = 0,
+  x = 328,
+  y = 229,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/quadruplet_father",
+}
+
+custom_entity{
+  name = "hibiscus",
+  layer = 0,
+  x = 312,
+  y = 229,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/items",
+  model = "obstacle",
+}
+
 tile{
   layer = 1,
   x = 408,

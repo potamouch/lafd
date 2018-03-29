@@ -803,11 +803,8 @@ dialog{
   id = "_treasure.magnifying_lens.8",
   icon = "107",
   text = [[
-Au fait!! Voici 
-un petit cadeau.
-Je te donne     
-cet ç ... C'est 
-un Hibiscus.
+Tu as échangé l'¨
+contre l'© !!
 ]],
 }
 
@@ -2043,6 +2040,13 @@ hein?
 }
 
 dialog{
+  id = "maps.houses.mabe_village.quadruplets_house.father_2",
+  text = [[
+Merci pour l'autre fois ! 
+]],
+}
+
+dialog{
   id = "maps.houses.mabe_village.quadruplets_house.mother_1",
   text = [[
 J'ai trop de bébés ! 
@@ -2091,9 +2095,8 @@ te donne ceci.
 dialog{
   id = "maps.houses.mabe_village.quadruplets_house.mother_5",
   text = [[
-Ces quatre là se
-ressemblent tant
-que moi-même,   
+Ces quatre là se ressemblent
+tant que moi-même,   
 je m'y perds...
 ]],
 }
@@ -2872,18 +2875,16 @@ dialog{
   id = "maps.houses.wardrobe_1",
   text = [[
 $v a inspecté la
-commode.     
-C'est un objet 
-d'art... ...
+commode. C'est un 
+objet d'art... ...
 ]],
 }
 
 dialog{
   id = "maps.houses.wardrobe_2",
   text = [[
-Ce n'est pas une
-commode... Quoi ?
-Tu avais remarqué ?
+Ce n'est pas une commode...
+Quoi ? Tu avais remarqué ?
 ... OK !
 ]],
 }
@@ -3541,6 +3542,66 @@ dialog{
   skip = "all",
   text = [[
 Ci-gît le Coq Volant.
+]],
+}
+
+dialog{
+  id = "maps.out.mambos_cave.father_1",
+  question = "1",
+  text = [[
+Je te l'avais prédit : je
+me suis perdu ! J'ai trop 
+faim pour faire un pas de 
+plus. Me nourriras-tu ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.out.mambos_cave.father_2",
+  text = [[
+C'est pas sympa !
+]],
+}
+
+dialog{
+  id = "maps.out.mambos_cave.father_3",
+  text = [[
+Cet ¨ a l'air délicieux !      
+En remerciement, je 
+mange l'¨.
+]],
+}
+
+dialog{
+  id = "maps.out.mambos_cave.father_4",
+  text = [[
+Au fait !!
+Voici un petit cadeau.
+Je te donne cet ©...
+C'est un Hibiscus.
+]],
+}
+
+dialog{
+  id = "maps.out.mambos_cave.father_5",
+  text = [[
+Quel délice !    
+Cela me donne des forces ! 
+]],
+}
+
+dialog{
+  id = "maps.out.mambos_cave.father_6",
+  question = "1",
+  text = [[
+Je te l'avais prédit : je
+me suis perdu ! J'ai trop 
+faim pour faire un pas de 
+plus. Me nourriras-tu ?
+Non !
+Non
 ]],
 }
 

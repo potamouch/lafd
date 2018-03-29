@@ -20,17 +20,26 @@ end
 
 function map:talk_to_father() 
 
-  game:start_dialog("maps.houses.mabe_village.quadruplets_house.father_1", function()
-    father:get_sprite():set_direction(3)
-  end)
+  local item = game:get_item("magnifying_lens")
+  local variant = item:get_variant()
+  local father_sprite = father:get_sprite()
+  if variant >= 8 then
+    game:start_dialog("maps.houses.mabe_village.quadruplets_house.father_2", function()
+      father_sprite:set_direction(3)
+    end)
+  else
+    game:start_dialog("maps.houses.mabe_village.quadruplets_house.father_1", function()
+      father_sprite:set_direction(3)
+    end)
+  end
 
 end
 
 function map:talk_to_mother() 
 
+    local item = game:get_item("magnifying_lens")
+    local variant = item:get_variant()
     if game:get_value("main_quest_step") < 18 then
-      local item = game:get_item("magnifying_lens")
-      local variant = item:get_variant()
       if variant == 1 then
         game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_2", function(answer)
           if answer == 1 then
@@ -54,9 +63,15 @@ function map:talk_to_mother()
             end)
       end
     else
-      game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_6", function()
-        mother:get_sprite():set_direction(3)
-      end)
+      if variant >= 8 then
+        game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_5", function()
+          mother:get_sprite():set_direction(3)
+        end)
+      else
+        game:start_dialog("maps.houses.mabe_village.quadruplets_house.mother_6", function()
+          mother:get_sprite():set_direction(3)
+        end)
+      end
     end
 
 end
@@ -66,10 +81,16 @@ end
 
 function map:on_started(destination)
 
+ local item = game:get_item("magnifying_lens")
+ local variant = item:get_variant()
+  local father_sprite = father:get_sprite()
   map:set_music()
   companion_manager:init_map(map)
-  if game:get_value("main_quest_step") >= 18 then
+  if game:get_value("main_quest_step") >= 18 and variant < 8  then
     father:set_enabled(false)
+  end
+  if variant >= 8 then
+    father_sprite:set_animation("calling")
   end
 
 end
