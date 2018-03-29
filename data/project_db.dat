@@ -199,6 +199,7 @@ sprite{ id = "enemies/like_like", description = "Like like" }
 sprite{ id = "enemies/mad_bomber", description = "Mad bomber" }
 sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
+sprite{ id = "enemies/moblin_dog_sword", description = "Moblin dog sword" }
 sprite{ id = "enemies/monkey", description = "Monkey" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
