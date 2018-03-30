@@ -17,12 +17,10 @@ function map:on_started()
   companion_manager:init_map(map)
   local item = game:get_item("magnifying_lens")
   local variant = item:get_variant()
-  if variant < 9 then
-    hibiscus:set_enabled(false)
+  if variant >= 9 then
+     local hibiscus_sprite = hibiscus:get_sprite()
+     hibiscus_sprite:set_animation("full")
   end
- local hibiscus_sprite = hibiscus:get_sprite()
- hibiscus_sprite:set_animation("magnifying_lens")
- hibiscus_sprite:set_direction(7)
 
 
 end
@@ -37,7 +35,8 @@ function map:talk_to_christine()
     game:start_dialog("maps.houses.yarna_desert.christine_house.christine_2", function(answer)
       if answer == 1 then
         game:start_dialog("maps.houses.yarna_desert.christine_house.christine_4", function()
-            hibiscus:set_enabled(true)
+            local hibiscus_sprite = hibiscus:get_sprite()
+            hibiscus_sprite:set_animation("full")
             hero:start_treasure("magnifying_lens", 9, nil, function()
             end)
         end)

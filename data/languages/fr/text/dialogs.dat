@@ -813,9 +813,9 @@ dialog{
   icon = "108",
   text = [[
 Tu as échangé   
-l' ç contre une 
-lettre de chèvre
-í ... Super ! 
+l' © contre une 
+lettre de chèvreª
+... Super ! 
 ]],
 }
 
@@ -1781,20 +1781,18 @@ Hum! C'est très
 dialog{
   id = "maps.houses.mabe_village.library.book_9.content",
   text = [[
-Un monde de     
-couleur sous 5  
-pierres tombales             
+Un monde de couleur 
+sous 5 pierres tombales    
+         
    3^  4>  5^   
-   2<  1v       
-Teste ton       
-courage. Ouvre  
-un nouveau      
-chemin!         
-Le valeureux    
-aura le pouvoir 
-des couleurs.   
-Quel est le mon-
-de de couleur ?
+   2<  1_      
+
+Teste ton courage.
+Ouvre un nouveau      
+chemin !         
+Le valeureux aura le pouvoir 
+des couleurs. Quel est le 
+monde de couleur ?
 ]],
 }
 

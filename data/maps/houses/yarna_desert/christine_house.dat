@@ -532,6 +532,33 @@ tile{
   pattern = "water_shallow.3",
 }
 
+tile{
+  layer = 0,
+  x = 176,
+  y = 144,
+  width = 32,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
 destination{
   name = "christine_house_1_B",
   layer = 0,
@@ -638,25 +665,12 @@ custom_entity{
   name = "christine",
   layer = 0,
   x = 192,
-  y = 149,
+  y = 141,
   width = 16,
   height = 16,
   direction = 0,
   sprite = "npc/christine",
   model = "mr_write_and_christine",
-}
-
-wall{
-  layer = 0,
-  x = 168,
-  y = 144,
-  width = 48,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 npc{
@@ -676,8 +690,28 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/items",
+  sprite = "entities/hibiscus_pot",
   model = "obstacle",
+}
+
+custom_entity{
+  layer = 0,
+  x = 192,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/letter",
+}
+
+custom_entity{
+  layer = 0,
+  x = 208,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/pencil",
 }
 
 tile{
@@ -687,33 +721,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 144,
-  width = 32,
-  height = 8,
-  pattern = "table.2",
-}
-
-tile{
-  layer = 1,
-  x = 168,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.1",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
 }
 
 tile{
