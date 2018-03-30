@@ -690,11 +690,10 @@ dialog{
   id = "_treasure.magnifying_lens.11",
   icon = "110",
   text = [[
-Tu as échangé   
-le è contre     
-le é !           
-Que feras-tu    
-de celui-ci ?
+Tu as échangé le ¯
+contre le ¬ !           
+Que feras-tu de
+celui-ci ?
 ]],
 }
 
@@ -3283,7 +3282,6 @@ Non
 
 dialog{
   id = "maps.out.mabe_village.fishman_2",
-  skip = "all",
   text = [[
 Avec < et > de +, évalue 
 la distance de ton
@@ -3296,7 +3294,6 @@ pour le remonter !
 
 dialog{
   id = "maps.out.mabe_village.fishman_3",
-  skip = "all",
   text = [[
 Vis ta vie !     
 Sois un peu plus motivé !
@@ -3305,7 +3302,6 @@ Sois un peu plus motivé !
 
 dialog{
   id = "maps.out.mabe_village.grand_ma_1",
-  skip = "all",
   text = [[
 YOUPI ! J'ai la  
 pêche ! Et toi ? 
@@ -3314,7 +3310,6 @@ pêche ! Et toi ?
 
 dialog{
   id = "maps.out.mabe_village.grand_ma_2",
-  skip = "all",
   text = [[
 Il s'est passé  
 une véritable   
@@ -3323,6 +3318,45 @@ voisine d'en
 face ! Que faire ?
 Moi, je ne sais 
 que balayer !!
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.grand_ma_3",
+  question = "1",
+  text = [[
+YOUPI YOUPI !!!  
+Un balai neuf !  
+Merci...        
+C'est pour moi ? 
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.grand_ma_4",
+  text = [[
+Alors, TU balaieras l'île !
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.grand_ma_5",
+  text = [[
+En récompense, je te 
+donne un Hameçon      
+que j'ai trouvé au bord de      
+la rivière.
+]],
+}
+
+dialog{
+  id = "maps.out.mabe_village.grand_ma_6",
+  text = [[
+YOUPI !          
+Un balai neuf !  
+C'est le top...
 ]],
 }
 

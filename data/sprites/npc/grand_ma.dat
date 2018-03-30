@@ -11,7 +11,7 @@ animation{
   },
 }
 animation{
-  name = "itemget",
+  name = "brandish",
   src_image = "npc/grand_ma.png",
   directions = {
     { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },

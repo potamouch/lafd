@@ -257,7 +257,6 @@ function map:talk_to_marin()
   local item_melody_1 = game:get_item("melody_1")
   local variant_ocarina = item_ocarina:get_variant()
   local variant_melody_1 = item_melody_1:get_variant()
-print(game:get_value("main_quest_step"))
   if game:get_value("main_quest_step") <= 4 then
     game:start_dialog("maps.out.mabe_village.marin_1", game:get_player_name(), function()
       map:marin_alone_sing()
@@ -283,7 +282,48 @@ end
 
 function  map:talk_to_grand_ma()
 
-    if map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then
+
+    local item = game:get_item("magnifying_lens")
+    local variant_lens = item:get_variant()
+    local grand_ma_sprite = grand_ma:get_sprite()
+    local x_grand_ma, y_grand_ma, layer_grand_ma = grand_ma:get_position()
+    if variant_lens == 10 then
+      game:start_dialog("maps.out.mabe_village.grand_ma_3", function(answer)
+        if answer == 1 then
+          hero:freeze()
+          game:set_hud_enabled(false)
+          game:set_pause_allowed(false)
+          grand_ma_sprite:set_animation("brandish")
+          local broom_entity = map:create_custom_entity({
+            name = "brandish_broom",
+            sprite = "entities/items",
+            x = x_grand_ma,
+            y = y_grand_ma - 24,
+            width = 16,
+            height = 16,
+            layer = layer_grand_ma + 1,
+            direction = 0
+          })
+          broom_entity:get_sprite():set_animation("magnifying_lens")
+          broom_entity:get_sprite():set_direction(9)
+          sol.audio.play_sound("treasure")
+          sol.timer.start(grand_ma, 2000, function() 
+            hero:unfreeze()
+            game:set_hud_enabled(true)
+            game:set_pause_allowed(true)
+            broom_entity:remove()
+            grand_ma_sprite:set_animation("walking")
+            game:start_dialog("maps.out.mabe_village.grand_ma_5", function()
+              hero:start_treasure("magnifying_lens", 11)
+            end)
+          end)
+        else
+          game:start_dialog("maps.out.mabe_village.grand_ma_4")
+        end
+      end)
+    elseif variant_lens > 10 then
+          game:start_dialog("maps.out.mabe_village.grand_ma_6")
+    elseif map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then
       game:start_dialog("maps.out.mabe_village.grand_ma_1", function()
         grand_ma:get_sprite():set_direction(3)
       end)
@@ -338,6 +378,8 @@ end
 
 function map:on_started(destination)
 
+    local item = game:get_item("magnifying_lens")
+    local variant_lens = item:get_variant()
   -- Signs
   shop_sign_2:get_sprite():set_animation("crane_sign")
   -- Digging
@@ -361,7 +403,11 @@ function map:on_started(destination)
   map:init_bowwow()
   
  -- Grand ma
-  grand_ma:get_sprite():set_animation("walking")
+  if variant_lens == 10 then
+    grand_ma:get_sprite():set_animation("nobroom")
+  else 
+    grand_ma:get_sprite():set_animation("walking")
+  end
 
    -- Kids
   if map:get_game():get_value("main_quest_step") ~= 8 and map:get_game():get_value("main_quest_step") ~= 9 then

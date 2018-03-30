@@ -36,9 +36,8 @@ function map:talk_to_mr_write()
        game:start_dialog("maps.houses.west_mt_tamaranch.mr_write_house.mr_write_5")
     else
         game:start_dialog("maps.houses.west_mt_tamaranch.mr_write_house.mr_write_2", function()
-          -- Hide or show HUD.
+          hero:freeze()
           game:set_hud_enabled(false)
-          -- Prevent or allow the player from pausing the game
           game:set_pause_allowed(false)
           draw_picture = true
           local disappear_picture = false
@@ -65,7 +64,11 @@ function map:talk_to_mr_write()
                   draw_picture = false
                   game:start_dialog("maps.houses.west_mt_tamaranch.mr_write_house.mr_write_3", function(answer)
                     if answer == 1 then
-                      hero:start_treasure("magnifying_lens", 10)
+                      hero:start_treasure("magnifying_lens", 10, nil, function()
+                        game:set_hud_enabled(true)
+                        game:set_pause_allowed(true)
+                        hero:unfreeze()
+                      end)
                     else
                       map:talk_to_mr_write_2()
                     end
@@ -86,7 +89,11 @@ end
 function map:talk_to_mr_write_2()
   game:start_dialog("maps.houses.west_mt_tamaranch.mr_write_house.mr_write_4", function(answer)
     if answer == 1 then
-      hero:start_treasure("magnifying_lens", 10)
+      hero:start_treasure("magnifying_lens", 10, nil,  function()
+        game:set_hud_enabled(true)
+        game:set_pause_allowed(true)
+        hero:unfreeze()
+      end)
     else
       map:talk_to_mr_write_2()
     end
