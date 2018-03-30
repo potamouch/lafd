@@ -593,6 +593,15 @@ custom_entity{
   sprite = "entities/letter",
 }
 
+npc{
+  name = "mr_write_invisible_2",
+  layer = 0,
+  x = 168,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 144,

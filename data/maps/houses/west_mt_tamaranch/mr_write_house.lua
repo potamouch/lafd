@@ -118,6 +118,12 @@ function mr_write_invisible:on_interaction()
 
 end
 
+function mr_write_invisible_2:on_interaction()
+
+      map:talk_to_mr_write()
+
+end
+
 for wardrobe in map:get_entities("wardrobe") do
   function wardrobe:on_interaction()
     game:start_dialog("maps.houses.wardrobe_1", game:get_player_name())
