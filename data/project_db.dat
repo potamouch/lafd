@@ -87,7 +87,7 @@ map{ id = "houses/mabe_village/dream_shine_lower_level", description = "Dream sh
 map{ id = "houses/mabe_village/dream_shine_upper_level", description = "Dream shine upper level" }
 map{ id = "houses/mabe_village/grand_pa_house", description = "Grandpa house" }
 map{ id = "houses/mabe_village/library", description = "Library" }
-map{ id = "houses/mabe_village/marine_house", description = "Marine house" }
+map{ id = "houses/mabe_village/marin_house", description = "Marin house" }
 map{ id = "houses/mabe_village/meow_meow_house", description = "Meow meow house" }
 map{ id = "houses/mabe_village/quadruplets_house", description = "Quadruplets house" }
 map{ id = "houses/mabe_village/shop_1", description = "Shop 1" }
@@ -532,7 +532,7 @@ sprite{ id = "npc/manbopals_grey", description = "Manbopals grey" }
 sprite{ id = "npc/manbopals_pink", description = "Manbopals pink" }
 sprite{ id = "npc/manbopals_red", description = "Manbopals red" }
 sprite{ id = "npc/manbopals_yellow", description = "Manbopals yellow" }
-sprite{ id = "npc/marine", description = "Marine" }
+sprite{ id = "npc/marin", description = "Marin" }
 sprite{ id = "npc/meow_meow", description = "Meow meow" }
 sprite{ id = "npc/merchant", description = "Merchant" }
 sprite{ id = "npc/mermaid", description = "Mermaid" }
@@ -616,6 +616,9 @@ music{ id = "scripts/meta/map/fairy_fountain", description = "Fairy fountain" }
 music{ id = "scripts/meta/map/the_wise_owl", description = "The wise owl" }
 
 sound{ id = "arrow_hit", description = "Arrow hit" }
+sound{ id = "beehive_bees", description = "Beehive bees" }
+sound{ id = "beehive_fall", description = "Beehive fall" }
+sound{ id = "beehive_poke", description = "Beehive poke" }
 sound{ id = "bomb", description = "Bomb" }
 sound{ id = "boomerang", description = "Boomerang" }
 sound{ id = "boss_1_explode_part", description = "Boss 1 explode" }
@@ -678,6 +681,7 @@ sound{ id = "lift", description = "Lift" }
 sound{ id = "mad_bat_appear", description = "Mad bat appear" }
 sound{ id = "mad_bat_disappear", description = "Mad bat disappear" }
 sound{ id = "magic_powder", description = "magic_powder" }
+sound{ id = "marin_on_beach", description = "Marin on beach" }
 sound{ id = "message_end", description = "Message end" }
 sound{ id = "message_letter", description = "Message letter" }
 sound{ id = "monkeys_build_a_bridge", description = "Monkeys build a bridge" }
@@ -688,7 +692,6 @@ sound{ id = "pause_open", description = "Pause open" }
 sound{ id = "picked_item", description = "Picked item" }
 sound{ id = "picked_rupee", description = "Picked rupee" }
 sound{ id = "picked_small_key", description = "Picked small key" }
-sound{ id = "piece_of_heart", description = "get heart container" }
 sound{ id = "rolling_spike", description = "Rolling spike" }
 sound{ id = "running", description = "Running" }
 sound{ id = "running_obstacle", description = "Running obstacle" }
@@ -862,7 +865,7 @@ entity{ id = "heavy_object", description = "Heavy object" }
 entity{ id = "heavy_statue", description = "Heavy statue" }
 entity{ id = "hole", description = "Hole" }
 entity{ id = "hookable", description = "Hookable" }
-entity{ id = "marine", description = "Marine" }
+entity{ id = "marin_follow", description = "Marine" }
 entity{ id = "mouse", description = "Mouse" }
 entity{ id = "mr_write_and_christine", description = "Mr Write and Christine" }
 entity{ id = "non_diggable", description = "Non diggable" }
