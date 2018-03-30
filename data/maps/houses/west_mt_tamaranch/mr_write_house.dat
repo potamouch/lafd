@@ -298,17 +298,31 @@ tile{
   pattern = "dresser.4a",
 }
 
-wall{
+tile{
+  layer = 0,
+  x = 176,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
   layer = 0,
   x = 152,
   y = 104,
-  width = 32,
+  width = 8,
   height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  pattern = "table.1",
 }
 
 teletransporter{
@@ -343,7 +357,7 @@ custom_entity{
   name = "mr_write",
   layer = 0,
   x = 168,
-  y = 109,
+  y = 101,
   width = 16,
   height = 16,
   direction = 0,
@@ -569,6 +583,16 @@ npc{
   subtype = 1,
 }
 
+custom_entity{
+  layer = 0,
+  x = 168,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/letter",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -585,33 +609,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "287",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "table.3",
-}
-
-tile{
-  layer = 1,
-  x = 160,
-  y = 104,
-  width = 16,
-  height = 8,
-  pattern = "table.2",
-}
-
-tile{
-  layer = 1,
-  x = 152,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "table.1",
 }
 
 tile{

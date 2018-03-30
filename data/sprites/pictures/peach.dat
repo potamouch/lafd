@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "pictures/peach.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 104, frame_height = 128, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 128, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 128, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 104, frame_height = 128, origin_x = 8, origin_y = 12 },
+  },
+}

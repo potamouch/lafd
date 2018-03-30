@@ -680,9 +680,8 @@ dialog{
   icon = "109",
   text = [[
 Mr Wright t'a   
-offert un è.    
-Mais...         
-cette photo...  
+offert un ¯.    
+Mais... cette photo...  
 ce n'est pas...
 ]],
 }
@@ -2906,8 +2905,41 @@ dialog{
 Une lettre ?     
 Pour moi ?       
 Mais c'est formidable...   
-Il y a même une
-photo !
+Il y a même une photo !
+]],
+}
+
+dialog{
+  id = "maps.houses.west_mt_tamaranch.mr_write_house.mr_write_3",
+  question = "1",
+  text = [[
+Ohhh... Quelle beauté !  
+J'aimerais te remercier    
+mais je n'ai que ce balai    
+à t'offrir... En veux-tu ?     
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.west_mt_tamaranch.mr_write_house.mr_write_4",
+  question = "1",
+  text = [[
+Vraiment, j'insiste...    
+
+
+Prends ce ¯ !    
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "maps.houses.west_mt_tamaranch.mr_write_house.mr_write_5",
+  text = [[
+L'écriture, c'est 
+vraiment mon hobby !
 ]],
 }
 
