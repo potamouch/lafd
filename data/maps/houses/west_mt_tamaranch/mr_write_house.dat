@@ -357,7 +357,7 @@ custom_entity{
   name = "mr_write",
   layer = 0,
   x = 168,
-  y = 101,
+  y = 109,
   width = 16,
   height = 16,
   direction = 0,
