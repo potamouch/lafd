@@ -24053,15 +24053,6 @@ sensor{
   height = 16,
 }
 
-enemy{
-  name = "sea",
-  layer = 0,
-  x = 1088,
-  y = 1693,
-  direction = 0,
-  breed = "sea_urchin",
-}
-
 tile{
   layer = 1,
   x = 1728,

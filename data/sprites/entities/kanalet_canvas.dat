@@ -1,6 +1,6 @@
 animation{
   name = "normal",
-  src_image = "entities/kanalet_canevas.png",
+  src_image = "entities/kanalet_canvas.png",
   directions = {
     { x = 0, y = 0, frame_width = 64, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 0, frame_width = 64, frame_height = 16, origin_x = 8, origin_y = 13 },

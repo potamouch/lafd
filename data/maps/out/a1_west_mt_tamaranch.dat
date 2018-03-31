@@ -7140,24 +7140,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
-  y = 72,
-  width = 16,
-  height = 24,
-  pattern = "3981",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 72,
-  width = 16,
-  height = 24,
-  pattern = "3981",
-}
-
-tile{
-  layer = 0,
   x = 464,
   y = 0,
   width = 8,
@@ -12240,6 +12222,28 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "houses/kanalet_castle/kanalet_castle_1f",
+}
+
+custom_entity{
+  name = "entrance_dg8_bis",
+  layer = 0,
+  x = 560,
+  y = 61,
+  width = 24,
+  height = 48,
+  direction = 0,
+  sprite = "entities/entrance_dungeon_8_bis",
+}
+
+custom_entity{
+  name = "entrance_dg8_bis_4",
+  layer = 0,
+  x = 616,
+  y = 61,
+  width = 24,
+  height = 48,
+  direction = 2,
+  sprite = "entities/entrance_dungeon_8_bis",
 }
 
 tile{
