@@ -1148,7 +1148,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 208,
+  y = 200,
   width = 16,
   height = 16,
   pattern = "torch_big.bottom",
@@ -1254,6 +1254,78 @@ switch{
   inactivate_when_leaving = false,
 }
 
+custom_entity{
+  name = "kanalet_statue",
+  layer = 0,
+  x = 408,
+  y = 317,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/kanalet_statue",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "kanalet_statue_2",
+  layer = 0,
+  x = 504,
+  y = 317,
+  width = 32,
+  height = 32,
+  direction = 2,
+  sprite = "entities/kanalet_statue",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "kanalet_statue_5",
+  layer = 0,
+  x = 88,
+  y = 277,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/kanalet_statue",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "kanalet_statue_7",
+  layer = 0,
+  x = 152,
+  y = 277,
+  width = 32,
+  height = 32,
+  direction = 2,
+  sprite = "entities/kanalet_statue",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "kanalet_statue_9",
+  layer = 0,
+  x = 88,
+  y = 237,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/kanalet_statue",
+  model = "obstacle",
+}
+
+custom_entity{
+  name = "kanalet_statue_10",
+  layer = 0,
+  x = 152,
+  y = 237,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/kanalet_statue",
+  model = "obstacle",
+}
+
 tile{
   layer = 1,
   x = 32,
@@ -1284,7 +1356,7 @@ tile{
 tile{
   layer = 1,
   x = 48,
-  y = 192,
+  y = 184,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
@@ -1848,6 +1920,72 @@ stairs{
   subtype = 0,
 }
 
+custom_entity{
+  name = "kanalet_statue_3",
+  layer = 1,
+  x = 416,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/kanalet_statue",
+}
+
+custom_entity{
+  name = "kanalet_statue_4",
+  layer = 1,
+  x = 512,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/kanalet_statue",
+}
+
+custom_entity{
+  name = "kanalet_statue_6",
+  layer = 1,
+  x = 96,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/kanalet_statue",
+}
+
+custom_entity{
+  name = "kanalet_statue_8",
+  layer = 1,
+  x = 160,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/kanalet_statue",
+}
+
+custom_entity{
+  name = "kanalet_statue_11",
+  layer = 1,
+  x = 96,
+  y = 221,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/kanalet_statue",
+}
+
+custom_entity{
+  name = "kanalet_statue_12",
+  layer = 1,
+  x = 160,
+  y = 221,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/kanalet_statue",
+}
+
 tile{
   layer = 2,
   x = 624,
@@ -2012,7 +2150,7 @@ tile{
 
 separator{
   layer = 2,
-  x = 312,
+  x = 304,
   y = 0,
   width = 16,
   height = 512,

@@ -312,6 +312,8 @@ sprite{ id = "entities/instrument_big_sparkle", description = "Instrument big sp
 sprite{ id = "entities/instrument_small_sparkle", description = "Instrument small sparkle" }
 sprite{ id = "entities/iron_ball", description = "Iron ball" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/kanalet_darknut_statue", description = "Kanalet darknut statue" }
+sprite{ id = "entities/kanalet_statue", description = "Kanalet statue" }
 sprite{ id = "entities/keyhole_dungeon_7", description = "Keyhole dungeon 7" }
 sprite{ id = "entities/la_beach/la_background", description = "entities/la_beach/la_background" }
 sprite{ id = "entities/la_beach/la_swell", description = "entities/la_beach/la_swell" }
@@ -321,6 +323,7 @@ sprite{ id = "entities/lightning_strike", description = "Lightning strike" }
 sprite{ id = "entities/lightning_strike_core", description = "Lightning strike core" }
 sprite{ id = "entities/mad_batter_set", description = "Mad batter set" }
 sprite{ id = "entities/moblin_carpet", description = "Moblin carpet" }
+sprite{ id = "entities/moblin_fire", description = "Moblin fire" }
 sprite{ id = "entities/moblin_throne", description = "Moblin throne" }
 sprite{ id = "entities/movies/background_introduction", description = "Background introduction" }
 sprite{ id = "entities/movies/swell", description = "Swell" }
