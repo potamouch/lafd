@@ -1321,9 +1321,20 @@ custom_entity{
   y = 237,
   width = 32,
   height = 32,
-  direction = 0,
+  direction = 2,
   sprite = "entities/kanalet_statue",
   model = "obstacle",
+}
+
+custom_entity{
+  name = "kanalet_canevas",
+  layer = 0,
+  x = 440,
+  y = 293,
+  width = 64,
+  height = 16,
+  direction = 0,
+  sprite = "entities/kanalet_canvas",
 }
 
 tile{

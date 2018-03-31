@@ -312,6 +312,7 @@ sprite{ id = "entities/instrument_big_sparkle", description = "Instrument big sp
 sprite{ id = "entities/instrument_small_sparkle", description = "Instrument small sparkle" }
 sprite{ id = "entities/iron_ball", description = "Iron ball" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/kanalet_canvas", description = "Kanalet canevas" }
 sprite{ id = "entities/kanalet_darknut_statue", description = "Kanalet darknut statue" }
 sprite{ id = "entities/kanalet_statue", description = "Kanalet statue" }
 sprite{ id = "entities/keyhole_dungeon_7", description = "Keyhole dungeon 7" }
