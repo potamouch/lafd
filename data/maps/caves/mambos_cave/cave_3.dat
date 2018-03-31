@@ -12,6 +12,15 @@ properties{
 
 tile{
   layer = 0,
+  x = 176,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.4-2",
+}
+
+tile{
+  layer = 0,
   x = 64,
   y = 320,
   width = 192,
@@ -3738,18 +3747,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
+  x = 192,
   y = 392,
-  width = 72,
-  height = 16,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 384,
-  width = 8,
+  width = 64,
   height = 16,
   pattern = "hole",
 }
@@ -3775,28 +3775,10 @@ tile{
 tile{
   layer = 0,
   x = 176,
-  y = 376,
-  width = 16,
-  height = 16,
-  pattern = "wall_hole.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 176,
   y = 368,
   width = 16,
   height = 16,
   pattern = "wall_hole.corner.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 392,
-  width = 16,
-  height = 16,
-  pattern = "wall_hole.corner_reverse.2-2",
 }
 
 tile{
@@ -3837,10 +3819,10 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
-  y = 384,
+  x = 192,
+  y = 392,
   width = 8,
-  height = 16,
+  height = 8,
   pattern = "hole.3",
 }
 
@@ -3864,7 +3846,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
+  x = 192,
   y = 400,
   width = 8,
   height = 8,
@@ -3884,27 +3866,18 @@ tile{
   layer = 0,
   x = 152,
   y = 376,
-  width = 32,
+  width = 40,
   height = 8,
   pattern = "hole.2",
 }
 
 tile{
   layer = 0,
-  x = 192,
+  x = 200,
   y = 400,
-  width = 64,
+  width = 56,
   height = 8,
   pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 376,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner_reverse.3",
 }
 
 tile{
