@@ -42,6 +42,8 @@ end
 function map:monkey_build_bridge()
 
   hero:freeze()
+  game:set_hud_enabled(false)
+  game:set_pause_allowed(false)
   local x, y, layer = monkey:get_position()
   sol.audio.stop_music()
   sol.audio.play_sound("monkeys_build_a_bridge")
@@ -140,6 +142,8 @@ function map:monkey_leave_bridge()
     function movement:on_finished()
       monkey:remove()
       hero:unfreeze()
+      game:set_hud_enabled(true)
+      game:set_pause_allowed(true)
       game:set_value("main_quest_step", 14) 
     end
 end

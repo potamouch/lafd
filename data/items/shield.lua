@@ -66,8 +66,8 @@ local weak_sound_id = "shield_push"
 function item:on_created()
   self:set_savegame_variable("possession_shield")
   self:set_assignable(true)
-  --local variant = self:get_variant() or 0
-  --if variant == 0 then self:set_variant(1) end
+  local variant = self:get_variant() or 0
+  if variant == 0 then self:set_variant(1) end
 end
 
 function item:on_variant_changed(variant)
@@ -137,9 +137,16 @@ function item:on_using()
   -- Stop fixed animations if the command is released.
   sol.timer.start(item, 1, function()
     if shield_state == "using" then
-      if shield_command_released == true or hero:get_state() == "sword swinging" then 
-        -- Finish using item if sword is used or if shield command is released.
+      if shield_command_released == true then
+      -- Finish using if shield command is released.
         self:finish_using()
+        return
+      elseif hero:get_state() == "sword swinging" then 
+      -- Finish using if sword is used.
+        self:finish_using()
+        -- Restart sword attack.
+        local sword = game:get_item("sword")
+        game:get_hero():start_attack()
         return
       end
     end
