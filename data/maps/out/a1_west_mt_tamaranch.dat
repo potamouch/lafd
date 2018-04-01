@@ -10830,15 +10830,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 536,
-  y = 512,
-  width = 8,
-  height = 8,
-  pattern = "100",
-}
-
-tile{
-  layer = 0,
   x = 560,
   y = 440,
   width = 8,

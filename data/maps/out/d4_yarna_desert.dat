@@ -9398,6 +9398,15 @@ custom_entity{
   sprite = "entities/snores",
 }
 
+sensor{
+  name = "sensor_marin",
+  layer = 0,
+  x = 336,
+  y = 637,
+  width = 16,
+  height = 96,
+}
+
 tile{
   layer = 1,
   x = 368,

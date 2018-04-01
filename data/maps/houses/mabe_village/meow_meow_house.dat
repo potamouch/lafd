@@ -676,6 +676,78 @@ tile{
   pattern = "seat.2",
 }
 
+tile{
+  layer = 0,
+  x = 64,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
 npc{
   name = "small_bowwow_2",
   layer = 0,

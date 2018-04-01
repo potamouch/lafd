@@ -1295,6 +1295,42 @@ tile{
   pattern = "floor_border.3",
 }
 
+tile{
+  layer = 1,
+  x = 40,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
 destination{
   name = "quadruplets_house_1_B",
   layer = 1,

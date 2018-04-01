@@ -559,6 +559,87 @@ tile{
   pattern = "table.1",
 }
 
+tile{
+  layer = 0,
+  x = 40,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "painting",
+}
+
 destination{
   name = "christine_house_1_B",
   layer = 0,
