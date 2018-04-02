@@ -838,3 +838,63 @@ separator{
   height = 256,
 }
 
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 80,
+  y = 0,
+  pattern = "40",
+  width = 16,
+  height = 120,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 544,
+  y = 0,
+  pattern = "40",
+  width = 16,
+  height = 144,
+  enabled_at_start = true,
+}
+
+teletransporter{
+  name = "stairs_2_A",
+  layer = 0,
+  x = 80,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/1f",
+  destination = "stairs_2_B",
+}
+
+destination{
+  name = "stairs_2_B",
+  layer = 0,
+  x = 88,
+  y = 29,
+  direction = 3,
+}
+
+teletransporter{
+  name = "stairs_1_A",
+  layer = 0,
+  x = 544,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/1f",
+  destination = "stairs_1_B",
+}
+
+destination{
+  name = "stairs_1_B",
+  layer = 0,
+  x = 552,
+  y = 29,
+  direction = 3,
+}
+

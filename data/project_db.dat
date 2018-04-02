@@ -50,7 +50,6 @@ map{ id = "dungeons/11/1f", description = "Dungeon 11 1F" }
 map{ id = "dungeons/11/b1", description = "Dungeon 11 B1" }
 map{ id = "dungeons/11/b2", description = "Dungeon 11 B2" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
-map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
 map{ id = "dungeons/2/sideview_1", description = "Sideview 1" }
 map{ id = "dungeons/2/sideview_2", description = "Sideview 2" }
 map{ id = "dungeons/2/sideview_3", description = "Sideview 3" }
@@ -847,6 +846,7 @@ enemy{ id = "pike_fixed", description = "Pike fixed" }
 enemy{ id = "pols_voice", description = "Pols voice" }
 enemy{ id = "sand_crab", description = "Sand crab" }
 enemy{ id = "sea_urchin", description = "Sea urchin" }
+enemy{ id = "spike", description = "Spike" }
 enemy{ id = "stalfos_blue", description = "Stalfos blue" }
 enemy{ id = "stalfos_grey", description = "Stalfos grey" }
 enemy{ id = "stalfos_red", description = "Stalfos red" }
