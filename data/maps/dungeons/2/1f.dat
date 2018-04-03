@@ -15051,24 +15051,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 736,
-  y = 1296,
-  width = 32,
-  height = 24,
-  pattern = "wall_decor.1-5",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 1296,
-  width = 32,
-  height = 24,
-  pattern = "wall_decor.1-5",
-}
-
-tile{
-  layer = 0,
   x = 1176,
   y = 1328,
   width = 24,
@@ -15348,24 +15330,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 920,
-  y = 1624,
-  width = 24,
-  height = 32,
-  pattern = "wall_decor.4-5",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 1624,
-  width = 24,
-  height = 32,
-  pattern = "wall_decor.3-5",
-}
-
-tile{
-  layer = 0,
   x = 792,
   y = 1784,
   width = 16,
@@ -15389,6 +15353,60 @@ tile{
   width = 24,
   height = 32,
   pattern = "door_main.2.pillar.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 1592,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 1592,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 1296,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 1296,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 1656,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 1656,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
 }
 
 block{
