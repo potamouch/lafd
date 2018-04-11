@@ -2931,17 +2931,6 @@ custom_entity{
   model = "obstacle",
 }
 
-custom_entity{
-  name = "moblin_carpet",
-  layer = 0,
-  x = 416,
-  y = 85,
-  width = 144,
-  height = 112,
-  direction = 0,
-  sprite = "entities/moblin_carpet",
-}
-
 enemy{
   name = "enemy_group_3_1",
   layer = 0,
@@ -2981,6 +2970,26 @@ custom_entity{
   direction = 1,
   sprite = "entities/dog_statue",
   model = "obstacle",
+}
+
+npc{
+  name = "moblin_chief",
+  layer = 0,
+  x = 160,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/moblin_chief",
+}
+
+custom_entity{
+  name = "moblin_chief_finished",
+  layer = 0,
+  x = 272,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

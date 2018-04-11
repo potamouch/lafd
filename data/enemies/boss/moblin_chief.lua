@@ -35,11 +35,12 @@ function enemy:on_created()
   enemy:set_pushed_back_when_hurt(false)
   enemy:set_hurt_style("boss")
   x_initial, y_initial = enemy:get_position()
+
 end
 
 function enemy:on_restarted()
   if launch_boss then
-     enemy:go_to_initial_position()
+     --enemy:go_to_initial_position()
   end
 end
 
@@ -69,6 +70,7 @@ end
 
 function enemy:go_to_initial_position()
 
+    print("initial")
     local movement_initial = sol.movement.create("target")
     movement_initial:set_speed(96)
     movement_initial:set_target(x_initial, y_initial)
@@ -81,6 +83,7 @@ end
 
 function enemy:start_battle()
 
+    print("start")
     launch_boss = true
     enemy:calculate_parameters()
     enemy:set_attack_consequence("sword", "protected")
@@ -90,17 +93,20 @@ function enemy:start_battle()
     movement_battle:set_target(x, y)
     movement_battle:start(enemy)
     function movement_battle:on_finished()
+      print("finished")
       enemy:choose_attack()
     end
     function movement_battle:on_obstacle_reached()
-      movement_battle:stop()
-      enemy:go_to_initial_position()
+      print("reached")
+      --movement_battle:stop()
+      --enemy:go_to_initial_position()
     end
 
 end
 
 function enemy:choose_attack()
 
+  print("choose_attack")
   if attacks < max_attacks then
     enemy:throw_arrow()
     attacks = attacks + 1
@@ -113,6 +119,7 @@ end
 
 function enemy:throw_arrow()
 
+  print("throw_arrow")
   local x_enemy, y_enemy, layer_enemy = enemy:get_position()
   arrow = map:create_enemy{
     breed =  'arrow',
@@ -141,6 +148,7 @@ end
 
 function enemy:charge()
 
+  print("charge")
   enemy:calculate_parameters()
   sprite:set_animation("attacked")
   sol.timer.start(enemy, 1000, function()
@@ -162,6 +170,7 @@ end
 
 function enemy:set_shocked()
 
+  print("shocked")
     enemy:calculate_parameters()
     sol.audio.play_sound("enemy_bounce")
     sprite:set_animation("shocked")

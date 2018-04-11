@@ -28,6 +28,7 @@ end
 
 function map:on_started()
   map:set_music()
+  moblin_chief:get_sprite():set_animation("sitting")
   local step = game:get_value("main_quest_step")
   if step ~= 9 then
     for enemy in map:get_entities_by_type("enemy") do
@@ -64,7 +65,34 @@ function sensor_2:on_activated()
   if step ~= nil and step ~= 9 then
     return
   end
-  door_manager:close_if_enemies_not_dead(map, "enemy_group_2", "door_group_1")
+  local x_moblin_chief, y_moblin_chief = moblin_chief:get_position()
+  moblin_chief:get_sprite():set_animation("sitting_text")
+  moblin_chief:get_sprite():set_direction(0)
+  hero:freeze()
+  game:set_hud_enabled(false)
+  game:set_pause_allowed(false)
+  game:set_suspended(true)
+  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_2", function()
+      moblin_chief:get_sprite():set_animation("walking")
+      moblin_chief:get_sprite():set_ignore_suspend(true)
+      moblin_chief.xy = { x = x_moblin_chief, y = y_moblin_chief }
+      local movement = sol.movement.create("target")
+      movement:set_speed(96)
+      movement:set_target(moblin_chief_finished)
+      movement:set_ignore_obstacles(true)
+      movement:start(moblin_chief.xy)
+      function movement:on_position_changed(coord_x, coord_y)
+        moblin_chief:set_position(coord_x, coord_y)
+      end
+      function movement:on_finished()
+        moblin_chief:set_enabled(false)
+        door_manager:close_if_enemies_not_dead(map, "enemy_group_2", "door_group_1")
+        game:set_hud_enabled(true)
+        game:set_pause_allowed(true)
+        game:set_suspended(false)
+        hero:unfreeze()
+      end
+  end)
 
 end
 
@@ -79,7 +107,7 @@ function sensor_3:on_activated()
   end
   launch_boss = true
   door_manager:close_if_enemies_not_dead(map, "enemy_group_3", "door_group_1")
-  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_2", function()
+  game:start_dialog("maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_3", function()
     enemy_group_3_1:start_battle()
   end)
 

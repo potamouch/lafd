@@ -1230,6 +1230,14 @@ Je vais te corriger !!
 }
 
 dialog{
+  id = "maps.caves.egg_of_the_dream_fish.moblins_cave.moblins_3",
+  text = [[
+C'est qui cet intrus tout vétu de vert ??!!!
+Attrapez-le !!!!
+]],
+}
+
+dialog{
   id = "maps.dungeons.1.boss_welcome",
   text = [[
 GRRR ! GRR !      

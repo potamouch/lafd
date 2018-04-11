@@ -11,7 +11,7 @@ animation{
   },
 }
 animation{
-  name = "attacking",
+  name = "attacked",
   src_image = "enemies/boss/moblin_chief.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
@@ -28,10 +28,10 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
-    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
-    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
-    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 3 },
   },
 }
 animation{
