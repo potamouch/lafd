@@ -14,6 +14,9 @@ local map = enemy:get_map()
 local hero = map:get_hero()
 local sprite
 local movement
+local bottle
+local bottle_sprite
+
 
 -- Event called when the enemy is initialized.
 function enemy:on_created()
@@ -24,12 +27,21 @@ function enemy:on_created()
   enemy:set_life(1)
   enemy:set_damage(1)
   enemy:set_hurt_style("boss")
+  enemy:set_visible(false)
+  -- Bottle
+
 end
 
 -- Event called when the enemy should start or restart its movements.
 -- This is called for example after the enemy is created or after
 -- it was hurt or immobilized.
 function enemy:on_restarted()
+
+
+end
+
+
+function enemy:go_center()
 
 
 end
