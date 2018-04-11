@@ -1,25 +1,25 @@
 animation{
-  name = "walking",
+  name = "waiting",
   src_image = "enemies/boss/moblin_chief.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 4 },
-    { x = 128, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
   },
 }
 animation{
-  name = "attacked",
+  name = "attacking",
   src_image = "enemies/boss/moblin_chief.png",
-  frame_delay = 100,
+  frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 192, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
-    { x = 128, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 3 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
   },
 }
 animation{
@@ -28,21 +28,76 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
-    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
-    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
-    { x = 0, y = 120, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 448, y = 128, frame_width = 64, frame_height = 64, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
+animation{
+  name = "prepare_attacking",
+  src_image = "enemies/boss/moblin_chief.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 8 },
   },
 }
 animation{
   name = "shocked",
   src_image = "enemies/boss/moblin_chief.png",
+  frame_delay = 80,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 256, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 256, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 256, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 256, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+  },
+}
+animation{
+  name = "sitting",
+  src_image = "enemies/boss/moblin_chief.png",
+  directions = {
+    { x = 512, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 512, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 512, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 512, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+  },
+}
+animation{
+  name = "sitting_text",
+  src_image = "enemies/boss/moblin_chief.png",
+  directions = {
+    { x = 512, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 512, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 512, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+    { x = 512, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61 },
+  },
+}
+animation{
+  name = "throwing",
+  src_image = "enemies/boss/moblin_chief.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 6 },
+    { x = 0, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 6 },
+    { x = 0, y = 256, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 6 },
+    { x = 0, y = 256, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 6 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/boss/moblin_chief.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 80, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 80, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 80, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
-    { x = 0, y = 80, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 37, num_frames = 2 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 4 },
   },
 }

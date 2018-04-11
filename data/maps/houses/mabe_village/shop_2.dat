@@ -405,7 +405,7 @@ chest{
   layer = 0,
   x = 136,
   y = 157,
-  treasure_name = "bombs_counter",
+  treasure_name = "pegasus_shoes",
   sprite = "entities/chest",
 }
 
