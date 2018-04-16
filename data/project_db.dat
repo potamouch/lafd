@@ -382,6 +382,7 @@ sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
 sprite{ id = "entities/statue_dungeon_6_head", description = "Statue dungeon 6 head" }
 sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
 sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
+sprite{ id = "entities/statue_owl_dungeon", description = "Statue owl dungeon" }
 sprite{ id = "entities/statue_pig", description = "Statue pig" }
 sprite{ id = "entities/statue_pig_destroyed", description = "Statue pig destroyed" }
 sprite{ id = "entities/statue_small", description = "Statue small" }

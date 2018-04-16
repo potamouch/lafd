@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/statue_owl_dungeon.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 48, origin_x = 32, origin_y = 45 },
+  },
+}
