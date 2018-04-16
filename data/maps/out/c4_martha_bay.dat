@@ -10323,6 +10323,96 @@ tile{
   pattern = "1111",
 }
 
+tile{
+  layer = 0,
+  x = 656,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 728,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 744,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 744,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 728,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "1039",
+}
+
 teletransporter{
   name = "to_c3",
   layer = 0,
