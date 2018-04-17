@@ -1,0 +1,20 @@
+animation{
+  name = "dg_1",
+  src_image = "entities/statue_egg_dungeon.png",
+  directions = {
+    { x = 64, y = 0, frame_width = 24, frame_height = 64, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 24, frame_width = 64, frame_height = 24, origin_x = 32, origin_y = 21 },
+    { x = 88, y = 0, frame_width = 24, frame_height = 64, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 24, origin_x = 32, origin_y = 21 },
+  },
+}
+animation{
+  name = "dg_2",
+  src_image = "entities/statue_egg_dungeon.png",
+  directions = {
+    { x = 64, y = 64, frame_width = 24, frame_height = 64, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 88, frame_width = 64, frame_height = 24, origin_x = 32, origin_y = 21 },
+    { x = 88, y = 64, frame_width = 24, frame_height = 64, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 24, origin_x = 32, origin_y = 21 },
+  },
+}

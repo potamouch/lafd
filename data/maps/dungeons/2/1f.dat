@@ -18786,8 +18786,8 @@ enemy{
 npc{
   name = "owl_1",
   layer = 0,
-  x = 808,
-  y = 565,
+  x = 800,
+  y = 549,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
@@ -19272,7 +19272,7 @@ npc{
   name = "owl_2",
   layer = 0,
   x = 1992,
-  y = 1077,
+  y = 1061,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
@@ -19309,7 +19309,7 @@ npc{
   name = "owl_3",
   layer = 0,
   x = 1440,
-  y = 1333,
+  y = 1317,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
@@ -19517,6 +19517,39 @@ teletransporter{
   height = 16,
   destination_map = "dungeons/2/1f",
   destination = "destination",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon",
+  layer = 0,
+  x = 1760,
+  y = 549,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_2",
+  layer = 0,
+  x = 1632,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_3",
+  layer = 0,
+  x = 1760,
+  y = 749,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/statue_egg_dungeon",
 }
 
 tile{
@@ -20701,7 +20734,7 @@ tile{
 tile{
   layer = 2,
   x = 1904,
-  y = 272,
+  y = 288,
   width = 320,
   height = 224,
   pattern = "ceiling.1",

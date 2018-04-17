@@ -13948,7 +13948,7 @@ npc{
   name = "owl_1",
   layer = 0,
   x = 1760,
-  y = 821,
+  y = 805,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
@@ -13957,8 +13957,8 @@ npc{
 npc{
   name = "owl_2",
   layer = 0,
-  x = 728,
-  y = 565,
+  x = 736,
+  y = 549,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
@@ -13968,7 +13968,7 @@ npc{
   name = "owl_3",
   layer = 0,
   x = 480,
-  y = 565,
+  y = 549,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
@@ -14235,6 +14235,50 @@ destination{
   x = 2000,
   y = 1157,
   direction = 1,
+}
+
+custom_entity{
+  name = "statue_egg_dungeon",
+  layer = 0,
+  x = 160,
+  y = 805,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_2",
+  layer = 0,
+  x = 2080,
+  y = 293,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_4",
+  layer = 0,
+  x = 2216,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_5",
+  layer = 0,
+  x = 1952,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/statue_egg_dungeon",
 }
 
 tile{
@@ -16407,27 +16451,5 @@ separator{
   y = 0,
   width = 16,
   height = 2048,
-}
-
-custom_entity{
-  name = "statue_owl_dg",
-  layer = 2,
-  x = 160,
-  y = 813,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/statue_owl_dungeon",
-}
-
-custom_entity{
-  name = "statue_owl_dg_2",
-  layer = 2,
-  x = 2080,
-  y = 301,
-  width = 16,
-  height = 8,
-  direction = 0,
-  sprite = "entities/statue_owl_dungeon",
 }
 

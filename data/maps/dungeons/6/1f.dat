@@ -24757,24 +24757,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1104,
-  y = 672,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 1136,
-  y = 672,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
   x = 1168,
   y = 760,
   width = 16,
@@ -27863,7 +27845,7 @@ npc{
   name = "owl_2",
   layer = 1,
   x = 1976,
-  y = 1597,
+  y = 1573,
   direction = 3,
   subtype = 1,
   sprite = "entities/owl",
