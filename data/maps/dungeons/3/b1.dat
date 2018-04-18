@@ -4197,15 +4197,6 @@ stream{
   sprite = "entities/conveyor_belt2",
 }
 
-pickable{
-  name = "instrument",
-  layer = 0,
-  x = 1120,
-  y = 1381,
-  treasure_name = "instrument_3",
-  treasure_savegame_variable = "dungeon_3_instrument",
-}
-
 custom_entity{
   layer = 0,
   x = 1336,
@@ -7265,6 +7256,17 @@ door{
   opening_condition_consumed = true,
 }
 
+custom_entity{
+  name = "windfish_symbol",
+  layer = 0,
+  x = 1120,
+  y = 1389,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/windfish_symbol_instrument",
+}
+
 tile{
   layer = 1,
   x = 1008,
@@ -8172,5 +8174,14 @@ separator{
   y = 0,
   width = 16,
   height = 2048,
+}
+
+pickable{
+  name = "instrument",
+  layer = 2,
+  x = 1120,
+  y = 1381,
+  treasure_name = "instrument_3",
+  treasure_savegame_variable = "dungeon_3_instrument",
 }
 

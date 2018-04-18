@@ -16531,15 +16531,6 @@ block{
   maximum_moves = 1,
 }
 
-pickable{
-  name = "instrument",
-  layer = 0,
-  x = 1760,
-  y = 613,
-  treasure_name = "instrument_2",
-  treasure_savegame_variable = "dungeon_2_big_treasure_test",
-}
-
 stairs{
   layer = 0,
   x = 792,
@@ -19550,6 +19541,26 @@ custom_entity{
   height = 16,
   direction = 1,
   sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "windfish_symbol",
+  layer = 0,
+  x = 1760,
+  y = 621,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/windfish_symbol_instrument",
+}
+
+pickable{
+  name = "instrument",
+  layer = 0,
+  x = 1760,
+  y = 613,
+  treasure_name = "instrument_2",
+  treasure_savegame_variable = "dungeon_2_big_treasure_test",
 }
 
 tile{

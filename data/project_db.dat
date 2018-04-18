@@ -403,6 +403,7 @@ sprite{ id = "entities/vacuum_cleaner_ground", description = "Vacuum cleaner gro
 sprite{ id = "entities/wallturn_dungeon_1_front", description = "Wallturn" }
 sprite{ id = "entities/water_tree", description = "Water tree" }
 sprite{ id = "entities/water_tree_junction", description = "Water tree junction" }
+sprite{ id = "entities/windfish_symbol_instrument", description = "Windfish symbol instrument" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
 sprite{ id = "ground_effects/leaves", description = "ground_effects/leaves" }
