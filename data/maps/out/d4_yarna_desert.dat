@@ -9213,7 +9213,7 @@ destructible{
 npc{
   name = "walrus",
   layer = 0,
-  x = 448,
+  x = 440,
   y = 677,
   direction = 3,
   subtype = 1,
@@ -9223,7 +9223,7 @@ npc{
 wall{
   name = "walrus_wall",
   layer = 0,
-  x = 424,
+  x = 416,
   y = 648,
   width = 16,
   height = 32,
@@ -9237,7 +9237,7 @@ wall{
 npc{
   name = "walrus_invisible",
   layer = 0,
-  x = 424,
+  x = 416,
   y = 669,
   direction = 3,
   subtype = 1,

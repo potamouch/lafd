@@ -1,13 +1,13 @@
 animation{
   name = "waiting",
   src_image = "npc/richard.png",
-  frame_delay = 300,
+  frame_delay = 500,
   frame_to_loop_on = 0,
   directions = {
-    { x = 96, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 96, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
     { x = 96, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
-    { x = 96, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
-    { x = 96, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 96, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
   },
 }
 animation{

@@ -235,6 +235,7 @@ sprite{ id = "entities/beach_debris_1", description = "Beach debris 1" }
 sprite{ id = "entities/beach_debris_2", description = "Beach debris 2" }
 sprite{ id = "entities/beach_debris_3", description = "Beach debris 3" }
 sprite{ id = "entities/beach_debris_4", description = "Beach debris 4" }
+sprite{ id = "entities/bear_pots", description = "Bear pots" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
 sprite{ id = "entities/big_chest", description = "Chest (big)" }
 sprite{ id = "entities/block", description = "Block" }
@@ -521,6 +522,7 @@ sprite{ id = "npc/butterfly_blue", description = "Butterfly blue" }
 sprite{ id = "npc/butterfly_red", description = "Butterfly red" }
 sprite{ id = "npc/butterfly_yellow", description = "Butterfly yellow" }
 sprite{ id = "npc/christine", description = "Christine" }
+sprite{ id = "npc/cooking_rabbit", description = "Cooking rabbit" }
 sprite{ id = "npc/cucco_man", description = "Cucco man" }
 sprite{ id = "npc/fairy", description = "Fairy" }
 sprite{ id = "npc/fishman", description = "Fishman" }

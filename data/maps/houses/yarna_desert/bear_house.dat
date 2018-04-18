@@ -682,6 +682,38 @@ npc{
   subtype = 1,
 }
 
+npc{
+  name = "cooking_rabbit",
+  layer = 0,
+  x = 224,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/cooking_rabbit",
+}
+
+custom_entity{
+  name = "bear_pots",
+  layer = 0,
+  x = 168,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/bear_pots",
+}
+
+custom_entity{
+  name = "bear_pots_2",
+  layer = 0,
+  x = 184,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/bear_pots",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -713,7 +745,7 @@ pickable{
   name = "ananas",
   layer = 1,
   x = 208,
-  y = 117,
+  y = 125,
   treasure_name = "magnifying_lens",
   treasure_variant = 7,
 }
