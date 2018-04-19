@@ -19492,24 +19492,6 @@ destination{
   direction = 1,
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 2080,
-  y = 709,
-  direction = 1,
-}
-
-teletransporter{
-  layer = 0,
-  x = 792,
-  y = 1704,
-  width = 16,
-  height = 16,
-  destination_map = "dungeons/2/1f",
-  destination = "destination",
-}
-
 custom_entity{
   name = "statue_egg_dungeon",
   layer = 0,

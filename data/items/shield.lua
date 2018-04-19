@@ -67,7 +67,7 @@ function item:on_created()
   self:set_savegame_variable("possession_shield")
   self:set_assignable(true)
   local variant = self:get_variant() or 0
-  if variant == 0 then self:set_variant(1) end
+  --if variant == 0 then self:set_variant(1) end
 end
 
 function item:on_variant_changed(variant)
