@@ -983,7 +983,7 @@ npc{
   y = 85,
   direction = 3,
   subtype = 1,
-  sprite = "enemies/moblin",
+  sprite = "npc/goriya",
 }
 
 custom_entity{
@@ -1442,6 +1442,15 @@ tile{
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 157,
+  treasure_name = "magnifying_lens",
+  treasure_variant = 14,
+  treasure_savegame_variable = "get_lens",
 }
 
 tile{

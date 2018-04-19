@@ -206,6 +206,7 @@ sprite{ id = "enemies/maskass", description = "Maskass" }
 sprite{ id = "enemies/moblin", description = "Moblin" }
 sprite{ id = "enemies/moblin_dog_sword", description = "Moblin dog sword" }
 sprite{ id = "enemies/monkey", description = "Monkey" }
+sprite{ id = "enemies/monkey_coconut", description = "Monkey coconut" }
 sprite{ id = "enemies/octorok", description = "Octorok" }
 sprite{ id = "enemies/octorok_stone", description = "Octorok stone" }
 sprite{ id = "enemies/pike_auto", description = "Pike auto" }
@@ -531,6 +532,7 @@ sprite{ id = "npc/flying_rooster", description = "Flying rooster" }
 sprite{ id = "npc/frog", description = "Frog" }
 sprite{ id = "npc/game_man", description = "Game man" }
 sprite{ id = "npc/ghost", description = "Ghost" }
+sprite{ id = "npc/goriya", description = "Goriya" }
 sprite{ id = "npc/grand_ma", description = "Grand-mother" }
 sprite{ id = "npc/grand_pa", description = "Grand pa" }
 sprite{ id = "npc/hippo", description = "Hippo" }
