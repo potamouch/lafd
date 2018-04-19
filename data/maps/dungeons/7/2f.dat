@@ -7564,6 +7564,26 @@ teletransporter{
   destination = "_same",
 }
 
+npc{
+  name = "owl_2",
+  layer = 0,
+  x = 424,
+  y = 805,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl",
+}
+
+npc{
+  name = "owl_3",
+  layer = 0,
+  x = 1032,
+  y = 293,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl",
+}
+
 tile{
   layer = 1,
   x = 432,

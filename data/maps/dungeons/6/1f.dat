@@ -24053,6 +24053,50 @@ sensor{
   height = 16,
 }
 
+custom_entity{
+  name = "statue_egg_dungeon_2",
+  layer = 0,
+  x = 800,
+  y = 805,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_3",
+  layer = 0,
+  x = 1576,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_4",
+  layer = 0,
+  x = 1312,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_5",
+  layer = 0,
+  x = 1440,
+  y = 293,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
+}
+
 tile{
   layer = 1,
   x = 1728,

@@ -6933,6 +6933,16 @@ custom_entity{
   sprite = "entities/statue_dungeon_7",
 }
 
+npc{
+  name = "owl_2",
+  layer = 0,
+  x = 1112,
+  y = 85,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl",
+}
+
 tile{
   layer = 1,
   x = 64,

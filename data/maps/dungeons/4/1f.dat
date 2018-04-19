@@ -10092,15 +10092,6 @@ wall{
   stops_blocks = true,
 }
 
-pickable{
-  name = "instrument",
-  layer = 0,
-  x = 480,
-  y = 357,
-  treasure_name = "instrument_4",
-  treasure_savegame_variable = "dungeon_4_instrument",
-}
-
 stairs{
   layer = 0,
   x = 1128,
@@ -10325,6 +10316,59 @@ teletransporter{
   height = 16,
   destination_map = "houses/mabe_village/marin_house",
   destination = "marin_house_1_B",
+}
+
+custom_entity{
+  name = "windfish_symbol_2",
+  layer = 0,
+  x = 480,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/windfish_symbol_instrument",
+}
+
+custom_entity{
+  name = "windfish_symbol_3",
+  layer = 0,
+  x = 352,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+pickable{
+  name = "instrument",
+  layer = 0,
+  x = 480,
+  y = 349,
+  treasure_name = "instrument_4",
+  treasure_savegame_variable = "dungeon_4_instrument",
+}
+
+custom_entity{
+  name = "windfish_symbol_4",
+  layer = 0,
+  x = 616,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "windfish_symbol_5",
+  layer = 0,
+  x = 480,
+  y = 293,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
 }
 
 tile{

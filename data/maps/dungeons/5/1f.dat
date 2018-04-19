@@ -13882,6 +13882,17 @@ block{
   maximum_moves = 0,
 }
 
+custom_entity{
+  name = "windfish_symbol",
+  layer = 0,
+  x = 800,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/windfish_symbol_instrument",
+}
+
 pickable{
   name = "instrument",
   layer = 0,
@@ -13889,6 +13900,59 @@ pickable{
   y = 101,
   treasure_name = "instrument_5",
   treasure_savegame_variable = "dungeon_5_instrument",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_2",
+  layer = 0,
+  x = 936,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_3",
+  layer = 0,
+  x = 800,
+  y = 37,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+custom_entity{
+  name = "statue_egg_dungeon_4",
+  layer = 0,
+  x = 672,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 2,
+  sprite = "entities/statue_egg_dungeon",
+}
+
+npc{
+  name = "owl_2",
+  layer = 0,
+  x = 488,
+  y = 549,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl",
+}
+
+npc{
+  name = "owl_3",
+  layer = 0,
+  x = 1512,
+  y = 1317,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/owl",
 }
 
 tile{
