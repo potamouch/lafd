@@ -887,15 +887,6 @@ tile{
 tile{
   layer = 0,
   x = 2000,
-  y = 320,
-  width = 32,
-  height = 32,
-  pattern = "statue_eye-2",
-}
-
-tile{
-  layer = 0,
-  x = 2000,
   y = 360,
   width = 32,
   height = 32,
@@ -2826,24 +2817,6 @@ tile{
   width = 8,
   height = 160,
   pattern = "wall_border.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 1936,
-  y = 352,
-  width = 24,
-  height = 64,
-  pattern = "full_wall_decor.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 2200,
-  y = 352,
-  width = 24,
-  height = 64,
-  pattern = "full_wall_decor.4-1",
 }
 
 tile{
@@ -12728,6 +12701,15 @@ tile{
   pattern = "hole.corner_reverse.1",
 }
 
+tile{
+  layer = 0,
+  x = 2000,
+  y = 320,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye-2",
+}
+
 wall{
   layer = 0,
   x = 600,
@@ -13942,7 +13924,7 @@ npc{
   y = 805,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_1_owl",
 }
 
 npc{
@@ -13952,7 +13934,7 @@ npc{
   y = 549,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_1_owl",
 }
 
 npc{
@@ -13962,7 +13944,7 @@ npc{
   y = 549,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_1_owl",
 }
 
 enemy{
@@ -14229,58 +14211,58 @@ destination{
 }
 
 custom_entity{
-  name = "statue_egg_dungeon",
+  name = "symbol_egg_4",
   layer = 0,
-  x = 160,
-  y = 805,
-  width = 16,
-  height = 16,
+  x = 136,
+  y = 797,
+  width = 64,
+  height = 24,
   direction = 3,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_1_egg",
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_2",
+  name = "symbol_egg_1",
   layer = 0,
-  x = 2080,
-  y = 293,
-  width = 16,
-  height = 16,
+  x = 2056,
+  y = 285,
+  width = 64,
+  height = 24,
   direction = 3,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_1_egg",
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_4",
+  name = "symbol_egg_2",
   layer = 0,
-  x = 2216,
+  x = 1944,
   y = 365,
-  width = 16,
-  height = 16,
+  width = 24,
+  height = 64,
   direction = 0,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_1_egg",
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_5",
+  name = "symbol_egg_3",
   layer = 0,
-  x = 1952,
+  x = 2208,
   y = 365,
-  width = 16,
-  height = 16,
+  width = 24,
+  height = 64,
   direction = 2,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_1_egg",
 }
 
 custom_entity{
   name = "windfish_symbol",
   layer = 0,
-  x = 2080,
-  y = 365,
-  width = 16,
-  height = 16,
+  x = 2040,
+  y = 349,
+  width = 96,
+  height = 32,
   direction = 0,
-  sprite = "entities/windfish_symbol_instrument",
+  sprite = "entities/windfish_symbol_dungeon_1",
 }
 
 pickable{

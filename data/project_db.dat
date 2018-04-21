@@ -340,9 +340,7 @@ sprite{ id = "entities/non_diggable", description = "Diggable" }
 sprite{ id = "entities/notes", description = "Notes" }
 sprite{ id = "entities/outside_door", description = "Outside closed door" }
 sprite{ id = "entities/outside_ladder", description = "Outside ladder" }
-sprite{ id = "entities/owl", description = "Owl" }
 sprite{ id = "entities/owl_blue", description = "Owl blue" }
-sprite{ id = "entities/owl_out", description = "Owl out" }
 sprite{ id = "entities/painting", description = "Painting" }
 sprite{ id = "entities/palm", description = "Palm" }
 sprite{ id = "entities/palm_banana", description = "Palm banana" }
@@ -375,15 +373,24 @@ sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/statue_big_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_1_block", description = "Statue dungeon 1 block" }
+sprite{ id = "entities/statue_dungeon_1_egg", description = "Statue dungeon 1 egg" }
 sprite{ id = "entities/statue_dungeon_1_key", description = "Statue dungeon 1 key" }
+sprite{ id = "entities/statue_dungeon_1_owl", description = "Statue dungeon 1 owl" }
 sprite{ id = "entities/statue_dungeon_2", description = "Statue dungeon 2" }
+sprite{ id = "entities/statue_dungeon_2_egg", description = "Statue dungeon 2 egg" }
 sprite{ id = "entities/statue_dungeon_2_head", description = "Statue dungeon 2 head" }
+sprite{ id = "entities/statue_dungeon_2_owl", description = "Statue dungeon 2 owl" }
 sprite{ id = "entities/statue_dungeon_3", description = "Statue dungeon 3" }
+sprite{ id = "entities/statue_dungeon_3_egg", description = "Statue dungeon 3 egg" }
 sprite{ id = "entities/statue_dungeon_3_key", description = "Statue dungeon 3 key" }
+sprite{ id = "entities/statue_dungeon_4_egg", description = "Statue dungeon 4 egg" }
+sprite{ id = "entities/statue_dungeon_5_egg", description = "Statue dungeon 5 egg" }
 sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
+sprite{ id = "entities/statue_dungeon_6_egg", description = "Statue dungeon 6 egg" }
 sprite{ id = "entities/statue_dungeon_6_head", description = "Statue dungeon 6 head" }
 sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
-sprite{ id = "entities/statue_egg_dungeon", description = "Statue egg dungeon" }
+sprite{ id = "entities/statue_dungeon_7_egg", description = "Statue dungeon 7 egg" }
+sprite{ id = "entities/statue_dungeon_8_egg", description = "Statue dungeon 8 egg" }
 sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
 sprite{ id = "entities/statue_pig", description = "Statue pig" }
 sprite{ id = "entities/statue_pig_destroyed", description = "Statue pig destroyed" }
@@ -405,7 +412,14 @@ sprite{ id = "entities/vacuum_cleaner_ground", description = "Vacuum cleaner gro
 sprite{ id = "entities/wallturn_dungeon_1_front", description = "Wallturn" }
 sprite{ id = "entities/water_tree", description = "Water tree" }
 sprite{ id = "entities/water_tree_junction", description = "Water tree junction" }
-sprite{ id = "entities/windfish_symbol_instrument", description = "Windfish symbol instrument" }
+sprite{ id = "entities/windfish_symbol_dungeon_1", description = "Windfish symbol dungeon 1" }
+sprite{ id = "entities/windfish_symbol_dungeon_2", description = "Windfish symbol dungeon 2" }
+sprite{ id = "entities/windfish_symbol_dungeon_3", description = "Windfish symbol dungeon 3" }
+sprite{ id = "entities/windfish_symbol_dungeon_4", description = "Windfish symbol dungeon 4" }
+sprite{ id = "entities/windfish_symbol_dungeon_5", description = "Windfish symbol dungeon 5" }
+sprite{ id = "entities/windfish_symbol_dungeon_6", description = "Windfish symbol dungeon 6" }
+sprite{ id = "entities/windfish_symbol_dungeon_7", description = "Windfish symbol dungeon 7" }
+sprite{ id = "entities/windfish_symbol_dungeon_8", description = "Windfish symbol dungeon 8" }
 sprite{ id = "ground_effects/fall_on_hole", description = "ground_effects/fall_on_hole" }
 sprite{ id = "ground_effects/lava_splash", description = "ground_effects/lava_splash" }
 sprite{ id = "ground_effects/leaves", description = "ground_effects/leaves" }

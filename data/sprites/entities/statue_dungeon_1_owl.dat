@@ -1,6 +1,6 @@
 animation{
   name = "normal",
-  src_image = "entities/owl.png",
+  src_image = "entities/statue_owl_dungeons.png",
   directions = {
     { x = 32, y = 0, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 21 },
     { x = 32, y = 0, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 21 },
@@ -10,7 +10,7 @@ animation{
 }
 animation{
   name = "full",
-  src_image = "entities/owl.png",
+  src_image = "entities/statue_owl_dungeons.png",
   directions = {
     { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
     { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },

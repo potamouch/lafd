@@ -4959,24 +4959,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1408,
-  y = 272,
-  width = 64,
-  height = 24,
-  pattern = "full_wall_decor.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 1296,
-  y = 352,
-  width = 24,
-  height = 64,
-  pattern = "full_wall_decor.3-1",
-}
-
-tile{
-  layer = 0,
   x = 1344,
   y = 304,
   width = 16,
@@ -5153,15 +5135,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "alter_rail.3",
-}
-
-tile{
-  layer = 0,
-  x = 1560,
-  y = 352,
-  width = 24,
-  height = 64,
-  pattern = "full_wall_decor.4-1",
 }
 
 tile{
@@ -18336,15 +18309,6 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
-pickable{
-  name = "instrument",
-  layer = 0,
-  x = 1440,
-  y = 357,
-  treasure_name = "instrument_6",
-  treasure_savegame_variable = "dungeon_6_instrument",
-}
-
 crystal_block{
   layer = 0,
   x = 368,
@@ -24065,36 +24029,56 @@ custom_entity{
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_3",
+  name = "windfish_symbol",
   layer = 0,
-  x = 1576,
+  x = 1400,
+  y = 349,
+  width = 96,
+  height = 40,
+  direction = 3,
+  sprite = "entities/windfish_symbol_dungeon_6",
+}
+
+custom_entity{
+  name = "symbol_egg_2",
+  layer = 0,
+  x = 1304,
   y = 365,
-  width = 16,
-  height = 16,
+  width = 24,
+  height = 64,
   direction = 0,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_6_egg",
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_4",
+  name = "symbol_egg_4",
   layer = 0,
-  x = 1312,
-  y = 365,
-  width = 16,
-  height = 16,
-  direction = 2,
-  sprite = "entities/statue_egg_dungeon",
+  x = 1416,
+  y = 285,
+  width = 64,
+  height = 24,
+  direction = 3,
+  sprite = "entities/statue_dungeon_6_egg",
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_5",
+  name = "symbol_egg_3",
+  layer = 0,
+  x = 1568,
+  y = 365,
+  width = 24,
+  height = 64,
+  direction = 2,
+  sprite = "entities/statue_dungeon_6_egg",
+}
+
+pickable{
+  name = "instrument",
   layer = 0,
   x = 1440,
-  y = 293,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "entities/statue_egg_dungeon",
+  y = 357,
+  treasure_name = "instrument_6",
+  treasure_savegame_variable = "dungeon_6_instrument",
 }
 
 tile{

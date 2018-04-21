@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/windfish_symbol_dungeons.png",
+  directions = {
+    { x = 0, y = 32, frame_width = 96, frame_height = 32, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 32, frame_width = 96, frame_height = 32, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 32, frame_width = 96, frame_height = 32, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 32, frame_width = 96, frame_height = 32, origin_x = 8, origin_y = 12 },
+  },
+}

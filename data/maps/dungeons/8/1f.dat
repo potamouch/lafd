@@ -6394,33 +6394,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1088,
-  y = 16,
-  width = 64,
-  height = 24,
-  pattern = "full_wall_decor.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 976,
-  y = 96,
-  width = 24,
-  height = 64,
-  pattern = "full_wall_decor.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 1240,
-  y = 96,
-  width = 24,
-  height = 64,
-  pattern = "full_wall_decor.4-1",
-}
-
-tile{
-  layer = 0,
   x = 1024,
   y = 48,
   width = 16,
@@ -6503,6 +6476,15 @@ tile{
 tile{
   layer = 0,
   x = 1152,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
   y = 152,
   width = 8,
   height = 8,
@@ -6512,24 +6494,6 @@ tile{
 tile{
   layer = 0,
   x = 1152,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "alter_rail.3",
-}
-
-tile{
-  layer = 0,
-  x = 1152,
-  y = 168,
-  width = 8,
-  height = 8,
-  pattern = "alter_rail.3",
-}
-
-tile{
-  layer = 0,
-  x = 1080,
   y = 160,
   width = 8,
   height = 8,
@@ -6548,7 +6512,16 @@ tile{
 tile{
   layer = 0,
   x = 1080,
-  y = 168,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "alter_rail.3",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 160,
   width = 8,
   height = 8,
   pattern = "alter_rail.3",
@@ -12744,15 +12717,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "162",
-}
-
-tile{
-  layer = 0,
-  x = 1088,
-  y = 144,
-  width = 64,
-  height = 32,
-  pattern = "alter_stairs",
 }
 
 tile{
@@ -19406,21 +19370,21 @@ tile{
   pattern = "floor.21-Alpha",
 }
 
+tile{
+  layer = 0,
+  x = 1088,
+  y = 136,
+  width = 64,
+  height = 32,
+  pattern = "alter_stairs",
+}
+
 separator{
   layer = 0,
   x = 2232,
   y = 0,
   width = 16,
   height = 2048,
-}
-
-pickable{
-  name = "instrument",
-  layer = 0,
-  x = 1120,
-  y = 101,
-  treasure_name = "instrument_8",
-  treasure_savegame_variable = "dungeon_8_instrument",
 }
 
 block{
@@ -21142,6 +21106,59 @@ chest{
   x = 2504,
   y = 1885,
   sprite = "entities/chest",
+}
+
+custom_entity{
+  name = "windfish_symbol",
+  layer = 0,
+  x = 1080,
+  y = 93,
+  width = 96,
+  height = 40,
+  direction = 3,
+  sprite = "entities/windfish_symbol_dungeon_7",
+}
+
+custom_entity{
+  name = "symbol_egg_2",
+  layer = 0,
+  x = 984,
+  y = 109,
+  width = 24,
+  height = 64,
+  direction = 0,
+  sprite = "entities/statue_dungeon_8_egg",
+}
+
+custom_entity{
+  name = "symbol_egg_4",
+  layer = 0,
+  x = 1096,
+  y = 29,
+  width = 64,
+  height = 24,
+  direction = 3,
+  sprite = "entities/statue_dungeon_8_egg",
+}
+
+custom_entity{
+  name = "symbol_egg_3",
+  layer = 0,
+  x = 1248,
+  y = 109,
+  width = 24,
+  height = 64,
+  direction = 2,
+  sprite = "entities/statue_dungeon_8_egg",
+}
+
+pickable{
+  name = "instrument",
+  layer = 0,
+  x = 1120,
+  y = 101,
+  treasure_name = "instrument_8",
+  treasure_savegame_variable = "dungeon_8_instrument",
 }
 
 tile{

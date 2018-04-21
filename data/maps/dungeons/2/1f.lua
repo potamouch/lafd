@@ -204,3 +204,9 @@ end)
 separator_manager:manage_map(map)
 owl_manager:manage_map(map)
 
+for symbol_egg in map:get_entities("symbol_egg") do
+  symbol_egg:get_sprite():set_animation("dungeon_" .. game:get_dungeon_index())
+end
+
+windfish_symbol:get_sprite():set_animation("dungeon_" .. game:get_dungeon_index())
+

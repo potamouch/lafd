@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "entities/statue_egg_dungeons.png",
+  directions = {
+    { x = 88, y = 384, frame_width = 24, frame_height = 64, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 408, frame_width = 64, frame_height = 24, origin_x = 8, origin_y = 12 },
+    { x = 64, y = 384, frame_width = 24, frame_height = 64, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 384, frame_width = 64, frame_height = 24, origin_x = 8, origin_y = 12 },
+  },
+}
