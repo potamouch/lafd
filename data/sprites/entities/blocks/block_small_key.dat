@@ -1,10 +1,7 @@
 animation{
   name = "closed",
-  src_image = "tileset",
+  src_image = "entities/quest_entities.png",
   directions = {
-    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
-    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
-    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
-    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 80, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
   },
 }
