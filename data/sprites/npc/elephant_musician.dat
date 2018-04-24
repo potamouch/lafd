@@ -1,0 +1,12 @@
+animation{
+  name = "normal",
+  src_image = "npc/animals.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 344, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 48, y = 344, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 48, y = 344, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 48, y = 344, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 13, num_frames = 2 },
+  },
+}

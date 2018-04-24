@@ -531,7 +531,9 @@ sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/bear", description = "Bear" }
 sprite{ id = "npc/bee", description = "Bee" }
+sprite{ id = "npc/big_rabbit", description = "Big rabbit" }
 sprite{ id = "npc/bird", description = "Bird" }
+sprite{ id = "npc/bird_musician", description = "Bird musician" }
 sprite{ id = "npc/bowwow", description = "Bowwow" }
 sprite{ id = "npc/butterfly_blue", description = "Butterfly blue" }
 sprite{ id = "npc/butterfly_red", description = "Butterfly red" }
@@ -539,10 +541,12 @@ sprite{ id = "npc/butterfly_yellow", description = "Butterfly yellow" }
 sprite{ id = "npc/christine", description = "Christine" }
 sprite{ id = "npc/cooking_rabbit", description = "Cooking rabbit" }
 sprite{ id = "npc/cucco_man", description = "Cucco man" }
+sprite{ id = "npc/elephant_musician", description = "Elephant musician" }
 sprite{ id = "npc/fairy", description = "Fairy" }
 sprite{ id = "npc/fishman", description = "Fishman" }
 sprite{ id = "npc/fishman_b", description = "Fishman B" }
 sprite{ id = "npc/flying_rooster", description = "Flying rooster" }
+sprite{ id = "npc/fox_musician", description = "Fox musician" }
 sprite{ id = "npc/frog", description = "Frog" }
 sprite{ id = "npc/game_man", description = "Game man" }
 sprite{ id = "npc/ghost", description = "Ghost" }
@@ -570,6 +574,7 @@ sprite{ id = "npc/mermaid", description = "Mermaid" }
 sprite{ id = "npc/monique", description = "Monique" }
 sprite{ id = "npc/monkey", description = "Monkey" }
 sprite{ id = "npc/monkey_brown", description = "Monkey brown" }
+sprite{ id = "npc/monty_mole", description = "Monty mole" }
 sprite{ id = "npc/mouse", description = "Mouse" }
 sprite{ id = "npc/mr_write", description = "Mr Write" }
 sprite{ id = "npc/owl", description = "Owl" }

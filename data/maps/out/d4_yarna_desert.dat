@@ -8880,11 +8880,11 @@ npc{
 npc{
   name = "rabbit_3",
   layer = 0,
-  x = 288,
+  x = 312,
   y = 325,
-  direction = 2,
+  direction = 3,
   subtype = 1,
-  sprite = "npc/rabbit",
+  sprite = "npc/big_rabbit",
 }
 
 destructible{
@@ -9261,6 +9261,56 @@ sensor{
   y = 637,
   width = 16,
   height = 96,
+}
+
+npc{
+  name = "monty_mole",
+  layer = 0,
+  x = 400,
+  y = 221,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/monty_mole",
+}
+
+npc{
+  name = "fox_musician",
+  layer = 0,
+  x = 104,
+  y = 261,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/fox_musician",
+}
+
+npc{
+  name = "elephant_musician",
+  layer = 0,
+  x = 152,
+  y = 237,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/elephant_musician",
+}
+
+npc{
+  name = "bird_musician",
+  layer = 0,
+  x = 208,
+  y = 277,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/bird_musician",
+}
+
+teletransporter{
+  name = "mr_write_house_1_A_2",
+  layer = 0,
+  x = 152,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "caves/east_mt_tamaranch/cave_6",
 }
 
 tile{
@@ -10728,7 +10778,7 @@ custom_entity{
   name = "butterfly_17",
   layer = 1,
   x = 312,
-  y = 317,
+  y = 357,
   width = 16,
   height = 16,
   direction = 3,
