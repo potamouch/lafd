@@ -6,17 +6,17 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "dungeons/dark_brown",
+  tileset = "dungeons/gray_blue",
   music = "maps/caves/cave",
 }
 
 tile{
   layer = 0,
-  x = 64,
-  y = 40,
-  width = 512,
-  height = 416,
-  pattern = "floor.16-2",
+  x = 56,
+  y = 80,
+  width = 496,
+  height = 368,
+  pattern = "floor_low.16-1",
 }
 
 tile{
@@ -2150,6 +2150,114 @@ custom_entity{
 
 tile{
   layer = 1,
+  x = 392,
+  y = 280,
+  width = 32,
+  height = 64,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 216,
+  width = 32,
+  height = 224,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 168,
+  width = 48,
+  height = 112,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 520,
+  y = 280,
+  width = 80,
+  height = 64,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 520,
+  y = 136,
+  width = 80,
+  height = 32,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 104,
+  width = 160,
+  height = 32,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 504,
+  y = 40,
+  width = 32,
+  height = 32,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 72,
+  width = 176,
+  height = 32,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 56,
+  width = 208,
+  height = 16,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 40,
+  width = 224,
+  height = 16,
+  pattern = "floor_low.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 440,
+  width = 32,
+  height = 32,
+  pattern = "floor.16-1",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 192,
+  width = 128,
+  height = 32,
+  pattern = "floor.16-1",
+}
+
+tile{
+  layer = 1,
   x = 16,
   y = 64,
   width = 16,
@@ -2308,42 +2416,6 @@ tile{
   width = 16,
   height = 352,
   pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 360,
-  y = 216,
-  width = 32,
-  height = 224,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 200,
-  y = 40,
-  width = 128,
-  height = 16,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 216,
-  y = 40,
-  width = 208,
-  height = 32,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 200,
-  y = 192,
-  width = 128,
-  height = 32,
-  pattern = "floor_low.16-1",
 }
 
 tile{
@@ -2709,15 +2781,6 @@ tile{
 tile{
   layer = 1,
   x = 392,
-  y = 440,
-  width = 32,
-  height = 32,
-  pattern = "floor_low.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 392,
   y = 464,
   width = 32,
   height = 8,
@@ -2767,15 +2830,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "wall_border.corner.3-3",
-}
-
-tile{
-  layer = 1,
-  x = 392,
-  y = 280,
-  width = 32,
-  height = 64,
-  pattern = "floor.16-1",
 }
 
 tile{
@@ -2929,60 +2983,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner_reverse.2-3",
-}
-
-tile{
-  layer = 1,
-  x = 392,
-  y = 72,
-  width = 176,
-  height = 32,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 440,
-  y = 104,
-  width = 160,
-  height = 32,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 504,
-  y = 40,
-  width = 32,
-  height = 32,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 520,
-  y = 136,
-  width = 32,
-  height = 32,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 520,
-  y = 280,
-  width = 32,
-  height = 64,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 1,
-  x = 552,
-  y = 136,
-  width = 48,
-  height = 208,
-  pattern = "floor.16-1",
 }
 
 tile{
