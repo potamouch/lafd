@@ -229,6 +229,7 @@ sprite{ id = "enemies/wizzrobe_blue", description = "Wizzrobe lue" }
 sprite{ id = "enemies/wizzrobe_white", description = "Wizzrobe white" }
 sprite{ id = "enemies/zol_green", description = "Zol green" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/arrow_fly", description = "Arrow fly" }
 sprite{ id = "entities/ball", description = "Ball" }
 sprite{ id = "entities/ball_shadow", description = "Ball shadow" }
 sprite{ id = "entities/bananas", description = "Bananas" }
@@ -244,6 +245,7 @@ sprite{ id = "entities/blocks/block_small_key", description = "Block small key" 
 sprite{ id = "entities/blocks/richard_block", description = "Richard block" }
 sprite{ id = "entities/blue_cristal", description = "Blue cristal" }
 sprite{ id = "entities/bomb", description = "Bomb" }
+sprite{ id = "entities/bomb_fly", description = "Bomb fly" }
 sprite{ id = "entities/book_blue", description = "Book blue" }
 sprite{ id = "entities/book_green", description = "Book green" }
 sprite{ id = "entities/book_orange", description = "Book orange" }
@@ -352,9 +354,11 @@ sprite{ id = "entities/phone_statue", description = "Phone statue" }
 sprite{ id = "entities/pillar", description = "Pillar" }
 sprite{ id = "entities/pillar_base", description = "Pillar base" }
 sprite{ id = "entities/pot", description = "Pot" }
+sprite{ id = "entities/powder_fly", description = "Powder fly" }
 sprite{ id = "entities/rain", description = "Rain" }
 sprite{ id = "entities/rock_block", description = "Rock block" }
 sprite{ id = "entities/rooster_dead", description = "Rooster dead" }
+sprite{ id = "entities/rupee_fly", description = "Rupee fly" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/shield", description = "Shield" }
