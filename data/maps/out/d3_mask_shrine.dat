@@ -11,6 +11,15 @@ properties{
 
 tile{
   layer = 0,
+  x = 624,
+  y = 56,
+  width = 32,
+  height = 8,
+  pattern = "355",
+}
+
+tile{
+  layer = 0,
   x = -16,
   y = 400,
   width = 768,
@@ -1883,7 +1892,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 648,
+  x = 328,
   y = 40,
   width = 16,
   height = 8,
@@ -1892,7 +1901,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 640,
+  x = 320,
   y = 32,
   width = 8,
   height = 16,
@@ -1901,7 +1910,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 648,
+  x = 328,
   y = 40,
   width = 16,
   height = 8,
@@ -1910,7 +1919,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 664,
+  x = 344,
   y = 32,
   width = 8,
   height = 16,
@@ -1919,11 +1928,83 @@ tile{
 
 tile{
   layer = 0,
-  x = 648,
+  x = 328,
   y = 32,
   width = 16,
   height = 8,
   pattern = "1201",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "992",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "990",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 40,
+  width = 8,
+  height = 24,
+  pattern = "989",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "1041",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 264,
+  width = 32,
+  height = 8,
+  pattern = "355",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 248,
+  width = 16,
+  height = 24,
+  pattern = "992",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 248,
+  width = 8,
+  height = 24,
+  pattern = "990",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 248,
+  width = 8,
+  height = 24,
+  pattern = "989",
 }
 
 teletransporter{
@@ -1989,7 +2070,7 @@ separator{
 destination{
   name = "cave_d3_fairy_fountain",
   layer = 0,
-  x = 656,
+  x = 336,
   y = 61,
   direction = 3,
 }
@@ -2014,7 +2095,7 @@ teletransporter{
 
 teletransporter{
   layer = 0,
-  x = 648,
+  x = 328,
   y = 32,
   width = 16,
   height = 16,
@@ -2025,7 +2106,7 @@ teletransporter{
 dynamic_tile{
   name = "weak_door_1_open_1",
   layer = 0,
-  x = 640,
+  x = 320,
   y = 24,
   pattern = "1062",
   width = 32,
@@ -2036,7 +2117,7 @@ dynamic_tile{
 dynamic_tile{
   name = "weak_door_1_closed",
   layer = 0,
-  x = 640,
+  x = 320,
   y = 32,
   pattern = "957",
   width = 32,
@@ -2047,11 +2128,111 @@ dynamic_tile{
 door{
   name = "weak_door_1",
   layer = 0,
-  x = 648,
+  x = 328,
   y = 32,
   direction = 0,
   sprite = "entities/doors/door_weak_wall_out",
   savegame_variable = "b3_prairie_weak_1",
   opening_method = "explosion",
+}
+
+teletransporter{
+  name = "cave_2_1_A",
+  layer = 0,
+  x = 632,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mask_shrine/cave_1",
+  destination = "stair_south",
+}
+
+wall{
+  layer = 0,
+  x = 632,
+  y = 32,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d3_1_south",
+  layer = 0,
+  x = 640,
+  y = 69,
+  direction = 3,
+}
+
+destination{
+  name = "cave_d3_3_east",
+  layer = 0,
+  x = 376,
+  y = 261,
+  direction = 0,
+}
+
+teletransporter{
+  layer = 0,
+  x = 352,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mask_shrine/cave_3",
+  destination = "hole",
+}
+
+teletransporter{
+  name = "cave_2_1_A_2",
+  layer = 0,
+  x = 144,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mask_shrine/cave_3",
+  destination = "stair_west",
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 240,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d3_3_west",
+  layer = 0,
+  x = 152,
+  y = 277,
+  direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 624,
+  y = 32,
+  width = 32,
+  height = 8,
+  pattern = "991",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 240,
+  width = 32,
+  height = 8,
+  pattern = "991",
 }
 

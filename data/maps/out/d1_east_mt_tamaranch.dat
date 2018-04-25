@@ -8866,6 +8866,51 @@ tile{
   pattern = "1123",
 }
 
+tile{
+  layer = 0,
+  x = 680,
+  y = 568,
+  width = 16,
+  height = 8,
+  pattern = "1130",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "1128",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 544,
+  width = 8,
+  height = 32,
+  pattern = "1129",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 544,
+  width = 8,
+  height = 32,
+  pattern = "1131",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 544,
+  width = 16,
+  height = 8,
+  pattern = "1127",
+}
+
 teletransporter{
   name = "to_d2",
   layer = 0,
@@ -9484,6 +9529,32 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "cave_d3_1_north",
+  layer = 0,
+  x = 688,
+  y = 557,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 680,
+  y = 544,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mask_shrine/cave_1",
+  destination = "stair_north",
+}
+
+stairs{
+  layer = 0,
+  x = 680,
+  y = 544,
+  direction = 3,
+  subtype = 3,
 }
 
 npc{
