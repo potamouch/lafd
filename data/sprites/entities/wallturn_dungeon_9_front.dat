@@ -1,0 +1,43 @@
+animation{
+  name = "stopped",
+  src_image = "entities/wallturn_dungeon_9_front.png",
+  directions = {
+    { x = 320, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 320, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 320, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 320, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+  },
+}
+animation{
+  name = "revolving_tunic_1",
+  src_image = "entities/wallturn_dungeon_9_front.png",
+  frame_delay = 120,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+  },
+}
+animation{
+  name = "revolving_tunic_2",
+  src_image = "entities/wallturn_dungeon_9_front.png",
+  frame_delay = 120,
+  directions = {
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+  },
+}
+animation{
+  name = "revolving_tunic_3",
+  src_image = "entities/wallturn_dungeon_9_front.png",
+  frame_delay = 120,
+  directions = {
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 11 },
+  },
+}

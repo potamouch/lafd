@@ -428,6 +428,8 @@ sprite{ id = "entities/wallturn_dungeon_3_front", description = "Wallturn dungeo
 sprite{ id = "entities/wallturn_dungeon_5_front", description = "Wallturn dungeon 5 front" }
 sprite{ id = "entities/wallturn_dungeon_6_front", description = "Wallturn dungeon 6 front" }
 sprite{ id = "entities/wallturn_dungeon_7_front", description = "Wallturn dungeon 7 front" }
+sprite{ id = "entities/wallturn_dungeon_8_front", description = "Wallturn dungeon 8 front" }
+sprite{ id = "entities/wallturn_dungeon_9_front", description = "Wallturn dungeon 9 front" }
 sprite{ id = "entities/water_tree", description = "Water tree" }
 sprite{ id = "entities/water_tree_junction", description = "Water tree junction" }
 sprite{ id = "entities/windfish_symbol_dungeon_1", description = "Windfish symbol dungeon 1" }
