@@ -10491,6 +10491,30 @@ npc{
   sprite = "entities/statue_dungeon_3_owl",
 }
 
+custom_entity{
+  name = "wallturn",
+  layer = 0,
+  x = 800,
+  y = 549,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/wallturn_dungeon_1_front",
+  model = "wallturn",
+}
+
+custom_entity{
+  name = "wallturn_2",
+  layer = 0,
+  x = 800,
+  y = 293,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/wallturn_dungeon_1_front",
+  model = "wallturn",
+}
+
 tile{
   layer = 1,
   x = 1888,
@@ -11632,6 +11656,24 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.stairs.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 272,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 528,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
 }
 
 jumper{
