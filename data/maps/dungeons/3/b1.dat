@@ -6498,7 +6498,7 @@ stream{
 
 crystal{
   layer = 0,
-  x = 1152,
+  x = 1120,
   y = 629,
 }
 
@@ -7232,11 +7232,11 @@ door{
 npc{
   name = "owl_2",
   layer = 0,
-  x = 1088,
-  y = 629,
+  x = 1120,
+  y = 549,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_3_owl",
 }
 
 custom_entity{

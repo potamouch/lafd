@@ -6940,7 +6940,7 @@ npc{
   y = 85,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_7_owl",
 }
 
 tile{

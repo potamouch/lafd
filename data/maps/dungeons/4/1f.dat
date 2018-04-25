@@ -10321,30 +10321,30 @@ teletransporter{
 custom_entity{
   name = "windfish_symbol_2",
   layer = 0,
-  x = 480,
-  y = 365,
+  x = 440,
+  y = 349,
   width = 16,
   height = 16,
   direction = 2,
-  sprite = "entities/windfish_symbol_instrument",
+  sprite = "entities/windfish_symbol_dungeon_4",
 }
 
 custom_entity{
   name = "windfish_symbol_3",
   layer = 0,
-  x = 352,
+  x = 608,
   y = 365,
   width = 16,
   height = 16,
   direction = 2,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_4_egg",
 }
 
 pickable{
   name = "instrument",
   layer = 0,
   x = 480,
-  y = 349,
+  y = 357,
   treasure_name = "instrument_4",
   treasure_savegame_variable = "dungeon_4_instrument",
 }
@@ -10352,23 +10352,23 @@ pickable{
 custom_entity{
   name = "windfish_symbol_4",
   layer = 0,
-  x = 616,
+  x = 344,
   y = 365,
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_4_egg",
 }
 
 custom_entity{
   name = "windfish_symbol_5",
   layer = 0,
-  x = 480,
-  y = 293,
+  x = 456,
+  y = 285,
   width = 16,
   height = 16,
   direction = 3,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_4_egg",
 }
 
 tile{

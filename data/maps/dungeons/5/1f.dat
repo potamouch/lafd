@@ -13862,7 +13862,7 @@ npc{
   y = 549,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_5_owl",
 }
 
 npc{
@@ -13872,7 +13872,7 @@ npc{
   y = 1317,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_5_owl",
 }
 
 custom_entity{

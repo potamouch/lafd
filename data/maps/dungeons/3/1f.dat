@@ -10478,7 +10478,7 @@ npc{
   y = 293,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_3_owl",
 }
 
 npc{
@@ -10488,7 +10488,7 @@ npc{
   y = 37,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_3_owl",
 }
 
 tile{

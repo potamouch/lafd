@@ -387,14 +387,20 @@ sprite{ id = "entities/statue_dungeon_2_owl", description = "Statue dungeon 2 ow
 sprite{ id = "entities/statue_dungeon_3", description = "Statue dungeon 3" }
 sprite{ id = "entities/statue_dungeon_3_egg", description = "Statue dungeon 3 egg" }
 sprite{ id = "entities/statue_dungeon_3_key", description = "Statue dungeon 3 key" }
+sprite{ id = "entities/statue_dungeon_3_owl", description = "Statue dungeon 3 owl" }
 sprite{ id = "entities/statue_dungeon_4_egg", description = "Statue dungeon 4 egg" }
+sprite{ id = "entities/statue_dungeon_4_owl", description = "Statue dungeon 4 owl" }
 sprite{ id = "entities/statue_dungeon_5_egg", description = "Statue dungeon 5 egg" }
+sprite{ id = "entities/statue_dungeon_5_owl", description = "Statue dungeon 5 owl" }
 sprite{ id = "entities/statue_dungeon_6", description = "Statue dungeon 6" }
 sprite{ id = "entities/statue_dungeon_6_egg", description = "Statue dungeon 6 egg" }
 sprite{ id = "entities/statue_dungeon_6_head", description = "Statue dungeon 6 head" }
+sprite{ id = "entities/statue_dungeon_6_owl", description = "Statue dungeon 6 owl" }
 sprite{ id = "entities/statue_dungeon_7", description = "Statue dungeon 7" }
 sprite{ id = "entities/statue_dungeon_7_egg", description = "Statue dungeon 7 egg" }
+sprite{ id = "entities/statue_dungeon_7_owl", description = "Statue dungeon 7 owl" }
 sprite{ id = "entities/statue_dungeon_8_egg", description = "Statue dungeon 8 egg" }
+sprite{ id = "entities/statue_dungeon_8_owl", description = "Statue dungeon 8 owl" }
 sprite{ id = "entities/statue_liftable_dungeon_6", description = "Statue liftable dungeon 6" }
 sprite{ id = "entities/statue_pig", description = "Statue pig" }
 sprite{ id = "entities/statue_pig_destroyed", description = "Statue pig destroyed" }

@@ -24018,14 +24018,14 @@ sensor{
 }
 
 custom_entity{
-  name = "statue_egg_dungeon_2",
+  name = "statue_egg_dungeon_6",
   layer = 0,
-  x = 800,
-  y = 805,
+  x = 776,
+  y = 797,
   width = 16,
   height = 16,
   direction = 3,
-  sprite = "entities/statue_egg_dungeon",
+  sprite = "entities/statue_dungeon_6_egg",
 }
 
 custom_entity{
@@ -27819,10 +27819,10 @@ npc{
   name = "owl_1",
   layer = 1,
   x = 1128,
-  y = 685,
+  y = 677,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_6_owl",
 }
 
 custom_entity{
@@ -27876,7 +27876,7 @@ npc{
   y = 1573,
   direction = 3,
   subtype = 1,
-  sprite = "entities/owl",
+  sprite = "entities/statue_dungeon_6_owl",
 }
 
 pickable{
