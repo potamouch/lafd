@@ -16,3 +16,6 @@ function map:on_started()
   companion_manager:init_map(map)
 
 end
+
+--Weak doors play secret sound on opened
+function weak_door_1:on_opened() sol.audio.play_sound("secret_1") end

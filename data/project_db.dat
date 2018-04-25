@@ -28,6 +28,9 @@ map{ id = "caves/mambos_cave/cave_2", description = "Cave 2 - Vers randonneur 2"
 map{ id = "caves/mambos_cave/cave_3", description = "Cave 3 - Bird Key Cave" }
 map{ id = "caves/martha_bay/cave_1", description = "Cave 1 - Chemin vers l'upgrade de poudre magique" }
 map{ id = "caves/martha_bay/cave_2", description = "Cave 2 - Lens Cave" }
+map{ id = "caves/mask_shrine/cave_1", description = "Cave 1 - Return rafting" }
+map{ id = "caves/mask_shrine/cave_2", description = "Cave 2 - South temple secret cave" }
+map{ id = "caves/mask_shrine/cave_3", description = "Cave 3 - Path to Face Shrine" }
 map{ id = "caves/mask_shrine/fairy_fountain", description = "Fairy's fountain" }
 map{ id = "caves/prairie/cave_1", description = "Cave 1" }
 map{ id = "caves/prairie/cave_2", description = "Cave 2" }

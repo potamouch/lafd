@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  tileset = "dungeons/dark_brown",
+  tileset = "dungeons/purple",
   music = "maps/caves/cave",
 }
 
@@ -16,7 +16,16 @@ tile{
   y = 64,
   width = 192,
   height = 128,
-  pattern = "floor.6-2",
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 64,
+  width = 192,
+  height = 128,
+  pattern = "floor.6-Alpha",
 }
 
 tile{
@@ -719,8 +728,8 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "out/b3_prairie",
-  destination = "fairy_fountain_2_A",
+  destination_map = "out/d3_mask_shrine",
+  destination = "cave_d3_fairy_fountain",
 }
 
 destination{

@@ -1872,6 +1872,60 @@ tile{
   pattern = "14793",
 }
 
+tile{
+  layer = 0,
+  x = 528,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "1041",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 32,
+  width = 8,
+  height = 16,
+  pattern = "1060",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "1202",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 32,
+  width = 8,
+  height = 16,
+  pattern = "1061",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "1201",
+}
+
 teletransporter{
   name = "to_d2",
   layer = 0,
@@ -1930,5 +1984,74 @@ separator{
   y = 184,
   width = 960,
   height = 16,
+}
+
+destination{
+  name = "cave_d3_fairy_fountain",
+  layer = 0,
+  x = 656,
+  y = 61,
+  direction = 3,
+}
+
+destination{
+  name = "cave_d3_shell_cave",
+  layer = 0,
+  x = 536,
+  y = 557,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 528,
+  y = 528,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mask_shrine/cave_2",
+  destination = "hole",
+}
+
+teletransporter{
+  layer = 0,
+  x = 648,
+  y = 32,
+  width = 16,
+  height = 16,
+  destination_map = "caves/mask_shrine/fairy_fountain",
+  destination = "fairy_fountain_1_B",
+}
+
+dynamic_tile{
+  name = "weak_door_1_open_1",
+  layer = 0,
+  x = 640,
+  y = 24,
+  pattern = "1062",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed",
+  layer = 0,
+  x = 640,
+  y = 32,
+  pattern = "957",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_door_1",
+  layer = 0,
+  x = 648,
+  y = 32,
+  direction = 0,
+  sprite = "entities/doors/door_weak_wall_out",
+  savegame_variable = "b3_prairie_weak_1",
+  opening_method = "explosion",
 }
 
