@@ -448,6 +448,8 @@ sprite{ id = "hero/diving", description = "Diving" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
+sprite{ id = "hero/link_happy", description = "Link happy" }
+sprite{ id = "hero/link_sad", description = "Link sad" }
 sprite{ id = "hero/shield2", description = "Hero shield 2" }
 sprite{ id = "hero/shield3", description = "Hero shield 3" }
 sprite{ id = "hero/shield_1_above", description = "Hero shield 1" }
