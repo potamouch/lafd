@@ -538,6 +538,138 @@ destination{
   direction = -1,
 }
 
+custom_entity{
+  name = "cave_rock_1",
+  layer = 0,
+  x = 136,
+  y = 101,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_2",
+  layer = 0,
+  x = 152,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_3",
+  layer = 0,
+  x = 168,
+  y = 101,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_4",
+  layer = 0,
+  x = 152,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_5",
+  layer = 0,
+  x = 184,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_6",
+  layer = 0,
+  x = 208,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_7",
+  layer = 0,
+  x = 96,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_8",
+  layer = 0,
+  x = 128,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_9",
+  layer = 0,
+  x = 160,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_10",
+  layer = 0,
+  x = 184,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_11",
+  layer = 0,
+  x = 200,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
+custom_entity{
+  name = "cave_rock_12",
+  layer = 0,
+  x = 120,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cave_rock",
+}
+
 tile{
   layer = 1,
   x = 256,
